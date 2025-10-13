@@ -1,0 +1,12 @@
+curl_cffi
+aiohttp
+aiohttp_socks
+auth
+Flask[async]
+g4f
+Werkzeug>=3.0.3
+aiohttp_socks
+nodriver
+python-multipart
+uvicorn
+fastapi
