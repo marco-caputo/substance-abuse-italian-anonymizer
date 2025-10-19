@@ -1,5 +1,14 @@
+SEED_SAMPLES = [           # Files to use as seed examples
+    {
+        "filename": 'seed_diaries.json',
+        "description": "clinical diary note",
+        "n_outputs": 2},
+    {
+        "filename": 'seed_reports.json',
+        "description": "therapy report",
+        "n_outputs": 2}
+]
 N_PER_OUTPUT = 5            # Number of samples to generate per model output
-
 ENTITIES = [                # Possible NER labels
     "PATIENT_NAME",
     "AGE",
@@ -8,7 +17,6 @@ ENTITIES = [                # Possible NER labels
     "LOCATION",
     "DURATION"
 ]
-
 SYSTEM_PROMPT = """
 You generate realistic synthetic Italian therapy reports for patients in substance abuse treatment.
 Each report is NER-labeled and returned strictly in JSON format.

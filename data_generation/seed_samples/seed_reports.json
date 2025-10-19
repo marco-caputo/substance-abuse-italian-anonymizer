@@ -1,0 +1,14 @@
+[
+    {
+        "text": "Aa testimoniato l'uso giornaliero di cocaina.",
+        "entities": [
+            {"text": "cocaina", "label": "SUBSTANCE"}
+        ]
+    },
+    {
+        "text": "Ha testimoniato che il suo ultimo episodio d'uso di eroina è avvenuto due mesi fa.",
+        "entities": [
+            {"text": "eroina", "label": "SUBSTANCE"}
+        ]
+    }
+]
