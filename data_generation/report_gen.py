@@ -2,7 +2,6 @@ import json
 import os
 import re
 import requests
-import contextlib
 
 from json_conversions import extract_clean_json, to_spacy_format
 from gen_config import SYSTEM_PROMPT, ENTITIES, N_PER_OUTPUT, SEED_SAMPLES
@@ -48,8 +47,10 @@ if __name__ == "__main__":
         {examples_text}\n
         Now generate {N_PER_OUTPUT} new {samples_file['description']} samples about patients in substance abuse treatment. 
         Ensure each example resembles a realistic {samples_file['description']} in italian as those provided above,
-        and don't be afraid to vary the style, content and length of the reports.
-        Possible entities to be included are {", ".join(ENTITIES)}.
+        but don't be afraid to vary the style, content and length of the reports.
+        Possible entities that can be included are:\n 
+        {"\n".join([f"- {e["label"]}: {e["desc"]}" for e in ENTITIES])}\n
+        {samples_file.get('additional_instructions', '')}
         """
 
         for i in range(samples_file['n_outputs']):

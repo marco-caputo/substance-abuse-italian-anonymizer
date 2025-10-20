@@ -35,16 +35,22 @@ def to_spacy_format(example):
     """
     Converts a single json example with "text" and "entities" fields into spaCy's training format.
     Each of the entities of the input example is a dict with "text" and "label" keys.
+    Note that entities must be in order, and multiple occurrences of the same entity text are handled by finding their positions in the text and
+    considering the next occurrences for each listed entity with identical text.
 
     :param example: A dict with "text" and "entities" keys.
     :return: A tuple (text, {"entities": [(start, end, label), ...]})
     """
     text = example["text"]
     entities = []
+    end = 0
     for ent in example["entities"]:
-        start = text.find(ent["text"])
+        start = text[end:].find(ent["text"])
         if start == -1:
-            continue  # skip if substring not found
+            start = text.find(ent["text"])  # try from beginning
+            # skip all already found occurrences or substrings of found entities
+            if start == -1 or [True for s, e, l in entities if s >= start and e == start + len(ent["text"])]:
+                continue  # skip if a new substring is not found
         end = start + len(ent["text"])
         entities.append((start, end, ent["label"]))
     return (text, {"entities": entities})
