@@ -1,0 +1,50 @@
+[
+  {
+        "text": "Richiedente sedazione, ma si lascia motivare a ridurre lievemente BDZ per limitare il rischio di abuso. Nega craving per alcol, gli accordo sospensione Campral.",
+        "entities": [
+          {"text": "sedazione", "label": "TREATMENT"},
+          {"text": "BDZ", "label": "MEDICINE"},
+          {"text": "craving", "label": "SYMPTOM"},
+          {"text": "alcol", "label": "SUBSTANCE"},
+          {"text": "Campral", "label": "MEDICINE"}
+        ]
+  },
+  {
+        "text": "Più motivato a ridurre BDZ. Chiede (e gli accordo) anche sospensione Benerva, dopo comunque ciclo tempisticamente adeguato.",
+        "entities": [
+          {"text": "BDZ", "label": "MEDICINE"},
+          {"text": "Benerva", "label": "MEDICINE"}
+        ]
+  },
+  {
+        "text": "Non segni d'acuzie clinica e benessere soggettivo accettabile, salvo qualche difficoltà dovuta sintomi di rimbalzo. Concordiamo allora scalaggio tramite switch da lorazepam a diazepam.",
+        "entities": [
+            {"text": "segni d'acuzie clinica", "label": "SYMPTOM"},
+            {"text": "benessere soggettivo accettabile", "label": "HEALTH_STATUS"},
+            {"text": "sintomi di rimbalzo", "label": "SYMPTOM"},
+            {"text": "lorazepam", "label": "MEDICINE"},
+            {"text": "diazepam", "label": "MEDICINE"}
+        ]
+  },
+  {
+        "text": "Persiste mentalità volta all'evitamento di fatica, responsabilità e sfide in generale. Gli esplicito questa impressione cercando di motivarlo a intraprendere almeno sfide alla sua portata, come gradualmente ridurre BDZ da settimana prossima.",
+        "entities": [
+            {"text": "BDZ", "label": "MEDICINE"}
+        ]
+  },
+  {
+        "text": "Non sintomi d'acuzie, atteggiamento più attivo. Può ridurre BDZ.",
+        "entities": [
+            {"text": "sintomi d'acuzie", "label": "SYMPTOM"},
+            {"text": "BDZ", "label": "MEDICINE"}
+        ]
+  },
+  {
+        "text": "Più disposto a tollerare qualche discomfort notturno, migliore coinvolgimento nel percorso e riduzione dello stress proveniente dalla situazione del figlio. Può proseguire riduzione BDZ.",
+        "entities": [
+            {"text": "discomfort notturno", "label": "SYMPTOM"},
+            {"text":  "stress", "label": "SYMPTOM"},
+            {"text": "BDZ", "label": "MEDICINE"}
+        ]
+  },
+]
