@@ -1,0 +1,80 @@
+﻿[
+    {
+        "text": "Vorrebbe chiamare il figlio, non sa cosa dirgli. La figlia in Germania non sa niente, mentre Giorgio il figlio sa che sta qui. Ha chiesto consiglio su come approcciarsi al figlio.",
+        "entities": [
+            {"text": "Germania", "label": "LOCATION"},
+            {"text": "Giorgio", "label": "PER"}
+        ]
+    },
+    {
+        "text": "Da vedere che programma proporre. Dice che la realtà fuori da solo non riesce ad affrontarla, dura poco e poi ricade. Non prende mai posizione durante le dinamiche interne del gruppo, rimane in disparte. L'unica volta è stata per la questione del telefono, forse un piccolo passo. Soffre molto la solitudine. mette in atto sempre le stesse cosa (resindence, minias, comunità) non riesce a spezzare questo ciclo. Responsabilità camomilla: prepara la camomilla una volta finita la cucina, riempie le borracce. Chi non lascia la borraccia non prende la camomilla.\n",
+        "entities": [
+            {"text": "minias", "label": "MEDICINE"}
+        ]
+    },
+    {
+        "text": "Giovedì ha colloquio in remoto con il Sert per la progettualità del suo percorso.",
+        "entities": [
+          {"text": "Sert", "label": "ORG"}
+        ]
+    },
+    {
+        "text": "Venerdì incontro con il Sert di Ascoli e Sert vecchio.",
+        "entities": [
+            {"text": "Sert di Ascoli", "label": "ORG"},
+            {"text": "Sert", "label": "ORG"}
+        ]
+    },
+    {
+        "text": "Fatto incontro con i due Sert. le Dottoresse dei due Sert si sono accese tra di loro. Sert di Ascoli lamenta il fatto che il Sert di Fossombrone ora non dà aiuto, ma giustamente Vincenzo avendo residenza qui in Ascoli loro non possono seguirlo più. Il Sert di Ascoli vuole che Vincenzo venga seguito dalla famiglia, ma la figlia non vuole sentirlo e l'altro figlio non è del tutto affidabile visto che a volte risponde a volte no. Viene proposta una comunità di vita. Se accetta la comunità di vita bene altrimenti si deve prendere la sua responsabilità e sta fuori da solo, cosa che fino ad ora non ha saputo gestire nonostante le varie opportunità avute.",
+        "entities": [
+            {"text": "Sert", "label": "ORG"},
+            {"text": "Sert", "label": "ORG"},
+            {"text": "Sert di Ascoli", "label": "ORG"},
+            {"text": "Sert di Fossombrone", "label": "ORG"},
+            {"text": "Fossombrone", "label": "GPE"},
+            {"text": "Vincenzo", "label": "PATIENT"},
+            {"text": "Sert di Ascoli", "label": "ORG"},
+            {"text": "Ascoli", "label": "GPE"},
+            {"text": "Vincenzo", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "Stiamo cercando una comunità di vita. La scelta sua sarà o comunità di vita o niente, viste tutte le possibilità dategli. Ci sono problemi con la residenza.",
+        "entities": []
+    },
+    {
+        "text": "Bisogna parlare con il Sert per quanto riguarda la comunità di Vita. La Lautari è lavorativa quindi fanno i lavori retribuiti per pagarsi sigarette effetti personali. Un'altra in Toscana dove lui dovrebbe mantenersi da solo, non offrono borse lavoro.",
+        "entities": [
+            {"text": "Sert", "label": "ORG"},
+            {"text": "Lautari", "label": "ORG"},
+            {"text": "Toscana", "label": "GPE"}
+        ]
+    },
+    {
+        "text": "Ha chiamato il diurno per sapere se voleva vendere la macchina. Abbiamo chiamato il figlio e lui non la vuole vendere visto che è sua anche se sta a nome di Vincenzo, ma bisogna fare il passaggio a lui. Ci dice che lui si è licenziato o lo hanno licenziato e che gli hanno ritirato la patente perchè si è rifiutato di fare il test dell'alcol. Ci dobbiamo mettere d'accordo per quando verrà con un suo amico per prendere la macchina. Abbiamo sentito la Renda che ci farà la relazione e la manderemo a mondo x e La Lautari. In un gruppo lui dice che voleva più una comunità terapeutica, gli si rimanda che ora quello chegli viene proposto accetta, altrimenti se ne va per la sua strada.",
+        "entities": [
+            {"text": "Vincenzo", "label": "PATIENT"},
+            {"text": "alcol", "label": "SUBSTANCE"},
+            {"text": "Renda", "label": "PER"},
+            {"text": "mondo x", "label": "ORG"},
+            {"text": "La Lautari", "label": "ORG"}
+        ]
+    },
+    {
+        "text": "Fatto colloquio con la Lautari, lui ha parlato solo dei suoi problemi fisici tanto che la responsabile della comunità gli ha detto che allora questa comunità non è per lui visto che è lavorativa. C'è una comunità all'Aquila ma non accetta sigarette, quindi lui non vuole andare. Il Sert non paga la retta visto gli anni che gli hanno dedicato. Lui in comunità di vita non ci vuole andare, qui più di tanto non può rimanere, la scelta è sua. Anche il gruppo gli ha rimandato che è meglio andare in comunità di vita piuttosto che fuori, lui non è d'accordo. Abbiamo chiamato il cognato, lui ci ha detto che gli sta nascendo un'altra figlia e non riesce ad aiutalo a trovare un'appartamento. Dobbiamo riparlare con il Sert di Fossombrone per vedere se è possibile trovare una soluzione alternativa, mettendo in conto che la ricaduta è molto probabile.",
+        "entities": [
+            {"text": "Lautari", "label": "ORG"},
+            {"text": "Aquila", "label": "GPE"},
+            {"text": "Sert", "label": "ORG"},
+            {"text": "Sert di Fossombrone", "label": "ORG"},
+            {"text": "Fossombrone", "label": "GPE"}
+        ]
+    },
+    {
+        "text": "Stiamo vedendo una sistemazione per un primo periodo di reinserimento sul territorio di Porto d'Ascoli dal mese di Aprile.",
+        "entities": [
+            {"text": "Porto d'Ascoli", "label": "LOC"}
+        ]
+    }
+]
