@@ -46,5 +46,5 @@
             {"text":  "stress", "label": "SYMPTOM"},
             {"text": "BDZ", "label": "MEDICINE"}
         ]
-  },
+  }
 ]

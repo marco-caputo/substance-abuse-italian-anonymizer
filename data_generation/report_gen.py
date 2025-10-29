@@ -3,18 +3,15 @@ import os
 import re
 import requests
 import logging
+import random
 
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 from json_conversions import extract_clean_json, to_spacy_format
-from gen_config import SYSTEM_PROMPT, ENTITIES, N_PER_OUTPUT, SEED_SAMPLES
+from gen_config import SYSTEM_PROMPT, ENTITIES, N_PER_OUTPUT, SEED_SAMPLES, N_EXAMPLES_PER_PROMPT
 
 def save_spacy_data(f_name:str, data_spacy):
-    # Build new filename
-    match = re.search(r"seed_(.+)\.json", f_name)
-    if not match:
-        raise ValueError(f"Filename '{f_name}' does not match pattern 'seed_XXX.json'")
-    new_filename = f"synthetic_samples/synthetic_{match.group(1)}.json"
+    new_filename = f"synthetic_samples/{f_name}.json"
 
     # If file exists, load existing data
     if os.path.exists(new_filename):
@@ -38,29 +35,32 @@ def save_spacy_data(f_name:str, data_spacy):
 
 if __name__ == "__main__":
     for samples_file in SEED_SAMPLES:
-        with open(f'seed_samples/{samples_file['filename']}', 'r') as file:
+        print(f'seed_samples/train/seed_{samples_file['filename']}_train.json')
+        with open(f"seed_samples/train/seed_{samples_file['filename']}_train.json", 'r', encoding="utf-8-sig") as file:
             seed_examples = json.load(file)
 
         # Build the few-shot prompt
         examples_text = json.dumps(seed_examples, indent=2)
 
-        prompt = f"""
-        {SYSTEM_PROMPT}\n
-        For instance, this is what you should answer when receiving a request for {len(seed_examples)} samples:\n
-        {examples_text}\n
-        Now generate {N_PER_OUTPUT} new {samples_file['description']} samples about patients in substance abuse treatment. 
-        Ensure each example resembles a realistic {samples_file['description']} in italian as those provided above,
-        but don't be afraid to vary the style, content and length of the reports.
-        Possible entities that can be included are:\n 
-        {"\n".join([f"- {e["label"]}: {e["desc"]}" for e in ENTITIES])}\n
-        {samples_file.get('additional_instructions', '')}
-        """
 
         for i in range(samples_file['n_outputs']):
+            # Select a random subset of examples
+            current_examples_text = json.dumps(random.sample(seed_examples, min(len(seed_examples), N_EXAMPLES_PER_PROMPT)), indent=2)
+            prompt = f"""
+                    {SYSTEM_PROMPT}\n
+                    For instance, this is what you should answer when receiving a request for {len(seed_examples)} samples:\n
+                    {current_examples_text}\n
+                    Now generate {N_PER_OUTPUT} new {samples_file['description']} samples about patients in substance abuse treatment. 
+                    Ensure each example resembles a realistic {samples_file['description']} in italian as those provided above,
+                    but don't be afraid to vary the style, content and length of the reports.
+                    Possible entities that can be included are:\n 
+                    {"\n".join([f"- {e["label"]}: {e["desc"]}" for e in ENTITIES])}\n
+                    {samples_file.get('additional_instructions', '')}
+                    """
             # Generate synthetic examples
             resp = requests.get("http://127.0.0.1:5500/", params={"text": prompt})
             data = extract_clean_json(resp.text)
             spacy_data = [to_spacy_format(ex) for ex in data]  # handle "examples" wrapper or list
-            filename = save_spacy_data(samples_file['filename'], spacy_data)
+            filename = save_spacy_data(f"synthetic_{samples_file['filename']}_train", spacy_data)
             print(f"Generation {i+1}/{samples_file['n_outputs']} from {samples_file['filename']} - "
                   f"{len(spacy_data)} synthetic examples saved in {filename}")
