@@ -2,15 +2,18 @@ import json
 import os
 import re
 import requests
+import logging
+
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 from json_conversions import extract_clean_json, to_spacy_format
 from gen_config import SYSTEM_PROMPT, ENTITIES, N_PER_OUTPUT, SEED_SAMPLES
 
-def save_spacy_data(filename:str, spacy_data):
+def save_spacy_data(f_name:str, data_spacy):
     # Build new filename
-    match = re.search(r"seed_(.+)\.json", filename)
+    match = re.search(r"seed_(.+)\.json", f_name)
     if not match:
-        raise ValueError(f"Filename '{filename}' does not match pattern 'seed_XXX.json'")
+        raise ValueError(f"Filename '{f_name}' does not match pattern 'seed_XXX.json'")
     new_filename = f"synthetic_samples/synthetic_{match.group(1)}.json"
 
     # If file exists, load existing data
@@ -24,7 +27,7 @@ def save_spacy_data(filename:str, spacy_data):
         existing_data = []
 
     # Append new samples
-    existing_data.extend(spacy_data)
+    existing_data.extend(data_spacy)
 
     # Save updated data back to the file
     with open(new_filename, "w", encoding="utf-8") as f:

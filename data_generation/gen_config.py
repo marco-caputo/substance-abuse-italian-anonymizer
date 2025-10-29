@@ -5,7 +5,9 @@ SEED_SAMPLES = [           # Files to use as seed examples
         "additional_instructions": "Please, make sure to use a variety of specific entities in the in the generated "
                                    "samples (e.g. psychiatric symptoms, disorders, medicines, treatments...). "
                                    "Feel free to add new terms that are not present in the given examples, given "
-                                   "they remain plausible for the context of a substance abuse treatment facility.",
+                                   "they remain plausible for the context of a substance abuse treatment facility."
+                                   "Please, do NOT include any of the provided examples above, and make sure to produce"
+                                   "samples that are very different from the given ones and from each other.",
         "n_outputs": 2
     },
     {
