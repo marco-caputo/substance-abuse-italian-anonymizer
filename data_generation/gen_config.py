@@ -34,7 +34,7 @@ ENTITIES = [                # Possible NER labels
     {"label": "ORG",            "desc": "Specific organization (e.g. 'SerT di Milano', 'ASL', 'Comunità terapeutica')"},
     {"label": "GPE",            "desc": "Specific geo-political locations (e.g. 'Germania', 'Marche', 'Milano')"},
     {"label": "LOC",            "desc": "Specific non-GPE physical locations or areas (e.g. 'Bar dello Sport', 'via Roma')"},
-    {"label": "MISC",           "desc": "Miscellaneous entities, including events, nationalities, products or works of art (e.g. 'messicano', 'X-Factor')"},
+    {"label": "MISC",           "desc": "Miscellaneous entities, including events, nationalities, products or works of art (e.g. 'Sagra della porchetta', 'messicano', 'X-Factor')"},
     {"label": "SUBSTANCE",      "desc": "Specific substance of abuse (e.g. 'oppioidi', 'cocaina', 'metadone')"},
     {"label": "SYMPTOM",        "desc": "Specific symptom or sign (e.g. 'ansia', 'insonnia', 'dolore addominale')"},
     {"label": "MEDICINE",       "desc": "Specific pharmacological substance (e.g. 'metadone', 'diazepam')"},
