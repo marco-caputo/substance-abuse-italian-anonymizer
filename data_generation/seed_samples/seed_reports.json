@@ -1,0 +1,40 @@
+[
+    {
+      "text": "RELAZIONE AI SERVIZI\nIl sig. Emanuele D'Agostini nato il 23/01/1995 ad Pesaro (PU), residente a Serra De' Conti (AN) in Via delle Vigne, 4, ha fatto ingresso in data 23-01-2024 presso COMUNITÀ TERAPEUTICA \"CASA AQUILONE\" per intraprendere un programma DOPPIA DIAGNOSI RESIDENZIALE.\nANDAMENTO GENERALE\nAllo stato attuale E. appare adeguatamente compensato ed il tono dell'umore é in asse. Il ragazzo ad oggi svolge con impegno e costanza le attività ergoterapiche quotidiane e porta avanti le proprie responsabilità nonostante, permanga una motivazione al programma terapeutico parzialmente estrinseca. Ancora oggi, il ragazzo pur assumendo la terapia come da prescrizione dello psichiatria della struttura, non ha una completa consapevolezza della propria condizione, sia in merito alla psicopatologia che in merito alla propria condizione tossicomanica, né ha introiettato la necessità rispetto all'assunzione della terapia. Permane, difatti, nel ragazzo la volontà di interrompere l'assunzione della terapia al termine del programma terapeutico riabilitativo in quanto egli associa - a causa della scarsa consapevolezza e degli obiettivi ancora basici del progetto terapeutico - il benessere psico-fisico alla necessità di essere scevro da ogni tipologia di terapia farmacologica. E. partecipa, ad ogni modo, ai gruppi terapeutici a cadenza settimanale e accede ai colloqui individuali con la case manager, nonostante, spesso, lo stesso necessiti di essere spronato e mostri diverse difficoltà ad affrontare particolari vissuti emotivi, oltreché emergano diverse difficoltà in merito alla verbalizzazione di una richiesta di aiuto funzionale.",
+        "entities": [
+            {"text": "sig. Emanuele D'Agostini", "label": "PATIENT"},
+            {"text": "23/01/1995", "label": "DATE"},
+            {"text": "Pesaro", "label": "GPE"},
+            {"text": "PU", "label": "GPE"},
+            {"text": "Serra De' Conti", "label": "GPE"},
+            {"text": "AN", "label": "GPE"},
+            {"text": "Via delle Vigne, 4", "label": "ADDRESS"},
+            {"text": "23-01-2024", "label": "DATE"},
+            {"text": "COMUNITÀ TERAPEUTICA \"CASA AQUILONE\"", "label": "ORG"},
+            {"text": "DOPPIA DIAGNOSI RESIDENZIALE", "label": "TREATMENT"}
+        ]
+    },
+    {
+        "text": "MONITORAGGIO PTI\nIl sig. Edoardo Costantini nato il 13/12/2001 a Porto Santo Stefano (GR), residente a Pescia Romana (VT) in Corso Caeroli, 15, ha fatto ingresso in data 10-05-2022 presso la cooperativa sociale \"L'Imprevisto\" per intraprendere un programma Terapeutico-Residenziale per Tossicodipendenze.\nAMBIENTE FAMILIARE\nContinuano gli incontri famiglia a cadenza mensile in struttura in presenza della coppia genitoriale e dei fratelli del sig. Costantini. Il lavoro continua ad essere strutturato e condotto su tutto il sistema familiare, ancora ad oggi, caratterizzato da “non detti” che inducono tutti i membri, che presentano diverse difficoltà in merito ad una comunicazione assertiva e chiara, a mettere in atto modalità relazionali disfunzionali. I genitori, difatti, mostrano ancora oggi alcune criticità nella gestione del sig. Costantini ed, in alcuni frangenti, hanno paura delle reazioni del ragazzo a causa di diverse situazioni occorse in passato, nelle quali il figlio Gianpiero ha avuto reazioni esplosive. Per tale ragione la coppia genitoriale si mostra spesso ambivalente e non sufficientemente chiara con l'ospite (sia in relazione a comunicazioni da dargli che in relazione ad eventi da riferirgli), dando continuità alle modalità già utilizzate in passato - prima dell'ingresso in struttura - e , involontariamente, incrementando il nervosismo e la diffidenza dello stesso nei loro confronti, evitandogli di sperimentare esperienze emotive correttive. Il ragazzo ad oggi mantiene costanti contatti telefonici a cadenza settimanale (previsti dalle regole della struttura) con la famiglia, nonostante abbia mostrato, sin da subito, diverse difficoltà di comunicazione con la stessa soprattutto in relazione ad una verbalizzazione assertiva dei propri vissuti e dei propri stati d'animo. Si continua a svolgere, sia a livello individuale nei colloqui con il case manager, che con la famiglia Costantini all'interno degli incontri famiglia, una lenta e graduale psico educazione relativa alla problematica psichiatrica del ragazzo e alla dipendenza patologica da sostanze stupefacenti. L’ospite, infatti, vive ancora oggi la comunità passivamente e tende, talvolta, ad attribuire la responsabilità della propria condizione agli altri (come ad esempio alla famiglia a causa della denuncia subita), senza avere una chiara e piena consapevolezza di quanto ciò che ha compiuto, abbia avuto - e abbia ancora oggi - delle conseguenze e ripercussioni sulla propria vita.\n",
+
+        "entities": [
+            {"text": "sig. Edoardo Costantini", "label": "PATIENT"},
+            {"text": "13/12/2001", "label": "DATE"},
+            {"text": "Porto Santo Stefano", "label": "GPE"},
+            {"text": "GR", "label": "GPE"},
+            {"text": "Pescia Romana", "label": "GPE"},
+            {"text": "VT", "label": "GPE"},
+            {"text": "Corso Caeroli, 15", "label": "ADDRESS"},
+            {"text": "10-05-2022", "label": "DATE"},
+            {"text": "cooperativa sociale \"L'Imprevisto\"", "label": "ORG"},
+            {"text": "Terapeutico-Residenziale per Tossicodipendenze", "label": "TREATMENT"},
+            {"text": "sig. Costantini", "label": "PATIENT"},
+            {"text": "Gianpiero", "label": "PER"},
+            {"text": "Costantini", "label": "PER"}
+        ]
+    },
+    { "COMUNITÀ TERAPEUTICA EDUCATIVA MASCHILE \"CASA AQUILONE\""
+            "CASA DI REINSERIMENTO"
+
+    }
+]

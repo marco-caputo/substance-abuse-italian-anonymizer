@@ -48,7 +48,7 @@ def main():
     first_prompt = prompts[0]
     first_prompt = first_prompt
     # print first prompt, remove newlines for better readability
-    #send_prompt(prompts[0], SEED_SAMPLES[2])
+    send_prompt(prompts[0], SEED_SAMPLES[2])
     #print(prompts[0])
 
 
