@@ -1,19 +1,19 @@
 ﻿import pandas as pd
-from diaries_config import SEED_PATH, NUMBER_OF_ROWS, SYSTEM_PROMPT, SEED_SAMPLE
+from diaries_config import SEED_PATH, SYSTEM_PROMPT, SEED_SAMPLE
 from config import ENTITIES, SEED_SAMPLES
 from report_gen import send_prompt
 
 
 def extract_chunks(dataframe):
     """
-    Extracts chunks of the first column from the dataframe, each chunk containing NUMBER_OF_ROWS rows.
+    Extracts chunks of the first column from the dataframe, each chunk containing SEED_SAMPLES['n_outputs'] rows.
     Returns a list of lists, where each inner list is a chunk of rows.
     :param dataframe: pandas DataFrame with at least one column.
-    :return: List of chunks of rows from the dataset, all max length of NUMBER_OF_ROWS.
+    :return: List of chunks of rows from the dataset, all max length of SEED_SAMPLES['n_outputs'].
     """
     chunks = []
-    for start in range(0, len(dataframe), NUMBER_OF_ROWS):
-        first_col_chunk = dataframe.iloc[start:start + NUMBER_OF_ROWS, 0]
+    for start in range(0, len(dataframe), SEED_SAMPLES['n_outputs']):
+        first_col_chunk = dataframe.iloc[start:start + SEED_SAMPLES['n_outputs'], 0]
         chunk_list = list(first_col_chunk)
         chunks.append(chunk_list)
     return chunks
