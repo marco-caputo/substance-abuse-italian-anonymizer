@@ -1,6 +1,5 @@
 import json
 import os
-import re
 import requests
 import logging
 import random
@@ -42,7 +41,7 @@ if __name__ == "__main__":
         # Build the few-shot prompt
         examples_text = json.dumps(seed_examples, indent=2)
 
-
+        # Generate train data
         for i in range(samples_file['n_outputs']):
             # Select a random subset of examples
             current_examples_text = json.dumps(random.sample(seed_examples, min(len(seed_examples), N_EXAMPLES_PER_PROMPT)), indent=2)
@@ -51,7 +50,7 @@ if __name__ == "__main__":
                     For instance, this is what you should answer when receiving a request for {len(seed_examples)} samples:\n
                     {current_examples_text}\n
                     Now generate {N_PER_OUTPUT} new {samples_file['description']} samples about patients in substance abuse treatment. 
-                    Ensure each example resembles a realistic {samples_file['description']} in italian as those provided above,
+                    Ensure each example resembles a realistic {samples_file['description']} in Italian as those provided above,
                     but don't be afraid to vary the style, content and length of the reports.
                     Possible entities that can be included are:\n 
                     {"\n".join([f"- {e["label"]}: {e["desc"]}" for e in ENTITIES])}\n
@@ -64,3 +63,13 @@ if __name__ == "__main__":
             filename = save_spacy_data(f"synthetic_{samples_file['filename']}_train", spacy_data)
             print(f"Generation {i+1}/{samples_file['n_outputs']} from {samples_file['filename']} - "
                   f"{len(spacy_data)} synthetic examples saved in {filename}")
+
+        # Generate test data
+        for samples_dict in SEED_SAMPLES:
+            with open(f"seed_samples/test/seed_{samples_dict['filename']}_test.json", 'r', encoding="utf-8-sig") as file:
+                seed_test_examples = json.load(file)
+
+            spacy_test_data = [to_spacy_format(ex) for ex in seed_test_examples]
+            test_filename = save_spacy_data(f"seed_{samples_dict['filename']}_test", spacy_test_data)
+            print(f"Test data from {samples_dict['filename']} - "
+                  f"{len(spacy_test_data)} examples saved in {test_filename}")

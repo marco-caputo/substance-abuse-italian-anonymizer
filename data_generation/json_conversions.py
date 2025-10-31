@@ -19,7 +19,8 @@ def extract_clean_json(text: str):
     # 2. Extract the first JSON object ({...}) or array ([...])
     json_match = re.search(r"(\{[\s\S]*\}|\[[\s\S]*\])", cleaned)
     if not json_match:
-        raise ValueError("No JSON object or array found in the text.")
+        print("No JSON object or array found in the text. Full text:\ntext")
+        return []
 
     json_str = json_match.group(1).strip()
 
@@ -28,29 +29,44 @@ def extract_clean_json(text: str):
         return json.loads(json_str)
     except json.JSONDecodeError as e:
         # 4. Raise a clearer error if JSON is malformed
-        raise ValueError(f"Invalid JSON structure: {e}\nExtracted string:\n{json_str}")
+        print(f"Invalid JSON structure: {e}\nExtracted string:\n{json_str}")
+        return []
 
-# Convert to spaCy training format
-def to_spacy_format(example):
+
+def to_spacy_format(example: dict):
     """
-    Converts a single json example with "text" and "entities" fields into spaCy's training format.
-    Each of the entities of the input example is a dict with "text" and "label" keys.
-    Note that entities must be in order, and multiple occurrences of the same entity text are handled by finding their positions in the text and
-    considering the next occurrences for each listed entity with identical text.
+    Converts a JSON example with "text" and "entities" fields into spaCy's training format.
+    Each entity is a dict with "text" and "label".
+    Finds all occurrences of each entity text (non-overlapping, whole-word matches).
 
-    :param example: A dict with "text" and "entities" keys.
-    :return: A tuple (text, {"entities": [(start, end, label), ...]})
+    Returns: (text, {"entities": [(start, end, label), ...]})
     """
     text = example["text"]
     entities = []
-    end = 0
+
+    # Handle accented letters properly
+    LETTERS = r"A-Za-zÀ-ÖØ-öø-ÿ"
+
+    def overlaps(a_start, a_end, b_start, b_end):
+        return not (a_end <= b_start or a_start >= b_end)
+
     for ent in example["entities"]:
-        start = text[end:].find(ent["text"])
-        if start == -1:
-            start = text.find(ent["text"])  # try from beginning
-            # skip all already found occurrences or substrings of found entities
-            if start == -1 or [True for s, e, l in entities if s >= start and e == start + len(ent["text"])]:
-                continue  # skip if a new substring is not found
-        end = start + len(ent["text"])
-        entities.append((start, end, ent["label"]))
+        ent_text = ent["text"]
+        label = ent["label"]
+
+        # Regex pattern: match entity as a standalone word (not inside another)
+        pattern = rf"(?<![{LETTERS}]){re.escape(ent_text)}(?![{LETTERS}])"
+
+        for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+            start, end = match.start(), match.end()
+
+            # Skip overlapping matches
+            if any(overlaps(s, e, start, end) for s, e, _ in entities):
+                continue
+
+            entities.append((start, end, label))
+
+    # Sort by start position
+    entities.sort(key=lambda x: x[0])
+
     return (text, {"entities": entities})
