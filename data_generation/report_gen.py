@@ -6,8 +6,8 @@ import random
 
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
-from json_conversions import extract_clean_json, to_spacy_format
-from gen_config import SYSTEM_PROMPT, ENTITIES, N_PER_OUTPUT, SEED_SAMPLES, N_EXAMPLES_PER_PROMPT
+from json_utils import extract_clean_json, to_spacy_format
+from config import SYSTEM_PROMPT, ENTITIES, N_PER_OUTPUT, SEED_SAMPLES, N_EXAMPLES_PER_PROMPT
 
 def save_spacy_data(f_name:str, data_spacy):
     new_filename = f"synthetic_samples/{f_name}.json"

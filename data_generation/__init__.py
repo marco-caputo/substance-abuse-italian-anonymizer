@@ -1,5 +1,5 @@
-from .gen_config import ENTITIES
-from .json_conversions import to_spacy_format
+from .config import ENTITIES
+from .json_utils import to_spacy_format
 
 SYNTHETIC_DATA_DIR = "synthetic_samples"
 SEED_DATA_DIR = "seed_samples"
