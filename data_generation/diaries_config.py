@@ -1,11 +1,58 @@
-﻿from config import  ENTITIES
-NUMBER_OF_SAMPLES_TO_GENERATE = 5
+﻿from config import ENTITIES
 
-SAMPLES = [] # Missing sample insertion.
+NUMBER_OF_SAMPLES_TO_GENERATE = 20
 
-PROMPT = f"""You are tasked with generating synthetic training data for a Named Entity Recognition (NER) system that 
-processes Italian diary entries with medical and personal content.
+SEED_PATH = "seed_samples/translated_data_it.csv"
+NUMBER_OF_ROWS = 20  # Number of rows per chunk of seed data to use to generate samples inserting entities.
 
+SYSTEM_PROMPT = """
+You are tasked with generating synthetic training data for a Named Entity Recognition (NER) system that 
+processes Italian diary entries with medical and personal content. Your task requires you to take existing diaries
+and insert named entities naturally into the text, ensuring that the entries remain coherent and realistic.
+
+Always respond with data samples that follow exactly this format, with no text before or after the JSON:
+
+[
+  {{
+    "text": "full diary",
+    "entities": [
+      {{
+        "text": "string, the entity span from the text",
+        "label": "string, the NER label for this entity"
+      }}
+    ]
+  }}
+]
+
+Ensure correct JSON syntax, no explanations, and no Markdown code fences.
+"""
+
+SEED_SAMPLE = {
+    "filename": "diaries_it.csv",
+    "description": "diary entry in Italian",
+    "additional_instructions": """
+Goal:
+Take the examples listed below and insert named entities into each diary entry while keeping the text coherent, 
+realistic, and idiomatic in Italian. Ensure entities are integrated naturally into the narrative and, most 
+importantly, that the diary entries remain plausible and believable.
+
+Strict requirements:
+1. Vary labels: do not use the same subset of labels in every entry; rotate combinations across samples and 
+within entries. Use 2–5 entities per entry, but vary the count.
+2. Diverse examples: when reusing the same label across different entries, use different concrete examples 
+each time.
+3. Coherence: after inserting entities, the diary text must remain natural and plausible in idiomatic Italian.
+4. Faithful spans: every entity span in "entities" must appear verbatim in the "text" and match exactly the 
+intended mention.
+5. Label semantics: respect label meanings (e.g., PATIENT is the patient’s name/surname; PER are other named 
+people; AGE is an age mention like "42 anni"; DATE are explicit dates/time; GPE vs. LOC as defined).
+6. No extra commentary, headers, or code fences.
+7. JSON correctness: valid JSON with double quotes, no trailing commas, and correct arrays/objects.
+"""
+}
+
+SAMPLES = []  # Missing sample insertion.
+PROMPT = f"""
 Goal:
 Produce exactly {NUMBER_OF_SAMPLES_TO_GENERATE} diverse diary-style samples in Italian that naturally include 
 the entity labels below.
@@ -32,23 +79,7 @@ time.
 AGE is an age mention like "42 anni"; DATE are explicit dates/time; GPE vs. LOC as defined).
 6. No leakage: output only the JSON array with exactly {NUMBER_OF_SAMPLES_TO_GENERATE} items; no extra commentary, headers, or code fences.
 7. JSON correctness: valid JSON with double quotes, no trailing commas, and correct arrays/objects.
-
-Always respond with data samples that follow exactly this format, with no text before or after the JSON:
-
-[
-  {{
-    "text": "full diary of what he did yesterday",
-    "entities": [
-      {{
-        "text": "string, the entity span from the text",
-        "label": "string, the NER label for this entity"
-      }}
-    ]
-  }}
-]
-
-Ensure correct JSON syntax, no explanations, and no Markdown code fences."""
-
+"""
 
 if __name__ == "__main__":
-    print(PROMPT)
+    pass
