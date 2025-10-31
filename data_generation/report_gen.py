@@ -31,6 +31,14 @@ def save_spacy_data(f_name:str, data_spacy):
 
     return new_filename
 
+def send_prompt(p: str, samples_files: dict):
+    resp = requests.get("http://127.0.0.1:5500/", params={"text": p})
+    data = extract_clean_json(resp.text)
+    spacy_data = [to_spacy_format(ex) for ex in data]  # handle "examples" wrapper or list
+    filename = save_spacy_data(f"synthetic_{samples_files['filename']}_train", spacy_data)
+    print(f"Generation /{samples_files['n_outputs']} from {samples_files['filename']} - "
+        f"{len(spacy_data)} synthetic examples saved in {filename}")
+
 
 if __name__ == "__main__":
     for samples_file in SEED_SAMPLES:
@@ -45,6 +53,7 @@ if __name__ == "__main__":
         for i in range(samples_file['n_outputs']):
             # Select a random subset of examples
             current_examples_text = json.dumps(random.sample(seed_examples, min(len(seed_examples), N_EXAMPLES_PER_PROMPT)), indent=2)
+
             prompt = f"""
                     {SYSTEM_PROMPT}\n
                     For instance, this is what you should answer when receiving a request for {len(seed_examples)} samples:\n
@@ -57,12 +66,13 @@ if __name__ == "__main__":
                     {samples_file.get('additional_instructions', '')}
                     """
             # Generate synthetic examples
-            resp = requests.get("http://127.0.0.1:5500/", params={"text": prompt})
-            data = extract_clean_json(resp.text)
-            spacy_data = [to_spacy_format(ex) for ex in data]  # handle "examples" wrapper or list
-            filename = save_spacy_data(f"synthetic_{samples_file['filename']}_train", spacy_data)
-            print(f"Generation {i+1}/{samples_file['n_outputs']} from {samples_file['filename']} - "
-                  f"{len(spacy_data)} synthetic examples saved in {filename}")
+            #resp = requests.get("http://127.0.0.1:5500/", params={"text": prompt})
+            #data = extract_clean_json(resp.text)
+            #spacy_data = [to_spacy_format(ex) for ex in data]  # handle "examples" wrapper or list
+            #filename = save_spacy_data(f"synthetic_{samples_file['filename']}_train", spacy_data)
+            #print(f"Generation {i+1}/{samples_file['n_outputs']} from {samples_file['filename']} - "
+            #      f"{len(spacy_data)} synthetic examples saved in {filename}")
+            send_prompt(prompt, samples_file)
 
         # Generate test data
         for samples_dict in SEED_SAMPLES:
