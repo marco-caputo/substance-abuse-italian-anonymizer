@@ -1,0 +1,184 @@
+[
+  {
+    "text": "Avevo parlato con una persona che pensavo fosse un'amica, ma che alla fine mi ha raccontato delle bugie. L'amicizia si è trasformata rapidamente in una relazione, più che altro da parte loro, e io ho raccontato delle bugie per farmi mandare dei soldi. Alla fine ho deciso di dire loro che volevo riavere la verità e l'onestà, cosa che ora è diventata molto drammatica e richiede tempo. È frustrante perché continuano a fare la vittima nonostante le bugie dette da loro e ogni conversazione gira a vuoto. Pensavo che essere onesti fosse il miglior interesse per entrambi, ma sembra peggiorare le cose. Sono frustrata dal fatto che non vedono le loro azioni sbagliate e a causa del fatto che ho detto la verità continuano a tirare fuori i loro sentimenti feriti e non riconoscono i miei. Ho provato a bloccarli e a smettere di parlare, ma mi è stato detto di cercare di ottenere più soldi da loro, che è ciò che ha fatto andare le cose terribilmente male, ma non si sono nemmeno accorti che non stavano parlando con me. Hanno informazioni personali su di me e continuano a usarle come un'arma contro di me quando tutto ciò che voglio fare è ricominciare come amici, come intendevo fare, o semplicemente smettere di comunicare del tutto.",
+    "entities": []
+  },
+  {
+    "text": "Il lavoro è importante perché mi dà delle sfide nella mia carriera. Le cose che realizzo al lavoro mi danno una sensazione di soddisfazione perché sono in grado di fare il mio lavoro al meglio delle mie capacità. Oggi ho ricevuto una proposta da Humanitas Research Hospital per un progetto sulla salute mentale.",
+    "entities": [
+      {
+        "text": "Humanitas Research Hospital",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Sono andato a letto e ne avevo davvero bisogno, non ho dormito molto la notte precedente. Il dottor Caracciolo mi ha detto che l'insonnia può peggiorare se non seguo una routine regolare.",
+    "entities": [
+      {
+        "text": "Caracciolo",
+        "label": "PER"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      }
+    ]
+  },
+  {
+    "text": "Dio mi dà la vita. Egli è la fonte della mia forza per il giorno. Oggi, durante la messa nella Chiesa di San Lorenzo, ho sentito una pace profonda.",
+    "entities": [
+      {
+        "text": "Chiesa di San Lorenzo",
+        "label": "LOC"
+      }
+    ]
+  },
+  {
+    "text": "Ieri sera per cena abbiamo visitato il nostro ristorante preferito di fish and chips. Il pasto è stato eccezionale perché gli ingredienti sono sempre freschi e cucinati alla perfezione. Siamo andati da Captain's Bay a Livorno, dove il pesce è sempre di ottima qualità.",
+    "entities": [
+      {
+        "text": "Captain's Bay",
+        "label": "ORG"
+      },
+      {
+        "text": "Livorno",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Una delle mie attività preferite della giornata è la passeggiata che faccio di prima mattina con il mio cane Lucy. La mia casa è immersa nell'angolo più a sud di una foresta e ci sono sentieri escursionistici letteralmente ai margini del mio cortile. Abbiamo fatto una lunga passeggiata, annusato gli alberi, goduto della bellezza e adoro guardare il mio prezioso cane correre e godersi la natura. Stamattina siamo andati nel Bosco di San Francesco vicino ad Assisi.",
+    "entities": [
+      {
+        "text": "Lucy",
+        "label": "PER"
+      },
+      {
+        "text": "Bosco di San Francesco",
+        "label": "LOC"
+      },
+      {
+        "text": "Assisi",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Non dormo bene e ora sono incinta di 30 settimane e dormo ancora meno. Ieri ho dormito benissimo e ho dormito molto. Il ginecologo mi ha consigliato di iniziare a prendere il Magnesio Supremo per rilassare i muscoli e migliorare il sonno.",
+    "entities": [
+      {
+        "text": "30 settimane",
+        "label": "AGE"
+      },
+      {
+        "text": "Magnesio Supremo",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Quando sono tornata a casa dal lavoro ho trascorso del tempo con mio marito, Alfio. Ha ordinato una pizza da Pizzeria Da Gino per noi, poi ci siamo coccolati e siamo andati a letto. Mi sono sentita felice di stargli vicino ed è bello condividere una cosa intima (dormire) con qualcuno.",
+    "entities": [
+      {
+        "text": "Alfio",
+        "label": "PER"
+      },
+      {
+        "text": "Pizzeria Da Gino",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Sono andata a letto verso mezzanotte e sapevo che al mattino mi sarei dovuta alzare con la mia bambina, Sofia, che ha 4 anni. Temevo che avrei dormito poco e sarei stata scontrosa, ma lei ha dormito molto più tardi del solito.",
+    "entities": [
+      {
+        "text": "Sofia",
+        "label": "PER"
+      },
+      {
+        "text": "4 anni",
+        "label": "AGE"
+      }
+    ]
+  },
+  {
+    "text": "Ero orgogliosa di me stessa per aver continuato la mia routine quotidiana di esercizi, ma allo stesso tempo mi sentivo annoiata dalla mia musica da allenamento. Mi sentivo un po' frustrata per aver raggiunto un plateau nella perdita di peso e decisi di aggiungere dei pesi diversi alla mia solita routine. Ho anche prenotato una visita con il fisioterapista del Centro Medico San Paolo per valutare la mia postura.",
+    "entities": [
+      {
+        "text": "Centro Medico San Paolo",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Un allenamento al Parco delle Cascine, una cena con gli amici fa la felicità di una ragazza; cosa non c'è da essere felici?! Mi sento energica e in forma, e questo mi dà fiducia in me stessa.",
+    "entities": [
+      {
+        "text": "Parco delle Cascine",
+        "label": "LOC"
+      }
+    ]
+  },
+  {
+    "text": "Il mio legame con Dio, attraverso la preghiera, mi porta pace e mi rende felice di pregare per il benessere degli altri. Oggi ho partecipato alla messa nella Chiesa di San Lorenzo e ho acceso una candela per mia zia Giada, che sta lottando contro il diabete.",
+    "entities": [
+      {
+        "text": "Chiesa di San Lorenzo",
+        "label": "LOC"
+      },
+      {
+        "text": "Giada",
+        "label": "PER"
+      },
+      {
+        "text": "diabete",
+        "label": "DISEASE"
+      }
+    ]
+  },
+  {
+    "text": "Per Halloween ho ricevuto una padella a forma di teschio e mio marito è un nerd sfegatato, quindi la adora. Per cena gli ho fatto una sorpresa preparando una pizza a forma di teschio. È stato piuttosto divertente aprire questi teschi e vedere la carne e il formaggio cadere fuori. Abbiamo anche guardato \"Nightmare Before Christmas\" mentre mangiavamo.",
+    "entities": [
+      {
+        "text": "Halloween",
+        "label": "MISC"
+      },
+      {
+        "text": "Nightmare Before Christmas",
+        "label": "MISC"
+      }
+    ]
+  },
+  {
+    "text": "Ho parlato al telefono con mio fratello che vive in Arizona. Non ci sentiamo spesso, quindi è stato molto bello poterlo aggiornare. Abbiamo parlato di una visita che potrebbe essere imminente. Gli ho detto che stavo cercando di trovare il modo di venire a casa sua la prossima volta. Questo ci ha reso entrambi molto felici. Mi ha anche raccontato che ha fatto un controllo di routine al Banner Health e che sta bene.",
+    "entities": [
+      {
+        "text": "Arizona",
+        "label": "GPE"
+      },
+      {
+        "text": "Banner Health",
+        "label": "ORG"
+      },
+      {
+        "text": "sta bene",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Ho avuto una lunga ma per lo più divertente e frivola conversazione con una donna con cui ho iniziato a uscire. Non sono state discusse questioni importanti e non sono sicuro di averla conosciuta meglio, ma è stato un piacevole diversivo. Abbiamo passeggiato lungo il Naviglio Grande e parlato dei nostri viaggi passati, incluso il suo soggiorno in Giappone.",
+    "entities": [
+      {
+        "text": "Naviglio Grande",
+        "label": "LOC"
+      },
+      {
+        "text": "Giappone",
+        "label": "GPE"
+      }
+    ]
+  }
+]

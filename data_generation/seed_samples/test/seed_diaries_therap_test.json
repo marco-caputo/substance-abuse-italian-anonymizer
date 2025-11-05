@@ -3,7 +3,6 @@
         "text": "fatta riunione con Sert di Ascoli per progettualità. Loro lo hanno visto solo due volte. Si è parlato della sua situazione. E stata ipotizzata una comunità a vita (come San Patrignano) , ma bisogna rimettersi in contatto con il Sert di provenienza precedente Fossombrone. E poi ci riaggiorneremo. Lui dovrebbe ricorciarsi le maniche e lavorare.",
         "entities": [
           {"text": "Sert di Ascoli", "label": "ORG"},
-          {"text": "Ascoli", "label": "ORG"},
           {"text": "San Patrignano", "label": "ORG"},
           {"text": "Sert", "label": "ORG"},
           {"text": "Fossombrone", "label": "LOCATION"}
