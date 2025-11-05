@@ -1,0 +1,249 @@
+import re
+from faker import Faker
+import random
+
+Faker.seed(42)
+random.seed(42)
+faker = Faker('it_IT')
+
+# Common Italian names, surnames, and addresses to be replaced
+common_names_male = r"\b(?:Luca|Marco|Matteo|Andrea|Alessandro)\b"
+common_names_female = r"\b(?:Maria|Carla|Marta|Martina|Giulia|Lucia)\b"
+common_surnames = r"\b(?:Rossi|Verdi|Bianchi|Bellini|Moretti|Rinaldi|Ferraris|Ferrante|Ferrari|Bianchi|Greco|Ferri)\b"
+common_addresses = r"\b(?:Via Roma|Via delle Rose|Via del Giglio|Via dei Gigli|Corso Italia|Piazza Garibaldi|Viale Europa|Largo Augusto)\b"
+replacements_list = [
+        (common_names_male,     lambda: faker.first_name_male()),
+        (common_names_female,   lambda: faker.first_name_female()),
+        (common_surnames,       lambda: faker.last_name()),
+        (common_addresses,      lambda: re.split(r'[,0-9]', faker.street_address())[0].strip())
+]
+
+# Regex pattern to match family members and other non-proper names referring to people in Italian
+wrong_per_pattern = (
+    r"\b(?:"
+    r"dottoressa|dottore|dottor|dott\.ssa|dott\.r|dott\.|dr\.ssa|dr\.|"
+    r"professoressa|professore|professor|prof\.ssoressa|prof\.ssor|prof\.ssa|prof\.sa|prof\.|"
+    r"ingegnere|ingegner|ing\.gnere|ing\.|"
+    r"avvocato|avvocata|avv\.cato|avv\.|"
+    r"sig\.ora|sig\.ina|sig\.or|sig\.ra|sig\.|"
+    r"suor|padre|don"
+    r"madre|mamma|padre|papà|babbo|"
+    r"fratello|sorella|fratelli|sorelle|bambin.|"
+    r"zi.|cugin.|nonn.|figli.|figli|nipot.|"
+    r"familiar.|parent.|genitor.|famigli.|figur.|matern.|patern.|"
+    r"person.|amic.|"
+    r"partner|fidanzat.|compagn.|moglie|marito|coniuge|"
+    r"psicolog.|psichiatr.|medic.|"
+    r"pazient.|terapeut.|infermier.|assistent.|operator.|educator.|tutor|mediator.|mediatrice|responsabil.|"
+    r"dietist.|manager|dentist.|dermatolog.|ginecolog.|pediatr.|cardiolog.|neurolog.|radiolog.|chirurg.|nutrizionista|fisioterapista|direttore|"
+    r"consulent.|counselor|epatolog.|terapist.|"
+    r"team|equipe|"
+    r"dio"
+    r")"
+)
+
+following_name_pattern = (
+    r"(?:\s[a-zà-ÿ'\-]*)*"                 # non-name terms after the wrong PER term
+    r"("                                   # true name starts here
+    r"(?:\s+[A-ZÀ-Ý](?:\.[A-ZÀ-Ý])*\."     # initials like L. or M.T.
+    r"|"                                   # OR
+    r"\s+[A-ZÀ-Ý][a-zà-ÿ'\-]+"             # capitalized word with letters, hyphens, apostrophes
+    r")+)"
+)
+
+wrong_phone_pattern = r"([xX])\1{2,}|([yY])\2{2,}"
+phone_prefix_pattern = r'(tel|fax)\.?:?\s*'
+
+wrong_date_pattern = (
+    r'(?:'
+    r'oggi|domani|ieri|prossim.|scors.|odiern.|ultim.|passat.|nuov.|\sfa|tra\s|fra\s|'
+    r'giorn.|or.|minut.|'
+    r'ser.|mattin.|pomeriggio|notte|mezzogiorno|mezzanotte|'
+    r'weekend|fine\s?(?:settimana|mese)|'
+    r'settimanale|giornalier.|mensil.|annual.|trimestral.|semestral.|'
+    r'trimestre|semestre|bimestre|'
+    r'compleann.|anniversar.|festivit.|festa|vacanz.|vacanze|period.'
+    r')')
+wrong_date_pattern_if_alone = (
+    r'(?:'
+    r'(?:luned.|marted.|mercoled.|gioved.|venerd.|sabato|domenic(?:a|he))(?:\se\s(?:luned.|marted.|mercoled.|gioved.|venerd.|sabato|domenic(?:a|he)))?|'
+    r'gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre|'
+    r'estat.|invern.|primaver.|autunn.|'
+    r'(?:(?:una?|due|tre|quattro|cinque|sei|sette|otto|nove|dieci|undici|dodici)|(?:prim.|second.|terz.|quart.|quint.|sest.|settim.|ottav.|non.|diecim.|undicesim.|dodicesim.)|([1-9][0-9]*))\s(?:ann.|mes.|settiman.)|'
+    r'(?:[0-9][0-9]?(?:\.|:|,|\se\s)[0-9][0-9]?)|'
+    r'[0-9][0-9]?'
+    r')'
+)
+
+wrong_province_codes_pattern = r'\b(?:(?:a|A)l|(?:l|L)(?:e|i|o)|(?:m|M)e|(?:s|S)(?:a|i|o)|(?:t|T)e|(?:v|V)(?:a|i))\b'
+
+email_pattern = r'[a-zA-Z0-9\._%+-]+@[a-zA-Z0-9\.-]+[a-zA-Z]{1,}'
+
+
+def clean_wrong_per(example: dict) -> dict:
+    """
+    Cleans entities labelled as 'PER' and 'PATIENT' from a given example that actually refer to professional and
+    social titles, family members or other non-proper names referring to people.
+    If such an entity is found, it attempts to extract a proper name following the term.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: cleaned list of entity dicts
+    """
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] in {'PER','PATIENT'}:
+            if re.search(wrong_per_pattern, ent['text'], re.IGNORECASE):
+                # Looks for names after the term
+                search = re.search(r"(?i:" + wrong_per_pattern + r")" + following_name_pattern, ent['text'])
+                if search:
+                    ent['text'] = search.group(1).strip()
+                else:
+                    continue
+
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+def clean_phone_numbers(example: dict) -> dict:
+    """
+    Cleans phone numbers when having 'X' instead of digits and removes 'Tel.:' prefix from PHONE entities.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+
+    # Remove 'Tel.:' or 'Fax.:' prefixes from PHONE entities
+    for ent in example['entities']:
+        if ent['label'] == 'PHONE':
+            ent['text'] = re.sub(phone_prefix_pattern, '', ent['text'], flags=re.IGNORECASE).strip()
+
+    # Replaces Xs and Ys in phone numbers with random digits
+    match = re.search(wrong_phone_pattern, example['text'])
+    while match:
+        match_text = match.group(0)
+        random_number = ''.join(random.choice('0123456789') for _ in range(len(match_text)))
+        example['text'] = re.sub(match_text, random_number, example['text'], count=1)
+        for ent in example['entities']:
+            if ent['label'] == 'PHONE' and ent['text'].find(match_text) != -1:
+                ent['text'] = re.sub(match_text, random_number, ent['text'], count=1)
+                break
+        match = re.search(wrong_phone_pattern, example['text'])
+
+    return example
+
+def clean_dates(example: dict) -> dict:
+    """
+    Cleans date entities that do not represent absolute references of dates.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    cleaned_entities = []
+
+    for ent in example['entities']:
+        if ent['label'] == 'DATE':
+            if re.search(wrong_date_pattern, ent['text'], re.IGNORECASE) or \
+                re.fullmatch(wrong_date_pattern_if_alone, ent['text'], re.IGNORECASE):
+                continue
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+
+def clean_province_codes(example: dict) -> dict:
+    """
+    Cleans province code entities that are not encountered as proper province codes but are just two-letter words.
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] == 'PROV':
+            if re.fullmatch(wrong_province_codes_pattern, ent['text']):
+                continue
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+
+def clean_mails_as_names(example: dict) -> dict:
+    """
+    Cleans entities labelled as 'PER' or 'PATIENT' that actually taken from email addresses.
+    """
+    for ent in example['entities']:
+        if ent['label'] in {'PER','PATIENT','PROV','ORG'}:
+            if str.islower(ent['text']):
+                for email in re.findall(email_pattern, example['text']):
+                    if email.find(ent['text']) != -1:
+                        print(ent)
+                        ent['text'] = email
+                        ent['label'] = 'MAIL'
+                        print(ent)
+                        break
+
+    return example
+
+
+
+def clean_common_mistakes(example: dict) -> dict:
+    """
+    Cleans common labelling mistakes from the entities in the example. Common mistakes include:
+    - Mislabelled family members as persons (PER)
+    - Presence of titles in person names (PER)
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    example = clean_wrong_per(example)
+    example = clean_phone_numbers(example)
+    example = clean_dates(example)
+    example = clean_province_codes(example)
+    example = clean_mails_as_names(example)
+    return example
+
+def _replace_common_names_text(text: str) -> tuple[str,list[tuple[str,str]]]:
+    replacements = []
+
+    for common_terms, replacement in replacements_list:
+        match = re.search(common_terms, text)
+        while match:
+            common_term = match.group(0)
+            fake_term = replacement()
+            text = re.sub(rf'\b{re.escape(common_term)}\b', fake_term, text)
+            replacements.append((common_term, fake_term))
+            match = re.search(common_terms, text)
+
+    return text, replacements
+
+def replace_common_names(example: str|dict) -> str|dict:
+    """
+    Replaces very common Italian names and addresses in the given text or example dictionary with randomly generated
+    ones with Faker.
+
+    :param example: either a text string or an example dictionary with "text" and "entities" fields
+    :return: the modified text string or example dictionary
+    """
+    if isinstance(example, str):
+        return _replace_common_names_text(example)[0]
+    elif isinstance(example, dict):
+        example['text'], replacements = _replace_common_names_text(example['text'])
+        for ent in example['entities']:
+            for old, new in replacements:
+                if re.match(rf".*\b{re.escape(old)}\b.*", ent['text']):
+                    ent['text'] = re.sub(rf'\b{re.escape(old)}\b', new, ent['text'])
+        return example
+    else:
+        raise ValueError("Input must be either a string or a dictionary.")
+
+
+if __name__ == '__main__':
+    from utils.json_utils import read_json_file, save_json_file, to_readable_format
+
+    for file_name in ["reports", "diaries_it","diaries_psych","diaries_therap"]:
+        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train.json")
+        data = [clean_mails_as_names(example) for example in data]
+        #data = [replace_common_names(example) for example in data]
+        save_json_file(f"synthetic_samples/synthetic_{file_name}_train.json", data)
