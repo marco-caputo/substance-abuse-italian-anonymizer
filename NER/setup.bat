@@ -13,9 +13,9 @@ SET MODE=%1
 
 REM Choose base config depending on argument
 IF /I "%MODE%"=="gpu" (
-    SET BASECFG=NER/base_config_gpu.cfg
+    SET BASECFG=base_config_gpu.cfg
 ) ELSE (
-    SET BASECFG=NER/base_config_cpu.cfg
+    SET BASECFG=base_config_cpu.cfg
 )
 
 echo ============================================
@@ -23,19 +23,33 @@ echo Training mode: %MODE%
 echo Base config: %BASECFG%
 echo ============================================
 
-REM Step 1: Prepare data
-python NER\\prepare_data.py
+REM Prepare data
+python prepare_data.py
 
-REM Step 2: Fill config
+REM Fill config
 python -m spacy init fill-config %BASECFG% config.cfg
 
-REM Step 3: Debug data
+REM Debug data
 python -m spacy debug data config.cfg
 
-REM Step 4: Train
-python -m spacy train config.cfg --output NER/models/%MODE%
+REM Preliminary evaluation of base model
+echo --------------------------------------------
+echo Evaluating base model BEFORE fine-tuning...
+echo --------------------------------------------
+python -m spacy evaluate it_core_news_lg docbins/test.spacy --output models/%MODE%/pretrain_results.json
+echo Base model evaluation saved to models/%MODE%/pretrain_results.json
 
-REM Step 5: Test
-python -m spacy evaluate NER/models/%MODE%/model-best NER/docbins/test.spacy --output NER/models/%MODE%/model-best/test_results.json
+REM Train
+echo --------------------------------------------
+echo Starting fine-tuning training...
+echo --------------------------------------------
+python -m spacy train config.cfg --output models/%MODE%
+
+REM Evaluate trained model
+echo --------------------------------------------
+echo Evaluating fine-tuned model...
+echo --------------------------------------------
+python -m spacy evaluate models/%MODE%/model-best docbins/test.spacy --output models/%MODE%/model-best/test_results.json
+echo Fine-tuned model evaluation saved to models/%MODE%/model-best/test_results.json
 
 pause
