@@ -1,17 +1,21 @@
+import sys
+from pathlib import Path
 import json
 import re
-
 import random
 from faker import Faker
 
-from data_generation.mistakes_cleaner import clean_common_mistakes
+from mistakes_cleaner import clean_common_mistakes, replace_common_names, clean_wrong_per
 from prompt_sender import send_prompt
+
+# Ensure project root is on sys.path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
 faker = Faker('it_IT')
 
-from utils.json_utils import read_json_file, append_json_data
+from utils import read_json_file, append_json_data
 from config import SYSTEM_PROMPT, ENTITIES, SEED_SAMPLES, PROMPT_REPORTS_1, PROMPT_REPORTS_2
-from mistakes_cleaner import replace_common_names, clean_wrong_per
 
 def save_and_print(data: list[dict], samples_files: dict, iteration: int):
     filename = append_json_data(f"synthetic_{samples_files['filename']}_train", data)
@@ -42,7 +46,7 @@ def generate_report_prompt_data():
     return intro, outro, docname, name, where, chapters
 
 def generate_examples_report(samples_files: dict, iteration: int):
-    starting_prompt = PROMPT_REPORTS_1(generate_report_prompt_data())
+    starting_prompt = PROMPT_REPORTS_1(*generate_report_prompt_data())
     json_text = send_prompt(starting_prompt)["text"]
     json_text = replace_common_names(json_text)
     json_entities = send_prompt(PROMPT_REPORTS_2(json_text))
