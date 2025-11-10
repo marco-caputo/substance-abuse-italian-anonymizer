@@ -8,7 +8,7 @@ from faker import Faker
 from mistakes_cleaner import clean_common_mistakes, replace_common_names, clean_wrong_per
 from prompt_sender import send_prompt
 
-# Ensure project root is on sys.path
+# Ensures project root is on sys.path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 

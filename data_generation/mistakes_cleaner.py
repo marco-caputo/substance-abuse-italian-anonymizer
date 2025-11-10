@@ -79,6 +79,24 @@ wrong_province_codes_pattern = r'\b(?:(?:a|A)l|(?:l|L)(?:e|i|o)|(?:m|M)e|(?:s|S)
 
 email_pattern = r'[a-zA-Z0-9\._%+-]+@[a-zA-Z0-9\.-]+[a-zA-Z]{1,}'
 
+wrong_age_pattern = r'(?:adolescent.|anzian.|giovan.|adult.|bambin.|person.|figli|figl.)'
+correct_age_pattern = r'((?:[A-Za-z]*|[0-9]*)\s(?:ann.|mes.))'
+
+gpe_correct_pattern = r'(?:mturk|amazon|twitch|netflix)'  #Common ORGs that can be written lowercase
+gpe_wrong_pattern = r'(?:[0-9]*)'
+
+misc_correct_lowercase_pattern = (r'('
+        r'italian.|tedesc.|spagnol.|frances.|messican.|portogues.|inglese.|svizzer.|australian.|american.|'
+        r'portoghes.|britannic.|bulgar.|canades.|irlandes.|islandes.|giappones.|cines.|corean.|russ.|arab.|'
+        r'turco.|polacc.|olandes.|svedes.|norveges.|danes.|finlandes.|grec.|ungheres.|'
+        r'bosniac.|croat.|serb.|slovacc.|sloven.|rumen.|belg.|macedon.|albanes.|rumen.|serb.|croat.|bosniac.|'
+        r'giordano.|egizian.|marocchin.|tunisin.|algerin.|bulgar.|ucrain.|ebraic.|'
+        r'hindi.|bengales.|urdu.|persian.|vietnamit.|indonesian.|filippin.|nigerian.|african.|'
+        r'cineforum'
+        r')'
+)
+misc_incorrect_pattern = r'(?:dio|dsm-5|pti|reddito\sdi\scittadinanza)'
+
 
 def clean_wrong_per(example: dict) -> dict:
     """
@@ -171,7 +189,7 @@ def clean_province_codes(example: dict) -> dict:
 
 def clean_mails_as_names(example: dict) -> dict:
     """
-    Cleans entities labelled as 'PER' or 'PATIENT' that actually taken from email addresses.
+    Cleans entities labelled as 'PER' or 'PATIENT' that are actually taken from email addresses.
     """
     for ent in example['entities']:
         if ent['label'] in {'PER','PATIENT','PROV','ORG'}:
@@ -186,6 +204,90 @@ def clean_mails_as_names(example: dict) -> dict:
 
     return example
 
+def clean_locality(example: dict) -> dict:
+    """
+    Cleans all those locality entities that are not named but are common words.
+    This is done simply by checking if the entity text is in lowercase.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] == 'LOC':
+            if str.islower(ent['text']):
+                continue
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+def clean_age(example: dict) -> dict:
+    """
+    Cleans age entities that do not represent proper age references.
+    The entities are removed if they match a wrong age pattern and do not match a correct age pattern.
+    While, if they match both patterns, only the wrong part is removed.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    cleaned_entities = []
+
+    for ent in example['entities']:
+        if ent['label'] == 'AGE':
+            if re.search(wrong_age_pattern, ent['text'], re.IGNORECASE):
+                if not re.search(correct_age_pattern, ent['text'], re.IGNORECASE):
+                    continue
+                else:
+                    ent['text'] = re.search(correct_age_pattern, ent['text'], re.IGNORECASE).group(0)
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+def clean_org(example: dict) -> dict:
+    """
+    Cleans GPE entities that are not proper names of organizations.
+    Those entities that are fully lowercase and do not fall in the list of common organizations,
+    or match common wrong patterns are removed.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] == 'ORG':
+            if str.islower(ent['text']) and not re.search(gpe_correct_pattern, ent['text'], re.IGNORECASE):
+                continue
+            if re.fullmatch(gpe_wrong_pattern, ent['text']):
+                continue
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+def clean_misc(example: dict) -> dict:
+    """
+    Cleans MISC entities that are not proper names.
+    Those entities that are full lowercase and are not nationalities are removed. Some special case
+    having cased words but being common wrong terms are also removed.
+    """
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] == 'MISC':
+            if str.islower(ent['text']):
+                if re.search(misc_correct_lowercase_pattern, ent['text'], re.IGNORECASE):
+                    ent['text'] = re.search(misc_correct_lowercase_pattern, ent['text'], re.IGNORECASE).group(0)
+                else:
+                    continue
+            if not re.search(r'[A-ZÀ-Ýa-z]', ent['text']):
+                continue
+            if re.fullmatch(misc_incorrect_pattern, ent['text'], re.IGNORECASE):
+                continue
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
 
 
 def clean_common_mistakes(example: dict) -> dict:
@@ -202,6 +304,9 @@ def clean_common_mistakes(example: dict) -> dict:
     example = clean_dates(example)
     example = clean_province_codes(example)
     example = clean_mails_as_names(example)
+    example = clean_locality(example)
+    example = clean_org(example)
+    example = clean_misc(example)
     return example
 
 def _replace_common_names_text(text: str) -> tuple[str,list[tuple[str,str]]]:
@@ -244,6 +349,6 @@ if __name__ == '__main__':
 
     for file_name in ["reports", "diaries_it","diaries_psych","diaries_therap"]:
         data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train.json")
-        data = [clean_mails_as_names(example) for example in data]
+        data = [clean_common_mistakes(example) for example in data]
         #data = [replace_common_names(example) for example in data]
         save_json_file(f"synthetic_samples/synthetic_{file_name}_train.json", data)

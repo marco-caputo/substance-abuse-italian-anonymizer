@@ -70,10 +70,6 @@
     "text": "Situazione attuale del paziente appare stabile, ma il supporto familiare risulta carente. È stato consigliato di coinvolgere la madre nel percorso terapeutico. Al contempo, continuare con il monitoraggio dei livelli di metadone.",
     "entities": [
       {
-        "text": "supporto familiare",
-        "label": "MISC"
-      },
-      {
         "text": "madre",
         "label": "PER"
       },
@@ -193,10 +189,6 @@
       {
         "text": "incontro familiare",
         "label": "TREATMENT"
-      },
-      {
-        "text": "centro",
-        "label": "LOC"
       }
     ]
   },
@@ -279,10 +271,6 @@
   {
     "text": "Il paziente ha dichiarato di non voler proseguire il programma terapeutico a causa di difficoltà emotive legate alla relazione con il padre. È stata fatta una valutazione del rischio di recidiva e si consiglia di mantenere l'osservazione settimanale, aumentando la frequenza degli incontri con il gruppo di sostegno.",
     "entities": [
-      {
-        "text": "relazione con il padre",
-        "label": "MISC"
-      },
       {
         "text": "recidiva",
         "label": "SYMPTOM"
@@ -542,10 +530,6 @@
         "label": "TREATMENT"
       },
       {
-        "text": "due volte a settimana",
-        "label": "MISC"
-      },
-      {
         "text": "psichiatrica",
         "label": "EXAMINATION"
       },
@@ -662,10 +646,6 @@
       {
         "text": "depressione",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "gruppo di sostegno",
-        "label": "ORG"
       },
       {
         "text": "depressione",
@@ -2102,10 +2082,6 @@
       {
         "text": "Alprazolam",
         "label": "MEDICINE"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
       }
     ]
   },
@@ -2476,10 +2452,6 @@
       {
         "text": "buon andamento del percorso terapeutico",
         "label": "TREATMENT"
-      },
-      {
-        "text": "comunità",
-        "label": "ORG"
       }
     ]
   },
@@ -2964,10 +2936,6 @@
         "label": "MEDICINE"
       },
       {
-        "text": "40 mg/die",
-        "label": "MISC"
-      },
-      {
         "text": "idratazione",
         "label": "TREATMENT"
       },
@@ -3078,10 +3046,6 @@
       {
         "text": "ansietà",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "servizi sociali",
-        "label": "ORG"
       },
       {
         "text": "umore",
@@ -4534,10 +4498,6 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "gruppo di supporto",
-        "label": "ORG"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
@@ -5562,10 +5522,6 @@
       {
         "text": "ricaduta",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "centro di supporto",
-        "label": "ORG"
       }
     ]
   },
@@ -5918,10 +5874,6 @@
       {
         "text": "monitoraggio clinico",
         "label": "TREATMENT"
-      },
-      {
-        "text": "20 mg",
-        "label": "MISC"
       }
     ]
   },
@@ -5993,10 +5945,6 @@
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "centro",
-        "label": "ORG"
       },
       {
         "text": "alcol",
@@ -6081,10 +6029,6 @@
   {
     "text": "Durante il colloquio odierno, emerge una buona consapevolezza del rischio di ricaduta. Il paziente mostra motivazione al mantenimento dell'astinenza da alcol. Si conferma prosecuzione del trattamento con naltrexone e supporto psicoterapico individuale. Nessuna alterazione del comportamento osservata.",
     "entities": [
-      {
-        "text": "ricaduta",
-        "label": "MISC"
-      },
       {
         "text": "astinenza",
         "label": "TREATMENT"
@@ -7547,10 +7491,6 @@
     "text": "Il paziente è stato indirizzato a un centro di riabilitazione residenziale. A seguito della visita psichiatrica, si è deciso di avviare un trattamento con metadone per contrastare la dipendenza da oppiacei. Si raccomanda monitoraggio settimanale. La situazione familiare rimane stabile, ma il supporto esterno è ritenuto fondamentale per il suo recupero.",
     "entities": [
       {
-        "text": "centro di riabilitazione residenziale",
-        "label": "ORG"
-      },
-      {
         "text": "metadone",
         "label": "MEDICINE"
       }
@@ -8663,10 +8603,6 @@
     "text": "Si presenta in ambulatorio con atteggiamento collaborativo. Segnala miglioramento dell'umore e riduzione dell'ansia. Prosegue terapia con sertralina e colloqui settimanali con la dott.ssa Bongiorno. Si richiede emocromo e dosaggio della sertralinemia.",
     "entities": [
       {
-        "text": "ambulatorio",
-        "label": "LOC"
-      },
-      {
         "text": "miglioramento dell'umore",
         "label": "HEALTH_STATUS"
       },
@@ -8976,10 +8912,6 @@
       {
         "text": "pensieri autolesivi",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "struttura residenziale",
-        "label": "LOC"
       },
       {
         "text": "benzodiazepine",
@@ -9639,10 +9571,6 @@
       {
         "text": "ansia anticipatoria",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "reinserimento lavorativo",
-        "label": "MISC"
       },
       {
         "text": "valutazione psichiatrica",
@@ -11326,10 +11254,6 @@
       {
         "text": "sindrome ansioso-depressiva",
         "label": "DISEASE"
-      },
-      {
-        "text": "centro",
-        "label": "LOC"
       }
     ]
   },
@@ -11786,10 +11710,6 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "ricaduta",
-        "label": "MISC"
-      },
-      {
         "text": "12 ottobre",
         "label": "DATE"
       },
@@ -12092,10 +12012,6 @@
       {
         "text": "Nadia",
         "label": "PER"
-      },
-      {
-        "text": "sala colloqui",
-        "label": "LOC"
       },
       {
         "text": "dinamiche familiari disfunzionali",
@@ -12680,10 +12596,6 @@
       {
         "text": "impulsività",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "ambito familiare",
-        "label": "LOC"
       }
     ]
   },
@@ -13432,10 +13344,6 @@
         "label": "PER"
       },
       {
-        "text": "comunità terapeutica",
-        "label": "LOC"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       }
@@ -13568,10 +13476,6 @@
       {
         "text": "MMPI-2",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "servizio di psichiatria territoriale",
-        "label": "ORG"
       }
     ]
   },
@@ -13766,14 +13670,6 @@
       {
         "text": "Susanna",
         "label": "PER"
-      },
-      {
-        "text": "struttura residenziale",
-        "label": "LOC"
-      },
-      {
-        "text": "contesto familiare",
-        "label": "LOC"
       }
     ]
   },
@@ -14454,10 +14350,6 @@
   {
     "text": "Durante la sessione terapeutica, il paziente ha espresso preoccupazioni riguardo al suo ambiente familiare e la sua dipendenza da alcol. È stato notato un miglioramento nel suo atteggiamento, ma ancora una certa resistenza a parlare di eventi traumatici. Si è deciso di mantenere il piano terapeutico attuale e di integrare un supporto psicologico intensivo. Da rivedere in seguito la situazione con la famiglia.",
     "entities": [
-      {
-        "text": "ambiente familiare",
-        "label": "MISC"
-      },
       {
         "text": "dipendenza da alcol",
         "label": "DISEASE"
@@ -15212,10 +15104,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "ricovero",
-        "label": "MISC"
-      },
-      {
         "text": "colloqui di supporto psicologico",
         "label": "TREATMENT"
       },
@@ -15316,10 +15204,6 @@
   {
     "text": "Dopo il periodo di isolamento, il paziente ha riferito una leggera difficoltà nell'adattarsi al gruppo. Non ci sono segni evidenti di regressione nelle abitudini quotidiane, ma il soggetto mostra una scarsa motivazione verso il trattamento. È stata discussa la necessità di continuare con la psicoterapia di supporto. Riferisce di aver sospeso l'uso di alcol completamente.",
     "entities": [
-      {
-        "text": "periodo di isolamento",
-        "label": "MISC"
-      },
       {
         "text": "psicoterapia di supporto",
         "label": "TREATMENT"
@@ -16048,10 +15932,6 @@
       {
         "text": "madre",
         "label": "PER"
-      },
-      {
-        "text": "Medici",
-        "label": "PER"
       }
     ]
   },
@@ -16157,10 +16037,6 @@
       {
         "text": "follow-up regolare",
         "label": "TREATMENT"
-      },
-      {
-        "text": "servizio di assistenza psicologica",
-        "label": "ORG"
       },
       {
         "text": "problemi relazionali",
@@ -16558,10 +16434,6 @@
       {
         "text": "programma terapeutico",
         "label": "TREATMENT"
-      },
-      {
-        "text": "centro",
-        "label": "LOC"
       }
     ]
   },
@@ -16600,10 +16472,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "centro diurno",
-        "label": "LOC"
       },
       {
         "text": "Milano",
@@ -16700,14 +16568,6 @@
       {
         "text": "terapia psicologica",
         "label": "TREATMENT"
-      },
-      {
-        "text": "dinamiche familiari",
-        "label": "MISC"
-      },
-      {
-        "text": "follow-up",
-        "label": "MISC"
       }
     ]
   },
@@ -16826,10 +16686,6 @@
       {
         "text": "Morena Abba",
         "label": "PER"
-      },
-      {
-        "text": "sala colloqui",
-        "label": "LOC"
       },
       {
         "text": "reinserimento graduale in ambito lavorativo",
@@ -16980,10 +16836,6 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "ricaduta",
-        "label": "MISC"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
@@ -16994,10 +16846,6 @@
       {
         "text": "supporto psicoterapico intensivo",
         "label": "TREATMENT"
-      },
-      {
-        "text": "gruppo terapeutico",
-        "label": "LOC"
       }
     ]
   },
@@ -17216,10 +17064,6 @@
     "text": "Durante la visita domiciliare, il paziente si presenta in stato confusionale, con eloquio disorganizzato e marcata disforia. Segnalata recente sospensione autonoma di sertralina. In passato, diagnosi di disturbo borderline di personalità. Si propone ricovero presso il reparto SPDC di Bologna.",
     "entities": [
       {
-        "text": "visita domiciliare",
-        "label": "LOC"
-      },
-      {
         "text": "stato confusionale",
         "label": "SYMPTOM"
       },
@@ -17293,10 +17137,6 @@
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "autoaiuto",
-        "label": "MISC"
       }
     ]
   },
@@ -17757,10 +17597,6 @@
       {
         "text": "supporto psicologico",
         "label": "TREATMENT"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
       }
     ]
   },
@@ -18100,10 +17936,6 @@
       {
         "text": "test urinario",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "centro diurno",
-        "label": "LOC"
       }
     ]
   },
@@ -18150,10 +17982,6 @@
       {
         "text": "laboratorio espressivo",
         "label": "TREATMENT"
-      },
-      {
-        "text": "comunità terapeutica",
-        "label": "LOC"
       }
     ]
   },
@@ -20711,10 +20539,6 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "stress lavorativo",
-        "label": "MISC"
-      },
-      {
         "text": "benzodiazepine",
         "label": "MEDICINE"
       },
@@ -20990,10 +20814,6 @@
       {
         "text": "Lorenzi",
         "label": "PER"
-      },
-      {
-        "text": "sala colloqui",
-        "label": "LOC"
       },
       {
         "text": "reinserimento graduale in attività lavorative",
@@ -21403,10 +21223,6 @@
       {
         "text": "episodio di panico",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "supermercato",
-        "label": "LOC"
       },
       {
         "text": "alcol",

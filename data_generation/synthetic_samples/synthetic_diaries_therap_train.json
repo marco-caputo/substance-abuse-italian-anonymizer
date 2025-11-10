@@ -136,10 +136,6 @@
       {
         "text": "Sert di Rimini",
         "label": "ORG"
-      },
-      {
-        "text": "comunità di accoglienza",
-        "label": "LOC"
       }
     ]
   },
@@ -170,10 +166,6 @@
       {
         "text": "Parma",
         "label": "GPE"
-      },
-      {
-        "text": "falegnameria",
-        "label": "MISC"
       },
       {
         "text": "Sert di Modena",
@@ -612,10 +604,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "pronto soccorso",
-        "label": "LOC"
-      },
-      {
         "text": "Vigorelli",
         "label": "PER"
       },
@@ -699,10 +687,6 @@
         "label": "LOC"
       },
       {
-        "text": "laboratorio di ceramica",
-        "label": "MISC"
-      },
-      {
         "text": "alcol",
         "label": "SUBSTANCE"
       },
@@ -730,10 +714,6 @@
       {
         "text": "supporto psicologico",
         "label": "TREATMENT"
-      },
-      {
-        "text": "struttura residenziale",
-        "label": "LOC"
       },
       {
         "text": "Sert di Fermo",
@@ -844,10 +824,6 @@
       {
         "text": "giovedì 14",
         "label": "DATE"
-      },
-      {
-        "text": "struttura semi-residenziale",
-        "label": "LOC"
       },
       {
         "text": "alprazolam",
@@ -1072,10 +1048,6 @@
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità",
-        "label": "ORG"
       }
     ]
   },
@@ -1224,14 +1196,6 @@
       {
         "text": "cannabis",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di auto-mutuo aiuto",
-        "label": "ORG"
-      },
-      {
-        "text": "laboratorio teatrale",
-        "label": "MISC"
       }
     ]
   },
@@ -1310,10 +1274,6 @@
   {
     "text": "Oggi ha partecipato attivamente al laboratorio di ceramica. Ha condiviso un ricordo legato alla madre, deceduta per cirrosi epatica. Non ha mostrato segni di crisi o instabilità. Si conferma la buona tenuta emotiva.",
     "entities": [
-      {
-        "text": "laboratorio di ceramica",
-        "label": "MISC"
-      },
       {
         "text": "madre",
         "label": "PER"
@@ -1471,10 +1431,6 @@
       {
         "text": "Sert di Macerata",
         "label": "ORG"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
       },
       {
         "text": "miglioramento generale dello stato emotivo",
@@ -1642,10 +1598,6 @@
       {
         "text": "Sertralina",
         "label": "MEDICINE"
-      },
-      {
-        "text": "centro",
-        "label": "ORG"
       }
     ]
   },
@@ -1754,10 +1706,6 @@
     "text": "Ha espresso il desiderio di tornare a lavorare come cuoco, ma teme che l'ambiente possa essere un fattore di rischio. La sorella, Renata, ha proposto di ospitarlo a Bologna per un periodo. Si è mostrato motivato ma ancora fragile. Si è deciso di proseguire con il supporto psicologico settimanale.",
     "entities": [
       {
-        "text": "cuoco",
-        "label": "MISC"
-      },
-      {
         "text": "Renata",
         "label": "PER"
       },
@@ -1806,10 +1754,6 @@
       {
         "text": "Metadone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "40 mg",
-        "label": "MISC"
       }
     ]
   },
@@ -1933,10 +1877,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "centro di consulenza psicologica",
-        "label": "ORG"
       }
     ]
   },
@@ -2148,10 +2088,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "natalizio",
-        "label": "MISC"
-      },
-      {
         "text": "madre",
         "label": "PER"
       }
@@ -2309,10 +2245,6 @@
       {
         "text": "Mariano",
         "label": "PATIENT"
-      },
-      {
-        "text": "centro di riabilitazione",
-        "label": "ORG"
       }
     ]
   },
@@ -2351,10 +2283,6 @@
       {
         "text": "droga",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di supporto",
-        "label": "ORG"
       }
     ]
   },
@@ -2368,10 +2296,6 @@
       {
         "text": "marijuana",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità",
-        "label": "ORG"
       }
     ]
   },
@@ -2546,10 +2470,6 @@
   {
     "text": "Ha partecipato al laboratorio di ceramica con interesse, mostrando capacità creative e buona concentrazione. Non ha riportato sintomi di astinenza oggi. Continua con la terapia farmacologica a base di quetiapina e naltrexone. Si è deciso di proseguire con il monitoraggio settimanale.",
     "entities": [
-      {
-        "text": "laboratorio di ceramica",
-        "label": "LOC"
-      },
       {
         "text": "quetiapina",
         "label": "MEDICINE"
@@ -2984,10 +2904,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di sostegno",
-        "label": "ORG"
       }
     ]
   },
@@ -3018,10 +2934,6 @@
       {
         "text": "stress post-traumatico",
         "label": "DISEASE"
-      },
-      {
-        "text": "violenza domestica",
-        "label": "MISC"
       },
       {
         "text": "comunità terapeutica",
@@ -3439,10 +3351,6 @@
       {
         "text": "Depakin",
         "label": "MEDICINE"
-      },
-      {
-        "text": "laboratorio protetto",
-        "label": "LOC"
       }
     ]
   },
@@ -3583,10 +3491,6 @@
   {
     "text": "Ha chiesto di poter riprendere il lavoro part-time presso il bar della comunità. Si è valutata la richiesta con l'équipe, tenendo conto della sua stabilità emotiva attuale. Non ha fatto uso di eroina da 3 settimane, come confermato dal test urinario. Continua l'assunzione di metadone secondo il piano stabilito.",
     "entities": [
-      {
-        "text": "bar della comunità",
-        "label": "LOC"
-      },
       {
         "text": "eroina",
         "label": "SUBSTANCE"
@@ -4115,10 +4019,6 @@
     "text": "Ha partecipato attivamente al laboratorio di ceramica. Nessuna segnalazione di crisi o comportamenti oppositivi. Prosegue il trattamento con Sertralina, monitorato dal dott. Petruzzi.",
     "entities": [
       {
-        "text": "laboratorio di ceramica",
-        "label": "MISC"
-      },
-      {
         "text": "Sertralina",
         "label": "MEDICINE"
       },
@@ -4581,10 +4481,6 @@
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di sostegno",
-        "label": "ORG"
       }
     ]
   },
@@ -4958,10 +4854,6 @@
       {
         "text": "psicoterapeutica",
         "label": "TREATMENT"
-      },
-      {
-        "text": "gruppo di auto-aiuto",
-        "label": "ORG"
       }
     ]
   },
@@ -5253,10 +5145,6 @@
       {
         "text": "cannabis",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "mindfulness",
-        "label": "MISC"
       }
     ]
   },
@@ -5329,10 +5217,6 @@
       {
         "text": "alcolici",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "compleanno",
-        "label": "MISC"
       },
       {
         "text": "Sert di Pescara",
@@ -5465,20 +5349,11 @@
   },
   {
     "text": "Oggi, durante il colloquio, il paziente ha raccontato di aver avuto una crisi emotiva dopo aver incontrato il padre, con il quale non ha più rapporti da anni. La discussione ha riguardato il suo passato e il suo abbandono, il che ha riaperto vecchie ferite. Ha accennato di voler provare a riavvicinarsi alla famiglia, ma il timore di essere rifiutato lo blocca. Il terapeuta ha suggerito un percorso di rinforzo dell'autostima, con l'aggiunta di attività che favoriscano il miglioramento del rapporto con se stesso.",
-    "entities": [
-      {
-        "text": "famiglia",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "La paziente ha raccontato di essere stata a casa per tutta la settimana, senza uscite, e ha avuto difficoltà a gestire il desiderio di bere. Oggi ha chiesto aiuto al gruppo di supporto, confessando di essere stata tentata da una bottiglia di vodka che aveva in casa. L'operatore ha proposto di stabilire un piano di azione immediato per evitare che situazioni simili accadano, suggerendo di rimuovere ogni tipo di alcol dalla sua abitazione. Il gruppo ha discusso l'importanza della prevenzione dei momenti di solitudine.",
     "entities": [
-      {
-        "text": "gruppo di supporto",
-        "label": "ORG"
-      },
       {
         "text": "vodka",
         "label": "SUBSTANCE"
@@ -5487,12 +5362,7 @@
   },
   {
     "text": "Il paziente ha espresso il desiderio di partecipare a un programma residenziale a lungo termine, ma ha alcune riserve riguardo alle regole strette imposte dalle comunità terapeutiche. Ha riferito di sentirsi intrappolato tra il desiderio di rimanere sobrio e la paura di perdere la propria indipendenza. La decisione è stata rinviata per una settimana, per permettergli di riflettere sulle possibili alternative. Il terapeuta ha suggerito di esplorare anche altre risorse per il supporto a lungo termine.",
-    "entities": [
-      {
-        "text": "comunità terapeutiche",
-        "label": "ORG"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "La paziente ha chiesto di discutere il tema del tradimento da parte del partner, che è stato un fattore scatenante per l'abuso di sostanze. Ha riferito di aver trovato conforto nell'alcol quando il partner l'ha lasciata, ma ora sta cercando di superare la dipendenza. È stata proposta una sessione di terapia di coppia, ma la paziente ha espresso scetticismo sull'efficacia di un possibile riavvicinamento. È stato deciso di concentrarsi sul rafforzamento delle sue risorse personali prima di affrontare il tema della relazione.",
@@ -5743,10 +5613,6 @@
     "text": "Ha partecipato al laboratorio di ceramica con interesse. Nessun segnale di agitazione. Ha raccontato di aver avuto un colloquio con il Sert di Rimini per valutare un reinserimento lavorativo. Si è mostrato collaborativo e motivato. Il prossimo incontro è previsto per il 12 novembre.",
     "entities": [
       {
-        "text": "laboratorio di ceramica",
-        "label": "LOC"
-      },
-      {
         "text": "Sert di Rimini",
         "label": "ORG"
       },
@@ -5955,10 +5821,6 @@
       {
         "text": "psicoterapeutico",
         "label": "TREATMENT"
-      },
-      {
-        "text": "gruppo di sostegno",
-        "label": "MISC"
       }
     ]
   },
@@ -6030,10 +5892,6 @@
     "text": "Ha espresso rabbia verso il padre, che non lo ha mai sostenuto nel percorso. Dice che l'unico momento in cui si è sentito ascoltato è stato durante il laboratorio di scrittura creativa. Ha mostrato interesse per un possibile inserimento nella comunità di San Patrignano, ma teme di non riuscire a rispettare le regole. Ha chiesto informazioni sulla possibilità di continuare a prendere il Depakin.",
     "entities": [
       {
-        "text": "laboratorio di scrittura creativa",
-        "label": "LOC"
-      },
-      {
         "text": "San Patrignano",
         "label": "ORG"
       },
@@ -6046,10 +5904,6 @@
   {
     "text": "Ha raccontato di aver vissuto per tre mesi in una roulotte vicino al fiume Po. In quel periodo ha fatto uso quotidiano di eroina e cocaina, alternando momenti di lucidità a episodi di paranoia. Ha accettato di sottoporsi a un test tossicologico e ha firmato il consenso per l'inserimento nel programma di disintossicazione intensiva.",
     "entities": [
-      {
-        "text": "roulotte",
-        "label": "LOC"
-      },
       {
         "text": "fiume Po",
         "label": "LOCATION"
@@ -6096,10 +5950,6 @@
   {
     "text": "Ha chiesto di poter rivedere il fratello prima di entrare in comunità. Dice che non ha mai avuto un vero confronto con lui da quando è stato arrestato per spaccio. Durante il gruppo ha parlato della sua dipendenza da benzodiazepine e del senso di vuoto che prova al risveglio. Il medico ha suggerito di iniziare una terapia con Zoloft.",
     "entities": [
-      {
-        "text": "spaccio",
-        "label": "MISC"
-      },
       {
         "text": "benzodiazepine",
         "label": "SUBSTANCE"
@@ -6645,10 +6495,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "centro di supporto",
-        "label": "ORG"
-      },
-      {
         "text": "Milano",
         "label": "GPE"
       }
@@ -6979,10 +6825,6 @@
       {
         "text": "Roma",
         "label": "GPE"
-      },
-      {
-        "text": "laboratorio teatrale",
-        "label": "MISC"
       }
     ]
   },
@@ -7407,10 +7249,6 @@
       {
         "text": "metadone",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "team terapeutico",
-        "label": "ORG"
       }
     ]
   },
@@ -7704,14 +7542,6 @@
       {
         "text": "Pescara",
         "label": "GPE"
-      },
-      {
-        "text": "famiglia",
-        "label": "MISC"
-      },
-      {
-        "text": "famiglia",
-        "label": "MISC"
       }
     ]
   },
@@ -8392,10 +8222,6 @@
     "text": "Il gruppo ha evidenziato una maggiore partecipazione da parte sua, soprattutto durante le attività del laboratorio creativo. Nonostante la diagnosi di disturbo borderline di personalità, sembra più stabile rispetto al mese scorso. Continua il trattamento con quetiapina e si mantiene l'appuntamento settimanale con la terapeuta.",
     "entities": [
       {
-        "text": "laboratorio creativo",
-        "label": "LOC"
-      },
-      {
         "text": "disturbo borderline di personalità",
         "label": "DISEASE"
       },
@@ -8423,10 +8249,6 @@
       {
         "text": "cannabis",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di auto-aiuto",
-        "label": "ORG"
       },
       {
         "text": "trattamento cognitivo-comportamentale",
@@ -8751,10 +8573,6 @@
         "label": "PER"
       },
       {
-        "text": "struttura semi-residenziale",
-        "label": "LOC"
-      },
-      {
         "text": "Sert di Modena",
         "label": "ORG"
       },
@@ -8889,10 +8707,6 @@
     "text": "Abbiamo ricevuto comunicazione dal centro diurno di Rimini: il paziente non si è presentato alle attività da tre giorni. La madre, signora Irma, ha riferito che è rimasto chiuso in camera e ha consumato alcolici. Si valuta un intervento domiciliare.",
     "entities": [
       {
-        "text": "centro diurno",
-        "label": "ORG"
-      },
-      {
         "text": "Rimini",
         "label": "GPE"
       },
@@ -8941,10 +8755,6 @@
       {
         "text": "sigarette",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità terapeutica",
-        "label": "ORG"
       }
     ]
   },
@@ -9422,10 +9232,6 @@
   {
     "text": "Nonostante le difficoltà iniziali, ha completato il primo mese in comunità senza episodi di uso. Ha ottenuto un colloquio con l'assistente sociale per discutere del reinserimento lavorativo. Si evidenzia un miglioramento nella cura di sé e nella gestione dell'ansia. Prossimo incontro previsto per il 10 novembre.",
     "entities": [
-      {
-        "text": "comunità",
-        "label": "LOC"
-      },
       {
         "text": "reinserimento lavorativo",
         "label": "TREATMENT"
@@ -10027,10 +9833,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "lavoro",
-        "label": "MISC"
-      },
-      {
         "text": "farmaco per l'ansia",
         "label": "MEDICINE"
       }
@@ -10059,10 +9861,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "lavoro",
-        "label": "MISC"
       },
       {
         "text": "terapia",
@@ -10109,10 +9907,6 @@
       {
         "text": "farmaci",
         "label": "MEDICINE"
-      },
-      {
-        "text": "lavoro",
-        "label": "MISC"
       }
     ]
   },
@@ -10157,10 +9951,6 @@
   {
     "text": "Si è presentato in ritardo al centro diurno, visibilmente affaticato. Ha dichiarato di aver bevuto birra la sera precedente e di aver avuto difficoltà a dormire. Si propone di valutare l'introduzione di un supporto farmacologico leggero come il trittico.",
     "entities": [
-      {
-        "text": "centro diurno",
-        "label": "LOC"
-      },
       {
         "text": "birra",
         "label": "SUBSTANCE"
@@ -10279,10 +10069,6 @@
       {
         "text": "suboxone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "centro di recupero in periferia",
-        "label": "ORG"
       }
     ]
   },
@@ -10808,10 +10594,6 @@
       {
         "text": "madre",
         "label": "PER"
-      },
-      {
-        "text": "servizio sociale di zona",
-        "label": "ORG"
       }
     ]
   },
@@ -10884,10 +10666,6 @@
       {
         "text": "Palermo",
         "label": "GPE"
-      },
-      {
-        "text": "laboratorio di ceramica",
-        "label": "MISC"
       }
     ]
   },
@@ -10911,10 +10689,6 @@
   {
     "text": "Ha raccontato di aver vissuto un periodo difficile durante il lockdown, con aumento dell'uso di hashish. Ha perso il lavoro a Milano e si è trasferito da uno zio a Varese. Attualmente è in cerca di occupazione e ha chiesto supporto per la stesura del curriculum.",
     "entities": [
-      {
-        "text": "lockdown",
-        "label": "MISC"
-      },
       {
         "text": "hashish",
         "label": "SUBSTANCE"
@@ -11273,10 +11047,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità terapeutica",
-        "label": "ORG"
       }
     ]
   },
@@ -11487,10 +11257,6 @@
     "text": "Il paziente ha riferito di sentirsi più motivato a intraprendere un percorso di cambiamento, dopo aver partecipato alla riunione con il gruppo terapeutico. Ha dichiarato che il supporto del gruppo lo aiuta a riflettere sulla sua situazione. Ha anche ammesso di avere ancora dei momenti di crisi, soprattutto quando è esposto a tentazioni legate all'uso di alcol. Oggi ha chiesto se fosse possibile intensificare le sedute individuali per poter affrontare meglio questi momenti di difficoltà.",
     "entities": [
       {
-        "text": "gruppo terapeutico",
-        "label": "ORG"
-      },
-      {
         "text": "alcol",
         "label": "SUBSTANCE"
       }
@@ -11528,16 +11294,7 @@
   },
   {
     "text": "Abbiamo discusso con il paziente della possibilità di un inserimento in una comunità residenziale. Il paziente ha espresso perplessità, temendo che il distacco dalla sua abitazione possa compromettere le sue relazioni con i figli. La proposta è stata comunque avanzata dal team terapeutico, che ha ribadito la necessità di un supporto strutturato per il suo recupero a lungo termine.",
-    "entities": [
-      {
-        "text": "comunità residenziale",
-        "label": "ORG"
-      },
-      {
-        "text": "team terapeutico",
-        "label": "ORG"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Paziente molto motivato oggi. Ha riferito di aver completato il programma di disintossicazione senza ricadute significative, ma ha dichiarato di essere ancora preoccupato per il suo futuro. Il medico ha consigliato di continuare con il piano terapeutico attuale e ha prescritto un nuovo ciclo di consulenze per migliorare la gestione dello stress.",
@@ -11616,10 +11373,6 @@
       {
         "text": "metadone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "settimanalmente",
-        "label": "MISC"
       }
     ]
   },
@@ -11633,10 +11386,6 @@
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppi di auto-aiuto",
-        "label": "MISC"
       }
     ]
   },
@@ -11702,10 +11451,6 @@
   {
     "text": "Si è presentato in ritardo al colloquio individuale. Ha riferito di essere stato fermato dalla polizia per guida in stato di ebbrezza. L'episodio è avvenuto a Fano il 12 ottobre. Mostra segni di agitazione e nega l'uso di eroina, ma ammette consumo di alcolici.",
     "entities": [
-      {
-        "text": "polizia",
-        "label": "ORG"
-      },
       {
         "text": "Fano",
         "label": "GPE"
@@ -11812,10 +11557,6 @@
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di supporto",
-        "label": "ORG"
       }
     ]
   },
@@ -12084,10 +11825,6 @@
         "label": "MEDICINE"
       },
       {
-        "text": "cooperativa agricola",
-        "label": "ORG"
-      },
-      {
         "text": "Viterbo",
         "label": "GPE"
       }
@@ -12214,10 +11951,6 @@
   {
     "text": "Ha partecipato al laboratorio di ceramica con interesse. Non ha mostrato segni di astinenza. La coordinatrice, Francesca, ha riferito che sta rispettando gli orari e collabora con gli altri. Si è deciso di prolungare la permanenza nella struttura di Monteverde.",
     "entities": [
-      {
-        "text": "ceramica",
-        "label": "MISC"
-      },
       {
         "text": "astinenza",
         "label": "SYMPTOM"
@@ -12517,10 +12250,6 @@
     "text": "Ha partecipato al laboratorio di scrittura espressiva, mostrando interesse e coinvolgimento. Non ha fatto menzione di uso recente di sostanze. Il suo stato emotivo appare più stabile rispetto alla scorsa settimana.",
     "entities": [
       {
-        "text": "laboratorio di scrittura espressiva",
-        "label": "MISC"
-      },
-      {
         "text": "stato emotivo",
         "label": "HEALTH_STATUS"
       }
@@ -12656,10 +12385,6 @@
         "label": "PER"
       },
       {
-        "text": "centro diurno",
-        "label": "LOC"
-      },
-      {
         "text": "Modigliana",
         "label": "GPE"
       },
@@ -12713,10 +12438,6 @@
   {
     "text": "Ha partecipato al laboratorio di ceramica con buona adesione. Nessun comportamento oppositivo rilevato. Si segnala miglioramento dell’umore rispetto alla scorsa settimana. Non si fa menzione di uso recente di cocaina.",
     "entities": [
-      {
-        "text": "laboratorio di ceramica",
-        "label": "LOC"
-      },
       {
         "text": "umore",
         "label": "HEALTH_STATUS"
@@ -12851,10 +12572,6 @@
       {
         "text": "cannabis",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "centro di reinserimento lavorativo",
-        "label": "ORG"
       }
     ]
   },
@@ -13121,10 +12838,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "comunità di recupero residenziale",
-        "label": "LOC"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
@@ -13243,10 +12956,6 @@
   {
     "text": "Ha partecipato al laboratorio di ceramica con interesse. Nessun episodio di aggressività segnalato. Il referente della comunità di San Patrignano ha confermato che il percorso terapeutico procede regolarmente. Si è discusso della possibilità di iniziare una terapia cognitivo-comportamentale.",
     "entities": [
-      {
-        "text": "laboratorio di ceramica",
-        "label": "MISC"
-      },
       {
         "text": "San Patrignano",
         "label": "ORG"
@@ -13454,10 +13163,6 @@
     "text": "Ha espresso il desiderio di rivedere la figlia, attualmente affidata ai servizi sociali di Torino. Si mostra collaborativo ma ancora fragile emotivamente. Ha accettato di iniziare un percorso di gruppo focalizzato sulla gestione della rabbia. Nessun uso recente di alcol segnalato.",
     "entities": [
       {
-        "text": "servizi sociali",
-        "label": "ORG"
-      },
-      {
         "text": "Torino",
         "label": "GPE"
       },
@@ -13602,10 +13307,6 @@
     "text": "Oggi il paziente ha raccontato di aver avuto una discussione con il suo compagno di stanza presso la comunità terapeutica. La tensione tra i due è aumentata, e questo ha scatenato un episodio di aggressività da parte del paziente. Si è trattato di un episodio che ha messo in evidenza la sua difficoltà a gestire la rabbia, probabilmente legata alla sua dipendenza da eroina. È stato deciso di includere sedute di controllo della rabbia nel suo piano terapeutico, oltre al trattamento con metadone per mantenere la stabilità. La prossima settimana sarà valutata la necessità di un cambio di struttura.",
     "entities": [
       {
-        "text": "comunità terapeutica",
-        "label": "LOC"
-      },
-      {
         "text": "eroina",
         "label": "SUBSTANCE"
       },
@@ -13638,14 +13339,6 @@
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo",
-        "label": "ORG"
-      },
-      {
-        "text": "nuoto",
-        "label": "MISC"
       }
     ]
   },
@@ -13723,10 +13416,6 @@
   {
     "text": "Ha partecipato al laboratorio di ceramica con interesse. Ha raccontato di aver avuto una ricaduta la settimana scorsa, dopo aver assunto cocaina in un bar di Milano. Ha chiesto di poter parlare con Don Paolo, figura per lui di riferimento spirituale.",
     "entities": [
-      {
-        "text": "ceramica",
-        "label": "MISC"
-      },
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
@@ -14026,10 +13715,6 @@
       {
         "text": "terapia cognitivo-comportamentale",
         "label": "TREATMENT"
-      },
-      {
-        "text": "gruppo di supporto",
-        "label": "ORG"
       }
     ]
   },
@@ -14102,10 +13787,6 @@
       {
         "text": "Teresa",
         "label": "PER"
-      },
-      {
-        "text": "comunità terapeutica",
-        "label": "ORG"
       }
     ]
   },
@@ -14401,10 +14082,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "criminale",
-        "label": "MISC"
-      },
-      {
         "text": "madre",
         "label": "PER"
       }
@@ -14433,12 +14110,7 @@
   },
   {
     "text": "Il paziente ha mostrato segni di miglioramento riguardo al controllo delle sue dipendenze. Oggi ha partecipato attivamente alla discussione di gruppo senza interrompersi o fuggire dalla situazione. Tuttavia, ha ancora difficoltà a gestire la rabbia, spesso scatenata da frustrazioni quotidiane. È stato consigliato di continuare con la terapia comportamentale e iniziare a prendere in considerazione delle attività all'aperto come camminate o sport per migliorare il suo umore. La sua famiglia è stata invitata a partecipare a una sessione di consulenza per rafforzare il supporto domestico.",
-    "entities": [
-      {
-        "text": "camminate",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ha riferito di aver recentemente avuto una crisi, consumando eroina per alleviare il dolore fisico dovuto a un incidente. Nonostante il tentativo di recupero, ha manifestato difficoltà a fare i conti con la dipendenza fisica dalla sostanza. La sua motivazione per il trattamento è altalenante, e oggi ha espresso dubbi riguardo alla permanenza in comunità. Si è discusso dell'importanza di un approccio integrato che comprenda sia il trattamento fisico che psicologico per affrontare la sua dipendenza.",
@@ -14446,10 +14118,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità",
-        "label": "ORG"
       }
     ]
   },
@@ -14481,12 +14149,7 @@
   },
   {
     "text": "La situazione si sta complicando per lui: ogni giorno il rientro in comunità lo lascia confuso e frustrato. Nonostante gli sforzi, tende a evitare i confronti diretti con gli altri membri, preferendo stare da solo nella sua stanza. In un momento di riflessione, ha detto che l'unico modo in cui potrebbe affrontare la situazione sarebbe tornare alla sua vecchia vita, anche se sa che questo comporterebbe una ricaduta. Ha espresso il desiderio di lasciare la struttura per trovare un altro tipo di supporto, ma il gruppo ha ribadito che l'attuale percorso terapeutico è il più adatto.",
-    "entities": [
-      {
-        "text": "comunità",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ha continuato a manifestare un comportamento distante nei confronti del gruppo. Ha detto che il trattamento lo sta facendo sentire più isolato e ha accennato alla difficoltà di convivere con le regole imposte dalla struttura. Durante il colloquio, è emerso che il suo consumo di alcol è diminuito, ma è ancora in forte crisi rispetto alla sua dipendenza da eroina. Ha riferito di sentirsi sotto pressione per trovare un'occupazione e ha chiesto se esistono possibilità di lavoro all'interno della comunità. Verrà seguita una proposta di inserimento in un progetto di reinserimento lavorativo.",
@@ -14498,10 +14161,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
       }
     ]
   },
@@ -14528,10 +14187,6 @@
       {
         "text": "crack",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
       }
     ]
   },
@@ -14581,10 +14236,6 @@
   {
     "text": "Nel corso della seduta di oggi, il paziente ha parlato della sua esperienza in comunità terapeutica, esprimendo il desiderio di rimanere per un altro mese. Ha sottolineato che il supporto psicologico fornito gli sta dando una nuova prospettiva sulla vita. Ha tuttavia ammesso di sentirsi ancora attratto dall'idea di utilizzare cannabis durante i momenti di stress, ma è motivato a superare questa dipendenza. È stato deciso di monitorare la situazione attraverso una serie di esami psico-fisici per rilevare eventuali segnali di ricaduta. È stato anche suggerito di continuare il trattamento di gruppo, ma con maggiore enfasi sul miglioramento delle sue capacità di gestione dello stress.",
     "entities": [
-      {
-        "text": "comunità terapeutica",
-        "label": "ORG"
-      },
       {
         "text": "cannabis",
         "label": "SUBSTANCE"
@@ -14735,10 +14386,6 @@
     "text": "Oggi, dopo un'intensa discussione con la terapeuta, il paziente ha rivelato di avere paura della sua dipendenza dal gioco d'azzardo, accanto all'abuso di cocaina. Ha parlato del suo desiderio di cambiare ma ha ammesso che la paura di affrontare la vita senza 'la scarica' che il gioco e le sostanze gli danno lo paralizza. Gli è stato proposto un programma intensivo presso il centro di recupero 'Nuove Frontiere' per il prossimo mese. In parallelo, è stata discussa la possibilità di avviare una psicoterapia cognitivo-comportamentale per affrontare i suoi disturbi comportamentali.",
     "entities": [
       {
-        "text": "gioco d'azzardo",
-        "label": "MISC"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
@@ -14874,10 +14521,6 @@
       {
         "text": "Torino",
         "label": "GPE"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
       },
       {
         "text": "Vismara",
@@ -15104,10 +14747,6 @@
     "text": "Ha mostrato interesse per il laboratorio di ceramica. Dice che lo aiuta a distrarsi dai pensieri negativi. Durante la pausa ha parlato della madre, Anna, e del suo rapporto conflittuale con lei. Non ha fatto uso di alcol da 10 giorni, secondo quanto riferito.",
     "entities": [
       {
-        "text": "laboratorio di ceramica",
-        "label": "LOC"
-      },
-      {
         "text": "Anna",
         "label": "PER"
       },
@@ -15276,10 +14915,6 @@
       {
         "text": "stress",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "yoga",
-        "label": "MISC"
       }
     ]
   },
@@ -15486,10 +15121,6 @@
     "text": "Ha espresso il desiderio di tornare a lavorare come muratore, ma teme di non riuscire a gestire lo stress. Si è parlato della possibilità di attivare un tirocinio con la cooperativa Il Faro a partire da dicembre. Ancora forte il craving per la cocaina, soprattutto nei momenti di noia.",
     "entities": [
       {
-        "text": "muratore",
-        "label": "MISC"
-      },
-      {
         "text": "cooperativa Il Faro",
         "label": "ORG"
       },
@@ -15624,10 +15255,6 @@
   {
     "text": "Ha espresso interesse per un reinserimento lavorativo nel settore della ristorazione. Il centro diurno di San Donato ha confermato disponibilità per un tirocinio. Si segnala miglioramento dell'umore e maggiore aderenza al programma terapeutico.",
     "entities": [
-      {
-        "text": "centro diurno",
-        "label": "ORG"
-      },
       {
         "text": "San Donato",
         "label": "LOC"
@@ -15768,10 +15395,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di supporto",
-        "label": "ORG"
       }
     ]
   },
@@ -15785,14 +15408,6 @@
       {
         "text": "metadone",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "yoga",
-        "label": "MISC"
-      },
-      {
-        "text": "meditazione",
-        "label": "MISC"
       }
     ]
   },
@@ -15981,10 +15596,6 @@
         "label": "PATIENT"
       },
       {
-        "text": "centro di recupero",
-        "label": "ORG"
-      },
-      {
         "text": "Siena",
         "label": "GPE"
       },
@@ -16067,10 +15678,6 @@
       {
         "text": "20 mg",
         "label": "TREATMENT"
-      },
-      {
-        "text": "laboratorio di ceramica",
-        "label": "MISC"
       }
     ]
   },
@@ -16097,10 +15704,6 @@
       {
         "text": "3 novembre",
         "label": "DATE"
-      },
-      {
-        "text": "dormitorio",
-        "label": "LOC"
       },
       {
         "text": "Gilberto",
@@ -16158,10 +15761,6 @@
     "text": "Ha partecipato con interesse al laboratorio di ceramica. Mostra maggiore apertura verso le attività comunitarie. Continua l'assunzione di Depakin secondo prescrizione. Nessuna crisi epilettica segnalata nell'ultima settimana.",
     "entities": [
       {
-        "text": "laboratorio di ceramica",
-        "label": "LOC"
-      },
-      {
         "text": "Depakin",
         "label": "MEDICINE"
       },
@@ -16174,10 +15773,6 @@
   {
     "text": "Si è discusso della possibilità di reinserimento lavorativo presso il centro di raccolta differenziata di San Giovanni. Il paziente ha espresso timori legati alla gestione dello stress. Si propone affiancamento iniziale con tutor.",
     "entities": [
-      {
-        "text": "centro di raccolta differenziata",
-        "label": "ORG"
-      },
       {
         "text": "San Giovanni",
         "label": "GPE"
@@ -16261,10 +15856,6 @@
       {
         "text": "oppiacei",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "infanzia difficile",
-        "label": "MISC"
       }
     ]
   },
@@ -16274,10 +15865,6 @@
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "fine settimana",
-        "label": "MISC"
       },
       {
         "text": "farmaci",
@@ -16303,10 +15890,6 @@
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "violenza domestica",
-        "label": "MISC"
       },
       {
         "text": "psicoterapeutico",
@@ -16384,10 +15967,6 @@
   {
     "text": "Ha espresso il desiderio di tornare a lavorare come muratore. Dice di sentirsi più stabile rispetto a due mesi fa. La madre, Anna, conferma i miglioramenti e si dice disponibile a supportarlo nel percorso. Si valuta inserimento in progetto di reinserimento lavorativo.",
     "entities": [
-      {
-        "text": "muratore",
-        "label": "MISC"
-      },
       {
         "text": "Anna",
         "label": "PER"
@@ -16943,10 +16522,6 @@
     "text": "Oggi il paziente ha partecipato alla sessione di gruppo, mostrando segni di progressi nel trattamento. Ha dichiarato di sentirsi meno ansioso, ma ha continuato a soffrire di occasionali crisi di rabbia. Il gruppo di supporto ha lavorato su tecniche di gestione della rabbia e rilassamento. È stato discusso anche il suo impegno nel programma di recupero, e il paziente ha concordato di impegnarsi di più nelle attività quotidiane. La terapia continua con il Sert di Verona.",
     "entities": [
       {
-        "text": "gruppo di supporto",
-        "label": "ORG"
-      },
-      {
         "text": "Sert di Verona",
         "label": "ORG"
       }
@@ -17006,10 +16581,6 @@
       {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "comunità terapeutica",
-        "label": "ORG"
       }
     ]
   },
@@ -17052,10 +16623,6 @@
       {
         "text": "Morena",
         "label": "PATIENT"
-      },
-      {
-        "text": "centro",
-        "label": "ORG"
       },
       {
         "text": "miglioramento dell'umore",
@@ -17130,10 +16697,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "comunità di recupero",
-        "label": "ORG"
-      },
-      {
         "text": "Santa Michela",
         "label": "LOC"
       }
@@ -17186,16 +16749,8 @@
     "text": "Dopo l’ultimo incontro, il paziente ha manifestato una crescente consapevolezza delle sue problematiche legate al gioco d'azzardo, che erano sfociate in episodi di consumo di alcol per ‘mitigare’ il disagio. Il gruppo di supporto ha accolto con favore il suo racconto, sottolineando come l’approccio terapeutico debba essere integrato con un lavoro specifico sulla gestione del comportamento compulsivo. È stato suggerito di aumentare la frequenza delle sedute per affrontare le radici psicologiche della dipendenza.",
     "entities": [
       {
-        "text": "gioco d'azzardo",
-        "label": "MISC"
-      },
-      {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "gruppo di supporto",
-        "label": "ORG"
       }
     ]
   },
@@ -17375,10 +16930,6 @@
   {
     "text": "Oggi ha partecipato al laboratorio di ceramica con interesse. Non sono emersi segnali di disagio. La coordinatrice del centro, Silvia, ha notato un miglioramento nella gestione delle emozioni. Si conferma la prosecuzione del programma terapeutico attuale.",
     "entities": [
-      {
-        "text": "laboratorio di ceramica",
-        "label": "LOC"
-      },
       {
         "text": "Silvia",
         "label": "PER"
