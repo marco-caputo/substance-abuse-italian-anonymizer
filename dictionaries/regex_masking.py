@@ -36,6 +36,7 @@ nations_file_path = os.path.join(dictionaries_path, "nazioni_it.txt")
 names_file_path = os.path.join(dictionaries_path, "nomi_it.txt")
 provinces_file_path = os.path.join(dictionaries_path, "province_it.txt")
 regions_file_path = os.path.join(dictionaries_path, "regioni_it.txt")
+ambiguous_names_file_path = os.path.join(dictionaries_path, "ambiguous_names.txt")
 
 
 
@@ -53,6 +54,12 @@ provinces_dict = tokenize_file(provinces_file_path)
 regions_dict = tokenize_file(regions_file_path)
 municipalities_dict = tokenize_file(municipalities_file_path)
 names_dict = tokenize_file(names_file_path)
+ambiguous_names_dict = tokenize_file(ambiguous_names_file_path)
+
+for ambiguous in ambiguous_names_dict:
+    if ambiguous in names_dict:
+        names_dict.remove(ambiguous)
+
 
 
 def mask_entities_from_dict(text: str, dictionary: List[str], tag: str, flags = 0) -> str:
@@ -76,6 +83,7 @@ result = mask_entities_from_dict(result, regions_dict, gpe_tag, re.IGNORECASE)
 result = mask_entities_from_dict(result, municipalities_dict, gpe_tag, re.IGNORECASE)
 result = mask_entities_from_dict(result, provinces_dict, prov_tag)
 result = mask_entities_from_dict(result, names_dict, name_tag, re.IGNORECASE)
+
 print(result)
 
 simple_email_re = r"[A-Za-z0-9._%+-]+@+[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
@@ -126,4 +134,20 @@ masked_codes_text = re.sub(pattern, code_tag, codes_text)
 print(masked_codes_text)
 
 
+def mask_ambiguous_names(text: str, ambiguous_names: List[str], tag: str) -> str:
+    """
+    Mask ambiguous names from `ambiguous_names` list (case-insensitive, preserves accents).
+    Longer names are placed first to avoid partial matches (e.g. 'Marco Antonio' before 'Marco').
+    """
+    if not ambiguous_names:
+        return text
+    # normalize to NFC so composed/decomposed forms match consistently
+    text_nfc = unicodedata.normalize("NFC", text)
+    # sort by length desc to prefer multi-word/longer names
+    normalized_nemes  = [w[0].upper() + w[1:] for w in ambiguous_names]
+    names_sorted = sorted(set(normalized_nemes), key=len, reverse=True)
+    pattern = r"\b(?:" + "|".join(re.escape(n) for n in names_sorted) + r")\b"
+    return re.sub(pattern, tag, text_nfc)
 
+ambiguous_masked_text = mask_ambiguous_names("Annunziato, annunziato, Arido, arido", ambiguous_names_dict, name_tag)
+print(ambiguous_masked_text)
