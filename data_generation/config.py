@@ -157,14 +157,14 @@ Always respond with data samples that follow exactly this format, with no text b
 Ensure correct JSON syntax, no explanations, and no Markdown code fences.
 """
 
-PROMPT_REPORTS_1 = lambda intro, outro, docname, name, address, chapters: """
+PROMPT_REPORTS_1 = lambda intro, outro, docname, name, address, chapters, prob: """
 Generate a realistic synthetic Italian therapeutic or clinical reports for substance abuse treatment named \""""+ docname + """\" for the patient """+ name + """ living in """ + address + """
 
 Include different chapters with different headers from the example, describing the clinical situation of the patient for different aspects of the clinical situation, for instance: """+ chapters + """, etc. A conclusive section is not necessary, but possible. Include at most 5 chapters and make it long.
-Outside of the introduction, place named entities (e.g. GPEs, dates, named people including the patient, organizations, non-GPE physical locations or areas...) with a very small probability.
+Outside of the introduction, place named entities (e.g. GPEs, dates, named people, organizations, non-GPE physical locations or areas, nationalities...) with """+ prob + """ probability.
 Feel free to invent stories and use imagination. 
  
- Make it in JSON format like the following one. Introduction and ending should be similar, reporting the same type of information (e.g. province, contacts ...), but the rest of the text can be different from this example in both the structure and type of information. Also pay attention on how the patient is referred throughout the text (like E.), avoiding to use always the same pattern.
+ Make it in JSON format like the following one. The text can be different from this example in both the structure and type of information. Also pay attention on how the patient is referred throughout the text (like E.), avoiding to use always the same pattern.
 
 {
 "text": \"RELAZIONE AI SERVIZI\n"""+ intro + """\n\n
