@@ -1,12 +1,12 @@
 ENTITIES = [                # Possible NER labels
     {"label": "PATIENT",        "desc": "Names and/or surnames of the patient", "examples": "(e.g. 'Giovanni Verdi', 'Luca')"},
     {"label": "AGE",            "desc": "Person age", "examples": "(e.g. '35 anni', '42enne')"},
-    {"label": "PER",            "desc": "Named people other than the patient, like family members, healthcare professionals", "examples": "(e.g. 'Dott.ssa Rossi', 'Mario Bianchi', 'G. Verdi', 'famiglia Visconti')"},
+    {"label": "PER",            "desc": "Named people other than the patient, like family members, healthcare professionals", "examples": "(e.g. 'Rossi', 'Mario Bianchi', 'G. Verdi', 'Visconti')"},
     {"label": "DATE",           "desc": "Dates or absolute time references", "examples": "(e.g. '5 maggio', '2020', '20/03/2021')"},
     {"label": "ORG",            "desc": "Specific organization", "examples": "(e.g. 'SerT di Milano', 'ASL', 'Comunità terapeutica')"},
     {"label": "GPE",            "desc": "Specific geo-political locations", "examples": "(e.g. 'Germania', 'Marche', 'Milano')"},
     {"label": "LOC",            "desc": "Specific non-GPE physical locations or areas", "examples": "(e.g. 'Bar dello Sport', 'via Roma')"},
-    {"label": "MISC",           "desc": "Miscellaneous entities, including events, nationalities, products or works of art, job positions", "examples": "(e.g. 'Sagra della porchetta', 'messicano', 'X-Factor', 'magazziniere')"},
+    {"label": "MISC",           "desc": "Miscellaneous entities, including events, nationalities, products or works of art", "examples": "(e.g. 'Sagra della porchetta', 'messicano', 'X-Factor')"},
     {"label": "SUBSTANCE",      "desc": "Specific substance of abuse", "examples": "(e.g. 'oppioidi', 'cocaina', 'metadone')"},
     {"label": "SYMPTOM",        "desc": "Specific symptom or sign", "examples": "(e.g. 'ansia', 'insonnia', 'dolore addominale')"},
     {"label": "MEDICINE",       "desc": "Specific pharmacological substance", "examples": "(e.g. 'metadone', 'diazepam')"},
@@ -235,7 +235,7 @@ PROMPT_REPORTS_2 = lambda report: """
 
 SEED_PATH_DIARIES = "seed_samples/translated_data_it.csv"
 
-TRAIN_TEST_SPLIT_DIARIES = 0.99  # Proportion of data to use for training vs. testing
+TRAIN_TEST_SPLIT_DIARIES = 0.85  # Proportion of data to use for training vs. testing
 
 SYSTEM_PROMPT_DIARIES = """
 You are tasked with generating synthetic training data for a Named Entity Recognition (NER) system that 

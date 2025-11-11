@@ -385,10 +385,6 @@
       {
         "text": "Federazione Italiana Pesistica",
         "label": "ORG"
-      },
-      {
-        "text": "63 kg",
-        "label": "MISC"
       }
     ]
   },
@@ -520,10 +516,6 @@
       {
         "text": "Parco Naturale del Gran Paradiso",
         "label": "LOC"
-      },
-      {
-        "text": "4 miglia",
-        "label": "MISC"
       }
     ]
   },
@@ -537,10 +529,6 @@
       {
         "text": "Piazza San Giovanni",
         "label": "LOC"
-      },
-      {
-        "text": "chiesa",
-        "label": "MISC"
       }
     ]
   },
@@ -618,10 +606,6 @@
       {
         "text": "Mturk",
         "label": "ORG"
-      },
-      {
-        "text": "23 dollari",
-        "label": "MISC"
       },
       {
         "text": "magnesio",
@@ -760,10 +744,6 @@
   {
     "text": "Il lavoro è piuttosto importante perché vi trascorro la maggior parte della mia giornata. Non è successo nulla di particolarmente eccitante o interessante, ma è stato piuttosto affollato, come di solito accade. Dato che siamo dipendenti federali che sono esentati dal licenziamento, ma non sono pagati per lavorare, abbiamo trascorso gran parte della giornata a parlare della chiusura e di ciò che Donald Trump sta facendo per cercare di alleviarla.",
     "entities": [
-      {
-        "text": "dipendenti federali",
-        "label": "ORG"
-      },
       {
         "text": "Donald Trump",
         "label": "PER"
@@ -1003,10 +983,6 @@
         "label": "ORG"
       },
       {
-        "text": "personale aziendale",
-        "label": "ORG"
-      },
-      {
         "text": "stanco",
         "label": "SYMPTOM"
       }
@@ -1050,10 +1026,6 @@
         "label": "ORG"
       },
       {
-        "text": "margherita",
-        "label": "MISC"
-      },
-      {
         "text": "città",
         "label": "GPE"
       }
@@ -1080,10 +1052,6 @@
   {
     "text": "Oggi ho trascorso del tempo con una studentessa al lavoro che fa volontariato in ospedale. Sta lavorando al suo MSW e abbiamo discusso del suo progetto di laurea.",
     "entities": [
-      {
-        "text": "ospedale",
-        "label": "LOC"
-      },
       {
         "text": "MSW",
         "label": "MISC"
@@ -1114,10 +1082,6 @@
   {
     "text": "Oggi al lavoro ho avuto la possibilità di catalogare un libro da 40.000 dollari che era un bene prezioso del mio capo, il dottor Sanguineti. Stava per cadere a pezzi, ma sono riuscito a sfogliarlo, a tradurre un po' di tedesco e a metterlo in vendita online tramite Sotheby's. Il mio capo era soddisfatto.",
     "entities": [
-      {
-        "text": "40.000 dollari",
-        "label": "MISC"
-      },
       {
         "text": "Sanguineti",
         "label": "PER"
@@ -1159,10 +1123,6 @@
       {
         "text": "Parco Nazionale del Circeo",
         "label": "LOC"
-      },
-      {
-        "text": "airone cenerino",
-        "label": "MISC"
       }
     ]
   },
@@ -1296,12 +1256,7 @@
   },
   {
     "text": "La cosa più importante nella mia vita è sempre Dio o la mia salvezza. Mi fa sentire calmo o in pace sapendo che, indipendentemente da ciò che la vita mi mette davanti, lui è sul trono e combatte le mie battaglie per me e io starò bene.",
-    "entities": [
-      {
-        "text": "Dio",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "IL TEAM MARKETING SI È RIUNITO PER RIVEDERE IL NOSTRO PROGRAMMA DI MARKETING PER L'AZIENDA. I PROGRESSI COMPIUTI SONO STATI STRAORDINARI E SONO ORGOGLIOSO DI ESSERE IL LEADER DI QUESTO TEAM. Abbiamo presentato i risultati alla direzione di Ferrero e ricevuto feedback positivi.",
@@ -1672,10 +1627,6 @@
       {
         "text": "Volta",
         "label": "PER"
-      },
-      {
-        "text": "film horror",
-        "label": "MISC"
       },
       {
         "text": "felice",
@@ -2418,10 +2369,6 @@
     "text": "È stato uno di quei giorni in cui non sembravano esserci attività. I bambini erano a scuola, ma sono tornati a casa tutti eccitati. Non volevano accontentarsi di fare i compiti, volevano litigare tra di loro, odiavano la cena. Ma quella sera siamo riusciti a concentrarci su ciò che andava fatto, cioè andare in chiesa per la veglia di Pentecoste.",
     "entities": [
       {
-        "text": "chiesa",
-        "label": "LOC"
-      },
-      {
         "text": "veglia di Pentecoste",
         "label": "MISC"
       }
@@ -2762,12 +2709,7 @@
   },
   {
     "text": "Lavoravo tutto il giorno, quindi era la parte più importante della mia giornata. Questo mi ha causato un forte stress perché avevo molto lavoro. La frustrazione è cresciuta anche perché è successo che avevamo una scadenza da rispettare e in quel momento sembrava impossibile.",
-    "entities": [
-      {
-        "text": "scadenza",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ieri ho lavorato 9 ore, il che è stato positivo perché mi hanno pagato gli straordinari. È stata una giornata di routine, ma molto varia, quindi è passata in fretta!",
@@ -2779,12 +2721,7 @@
   },
   {
     "text": "Lavoro in un asilo per cani e per 10 ore sono in una stanza rumorosa e puzzolente con cani che litigano, defecano e cercano di saltarmi addosso. Ieri pioveva, quindi non siamo nemmeno usciti a correre. Ero esausta e uno dei cani mi ha fatto la pipì sulla scarpa, ed è l'unico paio che ho, quindi sapevo che il giorno dopo avrei avuto le scarpe bagnate. Quando sono scesa ero così esausta e sopraffatta che ho pianto in macchina.",
-    "entities": [
-      {
-        "text": "asilo per cani",
-        "label": "ORG"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Lavoro una lunga e dura giornata presso l'Ospedale San Raffaele e mi godo il riposo notturno.",
@@ -3003,10 +2940,6 @@
     "text": "Ho fatto una passeggiata al parco vicino casa. Era tranquillo, ma ho visto un uomo con un cane, un golden retriever di nome Max, che stava camminando lungo il sentiero. Mi ha fatto piacere vedere Max, è un cane davvero dolce.",
     "entities": [
       {
-        "text": "golden retriever",
-        "label": "MISC"
-      },
-      {
         "text": "Max",
         "label": "PER"
       },
@@ -3094,18 +3027,6 @@
       {
         "text": "Coop",
         "label": "ORG"
-      },
-      {
-        "text": "pollo biologico",
-        "label": "MISC"
-      },
-      {
-        "text": "avocado fresco",
-        "label": "MISC"
-      },
-      {
-        "text": "salsa piccante",
-        "label": "MISC"
       }
     ]
   },
@@ -3222,12 +3143,7 @@
   },
   {
     "text": "Sono stato molto contento di essere fuori a godermi un po' di tempo libero dal lavoro e ho potuto acquistare alcuni oggetti che aspettavo con ansia per il mio hobby collezionistico. È stato il momento più bello della mia settimana.",
-    "entities": [
-      {
-        "text": "lavoro",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Sono stata molto contenta di fare tanto esercizio ieri, perché ultimamente mi mancava proprio.",
@@ -3528,10 +3444,6 @@
     "text": "Ero in centro e ho incontrato un mio vecchio amico alla stazione degli autobus. Non andiamo sempre d'accordo e lui era di cattivo umore, così abbiamo finito per fare un lungo viaggio in autobus insieme, per lo più in un imbarazzante silenzio. La stazione era quella di Via Vattimo, sempre affollata a quell'ora.",
     "entities": [
       {
-        "text": "stazione degli autobus",
-        "label": "LOC"
-      },
-      {
         "text": "Via Vattimo",
         "label": "LOC"
       }
@@ -3583,10 +3495,6 @@
   {
     "text": "Sono riuscito a fare alcuni lavori di riparazione a casa mia. Si tratta di una sorta di progetto di lavoro perché lavoro proprio sotto l'area su cui ho lavorato (il mio ufficio a casa). Ho anche installato una nuova lampada acquistata da IKEA.",
     "entities": [
-      {
-        "text": "ufficio a casa",
-        "label": "LOC"
-      },
       {
         "text": "IKEA",
         "label": "ORG"
@@ -3711,10 +3619,6 @@
         "label": "PER"
       },
       {
-        "text": "lasagna alla bolognese",
-        "label": "MISC"
-      },
-      {
         "text": "Bologna",
         "label": "GPE"
       }
@@ -3744,16 +3648,7 @@
   },
   {
     "text": "Ho cercato di realizzare qualcosa come parte di un hobby, ma ho fallito dopo ripetuti tentativi. Ho provato a costruire un piccolo giardino verticale in casa, ma il mio giardino di erbe aromatiche non è riuscito a crescere come speravo. Mi sono un po' scoraggiata, ma ho deciso di continuare a provare.",
-    "entities": [
-      {
-        "text": "giardino verticale",
-        "label": "MISC"
-      },
-      {
-        "text": "erbe aromatiche",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Sono andato in Florida per iniziare una vacanza con la moglie. Siamo arrivati a Miami il 10 ottobre e siamo stati subito accolti da un clima caldo e umido. Sono contento che finora le cose stiano andando bene. Abbiamo anche visitato le Everglades e visto molti alligatori.",
@@ -3773,10 +3668,6 @@
       {
         "text": "Everglades",
         "label": "LOC"
-      },
-      {
-        "text": "alligatori",
-        "label": "MISC"
       }
     ]
   },
@@ -4050,10 +3941,6 @@
         "label": "PER"
       },
       {
-        "text": "parco per cani",
-        "label": "LOC"
-      },
-      {
         "text": "Ezio",
         "label": "PER"
       },
@@ -4142,10 +4029,6 @@
       {
         "text": "Vincenzo",
         "label": "PER"
-      },
-      {
-        "text": "parco",
-        "label": "LOC"
       }
     ]
   },
@@ -4238,10 +4121,6 @@
     "text": "Ieri ho ricevuto buone notizie sul mio lavoro. Ero orgoglioso di me stesso perché sono il numero 6 su diverse centinaia di persone per la mia precisione. Questa convalida che ho ricevuto da parte di Humanitas e il bonus che ne deriverà mi entusiasmano.",
     "entities": [
       {
-        "text": "numero 6",
-        "label": "MISC"
-      },
-      {
         "text": "Humanitas",
         "label": "ORG"
       }
@@ -4272,14 +4151,6 @@
   {
     "text": "Ho apprezzato molto i miei pasti di ieri, soprattutto il pranzo a base di risotto alla milanese e una spremuta d'arancia fresca, consigliata dalla mia nutrizionista, la dottoressa Filzi.",
     "entities": [
-      {
-        "text": "risotto alla milanese",
-        "label": "MISC"
-      },
-      {
-        "text": "spremuta d'arancia",
-        "label": "MISC"
-      },
       {
         "text": "Filzi",
         "label": "PER"
@@ -4573,10 +4444,6 @@
   {
     "text": "Amo il mio lavoro, amo andare a lavorare in ospedale per salvare vite e aiutare gli altri a vivere meglio. Stamattina ho assistito un paziente con diabete di tipo 2 e gli ho somministrato metformina secondo le indicazioni del dottor Granatelli.",
     "entities": [
-      {
-        "text": "ospedale",
-        "label": "LOC"
-      },
       {
         "text": "diabete di tipo 2",
         "label": "DISEASE"
@@ -4996,10 +4863,6 @@
       {
         "text": "calcoli renali",
         "label": "DISEASE"
-      },
-      {
-        "text": "4 euro",
-        "label": "MISC"
       }
     ]
   },
@@ -5079,10 +4942,6 @@
   {
     "text": "Ieri ho mangiato sushi al ristorante Tokyo Garden. Era buono. Mi ha reso felice. Era gustoso. Mi ha messo di buon umore.",
     "entities": [
-      {
-        "text": "sushi",
-        "label": "MISC"
-      },
       {
         "text": "Tokyo Garden",
         "label": "ORG"
@@ -5583,12 +5442,7 @@
   },
   {
     "text": "Sapendo che il tempo si era fatto freddo e pessimo e che alla fine della settimana la mia giornata lavorativa sarebbe stata interrotta da altre responsabilità, è stato molto più soddisfacente riuscire a portare a termine una quantità di lavoro superiore alla media. Sono anche riuscita a concentrarmi e a organizzare alcune faccende domestiche e progetti personali imminenti, in particolare alcune fotografie che voglio realizzare. Guadagnare più soldi ora mi mette a mio agio quando, nel corso del mese, mi mancherà del tempo da dedicare al lavoro per portare avanti questo tipo di progetti personali.",
-    "entities": [
-      {
-        "text": "fotografie",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ho avuto una buona giornata, come speravo e come pregavo. Ieri mattina ho pregato Dio di volere una buona giornata e soprattutto un buon profitto per la mia attività. Grazie a Dio per la preghiera esaudita, ieri ho fatto dei buoni affari con un cliente della Banca Popolare di Milano e oggi sono un po' più ricco di prima.",
@@ -5810,10 +5664,6 @@
     "text": "Ho trovato una ricetta online per una torta al cioccolato e l'ho fatta. A volte la mia cucina non è molto buona, ma questa volta è stata eccellente. Ho usato un cioccolato fondente Lindt e l'effetto è stato davvero sorprendente.",
     "entities": [
       {
-        "text": "torta al cioccolato",
-        "label": "MISC"
-      },
-      {
         "text": "cioccolato fondente Lindt",
         "label": "MISC"
       }
@@ -5827,10 +5677,6 @@
         "label": "MISC"
       },
       {
-        "text": "versione 0.225",
-        "label": "MISC"
-      },
-      {
         "text": "Android",
         "label": "MISC"
       }
@@ -5840,15 +5686,7 @@
     "text": "Ho finalmente terminato un braccialetto di perline a mano che stavo cercando di imparare da oltre un mese. Mi ha fatto sentire bene averlo finito. È anche molto carino. Ho usato perline in cristallo Swarovski e le ho assemblate con filo d'acciaio. È diventato un bel regalo per mia sorella, Laura.",
     "entities": [
       {
-        "text": "braccialetto di perline",
-        "label": "MISC"
-      },
-      {
         "text": "cristallo Swarovski",
-        "label": "MISC"
-      },
-      {
-        "text": "filo d'acciaio",
         "label": "MISC"
       },
       {
@@ -5880,29 +5718,12 @@
       {
         "text": "Roma",
         "label": "GPE"
-      },
-      {
-        "text": "legge sul benessere psicologico",
-        "label": "MISC"
-      },
-      {
-        "text": "governo italiano",
-        "label": "ORG"
       }
     ]
   },
   {
     "text": "Mi sono sentita molto bene e felice per la mia famiglia, come ogni giorno. Sono molto grata per loro. I miei genitori, che sono entrambi pensionati, stanno bene e continuano a fare lunghe passeggiate nel parco vicino a casa.",
-    "entities": [
-      {
-        "text": "pensionati",
-        "label": "MISC"
-      },
-      {
-        "text": "parco vicino a casa",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ieri mi sono sentita molto calma e rilassata mentre mi rilassavo e leggevo. È stata una cosa molto bella e mi piace farlo ogni giorno. Ho anche letto un libro interessante sul trattamento dell'insonnia, che mio zio Carlo mi ha consigliato. È un medico che lavora all'ospedale di Napoli.",
@@ -5924,14 +5745,6 @@
   {
     "text": "Ho sentito che abbiamo legato molto ieri e questo durante la nostra sessione di sesso. Mi è sembrato che avessimo quella connessione spirituale che si vede solo nei film. Ho sentito parlare di un trattamento psicologico innovativo che potrebbe aiutarci a migliorare la nostra comunicazione emotiva. Il mio terapeuta, dottor Valguarnera, ne ha parlato durante la nostra ultima sessione.",
     "entities": [
-      {
-        "text": "sessione di sesso",
-        "label": "MISC"
-      },
-      {
-        "text": "connessione spirituale",
-        "label": "MISC"
-      },
       {
         "text": "Valguarnera",
         "label": "PER"
@@ -6002,10 +5815,6 @@
   {
     "text": "Ieri ho sentito Dio con me per tutto il giorno. Mi ha fatto sentire molto benedetta, e ho pensato spesso a mia madre, che è sempre stata un esempio di fede per me.",
     "entities": [
-      {
-        "text": "Dio",
-        "label": "MISC"
-      },
       {
         "text": "mia madre",
         "label": "PER"
@@ -6220,10 +6029,6 @@
     "text": "Ho fatto i miei esercizi alla club house. Ho fatto 3,2 km sul tapis roulant e poi ho sollevato pesi. Oggi mi sono sentita molto forte e piena di energia. Un'ottima giornata di allenamento, anche se ho avuto un po' di tachicardia dopo lo sforzo.",
     "entities": [
       {
-        "text": "club house",
-        "label": "LOC"
-      },
-      {
         "text": "3,2 km",
         "label": "EXAMINATION"
       },
@@ -6276,10 +6081,6 @@
     "text": "Ho portato a termine un grande progetto di lavoro che durava da mesi. È stata una bella sensazione portarlo a termine con successo. Mi ha dato una sensazione di realizzazione, orgoglio e fiducia. Ho anche sentito il bisogno di rilassarmi un po' e sono andato alla spa per un massaggio terapeutico, che mi ha aiutato a distendermi dopo il lungo periodo di stress.",
     "entities": [
       {
-        "text": "spa",
-        "label": "LOC"
-      },
-      {
         "text": "massaggio terapeutico",
         "label": "TREATMENT"
       }
@@ -6306,10 +6107,6 @@
     "text": "Ho partecipato a un gruppo di studio con amici. Non vedevo l'ora di andarci e mi sono divertita molto. Ho potuto dire le cose che mi passavano per la testa e ascoltare anche gli altri. Molto incoraggiante. Durante la discussione, abbiamo parlato di vari temi, tra cui la recente conferenza sulla nutrizione tenuta all'Università di Bologna.",
     "entities": [
       {
-        "text": "conferenza sulla nutrizione",
-        "label": "MISC"
-      },
-      {
         "text": "Università di Bologna",
         "label": "ORG"
       }
@@ -6318,10 +6115,6 @@
   {
     "text": "Ieri ho mangiato troppo cibo spazzatura e mi sento un po' appesantito oggi. Ho deciso di fare una passeggiata al parco per cercare di smaltirlo. Mi sento anche un po' gonfio, ma non è niente di grave.",
     "entities": [
-      {
-        "text": "parco",
-        "label": "LOC"
-      },
       {
         "text": "gonfio",
         "label": "SYMPTOM"
@@ -6669,10 +6462,6 @@
         "label": "PER"
       },
       {
-        "text": "elezioni statali di martedì",
-        "label": "MISC"
-      },
-      {
         "text": "2016",
         "label": "DATE"
       }
@@ -6798,10 +6587,6 @@
       {
         "text": "Laura",
         "label": "PER"
-      },
-      {
-        "text": "pronto soccorso",
-        "label": "LOC"
       },
       {
         "text": "mal di testa",
@@ -6970,12 +6755,7 @@
   },
   {
     "text": "Adoro cucinare. Sono molto brava e questo mi evita di spendere sempre troppi soldi per il cibo, soprattutto per i piatti che richiedono ingredienti particolari come il tartufo, che è costoso. Adesso, però, sto cercando di usare anche prodotti locali e stagionali.",
-    "entities": [
-      {
-        "text": "tartufo",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ieri ho finalmente terminato il video di allenamento di un'ora che rimandavo da tempo. Le parole non possono esprimere quanto fossi orgogliosa di me stessa e quanto fossi felice quando il video è finito. Dopo aver fatto il video, mi sono sentita veramente in forma, come se avessi raggiunto un nuovo obiettivo.",
@@ -7130,7 +6910,7 @@
         "label": "PER"
       },
       {
-        "text": "torta al cioccolato tedesca",
+        "text": "tedesca",
         "label": "MISC"
       }
     ]
@@ -7145,10 +6925,6 @@
       {
         "text": "Roma",
         "label": "GPE"
-      },
-      {
-        "text": "aragosta",
-        "label": "MISC"
       },
       {
         "text": "Gian",
@@ -7324,10 +7100,6 @@
       {
         "text": "Tiziano Turchi",
         "label": "PER"
-      },
-      {
-        "text": "parco",
-        "label": "LOC"
       }
     ]
   },
@@ -7337,10 +7109,6 @@
       {
         "text": "Paolo",
         "label": "PER"
-      },
-      {
-        "text": "bistecca di manzo",
-        "label": "MISC"
       },
       {
         "text": "Policlinico Gemelli",
@@ -7442,10 +7210,6 @@
     "text": "Dopo aver lasciato lo studio medico ieri, sono tornata a casa e ho dormito per 14 ore. Credo di averne bisogno. Ho incontrato anche il mio medico, il Dott. Luigi Botticelli, che mi ha rassicurato sul mio stato di salute, dicendomi che sono sulla strada giusta per recuperare.",
     "entities": [
       {
-        "text": "studio medico",
-        "label": "LOC"
-      },
-      {
         "text": "Luigi Botticelli",
         "label": "PER"
       },
@@ -7458,10 +7222,6 @@
   {
     "text": "Ho rimandato di fare il bucato per almeno due settimane e finalmente ieri mi sono decisa a farlo. Avevo comunque bisogno di uscire di casa. Sono andata a fare una passeggiata nel parco, dove ho incontrato il mio vecchio amico Flavio che non vedevo da mesi. Mi ha raccontato della sua nuova vita a Milano.",
     "entities": [
-      {
-        "text": "parco",
-        "label": "LOC"
-      },
       {
         "text": "Flavio",
         "label": "PER"
@@ -7478,14 +7238,6 @@
       {
         "text": "Bartolomeo",
         "label": "PER"
-      },
-      {
-        "text": "motorizzazione",
-        "label": "LOC"
-      },
-      {
-        "text": "ingegnere",
-        "label": "MISC"
       },
       {
         "text": "Bologna",
@@ -7614,10 +7366,6 @@
       {
         "text": "via Garibaldi",
         "label": "LOC"
-      },
-      {
-        "text": "french toast",
-        "label": "MISC"
       }
     ]
   },
@@ -7652,10 +7400,6 @@
       {
         "text": "Emilia",
         "label": "PER"
-      },
-      {
-        "text": "lasagne",
-        "label": "MISC"
       }
     ]
   },
@@ -8062,7 +7806,7 @@
     "text": "Oggi ho fatto il secondo lotto di yogurt greco con la mia nuova pentola istantanea della marca Instant Pot. Mi costa 1,65 dollari al litro rispetto ai quasi 5 dollari al litro del supermercato Coop, ed è anche più buono!",
     "entities": [
       {
-        "text": "yogurt greco",
+        "text": "greco",
         "label": "MISC"
       },
       {
@@ -8651,10 +8395,6 @@
       {
         "text": "Roma",
         "label": "GPE"
-      },
-      {
-        "text": "compleanno",
-        "label": "MISC"
       }
     ]
   },
@@ -8702,10 +8442,6 @@
       },
       {
         "text": "World of Warcraft",
-        "label": "MISC"
-      },
-      {
-        "text": "63° giocatore",
         "label": "MISC"
       }
     ]
@@ -8922,10 +8658,6 @@
       {
         "text": "Milano",
         "label": "GPE"
-      },
-      {
-        "text": "congresso sull'innovazione medica",
-        "label": "MISC"
       }
     ]
   },
@@ -8966,10 +8698,6 @@
   {
     "text": "Ho potuto iniziare a guardare un documentario con il mio partner; è stato avvincente. Abbiamo visto un episodio su come la medicina moderna stia migliorando le cure per il diabete di tipo 2. Ho trovato interessante l'idea di utilizzare nuove terapie farmacologiche per trattare questa malattia.",
     "entities": [
-      {
-        "text": "documentario",
-        "label": "MISC"
-      },
       {
         "text": "diabete di tipo 2",
         "label": "DISEASE"
@@ -9206,12 +8934,7 @@
   },
   {
     "text": "Ho fatto esercizio fisico al parco vicino a casa e mi è sembrato normale essere nella mia routine. È noioso, ma mi sento in forma e meno stressata. Ho anche notato che ho perso un po' di peso, il che mi rende più motivata a continuare.",
-    "entities": [
-      {
-        "text": "parco vicino a casa",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ho mangiato Chipotle per cena, cosa che di solito non posso permettermi, ma ho fatto un po' di spese ed era delizioso. Devo però stare attenta alla mia alimentazione perché il dottor Fiorucci mi ha detto che ho il colesterolo alto e che devo seguire una dieta più equilibrata.",
@@ -9478,10 +9201,6 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "progetti in corso",
-        "label": "MISC"
-      },
-      {
         "text": "insonnia",
         "label": "SYMPTOM"
       }
@@ -9576,10 +9295,6 @@
     "text": "Ero entusiasta, frustrato e soddisfatto del mio esercizio. Ho fatto una corsa lunga 5 km nel Parco di Monza, un percorso che mi aiuta a liberare la mente. A volte, però, mi sentivo frustrata perché mi mancava il fiato. Ma nel complesso la soddisfazione di averlo portato a termine è stata grande.",
     "entities": [
       {
-        "text": "5 km",
-        "label": "MISC"
-      },
-      {
         "text": "Parco di Monza",
         "label": "LOC"
       }
@@ -9587,12 +9302,7 @@
   },
   {
     "text": "Mi piace avere il tempo per rilassarmi e fare quello che voglio. Ieri ho passato un'ora al centro benessere, un massaggio rilassante mi ha fatto sentire rinata. Oggi, però, sono un po' stanca per il lavoro.",
-    "entities": [
-      {
-        "text": "centro benessere",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Sono riuscito a superare le riconciliazioni mensili più difficili per il mio lavoro. È stato difficile e ha richiesto molto tempo, ma è sempre bene togliersi d'impaccio. A volte, però, lo stress di dover terminare il tutto mi ha messo un po' di ansia.",
@@ -10035,10 +9745,6 @@
         "label": "PER"
       },
       {
-        "text": "ospedale",
-        "label": "LOC"
-      },
-      {
         "text": "Paolo Giordano",
         "label": "PER"
       },
@@ -10063,20 +9769,7 @@
   },
   {
     "text": "Non me la sentivo di fare un'escursione prima di decidere di farla. Mi faceva un po' male la pancia e so di essere fuori forma. Alla fine abbiamo fatto un'escursione più lunga di quella che volevamo, il che si è rivelato positivo per la mia salute. Mi sono assicurata di bere molta acqua e di mangiare un pasto a basso contenuto di carboidrati quando sono tornata a casa. Ho potuto riposare a lungo e mi sono sentita in forma per tutta la giornata.",
-    "entities": [
-      {
-        "text": "escursione",
-        "label": "MISC"
-      },
-      {
-        "text": "escursione",
-        "label": "MISC"
-      },
-      {
-        "text": "basso contenuto di carboidrati",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ho fatto il pane. Era molto buono. Ho usato la farina tipo 00, che ho comprato al supermercato Coop. Mi è venuto perfetto, anche se mi sono un po' distratta durante la cottura. Ho deciso di farne di più domani, magari provando una ricetta diversa.",
@@ -10136,12 +9829,7 @@
   },
   {
     "text": "Ieri ho fatto una breve passeggiata per fare un po' di esercizio. Ho fatto una passeggiata nel parco vicino a casa mia. È stato rilassante e divertente.",
-    "entities": [
-      {
-        "text": "parco",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Mi sono allenata per più di 90 minuti nella palestra FitTime di Milano. È stato faticoso e non ne avevo voglia, ma il mio fisioterapista Gionata mi aveva consigliato di riprendere gradualmente dopo la lombalgia, quindi sono felice di averlo superato.",
@@ -10487,10 +10175,6 @@
         "label": "PER"
       },
       {
-        "text": "risotto alla milanese",
-        "label": "MISC"
-      },
-      {
         "text": "Milano",
         "label": "GPE"
       }
@@ -10653,10 +10337,6 @@
       {
         "text": "TechInnovations",
         "label": "ORG"
-      },
-      {
-        "text": "supply chain",
-        "label": "MISC"
       }
     ]
   },
@@ -10752,10 +10432,6 @@
       {
         "text": "Bernardi",
         "label": "PER"
-      },
-      {
-        "text": "yoga",
-        "label": "MISC"
       }
     ]
   },
@@ -10826,10 +10502,6 @@
   {
     "text": "Ho provato una nuova ricetta di chili per la mia pentola di coccio. Adoro mangiare, quindi ero molto contenta che la ricetta fosse venuta bene. Ho usato anche dei fagioli rossi della marca Barilla. Ero entusiasta del fatto che la nuova ricetta fosse buona, perché non è sempre così.",
     "entities": [
-      {
-        "text": "chili",
-        "label": "MISC"
-      },
       {
         "text": "Barilla",
         "label": "ORG"
@@ -10911,10 +10583,6 @@
       {
         "text": "Liberto",
         "label": "PER"
-      },
-      {
-        "text": "anniversario",
-        "label": "MISC"
       },
       {
         "text": "La Pergola",
@@ -11483,10 +11151,6 @@
     "text": "Ieri ho fatto volontariato al negozio dell'usato che finanzia il rifugio per i senzatetto a Milano. Mi fa sentire bene aiutare, anche se si tratta solo di organizzare il negozio. Sento che il mio piccolo lavoro contribuisce a ciò che gli altri fanno per rendere possibile la missione. Ogni tanto mi sento molto fortunata a poter fare la differenza.",
     "entities": [
       {
-        "text": "rifugio per i senzatetto",
-        "label": "ORG"
-      },
-      {
         "text": "Milano",
         "label": "GPE"
       }
@@ -11541,10 +11205,6 @@
       {
         "text": "La Pergola",
         "label": "ORG"
-      },
-      {
-        "text": "centro",
-        "label": "LOC"
       }
     ]
   },
@@ -11575,28 +11235,11 @@
   },
   {
     "text": "Mi piace giocare a kendama in ricreazione così tanto divertente. È un gioco che faccio con i miei amici durante la pausa pranzo al parco vicino alla scuola.",
-    "entities": [
-      {
-        "text": "kendama",
-        "label": "MISC"
-      },
-      {
-        "text": "parco",
-        "label": "LOC"
-      },
-      {
-        "text": "scuola",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ho iniziato a lavorare su un nuovo progetto al lavoro con alcuni dei miei migliori colleghi e sono ansioso di continuare a lavorare al loro fianco fino al completamento di questo compito. Il progetto riguarda l'implementazione di nuove tecnologie all'interno della nostra azienda, che si chiama 'Innovazione Srl'.",
     "entities": [
-      {
-        "text": "tecnologie",
-        "label": "MISC"
-      },
       {
         "text": "Innovazione Srl",
         "label": "ORG"
@@ -11631,14 +11274,6 @@
       {
         "text": "Laura",
         "label": "PER"
-      },
-      {
-        "text": "keto",
-        "label": "MISC"
-      },
-      {
-        "text": "keto",
-        "label": "MISC"
       },
       {
         "text": "magnesio",
@@ -11916,14 +11551,6 @@
     "text": "Da almeno due settimane rimandavo l'esercizio quotidiano sul tapis roulant. Lo facevo abbastanza regolarmente e all'improvviso ho smesso. Ma ero decisa a ricominciare e ieri sera ho fatto 20 minuti sul tapis roulant, spostando gradualmente anche l'elevazione. È stato faticoso, ma sento di aver ottenuto qualcosa. Il cardiologo, il dottor Battisti, mi aveva consigliato di riprendere gradualmente dopo l'episodio di tachicardia.",
     "entities": [
       {
-        "text": "tapis roulant",
-        "label": "MISC"
-      },
-      {
-        "text": "tapis roulant",
-        "label": "MISC"
-      },
-      {
         "text": "Battisti",
         "label": "PER"
       },
@@ -12068,10 +11695,6 @@
     "text": "Ero davvero soddisfatta di ciò che ho mangiato per cena. Ho preparato un piatto di risotto ai funghi, che è il mio preferito. Dopo ero davvero felice. Domani voglio cucinare qualcosa di diverso, forse una lasagna. La mia nutrizionista, la dott.ssa Ninetta Ferrucci, mi ha consigliato di seguire una dieta più equilibrata.",
     "entities": [
       {
-        "text": "risotto ai funghi",
-        "label": "MISC"
-      },
-      {
         "text": "Ninetta Ferrucci",
         "label": "PER"
       }
@@ -12105,10 +11728,6 @@
       {
         "text": "Parco delle Cascine",
         "label": "LOC"
-      },
-      {
-        "text": "mercatino natalizio",
-        "label": "MISC"
       }
     ]
   },
@@ -12122,10 +11741,6 @@
       {
         "text": "Confcommercio",
         "label": "ORG"
-      },
-      {
-        "text": "mercato asiatico",
-        "label": "MISC"
       }
     ]
   },
@@ -12349,10 +11964,6 @@
       {
         "text": "Humanitas Milano",
         "label": "ORG"
-      },
-      {
-        "text": "pollo in scatola di coccio",
-        "label": "MISC"
       }
     ]
   },
@@ -12467,10 +12078,6 @@
     "text": "Abbiamo mangiato delle ali di pollo fatte in casa che ho preparato al forno con una salsa speciale. Le ho accompagnate con del riso ai broccoli di pollo e dei fagiolini conditi e i bambini hanno gradito molto. Per dessert abbiamo mangiato una cheesecake alle fragole. Adoro cucinare per la mia famiglia e mi è piaciuto vedere le loro reazioni quando hanno assaggiato le ali di pollo. Mia figlia Milena ha detto che era il suo piatto preferito da quando siamo tornati da Firenze.",
     "entities": [
       {
-        "text": "cheesecake alle fragole",
-        "label": "MISC"
-      },
-      {
         "text": "Milena",
         "label": "PER"
       },
@@ -12549,10 +12156,6 @@
         "label": "ORG"
       },
       {
-        "text": "super suprema",
-        "label": "MISC"
-      },
-      {
         "text": "Chiara",
         "label": "PER"
       }
@@ -12574,10 +12177,6 @@
   {
     "text": "Ho mangiato un burrito californiano in uno dei miei ristoranti messicani preferiti, El Sombrero, a Roma. Mi ha lasciato una sensazione di pienezza e sazietà, anche se poi ho preso una compressa di Pantoprazolo per il reflusso.",
     "entities": [
-      {
-        "text": "burrito californiano",
-        "label": "MISC"
-      },
       {
         "text": "El Sombrero",
         "label": "ORG"
@@ -12723,10 +12322,6 @@
     "text": "Il mio collega Dionigi ha ricevuto una chiamata per fare un lavoro per un appaltatore per cui aveva lavorato in passato. Il suo appaltatore giornaliero aveva cancellato il lavoro per oggi e il nuovo appaltatore, Giovanni Fermi, aveva bisogno di alcuni lavori. Il mio socio sarà pagato tre volte tanto per lavorare per il nuovo appaltatore, che si chiama 'Impresa Costruzioni Roma'.",
     "entities": [
       {
-        "text": "Dionigi",
-        "label": "PER"
-      },
-      {
         "text": "Giovanni Fermi",
         "label": "PER"
       },
@@ -12855,10 +12450,6 @@
       {
         "text": "Roma",
         "label": "GPE"
-      },
-      {
-        "text": "pasta alla carbonara",
-        "label": "MISC"
       }
     ]
   },
@@ -12889,20 +12480,7 @@
   },
   {
     "text": "Ho cucinato un buon piatto per cena, un risotto ai funghi porcini, che è stato davvero piacevole. Il sapore mi ha fatto sentire calmo e tranquillo, perfetto dopo una lunga giornata di lavoro in ospedale. Mi sono anche concessa una tazza di tè verde prima di andare a letto.",
-    "entities": [
-      {
-        "text": "risotto ai funghi porcini",
-        "label": "MISC"
-      },
-      {
-        "text": "ospedale",
-        "label": "LOC"
-      },
-      {
-        "text": "tè verde",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Dopo la passeggiata mi sono anche preparata la colazione: 2 uova, pane tostato e pancetta. Mi sentivo bene e pronta per il resto della giornata, soprattutto dopo aver preso il mio integratore di vitamine B12. È stato un inizio di giornata perfetto.",
@@ -13234,20 +12812,11 @@
   },
   {
     "text": "Mia sorella ha escogitato un nuovo modo per rendere i nostri hot dog low carb per cena. Mangiamo sempre a basso contenuto di carboidrati, ma a volte può diventare noioso. Ha trovato un modo per usare zucchine invece del panino per hot dog per preparare il pasto. Era davvero buono e lo userò in futuro. Forse anche per il pranzo di domenica, quando ci vedremo con tutta la famiglia, tra cui i miei genitori.",
-    "entities": [
-      {
-        "text": "zucchine",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Mi piace il mio lavoro e mi sento bene quando aiuto i miei studenti o ho un impatto positivo su di loro in qualche modo. Oggi, ho anche ricevuto un'email da parte del direttore della scuola, il signor Carmelo Gibilisco, che mi ha ringraziato per l'impegno.",
     "entities": [
-      {
-        "text": "scuola",
-        "label": "ORG"
-      },
       {
         "text": "Carmelo Gibilisco",
         "label": "PER"
@@ -13273,14 +12842,6 @@
       {
         "text": "Sapienza di Roma",
         "label": "ORG"
-      },
-      {
-        "text": "100",
-        "label": "MISC"
-      },
-      {
-        "text": "100",
-        "label": "MISC"
       }
     ]
   },
@@ -13833,10 +13394,6 @@
         "label": "PER"
       },
       {
-        "text": "blues",
-        "label": "MISC"
-      },
-      {
         "text": "B.B. King",
         "label": "PER"
       }
@@ -14001,14 +13558,6 @@
     "text": "Oltre alla scuola, ho terminato il mio lavoro nel nostro centro di ricerca. Ho inviato e-mail a molte persone, che hanno risposto positivamente. La settimana prossima parteciperò alla conferenza annuale di neurologia a Torino.",
     "entities": [
       {
-        "text": "centro di ricerca",
-        "label": "ORG"
-      },
-      {
-        "text": "conferenza annuale di neurologia",
-        "label": "MISC"
-      },
-      {
         "text": "Torino",
         "label": "GPE"
       }
@@ -14052,10 +13601,6 @@
   {
     "text": "Ieri ho avuto un'ottima giornata su mturk e sono riuscito a raggiungere il mio obiettivo giornaliero e anche di più! Sono molto orgoglioso di me stesso ed è stata una ciliegina importante su una giornata fantastica. Durante la pausa pranzo, ho parlato con la mia amica Laura, che mi ha consigliato di fare una visita dal cardiologo per un check-up generale.",
     "entities": [
-      {
-        "text": "mturk",
-        "label": "MISC"
-      },
       {
         "text": "Laura",
         "label": "PER"
@@ -14304,10 +13849,6 @@
     "text": "Ieri sono riuscito ad arrivare al lavoro in orario, nonostante lo sciopero dei mezzi pubblici a Milano. Ho svolto tutti i miei compiti in tempo e sono riuscito ad andarmene prima. Sono stato orgoglioso di me stesso per aver portato a termine ogni compito. Nel complesso è stata una giornata tranquilla.",
     "entities": [
       {
-        "text": "sciopero dei mezzi pubblici",
-        "label": "MISC"
-      },
-      {
         "text": "Milano",
         "label": "GPE"
       }
@@ -14328,25 +13869,12 @@
       {
         "text": "Facetime",
         "label": "MISC"
-      },
-      {
-        "text": "compleanno",
-        "label": "MISC"
-      },
-      {
-        "text": "facetime",
-        "label": "MISC"
       }
     ]
   },
   {
     "text": "Ho giocato un po' ai videogiochi verso la fine della giornata, quando ho iniziato a sentirmi meglio. È stata una bella distrazione.",
-    "entities": [
-      {
-        "text": "videogiochi",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ieri mi è stato ricordato che il mio SO, Biagio, farà qualsiasi cosa per me, non importa quanto sforzo extra richieda da parte sua. Mi sono presa cura di me mentre ero malata e sono stata umile e grata di sapere quanto sono stata curata. Ho avuto una febbre alta e sono stata a letto tutta la giornata, ma grazie a lui mi sono ripresa velocemente.",
@@ -14369,14 +13897,6 @@
     "text": "Oggi ho ricevuto i voti di fine trimestre. Volevo ottenere un 3,5 e ho ottenuto un 3,87! Sono davvero felice, soprattutto perché ho lavorato molto su matematica e italiano. Non vedo l'ora di vedere come andrà la prossima volta.",
     "entities": [
       {
-        "text": "3,87",
-        "label": "MISC"
-      },
-      {
-        "text": "matematica",
-        "label": "MISC"
-      },
-      {
         "text": "italiano",
         "label": "MISC"
       }
@@ -14385,10 +13905,6 @@
   {
     "text": "Nella zona in cui vivo si sta riscaldando, così ieri ho preso in mano la mazza da golf per la prima volta dopo mesi e ho fatto qualche tiro di prova. Il campo da golf di Milano era perfetto per una giornata di sole.",
     "entities": [
-      {
-        "text": "mazza da golf",
-        "label": "MISC"
-      },
       {
         "text": "Milano",
         "label": "GPE"
@@ -14526,12 +14042,7 @@
   },
   {
     "text": "Stanotte ho dormito benissimo. Non mi succede sempre, quindi questo mi ha fatto sentire bene! Un ottimo inizio di giornata. Mi sono svegliata sentendomi riposata e con un sacco di energia, anche se ho mangiato un po' troppo ieri sera. Ho deciso di fare una passeggiata al parco per smaltire.",
-    "entities": [
-      {
-        "text": "parco",
-        "label": "LOC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Andare sul tapis roulant mi ha fatto scaricare lo stress e mi ha fatto sentire rilassato. Dopo la visita al Centro Medico Sant'Anna, il fisioterapista Eraldo mi ha consigliato di camminare almeno 30 minuti al giorno per migliorare il mio benessere generale.",
@@ -14634,14 +14145,6 @@
   {
     "text": "Svegliarmi ogni giorno e in ottima salute mi rende felice. Posso vivere la mia vita prendendomi cura di me stesso, della mia famiglia e di Dio. Senza Dio non sarebbe possibile, quindi sono grata. Oggi sono andata a fare una visita di controllo dal mio medico, il dottor Pistoletto, che mi ha confermato che tutto va bene. È un sollievo.",
     "entities": [
-      {
-        "text": "Dio",
-        "label": "MISC"
-      },
-      {
-        "text": "Dio",
-        "label": "MISC"
-      },
       {
         "text": "Pistoletto",
         "label": "PER"
@@ -14825,10 +14328,6 @@
       {
         "text": "Clinica San Donato",
         "label": "ORG"
-      },
-      {
-        "text": "giorno del ghiaccio",
-        "label": "MISC"
       }
     ]
   },
@@ -15077,10 +14576,6 @@
     "entities": [
       {
         "text": "cinese",
-        "label": "MISC"
-      },
-      {
-        "text": "internet",
         "label": "MISC"
       }
     ]
@@ -16184,10 +15679,6 @@
       {
         "text": "ansia",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "parco",
-        "label": "LOC"
       }
     ]
   },
@@ -16203,10 +15694,6 @@
   {
     "text": "Avere finalmente una serata per uscire e divertirsi è stata una pausa necessaria e ottima per la mia salute mentale. Dopo una lunga settimana di lavoro in ospedale e dopo aver preso il farmaco Xanax, ho sentito davvero il bisogno di rilassarmi.",
     "entities": [
-      {
-        "text": "ospedale",
-        "label": "LOC"
-      },
       {
         "text": "Xanax",
         "label": "MEDICINE"
@@ -16352,10 +15839,6 @@
   {
     "text": "Ieri sera ho dedicato un po' di tempo a un gioco al computer per rilassarmi. È stato divertente dimenticare anche solo per un po' lo stress della giornata. Ho deciso di fare una pausa dopo aver lavorato tutto il giorno alla clinica di ortopedia, e mi sono sentito più rilassato. Il medico che mi ha visitato la settimana scorsa, il Dott. Giuseppe Petrucci, mi ha consigliato di prendermi più tempo per me stesso, e credo che sia stato un buon consiglio.",
     "entities": [
-      {
-        "text": "clinica di ortopedia",
-        "label": "ORG"
-      },
       {
         "text": "Giuseppe Petrucci",
         "label": "PER"
@@ -16707,10 +16190,6 @@
       {
         "text": "Chiara",
         "label": "PER"
-      },
-      {
-        "text": "fajitas di pollo",
-        "label": "MISC"
       }
     ]
   },
@@ -16909,10 +16388,6 @@
     "text": "Ho provato a fare i macarons red velvet un paio di volte e il primo lotto che ho fatto ieri è fallito. Tuttavia, il secondo lotto è venuto bene e sono stata davvero orgogliosa di me stessa ed entusiasta di ciò che avevo realizzato. Ho seguito la ricetta di Pierre Hermé trovata su un blog francese.",
     "entities": [
       {
-        "text": "macarons red velvet",
-        "label": "MISC"
-      },
-      {
         "text": "Pierre Hermé",
         "label": "PER"
       },
@@ -17075,10 +16550,6 @@
   {
     "text": "Ieri ho camminato per 3 miglia, che è più del mio obiettivo giornaliero. Ho iniziato a seguire il consiglio del fisioterapista Severino e mi sento più energica da quando ho smesso di prendere il Diazepam.",
     "entities": [
-      {
-        "text": "3 miglia",
-        "label": "MISC"
-      },
       {
         "text": "Severino",
         "label": "PER"
@@ -17467,10 +16938,6 @@
     "text": "Dopo una lunga giornata faticosa, ho deciso di concedermi un regalo e ho ordinato una pizza per cena. Era deliziosa e ho mangiato un po' troppo, forse anche a causa della mia ansia che mi accompagna da giorni.",
     "entities": [
       {
-        "text": "pizza",
-        "label": "MISC"
-      },
-      {
         "text": "ansia",
         "label": "SYMPTOM"
       }
@@ -17492,10 +16959,6 @@
   {
     "text": "Odio andare a lezione in questo momento. Tutto ciò che ho è un corso di informatica in cui mi ritrovo a svolgere un compito dopo l'altro senza un fine produttivo. L'università di Bologna sembra non preoccuparsi del nostro benessere mentale.",
     "entities": [
-      {
-        "text": "corso di informatica",
-        "label": "MISC"
-      },
       {
         "text": "università di Bologna",
         "label": "ORG"
@@ -17538,10 +17001,6 @@
       {
         "text": "Melatonina 3mg",
         "label": "MEDICINE"
-      },
-      {
-        "text": "parco",
-        "label": "LOC"
       }
     ]
   },
@@ -17591,10 +17050,6 @@
   {
     "text": "Non vedevo l'ora di mangiare gli avanzi per pranzo, soprattutto il risotto alla milanese che avevo ordinato da Eataly ieri sera.",
     "entities": [
-      {
-        "text": "risotto alla milanese",
-        "label": "MISC"
-      },
       {
         "text": "Eataly",
         "label": "ORG"
@@ -17691,10 +17146,6 @@
     "text": "Ieri sera mi sono presa il tempo di preparare un pasto casalingo ed era così buono. Ho preparato delle zucche con mele e salsiccia. Gustare questo piatto mi ha reso molto soddisfatta perché era così gustoso e molto felice che sia venuto così bene. Questo piatto mi fa anche venire la nostalgia di altre volte in cui ho preparato questo delizioso piatto, come quando ero a casa dei miei genitori in Toscana.",
     "entities": [
       {
-        "text": "zucche con mele e salsiccia",
-        "label": "MISC"
-      },
-      {
         "text": "Toscana",
         "label": "GPE"
       }
@@ -17702,16 +17153,7 @@
   },
   {
     "text": "Oggi ho fatto un ottimo allenamento. Tutto è fluito e mi sono sentito forte. Mi sono riscaldato giocando a basket, poi ho corso per un paio di chilometri e poi ho fatto degli sprint. Mi sono sentito vivo e l'allenamento mi ha liberato la mente. Ho anche pensato di iscrivermi a un corso di preparazione atletica per migliorare la mia forma fisica.",
-    "entities": [
-      {
-        "text": "basket",
-        "label": "MISC"
-      },
-      {
-        "text": "corso di preparazione atletica",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Mia madre è anziana e ha qualche problema di salute. Ho parlato con lei al telefono e ho saputo che si è rifiutata di prendere alcune medicine che il medico le ha dato. Sono frustrata perché sento che non vuole guarire. Il medico le ha prescritto un trattamento per l'ipertensione, ma lei non vuole seguire le sue indicazioni.",
@@ -18298,10 +17740,6 @@
       {
         "text": "Gioacchino",
         "label": "PER"
-      },
-      {
-        "text": "allenamento",
-        "label": "MISC"
       }
     ]
   },
@@ -19061,10 +18499,6 @@
       {
         "text": "stanchezza da stress",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "parco",
-        "label": "LOC"
       }
     ]
   },
@@ -19101,14 +18535,6 @@
   {
     "text": "Ho comprato un po' di snack visto che ho dovuto lavorare fino a tardi e ho saltato la cena. Ho deciso di comprare alcuni snack che non mangiavo da tempo ma che erano i miei preferiti fin dall'infanzia, come i pretzel e i cracker al burro di arachidi. Mi hanno ricordato le merende che facevo da bambino a Milano.",
     "entities": [
-      {
-        "text": "pretzel",
-        "label": "MISC"
-      },
-      {
-        "text": "cracker al burro di arachidi",
-        "label": "MISC"
-      },
       {
         "text": "Milano",
         "label": "GPE"
@@ -19508,12 +18934,7 @@
   },
   {
     "text": "Ieri ho dormito benissimo, ho montato un nuovo materasso a molle e, porca miseria, fa una tale differenza, ho dormito come un bambino e mi sono svegliato molto riposato. È stato un ottimo inizio per la giornata di ieri.",
-    "entities": [
-      {
-        "text": "materasso a molle",
-        "label": "MISC"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Ho dormito fino a quasi mezzogiorno. Non dormo mai così tardi, è stato molto sorprendente per me.",
@@ -19583,10 +19004,6 @@
   {
     "text": "Il mio ragazzo ha preparato il mio piatto preferito per cena, da zero! Ha cucinato le lasagne alla bolognese, proprio come le faceva sua nonna Teresa. Ed è venuto fuori un piatto delizioso.",
     "entities": [
-      {
-        "text": "lasagne alla bolognese",
-        "label": "MISC"
-      },
       {
         "text": "Teresa",
         "label": "PER"
@@ -19720,10 +19137,6 @@
       {
         "text": "La Trattoria di Lamberto",
         "label": "ORG"
-      },
-      {
-        "text": "carbonara",
-        "label": "MISC"
       }
     ]
   },
@@ -19747,14 +19160,6 @@
   {
     "text": "Anche se la giornata è stata lunga, ieri sera mi sono presa il tempo di preparare una bella cena per me. Ho cucinato un risotto ai funghi porcini e pollo al rosmarino. Ci vuole sempre più tempo per preparare un pasto di quello che penso, così quando è finito lo apprezzo ancora di più. Ieri mi sono davvero divertita, anche se ho avuto una piccola fitta alla schiena mentre cucinavo, forse a causa della mia scoliosi. E dato che vivo da sola, c'erano molti avanzi per mangiarla altre due o tre volte. Mi piacerà molto perché non dovrò fare altro che metterlo su un piatto e riscaldarlo nel microonde. È sempre meglio delle cene in TV!",
     "entities": [
-      {
-        "text": "funghi porcini",
-        "label": "MISC"
-      },
-      {
-        "text": "pollo al rosmarino",
-        "label": "MISC"
-      },
       {
         "text": "scoliosi",
         "label": "DISEASE"
@@ -20320,10 +19725,6 @@
         "label": "PER"
       },
       {
-        "text": "300 dollari",
-        "label": "MISC"
-      },
-      {
         "text": "10 aprile",
         "label": "DATE"
       },
@@ -20463,10 +19864,6 @@
       {
         "text": "Leopoldo",
         "label": "PER"
-      },
-      {
-        "text": "pane ai cereali",
-        "label": "MISC"
       },
       {
         "text": "Mulino Bianco",
