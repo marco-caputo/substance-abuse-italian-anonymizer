@@ -1,50 +1,3084 @@
 [
   {
-        "text": "Richiedente sedazione, ma si lascia motivare a ridurre lievemente BDZ per limitare il rischio di abuso. Nega craving per alcol, gli accordo sospensione Campral.",
-        "entities": [
-          {"text": "sedazione", "label": "TREATMENT"},
-          {"text": "BDZ", "label": "MEDICINE"},
-          {"text": "craving", "label": "SYMPTOM"},
-          {"text": "alcol", "label": "SUBSTANCE"},
-          {"text": "Campral", "label": "MEDICINE"}
-        ]
+    "text": "Richiedente sedazione, ma si lascia motivare a ridurre lievemente BDZ per limitare il rischio di abuso. Nega craving per alcol, gli accordo sospensione Campral.",
+    "entities": [
+      {
+        "text": "sedazione",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "Campral",
+        "label": "MEDICINE"
+      }
+    ]
   },
   {
-        "text": "Più motivato a ridurre BDZ. Chiede (e gli accordo) anche sospensione Benerva, dopo comunque ciclo tempisticamente adeguato.",
-        "entities": [
-          {"text": "BDZ", "label": "MEDICINE"},
-          {"text": "Benerva", "label": "MEDICINE"}
-        ]
+    "text": "Più motivato a ridurre BDZ. Chiede (e gli accordo) anche sospensione Benerva, dopo comunque ciclo tempisticamente adeguato.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Benerva",
+        "label": "MEDICINE"
+      }
+    ]
   },
   {
-        "text": "Non segni d'acuzie clinica e benessere soggettivo accettabile, salvo qualche difficoltà dovuta sintomi di rimbalzo. Concordiamo allora scalaggio tramite switch da lorazepam a diazepam.",
-        "entities": [
-            {"text": "segni d'acuzie clinica", "label": "SYMPTOM"},
-            {"text": "benessere soggettivo accettabile", "label": "HEALTH_STATUS"},
-            {"text": "sintomi di rimbalzo", "label": "SYMPTOM"},
-            {"text": "lorazepam", "label": "MEDICINE"},
-            {"text": "diazepam", "label": "MEDICINE"}
-        ]
+    "text": "Non segni d'acuzie clinica e benessere soggettivo accettabile, salvo qualche difficoltà dovuta sintomi di rimbalzo. Concordiamo allora scalaggio tramite switch da lorazepam a diazepam.",
+    "entities": [
+      {
+        "text": "segni d'acuzie clinica",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "benessere soggettivo accettabile",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "sintomi di rimbalzo",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "lorazepam",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "diazepam",
+        "label": "MEDICINE"
+      }
+    ]
   },
   {
-        "text": "Persiste mentalità volta all'evitamento di fatica, responsabilità e sfide in generale. Gli esplicito questa impressione cercando di motivarlo a intraprendere almeno sfide alla sua portata, come gradualmente ridurre BDZ da settimana prossima.",
-        "entities": [
-            {"text": "BDZ", "label": "MEDICINE"}
-        ]
+    "text": "Persiste mentalità volta all'evitamento di fatica, responsabilità e sfide in generale. Gli esplicito questa impressione cercando di motivarlo a intraprendere almeno sfide alla sua portata, come gradualmente ridurre BDZ da settimana prossima.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      }
+    ]
   },
   {
-        "text": "Non sintomi d'acuzie, atteggiamento più attivo. Può ridurre BDZ.",
-        "entities": [
-            {"text": "sintomi d'acuzie", "label": "SYMPTOM"},
-            {"text": "BDZ", "label": "MEDICINE"}
-        ]
+    "text": "Non sintomi d'acuzie, atteggiamento più attivo. Può ridurre BDZ.",
+    "entities": [
+      {
+        "text": "sintomi d'acuzie",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      }
+    ]
   },
   {
-        "text": "Più disposto a tollerare qualche discomfort notturno, migliore coinvolgimento nel percorso e riduzione dello stress proveniente dalla situazione del figlio. Può proseguire riduzione BDZ.",
-        "entities": [
-            {"text": "discomfort notturno", "label": "SYMPTOM"},
-            {"text":  "stress", "label": "SYMPTOM"},
-            {"text": "BDZ", "label": "MEDICINE"}
-        ]
+    "text": "Più disposto a tollerare qualche discomfort notturno, migliore coinvolgimento nel percorso e riduzione dello stress proveniente dalla situazione del figlio. Può proseguire riduzione BDZ.",
+    "entities": [
+      {
+        "text": "discomfort notturno",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "stress",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Umore più stabile rispetto alla scorsa settimana, sebbene persista lieve irritabilità. Dorme circa 6 ore per notte. Riferisce di non aver fatto uso di cocaina da dieci giorni. Mantiene buona aderenza alla terapia con sertralina e pregabalin. Concordato proseguimento del gruppo di sostegno presso la comunità di San Giorgio.",
+    "entities": [
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "pregabalin",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di sostegno",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "comunità di San Giorgio",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Appare affaticato, lamenta cefalea e nausea ricorrenti. Riporta recente ricaduta con alcol nel fine settimana. Dopo discussione psicoeducativa, accetta proposta di inserimento nel percorso di disintossicazione residenziale. Si raccomanda monitoraggio dei valori epatici e controllo emocromocitometrico tra 7 giorni.",
+    "entities": [
+      {
+        "text": "cefalea",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "nausea",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "percorso di disintossicazione residenziale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "valori epatici",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "emocromocitometrico",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Continua l’assunzione regolare di metadone, senza effetti collaterali rilevanti. Riferisce sonno soddisfacente e miglior controllo dell’ansia. Mantiene contatto con la sorella e con l’assistente sociale per la gestione del reinserimento lavorativo. Si programma rivalutazione clinica tra due settimane.",
+    "entities": [
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "reinserimento lavorativo",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "In seduta appare emotivamente chiuso, ma collaborante. Ammette uso occasionale di cannabis, negando assunzione di altre sostanze. Incrementata la dose serale di quetiapina per migliorare la qualità del sonno. Concordato controllo urine tossicologiche e verifica dei parametri ematici.",
+    "entities": [
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "urine tossicologiche",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "parametri ematici",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Dopo l’ultimo colloquio con il dott. Bianchi, il paziente appare più motivato al mantenimento dell’astinenza da eroina. Riferisce miglioramento dell’umore e riduzione dei craving. Prosegue terapia con buprenorfina e supporto psicoterapeutico individuale. Nessun segno di turbe del pensiero o della percezione.",
+    "entities": [
+      {
+        "text": "dott. Bianchi",
+        "label": "PER"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "umore",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicoterapeutico individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "turbe del pensiero",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "della percezione",
+        "label": "SYMPTOM"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce di aver sospeso spontaneamente l’assunzione di BDZ da tre giorni, lamentando agitazione e tremori mattutini. Umore deflesso, ma con mantenuta capacità di introspezione. Proposto passaggio a diazepam a basso dosaggio in modo scalare. Si consiglia controllo elettrolitico e follow-up tra una settimana.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "agitazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "tremori mattutini",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "Umore deflesso",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "diazepam",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "controllo elettrolitico",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Buona aderenza al programma terapeutico presso il SERD di Pavia. Continua l’astinenza da eroina e metanfetamina. Riferisce sonno regolare e appetito migliorato. Confermata terapia con buprenorfina e quetiapina. Nessuna ideazione autolesiva, tono dell’umore normoeutico.",
+    "entities": [
+      {
+        "text": "SERD di Pavia",
+        "label": "ORG"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "metanfetamina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "tono dell’umore normoeutico",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Incontro odierno focalizzato sulla gestione dell’impulsività e dei craving. Il paziente appare motivato ma riferisce difficoltà nel contenere la rabbia in contesti familiari. In corso terapia con sertralina e alprazolam. Concordato inserimento in gruppo di training sulle abilità emotive.",
+    "entities": [
+      {
+        "text": "impulsività",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "rabbia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "alprazolam",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di training sulle abilità emotive",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta, appare più disteso rispetto agli incontri precedenti. Riferisce di aver ridotto il consumo di alcol e di non aver avuto episodi di craving intenso nell’ultima settimana. Proposta prosecuzione della psicoterapia individuale con focus sulla gestione dello stress.",
+    "entities": [
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "craving intenso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "psicoterapia individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "gestione dello stress",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "EOP: vigile, orientato, collaborante. Riferisce pensieri ricorrenti legati al senso di colpa per le ricadute passate. Lieve anedonia. Terapia in atto con lamotrigina e naltrexone. Concordato aumento graduale del dosaggio di lamotrigina. Si richiede controllo funzionalità epatica e renale.",
+    "entities": [
+      {
+        "text": "pensieri ricorrenti",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "senso di colpa",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "anedonia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "lamotrigina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "controllo funzionalità epatica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "renale",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Mostra umore più stabile, riferisce di non aver assunto eroina da circa due settimane. Persistono lievi disturbi del sonno e stanchezza mattutina. Prosegue regolarmente terapia con metadone e duloxetina. Concordato inserimento nel gruppo motivazionale di supporto presso il centro diurno Arcobaleno.",
+    "entities": [
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "disturbi del sonno",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "stanchezza mattutina",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo motivazionale di supporto",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "centro diurno Arcobaleno",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Seduta odierna caratterizzata da lieve tensione, con tono affettivo flesso e tendenza all’isolamento. Ammette recente assunzione di cannabis per gestire l’ansia. Non evidenti alterazioni del pensiero o del sensorio. Si propone sostituzione della BDZ con buspirone per ridurre rischio di abuso.",
+    "entities": [
+      {
+        "text": "tensione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "tono affettivo flesso",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "isolamento",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "buspirone",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce sensazione di irritabilità e craving per alcol in aumento negli ultimi giorni. Ha interrotto la frequenza al gruppo terapeutico. Terapia con acamprosato mantenuta, con aggiunta di trazodone serale per favorire il sonno. Si consiglia rivalutazione epatica con AST, ALT e gammaGT.",
+    "entities": [
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving per alcol",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "gruppo terapeutico",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "acamprosato",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "trazodone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "AST",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "ALT",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "gammaGT",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Incontro sereno, buon contatto oculare e discreta partecipazione al colloquio. Continua assunzione regolare di buprenorfina e psicoterapia cognitivo-comportamentale individuale. Riferisce umore in miglioramento e assenza di pensieri autolesivi. Si conferma controllo urine tra 5 giorni.",
+    "entities": [
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "psicoterapia cognitivo-comportamentale individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "umore in miglioramento",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "pensieri autolesivi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "controllo urine",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riporta insonnia e nervosismo da quando ha ridotto la dose di BDZ. Umore deflesso, lamenta difficoltà di concentrazione e perdita di appetito. Proposta introduzione di mirtazapina serale. Si richiede controllo emocromo, creatinina e sodiemia prima del prossimo incontro.",
+    "entities": [
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "nervosismo",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Umore deflesso",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "difficoltà di concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "perdita di appetito",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "mirtazapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "creatinina",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "sodiemia",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce miglioramento del tono dell’umore e riduzione dei pensieri ossessivi legati alla sostanza. Ha mantenuto astinenza da cocaina e cannabis da oltre due settimane. Continua la terapia con quetiapina e sertralina, ben tollerate. Si concorda proseguimento della psicoterapia di supporto con focus sulla prevenzione delle ricadute.",
+    "entities": [
+      {
+        "text": "tono dell’umore",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "pensieri ossessivi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "psicoterapia di supporto",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "prevenzione delle ricadute",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio appare irrequieto, lamenta insonnia e difficoltà di concentrazione. Riporta episodio di craving intenso nei giorni scorsi, senza uso effettivo di eroina. In corso trattamento con metadone, da mantenere al dosaggio attuale. Proposto inserimento in gruppo psicoeducativo sulla gestione dell’impulsività.",
+    "entities": [
+      {
+        "text": "irrequieto",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "difficoltà di concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving intenso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo psicoeducativo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "gestione dell’impulsività",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Buona compliance alla terapia farmacologica. Continua l’assunzione regolare di buprenorfina e risperidone. Lieve astenia, ma riferisce miglioramento della qualità del sonno. Si richiede controllo emocromocitometrico e valutazione funzionalità epatica entro il mese.",
+    "entities": [
+      {
+        "text": "compliance alla terapia farmacologica",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "risperidone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "astenia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "qualità del sonno",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "emocromocitometrico",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta puntuale e collaborante. Riporta di aver avuto una ricaduta con uso episodico di alcol durante il weekend, senza conseguenze fisiche rilevanti. Attualmente motivato a riprendere pienamente il percorso. Confermata terapia con naltrexone e colloqui settimanali individuali. Umore discretamente stabile.",
+    "entities": [
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "colloqui settimanali individuali",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Umore discretamente stabile",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Seduta incentrata sulla rielaborazione del trauma e sui legami tra uso di sostanze e vissuti emotivi. Mostra buona capacità riflessiva, pur con residua ansia sociale. In terapia con duloxetina e zolpidem. Si valuta integrazione con percorso di mindfulness presso il centro di Milano.",
+    "entities": [
+      {
+        "text": "trauma",
+        "label": "MISC"
+      },
+      {
+        "text": "uso di sostanze",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "ansia sociale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "zolpidem",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mindfulness",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Milano",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Durante l'incontro di oggi riferisce un miglioramento del tono dell'umore rispetto alla scorsa settimana. Continua l'assunzione regolare di metadone, senza effetti collaterali rilevanti. Lieve irritabilità in serata, forse correlata alla riduzione di caffeina. Aumentiamo il supporto psicoeducativo nel gruppo di prevenzione ricadute.",
+    "entities": [
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "caffeina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "psicoeducativo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "miglioramento del tono dell'umore",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Esegue visita di controllo dopo tre settimane di astinenza da eroina. Riporta insonnia e sogni vividi, ma riferisce di sentirsi complessivamente più lucido. Praticata integrazione con psicoterapia individuale e mantenimento di dosaggio stabilizzato di buprenorfina.",
+    "entities": [
+      {
+        "text": "tre settimane",
+        "label": "DATE"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "sogni vividi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "psicoterapia individuale",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Lega i momenti di ansia serale a conflitti familiari, in particolare con la madre. Non segni di craving attivo per cocaina, anche se permane difficoltà nella gestione della frustrazione. Introduco sertralina a basso dosaggio e propongo attività di mindfulness di gruppo.",
+    "entities": [
+      {
+        "text": "ansia serale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "conflitti familiari",
+        "label": "MISC"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mindfulness di gruppo",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Visita di follow-up presso il Centro Dipendenze di Milano. Mantiene un buon equilibrio emotivo. Nessun episodio di abuso riportato da inizio novembre. Continua terapia con naltrexone e supporto motivazionale di gruppo. Si programma rivalutazione psicodiagnostica tra un mese.",
+    "entities": [
+      {
+        "text": "Centro Dipendenze di Milano",
+        "label": "ORG"
+      },
+      {
+        "text": "inizio novembre",
+        "label": "DATE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto motivazionale di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "rivalutazione psicodiagnostica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "buon equilibrio emotivo",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Lamenta scarsa concentrazione e cefalea mattutina. Sospeso da pochi giorni l’alcol, che assumeva quotidianamente. Introduco esami di funzionalità epatica e bilancio elettrolitico. Impostato supporto farmacologico con tiapridal e supplementazione vitaminica.",
+    "entities": [
+      {
+        "text": "scarsa concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cefalea mattutina",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "bilancio elettrolitico",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "tiapridal",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supplementazione vitaminica",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Umore deflesso da circa dieci giorni, con scarso interesse per le attività quotidiane. Dorme male ma nega ricadute recenti in consumo di cocaina. Prosegue la terapia con venlafaxina e manutenzione di metadone. Valutare incremento del sostegno psicoterapico individuale.",
+    "entities": [
+      {
+        "text": "dieci giorni",
+        "label": "DATE"
+      },
+      {
+        "text": "Umore deflesso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "venlafaxina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "sostegno psicoterapico individuale",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio, appare complessivamente più stabile. Mantenuta astinenza da alcol da oltre tre settimane. Restano momenti di reattività emotiva nel rapporto con il padre, per i quali esploriamo strategie di gestione. Nessuna segnalazione negativa da parte del gruppo.",
+    "entities": [
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "tre settimane",
+        "label": "DATE"
+      },
+      {
+        "text": "reattività emotiva",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "astinenza",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Ancora presenti sintomi di ansia anticipatoria rispetto alla fine del percorso comunitario. Nessuna ricaduta nell'uso di eroina. Terapia farmacologica ben tollerata. Si valuta potenziamento del piano di follow-up territoriale in coordinamento con il Ser.D di Napoli.",
+    "entities": [
+      {
+        "text": "ansia anticipatoria",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "Terapia farmacologica ben tollerata",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "follow-up territoriale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Ser.D di Napoli",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Dopo segnalazione del compagno di stanza, emerge occasionalità nell’assunzione di cannabis. Non evidenza di astinenza significativa, se non lieve irritabilità. Concordiamo su incremento della frequenza degli incontri di controllo e revisione della terapia con quetiapina.",
+    "entities": [
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "astinenza",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "incontri di controllo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Nel corso della seduta odierna si mostra collaborante e più presente. Continua terapia sostitutiva con buprenorfina e zoloft. Riferisce miglioramento della qualità del sonno. Pianificato esame per funzionalità epatica a causa di pregresse alterazioni negli ultimi test di agosto.",
+    "entities": [
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "zoloft",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "miglioramento della qualità del sonno",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "agosto",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Colloquio utile. Riferisce di aver mantenuto astinenza da cocaina per tutto il mese di ottobre, ma racconta difficoltà nella gestione dell’impulsività e irritabilità notturna. In corso trattamento con sertralina e mantenimento con metadone. Propongo inserimento in gruppo di regolazione emotiva.",
+    "entities": [
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "ottobre",
+        "label": "DATE"
+      },
+      {
+        "text": "impulsività",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "irritabilità notturna",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di regolazione emotiva",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "EOP in miglioramento: appare più centrato e motivato, senza segni di craving. Continua terapia sostitutiva con buprenorfina. Ricorda di assumere regolarmente gli integratori vitaminici per il lieve deficit di B12 emerso all’ultimo emocromo. Prossimo controllo tra dieci giorni.",
+    "entities": [
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "deficit di B12",
+        "label": "DISEASE"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "dieci giorni",
+        "label": "DATE"
+      },
+      {
+        "text": "EOP in miglioramento",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Dichiara calo della motivazione al programma terapeutico. Nebbia mentale e ridotta concentrazione al mattino. Non segni di abuso alcolico recente, ma si esplora possibile ricaduta con benzodiazepine. Suggerita attività fisica moderata e inserimento in laboratorio di stimolazione cognitiva.",
+    "entities": [
+      {
+        "text": "calo della motivazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "nebbia mentale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "ridotta concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "benzodiazepine",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "attività fisica moderata",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "laboratorio di stimolazione cognitiva",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Mantenuta buona aderenza alla terapia con desvenlafaxina e acido valproico. Nessuna crisi astinenziale. Riporta sensazione di miglior controllo su ansia e umore. Si pianifica follow-up ematochimico a metà dicembre presso l'Ospedale San Raffaele.",
+    "entities": [
+      {
+        "text": "desvenlafaxina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "acido valproico",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "crisi astinenziale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "umore",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "follow-up ematochimico",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "metà dicembre",
+        "label": "DATE"
+      },
+      {
+        "text": "Ospedale San Raffaele",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna si mostra più aperto nel condividere i timori legati al reinserimento lavorativo. Segnala lieve insonnia e aumento dell’appetito dall’inizio del trattamento con quetiapina. Umore complessivamente buono. Concordato proseguimento della psicoterapia settimanale.",
+    "entities": [
+      {
+        "text": "reintegro lavorativo",
+        "label": "MISC"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "aumento dell’appetito",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Umore complessivamente buono",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "psicoterapia settimanale",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna appare più presente e collaborante. Nessun segno di craving o agitazione evidente. Riporta maggiore serenità e minori conflitti con il fratello. Prosegue il trattamento con metadone e sertralina, ben tollerato. Controllo programmato tra quindici giorni.",
+    "entities": [
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "quindici giorni",
+        "label": "DATE"
+      },
+      {
+        "text": "maggiore serenità",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Segnala difficoltà di concentrazione e irritabilità pomeridiana. Nessuna assunzione di alcol nelle ultime settimane. Continua il piano terapeutico con buprenorfina e inserimento in gruppo di sostegno motivazionale. Si propone verifica della funzionalità tiroidea e ripetizione emocromo.",
+    "entities": [
+      {
+        "text": "difficoltà di concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "irritabilità pomeridiana",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di sostegno motivazionale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "funzionalità tiroidea",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Comparsa di insonnia negli ultimi giorni, probabilmente correlata alla sospensione del diazepam. Non desiderio di sostanze riferito. Si concorda su un breve ciclo di trattamento con trazodone e aumento della partecipazione a incontri serali al centro.",
+    "entities": [
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "diazepam",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "trazodone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "incontri serali al centro",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Mantenuto buono equilibrio psichico. Lieve riduzione dell'appetito, inverosimilmente legata al passaggio da sertralina a duloxetina. Nessuna alterazione significativa del sonno. Pianificati controlli metabolici e follow-up nutrizionale presso il Servizio Dietetico di Firenze.",
+    "entities": [
+      {
+        "text": "riduzione dell'appetito",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "controlli metabolici",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "follow-up nutrizionale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Servizio Dietetico di Firenze",
+        "label": "ORG"
+      },
+      {
+        "text": "buono equilibrio psichico",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce lieve ansia sociale in contesti di gruppo. Non risulta assunzione di sostanze nelle ultime settimane. Prosegue terapia con lamotrigina e quetiapina. Si consiglia valutazione psicologica approfondita e training di assertività.",
+    "entities": [
+      {
+        "text": "ansia sociale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "lamotrigina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "valutazione psicologica approfondita",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "training di assertività",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Mostra ancora agitazione interna e lieve tensione motoria. Riporta di aver smesso con la marijuana, ma riferisce occasionali pensieri di utilizzo in situazioni di stress. Viene rinforzato il lavoro sulla gestione degli impulsi. Continua terapia con quetiapina e stabilizzatore Depakin.",
+    "entities": [
+      {
+        "text": "agitazione interna",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "tensione motoria",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "marijuana",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "gestione degli impulsi",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Depakin",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Condizioni globalmente stabili, con discreta consapevolezza della problematica di dipendenza. Nessuna ripresa dell’eroina. Riporta sogni disturbanti e risvegli precoci. Si concorda aggiunta di melatonina e prosecuzione del programma psicoeducativo.",
+    "entities": [
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "sogni disturbanti",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "risvegli precoci",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "melatonina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "programma psicoeducativo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Condizioni globalmente stabili",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Dopo difficoltà iniziali, appare ora più motivato a proseguire il percorso. Continua a riferire ansia situazionale in luoghi affollati. Terapia farmacologica con duloxetina e mantenimento con buprenorfina. Si consiglia partecipazione a gruppo di rilassamento guidato.",
+    "entities": [
+      {
+        "text": "ansia situazionale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di rilassamento guidato",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "motivato a proseguire il percorso",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Persistono lievi tremori mattutini. Non segni di ricaduta da BDZ. Miglioramento del tono dell’umore e frequenza regolare ai colloqui. Si propone rivalutazione laboratoristica di AST, ALT e creatininemia entro metà dicembre.",
+    "entities": [
+      {
+        "text": "tremori mattutini",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "miglioramento del tono dell’umore",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "AST",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "ALT",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "creatininemia",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "metà dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Comparsa recente di cefalea e lieve vertigine nei pomeriggi. Si ipotizza correlazione con l’assunzione di campral. Nessuna alterazione significativa dei parametri vitali. Decidiamo riduzione del dosaggio e controllo presso il Centro di Milano tra due settimane.",
+    "entities": [
+      {
+        "text": "cefalea",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "vertigine",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "campral",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Centro di Milano",
+        "label": "ORG"
+      },
+      {
+        "text": "due settimane",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Appare più concentrato e meno impulsivo rispetto agli incontri precedenti. Mantiene buona aderenza alla terapia sostitutiva con metadone e al supporto settimanale di gruppo. Riferisce miglioramento del sonno, ma lieve cefalea mattutina. Si consiglia idratazione adeguata e monitoraggio della pressione arteriosa.",
+    "entities": [
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto settimanale di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "miglioramento del sonno",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "cefalea mattutina",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "pressione arteriosa",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio riferisce aumento dell’irritabilità e difficoltà a gestire le discussioni con la compagna. Riporta però di non aver più assunto alcol né cocaina da oltre un mese. Si valuta introduzione di sertralina e attività di rilassamento progressivo.",
+    "entities": [
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "rilassamento progressivo",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Umore in lieve flessione da alcuni giorni, con sensazione di stanchezza e apatia. Nessuna ricaduta da cannabinoidi. Si mantiene terapia con duloxetina e integrazione di vitamina B1. Viene concordato controllo ematochimico alla fine di novembre.",
+    "entities": [
+      {
+        "text": "Umore in lieve flessione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "stanchezza",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "apatia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cannabinoidi",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "vitamina B1",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "controllo ematochimico",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "fine di novembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta tranquillo, collaborante e motivato alla prosecuzione del percorso riabilitativo. Continua cura con buprenorfina e supporto cognitivo-comportamentale. Lievi disturbi del sonno nelle ultime notti. Prossimo incontro fissato per dopodomani.",
+    "entities": [
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto cognitivo-comportamentale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "disturbi del sonno",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "dopodomani",
+        "label": "DATE"
+      },
+      {
+        "text": "motivato alla prosecuzione del percorso riabilitativo",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Ancora presente una quota di ansia anticipatoria nelle ore serali. Nessuna assunzione di eroina, come confermato dai test tossicologici del mattino. Terapia con venlafaxina in aggiunta al mantenimento con metadone. Si rinforza il piano di sostegno con incontri di mindfulness.",
+    "entities": [
+      {
+        "text": "ansia anticipatoria",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "test tossicologici del mattino",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "venlafaxina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "incontri di mindfulness",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Ha riferito una leggera diminuzione del tono dell’umore, accompagnata da insonnia e ridotta motivazione. Mantiene regolarità nella terapia con buprenorfina e sertralina. Si propone inserimento nel gruppo di arte-terapia e controllo ematochimico alla fine del mese.",
+    "entities": [
+      {
+        "text": "diminuzione del tono dell’umore",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "arte-terapia",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "controllo ematochimico",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "fine del mese",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Si mostra più stabile rispetto alle settimane precedenti. Nessuna ricaduta in uso di cocaina. Persistono tuttavia episodi di ansia al momento di dormire. Concordata prosecuzione della terapia con paroxetina e integrazione con mindfulness guidata.",
+    "entities": [
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "paroxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mindfulness guidata",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "più stabile",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio riporta un lieve aumento dell’irritabilità, collegato a tensioni familiari. Nessun craving attivo per eroina. In terapia con lamotrigina e supporto psicoeducativo di gruppo. Si suggerisce attività fisica regolare.",
+    "entities": [
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "tensioni familiari",
+        "label": "MISC"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "lamotrigina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicoeducativo di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "attività fisica regolare",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Esegue visita di follow-up presso il Ser.D di Torino. Non mostra segni di astinenza né craving. Terapia ben tollerata con metadone e mirtazapina. Pianificata rivalutazione psicologica tra due settimane.",
+    "entities": [
+      {
+        "text": "Ser.D di Torino",
+        "label": "ORG"
+      },
+      {
+        "text": "astinenza",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mirtazapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "rivalutazione psicologica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce miglioramento della gestione emotiva e maggiore capacità di concentrazione. Continua terapia farmacologica con duloxetina e supplementazione di acido folico. Si invita a proseguire partecipazione regolare ai colloqui motivazionali del martedì.",
+    "entities": [
+      {
+        "text": "miglioramento della gestione emotiva",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "capacità di concentrazione",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "acido folico",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "colloqui motivazionali del martedì",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Ha riferito una leggera diminuzione del tono dell’umore, accompagnata da insonnia e ridotta motivazione. Mantiene regolarità nella terapia con buprenorfina e sertralina. Si propone inserimento nel gruppo di arte-terapia e controllo ematochimico alla fine del mese.",
+    "entities": [
+      {
+        "text": "diminuzione del tono dell’umore",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "arte-terapia",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "controllo ematochimico",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si mostra più stabile rispetto alle settimane precedenti. Nessuna ricaduta in uso di cocaina. Persistono tuttavia episodi di ansia al momento di dormire. Concordata prosecuzione della terapia con paroxetina e integrazione con mindfulness guidata.",
+    "entities": [
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "paroxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mindfulness guidata",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "più stabile",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio riporta un lieve aumento dell’irritabilità, collegato a tensioni familiari. Nessun craving attivo per eroina. In terapia con lamotrigina e supporto psicoeducativo di gruppo. Si suggerisce attività fisica regolare.",
+    "entities": [
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "tensioni familiari",
+        "label": "MISC"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "lamotrigina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicoeducativo di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "attività fisica regolare",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Esegue visita di follow-up presso il Ser.D di Torino. Non mostra segni di astinenza né craving. Terapia ben tollerata con metadone e mirtazapina. Pianificata rivalutazione psicologica tra due settimane.",
+    "entities": [
+      {
+        "text": "Ser.D di Torino",
+        "label": "ORG"
+      },
+      {
+        "text": "astinenza",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mirtazapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "rivalutazione psicologica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce miglioramento della gestione emotiva e maggiore capacità di concentrazione. Continua terapia farmacologica con duloxetina e supplementazione di acido folico. Si invita a proseguire partecipazione regolare ai colloqui motivazionali del martedì.",
+    "entities": [
+      {
+        "text": "miglioramento della gestione emotiva",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "capacità di concentrazione",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "acido folico",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "colloqui motivazionali del martedì",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce di aver dormito male negli ultimi giorni, con incubi ricorrenti e senso di stanchezza persistente. Mantiene regolare assunzione di buprenorfina. Nessuna assunzione di eroina da inizio settembre. Si consiglia inserimento in gruppo di gestione del sonno.",
+    "entities": [
+      {
+        "text": "incubi ricorrenti",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "stanchezza persistente",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "inizio settembre",
+        "label": "DATE"
+      },
+      {
+        "text": "gruppo di gestione del sonno",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta emergono preoccupazioni legate alla possibile perdita del lavoro. Lievi sintomi depressivi ma assenza di craving. Continua trattamento con venlafaxina e stabilizzatore umorale lamotrigina. Si propone colloquio psicoeducativo di supporto.",
+    "entities": [
+      {
+        "text": "perdita del lavoro",
+        "label": "MISC"
+      },
+      {
+        "text": "sintomi depressivi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "venlafaxina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "lamotrigina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "colloquio psicoeducativo di supporto",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Nessuna ricaduta riportata. Umore in asse, con lieve ansia residuale. Mantenuta terapia con metadone e contatti settimanali con il Ser.D di Bologna. Richiesto esame urinario di controllo per verificare eventuali altre sostanze.",
+    "entities": [
+      {
+        "text": "Umore in asse",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "ansia residuale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Ser.D di Bologna",
+        "label": "ORG"
+      },
+      {
+        "text": "esame urinario di controllo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si mostra più lucido e coinvolto nella terapia. Lieve calo ponderale da monitorare, probabilmente correlato a ridotta alimentazione. Prosegue terapia con quetiapina e integrazione multivitaminica. Prossimo controllo nutritivo previsto tra tre settimane.",
+    "entities": [
+      {
+        "text": "calo ponderale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alimentazione",
+        "label": "MISC"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "integrazione multivitaminica",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "tre settimane",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Resta teso durante il colloquio, con atteggiamento difensivo. Non emergono segni di abuso recente di cannabis. Continuato piano terapeutico con naltrexone e psicoterapia motivazionale settimanale. Previsto monitoraggio emocromocitometrico completo.",
+    "entities": [
+      {
+        "text": "atteggiamento difensivo",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "psicoterapia motivazionale settimanale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "monitoraggio emocromocitometrico completo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce di aver dormito male negli ultimi giorni, con incubi ricorrenti e senso di stanchezza persistente. Mantiene regolare assunzione di buprenorfina. Nessuna assunzione di eroina da inizio settembre. Si consiglia inserimento in gruppo di gestione del sonno.",
+    "entities": [
+      {
+        "text": "incubi ricorrenti",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "stanchezza persistente",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "inizio settembre",
+        "label": "DATE"
+      },
+      {
+        "text": "gruppo di gestione del sonno",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta emergono preoccupazioni legate alla possibile perdita del lavoro. Lievi sintomi depressivi ma assenza di craving. Continua trattamento con venlafaxina e stabilizzatore umorale lamotrigina. Si propone colloquio psicoeducativo di supporto.",
+    "entities": [
+      {
+        "text": "perdita del lavoro",
+        "label": "MISC"
+      },
+      {
+        "text": "sintomi depressivi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "venlafaxina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "lamotrigina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "colloquio psicoeducativo di supporto",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Nessuna ricaduta riportata. Umore in asse, con lieve ansia residuale. Mantenuta terapia con metadone e contatti settimanali con il Ser.D di Bologna. Richiesto esame urinario di controllo per verificare eventuali altre sostanze.",
+    "entities": [
+      {
+        "text": "Umore in asse",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "ansia residuale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Ser.D di Bologna",
+        "label": "ORG"
+      },
+      {
+        "text": "esame urinario di controllo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si mostra più lucido e coinvolto nella terapia. Lieve calo ponderale da monitorare, probabilmente correlato a ridotta alimentazione. Prosegue terapia con quetiapina e integrazione multivitaminica. Prossimo controllo nutritivo previsto tra tre settimane.",
+    "entities": [
+      {
+        "text": "calo ponderale",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alimentazione",
+        "label": "MISC"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "integrazione multivitaminica",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "tre settimane",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Resta teso durante il colloquio, con atteggiamento difensivo. Non emergono segni di abuso recente di cannabis. Continuato piano terapeutico con naltrexone e psicoterapia motivazionale settimanale. Previsto monitoraggio emocromocitometrico completo.",
+    "entities": [
+      {
+        "text": "atteggiamento difensivo",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "psicoterapia motivazionale settimanale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "monitoraggio emocromocitometrico completo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Seduta tranquilla. Riferisce di non aver assunto eroina negli ultimi sette giorni. Persistono insonnia e difficoltà di concentrazione. Incrementiamo dosaggio di quetiapina serale per favorire il sonno e contenere l'ansia. Pianificato controllo tra una settimana con verifica emocromo e funzionalità epatica.",
+    "entities": [
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "difficoltà di concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Umore deflesso, tono affettivo povero. Lamenta sensazione di vuoto e fatica nel mantenere motivazione al percorso. Confermata terapia con metadone 40 mg/die, aggiunto supporto psicoterapico settimanale. Nega craving per cocaina. Si valuta possibile riduzione BDZ progressiva.",
+    "entities": [
+      {
+        "text": "Umore deflesso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicoterapico",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "BDZ",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio emerge rabbia verso la madre e senso di colpa per le ricadute. Riporta di aver bevuto vino nel weekend, senza altre sostanze. Sospeso disulfiram per effetti collaterali gastrointestinali. Introduzione di naltrexone in bassa dose, monitorando funzionalità renale e epatica.",
+    "entities": [
+      {
+        "text": "vino",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "disulfiram",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "effetti collaterali gastrointestinali",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "funzionalità renale",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta agitato, lamentando craving intenso per cannabinoidi. Ha interrotto spontaneamente la terapia con sertralina da circa dieci giorni. Concordato ripristino del farmaco e inserimento in gruppo motivazionale del centro. Verrà rivalutato tra 10 giorni per verifica aderenza e risposta clinica.",
+    "entities": [
+      {
+        "text": "craving intenso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cannabinoidi",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo motivazionale",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Colloquio di follow-up presso il SERD di Bologna. La paziente appare in miglioramento: sonno regolare, appetito discreto, assente desiderio di sostanze. Si mantiene terapia con buprenorfina e counseling individuale. Esami del sangue nella norma, peso stabile.",
+    "entities": [
+      {
+        "text": "SERD di Bologna",
+        "label": "ORG"
+      },
+      {
+        "text": "sonno regolare",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "appetito discreto",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "counseling individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Esami del sangue",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "peso stabile",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta in buone condizioni generali. Riferisce astinenza completa da alcol da circa tre settimane. Umore stabile, sonno regolare, lieve calo di peso. Confermata terapia con sertralina 50 mg e mantenimento del supporto psicoterapico individuale. Previsto controllo degli esami epatici e renali entro fine mese.",
+    "entities": [
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "Umore stabile",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "sonno regolare",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicoterapico individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "esami epatici",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "renali",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce ricaduta con uso di cocaina due giorni fa, seguita da intensa agitazione e insonnia. Lamenta pensieri autodenigratori, ma nega ideazione suicidaria. Incrementiamo dosaggio di olanzapina serale a 10 mg e proponiamo partecipazione a gruppo di prevenzione ricadute. Controllo urine programmato per la prossima settimana.",
+    "entities": [
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "agitazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "pensieri autodenigratori",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "olanzapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di prevenzione ricadute",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "Controllo urine",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Prosegue con buona aderenza al programma del SERD di Parma. Non segnalate ricadute, riferisce minore irritabilità e maggiore concentrazione. Manteniamo terapia con metadone 60 mg/die e introduciamo integrazione con acido folico. Si consiglia monitoraggio trimestrale funzionalità epatica e emocromo.",
+    "entities": [
+      {
+        "text": "SERD di Parma",
+        "label": "ORG"
+      },
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "acido folico",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Colloquio complesso, riferisce sensazione di vuoto e crisi di pianto frequenti. Mantiene comunque astinenza da eroina e benzodiazepine. Discussa introduzione di antidepressivo, ma preferisce proseguire con supporto motivazionale e incontri di gruppo. Si raccomanda attenzione al ritmo sonno-veglia e idratazione adeguata.",
+    "entities": [
+      {
+        "text": "sensazione di vuoto",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "crisi di pianto",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "benzodiazepine",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "supporto motivazionale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "incontri di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "ritmo sonno-veglia",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Lieve incremento dell’ansia negli ultimi giorni, correlato a difficoltà lavorative. Continua assunzione di buprenorfina e aripiprazolo con buona tolleranza. Si concorda di intensificare sedute di counseling e richiedere controllo emocromo e transaminasi. Condizioni generali complessivamente stabili.",
+    "entities": [
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "aripiprazolo",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "counseling",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "transaminasi",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "Condizioni generali complessivamente stabili",
+        "label": "HEALTH_STATUS"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce di sentirsi più stabile rispetto all’ultima visita, ma permane lieve tensione interna. Non ha fatto uso di cannabis nelle ultime tre settimane. Umore in asse, sonno regolare, appetito conservato. Continua terapia con sertralina e mantenimento di buprenorfina 8 mg/die. Richiesto controllo funzionalità epatica e emocromo entro 10 giorni.",
+    "entities": [
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "Umore in asse",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "sonno regolare",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "appetito conservato",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Colloquio di follow-up a distanza di due settimane. Persistono insonnia e calo dell’umore, con riferita irritabilità verso i familiari. Nessun episodio di abuso di alcol. Concordato aumento dosaggio di quetiapina serale e prosecuzione del gruppo di sostegno. Si raccomanda monitoraggio dei valori di glicemia e peso corporeo.",
+    "entities": [
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "calo dell’umore",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di sostegno",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "glicemia",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "peso corporeo",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Seduta tranquilla, maggior partecipazione e capacità riflessiva. Continua con metadone 50 mg/die e supporto psicologico individuale. Nega craving per eroina, ma lamenta lieve astenia. Esami di routine programmati per fine mese presso il laboratorio del SERD di Torino.",
+    "entities": [
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicologico individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "astenia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "SERD di Torino",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce lieve ansia mattutina e ridotta concentrazione al lavoro. Non ha fatto uso di cocaina nell’ultimo mese. Concordato mantenimento della terapia attuale con mirtazapina e depakin. Verrà rivalutato fra due settimane, con controllo dei livelli di valproatemia e funzionalità renale.",
+    "entities": [
+      {
+        "text": "ansia mattutina",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "ridotta concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "mirtazapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "depakin",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "valproatemia",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "funzionalità renale",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta al colloquio in apparente buon equilibrio. Riferisce di dormire meglio e di percepire minore irritabilità. Mantiene astinenza da benzodiazepine e oppiacei. Prosegue psicoterapia di gruppo e attività riabilitativa presso la comunità terapeutica di Modena.",
+    "entities": [
+      {
+        "text": "buon equilibrio",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "dormire meglio",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "benzodiazepine",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "oppiacei",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "psicoterapia di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "attività riabilitativa",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "comunità terapeutica di Modena",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Colloquio odierno improntato alla gestione dell’ansia e del craving. Riferisce di non aver fatto uso di eroina da circa dieci giorni, ma teme di non riuscire a mantenere l’astinenza. Presenta tremori mattutini e difficoltà di concentrazione. Continua terapia con metadone e benzodiazepine a basso dosaggio. Si concorda inserimento nel gruppo motivazionale del centro.",
+    "entities": [
+      {
+        "text": "ansia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "tremori mattutini",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "difficoltà di concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "benzodiazepine",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo motivazionale",
+        "label": "TREATMENT"
+      }
+    ]
+  },
+  {
+    "text": "Umore deflesso, scarsa energia e aumento dell’irritabilità negli ultimi giorni. Riferisce discussione con la compagna in seguito a sospetto uso di cocaina, che però nega. Continua assunzione di sertralina 100 mg/die e naltrexone. Concordato controllo urine tossicologiche e valutazione epatica per prossima visita.",
+    "entities": [
+      {
+        "text": "Umore deflesso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "urine tossicologiche",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "valutazione epatica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "In seduta si mostra più lucido, racconta di aver ripreso a lavorare come muratore. Sonno ancora disturbato, ma riferisce miglioramento dell’appetito. Mantiene l’assunzione regolare di buprenorfina e quetiapina. Verrà rivalutato il dosaggio alla luce dei prossimi esami ematochimici e del tono dell’umore.",
+    "entities": [
+      {
+        "text": "lucido",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "Sonno disturbato",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "miglioramento dell’appetito",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "esami ematochimici",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "tono dell’umore",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Dopo tre settimane di astinenza da alcol, lamenta aumento del nervosismo e disturbi del sonno. Valutato opportuno introdurre terapia con trazodone serale per migliorare la qualità del riposo. Si raccomanda prosecuzione della psicoterapia individuale e partecipazione regolare al gruppo AA di Bologna.",
+    "entities": [
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "nervosismo",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "disturbi del sonno",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "trazodone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "psicoterapia individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "gruppo AA di Bologna",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Appare in condizioni discrete, riferisce di sentirsi più sereno e di aver ripreso attività sportive leggere. Continua trattamento con Depakin e haloperidol in dosi stabili. Nessun episodio di craving o abuso di sostanze nelle ultime due settimane. Si programma controllo clinico e dosaggio valproatemico.",
+    "entities": [
+      {
+        "text": "condizioni discrete",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "sereno",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "Depakin",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "haloperidol",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "abuso di sostanze",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "dosaggio valproatemico",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta puntuale e collaborante. Riferisce di non aver fatto uso di cocaina negli ultimi dieci giorni, ma lamenta ancora irrequietezza e pensieri intrusivi serali. Mantiene assunzione di buprenorfina 6 mg/die e sertralina 50 mg. Si consiglia prosecuzione del gruppo di sostegno e controllo urine tossicologiche tra una settimana.",
+    "entities": [
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "irrequietezza",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "pensieri intrusivi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "gruppo di sostegno",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "urine tossicologiche",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Umore lievemente deflesso, ma senza ideazioni autolesive. Dorme 5 ore per notte, con frequenti risvegli. Continua terapia con quetiapina e Depakin, che tollera bene. Astinente da alcol da 18 giorni, come confermato dai test CDT e gammaGT. Si propone rivalutazione epatica il mese prossimo.",
+    "entities": [
+      {
+        "text": "Umore lievemente deflesso",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "Dorme 5 ore per notte",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "quetiapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Depakin",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "CDT",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "gammaGT",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "valutazione epatica",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce riduzione del craving e maggiore stabilità emotiva. Frequenta regolarmente il centro diurno e partecipa alle attività di gruppo. Continua assunzione di metadone e alprazolam. Si osserva tono dell’umore in miglioramento, assenza di segni di intossicazione o astinenza.",
+    "entities": [
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "stabilità emotiva",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "centro diurno",
+        "label": "LOC"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "alprazolam",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "tono dell’umore in miglioramento",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "segni di intossicazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "astinenza",
+        "label": "SYMPTOM"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio appare agitato, con linguaggio accelerato e tono emotivo elevato. Ammette recente assunzione di cannabis, ma nega uso di altre sostanze. Si decide di sospendere temporaneamente zolpidem e introdurre trazodone per il sonno. Verrà rivalutato tra sette giorni.",
+    "entities": [
+      {
+        "text": "agitato",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "linguaggio accelerato",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "tono emotivo elevato",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cannabis",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "zolpidem",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "trazodone",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce di sentirsi in equilibrio, con buona motivazione al cambiamento. Nessun uso di eroina o metanfetamina da oltre un mese. Continua psicoterapia individuale e supporto familiare con la moglie. Terapia farmacologica invariata: naltrexone e paroxetina. Controllo clinico previsto per il 22 novembre.",
+    "entities": [
+      {
+        "text": "in equilibrio",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "metanfetamina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "psicoterapia individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "supporto familiare",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "paroxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "22 novembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce miglioramento della concentrazione e del tono dell’umore rispetto alla settimana scorsa. Mantiene astinenza da eroina e riduzione marcata del consumo di benzodiazepine. Continua terapia con buprenorfina 8 mg/die e mirtazapina 30 mg alla sera. Umore in asse, sonno regolare. Nessun episodio di craving riferito.",
+    "entities": [
+      {
+        "text": "concentrazione",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "benzodiazepine",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "mirtazapina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "Umore in asse",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio appare teso ma collaborante. Riferisce consumo occasionale di alcol nei giorni festivi, senza perdita di controllo. Continua psicoterapia di gruppo e trattamento con sertralina 100 mg. Lieve insonnia e pensieri rimuginativi serali, per cui si valuta possibile introduzione di trazodone.",
+    "entities": [
+      {
+        "text": "alcol",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "psicoterapia di gruppo",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "sertralina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "insonnia",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "pensieri rimuginativi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "trazodone",
+        "label": "MEDICINE"
+      }
+    ]
+  },
+  {
+    "text": "Ancora difficoltà di controllo degli impulsi e tendenza alla minimizzazione. Ammette una ricaduta con uso di cocaina tre giorni fa. Si concorda nuova impostazione terapeutica con introduzione di naltrexone e incremento del supporto motivazionale. Prevista valutazione ematica per funzionalità epatica e renale.",
+    "entities": [
+      {
+        "text": "controllo degli impulsi",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
+      },
+      {
+        "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto motivazionale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "valutazione ematica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "funzionalità epatica",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "funzionalità renale",
+        "label": "EXAMINATION"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta in buone condizioni generali, riferisce maggiore serenità familiare. Aumentata adesione al programma del SERD di Milano e partecipazione costante ai gruppi di auto-aiuto. Continua terapia con metadone 40 mg e alprazolam 0,25 mg. Nessun segno di astinenza né craving attivo.",
+    "entities": [
+      {
+        "text": "serenità familiare",
+        "label": "HEALTH_STATUS"
+      },
+      {
+        "text": "SERD di Milano",
+        "label": "ORG"
+      },
+      {
+        "text": "gruppi di auto-aiuto",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "metadone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "alprazolam",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "astinenza",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "craving",
+        "label": "SYMPTOM"
+      }
+    ]
+  },
+  {
+    "text": "Appare stanco e riferisce perdita di appetito negli ultimi giorni. Nega uso di sostanze ma ammette difficoltà nel mantenere il ritmo del sonno. In terapia con duloxetina 60 mg/die e supporto psicologico individuale. Si suggerisce controllo TSH e emocromo per escludere altre cause organiche.",
+    "entities": [
+      {
+        "text": "stanco",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "perdita di appetito",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "sonno",
+        "label": "SYMPTOM"
+      },
+      {
+        "text": "duloxetina",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "supporto psicologico individuale",
+        "label": "TREATMENT"
+      },
+      {
+        "text": "TSH",
+        "label": "EXAMINATION"
+      },
+      {
+        "text": "emocromo",
+        "label": "EXAMINATION"
+      }
+    ]
   }
 ]
