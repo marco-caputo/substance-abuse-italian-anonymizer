@@ -22,13 +22,13 @@ replacements_list = [
 
 # Regex pattern to match family members and other non-proper names referring to people in Italian
 wrong_per_pattern = (
-    r"\b(?:"
-    r"dottoressa|dottore|dottor|dott\.ssa|dott\.r|dott\.|dr\.ssa|dr\.|"
+    r"\b(?:\s?(?:"
+    r"dottoressa|dottore|dottor|dott\.ssa|dott\.r|dott\.|dr\.ssa|dr\.|dott|"
     r"professoressa|professore|professor|prof\.ssoressa|prof\.ssor|prof\.ssa|prof\.sa|prof\.|"
     r"ingegnere|ingegner|ing\.gnere|ing\.|"
     r"avvocato|avvocata|avv\.cato|avv\.|"
     r"signor.|sig\.ora|sig\.ina|sig\.or|sig\.ra|sig\.|"
-    r"suor|padre|don"
+    r"suor|padre|don|"
     r"madre|mamma|padre|papà|babbo|"
     r"fratello|sorella|fratelli|sorelle|bambin.|"
     r"zi.|cugin.|nonn.|figli.|figli|nipot.|"
@@ -41,7 +41,7 @@ wrong_per_pattern = (
     r"consulent.|counselor|epatolog.|terapist.|"
     r"team|equipe|"
     r"dio"
-    r")"
+    r"))+"
 )
 
 following_name_pattern = (
@@ -439,11 +439,11 @@ def change_some_entities_to_lowercase(example: dict) -> dict:
 
 if __name__ == '__main__':
     from utils.json_utils import read_json_file, save_json_file, to_readable_format
-    for file_name in ["reports"]: #, "diaries_it","diaries_psych","diaries_therap"]:
-        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train.json")
+    for file_name in []:
+        data = read_json_file(f"seed_samples/test/seed_{file_name}_test.json")
         data = [clean_common_mistakes(example) for example in data]
-        # data = to_spacy_format(data)
-        # data = to_readable_format(data)
-        # data = [replace_common_names(example) for example in data]
-        # data = [change_some_entities_to_lowercase(example) for example in data]
-        save_json_file(f"synthetic_samples/synthetic_{file_name}_train.json", data)
+        data = [replace_common_names(example) for example in data]
+        data = [change_some_entities_to_lowercase(example) for example in data]
+        data = to_spacy_format(data)
+        data = to_readable_format(data)
+        save_json_file(f"seed_samples/test/seed_{file_name}_test.json", data)
