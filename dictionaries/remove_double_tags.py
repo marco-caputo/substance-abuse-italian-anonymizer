@@ -42,8 +42,3 @@ def add_spaces_after_tags(text: str) -> str:
         replacement = tag + ' '
         text = re.sub(pattern, replacement, text)
     return text
-
-
-pairs = "[PER][PER] John Doe [PER] [PER], [GPE][GPE] Rome [GPE][GPE], [EMAIL][EMAIL]"
-res = remove_double_tags(pairs)
-print(res)
