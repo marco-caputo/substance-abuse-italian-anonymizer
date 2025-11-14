@@ -43,7 +43,8 @@ def generate_report_prompt_data():
     chapters = ', '.join(
         random.sample(read_json_file(f"seed_samples/seed_report_info.json")["chapters"], k=random.randint(2, 6)))
     where = f"a street named {clean_street_with_number(faker.street_address())}, municipality of {faker.city()}"
-    return intro, outro, docname, name, where, chapters
+    prob = random.choice(["less"]*5+["equal"]*3+["more"]*2)
+    return intro, outro, docname, name, where, chapters, prob
 
 def generate_examples_report(samples_files: dict, iteration: int):
     starting_prompt = PROMPT_REPORTS_1(*generate_report_prompt_data())
@@ -55,7 +56,7 @@ def generate_examples_report(samples_files: dict, iteration: int):
         "entities": json_entities
     }))
 
-    example = clean_wrong_per(example)
+    example = clean_common_mistakes(example)
     save_and_print([example], samples_files, iteration)
 
 if __name__ == "__main__":

@@ -2,6 +2,8 @@ import re
 from faker import Faker
 import random
 
+from utils import to_spacy_format
+
 Faker.seed(42)
 random.seed(42)
 faker = Faker('it_IT')
@@ -20,13 +22,13 @@ replacements_list = [
 
 # Regex pattern to match family members and other non-proper names referring to people in Italian
 wrong_per_pattern = (
-    r"\b(?:"
-    r"dottoressa|dottore|dottor|dott\.ssa|dott\.r|dott\.|dr\.ssa|dr\.|"
+    r"\b(?:\s?(?:"
+    r"dottoressa|dottore|dottor|dott\.ssa|dott\.r|dott\.|dr\.ssa|dr\.|dott|"
     r"professoressa|professore|professor|prof\.ssoressa|prof\.ssor|prof\.ssa|prof\.sa|prof\.|"
     r"ingegnere|ingegner|ing\.gnere|ing\.|"
     r"avvocato|avvocata|avv\.cato|avv\.|"
-    r"sig\.ora|sig\.ina|sig\.or|sig\.ra|sig\.|"
-    r"suor|padre|don"
+    r"signor.|sig\.ora|sig\.ina|sig\.or|sig\.ra|sig\.|"
+    r"suor|padre|don|"
     r"madre|mamma|padre|papà|babbo|"
     r"fratello|sorella|fratelli|sorelle|bambin.|"
     r"zi.|cugin.|nonn.|figli.|figli|nipot.|"
@@ -39,7 +41,7 @@ wrong_per_pattern = (
     r"consulent.|counselor|epatolog.|terapist.|"
     r"team|equipe|"
     r"dio"
-    r")"
+    r"))+"
 )
 
 following_name_pattern = (
@@ -196,10 +198,8 @@ def clean_mails_as_names(example: dict) -> dict:
             if str.islower(ent['text']):
                 for email in re.findall(email_pattern, example['text']):
                     if email.find(ent['text']) != -1:
-                        print(ent)
                         ent['text'] = email
                         ent['label'] = 'MAIL'
-                        print(ent)
                         break
 
     return example
@@ -290,6 +290,73 @@ def clean_misc(example: dict) -> dict:
     return example
 
 
+def find_patient_mentions(example: dict) -> dict:
+    """
+    Finds mentions of the patient in the text that are not labelled as entities. This is because patients that are
+    introduced with their full names and later mentioned only with their name or surname are not labelled as entities
+    in all the different occurrences.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the corrected example dictionary
+    """
+    patient_name = None
+    patient_surname = None
+    patient_fullname = None
+    for ent in example['entities']:
+        if ent['label'] == 'PATIENT' and ent['text'].count(' ') >= 1:
+            patient_fullname = ent['text']
+            patient_name = ent['text'].split(' ')[0]
+            patient_surname = ent['text'].split(' ')[-1]
+            break
+
+    def is_isolated_surname(text, patient_name, patient_surname):
+        for match in re.finditer(rf'\b{re.escape(patient_surname)}\b', text):
+            start = match.start()
+            # Check preceding context
+            preceding = text[max(0, start - 20):start]  # Look back 20 chars
+            if re.search(rf'({re.escape(patient_name)}|{re.escape(patient_name[0])}\.)\s$', preceding):
+                continue  # Skip if preceded by full name or initial
+            return True
+        return False
+
+    def is_isolated_name(text, patient_name, patient_surname):
+        for match in re.finditer(rf'\b{re.escape(patient_name)}\b', text):
+            end = match.end()
+            following = text[end:end + 20]  # Look ahead 20 characters
+            # Skip if followed by full surname or initial-surname formats
+            if re.match(rf'\s({re.escape(patient_surname)}|{re.escape(patient_surname[0])}\.)', following):
+                continue
+            return True
+        return False
+
+    if patient_fullname: # Finds isolated mentions of name or surname in the text
+        text_label_set = {ent['text'] for ent in example['entities'] if ent['label'] == 'PATIENT'}
+
+        # Mario R.
+        if (f"{patient_name} {patient_surname[0]}." not in text_label_set and
+                re.search(rf'\b{re.escape(patient_name)}\s{re.escape(patient_surname)[0]}\.\b', example['text'])):
+            example['entities'].append({'text': f"{patient_name} {patient_surname[0]}.", 'label': 'PATIENT'})
+
+        # Mario
+        if patient_name not in text_label_set and is_isolated_name(example['text'], patient_name, patient_surname):
+                example['entities'].append({'text': patient_name, 'label': 'PATIENT'})
+
+        # M. R.
+        if (f"{patient_name[0]}. {patient_surname[0]}." not in text_label_set and
+                re.search(rf'\b{re.escape(patient_name)[0]}\.\s{re.escape(patient_surname)[0]}\.\b', example['text'])):
+            example['entities'].append({'text': f"{patient_name[0]}. {patient_surname[0]}.", 'label': 'PATIENT'})
+
+        # M. Rossi
+        if (f"{patient_name[0]}. {patient_surname}" not in text_label_set and
+                re.search(rf'\b{re.escape(patient_name)[0]}\.\s{re.escape(patient_surname)}\b', example['text'])):
+            example['entities'].append({'text': f"{patient_name[0]}. {patient_surname}", 'label': 'PATIENT'})
+
+        # Rossi
+        if patient_surname not in text_label_set and is_isolated_surname(example['text'], patient_name, patient_surname):
+            example['entities'].append({'text': patient_surname, 'label': 'PATIENT'})
+
+    return example
+
 def clean_common_mistakes(example: dict) -> dict:
     """
     Cleans common labelling mistakes from the entities in the example. Common mistakes include:
@@ -307,6 +374,7 @@ def clean_common_mistakes(example: dict) -> dict:
     example = clean_locality(example)
     example = clean_org(example)
     example = clean_misc(example)
+    example = find_patient_mentions(example)
     return example
 
 def _replace_common_names_text(text: str) -> tuple[str,list[tuple[str,str]]]:
@@ -344,11 +412,38 @@ def replace_common_names(example: str|dict) -> str|dict:
         raise ValueError("Input must be either a string or a dictionary.")
 
 
+def change_some_entities_to_lowercase(example: dict) -> dict:
+    """
+    Changes a few entities to lowercase with a small probability to simulate common mistakes.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the modified example dictionary
+    """
+    for ent in example['entities']:
+        if ent['label'] in {'MISC','LOC','ORG','PER','GPE','PATIENT'}:
+            # Checks if the entity is not a substring of another entity to avoid partial replacements
+            is_substring = False
+            for ent_2 in example['entities']:
+                if ent_2 != ent and ent_2['text'].find(ent['text']) != -1:
+                    is_substring = True
+                    break
+            if not is_substring:
+                if (not str.islower(ent['text'])) and (random.random() < 0.01):  # 1% chance to lowercase
+                    example['text'] = example['text'].replace(ent["text"], ent['text'].lower())
+                    for ent_2 in example['entities']:
+                        if ent_2['text'] == ent['text'] and ent_2['label'] == ent['label']:
+                            ent_2['text'] = ent['text'].lower()
+
+    return example
+
+
 if __name__ == '__main__':
     from utils.json_utils import read_json_file, save_json_file, to_readable_format
-
-    for file_name in ["reports", "diaries_it","diaries_psych","diaries_therap"]:
-        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train.json")
+    for file_name in []:
+        data = read_json_file(f"seed_samples/test/seed_{file_name}_test.json")
         data = [clean_common_mistakes(example) for example in data]
-        #data = [replace_common_names(example) for example in data]
-        save_json_file(f"synthetic_samples/synthetic_{file_name}_train.json", data)
+        data = [replace_common_names(example) for example in data]
+        data = [change_some_entities_to_lowercase(example) for example in data]
+        data = to_spacy_format(data)
+        data = to_readable_format(data)
+        save_json_file(f"seed_samples/test/seed_{file_name}_test.json", data)
