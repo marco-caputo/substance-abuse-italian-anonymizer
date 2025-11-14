@@ -160,3 +160,5 @@ def mask_text(text: str) -> str:
     masked_text = re.sub(phone_re, phone_tag, masked_text)
 
     return masked_text
+
+print(mask_text(mixed_text))
