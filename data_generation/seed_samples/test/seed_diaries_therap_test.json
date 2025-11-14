@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "text": "fatta riunione con Sert di Ascoli per progettualità. Loro lo hanno visto solo due volte. Si è parlato della sua situazione. E stata ipotizzata una comunità a vita (come San Patrignano) , ma bisogna rimettersi in contatto con il Sert di provenienza precedente Fossombrone. E poi ci riaggiorneremo. Lui dovrebbe ricorciarsi le maniche e lavorare.",
     "entities": [
@@ -55,7 +55,7 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio di lunedì pomeriggio con il Sert di Modena, emerge maggiore consapevolezza rispetto all'uso di cocaina. Dice di sentire meno bisogno, ma resta vulnerabile nei momenti di solitudine. Ha iniziato la terapia con sertralina prescritta dal dott. Bianchi. Segnalato sonno irregolare e ansia mattutina.",
+    "text": "Durante il colloquio di lunedì pomeriggio con il Sert di Modena, emerge maggiore consapevolezza rispetto all'uso di cocaina. Dice di sentire meno bisogno, ma resta vulnerabile nei momenti di solitudine. Ha iniziato la terapia con sertralina prescritta dal dott. Asmundo. Segnalato sonno irregolare e ansia mattutina.",
     "entities": [
       {
         "text": "Sert di Modena",
@@ -70,7 +70,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "dott. Bianchi",
+        "text": "Asmundo",
         "label": "PER"
       },
       {
@@ -80,10 +80,10 @@
     ]
   },
   {
-    "text": "Riferisce un fine settimana difficile, con forti pensieri di ricaduta. Dopo una telefonata con la sorella Giulia, ha evitato di recarsi al bar in centro. Ha svolto regolarmente le attività in comunità a San Casciano. Continua la terapia cognitivo-comportamentale due volte a settimana.",
+    "text": "Riferisce un fine settimana difficile, con forti pensieri di ricaduta. Dopo una telefonata con la sorella Giada, ha evitato di recarsi al bar in centro. Ha svolto regolarmente le attività in comunità a San Casciano. Continua la terapia cognitivo-comportamentale due volte a settimana.",
     "entities": [
       {
-        "text": "Giulia",
+        "text": "Giada",
         "label": "PER"
       },
       {
@@ -97,10 +97,10 @@
     ]
   },
   {
-    "text": "Nel gruppo di oggi, Marco ha mostrato buona partecipazione. Ha condiviso la sua esperienza con l'alcol e i problemi di rabbia legati al passato. Segnala stanchezza fisica, ma nel complesso appare più stabile. Continua la terapia con metadone e monitoraggio mensile presso il Sert di Pavia.",
+    "text": "Nel gruppo di oggi, Gioele ha mostrato buona partecipazione. Ha condiviso la sua esperienza con l'alcol e i problemi di rabbia legati al passato. Segnala stanchezza fisica, ma nel complesso appare più stabile. Continua la terapia con metadone e monitoraggio mensile presso il Sert di Pavia.",
     "entities": [
       {
-        "text": "Marco",
+        "text": "Gioele",
         "label": "PATIENT"
       },
       {
@@ -129,7 +129,7 @@
         "label": "DATE"
       },
       {
-        "text": "dott.ssa Lorusso",
+        "text": "Lorusso",
         "label": "PER"
       },
       {
@@ -158,12 +158,12 @@
         "label": "MEDICINE"
       },
       {
-        "text": "supporto psicologico individuale",
-        "label": "TREATMENT"
-      },
-      {
         "text": "difficoltà a concentrarsi",
         "label": "SYMPTOM"
+      },
+      {
+        "text": "supporto psicologico individuale",
+        "label": "TREATMENT"
       }
     ]
   },
@@ -179,16 +179,16 @@
         "label": "SUBSTANCE"
       },
       {
+        "text": "craving",
+        "label": "SYMPTOM"
+      },
+      {
         "text": "buprenorfina",
         "label": "MEDICINE"
       },
       {
-        "text": "dott. Serra",
+        "text": "Serra",
         "label": "PER"
-      },
-      {
-        "text": "craving",
-        "label": "SYMPTOM"
       }
     ]
   },
@@ -196,12 +196,12 @@
     "text": "Ha raccontato di aver discusso con la madre, evento che ha generato ansia e desiderio di usare cocaina. È riuscito tuttavia a gestire la tensione grazie alla tecnica di respirazione insegnata durante la terapia individuale. Mostra maggiore consapevolezza delle proprie reazioni emotive.",
     "entities": [
       {
-        "text": "cocaina",
-        "label": "SUBSTANCE"
-      },
-      {
         "text": "ansia",
         "label": "SYMPTOM"
+      },
+      {
+        "text": "cocaina",
+        "label": "SUBSTANCE"
       },
       {
         "text": "tecnica di respirazione",
@@ -214,39 +214,35 @@
     ]
   },
   {
-    "text": "Incontro di follow-up presso la Comunità Aurora. Luca appare più presente e coinvolto nel gruppo. Riferisce sonno regolare e umore stabile. Continua a frequentare il laboratorio di ceramica come parte del percorso riabilitativo. Nessun episodio di abuso di alcol nell’ultima settimana.",
+    "text": "Incontro di follow-up presso la Comunità Aurora. Gianfranco appare più presente e coinvolto nel gruppo. Riferisce sonno regolare e umore stabile. Continua a frequentare il laboratorio di ceramica come parte del percorso riabilitativo. Nessun episodio di abuso di alcol nell’ultima settimana.",
     "entities": [
       {
         "text": "Comunità Aurora",
         "label": "ORG"
       },
       {
-        "text": "Luca",
+        "text": "Gianfranco",
         "label": "PATIENT"
       },
       {
-        "text": "alcol",
-        "label": "SUBSTANCE"
+        "text": "umore stabile",
+        "label": "HEALTH_STATUS"
       },
       {
         "text": "laboratorio di ceramica",
         "label": "TREATMENT"
       },
       {
-        "text": "umore stabile",
-        "label": "HEALTH_STATUS"
+        "text": "alcol",
+        "label": "SUBSTANCE"
       }
     ]
   },
   {
-    "text": "Durante la riunione di gruppo di martedì, Maria ha condiviso la difficoltà di accettare la diagnosi di disturbo borderline. Si sta impegnando nella terapia dialettico-comportamentale e mostra piccoli progressi nella gestione della rabbia. Assunzione regolare di olanzapina, nessun effetto collaterale rilevante.",
+    "text": "Durante la riunione di gruppo di martedì, Claudia ha condiviso la difficoltà di accettare la diagnosi di disturbo borderline. Si sta impegnando nella terapia dialettico-comportamentale e mostra piccoli progressi nella gestione della rabbia. Assunzione regolare di olanzapina, nessun effetto collaterale rilevante.",
     "entities": [
       {
-        "text": "martedì",
-        "label": "DATE"
-      },
-      {
-        "text": "Maria",
+        "text": "Claudia",
         "label": "PATIENT"
       },
       {
@@ -279,12 +275,12 @@
         "label": "ORG"
       },
       {
-        "text": "colloquio motivazionale",
-        "label": "TREATMENT"
-      },
-      {
         "text": "ricaduta",
         "label": "SYMPTOM"
+      },
+      {
+        "text": "colloquio motivazionale",
+        "label": "TREATMENT"
       }
     ]
   },
@@ -300,12 +296,12 @@
         "label": "MEDICINE"
       },
       {
-        "text": "eroina",
-        "label": "SUBSTANCE"
-      },
-      {
         "text": "noia",
         "label": "SYMPTOM"
+      },
+      {
+        "text": "eroina",
+        "label": "SUBSTANCE"
       }
     ]
   },
@@ -334,11 +330,7 @@
     "text": "Martedì incontro con la dott.ssa Romano presso il Centro San Giorgio di Bologna. Paolo appare stanco ma collaborativo. Ha iniziato un percorso di disintossicazione dall’alcol e ha accettato di partecipare alle riunioni dei Narcotici Anonimi. Umore altalenante, ma riferisce sonno più regolare rispetto a prima.",
     "entities": [
       {
-        "text": "Martedì",
-        "label": "DATE"
-      },
-      {
-        "text": "dott.ssa Romano",
+        "text": "Romano",
         "label": "PER"
       },
       {
@@ -358,7 +350,7 @@
         "label": "ORG"
       },
       {
-        "text": "umore altalenante",
+        "text": "Umore altalenante",
         "label": "HEALTH_STATUS"
       }
     ]
@@ -366,10 +358,6 @@
   {
     "text": "Ha accettato di riprendere il percorso terapeutico interrotto a settembre. Dice di sentirsi svuotato, ma più disposto a collaborare. Segnala ancora sintomi di irritabilità e insonnia, per cui è stato prescritto quetiapina in bassa dose dal dott. Leone. Nessun episodio recente di uso di hashish.",
     "entities": [
-      {
-        "text": "settembre",
-        "label": "DATE"
-      },
       {
         "text": "irritabilità",
         "label": "SYMPTOM"
@@ -383,7 +371,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "dott. Leone",
+        "text": "Leone",
         "label": "PER"
       },
       {
@@ -425,30 +413,22 @@
         "label": "SUBSTANCE"
       },
       {
+        "text": "irritabilità",
+        "label": "SYMPTOM"
+      },
+      {
         "text": "buprenorfina",
         "label": "MEDICINE"
       },
       {
         "text": "gruppi di auto-aiuto",
         "label": "TREATMENT"
-      },
-      {
-        "text": "irritabilità",
-        "label": "SYMPTOM"
       }
     ]
   },
   {
     "text": "Ha partecipato all’incontro di gruppo di martedì pomeriggio con buon coinvolgimento. Ha espresso preoccupazione per il rapporto con il padre e timore di una possibile ricaduta. Non ha fatto uso di cocaina da fine ottobre. La psicologa Berti suggerisce di rafforzare le strategie di gestione dello stress.",
     "entities": [
-      {
-        "text": "martedì pomeriggio",
-        "label": "DATE"
-      },
-      {
-        "text": "padre",
-        "label": "PER"
-      },
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
@@ -458,7 +438,7 @@
         "label": "DATE"
       },
       {
-        "text": "psicologa Berti",
+        "text": "Berti",
         "label": "PER"
       },
       {
@@ -475,15 +455,11 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "educatore",
-        "label": "PER"
-      },
-      {
         "text": "sonno",
         "label": "SYMPTOM"
       },
       {
-        "text": "dott. Arduini",
+        "text": "Arduini",
         "label": "PER"
       },
       {
@@ -500,10 +476,6 @@
         "label": "ORG"
       },
       {
-        "text": "giugno",
-        "label": "DATE"
-      },
-      {
         "text": "cannabis",
         "label": "SUBSTANCE"
       },
@@ -516,10 +488,6 @@
   {
     "text": "Nel gruppo di auto-mutuo aiuto di questa mattina, Elena ha condiviso di aver smesso completamente con l’alcol. Dice di sentirsi più leggera e con maggiore energia. La psicoterapeuta Rizzi nota progressi nella gestione della rabbia e una maggiore apertura verso gli altri membri del gruppo.",
     "entities": [
-      {
-        "text": "gruppo di auto-mutuo aiuto",
-        "label": "ORG"
-      },
       {
         "text": "Elena",
         "label": "PATIENT"
@@ -550,16 +518,8 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "ottobre",
-        "label": "DATE"
-      },
-      {
         "text": "metadone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "martedì",
-        "label": "DATE"
       }
     ]
   },
@@ -567,8 +527,8 @@
     "text": "Ha raccontato di un episodio di forte craving dopo una discussione con la sorella. È riuscito a gestire la tensione senza ricorrere alla cocaina, utilizzando le tecniche di respirazione imparate durante la terapia cognitivo-comportamentale. Umore altalenante, ma migliorato rispetto alle ultime settimane.",
     "entities": [
       {
-        "text": "sorella",
-        "label": "PER"
+        "text": "craving",
+        "label": "SYMPTOM"
       },
       {
         "text": "cocaina",
@@ -579,11 +539,7 @@
         "label": "TREATMENT"
       },
       {
-        "text": "craving",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "umore altalenante",
+        "text": "Umore altalenante",
         "label": "HEALTH_STATUS"
       }
     ]
@@ -604,16 +560,12 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "settembre",
-        "label": "DATE"
+        "text": "tremori mattutini",
+        "label": "SYMPTOM"
       },
       {
         "text": "diazepam",
         "label": "MEDICINE"
-      },
-      {
-        "text": "tremori mattutini",
-        "label": "SYMPTOM"
       }
     ]
   },
@@ -623,10 +575,6 @@
       {
         "text": "cannabis",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "fine settimana",
-        "label": "DATE"
       },
       {
         "text": "terapia di gruppo",
@@ -639,14 +587,10 @@
     ]
   },
   {
-    "text": "Nel gruppo del giovedì mattina, Marco ha condiviso un episodio di ansia intensa avvenuto in autobus. Riferisce di sentirsi più vulnerabile dopo la sospensione del Lorazepam, prescritta dalla dott.ssa Ferri due settimane fa. Si propone di monitorare la qualità del sonno nei prossimi incontri.",
+    "text": "Nel gruppo del giovedì mattina, Claudio ha condiviso un episodio di ansia intensa avvenuto in autobus. Riferisce di sentirsi più vulnerabile dopo la sospensione del Lorazepam, prescritta dalla dott.ssa Verdone due settimane fa. Si propone di monitorare la qualità del sonno nei prossimi incontri.",
     "entities": [
       {
-        "text": "giovedì mattina",
-        "label": "DATE"
-      },
-      {
-        "text": "Marco",
+        "text": "Claudio",
         "label": "PATIENT"
       },
       {
@@ -658,7 +602,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "dott.ssa Ferri",
+        "text": "Verdone",
         "label": "PER"
       }
     ]
@@ -685,23 +629,15 @@
     ]
   },
   {
-    "text": "Si è presentato in ritardo alla riunione di gruppo. Dice di aver dormito male per pensieri legati al rapporto con la madre. Segnala irritabilità e difficoltà di concentrazione. Continua a frequentare il Centro San Luca e partecipa al laboratorio di ceramica del giovedì mattina.",
+    "text": "Si è presentato in ritardo alla riunione di gruppo. Dice di aver dormito male per pensieri legati al rapporto con la madre. Segnala irritabilità e difficoltà di concentrazione. Continua a frequentare il Centro San Calogero e partecipa al laboratorio di ceramica del giovedì mattina.",
     "entities": [
-      {
-        "text": "madre",
-        "label": "PER"
-      },
       {
         "text": "irritabilità",
         "label": "SYMPTOM"
       },
       {
-        "text": "Centro San Luca",
+        "text": "Centro San Calogero",
         "label": "ORG"
-      },
-      {
-        "text": "giovedì mattina",
-        "label": "DATE"
       }
     ]
   },
@@ -709,16 +645,8 @@
     "text": "Ha raccontato di un episodio di forte nervosismo seguito all’incontro con l’ex compagno di consumo. Ammette una ricaduta con eroina, avvenuta tre giorni fa. È consapevole del rischio e ha chiesto di aumentare gli incontri individuali. Il tono dell’umore appare basso, ma non presenta segni di depressione maggiore.",
     "entities": [
       {
-        "text": "ex compagno di consumo",
-        "label": "PER"
-      },
-      {
         "text": "eroina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "tre giorni fa",
-        "label": "DATE"
       },
       {
         "text": "incontri individuali",
@@ -734,14 +662,6 @@
     "text": "Nel gruppo del mercoledì mattina ha parlato del desiderio di riavvicinarsi al padre, interrotto da anni per questioni legate alla dipendenza da alcol. Si mostra motivato a proseguire il percorso di disintossicazione. Ha accennato all’idea di iscriversi a un corso di falegnameria proposto dal Comune di Bologna.",
     "entities": [
       {
-        "text": "mercoledì mattina",
-        "label": "DATE"
-      },
-      {
-        "text": "padre",
-        "label": "PER"
-      },
-      {
         "text": "alcol",
         "label": "SUBSTANCE"
       },
@@ -752,10 +672,6 @@
       {
         "text": "Comune di Bologna",
         "label": "ORG"
-      },
-      {
-        "text": "Bologna",
-        "label": "GPE"
       }
     ]
   },
@@ -767,7 +683,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "dott.ssa Valli",
+        "text": "Valli",
         "label": "PER"
       },
       {
@@ -792,20 +708,8 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "ottobre",
-        "label": "DATE"
-      },
-      {
-        "text": "sorella",
-        "label": "PER"
-      },
-      {
         "text": "naltrexone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "lunedì pomeriggio",
-        "label": "DATE"
       }
     ]
   },
@@ -817,16 +721,12 @@
         "label": "DATE"
       },
       {
-        "text": "compagna",
-        "label": "PER"
+        "text": "ansia",
+        "label": "SYMPTOM"
       },
       {
         "text": "alcol",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
       },
       {
         "text": "incubi",
@@ -842,28 +742,24 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "tre mesi",
-        "label": "DATE"
-      },
-      {
-        "text": "dott.ssa Leone",
-        "label": "PER"
-      },
-      {
         "text": "incontri individuali",
         "label": "TREATMENT"
+      },
+      {
+        "text": "Leone",
+        "label": "PER"
       }
     ]
   },
   {
-    "text": "Nell’incontro con l’équipe del Centro Aurora si è discusso del rallentamento nel percorso di Matteo. Da alcune settimane mostra scarso interesse nelle attività e tende a isolarsi. Nonostante ciò, riferisce di assumere regolarmente la terapia con metadone e sertralina. Si valuta l’introduzione di incontri motivazionali.",
+    "text": "Nell’incontro con l’équipe del Centro Aurora si è discusso del rallentamento nel percorso di Piersanti. Da alcune settimane mostra scarso interesse nelle attività e tende a isolarsi. Nonostante ciò, riferisce di assumere regolarmente la terapia con metadone e sertralina. Si valuta l’introduzione di incontri motivazionali.",
     "entities": [
       {
         "text": "Centro Aurora",
         "label": "ORG"
       },
       {
-        "text": "Matteo",
+        "text": "Piersanti",
         "label": "PATIENT"
       },
       {
@@ -888,10 +784,6 @@
     "text": "Durante la riunione del venerdì mattina al Sert di Parma ha espresso la volontà di tornare a lavorare. Riferisce miglioramento dell’umore e nessuna assunzione di eroina da inizio mese. La dott.ssa Ferraro consiglia di proseguire con la psicoterapia individuale e di monitorare il livello di ansia.",
     "entities": [
       {
-        "text": "venerdì mattina",
-        "label": "DATE"
-      },
-      {
         "text": "Sert di Parma",
         "label": "ORG"
       },
@@ -900,7 +792,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "dott.ssa Ferraro",
+        "text": "Ferraro",
         "label": "PER"
       },
       {
@@ -917,24 +809,12 @@
     "text": "Ha partecipato con maggiore coinvolgimento all’incontro di gruppo del martedì. Riferisce di non aver assunto eroina da due settimane e di essersi mantenuto stabile con la terapia a base di metadone. Mostra preoccupazione per il rapporto con il padre, che continua a non volerlo vedere. Si concorda di proseguire con colloqui individuali quindicinali.",
     "entities": [
       {
-        "text": "martedì",
-        "label": "DATE"
-      },
-      {
         "text": "eroina",
         "label": "SUBSTANCE"
       },
       {
-        "text": "due settimane",
-        "label": "DATE"
-      },
-      {
         "text": "metadone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "padre",
-        "label": "PER"
       },
       {
         "text": "colloqui individuali quindicinali",
@@ -943,10 +823,10 @@
     ]
   },
   {
-    "text": "Durante la verifica mensile con la dott.ssa Verdi presso il Centro Il Faro emerge un miglioramento nel tono dell’umore. Riferisce un solo episodio di consumo di alcol durante un compleanno. Continua la terapia con sertralina e dorme meglio rispetto al mese scorso.",
+    "text": "Durante la verifica mensile con la dott.ssa Balbi presso il Centro Il Faro emerge un miglioramento nel tono dell’umore. Riferisce un solo episodio di consumo di alcol durante un compleanno. Continua la terapia con sertralina e dorme meglio rispetto al mese scorso.",
     "entities": [
       {
-        "text": "dott.ssa Verdi",
+        "text": "Balbi",
         "label": "PER"
       },
       {
@@ -960,10 +840,6 @@
       {
         "text": "sertralina",
         "label": "MEDICINE"
-      },
-      {
-        "text": "mese scorso",
-        "label": "DATE"
       }
     ]
   },
@@ -971,16 +847,8 @@
     "text": "Ha comunicato di essere tornato a vivere con la madre a Modena dopo la chiusura del progetto di accoglienza. Riferisce sintomi depressivi e frequenti risvegli notturni. Viene proposta la ripresa della psicoterapia individuale e un controllo medico per valutare eventuale introduzione di duloxetina.",
     "entities": [
       {
-        "text": "madre",
-        "label": "PER"
-      },
-      {
         "text": "Modena",
         "label": "GPE"
-      },
-      {
-        "text": "progetto di accoglienza",
-        "label": "MISC"
       },
       {
         "text": "sintomi depressivi",
@@ -1002,10 +870,6 @@
       {
         "text": "Sert di Pesaro",
         "label": "ORG"
-      },
-      {
-        "text": "compagna",
-        "label": "PER"
       },
       {
         "text": "cocaina",
@@ -1037,10 +901,6 @@
         "label": "LOC"
       },
       {
-        "text": "Reggio Emilia",
-        "label": "GPE"
-      },
-      {
         "text": "inizio mese",
         "label": "DATE"
       },
@@ -1051,15 +911,11 @@
     ]
   },
   {
-    "text": "Durante il colloquio mattutino appare più disteso. Riferisce di essere riuscito a mantenere l’astinenza da cocaina da oltre tre settimane. Si confronta in modo costruttivo con gli altri del gruppo e accetta le osservazioni. Segnala ancora difficoltà nel sonno e calo dell’appetito. Proposta visita con la dott.ssa Rinaldi per eventuale adeguamento del dosaggio di quetiapina.",
+    "text": "Durante il colloquio mattutino appare più disteso. Riferisce di essere riuscito a mantenere l’astinenza da cocaina da oltre tre settimane. Si confronta in modo costruttivo con gli altri del gruppo e accetta le osservazioni. Segnala ancora difficoltà nel sonno e calo dell’appetito. Proposta visita con la dott.ssa Baggio per eventuale adeguamento del dosaggio di quetiapina.",
     "entities": [
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "tre settimane",
-        "label": "DATE"
       },
       {
         "text": "difficoltà nel sonno",
@@ -1070,7 +926,7 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "dott.ssa Rinaldi",
+        "text": "Baggio",
         "label": "PER"
       },
       {
@@ -1085,10 +941,6 @@
       {
         "text": "Sert di Rimini",
         "label": "ORG"
-      },
-      {
-        "text": "fratello",
-        "label": "PER"
       },
       {
         "text": "pensieri ansiosi",
@@ -1108,10 +960,6 @@
     "text": "Ha mostrato nervosismo durante la riunione settimanale, lamentando insofferenza verso le regole della comunità. Nega uso di sostanze ma ammette forte desiderio di birra. Si propone di aumentare i colloqui motivazionali e valutare possibile attività esterna in collaborazione con la Cooperativa Nuovo Sentiero.",
     "entities": [
       {
-        "text": "comunità",
-        "label": "LOC"
-      },
-      {
         "text": "birra",
         "label": "SUBSTANCE"
       },
@@ -1129,30 +977,14 @@
     "text": "Ha incontrato difficoltà nella gestione del fine settimana. Riferisce un episodio di consumo di hashish la sera di sabato in compagnia di vecchi amici. Mostra vergogna ma anche consapevolezza del rischio. Si concorda una verifica aggiuntiva con la psicologa la prossima settimana.",
     "entities": [
       {
-        "text": "fine settimana",
-        "label": "DATE"
-      },
-      {
         "text": "hashish",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "sabato",
-        "label": "DATE"
-      },
-      {
-        "text": "psicologa",
-        "label": "PER"
       }
     ]
   },
   {
     "text": "Da alcuni giorni appare più stabile e partecipe. Ha completato la seconda settimana di tirocinio presso la cooperativa Arca a Bologna. Non segnala ricadute, riferisce sonno regolare e maggiore energia. Prosegue la terapia farmacologica con metadone e sertralina.",
     "entities": [
-      {
-        "text": "seconda settimana",
-        "label": "DATE"
-      },
       {
         "text": "cooperativa Arca",
         "label": "ORG"
@@ -1179,34 +1011,26 @@
     "text": "Durante la riunione di gruppo del martedì ha condiviso la difficoltà di gestire la rabbia nei momenti di tensione. Riferisce di aver avuto un forte impulso a usare eroina ma di aver resistito grazie al supporto telefonico della dott.ssa Corsi. Continua la terapia sostitutiva con buprenorfina secondo prescrizione.",
     "entities": [
       {
-        "text": "martedì",
-        "label": "DATE"
-      },
-      {
         "text": "eroina",
         "label": "SUBSTANCE"
       },
       {
-        "text": "dott.ssa Corsi",
+        "text": "Corsi",
         "label": "PER"
-      },
-      {
-        "text": "buprenorfina",
-        "label": "MEDICINE"
       },
       {
         "text": "terapia sostitutiva",
         "label": "TREATMENT"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
       }
     ]
   },
   {
     "text": "Nel colloquio individuale di oggi appare più orientato e collaborativo. Riferisce di aver dormito meglio negli ultimi giorni. Segnala una lieve ansia serale, per cui si valuta la possibilità di introdurre una bassa dose di lorazepam per un periodo limitato.",
     "entities": [
-      {
-        "text": "oggi",
-        "label": "DATE"
-      },
       {
         "text": "ansia serale",
         "label": "SYMPTOM"
@@ -1220,10 +1044,6 @@
   {
     "text": "Ha ripreso a frequentare la madre dopo mesi di silenzio. Dice di sentirsi più stabile e motivato. Non emergono episodi di craving né pensieri autolesivi. Si conferma la prosecuzione del percorso terapeutico con il Sert di Ancona e il monitoraggio settimanale dei test urinari.",
     "entities": [
-      {
-        "text": "madre",
-        "label": "PER"
-      },
       {
         "text": "craving",
         "label": "SYMPTOM"
@@ -1246,16 +1066,12 @@
     "text": "Settimana complessivamente positiva. Ha partecipato alle attività di cucina e giardinaggio con continuità. Segnala tensione solo durante la visita del padre, che definisce 'ancora poco fiducioso'. Mantiene l’aderenza al trattamento con metadone e partecipa regolarmente ai gruppi di auto-aiuto.",
     "entities": [
       {
-        "text": "padre",
-        "label": "PER"
+        "text": "trattamento",
+        "label": "TREATMENT"
       },
       {
         "text": "metadone",
         "label": "MEDICINE"
-      },
-      {
-        "text": "trattamento",
-        "label": "TREATMENT"
       },
       {
         "text": "gruppi di auto-aiuto",
@@ -1267,25 +1083,13 @@
     "text": "Durante il weekend ha riferito forte nostalgia del periodo in cui viveva a Milano, associata al desiderio di uscire dalla comunità. Nessuna ricaduta riportata, ma atteggiamento ambivalente. Si concorda un colloquio di sostegno con la psicologa la prossima settimana per approfondire la motivazione al cambiamento.",
     "entities": [
       {
-        "text": "weekend",
-        "label": "DATE"
-      },
-      {
         "text": "Milano",
         "label": "GPE"
-      },
-      {
-        "text": "comunità",
-        "label": "LOC"
-      },
-      {
-        "text": "psicologa",
-        "label": "PER"
       }
     ]
   },
   {
-    "text": "Oggi colloquio individuale presso il Centro Dipendenze di Perugia. Riferisce di aver avuto una ricaduta nel weekend con uso di cocaina. Dice di sentirsi svuotato e ansioso. Si è concordato di incrementare la frequenza dei colloqui con la psicologa Dott.ssa Rinaldi e valutare eventuale introduzione di sertralina.",
+    "text": "Oggi colloquio individuale presso il Centro Dipendenze di Perugia. Riferisce di aver avuto una ricaduta nel weekend con uso di cocaina. Dice di sentirsi svuotato e ansioso. Si è concordato di incrementare la frequenza dei colloqui con la psicologa Dott.ssa Cabrini e valutare eventuale introduzione di sertralina.",
     "entities": [
       {
         "text": "Centro Dipendenze di Perugia",
@@ -1300,7 +1104,7 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "Dott.ssa Rinaldi",
+        "text": "Cabrini",
         "label": "PER"
       },
       {
@@ -1312,10 +1116,6 @@
   {
     "text": "Durante il gruppo di martedì si è mostrato partecipe e ha condiviso la fatica di stare senza alcol. Dice che la notte dorme poco e ha incubi frequenti. Abbiamo discusso la possibilità di un sostegno farmacologico leggero con melatonina e di un colloquio con il medico del Sert di Modena.",
     "entities": [
-      {
-        "text": "martedì",
-        "label": "DATE"
-      },
       {
         "text": "alcol",
         "label": "SUBSTANCE"
@@ -1335,10 +1135,10 @@
     ]
   },
   {
-    "text": "In mattinata incontro con la madre del paziente, Sig.ra Bianchi, preoccupata per il comportamento impulsivo del figlio. Il ragazzo ha riferito di aver sospeso la terapia con metadone da tre giorni, lamentando nausea e irritabilità. Si valuta la possibilità di reinserimento nel programma terapeutico della Comunità Nuova Speranza a Firenze.",
+    "text": "In mattinata incontro con la madre del paziente, Sig.ra Galeati, preoccupata per il comportamento impulsivo del figlio. Il ragazzo ha riferito di aver sospeso la terapia con metadone da tre giorni, lamentando nausea e irritabilità. Si valuta la possibilità di reinserimento nel programma terapeutico della Comunità Nuova Speranza a Firenze.",
     "entities": [
       {
-        "text": "Sig.ra Bianchi",
+        "text": "Galeati",
         "label": "PER"
       },
       {
@@ -1404,7 +1204,7 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "Dott.ssa Ferretti",
+        "text": "Ferretti",
         "label": "PER"
       },
       {
@@ -1433,10 +1233,6 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "infermiere",
-        "label": "PER"
-      },
-      {
         "text": "buprenorfina",
         "label": "MEDICINE"
       }
@@ -1446,24 +1242,20 @@
     "text": "Ha partecipato con difficoltà al gruppo del mercoledì pomeriggio. Riferisce insonnia e mancanza di concentrazione, dice che i pensieri sul passato lo tormentano. Si valuta con la Dott.ssa Corsi la possibilità di inserire un sostegno psicoterapico individuale a integrazione del percorso con il Sert di Bologna.",
     "entities": [
       {
-        "text": "mercoledì pomeriggio",
-        "label": "DATE"
-      },
-      {
         "text": "insonnia",
         "label": "SYMPTOM"
       },
       {
-        "text": "Dott.ssa Corsi",
+        "text": "Corsi",
         "label": "PER"
-      },
-      {
-        "text": "Sert di Bologna",
-        "label": "ORG"
       },
       {
         "text": "psicoterapico individuale",
         "label": "TREATMENT"
+      },
+      {
+        "text": "Sert di Bologna",
+        "label": "ORG"
       }
     ]
   },
@@ -1485,15 +1277,11 @@
       {
         "text": "Laura",
         "label": "PER"
-      },
-      {
-        "text": "sabato",
-        "label": "DATE"
       }
     ]
   },
   {
-    "text": "Durante la verifica settimanale ha comunicato di aver avuto un momento di forte tentazione durante una visita a casa della madre in provincia di Parma. È riuscito a non usare eroina grazie al supporto telefonico con l’operatore Marco. Si propone di intensificare i momenti di confronto sul tema della fiducia in sé.",
+    "text": "Durante la verifica settimanale ha comunicato di aver avuto un momento di forte tentazione durante una visita a casa della madre in provincia di Parma. È riuscito a non usare eroina grazie al supporto telefonico con l’operatore Gianpaolo. Si propone di intensificare i momenti di confronto sul tema della fiducia in sé.",
     "entities": [
       {
         "text": "provincia di Parma",
@@ -1504,7 +1292,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "operatore Marco",
+        "text": "Gianpaolo",
         "label": "PER"
       }
     ]
@@ -1546,7 +1334,7 @@
         "label": "GPE"
       },
       {
-        "text": "Dott.ssa Leone",
+        "text": "Leone",
         "label": "PER"
       }
     ]
@@ -1565,18 +1353,14 @@
       {
         "text": "Sert di Ancona",
         "label": "ORG"
-      },
-      {
-        "text": "prossima settimana",
-        "label": "DATE"
       }
     ]
   },
   {
-    "text": "Ha partecipato attivamente al laboratorio di cucina e si è mostrato collaborativo con gli altri ospiti. Riferisce di aver avuto un litigio con il padre Marco, che lo accusa di non impegnarsi abbastanza. Dice di non aver assunto cocaina, ma di aver avuto forti pensieri di ricaduta. La Dott.ssa Ferri propone di introdurre incontri più frequenti con la psicoterapeuta.",
+    "text": "Ha partecipato attivamente al laboratorio di cucina e si è mostrato collaborativo con gli altri ospiti. Riferisce di aver avuto un litigio con il padre Toni, che lo accusa di non impegnarsi abbastanza. Dice di non aver assunto cocaina, ma di aver avuto forti pensieri di ricaduta. La Dott.ssa Avogadro propone di introdurre incontri più frequenti con la psicoterapeuta.",
     "entities": [
       {
-        "text": "Marco",
+        "text": "Toni",
         "label": "PER"
       },
       {
@@ -1584,7 +1368,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Ferri",
+        "text": "Avogadro",
         "label": "PER"
       },
       {
@@ -1632,10 +1416,6 @@
       {
         "text": "Chiara",
         "label": "PER"
-      },
-      {
-        "text": "domenica",
-        "label": "DATE"
       }
     ]
   },
@@ -1661,7 +1441,7 @@
     ]
   },
   {
-    "text": "Nell’incontro odierno presso il Centro Fenice di Napoli ha espresso difficoltà nel gestire l’ansia. Dice di aver ripreso a fumare hashish dopo una lite con il fratello. Si è deciso con la Dott.ssa Bellini di introdurre sedute di mindfulness e un aumento graduale della sertralina. Sarà effettuato un controllo a fine mese.",
+    "text": "Nell’incontro odierno presso il Centro Fenice di Napoli ha espresso difficoltà nel gestire l’ansia. Dice di aver ripreso a fumare hashish dopo una lite con il fratello. Si è deciso con la Dott.ssa Zamorani di introdurre sedute di mindfulness e un aumento graduale della sertralina. Sarà effettuato un controllo a fine mese.",
     "entities": [
       {
         "text": "Centro Fenice",
@@ -1676,7 +1456,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Bellini",
+        "text": "Zamorani",
         "label": "PER"
       },
       {
@@ -1715,23 +1495,19 @@
     ]
   },
   {
-    "text": "Nel pomeriggio ha partecipato al laboratorio di falegnameria con buona motivazione. Ha detto di aver pensato alla cocaina ma di non aver ceduto. La presenza del tutor Matteo sembra favorire l’aderenza al programma. Si pianifica di introdurre un colloquio familiare con la madre nei prossimi giorni.",
+    "text": "Nel pomeriggio ha partecipato al laboratorio di falegnameria con buona motivazione. Ha detto di aver pensato alla cocaina ma di non aver ceduto. La presenza del tutor Gaetano sembra favorire l’aderenza al programma. Si pianifica di introdurre un colloquio familiare con la madre nei prossimi giorni.",
     "entities": [
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
       {
-        "text": "Matteo",
+        "text": "Gaetano",
         "label": "PER"
       },
       {
         "text": "colloquio familiare",
         "label": "TREATMENT"
-      },
-      {
-        "text": "madre",
-        "label": "PER"
       }
     ]
   },
@@ -1764,10 +1540,6 @@
     "text": "Oggi ha partecipato con attenzione al gruppo tematico sulla gestione della rabbia. Ha raccontato di aver litigato con il padre nei giorni scorsi, evento che gli ha provocato forte ansia e pensieri di uso. Dice di non aver toccato cocaina da cinque giorni. Si nota lieve miglioramento nella capacità di autocontrollo. La Dott.ssa Verri propone di mantenere la terapia con quetiapina.",
     "entities": [
       {
-        "text": "padre",
-        "label": "PER"
-      },
-      {
         "text": "ansia",
         "label": "SYMPTOM"
       },
@@ -1776,7 +1548,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Verri",
+        "text": "Verri",
         "label": "PER"
       },
       {
@@ -1795,10 +1567,6 @@
       {
         "text": "birre",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "sabato sera",
-        "label": "DATE"
       },
       {
         "text": "terapia cognitivo-comportamentale",
@@ -1860,7 +1628,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "Dott.ssa Rizzi",
+        "text": "Rizzi",
         "label": "PER"
       },
       {
@@ -1870,14 +1638,14 @@
     ]
   },
   {
-    "text": "Ha partecipato all’incontro di gruppo con atteggiamento più sereno rispetto alla settimana scorsa. Riferisce di aver ridotto l’uso di hashish e di essere riuscito a mantenere la distanza dal vecchio gruppo di amici con cui solitamente consumava. La Dott.ssa Ferri conferma miglioramento della motivazione al cambiamento.",
+    "text": "Ha partecipato all’incontro di gruppo con atteggiamento più sereno rispetto alla settimana scorsa. Riferisce di aver ridotto l’uso di hashish e di essere riuscito a mantenere la distanza dal vecchio gruppo di amici con cui solitamente consumava. La Dott.ssa Verdone conferma miglioramento della motivazione al cambiamento.",
     "entities": [
       {
         "text": "hashish",
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Ferri",
+        "text": "Verdone",
         "label": "PER"
       }
     ]
@@ -1885,10 +1653,6 @@
   {
     "text": "Martedì colloquio con la psicologa del Centro Rinasce. Dice di sentirsi svuotato e con poca energia, ma non ha avuto ricadute. Continua la terapia con metadone sotto controllo del Sert di Foggia. Si valuta la possibilità di introdurre attività sportive nel programma quotidiano.",
     "entities": [
-      {
-        "text": "Martedì",
-        "label": "DATE"
-      },
       {
         "text": "Centro Rinasce",
         "label": "ORG"
@@ -1904,7 +1668,7 @@
     ]
   },
   {
-    "text": "Ha mostrato instabilità emotiva negli ultimi giorni, alternando momenti di euforia e apatia. Durante la riunione con l’équipe è emersa la difficoltà nel mantenere l’astinenza da benzodiazepine. La Dott.ssa Tenti suggerisce un monitoraggio quotidiano e la riduzione graduale della dose di diazepam.",
+    "text": "Ha mostrato instabilità emotiva negli ultimi giorni, alternando momenti di euforia e apatia. Durante la riunione con l’équipe è emersa la difficoltà nel mantenere l’astinenza da benzodiazepine. La Dott.ssa tenti suggerisce un monitoraggio quotidiano e la riduzione graduale della dose di diazepam.",
     "entities": [
       {
         "text": "euforia",
@@ -1919,7 +1683,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Tenti",
+        "text": "tenti",
         "label": "PER"
       },
       {
@@ -1936,15 +1700,7 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "venerdì",
-        "label": "DATE"
-      },
-      {
-        "text": "operatore di turno",
-        "label": "PER"
-      },
-      {
-        "text": "Dott. Brandi",
+        "text": "Brandi",
         "label": "PER"
       },
       {
@@ -1982,7 +1738,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Marini",
+        "text": "Marini",
         "label": "PER"
       },
       {
@@ -2020,17 +1776,13 @@
     "text": "Lunedì pomeriggio confronto con l’educatore sulla gestione della frustrazione. Dice di sentirsi sotto pressione per le regole della casa. Non ha avuto contatti con la famiglia da due settimane. Nessun episodio di uso di eroina segnalato. Si valuta eventuale colloquio familiare con la madre.",
     "entities": [
       {
-        "text": "Lunedì pomeriggio",
-        "label": "DATE"
-      },
-      {
         "text": "eroina",
         "label": "SUBSTANCE"
       }
     ]
   },
   {
-    "text": "Ha mostrato impegno nelle attività lavorative in serra. Riferisce di sentirsi più stabile e di riuscire a gestire meglio l’ansia. Continua il trattamento con sertralina. Si nota miglioramento della relazione con i compagni e aumento dell’autostima. Previsto colloquio di verifica con il Dott. Rossi la prossima settimana.",
+    "text": "Ha mostrato impegno nelle attività lavorative in serra. Riferisce di sentirsi più stabile e di riuscire a gestire meglio l’ansia. Continua il trattamento con sertralina. Si nota miglioramento della relazione con i compagni e aumento dell’autostima. Previsto colloquio di verifica con il Dott. Puccini la prossima settimana.",
     "entities": [
       {
         "text": "ansia",
@@ -2041,7 +1793,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "Dott. Rossi",
+        "text": "Puccini",
         "label": "PER"
       }
     ]
@@ -2049,10 +1801,6 @@
   {
     "text": "Durante l’incontro di martedì ha parlato del senso di colpa legato all’abbandono della figlia anni fa. Dice di aver sognato di nuovo l’uso di eroina, ma senza attuarlo. Il sogno ha generato agitazione e insonnia. Si consiglia colloquio aggiuntivo con la psicoterapeuta del Centro Aurora.",
     "entities": [
-      {
-        "text": "martedì",
-        "label": "DATE"
-      },
       {
         "text": "eroina",
         "label": "SUBSTANCE"
@@ -2094,10 +1842,6 @@
       {
         "text": "quetiapina",
         "label": "MEDICINE"
-      },
-      {
-        "text": "due settimane",
-        "label": "DATE"
       }
     ]
   },
@@ -2109,16 +1853,12 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa Lupi",
+        "text": "Lupi",
         "label": "PER"
       },
       {
         "text": "test tossicologico",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "venerdì",
-        "label": "DATE"
       },
       {
         "text": "trattamento metadonico",
@@ -2144,7 +1884,7 @@
     ]
   },
   {
-    "text": "Ha iniziato la nuova terapia con buprenorfina presso il Sert di Modena. Durante la settimana non ha mostrato segni di astinenza. Ha riferito leggeri tremori alle mani, probabilmente effetto del farmaco. Previsto controllo medico con il Dott. Ferri il 18 novembre.",
+    "text": "Ha iniziato la nuova terapia con buprenorfina presso il Sert di Modena. Durante la settimana non ha mostrato segni di astinenza. Ha riferito leggeri tremori alle mani, probabilmente effetto del farmaco. Previsto controllo medico con il Dott. Galuppi il 18 novembre.",
     "entities": [
       {
         "text": "buprenorfina",
@@ -2163,7 +1903,7 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "Dott. Ferri",
+        "text": "Galuppi",
         "label": "PER"
       },
       {
@@ -2218,7 +1958,7 @@
     "text": "Durante la mattinata ha chiesto di parlare con la Dott.ssa Fiori per chiarire alcune tensioni con un compagno di stanza. Si mostra più riflessivo e disposto al confronto. Continua a frequentare regolarmente i laboratori di cucina e ortoterapia previsti dal programma terapeutico.",
     "entities": [
       {
-        "text": "Dott.ssa Fiori",
+        "text": "Fiori",
         "label": "PER"
       },
       {
@@ -2256,7 +1996,7 @@
     "text": "Nel pomeriggio colloquio di verifica con il Dott. Serra. Nonostante alcune oscillazioni dell’umore, appare complessivamente in miglioramento. Continua la terapia con sertralina e lamotrigina. Si programma un controllo clinico entro il 25 novembre.",
     "entities": [
       {
-        "text": "Dott. Serra",
+        "text": "Serra",
         "label": "PER"
       },
       {
@@ -2300,10 +2040,6 @@
       {
         "text": "buprenorfina",
         "label": "MEDICINE"
-      },
-      {
-        "text": "lunedì prossimo",
-        "label": "DATE"
       }
     ]
   },
@@ -2311,7 +2047,7 @@
     "text": "Colloquio individuale di verifica con la Dott.ssa Marino. Riferisce pensieri ossessivi legati al desiderio di fumare crack. La professionista suggerisce di aumentare la frequenza dei colloqui e introdurre tecniche di rilassamento nel piano terapeutico.",
     "entities": [
       {
-        "text": "Dott.ssa Marino",
+        "text": "Marino",
         "label": "PER"
       },
       {
@@ -2349,7 +2085,7 @@
     "text": "Ha partecipato attivamente all’incontro con il Dott. Valli e con gli educatori. Mantiene la terapia con sertralina e dorme meglio rispetto alla settimana scorsa. Si programma la rivalutazione clinica il 3 dicembre presso il Sert di Parma.",
     "entities": [
       {
-        "text": "Dott. Valli",
+        "text": "Valli",
         "label": "PER"
       },
       {
@@ -2374,10 +2110,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "domenica sera",
-        "label": "DATE"
-      },
-      {
         "text": "gruppo di sostegno",
         "label": "TREATMENT"
       },
@@ -2391,11 +2123,7 @@
     "text": "Durante l’incontro con la Dott.ssa Fabbri ha parlato del desiderio di rivedere la madre dopo due anni di silenzio. Mostra segni di ansia ma anche una maggiore stabilità rispetto all’inizio del percorso. Continua la terapia con metadone e riferisce di non aver avuto ricadute.",
     "entities": [
       {
-        "text": "Dott.ssa Fabbri",
-        "label": "PER"
-      },
-      {
-        "text": "madre",
+        "text": "Fabbri",
         "label": "PER"
       },
       {
@@ -2422,10 +2150,6 @@
       {
         "text": "Ospedale di Reggio Emilia",
         "label": "ORG"
-      },
-      {
-        "text": "Reggio Emilia",
-        "label": "GPE"
       }
     ]
   },
@@ -2433,16 +2157,8 @@
     "text": "Ha mostrato segni di tensione durante la riunione del lunedì. Dice di sentirsi confuso e teme di non riuscire a mantenere l’astinenza. L’équipe propone un colloquio di verifica con la psicologa della struttura e l’introduzione di un percorso di arteterapia come supporto emotivo.",
     "entities": [
       {
-        "text": "lunedì",
-        "label": "DATE"
-      },
-      {
         "text": "confuso",
         "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "psicologa",
-        "label": "PER"
       },
       {
         "text": "arteterapia",
@@ -2451,10 +2167,10 @@
     ]
   },
   {
-    "text": "Durante la settimana ha svolto con regolarità i turni in cucina e ha partecipato alla verifica con l’educatrice Marta. Riferisce buon umore, miglioramento del sonno e nessuna voglia di usare eroina. Si concorda di mantenere la terapia con sertralina fino alla prossima valutazione medica.",
+    "text": "Durante la settimana ha svolto con regolarità i turni in cucina e ha partecipato alla verifica con l’educatrice Renata. Riferisce buon umore, miglioramento del sonno e nessuna voglia di usare eroina. Si concorda di mantenere la terapia con sertralina fino alla prossima valutazione medica.",
     "entities": [
       {
-        "text": "Marta",
+        "text": "Renata",
         "label": "PER"
       },
       {
@@ -2481,10 +2197,6 @@
       {
         "text": "Sert di Pavia",
         "label": "ORG"
-      },
-      {
-        "text": "fine mese",
-        "label": "DATE"
       }
     ]
   },
@@ -2509,7 +2221,7 @@
     "text": "Ha avuto un colloquio con la Dott.ssa Mariani per discutere l’ansia crescente legata al reinserimento lavorativo. Segnala tremori alle mani e insonnia. Verrà valutata una possibile introduzione di terapia con paroxetina, in coordinamento con il medico del Sert di Modena.",
     "entities": [
       {
-        "text": "Dott.ssa Mariani",
+        "text": "Mariani",
         "label": "PER"
       },
       {
@@ -2538,21 +2250,13 @@
     "text": "Ha partecipato con impegno all’incontro di gruppo del mercoledì. Durante il confronto ha espresso rabbia verso il padre e difficoltà a gestire la frustrazione. L’équipe propone un percorso individuale di sostegno psicologico in parallelo con quello di gruppo.",
     "entities": [
       {
-        "text": "mercoledì",
-        "label": "DATE"
-      },
-      {
-        "text": "padre",
-        "label": "PER"
-      },
-      {
         "text": "sostegno psicologico",
         "label": "TREATMENT"
       }
     ]
   },
   {
-    "text": "Riferisce un episodio di forte craving per eroina nella notte tra sabato e domenica, ma dice di non aver ceduto. Si mostra orgoglioso del risultato e motivato a proseguire. L’infermiera Lucia conferma la regolarità nell’assunzione del metadone e il buon andamento del piano di cura.",
+    "text": "Riferisce un episodio di forte craving per eroina nella notte tra sabato e domenica, ma dice di non aver ceduto. Si mostra orgoglioso del risultato e motivato a proseguire. L’infermiera Gianna conferma la regolarità nell’assunzione del metadone e il buon andamento del piano di cura.",
     "entities": [
       {
         "text": "craving",
@@ -2563,11 +2267,7 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "sabato e domenica",
-        "label": "DATE"
-      },
-      {
-        "text": "Lucia",
+        "text": "Gianna",
         "label": "PER"
       },
       {

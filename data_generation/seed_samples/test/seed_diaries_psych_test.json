@@ -198,10 +198,10 @@
     ]
   },
   {
-    "text": "Dopo l’ultimo colloquio con il dott. Bianchi, il paziente appare più motivato al mantenimento dell’astinenza da eroina. Riferisce miglioramento dell’umore e riduzione dei craving. Prosegue terapia con buprenorfina e supporto psicoterapeutico individuale. Nessun segno di turbe del pensiero o della percezione.",
+    "text": "Dopo l’ultimo colloquio con il dott. Caracciolo, il paziente appare più motivato al mantenimento dell’astinenza da eroina. Riferisce miglioramento dell’umore e riduzione dei craving. Prosegue terapia con buprenorfina e supporto psicoterapeutico individuale. Nessun segno di turbe del pensiero o della percezione.",
     "entities": [
       {
-        "text": "dott. Bianchi",
+        "text": "Caracciolo",
         "label": "PER"
       },
       {
@@ -363,6 +363,10 @@
       },
       {
         "text": "naltrexone",
+        "label": "MEDICINE"
+      },
+      {
+        "text": "lamotrigina",
         "label": "MEDICINE"
       },
       {
@@ -680,10 +684,6 @@
     "text": "Seduta incentrata sulla rielaborazione del trauma e sui legami tra uso di sostanze e vissuti emotivi. Mostra buona capacità riflessiva, pur con residua ansia sociale. In terapia con duloxetina e zolpidem. Si valuta integrazione con percorso di mindfulness presso il centro di Milano.",
     "entities": [
       {
-        "text": "trauma",
-        "label": "MISC"
-      },
-      {
         "text": "uso di sostanze",
         "label": "SUBSTANCE"
       },
@@ -713,6 +713,10 @@
     "text": "Durante l'incontro di oggi riferisce un miglioramento del tono dell'umore rispetto alla scorsa settimana. Continua l'assunzione regolare di metadone, senza effetti collaterali rilevanti. Lieve irritabilità in serata, forse correlata alla riduzione di caffeina. Aumentiamo il supporto psicoeducativo nel gruppo di prevenzione ricadute.",
     "entities": [
       {
+        "text": "miglioramento del tono dell'umore",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "metadone",
         "label": "MEDICINE"
       },
@@ -727,20 +731,12 @@
       {
         "text": "psicoeducativo",
         "label": "TREATMENT"
-      },
-      {
-        "text": "miglioramento del tono dell'umore",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
   {
     "text": "Esegue visita di controllo dopo tre settimane di astinenza da eroina. Riporta insonnia e sogni vividi, ma riferisce di sentirsi complessivamente più lucido. Praticata integrazione con psicoterapia individuale e mantenimento di dosaggio stabilizzato di buprenorfina.",
     "entities": [
-      {
-        "text": "tre settimane",
-        "label": "DATE"
-      },
       {
         "text": "eroina",
         "label": "SUBSTANCE"
@@ -754,12 +750,12 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "buprenorfina",
-        "label": "MEDICINE"
-      },
-      {
         "text": "psicoterapia individuale",
         "label": "TREATMENT"
+      },
+      {
+        "text": "buprenorfina",
+        "label": "MEDICINE"
       }
     ]
   },
@@ -769,10 +765,6 @@
       {
         "text": "ansia serale",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "conflitti familiari",
-        "label": "MISC"
       },
       {
         "text": "craving",
@@ -800,6 +792,10 @@
         "label": "ORG"
       },
       {
+        "text": "buon equilibrio emotivo",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "inizio novembre",
         "label": "DATE"
       },
@@ -814,10 +810,6 @@
       {
         "text": "rivalutazione psicodiagnostica",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "buon equilibrio emotivo",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -858,10 +850,6 @@
     "text": "Umore deflesso da circa dieci giorni, con scarso interesse per le attività quotidiane. Dorme male ma nega ricadute recenti in consumo di cocaina. Prosegue la terapia con venlafaxina e manutenzione di metadone. Valutare incremento del sostegno psicoterapico individuale.",
     "entities": [
       {
-        "text": "dieci giorni",
-        "label": "DATE"
-      },
-      {
         "text": "Umore deflesso",
         "label": "SYMPTOM"
       },
@@ -887,20 +875,16 @@
     "text": "Durante il colloquio, appare complessivamente più stabile. Mantenuta astinenza da alcol da oltre tre settimane. Restano momenti di reattività emotiva nel rapporto con il padre, per i quali esploriamo strategie di gestione. Nessuna segnalazione negativa da parte del gruppo.",
     "entities": [
       {
+        "text": "astinenza",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "alcol",
         "label": "SUBSTANCE"
       },
       {
-        "text": "tre settimane",
-        "label": "DATE"
-      },
-      {
         "text": "reattività emotiva",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "astinenza",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -972,10 +956,6 @@
       {
         "text": "funzionalità epatica",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "agosto",
-        "label": "DATE"
       }
     ]
   },
@@ -985,10 +965,6 @@
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "ottobre",
-        "label": "DATE"
       },
       {
         "text": "impulsività",
@@ -1016,6 +992,10 @@
     "text": "EOP in miglioramento: appare più centrato e motivato, senza segni di craving. Continua terapia sostitutiva con buprenorfina. Ricorda di assumere regolarmente gli integratori vitaminici per il lieve deficit di B12 emerso all’ultimo emocromo. Prossimo controllo tra dieci giorni.",
     "entities": [
       {
+        "text": "EOP in miglioramento",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "craving",
         "label": "SYMPTOM"
       },
@@ -1030,14 +1010,6 @@
       {
         "text": "emocromo",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "dieci giorni",
-        "label": "DATE"
-      },
-      {
-        "text": "EOP in miglioramento",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1049,16 +1021,12 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "nebbia mentale",
+        "text": "Nebbia mentale",
         "label": "SYMPTOM"
       },
       {
         "text": "ridotta concentrazione",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "alcol",
-        "label": "SUBSTANCE"
       },
       {
         "text": "benzodiazepine",
@@ -1115,10 +1083,6 @@
     "text": "Durante la seduta odierna si mostra più aperto nel condividere i timori legati al reinserimento lavorativo. Segnala lieve insonnia e aumento dell’appetito dall’inizio del trattamento con quetiapina. Umore complessivamente buono. Concordato proseguimento della psicoterapia settimanale.",
     "entities": [
       {
-        "text": "reintegro lavorativo",
-        "label": "MISC"
-      },
-      {
         "text": "insonnia",
         "label": "SYMPTOM"
       },
@@ -1148,20 +1112,16 @@
         "label": "SYMPTOM"
       },
       {
+        "text": "maggiore serenità",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "metadone",
         "label": "MEDICINE"
       },
       {
         "text": "sertralina",
         "label": "MEDICINE"
-      },
-      {
-        "text": "quindici giorni",
-        "label": "DATE"
-      },
-      {
-        "text": "maggiore serenità",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1223,6 +1183,10 @@
     "text": "Mantenuto buono equilibrio psichico. Lieve riduzione dell'appetito, inverosimilmente legata al passaggio da sertralina a duloxetina. Nessuna alterazione significativa del sonno. Pianificati controlli metabolici e follow-up nutrizionale presso il Servizio Dietetico di Firenze.",
     "entities": [
       {
+        "text": "buono equilibrio psichico",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "riduzione dell'appetito",
         "label": "SYMPTOM"
       },
@@ -1245,10 +1209,6 @@
       {
         "text": "Servizio Dietetico di Firenze",
         "label": "ORG"
-      },
-      {
-        "text": "buono equilibrio psichico",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1310,6 +1270,10 @@
     "text": "Condizioni globalmente stabili, con discreta consapevolezza della problematica di dipendenza. Nessuna ripresa dell’eroina. Riporta sogni disturbanti e risvegli precoci. Si concorda aggiunta di melatonina e prosecuzione del programma psicoeducativo.",
     "entities": [
       {
+        "text": "Condizioni globalmente stabili",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "eroina",
         "label": "SUBSTANCE"
       },
@@ -1328,16 +1292,16 @@
       {
         "text": "programma psicoeducativo",
         "label": "TREATMENT"
-      },
-      {
-        "text": "Condizioni globalmente stabili",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
   {
     "text": "Dopo difficoltà iniziali, appare ora più motivato a proseguire il percorso. Continua a riferire ansia situazionale in luoghi affollati. Terapia farmacologica con duloxetina e mantenimento con buprenorfina. Si consiglia partecipazione a gruppo di rilassamento guidato.",
     "entities": [
+      {
+        "text": "motivato a proseguire il percorso",
+        "label": "HEALTH_STATUS"
+      },
       {
         "text": "ansia situazionale",
         "label": "SYMPTOM"
@@ -1353,10 +1317,6 @@
       {
         "text": "gruppo di rilassamento guidato",
         "label": "TREATMENT"
-      },
-      {
-        "text": "motivato a proseguire il percorso",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1372,7 +1332,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "miglioramento del tono dell’umore",
+        "text": "Miglioramento del tono dell’umore",
         "label": "HEALTH_STATUS"
       },
       {
@@ -1411,10 +1371,6 @@
       {
         "text": "Centro di Milano",
         "label": "ORG"
-      },
-      {
-        "text": "due settimane",
-        "label": "DATE"
       }
     ]
   },
@@ -1509,6 +1465,10 @@
     "text": "Si presenta tranquillo, collaborante e motivato alla prosecuzione del percorso riabilitativo. Continua cura con buprenorfina e supporto cognitivo-comportamentale. Lievi disturbi del sonno nelle ultime notti. Prossimo incontro fissato per dopodomani.",
     "entities": [
       {
+        "text": "motivato alla prosecuzione del percorso riabilitativo",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "buprenorfina",
         "label": "MEDICINE"
       },
@@ -1519,14 +1479,6 @@
       {
         "text": "disturbi del sonno",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "dopodomani",
-        "label": "DATE"
-      },
-      {
-        "text": "motivato alla prosecuzione del percorso riabilitativo",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1596,6 +1548,10 @@
     "text": "Si mostra più stabile rispetto alle settimane precedenti. Nessuna ricaduta in uso di cocaina. Persistono tuttavia episodi di ansia al momento di dormire. Concordata prosecuzione della terapia con paroxetina e integrazione con mindfulness guidata.",
     "entities": [
       {
+        "text": "più stabile",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
@@ -1610,10 +1566,6 @@
       {
         "text": "mindfulness guidata",
         "label": "TREATMENT"
-      },
-      {
-        "text": "più stabile",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1623,10 +1575,6 @@
       {
         "text": "irritabilità",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "tensioni familiari",
-        "label": "MISC"
       },
       {
         "text": "craving",
@@ -1737,6 +1685,10 @@
     "text": "Si mostra più stabile rispetto alle settimane precedenti. Nessuna ricaduta in uso di cocaina. Persistono tuttavia episodi di ansia al momento di dormire. Concordata prosecuzione della terapia con paroxetina e integrazione con mindfulness guidata.",
     "entities": [
       {
+        "text": "più stabile",
+        "label": "HEALTH_STATUS"
+      },
+      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
@@ -1751,10 +1703,6 @@
       {
         "text": "mindfulness guidata",
         "label": "TREATMENT"
-      },
-      {
-        "text": "più stabile",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
@@ -1764,10 +1712,6 @@
       {
         "text": "irritabilità",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "tensioni familiari",
-        "label": "MISC"
       },
       {
         "text": "craving",
@@ -1878,10 +1822,6 @@
     "text": "Durante la seduta emergono preoccupazioni legate alla possibile perdita del lavoro. Lievi sintomi depressivi ma assenza di craving. Continua trattamento con venlafaxina e stabilizzatore umorale lamotrigina. Si propone colloquio psicoeducativo di supporto.",
     "entities": [
       {
-        "text": "perdita del lavoro",
-        "label": "MISC"
-      },
-      {
         "text": "sintomi depressivi",
         "label": "SYMPTOM"
       },
@@ -1936,20 +1876,12 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "alimentazione",
-        "label": "MISC"
-      },
-      {
         "text": "quetiapina",
         "label": "MEDICINE"
       },
       {
         "text": "integrazione multivitaminica",
         "label": "MEDICINE"
-      },
-      {
-        "text": "tre settimane",
-        "label": "DATE"
       }
     ]
   },
@@ -2011,10 +1943,6 @@
     "text": "Durante la seduta emergono preoccupazioni legate alla possibile perdita del lavoro. Lievi sintomi depressivi ma assenza di craving. Continua trattamento con venlafaxina e stabilizzatore umorale lamotrigina. Si propone colloquio psicoeducativo di supporto.",
     "entities": [
       {
-        "text": "perdita del lavoro",
-        "label": "MISC"
-      },
-      {
         "text": "sintomi depressivi",
         "label": "SYMPTOM"
       },
@@ -2069,20 +1997,12 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "alimentazione",
-        "label": "MISC"
-      },
-      {
         "text": "quetiapina",
         "label": "MEDICINE"
       },
       {
         "text": "integrazione multivitaminica",
         "label": "MEDICINE"
-      },
-      {
-        "text": "tre settimane",
-        "label": "DATE"
       }
     ]
   },
@@ -2190,10 +2110,6 @@
       },
       {
         "text": "funzionalità renale",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "funzionalità epatica",
         "label": "EXAMINATION"
       }
     ]
@@ -2660,10 +2576,6 @@
         "label": "HEALTH_STATUS"
       },
       {
-        "text": "Sonno disturbato",
-        "label": "SYMPTOM"
-      },
-      {
         "text": "miglioramento dell’appetito",
         "label": "HEALTH_STATUS"
       },
@@ -2810,10 +2722,6 @@
       {
         "text": "gammaGT",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "valutazione epatica",
-        "label": "EXAMINATION"
       }
     ]
   },
@@ -2827,10 +2735,6 @@
       {
         "text": "stabilità emotiva",
         "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "centro diurno",
-        "label": "LOC"
       },
       {
         "text": "metadone",
@@ -3008,22 +2912,18 @@
       {
         "text": "funzionalità epatica",
         "label": "EXAMINATION"
-      },
-      {
-        "text": "funzionalità renale",
-        "label": "EXAMINATION"
       }
     ]
   },
   {
-    "text": "Si presenta in buone condizioni generali, riferisce maggiore serenità familiare. Aumentata adesione al programma del SERD di Milano e partecipazione costante ai gruppi di auto-aiuto. Continua terapia con metadone 40 mg e alprazolam 0,25 mg. Nessun segno di astinenza né craving attivo.",
+    "text": "Si presenta in buone condizioni generali, riferisce maggiore serenità familiare. Aumentata adesione al programma del serd di milano e partecipazione costante ai gruppi di auto-aiuto. Continua terapia con metadone 40 mg e alprazolam 0,25 mg. Nessun segno di astinenza né craving attivo.",
     "entities": [
       {
         "text": "serenità familiare",
         "label": "HEALTH_STATUS"
       },
       {
-        "text": "SERD di Milano",
+        "text": "serd di milano",
         "label": "ORG"
       },
       {
