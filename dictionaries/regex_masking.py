@@ -3,6 +3,8 @@ import re
 
 import unicodedata
 from typing import List, Tuple
+
+from dictionaries.remove_double_tags import remove_double_tags
 from find_ambiguous_entities import find_ambiguous_entities
 
 gpe_tag = "[GPE]"
@@ -144,62 +146,17 @@ def mask_text(text: str) -> str:
     Mask various entities in the text using predefined dictionaries and regex patterns.
     """
     italian_words_file = 'github_dictionaries/660000_parole_italiane.txt'
-    ambiguous, not_ambiguous = find_ambiguous_entities(
-        'dictionaries/comuni_it.txt',
-        'github_dictionaries/660000_parole_italiane.txt'
-    )
-    masked_text = mask_not_ambiguous_entities(text, not_ambiguous, gpe_tag, re.IGNORECASE)
-    masked_text = mask_ambiguous_entities(masked_text, ambiguous, gpe_tag)
-    # masked_text = mask_entities_in_text(text, municipalities_file_path, italian_words_file, gpe_tag)
+    masked_text = mask_entities_in_text(text, municipalities_file_path, italian_words_file, gpe_tag)
+    masked_text = mask_entities_in_text(masked_text, regions_file_path, italian_words_file, gpe_tag)
+    masked_text = mask_entities_in_text(masked_text, nations_file_path, italian_words_file, gpe_tag)
+    masked_text = mask_entities_in_text(masked_text, names_file_path, italian_words_file, name_tag)
+    surname_file_path = 'github_dictionaries/lista_cognomi.txt'
+    masked_text = mask_entities_in_text(masked_text, surname_file_path, italian_words_file, name_tag)
 
-    ambiguous, not_ambiguous = find_ambiguous_entities(
-        'dictionaries/regioni_it.txt',
-        'github_dictionaries/660000_parole_italiane.txt'
-    )
-    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, gpe_tag, re.IGNORECASE)
-    masked_text = mask_ambiguous_entities(masked_text, ambiguous, gpe_tag)
-
-    ambiguous, not_ambiguous = find_ambiguous_entities(
-        'dictionaries/nazioni_it.txt',
-        'github_dictionaries/660000_parole_italiane.txt'
-    )
-    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, gpe_tag, re.IGNORECASE)
-    masked_text = mask_ambiguous_entities(masked_text, ambiguous, gpe_tag)
-
-    ambiguous, not_ambiguous = find_ambiguous_entities(
-        'dictionaries/nomi_it.txt',
-        'github_dictionaries/660000_parole_italiane.txt'
-    )
-    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, name_tag, re.IGNORECASE)
-    masked_text = mask_ambiguous_entities(masked_text, ambiguous, name_tag)
-
-    ambiguous, not_ambiguous = find_ambiguous_entities(
-        'github_dictionaries/lista_cognomi.txt',
-        'github_dictionaries/660000_parole_italiane.txt'
-    )
-    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, name_tag, re.IGNORECASE)
-    masked_text = mask_ambiguous_entities(masked_text, ambiguous, name_tag)
     masked_text = re.sub(urls_re, url_tag, masked_text)
-
     masked_text = re.sub(codes_re, code_tag, masked_text)
-
     masked_text = mask_not_ambiguous_entities(masked_text, provinces_dict, prov_tag)
-
     masked_text = re.sub(simple_email_re, email_tag, masked_text, flags=re.IGNORECASE)
     masked_text = re.sub(phone_re, phone_tag, masked_text)
+
     return masked_text
-
-
-testo = """
-Nel mese di settembre 2024, Marco Rossi ha partecipato a una conferenza sulla sicurezza informatica organizzata a Milano, in Lombardia, con ospiti provenienti non solo dall’Italia, ma anche dalla Francia, dalla Germania e perfino dal Giappone. Durante l’evento, il professor Giulia Bianchi, esperta di crittografia e docente presso l’Università di Torino (Piemonte), ha illustrato alcuni casi pratici avvenuti nella municipalità di Bologna e nella provincia di Firenze, in Toscana.
-
-Tra gli interventi più attesi c’era quello del ricercatore indipendente Luca Verdi, che ha presentato un report dettagliato su oltre 300 violazioni dei dati avvenute tra il 2020 e il 2023. Nel rapporto comparivano vari riferimenti a codici interni come USR-492A, CODX-11-FF, e SYS2024-BETA.
-
-Per chi desiderava ricevere maggiori informazioni, era possibile scrivere all’indirizzo email info@sicurezzait.org o contattare l’assistenza tecnica al numero +39 347 889 2211, attivo anche tramite WhatsApp. Inoltre, tutto il materiale della conferenza può essere scaricato dal sito ufficiale: https://www.cyberconf2024.it/documenti/materiale. Alcuni partecipanti hanno anche segnalato link di risorse aggiuntive come http://blog-ricerca.net/articoli e www.sicurezzaonline.it.
-
-Un altro intervento interessante è stato quello di Anna Marino, responsabile della regione Sicilia, che ha raccontato un caso relativo alla città di Catania. In questa occasione è stato menzionato anche il codice identificativo locale CT-99211, utilizzato per tracciare alcune segnalazioni.
-
-Per garantire l’anonimato nei report interni, gli organizzatori hanno utilizzato un sistema automatico che sostituisce nomi e luoghi con tag specifici. Ad esempio, i dati sensibili come indirizzi email, numeri di telefono e URL devono essere sempre mascherati attraverso apposite funzioni di sanitizzazione.
-"""
-
-print(mask_text(testo))
