@@ -5,7 +5,7 @@ import unicodedata
 from typing import List, Tuple
 
 from dictionaries.remove_double_tags import remove_double_tags
-from find_ambiguous_entities import find_ambiguous_entities
+from dictionaries.find_ambiguous_entities import find_ambiguous_entities
 
 gpe_tag = "[GPE]"
 name_tag = "[PER]"
@@ -15,7 +15,7 @@ url_tag = "[URL]"
 prov_tag = "[PROV]"
 code_tag = "[CODE]"
 
-test_file_path = "test_files"
+test_file_path =  os.path.join("test_files")
 phone_text_path = os.path.join(test_file_path, "phone_text.txt")
 email_text_path = os.path.join(test_file_path, "email_text.txt")
 mixed_text_path = os.path.join(test_file_path, "mixed_text.txt")
@@ -26,13 +26,13 @@ def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return f.read()
 
-phone_text = read_file(phone_text_path)
-email_text = read_file(email_text_path)
-mixed_text = read_file(mixed_text_path)
-url_text = read_file(url_text_path)
-codes_text = read_file(codes_text_path)
+#phone_text = read_file(phone_text_path)
+#email_text = read_file(email_text_path)
+#mixed_text = read_file(mixed_text_path)
+#url_text = read_file(url_text_path)
+#codes_text = read_file(codes_text_path)
 
-dictionaries_path = "dictionaries"
+dictionaries_path = "C:\\Users\Caput\PycharmProjects\substance-abuse-italian-anonymizer\dictionaries\dictionaries"
 municipalities_file_path = os.path.join(dictionaries_path, "comuni_it.txt")
 nations_file_path = os.path.join(dictionaries_path, "nazioni_it.txt")
 names_file_path = os.path.join(dictionaries_path, "nomi_it.txt")
@@ -145,12 +145,12 @@ def mask_text(text: str) -> str:
     """
     Mask various entities in the text using predefined dictionaries and regex patterns.
     """
-    italian_words_file = 'github_dictionaries/660000_parole_italiane.txt'
+    italian_words_file = "C:\\Users\\Caput\\PycharmProjects\\substance-abuse-italian-anonymizer\\dictionaries\\github_dictionaries\\660000_parole_italiane.txt"
     masked_text = mask_entities_in_text(text, municipalities_file_path, italian_words_file, gpe_tag)
     masked_text = mask_entities_in_text(masked_text, regions_file_path, italian_words_file, gpe_tag)
     masked_text = mask_entities_in_text(masked_text, nations_file_path, italian_words_file, gpe_tag)
     masked_text = mask_entities_in_text(masked_text, names_file_path, italian_words_file, name_tag)
-    surname_file_path = 'github_dictionaries/lista_cognomi.txt'
+    surname_file_path = 'C:\\Users\\Caput\\PycharmProjects\\substance-abuse-italian-anonymizer\\dictionaries\\github_dictionaries\\lista_cognomi.txt'
     masked_text = mask_entities_in_text(masked_text, surname_file_path, italian_words_file, name_tag)
 
     masked_text = re.sub(urls_re, url_tag, masked_text)
@@ -161,4 +161,4 @@ def mask_text(text: str) -> str:
 
     return masked_text
 
-print(mask_text(mixed_text))
+#print(mask_text(mixed_text))
