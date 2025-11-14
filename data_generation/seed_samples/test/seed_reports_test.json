@@ -362,10 +362,6 @@
         "label": "ORG"
       },
       {
-        "text": "Cuneo",
-        "label": "GPE"
-      },
-      {
         "text": "Via San Martino",
         "label": "LOC"
       },
@@ -398,7 +394,7 @@
         "label": "DATE"
       },
       {
-        "text": "sig.ra Carla Neri",
+        "text": "Carla Neri",
         "label": "PER"
       },
       {
@@ -483,11 +479,11 @@
         "label": "GPE"
       },
       {
-        "text": "dott.ssa Marta Puglisi",
+        "text": "Marta Puglisi",
         "label": "PER"
       },
       {
-        "text": "dott. Carlo Benedetti",
+        "text": "Carlo Benedetti",
         "label": "PER"
       },
       {
@@ -503,15 +499,11 @@
         "label": "ORG"
       },
       {
-        "text": "Mazara del Vallo",
-        "label": "GPE"
-      },
-      {
-        "text": "sig.ra Donatella Grasso",
+        "text": "Donatella Grasso",
         "label": "PER"
       },
       {
-        "text": "sig. Franco Lettiere",
+        "text": "Franco Lettiere",
         "label": "PER"
       },
       {
@@ -567,7 +559,7 @@
         "label": "DATE"
       },
       {
-        "text": "Dott.ssa Marta Puglisi",
+        "text": "Marta Puglisi",
         "label": "PER"
       }
     ]
@@ -598,10 +590,6 @@
       {
         "text": "Ser.D. di Peschiera del Garda",
         "label": "ORG"
-      },
-      {
-        "text": "Peschiera del Garda",
-        "label": "GPE"
       },
       {
         "text": "cocaina",
@@ -781,10 +769,6 @@
         "label": "ORG"
       },
       {
-        "text": "Macarata",
-        "label": "GPE"
-      },
-      {
         "text": "22 settembre 2025",
         "label": "DATE"
       },
@@ -807,10 +791,6 @@
       {
         "text": "Marta Bellucci",
         "label": "PER"
-      },
-      {
-        "text": "Marche",
-        "label": "GPE"
       }
     ]
   },
@@ -830,7 +810,7 @@
         "label": "GPE"
       },
       {
-        "text": "SerT di Messina",
+        "text": "Ser.D. di Messina",
         "label": "ORG"
       },
       {
@@ -850,34 +830,6 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "Dott.ssa L. Fiorini",
-        "label": "PER"
-      },
-      {
-        "text": "Dott. Carlo Neri",
-        "label": "PER"
-      },
-      {
-        "text": "Comunità terapeutica San Michele",
-        "label": "ORG"
-      },
-      {
-        "text": "5 aprile 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "Disturbo da uso di sostanze",
-        "label": "DISEASE"
-      },
-      {
-        "text": "SerT di Messina Sud",
-        "label": "ORG"
-      },
-      {
-        "text": "Umore in asse",
-        "label": "HEALTH_STATUS"
-      },
-      {
         "text": "ansia",
         "label": "SYMPTOM"
       },
@@ -886,68 +838,28 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "psicoterapia individuale",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "colloqui motivazionali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "trattamento di mantenimento",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Comunità San Michele",
-        "label": "ORG"
-      },
-      {
-        "text": "provincia di Messina",
-        "label": "GPE"
-      },
-      {
         "text": "14/09/2024",
         "label": "DATE"
-      },
-      {
-        "text": "Dott.ssa Giulia Riva",
-        "label": "PER"
       },
       {
         "text": "programma terapeutico residenziale",
         "label": "TREATMENT"
       },
       {
-        "text": "craving",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "test tossicologico",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "Comunità San Michele",
-        "label": "ORG"
-      },
-      {
         "text": "Messina",
         "label": "GPE"
-      },
-      {
-        "text": "22/10/2024",
-        "label": "DATE"
       }
     ]
   },
   {
-    "text": "RELAZIONE AI SERVIZI\n\nIl sig. Federigo Gullotta, nato il 14/07/1989 a Palmi (RC), residente in Via Martina, 80, comune di Sant’Anna di Seminara, CAP 89050, ha intrapreso in data 28/02/2024 un percorso terapeutico residenziale presso la Comunità “Nuovi Orizzonti” di Gioia Tauro, a seguito di invio da parte del Ser.D. di Reggio Calabria per trattamento di dipendenza da sostanze stupefacenti.\n\nDESCRIZIONE DEL PERCORSO TERAPEUTICO SVOLTO\nIl sig. G. ha iniziato il percorso con una fase di accoglienza caratterizzata da forte resistenza e scarsa motivazione intrinseca, dovuta anche alla pressione esercitata dal contesto giudiziario. Durante le prime settimane, l’ospite ha manifestato notevoli difficoltà di adattamento al contesto comunitario, mostrando tendenza all’isolamento e scarso interesse per le attività proposte. Con il passare dei mesi, grazie al lavoro condotto nei colloqui individuali e nei gruppi di confronto con la Dott.ssa M. Azzolini, psicoterapeuta della struttura, è stato possibile osservare una progressiva apertura verso la relazione con gli operatori e con i pari. \nNel periodo tra aprile e giugno 2024 il sig. Gullotta ha preso parte con regolarità ai laboratori ergoterapici e ai gruppi motivazionali, mostrando maggiore consapevolezza riguardo al proprio vissuto di dipendenza. Ha inoltre partecipato agli incontri di reinserimento sociale organizzati in collaborazione con la Cooperativa “L’Albero della Vita” di Rosarno, finalizzati alla sperimentazione di ruoli di responsabilità all’interno di un contesto produttivo protetto.\n\nCONDIZIONE CLINICA E PSICOLOGICA\nSul piano clinico, F. ha mantenuto nel corso dei mesi una buona aderenza terapeutica, seguendo la terapia farmacologica prescritta dal medico psichiatra della struttura, Dott. Paolo Leone. Il tono dell’umore è attualmente stabile, pur permanendo una certa fragilità emotiva, soprattutto nei momenti di confronto con la figura paterna. Il paziente riferisce ancora episodi sporadici di insonnia e ansia, per i quali assume, sotto controllo medico, dosaggi modulati di quetiapina. \nDurante i colloqui psicologici, condotti con cadenza quindicinale, è emersa una parziale elaborazione delle esperienze traumatiche legate ai periodi di abuso di cocaina e cannabis. Egli riconosce oggi la funzione compensatoria che l’uso di tali sostanze aveva nella gestione delle emozioni di rabbia e frustrazione. Permane una certa difficoltà nella verbalizzazione dei vissuti affettivi più profondi, ma si osserva un progressivo miglioramento nella capacità di riconoscere e comunicare i propri stati interni.\n\nRAPPORTI FAMILIARI E CONTESTO SOCIALE\nLa famiglia Gullotta è residente nel comune di Sant’Anna di Seminara e ha partecipato a più incontri familiari condotti dalla Dott.ssa Rita Spanò, assistente sociale del Ser.D. di Reggio Calabria Nord. Le dinamiche familiari restano complesse, soprattutto in relazione al rapporto conflittuale tra il sig. Federigo e il padre, Salvatore, che tende a mantenere un atteggiamento svalutante. La madre, Concetta, invece, si mostra più collaborativa e disponibile ad affrontare il percorso di supporto genitoriale. \nDurante l’estate 2024, sono stati organizzati alcuni rientri controllati presso l’abitazione di Via Martina, supervisionati dagli operatori del Ser.D. di Palmi, che hanno evidenziato una discreta capacità del paziente nel mantenere un comportamento adeguato e nel gestire situazioni di stress senza ricorrere a comportamenti impulsivi. Sul piano relazionale, F. ha stretto rapporti positivi con alcuni membri del gruppo comunitario, partecipando attivamente a momenti condivisi di sport e teatro sociale.\n\nGIUDIZIO GENERALE E OBIETTIVI FUTURI\nIl percorso di F. può ritenersi in linea con gli obiettivi prefissati nella fase iniziale del progetto terapeutico. È stato raggiunto un significativo miglioramento nella gestione delle emozioni, nella tolleranza alla frustrazione e nella capacità di rispettare le regole comunitarie. Rimangono tuttavia aree di criticità legate alla piena interiorizzazione delle cause che lo hanno condotto alla dipendenza e alla costruzione di un’identità personale autonoma dalle dinamiche familiari.\nGli obiettivi per la prossima fase del percorso prevedono:\n- Consolidare la consapevolezza rispetto alla propria storia di dipendenza;\n- Incrementare l’autonomia nella gestione della quotidianità;\n- Continuare il lavoro di reinserimento socio-lavorativo in collaborazione con la Cooperativa “L’Albero della Vita”;\n- Potenziare le abilità di comunicazione assertiva e di problem solving relazionale.\n\nSi ritiene opportuno il proseguimento del programma terapeutico residenziale per almeno ulteriori quattro mesi, con successiva valutazione di un graduale passaggio a un percorso semi-residenziale monitorato.\n\nGioia Tauro, 30/10/2024\n\nDott.ssa Maria Azzolini\nPsicoterapeuta - Comunità “Nuovi Orizzonti”",
+    "text": "RELAZIONE AI SERVIZI\n\nIl sig. Federigo Gullotta, nato il 14/07/1989 a Palmi (RC), residente in Via Martina, 80, comune di Sant'Anna di Seminara, CAP 89050, ha intrapreso in data 28/02/2024 un percorso terapeutico residenziale presso la Comunità “Nuovi Orizzonti” di Gioia Tauro, a seguito di invio da parte del Ser.D. di Reggio Calabria per trattamento di dipendenza da sostanze stupefacenti.\n\nDESCRIZIONE DEL PERCORSO TERAPEUTICO SVOLTO\nIl sig. G. ha iniziato il percorso con una fase di accoglienza caratterizzata da forte resistenza e scarsa motivazione intrinseca, dovuta anche alla pressione esercitata dal contesto giudiziario. Durante le prime settimane, l’ospite ha manifestato notevoli difficoltà di adattamento al contesto comunitario, mostrando tendenza all’isolamento e scarso interesse per le attività proposte. Con il passare dei mesi, grazie al lavoro condotto nei colloqui individuali e nei gruppi di confronto con la Dott.ssa M. Azzolini, psicoterapeuta della struttura, è stato possibile osservare una progressiva apertura verso la relazione con gli operatori e con i pari. \nNel periodo tra aprile e giugno 2024 il sig. Gullotta ha preso parte con regolarità ai laboratori ergoterapici e ai gruppi motivazionali, mostrando maggiore consapevolezza riguardo al proprio vissuto di dipendenza. Ha inoltre partecipato agli incontri di reinserimento sociale organizzati in collaborazione con la Cooperativa “L’Albero della Vita” di Rosarno, finalizzati alla sperimentazione di ruoli di responsabilità all’interno di un contesto produttivo protetto.\n\nCONDIZIONE CLINICA E PSICOLOGICA\nSul piano clinico, F. ha mantenuto nel corso dei mesi una buona aderenza terapeutica, seguendo la terapia farmacologica prescritta dal medico psichiatra della struttura, Dott. Paolo Leone. Il tono dell’umore è attualmente stabile, pur permanendo una certa fragilità emotiva, soprattutto nei momenti di confronto con la figura paterna. Il paziente riferisce ancora episodi sporadici di insonnia e ansia, per i quali assume, sotto controllo medico, dosaggi modulati di quetiapina. \nDurante i colloqui psicologici, condotti con cadenza quindicinale, è emersa una parziale elaborazione delle esperienze traumatiche legate ai periodi di abuso di cocaina e cannabis. Egli riconosce oggi la funzione compensatoria che l’uso di tali sostanze aveva nella gestione delle emozioni di rabbia e frustrazione. Permane una certa difficoltà nella verbalizzazione dei vissuti affettivi più profondi, ma si osserva un progressivo miglioramento nella capacità di riconoscere e comunicare i propri stati interni.\n\nRAPPORTI FAMILIARI E CONTESTO SOCIALE\nLa famiglia Gullotta è residente nel comune di Sant’Anna di Seminara e ha partecipato a più incontri familiari condotti dalla Dott.ssa Rita Spanò, assistente sociale del Ser.D. di Reggio Calabria Nord. Le dinamiche familiari restano complesse, soprattutto in relazione al rapporto conflittuale tra il sig. Federigo e il padre, Salvatore, che tende a mantenere un atteggiamento svalutante. La madre, Concetta, invece, si mostra più collaborativa e disponibile ad affrontare il percorso di supporto genitoriale. \nDurante l’estate 2024, sono stati organizzati alcuni rientri controllati presso l’abitazione di Via Martina, supervisionati dagli operatori del Ser.D. di Palmi, che hanno evidenziato una discreta capacità del paziente nel mantenere un comportamento adeguato e nel gestire situazioni di stress senza ricorrere a comportamenti impulsivi. Sul piano relazionale, F. ha stretto rapporti positivi con alcuni membri del gruppo comunitario, partecipando attivamente a momenti condivisi di sport e teatro sociale.\n\nGIUDIZIO GENERALE E OBIETTIVI FUTURI\nIl percorso di F. può ritenersi in linea con gli obiettivi prefissati nella fase iniziale del progetto terapeutico. È stato raggiunto un significativo miglioramento nella gestione delle emozioni, nella tolleranza alla frustrazione e nella capacità di rispettare le regole comunitarie. Rimangono tuttavia aree di criticità legate alla piena interiorizzazione delle cause che lo hanno condotto alla dipendenza e alla costruzione di un’identità personale autonoma dalle dinamiche familiari.\nGli obiettivi per la prossima fase del percorso prevedono:\n- Consolidare la consapevolezza rispetto alla propria storia di dipendenza;\n- Incrementare l’autonomia nella gestione della quotidianità;\n- Continuare il lavoro di reinserimento socio-lavorativo in collaborazione con la Cooperativa “L’Albero della Vita”;\n- Potenziare le abilità di comunicazione assertiva e di problem solving relazionale.\n\nSi ritiene opportuno il proseguimento del programma terapeutico residenziale per almeno ulteriori quattro mesi, con successiva valutazione di un graduale passaggio a un percorso semi-residenziale monitorato.\n\nGioia Tauro, 30/10/2024\n\nDott.ssa Maria Azzolini\nPsicoterapeuta - Comunità “Nuovi Orizzonti”",
     "entities": [
       {
         "text": "Federigo Gullotta",
         "label": "PATIENT"
       },
       {
-        "text": "Sant’Anna Di Seminara",
+        "text": "Sant'Anna di Seminara",
         "label": "GPE"
       },
       {
@@ -955,96 +867,12 @@
         "label": "LOC"
       },
       {
-        "text": "Comunità Terapeutica Nuovo Orizzonte",
-        "label": "ORG"
-      },
-      {
-        "text": "Centro di Salute Mentale di Gioia Tauro",
-        "label": "ORG"
-      },
-      {
-        "text": "febbraio 2023",
-        "label": "DATE"
-      },
-      {
-        "text": "gennaio 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "metadone",
-        "label": "MEDICINE"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
       {
-        "text": "eroina",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "craving",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      },
-      {
         "text": "insonnia",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "depressione",
-        "label": "DISEASE"
-      },
-      {
-        "text": "SerT di Palmi",
-        "label": "ORG"
-      },
-      {
-        "text": "RC",
-        "label": "PROV"
-      },
-      {
-        "text": "valutazione psicodiagnostica",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "terapia sostitutiva con metadone",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "colloqui motivazionali individuali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "gruppi di auto-aiuto settimanali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "stato d’animo generalmente stabile",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "umore in asse",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Dott.ssa R. Marzano",
-        "label": "PER"
-      },
-      {
-        "text": "Dott. Carlo Messina",
-        "label": "PER"
-      },
-      {
-        "text": "05/03/2024",
-        "label": "DATE"
-      },
-      {
-        "text": "Cooperativa Sociale Il Faro",
-        "label": "ORG"
       },
       {
         "text": "Palmi",
@@ -1072,112 +900,16 @@
         "label": "GPE"
       },
       {
-        "text": "Centro Terapeutico La Rinascita",
-        "label": "ORG"
-      },
-      {
-        "text": "Comunità terapeutica di Villa Verde",
-        "label": "ORG"
-      },
-      {
-        "text": "Cosenza",
-        "label": "GPE"
-      },
-      {
-        "text": "sig.ra Zetticci",
+        "text": "Zetticci",
         "label": "PATIENT"
-      },
-      {
-        "text": "Psicologa Dott.ssa M. Carlucci",
-        "label": "PER"
-      },
-      {
-        "text": "Ser.T di Paola",
-        "label": "ORG"
-      },
-      {
-        "text": "febbraio 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "luglio 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "psicoterapia individuale",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "laboratorio di musicoterapia",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "gruppi di sostegno per le dipendenze",
-        "label": "TREATMENT"
       },
       {
         "text": "cocaina",
         "label": "SUBSTANCE"
       },
       {
-        "text": "benzodiazepine",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "craving",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "depressione reattiva",
-        "label": "DISEASE"
-      },
-      {
-        "text": "Colloqui di rete",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Casa di Cura San Michele",
-        "label": "ORG"
-      },
-      {
         "text": "Reggio Calabria",
         "label": "GPE"
-      },
-      {
-        "text": "signora Alina",
-        "label": "PATIENT"
-      },
-      {
-        "text": "psichiatra Dott. V. Lamberti",
-        "label": "PER"
-      },
-      {
-        "text": "colloqui motivazionali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Dott.ssa M. Carlucci",
-        "label": "PER"
-      },
-      {
-        "text": "gruppi di gestione della rabbia",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "umore più stabile",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Ser.T di Paola",
-        "label": "ORG"
-      },
-      {
-        "text": "dicembre 2025",
-        "label": "DATE"
       }
     ]
   },
@@ -1189,68 +921,16 @@
         "label": "PATIENT"
       },
       {
-        "text": "Rotonda Arnaldo, 62",
-        "label": "LOC"
-      },
-      {
         "text": "Saliano",
         "label": "GPE"
-      },
-      {
-        "text": "Comunità terapeutica San Giusto",
-        "label": "ORG"
-      },
-      {
-        "text": "Ser.D. di Frosinone",
-        "label": "ORG"
-      },
-      {
-        "text": "Dott.ssa Ilaria Benedetti",
-        "label": "PER"
-      },
-      {
-        "text": "Dipartimento Dipendenze Patologiche di Latina",
-        "label": "ORG"
-      },
-      {
-        "text": "23 marzo 2025",
-        "label": "DATE"
       },
       {
         "text": "E.",
         "label": "PATIENT"
       },
       {
-        "text": "cannabis",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "benzodiazepine",
-        "label": "SUBSTANCE"
-      },
-      {
         "text": "cocaina",
         "label": "SUBSTANCE"
-      },
-      {
-        "text": "Centro per l’Impiego di Sora",
-        "label": "ORG"
-      },
-      {
-        "text": "via del Convento",
-        "label": "LOC"
-      },
-      {
-        "text": "Frosinone",
-        "label": "GPE"
-      },
-      {
-        "text": "Sora",
-        "label": "GPE"
-      },
-      {
-        "text": "Dott. Matteo Rinaldi",
-        "label": "PER"
       },
       {
         "text": "ansia",
@@ -1261,48 +941,8 @@
         "label": "SYMPTOM"
       },
       {
-        "text": "Umore deflesso",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Terapia cognitivo-comportamentale",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "colloqui individuali settimanali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "metadone",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "gruppi di sostegno",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "disturbo da uso di sostanze",
-        "label": "DISEASE"
-      },
-      {
-        "text": "valutazione psicodiagnostica",
-        "label": "EXAMINATION"
-      },
-      {
         "text": "maggio 2025",
         "label": "DATE"
-      },
-      {
-        "text": "luglio 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "Autunno 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "Dott. Pietro Catalani",
-        "label": "PER"
       }
     ]
   },
@@ -1360,10 +1000,6 @@
       {
         "text": "Ser.D. di Macerata",
         "label": "ORG"
-      },
-      {
-        "text": "Macerata",
-        "label": "GPE"
       },
       {
         "text": "Dott.ssa Giulia Neri",
@@ -1570,10 +1206,6 @@
       {
         "text": "Ser.D. di Bolzano",
         "label": "ORG"
-      },
-      {
-        "text": "Bolzano",
-        "label": "GPE"
       },
       {
         "text": "alcol",
@@ -2145,16 +1777,8 @@
         "label": "GPE"
       },
       {
-        "text": "Comunità Terapeutica Aurora",
-        "label": "ORG"
-      },
-      {
         "text": "novembre 2025",
         "label": "DATE"
-      },
-      {
-        "text": "psicologa Dott.ssa Marta De Vito",
-        "label": "PER"
       },
       {
         "text": "alcol",
@@ -2165,88 +1789,12 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "benzodiazepine",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "Ser.D di Mantova",
-        "label": "ORG"
-      },
-      {
-        "text": "Centro San Martino",
-        "label": "ORG"
-      },
-      {
-        "text": "15 marzo 2024",
-        "label": "DATE"
-      },
-      {
-        "text": "dicembre 2025",
-        "label": "DATE"
-      },
-      {
         "text": "ansia",
         "label": "SYMPTOM"
       },
       {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "cefalee",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "residenzialità",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "terapia farmacologica",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "psicoterapia individuale",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Dott. Gianni Malerba",
-        "label": "PER"
-      },
-      {
-        "text": "Comunità di Fossano",
-        "label": "ORG"
-      },
-      {
-        "text": "Piemonte",
-        "label": "GPE"
-      },
-      {
-        "text": "ottobre 2025",
-        "label": "DATE"
-      },
-      {
         "text": "gruppi terapeutici",
         "label": "TREATMENT"
-      },
-      {
-        "text": "case manager",
-        "label": "PER"
-      },
-      {
-        "text": "Umore in asse",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Comunità Aurora",
-        "label": "ORG"
-      },
-      {
-        "text": "Padova",
-        "label": "GPE"
-      },
-      {
-        "text": "Dott.ssa Marta De Vito",
-        "label": "PER"
       }
     ]
   },
@@ -2270,40 +1818,12 @@
         "label": "MISC"
       },
       {
-        "text": "Comunità terapeutica di riferimento",
-        "label": "ORG"
-      },
-      {
-        "text": "febbraio 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "dott.ssa Serena Valiani",
-        "label": "PER"
-      },
-      {
-        "text": "psichiatra della struttura",
-        "label": "PER"
-      },
-      {
         "text": "terapia farmacologica",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "gruppi terapeutici settimanali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "laboratori di espressione emotiva",
         "label": "TREATMENT"
       },
       {
         "text": "attività ergoterapiche",
         "label": "TREATMENT"
-      },
-      {
-        "text": "metadone",
-        "label": "MEDICINE"
       },
       {
         "text": "benzodiazepine",
@@ -2314,49 +1834,13 @@
         "label": "SUBSTANCE"
       },
       {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
         "text": "craving",
         "label": "SYMPTOM"
-      },
-      {
-        "text": "Comunità terapeutica di Modena",
-        "label": "ORG"
-      },
-      {
-        "text": "centro Ser.D",
-        "label": "ORG"
-      },
-      {
-        "text": "marzo 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "dott.ssa Serena Valiani",
-        "label": "PER"
-      },
-      {
-        "text": "buona stabilità dell’umore",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "maggio 2025",
-        "label": "DATE"
-      },
-      {
-        "text": "Umore tendenzialmente in asse",
-        "label": "HEALTH_STATUS"
       }
     ]
   },
   {
-    "text": "RELAZIONE PERIODICA PER IL SER.D DI RIFERIMENTO\nIl sig. Leonardo Marconi, nato il 14/11/1989, residente in Viale Detti, 54, comune di Belvedere Fogliense (PU), è inserito dal mese di gennaio 2025 in un programma di trattamento semiresidenziale presso la Comunità “Nuova Alleanza”, su invio del Ser.D di Pesaro, per la gestione di una dipendenza da sostanze psicotrope e per la strutturazione di un percorso di reinserimento sociale progressivo.\n\nANDAMENTO GENERALE\nAl momento della presente relazione, il sig. Marconi risulta adeguatamente inserito nel contesto comunitario e mostra un andamento complessivamente stabile, sebbene permangano oscillazioni dell’umore in relazione a specifici momenti di frustrazione e fatica emotiva. L’ospite partecipa regolarmente alle attività quotidiane e alle riunioni di gruppo, anche se necessita ancora di una supervisione costante nelle dinamiche relazionali con i pari. Leonardo ha mostrato un miglioramento nella capacità di riconoscere le proprie emozioni, pur mantenendo una certa rigidità nell’espressione delle stesse. La motivazione al trattamento si è consolidata rispetto alle fasi iniziali, in cui la sua adesione appariva maggiormente condizionata da fattori esterni (in particolare dalla richiesta dei servizi territoriali e della famiglia). Attualmente manifesta una maggiore consapevolezza dei propri limiti e delle proprie risorse, anche se tende, in alcuni momenti, a sottovalutare i rischi connessi alla ricaduta.\n\nDIFFICOLTÀ INCONTRATE E STRATEGIE ADOTTATE\nNel corso del periodo osservato, il sig. Marconi ha manifestato difficoltà nella gestione delle tensioni interne e nei momenti di confronto con l’autorità. Alcuni episodi di irritabilità sono stati affrontati in sede di colloquio individuale con la psicologa di riferimento, dott.ssa Elisabetta Fiori, e rielaborati anche durante i gruppi di condivisione. È emersa, in particolare, la necessità di rinforzare le abilità di problem solving e la tolleranza alla frustrazione, aree sulle quali l’équipe ha impostato un lavoro mirato attraverso esercitazioni pratiche e momenti di riflessione guidata. L’ospite ha inoltre mostrato resistenze nell’accettare alcune regole di convivenza (legate ai tempi di uscita e all’uso del cellulare), che tuttavia si sono progressivamente ridotte grazie a un approccio educativo basato sulla responsabilizzazione. Tra le strategie efficaci adottate figurano la pianificazione condivisa degli obiettivi settimanali, il rinforzo positivo e l’utilizzo del diario personale come strumento di monitoraggio emotivo.\n\nGESTIONE DELLA TERAPIA FARMACOLOGICA\nLa gestione della terapia farmacologica si presenta nel complesso adeguata. Il sig. Marconi assume regolarmente la terapia prescritta dal medico psichiatra della struttura, dott. Marco Venturi, composta da un antidepressivo a basso dosaggio e da un ansiolitico modulato in funzione del livello di stress percepito. Durante l’ultimo mese si è osservata una progressiva riduzione del dosaggio dell’ansiolitico, in linea con il miglioramento del controllo emotivo e del sonno. Leonardo non ha riportato effetti collaterali rilevanti e ha dimostrato una buona compliance. È stato introdotto un monitoraggio settimanale dei parametri fisiologici e della qualità del riposo, in collaborazione con l’infermiere di riferimento. Si sta valutando, per i prossimi mesi, una possibile revisione terapeutica volta alla graduale sospensione della componente ansiolitica, previa valutazione congiunta con il Ser.D di Pesaro.\n\nPIANO TERAPEUTICO INDIVIDUALE (PTI) E OBIETTIVI FUTURI\nIl Piano Terapeutico Individuale (PTI) di Leonardo prevede un percorso orientato al consolidamento della consapevolezza della propria storia di dipendenza e alla ricostruzione di un equilibrio personale stabile. Tra gli obiettivi a medio termine figurano: il potenziamento delle competenze sociali, l’elaborazione delle dinamiche familiari ancora irrisolte e il rafforzamento delle strategie di coping. Sul piano pratico, l’ospite ha iniziato a collaborare in attività di volontariato interno alla comunità e partecipa con continuità al laboratorio di falegnameria, che rappresenta per lui un’importante risorsa di canalizzazione dell’energia e di strutturazione del tempo libero. In prospettiva, si sta valutando l’inserimento in un tirocinio lavorativo protetto entro l’estate 2025, come tappa di avvicinamento all’autonomia. L’équipe ritiene inoltre necessario mantenere un’attenzione costante agli aspetti emotivi e motivazionali, per evitare fenomeni di stagnazione o regressione nei momenti di maggiore vulnerabilità.\n\nOSSERVAZIONI SUL CONTESTO FAMILIARE E SOCIALE\nIl contatto con la famiglia d’origine è stato riattivato in maniera graduale. Leonardo ha ripreso le comunicazioni telefoniche settimanali con i genitori, con i quali sta ricostruendo un dialogo più aperto e meno conflittuale. È previsto un incontro familiare mensile in struttura per favorire il proseguimento del lavoro relazionale e per sostenere la famiglia nel percorso di comprensione del fenomeno della dipendenza. Dal punto di vista sociale, il sig. Marconi mantiene un atteggiamento prudente: tende a isolarsi nei momenti di difficoltà ma, con l’aiuto degli operatori, riesce progressivamente a riattivare modalità relazionali più funzionali. Si rileva una riduzione significativa dei comportamenti impulsivi e un miglioramento generale della gestione del tempo libero. La capacità di introspezione, sebbene ancora fragile, mostra segnali incoraggianti e conferma l’utilità del lavoro terapeutico in corso.\n\nPer l’équipe della Comunità “Nuova Alleanza”\nDott.ssa Elisabetta Fiori\nPsicologa referente\nPesaro, 20/10/2025",
+    "text": "RELAZIONE PERIODICA PER IL SER.D DI RIFERIMENTO\nIl sig. Leonardo Marconi, nato il 14/11/1989, residente in Viale Detti, 54, comune di Belvedere Fogliense (PU), è inserito dal mese di gennaio 2025 in un programma di trattamento semiresidenziale presso la Comunità “Nuova Alleanza”, su invio del Ser.D di Pesaro, per la gestione di una dipendenza da sostanze psicotrope e per la strutturazione di un percorso di reinserimento sociale progressivo.\n\nANDAMENTO GENERALE\nAl momento della presente relazione, il Marconi risulta adeguatamente inserito nel contesto comunitario e mostra un andamento complessivamente stabile, sebbene permangano oscillazioni dell’umore in relazione a specifici momenti di frustrazione e fatica emotiva. L’ospite partecipa regolarmente alle attività quotidiane e alle riunioni di gruppo, anche se necessita ancora di una supervisione costante nelle dinamiche relazionali con i pari. Leonardo ha mostrato un miglioramento nella capacità di riconoscere le proprie emozioni, pur mantenendo una certa rigidità nell’espressione delle stesse. La motivazione al trattamento si è consolidata rispetto alle fasi iniziali, in cui la sua adesione appariva maggiormente condizionata da fattori esterni (in particolare dalla richiesta dei servizi territoriali e della famiglia). Attualmente manifesta una maggiore consapevolezza dei propri limiti e delle proprie risorse, anche se tende, in alcuni momenti, a sottovalutare i rischi connessi alla ricaduta.\n\nDIFFICOLTÀ INCONTRATE E STRATEGIE ADOTTATE\nNel corso del periodo osservato, il sig. Marconi ha manifestato difficoltà nella gestione delle tensioni interne e nei momenti di confronto con l’autorità. Alcuni episodi di irritabilità sono stati affrontati in sede di colloquio individuale con la psicologa di riferimento, dott.ssa Elisabetta Fiori, e rielaborati anche durante i gruppi di condivisione. È emersa, in particolare, la necessità di rinforzare le abilità di problem solving e la tolleranza alla frustrazione, aree sulle quali l’équipe ha impostato un lavoro mirato attraverso esercitazioni pratiche e momenti di riflessione guidata. L’ospite ha inoltre mostrato resistenze nell’accettare alcune regole di convivenza (legate ai tempi di uscita e all’uso del cellulare), che tuttavia si sono progressivamente ridotte grazie a un approccio educativo basato sulla responsabilizzazione. Tra le strategie efficaci adottate figurano la pianificazione condivisa degli obiettivi settimanali, il rinforzo positivo e l’utilizzo del diario personale come strumento di monitoraggio emotivo.\n\nGESTIONE DELLA TERAPIA FARMACOLOGICA\nLa gestione della terapia farmacologica si presenta nel complesso adeguata. Il sig. Marconi assume regolarmente la terapia prescritta dal medico psichiatra della struttura, dott. Marco Venturi, composta da un antidepressivo a basso dosaggio e da un ansiolitico modulato in funzione del livello di stress percepito. Durante l’ultimo mese si è osservata una progressiva riduzione del dosaggio dell’ansiolitico, in linea con il miglioramento del controllo emotivo e del sonno. Leonardo non ha riportato effetti collaterali rilevanti e ha dimostrato una buona compliance. È stato introdotto un monitoraggio settimanale dei parametri fisiologici e della qualità del riposo, in collaborazione con l’infermiere di riferimento. Si sta valutando, per i prossimi mesi, una possibile revisione terapeutica volta alla graduale sospensione della componente ansiolitica, previa valutazione congiunta con il Ser.D di Pesaro.\n\nPIANO TERAPEUTICO INDIVIDUALE (PTI) E OBIETTIVI FUTURI\nIl Piano Terapeutico Individuale (PTI) di Leonardo prevede un percorso orientato al consolidamento della consapevolezza della propria storia di dipendenza e alla ricostruzione di un equilibrio personale stabile. Tra gli obiettivi a medio termine figurano: il potenziamento delle competenze sociali, l’elaborazione delle dinamiche familiari ancora irrisolte e il rafforzamento delle strategie di coping. Sul piano pratico, l’ospite ha iniziato a collaborare in attività di volontariato interno alla comunità e partecipa con continuità al laboratorio di falegnameria, che rappresenta per lui un’importante risorsa di canalizzazione dell’energia e di strutturazione del tempo libero. In prospettiva, si sta valutando l’inserimento in un tirocinio lavorativo protetto entro l’estate 2025, come tappa di avvicinamento all’autonomia. L’équipe ritiene inoltre necessario mantenere un’attenzione costante agli aspetti emotivi e motivazionali, per evitare fenomeni di stagnazione o regressione nei momenti di maggiore vulnerabilità.\n\nOSSERVAZIONI SUL CONTESTO FAMILIARE E SOCIALE\nIl contatto con la famiglia d’origine è stato riattivato in maniera graduale. Leonardo ha ripreso le comunicazioni telefoniche settimanali con i genitori, con i quali sta ricostruendo un dialogo più aperto e meno conflittuale. È previsto un incontro familiare mensile in struttura per favorire il proseguimento del lavoro relazionale e per sostenere la famiglia nel percorso di comprensione del fenomeno della dipendenza. Dal punto di vista sociale, il sig. Marconi mantiene un atteggiamento prudente: tende a isolarsi nei momenti di difficoltà ma, con l’aiuto degli operatori, riesce progressivamente a riattivare modalità relazionali più funzionali. Si rileva una riduzione significativa dei comportamenti impulsivi e un miglioramento generale della gestione del tempo libero. La capacità di introspezione, sebbene ancora fragile, mostra segnali incoraggianti e conferma l’utilità del lavoro terapeutico in corso.\n\nPer l’équipe della Comunità “Nuova Alleanza”\nDott.ssa Elisabetta Fiori\nPsicologa referente\nPesaro, 20/10/2025",
     "entities": [
       {
         "text": "Leonardo Marconi",
@@ -2367,11 +1851,11 @@
         "label": "LOC"
       },
       {
-        "text": "Belvedere Fogliense",
-        "label": "GPE"
+        "text": "gennaio 2025",
+        "label": "DATE"
       },
       {
-        "text": "Ser.D di riferimento",
+        "text": "Ser.D di Pesaro",
         "label": "ORG"
       },
       {
@@ -2389,62 +1873,6 @@
       {
         "text": "Belvedere Fogliense",
         "label": "GPE"
-      },
-      {
-        "text": "cocaina",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "eroina",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "cannabis",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "metadone",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Comunità Terapeutica di sostegno",
-        "label": "ORG"
-      },
-      {
-        "text": "disturbo depressivo maggiore",
-        "label": "DISEASE"
-      },
-      {
-        "text": "programmazione terapeutica",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "gruppi terapeutici",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "colloqui individuali",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "stato d’animo stabile",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "tono dell’umore più equilibrato",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "valutazione psicodiagnostica",
-        "label": "EXAMINATION"
       }
     ]
   },
@@ -2842,7 +2270,7 @@
         "label": "DATE"
       },
       {
-        "text": "Sig.ra Laura Bianchi",
+        "text": "Laura Bianchi",
         "label": "PER"
       },
       {
