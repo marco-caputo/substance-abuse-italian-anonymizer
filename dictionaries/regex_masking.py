@@ -3,7 +3,7 @@ import re
 
 import unicodedata
 from typing import List, Tuple
-
+from find_ambiguous_entities import find_ambiguous_entities
 
 gpe_tag = "[GPE]"
 name_tag = "[PER]"
@@ -36,8 +36,6 @@ nations_file_path = os.path.join(dictionaries_path, "nazioni_it.txt")
 names_file_path = os.path.join(dictionaries_path, "nomi_it.txt")
 provinces_file_path = os.path.join(dictionaries_path, "province_it.txt")
 regions_file_path = os.path.join(dictionaries_path, "regioni_it.txt")
-ambiguous_names_file_path = os.path.join(dictionaries_path, "ambiguous_names.txt")
-
 
 
 def tokenize_file(file_path):
@@ -54,15 +52,9 @@ provinces_dict = tokenize_file(provinces_file_path)
 regions_dict = tokenize_file(regions_file_path)
 municipalities_dict = tokenize_file(municipalities_file_path)
 names_dict = tokenize_file(names_file_path)
-ambiguous_names_dict = tokenize_file(ambiguous_names_file_path)
-
-for ambiguous in ambiguous_names_dict:
-    if ambiguous in names_dict:
-        names_dict.remove(ambiguous)
 
 
-
-def mask_entities_from_dict(text: str, dictionary: List[str], tag: str, flags = 0) -> str:
+def mask_not_ambiguous_entities(text: str, dictionary: List[str], tag: str, flags = 0) -> str:
     """
     Mask exact names from `names` list (case-insensitive, preserves accents).
     Longer names are placed first to avoid partial matches (e.g. 'Marco Antonio' before 'Marco').
@@ -76,19 +68,7 @@ def mask_entities_from_dict(text: str, dictionary: List[str], tag: str, flags = 
     pattern = r"\b(?:" + "|".join(re.escape(n) for n in names_sorted) + r")\b"
     return re.sub(pattern, tag, text_nfc, flags=flags)
 
-
-
-result = mask_entities_from_dict(mixed_text, nations_dict, gpe_tag, re.IGNORECASE)
-result = mask_entities_from_dict(result, regions_dict, gpe_tag, re.IGNORECASE)
-result = mask_entities_from_dict(result, municipalities_dict, gpe_tag, re.IGNORECASE)
-result = mask_entities_from_dict(result, provinces_dict, prov_tag)
-result = mask_entities_from_dict(result, names_dict, name_tag, re.IGNORECASE)
-
-print(result)
-
 simple_email_re = r"[A-Za-z0-9._%+-]+@+[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
-masked_email_text = re.sub(simple_email_re, email_tag, email_text, flags=re.IGNORECASE)
-print(masked_email_text)
 
 phone_re = re.compile(r"""
 (?<!\w)                             # not part of a word
@@ -98,11 +78,6 @@ phone_re = re.compile(r"""
 (?:\s*(?:ext|x|extension)\s*\d{1,5})?  # optional extension
 (?!\w)
 """, re.VERBOSE | re.IGNORECASE)
-
-
-masked_phone_text = re.sub(phone_re, phone_tag, phone_text)
-print(masked_phone_text)
-
 
 urls_re = re.compile(r"""
 (?:(?:https?|ftps?)://|//)?            # optional scheme or protocol-relative
@@ -119,35 +94,112 @@ urls_re = re.compile(r"""
 (?:[/?#][^\s<>"]*)?                   # path, query, fragment
 """, re.VERBOSE | re.IGNORECASE)
 
-masked = re.sub(urls_re, url_tag, url_text)
-print(masked)
+codes_re = re.compile(r"""
+    (?:
+        \b[A-Z]{6}\d{2}[A-Z]\d{2}[A-Z]\d{3}[A-Z]\b         # Codice Fiscale
 
+      | \b[A-Z]{2,3}\d{5,7}[A-Z]{0,2}\b                    # CIE / Passport
 
+      | \b[A-Z]\d{2}(?:\.[A-Z0-9]{1,4})?\b                 # ICD-10 style
 
-pattern = re.compile(
-    r'\b[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]\b|'   # Italian tax code
-    r'\b[A-Z]{2,3}[0-9]{5,7}[A-Z]{0,2}\b|'                      # CIE, ID cartacea, passport
-    r'\b[A-Z][0-9]{2}(?:\.[0-9A-Z]{1,4})?\b|'                  # ICD-10 code
-    r'\b(?=[A-Z0-9]{3,20}\b)(?=.*\d)[A-Z0-9]+\b',               # Generic alphanumeric (must contain at least one number)
-)
-masked_codes_text = re.sub(pattern, code_tag, codes_text)
-print(masked_codes_text)
+      | (?<!\[)                                            # exclude inside [...]
+        \b
+        (?=[A-Z0-9-]{3,20}\b)                              # length 3–20, allow '-'
+        (?=[A-Z0-9-]*[A-Z])                                # at least one letter
+        (?=[A-Z0-9-]*\d)                                   # at least one digit
+        (?!-)                                              # cannot start with '-'
+        [A-Z0-9]+(?:-[A-Z0-9]+)*                           # alphanum groups separated by '-'
+        \b
+        (?!\])                                             # cannot end before ']'
+    )
+""", re.VERBOSE | re.IGNORECASE)
 
-
-def mask_ambiguous_names(text: str, ambiguous_names: List[str], tag: str) -> str:
-    """
-    Mask ambiguous names from `ambiguous_names` list (case-insensitive, preserves accents).
-    Longer names are placed first to avoid partial matches (e.g. 'Marco Antonio' before 'Marco').
-    """
-    if not ambiguous_names:
+def mask_ambiguous_entities(text: str, tokens: List[str], tag: str) -> str:
+    if not tokens:
         return text
-    # normalize to NFC so composed/decomposed forms match consistently
+
     text_nfc = unicodedata.normalize("NFC", text)
-    # sort by length desc to prefer multi-word/longer names
-    normalized_nemes  = [w[0].upper() + w[1:] for w in ambiguous_names]
-    names_sorted = sorted(set(normalized_nemes), key=len, reverse=True)
-    pattern = r"\b(?:" + "|".join(re.escape(n) for n in names_sorted) + r")\b"
+    capitalized_tokens = [t[0].upper() + t[1:] for t in tokens if t]
+    sorted_tokens = sorted(set(capitalized_tokens), key=len, reverse=True)
+    pattern = r"\b(?:" + "|".join(re.escape(t) for t in sorted_tokens) + r")\b"
     return re.sub(pattern, tag, text_nfc)
 
-ambiguous_masked_text = mask_ambiguous_names("Annunziato, annunziato, Arido, arido", ambiguous_names_dict, name_tag)
-print(ambiguous_masked_text)
+
+def mask_entities_in_text(text: str, file: str, compare_to_file: str, tag: str ) -> str:
+    """
+    Mask entities in the text using both not ambiguous and ambiguous masking.
+    """
+    ambiguous, not_ambiguous = find_ambiguous_entities(
+        file,
+        compare_to_file
+    )
+    masked_text = mask_not_ambiguous_entities(text, not_ambiguous, tag, re.IGNORECASE)
+    masked_text = mask_ambiguous_entities(masked_text, ambiguous, tag)
+    return masked_text
+
+
+
+def mask_text(text: str) -> str:
+    """
+    Mask various entities in the text using predefined dictionaries and regex patterns.
+    """
+    italian_words_file = 'github_dictionaries/660000_parole_italiane.txt'
+    ambiguous, not_ambiguous = find_ambiguous_entities(
+        'dictionaries/comuni_it.txt',
+        'github_dictionaries/660000_parole_italiane.txt'
+    )
+    masked_text = mask_not_ambiguous_entities(text, not_ambiguous, gpe_tag, re.IGNORECASE)
+    masked_text = mask_ambiguous_entities(masked_text, ambiguous, gpe_tag)
+    # masked_text = mask_entities_in_text(text, municipalities_file_path, italian_words_file, gpe_tag)
+
+    ambiguous, not_ambiguous = find_ambiguous_entities(
+        'dictionaries/regioni_it.txt',
+        'github_dictionaries/660000_parole_italiane.txt'
+    )
+    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, gpe_tag, re.IGNORECASE)
+    masked_text = mask_ambiguous_entities(masked_text, ambiguous, gpe_tag)
+
+    ambiguous, not_ambiguous = find_ambiguous_entities(
+        'dictionaries/nazioni_it.txt',
+        'github_dictionaries/660000_parole_italiane.txt'
+    )
+    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, gpe_tag, re.IGNORECASE)
+    masked_text = mask_ambiguous_entities(masked_text, ambiguous, gpe_tag)
+
+    ambiguous, not_ambiguous = find_ambiguous_entities(
+        'dictionaries/nomi_it.txt',
+        'github_dictionaries/660000_parole_italiane.txt'
+    )
+    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, name_tag, re.IGNORECASE)
+    masked_text = mask_ambiguous_entities(masked_text, ambiguous, name_tag)
+
+    ambiguous, not_ambiguous = find_ambiguous_entities(
+        'github_dictionaries/lista_cognomi.txt',
+        'github_dictionaries/660000_parole_italiane.txt'
+    )
+    masked_text = mask_not_ambiguous_entities(masked_text, not_ambiguous, name_tag, re.IGNORECASE)
+    masked_text = mask_ambiguous_entities(masked_text, ambiguous, name_tag)
+    masked_text = re.sub(urls_re, url_tag, masked_text)
+
+    masked_text = re.sub(codes_re, code_tag, masked_text)
+
+    masked_text = mask_not_ambiguous_entities(masked_text, provinces_dict, prov_tag)
+
+    masked_text = re.sub(simple_email_re, email_tag, masked_text, flags=re.IGNORECASE)
+    masked_text = re.sub(phone_re, phone_tag, masked_text)
+    return masked_text
+
+
+testo = """
+Nel mese di settembre 2024, Marco Rossi ha partecipato a una conferenza sulla sicurezza informatica organizzata a Milano, in Lombardia, con ospiti provenienti non solo dall’Italia, ma anche dalla Francia, dalla Germania e perfino dal Giappone. Durante l’evento, il professor Giulia Bianchi, esperta di crittografia e docente presso l’Università di Torino (Piemonte), ha illustrato alcuni casi pratici avvenuti nella municipalità di Bologna e nella provincia di Firenze, in Toscana.
+
+Tra gli interventi più attesi c’era quello del ricercatore indipendente Luca Verdi, che ha presentato un report dettagliato su oltre 300 violazioni dei dati avvenute tra il 2020 e il 2023. Nel rapporto comparivano vari riferimenti a codici interni come USR-492A, CODX-11-FF, e SYS2024-BETA.
+
+Per chi desiderava ricevere maggiori informazioni, era possibile scrivere all’indirizzo email info@sicurezzait.org o contattare l’assistenza tecnica al numero +39 347 889 2211, attivo anche tramite WhatsApp. Inoltre, tutto il materiale della conferenza può essere scaricato dal sito ufficiale: https://www.cyberconf2024.it/documenti/materiale. Alcuni partecipanti hanno anche segnalato link di risorse aggiuntive come http://blog-ricerca.net/articoli e www.sicurezzaonline.it.
+
+Un altro intervento interessante è stato quello di Anna Marino, responsabile della regione Sicilia, che ha raccontato un caso relativo alla città di Catania. In questa occasione è stato menzionato anche il codice identificativo locale CT-99211, utilizzato per tracciare alcune segnalazioni.
+
+Per garantire l’anonimato nei report interni, gli organizzatori hanno utilizzato un sistema automatico che sostituisce nomi e luoghi con tag specifici. Ad esempio, i dati sensibili come indirizzi email, numeri di telefono e URL devono essere sempre mascherati attraverso apposite funzioni di sanitizzazione.
+"""
+
+print(mask_text(testo))
