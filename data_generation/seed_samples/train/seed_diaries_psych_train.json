@@ -1,5 +1,5 @@
 [
-  {
+    {
         "text": "Prima visita dopo rientro CODD. Riferisce di stare assumendo la medesima terapia meno il campral (che però ripristiniamo). Inoltre mancano gli esami recenti: richiedere VALPROATEMIA, emocromo, assetto epatico completo, assetto coagulativo, renale, metabolico, elettrolitico e tiroideo. EOP: non turbe del sensorio per quanto osservabile, anche se lamenta una quota di ansia. Umore in asse, non disturbi del pensiero o della percezione. Concordiamo aumento lorazepam con finalità anti-astinenziale e benerva.",
         "entities": [
             {"text": "campral", "label": "MEDICINE"},

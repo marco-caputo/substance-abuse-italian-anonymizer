@@ -268,13 +268,13 @@ def clean_org(example: dict) -> dict:
 
 def clean_misc(example: dict) -> dict:
     """
-    Cleans MISC entities that are not proper names.
+    Cleans events, products and work of art entities that are not proper names.
     Those entities that are full lowercase and are not nationalities are removed. Some special case
     having cased words but being common wrong terms are also removed.
     """
     cleaned_entities = []
     for ent in example['entities']:
-        if ent['label'] == 'MISC':
+        if ent['label'] in {'EVENT','PRODUCT', 'WORK_OF_ART'}:
             if str.islower(ent['text']):
                 if re.search(misc_correct_lowercase_pattern, ent['text'], re.IGNORECASE):
                     ent['text'] = re.search(misc_correct_lowercase_pattern, ent['text'], re.IGNORECASE).group(0)

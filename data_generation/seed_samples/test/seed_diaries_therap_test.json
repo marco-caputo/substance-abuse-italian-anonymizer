@@ -16,12 +16,12 @@
       },
       {
         "text": "Fossombrone",
-        "label": "LOCATION"
+        "label": "GPE"
       }
     ]
   },
   {
-    "text": "Sentiremo la Renda per avere referenze \"Mondo X\"; se dovesse andare alla \"Lautari\" si faranno presenti le sue caratteristiche psicofisiche; lui pare non contento e mai grato; da valutare se la famiglia è disponibile a riprenderlo e/o aiutarlo in qualche modo. Pare avere un comportamento pretenzioso anche se in qualche modo si mette più in gioco rispetto la passata permanenza.",
+    "text": "Sentiremo la Renda per avere referenze \"Mondo X\"; se dovesse andare al \"Calabrone\" si faranno presenti le sue caratteristiche psicofisiche; lui pare non contento e mai grato; da valutare se la famiglia è disponibile a riprenderlo e/o aiutarlo in qualche modo. Pare avere un comportamento pretenzioso anche se in qualche modo si mette più in gioco rispetto la passata permanenza.",
     "entities": [
       {
         "text": "Renda",
@@ -32,7 +32,7 @@
         "label": "ORG"
       },
       {
-        "text": "Lautari",
+        "text": "Calabrone",
         "label": "ORG"
       }
     ]
@@ -46,8 +46,13 @@
         ]
   },
   {
-    "text": "Va via martedì riprenderà la sua macchina. Andrà al b&b per qualche mese, lui è contento perchè ci è già stato e conosce il posto.",
-    "entities": []
+    "text": "Va via martedì riprenderà la sua macchina. Andrà al b&b il Nido per qualche mese, lui è contento perchè ci è già stato e conosce il posto.",
+    "entities": [
+        {
+            "text": "il Nido",
+            "label": "ORG"
+        }
+    ]
   },
   {
     "text": "Durante il colloquio di lunedì pomeriggio con il Sert di Modena, emerge maggiore consapevolezza rispetto all'uso di cocaina. Dice di sentire meno bisogno, ma resta vulnerabile nei momenti di solitudine. Ha iniziato la terapia con sertralina prescritta dal dott. Asmundo. Segnalato sonno irregolare e ansia mattutina.",

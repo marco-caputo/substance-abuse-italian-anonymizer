@@ -32,7 +32,6 @@
             {"text": "Sert", "label": "ORG"},
             {"text": "Sert di Ascoli", "label": "ORG"},
             {"text": "Sert di Fossombrone", "label": "ORG"},
-            {"text": "Fossombrone", "label": "GPE"},
             {"text": "Vincenzo", "label": "PATIENT"},
             {"text": "Sert di Ascoli", "label": "ORG"},
             {"text": "Ascoli", "label": "GPE"},
@@ -67,8 +66,7 @@
             {"text": "Lautari", "label": "ORG"},
             {"text": "Aquila", "label": "GPE"},
             {"text": "Sert", "label": "ORG"},
-            {"text": "Sert di Fossombrone", "label": "ORG"},
-            {"text": "Fossombrone", "label": "GPE"}
+            {"text": "Sert di Fossombrone", "label": "ORG"}
         ]
     },
     {

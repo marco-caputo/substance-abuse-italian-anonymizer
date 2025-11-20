@@ -24,7 +24,7 @@
           {"text": "Sert di Teramo", "label": "ORG"},
           {"text": "San Patrignano", "label": "ORG"},
           {"text": "Sert", "label": "ORG"},
-          {"text": "Fossombrone", "label": "LOCATION"}
+          {"text": "Fossombrone", "label": "GPE"}
         ]
     },
     {
@@ -41,7 +41,6 @@
             {"text": "Sert", "label": "ORG"},
             {"text": "Sert di Ascoli", "label": "ORG"},
             {"text": "Sert di Fossombrone", "label": "ORG"},
-            {"text": "Fossombrone", "label": "GPE"},
             {"text": "Vincenzo", "label": "PATIENT"},
             {"text": "Sert di Ascoli", "label": "ORG"},
             {"text": "Ascoli", "label": "GPE"},
@@ -61,11 +60,11 @@
         ]
     },
     {
-        "text": "Sentiremo la Renda per avere referenze \"Mondo X\"; se dovesse andare alla \"Lautari\" si faranno presenti le sue caratteristiche psicofisiche; lui pare non contento e mai grato; da valutare se la famiglia è disponibile a riprenderlo e/o aiutarlo in qualche modo. Pare avere un comportamento pretenzioso anche se in qualche modo si mette più in gioco rispetto la passata permanenza.",
+        "text": "Sentiremo la Renda per avere referenze \"Mondo X\"; se dovesse andare al \"Calabrone\" si faranno presenti le sue caratteristiche psicofisiche; lui pare non contento e mai grato; da valutare se la famiglia è disponibile a riprenderlo e/o aiutarlo in qualche modo. Pare avere un comportamento pretenzioso anche se in qualche modo si mette più in gioco rispetto la passata permanenza.",
         "entities": [
             {"text": "Renda", "label": "PER"},
             {"text": "Mondo X", "label": "ORG"},
-            {"text": "Lautari", "label": "ORG"}
+            {"text": "Calabrone", "label": "ORG"}
         ]
     },
     {
@@ -92,8 +91,7 @@
             {"text": "Lautari", "label": "ORG"},
             {"text": "Aquila", "label": "GPE"},
             {"text": "Sert", "label": "ORG"},
-            {"text": "Sert di Fossombrone", "label": "ORG"},
-            {"text": "Fossombrone", "label": "GPE"}
+            {"text": "Sert di Fossombrone", "label": "ORG"}
         ]
     },
     {
@@ -103,7 +101,12 @@
         ]
     },
     {
-        "text": "Va via martedì riprenderà la sua macchina. Andrà al b&b per qualche mese, lui è contento perchè ci è già stato e conosce il posto.",
-        "entities": []
-    }
+    "text": "Va via martedì riprenderà la sua macchina. Andrà al b&b il Nido per qualche mese, lui è contento perchè ci è già stato e conosce il posto.",
+    "entities": [
+        {
+            "text": "il Nido",
+            "label": "ORG"
+        }
+    ]
+  }
 ]
