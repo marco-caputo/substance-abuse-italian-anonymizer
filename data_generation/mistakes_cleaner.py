@@ -27,7 +27,7 @@ wrong_per_pattern = (
     r"professoressa|professore|professor|prof\.ssoressa|prof\.ssor|prof\.ssa|prof\.sa|prof\.|"
     r"ingegnere|ingegner|ing\.gnere|ing\.|"
     r"avvocato|avvocata|avv\.cato|avv\.|"
-    r"signor.|sig\.ora|sig\.ina|sig\.or|sig\.ra|sig\.|"
+    r"signor.|signor|sig\.ora|sig\.ina|sig\.or|sig\.ra|sig\.r|sig\.|"
     r"suor|padre|don|"
     r"madre|mamma|padre|papà|babbo|"
     r"fratello|sorella|fratelli|sorelle|bambin.|"
@@ -58,7 +58,7 @@ phone_prefix_pattern = r'(tel|fax)\.?:?\s*'
 
 wrong_date_pattern = (
     r'(?:'
-    r'oggi|domani|ieri|prossim.|scors.|odiern.|ultim.|passat.|nuov.|\sfa|tra\s|fra\s|'
+    r'oggi|domani|ieri|prossim.|scors.|odiern.|ultim.|passat.|nuov.|\sfa|tra\s|fra\s|inizio|'
     r'giorn.|or.|minut.|'
     r'ser.|mattin.|pomeriggio|notte|mezzogiorno|mezzanotte|'
     r'weekend|fine\s?(?:settimana|mese)|'
@@ -206,7 +206,7 @@ def clean_mails_as_names(example: dict) -> dict:
 
 def clean_locality(example: dict) -> dict:
     """
-    Cleans all those locality entities that are not named but are common words.
+    Cleans all those locality of facility entities that are not named but are common words.
     This is done simply by checking if the entity text is in lowercase.
 
     :param example: the example dictionary with "text" and "entities" fields
@@ -214,7 +214,7 @@ def clean_locality(example: dict) -> dict:
     """
     cleaned_entities = []
     for ent in example['entities']:
-        if ent['label'] == 'LOC':
+        if ent['label']  in {'LOC',"FAC"}:
             if str.islower(ent['text']):
                 continue
         cleaned_entities.append(ent)

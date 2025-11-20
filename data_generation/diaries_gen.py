@@ -1,7 +1,7 @@
 ﻿import json
 
 import pandas as pd
-from config import ENTITIES, SEED_SAMPLES, SYSTEM_PROMPT_DIARIES, SEED_PATH_DIARIES, TRAIN_TEST_SPLIT_DIARIES
+from config import ENTITIES_NER, SEED_SAMPLES, SYSTEM_PROMPT_DIARIES, SEED_PATH_DIARIES, TRAIN_TEST_SPLIT_DIARIES
 from report_gen import generate_examples
 
 N_PER_OUTPUT = SEED_SAMPLES[-1]['n_per_output']
@@ -28,7 +28,7 @@ def build_prompts(chunks):
     :return: List of prompts.
     """
     prompts = []
-    filtered_entities = [e for e in ENTITIES if e['label'] not in {'PATIENT'}]
+    filtered_entities = [e for e in ENTITIES_NER if e['label'] not in {'PATIENT'}]
     for i, chunk in enumerate(chunks):
         prompts.append(
             f"""

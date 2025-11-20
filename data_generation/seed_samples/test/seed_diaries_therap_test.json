@@ -38,17 +38,12 @@
     ]
   },
   {
-    "text": "Lunedì ha fatto la chiamata con il figlio. Lui sembrava molto aggressivo nei confronti del padre. Gli ha detto che ad Aprile riprende la patente e sta senza macchina dopo che lo hanno fermato e si è rifiutato di fare il test. Verrà a riprendere la macchina del padre qui accordandosi con un amico. Vincenzo si è reso conto che il figlio ha problemi, pensa non solo per quanto riguarda l'alcol. Lui voleva vendere la macchina, così poteva mettersi a pari con la finanziaria, ma il figlio non vuole venderla.",
-    "entities": [
-      {
-        "text": "Vincenzo",
-        "label": "PATIENT"
-      },
-      {
-        "text": "alcol",
-        "label": "SUBSTANCE"
-      }
-    ]
+        "text": "Lunedì ha fatto la chiamata con il figlio Manuel. Lui sembrava molto aggressivo nei confronti del padre. Gli ha detto che ad Aprile riprende la patente e sta senza macchina dopo che lo hanno fermato e si è rifiutato di fare il test. Verrà a riprendere la macchina del padre qui accordandosi con un amico. Giovanni si è reso conto che il figlio ha problemi, pensa non solo per quanto riguarda l'alcol. Lui voleva vendere la macchina, così poteva mettersi a pari con la finanziaria, ma il figlio non vuole venderla.",
+        "entities": [
+            {"text": "Manuel", "label": "PER"},
+            {"text": "Giovanni", "label": "PATIENT"},
+            {"text": "alcol", "label": "SUBSTANCE"}
+        ]
   },
   {
     "text": "Va via martedì riprenderà la sua macchina. Andrà al b&b per qualche mese, lui è contento perchè ci è già stato e conosce il posto.",
@@ -898,7 +893,7 @@
       },
       {
         "text": "falegnameria di Reggio Emilia",
-        "label": "LOC"
+        "label": "FAC"
       },
       {
         "text": "inizio mese",
@@ -1284,7 +1279,7 @@
     "text": "Durante la verifica settimanale ha comunicato di aver avuto un momento di forte tentazione durante una visita a casa della madre in provincia di Parma. È riuscito a non usare eroina grazie al supporto telefonico con l’operatore Gianpaolo. Si propone di intensificare i momenti di confronto sul tema della fiducia in sé.",
     "entities": [
       {
-        "text": "provincia di Parma",
+        "text": "Parma",
         "label": "GPE"
       },
       {

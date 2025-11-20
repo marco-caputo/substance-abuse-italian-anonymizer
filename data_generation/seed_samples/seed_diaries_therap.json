@@ -79,9 +79,10 @@
         ]
     },
     {
-        "text": "Lunedì ha fatto la chiamata con il figlio. Lui sembrava molto aggressivo nei confronti del padre. Gli ha detto che ad Aprile riprende la patente e sta senza macchina dopo che lo hanno fermato e si è rifiutato di fare il test. Verrà a riprendere la macchina del padre qui accordandosi con un amico. Vincenzo si è reso conto che il figlio ha problemi, pensa non solo per quanto riguarda l'alcol. Lui voleva vendere la macchina, così poteva mettersi a pari con la finanziaria, ma il figlio non vuole venderla.",
+        "text": "Lunedì ha fatto la chiamata con il figlio Manuel. Lui sembrava molto aggressivo nei confronti del padre. Gli ha detto che ad Aprile riprende la patente e sta senza macchina dopo che lo hanno fermato e si è rifiutato di fare il test. Verrà a riprendere la macchina del padre qui accordandosi con un amico. Giovanni si è reso conto che il figlio ha problemi, pensa non solo per quanto riguarda l'alcol. Lui voleva vendere la macchina, così poteva mettersi a pari con la finanziaria, ma il figlio non vuole venderla.",
         "entities": [
-            {"text": "Vincenzo", "label": "PATIENT"},
+            {"text": "Manuel", "label": "PER"},
+            {"text": "Giovanni", "label": "PATIENT"},
             {"text": "alcol", "label": "SUBSTANCE"}
         ]
     },
@@ -96,9 +97,9 @@
         ]
     },
     {
-        "text": "Stiamo vedendo una sistemazione per un primo periodo di reinserimento sul territorio di Porto d'Ascoli dal mese di Aprile.",
+        "text": "Stiamo vedendo una sistemazione per un primo periodo di reinserimento sul territorio di Porto San Paolo dal mese di Aprile.",
         "entities": [
-            {"text": "Porto d'Ascoli", "label": "LOC"}
+            {"text": "Porto San Paolo", "label": "GPE"}
         ]
     },
     {

@@ -15,7 +15,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 faker = Faker('it_IT')
 
 from utils import read_json_file, append_json_data
-from config import SYSTEM_PROMPT, ENTITIES, SEED_SAMPLES, PROMPT_REPORTS_1, PROMPT_REPORTS_2
+from config import SYSTEM_PROMPT, ENTITIES_NER, SEED_SAMPLES, PROMPT_REPORTS_1, PROMPT_REPORTS_2
 
 def save_and_print(data: list[dict], samples_files: dict, iteration: int):
     filename = append_json_data(f"synthetic_{samples_files['filename']}_train", data)
@@ -93,7 +93,7 @@ if __name__ == "__main__":
                     Ensure each example resembles a realistic {samples_file['description']} in Italian as those provided above,
                     but don't be afraid to vary the style, content and length of the reports.
                     Possible entities that can be included are:\n 
-                    {"\n".join([f"- {e["label"]}: {e["desc"]}" for e in ENTITIES])}\n
+                    {"\n".join([f"- {e["label"]}: {e["desc"]}" for e in ENTITIES_NER])}\n
                     {samples_file.get('additional_instructions', '')}
                     """
 

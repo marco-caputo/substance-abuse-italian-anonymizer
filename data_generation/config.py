@@ -1,12 +1,19 @@
-ENTITIES = [                # Possible NER labels
-    {"label": "PATIENT",        "desc": "Names and/or surnames of the patient", "examples": "(e.g. 'Giovanni Verdi', 'Luca')"},
-    {"label": "AGE",            "desc": "Person age", "examples": "(e.g. '35 anni', '42enne')"},
-    {"label": "PER",            "desc": "Named people other than the patient, like family members, healthcare professionals", "examples": "(e.g. 'Rossi', 'Mario Bianchi', 'G. Verdi', 'Visconti')"},
-    {"label": "DATE",           "desc": "Dates or absolute time references", "examples": "(e.g. '5 maggio', '2020', '20/03/2021')"},
-    {"label": "ORG",            "desc": "Specific organization", "examples": "(e.g. 'SerT di Milano', 'ASL', 'Comunità terapeutica')"},
-    {"label": "GPE",            "desc": "Specific geo-political locations", "examples": "(e.g. 'Germania', 'Marche', 'Milano')"},
-    {"label": "LOC",            "desc": "Specific non-GPE physical locations or areas", "examples": "(e.g. 'Bar dello Sport', 'via Roma')"},
-    {"label": "MISC",           "desc": "Miscellaneous entities, including events, nationalities, products or works of art", "examples": "(e.g. 'Sagra della porchetta', 'messicano', 'X-Factor')"},
+ENTITIES_NER = [                # Possible NER labels
+    {"label": "PATIENT",        "desc": "Names and/or surnames of the patient",                                                 "examples": "(e.g. 'Giovanni Verdi', 'Luca')"},
+    {"label": "PER",            "desc": "Named people other than the patient, like family members or healthcare professionals", "examples": "(e.g. 'Rossi', 'Mario Bianchi', 'G. Verdi', 'Visconti')"},
+    {"label": "ORG",            "desc": "Named organizations, businesses, shops, bars etc.",                                    "examples": "(e.g. 'SerT di Milano', 'ASL', 'Comunità Terapeutica La Quercia')"},
+    {"label": "GPE",            "desc": "Named geo-political locations",                                                        "examples": "(e.g. 'Germania', 'Marche', 'Milano')"},
+    {"label": "LOC",            "desc": "Named non-GPE physical, geographical location, area names or addresses",               "examples": "(e.g. 'Parco del Gran Sasso', 'via Roma')"},
+    {"label": "FAC",            "desc": "Named facilities, hospitals, buildings, airports, highways, bridges etc.",             "examples": "(e.g. 'Ospedale San Raffaele', 'Ponte di Rialto', 'Aeroporto di Fiumicino')"},
+    {"label": "NORP",           "desc": "Nationalities or religious or political groups",                                       "examples": "(e.g. 'tedesco', 'cattolico', 'comunista')"},
+    {"label": "AGE",            "desc": "Person age",                                                                           "examples": "(e.g. '35 anni', '42enne')"},
+    {"label": "DATE",           "desc": "Dates and other absolute time references",                                                 "examples": "(e.g. '5 maggio', '2020', '20/03/2021')"},
+    {"label": "EVENT",          "desc": "Named events, celebrations, sports events, hurricanes, battles, wars etc.",            "examples": "(e.g. 'Sagra della Porchetta', 'Natale')"},
+    {"label": "WORKS_OF_ART",   "desc": "Titles of books, songs, artworks etc.",                                                "examples": "(e.g. 'La Divina Commedia', 'Breaking Bad')"},
+    {"label": "PRODUCT",        "desc": "Named products, vehicles, food brand etc. (not services)",                             "examples": "(e.g. 'iPhone', 'Fiat Panda', 'Pavesini')"}
+]
+
+ENTITIES_EE = [
     {"label": "SUBSTANCE",      "desc": "Specific substance of abuse", "examples": "(e.g. 'oppioidi', 'cocaina', 'metadone')"},
     {"label": "SYMPTOM",        "desc": "Specific symptom or sign", "examples": "(e.g. 'ansia', 'insonnia', 'dolore addominale')"},
     {"label": "MEDICINE",       "desc": "Specific pharmacological substance", "examples": "(e.g. 'metadone', 'diazepam')"},
@@ -219,7 +226,7 @@ PROMPT_REPORTS_2 = lambda report: """
     ]
     
   Possible entities that can be recognized and listed in the "entities" list are:\n
-  """ + "\n".join([f"- {e["label"]}: {e["desc"]} {e["examples"]}" for e in ENTITIES]) + """\n
+  """ + "\n".join([f"- {e["label"]}: {e["desc"]} {e["examples"]}" for e in ENTITIES_NER]) + """\n
   """ + "\n".join([f"- {e["label"]}: {e["desc"]} {e["examples"]}" for e in ENTITIES_POST]) + """\n
   
   While labeling please consider the following instructions:

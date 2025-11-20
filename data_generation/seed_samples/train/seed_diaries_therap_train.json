@@ -72,9 +72,9 @@
         ]
     },
     {
-        "text": "Stiamo vedendo una sistemazione per un primo periodo di reinserimento sul territorio di Porto d'Ascoli dal mese di Aprile.",
+        "text": "Stiamo vedendo una sistemazione per un primo periodo di reinserimento sul territorio di Porto San Paolo dal mese di Aprile.",
         "entities": [
-            {"text": "Porto d'Ascoli", "label": "LOC"}
+            {"text": "Porto San Paolo", "label": "GPE"}
         ]
     }
 ]
