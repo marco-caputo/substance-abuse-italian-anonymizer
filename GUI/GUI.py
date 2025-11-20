@@ -13,7 +13,7 @@ from docx import Document
 from PyPDF2 import PdfReader
 
 # Load spaCy English model
-nlp = spacy.load("it_core_news_lg")
+nlp = spacy.load("it_core_news_trf")
 
 
 # ---------- HELPER FUNCTIONS ----------

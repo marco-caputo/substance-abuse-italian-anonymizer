@@ -18,18 +18,15 @@ def anonymize_text(nlp_model, text, entities_to_anonymize):
 
     return anonymized
 
-# Load a spaCy nlp anonymizer from a file
-def load_spacy_anonymizer_from_file(folder_path: str):
-    return spacy.load(folder_path)
-
 def get_full_anonymizer(path: str):
-    nlp = load_spacy_anonymizer_from_file(path)
+    """Returns a full anonymization function using the specified spaCy model path."""
+    nlp = spacy.load(path)
     return lambda txt: remove_double_tags(mask_text(anonymize_text(nlp, txt, NER_LABELS)))
 
 
 if __name__ == "__main__":
     from pathlib import Path
-    model_path = "../NER/models/gpu/model2_best/"
+    model_path = "../NER/models/fine_tuned/gpu/model2_best/"
 
     nlp_anonymizer = get_full_anonymizer(model_path)
     sample_text = "Il Mario Rossi vive a Roma e il suo codice fiscale è RSSMRA85M01H501U."

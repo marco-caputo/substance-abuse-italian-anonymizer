@@ -17,10 +17,10 @@
     ]
   },
   {
-    "text": "Durante il colloquio individuale ha espresso il desiderio di riprendere i contatti con la sorella, Francesca, che vive a Milano. Ha dichiarato di non aver fatto uso di cocaina da 12 giorni. Si è mostrato motivato a continuare il percorso.",
+    "text": "Durante il colloquio individuale ha espresso il desiderio di riprendere i contatti con la sorella, francesca, che vive a Milano. Ha dichiarato di non aver fatto uso di cocaina da 12 giorni. Si è mostrato motivato a continuare il percorso.",
     "entities": [
       {
-        "text": "Francesca",
+        "text": "francesca",
         "label": "PER"
       },
       {
@@ -2744,7 +2744,7 @@
     ]
   },
   {
-    "text": "Durante il colloquio odierno, ha espresso forte disagio per la convivenza con altri utenti della comunità di San Patrignano. Ha riferito di aver avuto un episodio di ansia acuta durante la notte, con sudorazione e tremori. Si è parlato della possibilità di iniziare una terapia con alprazolam, ma si attende conferma dal medico del Sert di Rimini.",
+    "text": "Durante il colloquio odierno, ha espresso forte disagio per la convivenza con altri utenti della comunità di San Patrignano. Ha riferito di aver avuto un episodio di ansia acuta durante la notte, con sudorazione e tremori. Si è parlato della possibilità di iniziare una terapia con alprazolam, ma si attende conferma dal medico del sert di rimini.",
     "entities": [
       {
         "text": "San Patrignano",
@@ -2759,7 +2759,7 @@
         "label": "MEDICINE"
       },
       {
-        "text": "Sert di Rimini",
+        "text": "sert di rimini",
         "label": "ORG"
       }
     ]
@@ -3355,10 +3355,10 @@
     ]
   },
   {
-    "text": "Durante il colloquio individuale ha parlato della madre, Virginia, e del rapporto conflittuale con lei. Ha espresso rabbia per non essere stato contattato dal fratello durante il ricovero al San Camillo. Il Sert di Latina ha confermato la disponibilità a proseguire il percorso terapeutico. Si è mostrato più aperto rispetto alla settimana scorsa.",
+    "text": "Durante il colloquio individuale ha parlato della madre, virginia, e del rapporto conflittuale con lei. Ha espresso rabbia per non essere stato contattato dal fratello durante il ricovero al San Camillo. Il Sert di Latina ha confermato la disponibilità a proseguire il percorso terapeutico. Si è mostrato più aperto rispetto alla settimana scorsa.",
     "entities": [
       {
-        "text": "Virginia",
+        "text": "virginia",
         "label": "PER"
       },
       {
@@ -3917,8 +3917,8 @@
         "label": "GPE"
       },
       {
-        "text": "Sert di Roma",
-        "label": "ORG"
+        "text": "Roma",
+        "label": "GPE"
       },
       {
         "text": "20 novembre",
@@ -7256,7 +7256,7 @@
     "text": "La signora Canetta ha manifestato una continua difficoltà nell'adattarsi al programma di reinserimento sociale. Nonostante i tentativi di mantenere un equilibrio, i segnali di astinenza da eroina sono ancora presenti. È stato deciso di continuare con il trattamento farmacologico e di intensificare le sedute di terapia comportamentale. La situazione verrà rivalutata tra due settimane.",
     "entities": [
       {
-        "text": "signora Canetta",
+        "text": "Canetta",
         "label": "PATIENT"
       },
       {
@@ -15589,10 +15589,10 @@
     ]
   },
   {
-    "text": "Federico ha parlato apertamente della sua lotta contro la dipendenza da oppiacei. Ha ammesso di essere stato in remissione per oltre sei mesi, ma di aver recentemente incontrato delle difficoltà nel mantenere questo stato a causa di alcune pressioni sul lavoro. Durante la sessione, si è concentrato soprattutto sulla sua dipendenza psicologica e sulla difficoltà di rimanere motivato. È stato deciso di implementare un programma di rinforzo positivo, con l'introduzione di una serie di obiettivi settimanali da raggiungere. Inoltre, è stato concordato un piano per la visita mensile presso il centro di recupero di Siena, dove Federico può continuare a ricevere il supporto necessario.",
+    "text": "federico ha parlato apertamente della sua lotta contro la dipendenza da oppiacei. Ha ammesso di essere stato in remissione per oltre sei mesi, ma di aver recentemente incontrato delle difficoltà nel mantenere questo stato a causa di alcune pressioni sul lavoro. Durante la sessione, si è concentrato soprattutto sulla sua dipendenza psicologica e sulla difficoltà di rimanere motivato. È stato deciso di implementare un programma di rinforzo positivo, con l'introduzione di una serie di obiettivi settimanali da raggiungere. Inoltre, è stato concordato un piano per la visita mensile presso il centro di recupero di Siena, dove federico può continuare a ricevere il supporto necessario.",
     "entities": [
       {
-        "text": "Federico",
+        "text": "federico",
         "label": "PATIENT"
       },
       {
@@ -15600,7 +15600,7 @@
         "label": "GPE"
       },
       {
-        "text": "Federico",
+        "text": "federico",
         "label": "PATIENT"
       }
     ]
@@ -17021,7 +17021,7 @@
     ]
   },
   {
-    "text": "Ha riferito di aver smesso di assumere metadone da circa una settimana, senza sintomi di astinenza evidenti. Si è concordato di effettuare un test tossicologico venerdì prossimo. Il fratello, Amadeo, ha accompagnato il paziente e ha chiesto di essere coinvolto nel percorso.",
+    "text": "Ha riferito di aver smesso di assumere metadone da circa una settimana, senza sintomi di astinenza evidenti. Si è concordato di effettuare un test tossicologico venerdì prossimo. Il fratello, amadeo, ha accompagnato il paziente e ha chiesto di essere coinvolto nel percorso.",
     "entities": [
       {
         "text": "metadone",
@@ -17032,7 +17032,7 @@
         "label": "EXAMINATION"
       },
       {
-        "text": "Amadeo",
+        "text": "amadeo",
         "label": "PER"
       }
     ]

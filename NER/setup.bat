@@ -24,32 +24,32 @@ echo Base config: %BASECFG%
 echo ============================================
 
 REM Prepare data
-python prepare_data.py
+REM python prepare_data.py
 
 REM Fill config
-python -m spacy init fill-config %BASECFG% config.cfg
+REM python -m spacy init fill-config %BASECFG% config.cfg
 
 REM Debug data
-python -m spacy debug data config.cfg
+REM python -m spacy debug data config.cfg
 
 REM Preliminary evaluation of base model
 echo --------------------------------------------
 echo Evaluating base model BEFORE fine-tuning...
 echo --------------------------------------------
-python -m spacy evaluate it_core_news_lg docbins/test.spacy --output models/%MODE%/pretrain_results.json
-echo Base model evaluation saved to models/%MODE%/pretrain_results.json
+python -m spacy evaluate models/pre_trained/it_nerIta_trf docbins/test.spacy --output models/pre_trained/it_nerIta_trf/pretrain_results.json
+echo Base model evaluation saved to models/fine_tuned/%MODE%/pretrain_results.json
 
 REM Train
 echo --------------------------------------------
 echo Starting fine-tuning training...
 echo --------------------------------------------
-python -m spacy train config.cfg --output models/%MODE%
+python -m spacy train config.cfg --output models/fine_tuned/%MODE%
 
 REM Evaluate trained model
 echo --------------------------------------------
 echo Evaluating fine-tuned model...
 echo --------------------------------------------
-python -m spacy evaluate models/%MODE%/model-best docbins/test.spacy --output models/%MODE%/model-best/test_results.json
-echo Fine-tuned model evaluation saved to models/%MODE%/model-best/test_results.json
+python -m spacy evaluate models/fine_tuned/%MODE%/model-best docbins/test.spacy --output models/fine_tuned/%MODE%/model-best/test_results.json
+echo Fine-tuned model evaluation saved to models/fine_tuned/%MODE%/model-best/test_results.json
 
 pause

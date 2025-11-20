@@ -1,19 +1,12 @@
 import re
-from typing import List, Tuple, Dict
-from presidio_analyzer import AnalyzerEngine
-from presidio_anonymizer import AnonymizerEngine
+from typing import List, Tuple, Dict, Callable
+
 from tqdm import tqdm
 
 from utils import read_json_file, to_spacy_format
-from data_generation import DATA_FILENAMES, ANONYNIZATION_LABELS
+from data_generation import DATA_FILENAMES, ANONYMIZATION_LABELS
 from anonymizers import get_full_anonymizer
-
-# Set up the engine, loads the NLP module (spaCy model by default)
-# and other PII recognizers
-analyzer = AnalyzerEngine()
-anonymizer = AnonymizerEngine()
-PRESIDIO_LABELS = ["LOCATION", "PERSON", "PHONE_NUMBER", "EMAIL_ADDRESS", "URL"]
-PRESIDIO_LABELS_MAPPED = ["LOC", "PER", "PHONE", "EMAIL", "URL"]
+from presidio import get_presidio_anonymizer
 
 
 def infer_predicted_spans(original: str, anonymized: str) -> List[Tuple[int, int, str]]:
@@ -57,15 +50,21 @@ def infer_predicted_spans(original: str, anonymized: str) -> List[Tuple[int, int
     return predicted
 
 
-def compute_metrics(gold: Dict, original_text: str, anonymized_text: str):
+def compute_metrics(gold: Dict, anonymized_text: str) -> tuple[float, float, float]:
     """
     Compute precision, recall and F1 between:
       - gold spaCy formatted annotations: { "text": ..., "entities": [(start,end,label)] }
-      - predicted spans inferred from original_text ↔ anonymized_text alignment
+      - predicted spans inferred from original_text and anonymized_text alignment
+
+    gold: dict
+        { "text": ..., "entities": [(start,end,label), ...] }
+    anonymized_text: str
+        Text with anonymized entities marked as [LABEL]
+    Returns: (precision, recall, f1)
     """
 
     gold_entities = set(gold["entities"])
-    pred_entities = set(infer_predicted_spans(original_text, anonymized_text))
+    pred_entities = set(infer_predicted_spans(gold["text"], anonymized_text))
 
     tp = len(gold_entities & pred_entities)
     fp = len(pred_entities - gold_entities)
@@ -77,14 +76,13 @@ def compute_metrics(gold: Dict, original_text: str, anonymized_text: str):
 
     return precision, recall, f1
 
-def compute_dataset_metrics_per_label(examples, labels):
+def compute_dataset_metrics_per_label(inferences, labels):
     """
-    Compute micro-averaged precision, recall, and F1 per label.
+    Compute micro-averaged precision, recall, and F1 per label on the given list of gold-anonymized inferences.
 
-    examples: list of dicts
+    inferences: list of dicts
         {
             "gold": { "text": ..., "entities": [(start,end,label), ...] },
-            "original": "...",
             "anonymized": "..."
         }
 
@@ -100,9 +98,9 @@ def compute_dataset_metrics_per_label(examples, labels):
     # Global micro-averaged counts
     total_tp = total_fp = total_fn = 0
 
-    for ex in examples:
-        gold_entities = set(ex["gold"][1]["entities"])
-        pred_entities = set(infer_predicted_spans(ex["original"], ex["anonymized"]))
+    for ex in inferences:
+        gold_entities = set(ex["gold"]["entities"])
+        pred_entities = set(infer_predicted_spans(ex["gold"]["text"], ex["anonymized"]))
 
         for lbl in labels:
             # filter only this label
@@ -154,38 +152,38 @@ def compute_dataset_metrics_per_label(examples, labels):
     return results
 
 def get_test_data():
+    """Returns the full test dataset in spaCy format."""
     test_data = []
     for file_name in DATA_FILENAMES:
         data = read_json_file(f"./../data_generation/seed_samples/test/seed_{file_name}_test.json")
         data = to_spacy_format(data)
         test_data.extend(data)
+
     return test_data
 
-def get_presidio_anonymized(text: str) -> str:
+
+def evaluate_anonymizer_on_test_set(anonymizer: Callable, test_set):
     """
-    Mock function to simulate Presidio anonymization.
-    In practice, this would call the actual Presidio anonymization function.
-    For testing, we will just replace entities with [LABEL].
+    Evaluate the given anonymizer on the test set and compute metrics per label.
+    The test_set should be in spaCy format: list of (text, {"entities": [...]})
+
+    :param anonymizer: function that takes text and returns anonymized text
+    :param test_set: list of (text, {"entities": [...]})
+    :return: dict of metrics per label
     """
-    # Call analyzer to get results
-    results = analyzer.analyze(text=text,
-                               entities=PRESIDIO_LABELS,
-                               language='en')
-    text = anonymizer.anonymize(text=text, analyzer_results=results).text
-    for presidio_label, mapped_label in zip(PRESIDIO_LABELS, PRESIDIO_LABELS_MAPPED):
-        text = text.replace(f"<{presidio_label}>", f"[{mapped_label}]")
-    return text
+    inferences = []
+    for text, ent_dict in tqdm(test_set, desc="Applying anonymizer"):
+        sample = {"text": text, "entities": ent_dict["entities"]}
+        inferences.append({"gold": sample, "anonymized": anonymizer(text)})
+
+    return compute_dataset_metrics_per_label(inferences, ANONYMIZATION_LABELS)
 
 if __name__ == "__main__":
     test_set = get_test_data()
-    model_path = "../NER/models/gpu/model2_best/"
+    model_path = "../NER/models/fine_tuned/gpu/model2_best/"
     nlp_anonymizer = get_full_anonymizer(model_path)
-    test_samples = []
+    presidio_anonymizer = get_presidio_anonymizer()
 
-    for samples in tqdm(test_set):
-        test_samples.append({"gold": samples, "original": samples[0], "anonymized": nlp_anonymizer(samples[0])})
-
-    print(ANONYNIZATION_LABELS)
-    print(compute_dataset_metrics_per_label(test_samples, ANONYNIZATION_LABELS))
+    print(evaluate_anonymizer_on_test_set(presidio_anonymizer, test_set))
 
 

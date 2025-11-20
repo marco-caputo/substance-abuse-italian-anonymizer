@@ -199,7 +199,7 @@
     ]
   },
   {
-    "text": "Ieri è stato il primo compleanno di mia figlia Sofia ed è stato un evento così felice! Abbiamo aperto i suoi regali a casa di mia madre, Anna, a Firenze e le abbiamo dato un cupcake gigante della Pasticceria Gamberini da mangiare tutto per lei. Io e la mia famiglia ci siamo divertiti a festeggiare questa pietra miliare nella vita di mia figlia.",
+    "text": "Ieri è stato il primo compleanno di mia figlia Sofia ed è stato un evento così felice! Abbiamo aperto i suoi regali a casa di mia madre, Anna, a firenze e le abbiamo dato un cupcake gigante della Pasticceria Gamberini da mangiare tutto per lei. Io e la mia famiglia ci siamo divertiti a festeggiare questa pietra miliare nella vita di mia figlia.",
     "entities": [
       {
         "text": "Sofia",
@@ -210,7 +210,7 @@
         "label": "PER"
       },
       {
-        "text": "Firenze",
+        "text": "firenze",
         "label": "GPE"
       },
       {
@@ -389,7 +389,7 @@
     ]
   },
   {
-    "text": "Ieri i miei figli e i miei nipoti sono venuti a trovarmi per una grigliata nel giardino di casa a Bologna. Non li vedevo tutti insieme da qualche settimana, quindi è stato bello ritrovarli tutti insieme. Ho un figlio, Giustino, una figlia, Elena, e tre nipoti: Tommaso, 10 anni, Antonello, 8 anni, e Sofia, 6 anni.",
+    "text": "Ieri i miei figli e i miei nipoti sono venuti a trovarmi per una grigliata nel giardino di casa a Bologna. Non li vedevo tutti insieme da qualche settimana, quindi è stato bello ritrovarli tutti insieme. Ho un figlio, Giustino, una figlia, Elena, e tre nipoti: tommaso, 10 anni, Antonello, 8 anni, e Sofia, 6 anni.",
     "entities": [
       {
         "text": "Bologna",
@@ -404,7 +404,7 @@
         "label": "PER"
       },
       {
-        "text": "Tommaso",
+        "text": "tommaso",
         "label": "PER"
       },
       {
@@ -1728,10 +1728,10 @@
     ]
   },
   {
-    "text": "I miei genitori, Amanda e Giuseppe, mi hanno aiutato molto con la casa che io e mia moglie abbiamo appena comprato a Bologna. Hanno guardato nostro figlio Gianmarco e ci hanno aiutato molto con i lavori. Sono molto grato a loro.",
+    "text": "I miei genitori, amanda e Giuseppe, mi hanno aiutato molto con la casa che io e mia moglie abbiamo appena comprato a Bologna. Hanno guardato nostro figlio Gianmarco e ci hanno aiutato molto con i lavori. Sono molto grato a loro.",
     "entities": [
       {
-        "text": "Amanda",
+        "text": "amanda",
         "label": "PER"
       },
       {
@@ -1870,14 +1870,14 @@
     ]
   },
   {
-    "text": "Mio nipote, Tommaso, è nato due mesi prima della data prevista. Ieri ho avuto la possibilità di tenerlo in braccio per la prima volta. Che sensazione meravigliosa! I medici dell'Ospedale San Raffaele hanno detto che, nonostante la prematurità, il suo stato di salute è buono.",
+    "text": "Mio nipote, Tommaso, è nato due mesi prima della data prevista. Ieri ho avuto la possibilità di tenerlo in braccio per la prima volta. Che sensazione meravigliosa! I medici dell'ospedale san raffaele hanno detto che, nonostante la prematurità, il suo stato di salute è buono.",
     "entities": [
       {
         "text": "Tommaso",
         "label": "PER"
       },
       {
-        "text": "Ospedale San Raffaele",
+        "text": "ospedale san raffaele",
         "label": "ORG"
       },
       {
@@ -2305,11 +2305,11 @@
         "label": "ORG"
       },
       {
-        "text": "signora Lauretta",
+        "text": "Lauretta",
         "label": "PER"
       },
       {
-        "text": "signora Teresa",
+        "text": "Teresa",
         "label": "PER"
       }
     ]
@@ -2511,7 +2511,7 @@
         "label": "GPE"
       },
       {
-        "text": "signora Martinez",
+        "text": "Martinez",
         "label": "PER"
       }
     ]
@@ -2950,26 +2950,26 @@
     ]
   },
   {
-    "text": "Oggi sono andata a fare una passeggiata. Il nostro vicino, Giovanni, stava portando a spasso Breslin, e Breslin ha iniziato a salire sul mio vialetto quando mi ha visto. Breslin è un cane che ho dovuto chiedere al proprietario di tenere fuori dal nostro giardino in passato, ma è un cane bellissimo e molto simpatico. Ho ricordato a Breslin di stare fuori dal nostro cortile e il suo proprietario lo ha richiamato. Mi sono poi complimentata con Bres perché è un cane così buono. La passeggiata è stata speciale perché non ne facevo una da più di una settimana. Non so quando sia successo, ma prima camminavo tutti i giorni e ora lo faccio solo occasionalmente. Mi piace l'idea di tornare alle abitudini di passeggiata.",
+    "text": "Oggi sono andata a fare una passeggiata. Il nostro vicino, Giovanni, stava portando a spasso breslin, e breslin ha iniziato a salire sul mio vialetto quando mi ha visto. breslin è un cane che ho dovuto chiedere al proprietario di tenere fuori dal nostro giardino in passato, ma è un cane bellissimo e molto simpatico. Ho ricordato a breslin di stare fuori dal nostro cortile e il suo proprietario lo ha richiamato. Mi sono poi complimentata con Bres perché è un cane così buono. La passeggiata è stata speciale perché non ne facevo una da più di una settimana. Non so quando sia successo, ma prima camminavo tutti i giorni e ora lo faccio solo occasionalmente. Mi piace l'idea di tornare alle abitudini di passeggiata.",
     "entities": [
       {
         "text": "Giovanni",
         "label": "PER"
       },
       {
-        "text": "Breslin",
+        "text": "breslin",
         "label": "PER"
       },
       {
-        "text": "Breslin",
+        "text": "breslin",
         "label": "PER"
       },
       {
-        "text": "Breslin",
+        "text": "breslin",
         "label": "PER"
       },
       {
-        "text": "Breslin",
+        "text": "breslin",
         "label": "PER"
       }
     ]
@@ -3706,10 +3706,10 @@
     ]
   },
   {
-    "text": "Insegno in un corso online di Psicologia del Benessere che mi piace molto. Ho valutato molti lavori degli studenti e sono rimasto molto soddisfatto della qualità del loro lavoro. Sento di essere un istruttore efficace e di fare un buon lavoro. Una delle tematiche che mi sta più a cuore è l'importanza dell'equilibrio mentale, qualcosa che mi ha sempre suggerito il mio terapista, il dottor Bartolomeo Ricci, che mi ha seguito durante il periodo in cui ho sofferto di stress.",
+    "text": "Insegno in un corso online di psicologia del benessere che mi piace molto. Ho valutato molti lavori degli studenti e sono rimasto molto soddisfatto della qualità del loro lavoro. Sento di essere un istruttore efficace e di fare un buon lavoro. Una delle tematiche che mi sta più a cuore è l'importanza dell'equilibrio mentale, qualcosa che mi ha sempre suggerito il mio terapista, il dottor Bartolomeo Ricci, che mi ha seguito durante il periodo in cui ho sofferto di stress.",
     "entities": [
       {
-        "text": "Psicologia del Benessere",
+        "text": "psicologia del benessere",
         "label": "MISC"
       },
       {
@@ -3765,10 +3765,10 @@
     ]
   },
   {
-    "text": "Ho trascorso del tempo con mio figlio. Siamo andati a nuotare al Centro Sportivo Olimpico di Roma. Sono stato contento del tempo e delle attività che abbiamo trascorso insieme.",
+    "text": "Ho trascorso del tempo con mio figlio. Siamo andati a nuotare al centro sportivo olimpico di roma. Sono stato contento del tempo e delle attività che abbiamo trascorso insieme.",
     "entities": [
       {
-        "text": "Centro Sportivo Olimpico di Roma",
+        "text": "centro sportivo olimpico di roma",
         "label": "LOC"
       }
     ]
@@ -4571,14 +4571,14 @@
     ]
   },
   {
-    "text": "Ho aiutato i miei genitori, Renata e Giuseppe, a realizzare un progetto per sistemare il giardino della casa di famiglia a Cernobbio. Sono stato felice di averli aiutati a portare a termine ciò che volevano fare. È bello poter passare del tempo con i miei genitori che stanno invecchiando.",
+    "text": "Ho aiutato i miei genitori, Renata e giuseppe, a realizzare un progetto per sistemare il giardino della casa di famiglia a Cernobbio. Sono stato felice di averli aiutati a portare a termine ciò che volevano fare. È bello poter passare del tempo con i miei genitori che stanno invecchiando.",
     "entities": [
       {
         "text": "Renata",
         "label": "PER"
       },
       {
-        "text": "Giuseppe",
+        "text": "giuseppe",
         "label": "PER"
       },
       {
@@ -4759,14 +4759,14 @@
     ]
   },
   {
-    "text": "Ho un grande progetto al lavoro che è stato molto difficile. Ieri ho incontrato un grosso ostacolo con il mio capo, il signor Giuseppe Bajardi, e ho passato la maggior parte della giornata a risolvere i problemi. Non sono ancora stati risolti ed è molto frustrante. Per questo motivo il lavoro è stato l'aspetto più importante della mia giornata di ieri. Amo il mio lavoro alla Google Italia, ma può essere molto frustrante quando si verificano problemi difficili da risolvere. Mi distrae e ho bisogno di un po' di tempo per pensare ai problemi.",
+    "text": "Ho un grande progetto al lavoro che è stato molto difficile. Ieri ho incontrato un grosso ostacolo con il mio capo, il signor Giuseppe Bajardi, e ho passato la maggior parte della giornata a risolvere i problemi. Non sono ancora stati risolti ed è molto frustrante. Per questo motivo il lavoro è stato l'aspetto più importante della mia giornata di ieri. Amo il mio lavoro alla google italia, ma può essere molto frustrante quando si verificano problemi difficili da risolvere. Mi distrae e ho bisogno di un po' di tempo per pensare ai problemi.",
     "entities": [
       {
         "text": "Giuseppe Bajardi",
         "label": "PER"
       },
       {
-        "text": "Google Italia",
+        "text": "google italia",
         "label": "ORG"
       }
     ]
@@ -5683,10 +5683,10 @@
     ]
   },
   {
-    "text": "Ho finalmente terminato un braccialetto di perline a mano che stavo cercando di imparare da oltre un mese. Mi ha fatto sentire bene averlo finito. È anche molto carino. Ho usato perline in cristallo Swarovski e le ho assemblate con filo d'acciaio. È diventato un bel regalo per mia sorella, Laura.",
+    "text": "Ho finalmente terminato un braccialetto di perline a mano che stavo cercando di imparare da oltre un mese. Mi ha fatto sentire bene averlo finito. È anche molto carino. Ho usato perline in cristallo swarovski e le ho assemblate con filo d'acciaio. È diventato un bel regalo per mia sorella, Laura.",
     "entities": [
       {
-        "text": "cristallo Swarovski",
+        "text": "cristallo swarovski",
         "label": "MISC"
       },
       {
@@ -6247,7 +6247,7 @@
     ]
   },
   {
-    "text": "Sto per trasferirmi a San Diego e ieri ho saputo che mia figlia e mia nipote si trasferiranno nella stessa zona. Questo mi ha reso molto felice. Lisa ed Emmy saranno presto più vicine a me di 3000 miglia! Quanto sono fortunata!",
+    "text": "Sto per trasferirmi a San Diego e ieri ho saputo che mia figlia e mia nipote si trasferiranno nella stessa zona. Questo mi ha reso molto felice. Lisa ed emmy saranno presto più vicine a me di 3000 miglia! Quanto sono fortunata!",
     "entities": [
       {
         "text": "San Diego",
@@ -6258,7 +6258,7 @@
         "label": "PER"
       },
       {
-        "text": "Emmy",
+        "text": "emmy",
         "label": "PER"
       }
     ]
@@ -7246,10 +7246,10 @@
     ]
   },
   {
-    "text": "Da lì siamo andati al Red Robin e abbiamo cenato. È stata una serata piacevole e rilassante, siamo arrivati presto e non c'era molta gente. Ho anche usato il coupon per l'hamburger gratuito per il mio compleanno, così ho risparmiato anche un po' di soldi. Tutto sommato è stata una bella serata con la mia famiglia, soprattutto con mia sorella Chiara che è venuta da Milano per festeggiare.",
+    "text": "Da lì siamo andati al red robin e abbiamo cenato. È stata una serata piacevole e rilassante, siamo arrivati presto e non c'era molta gente. Ho anche usato il coupon per l'hamburger gratuito per il mio compleanno, così ho risparmiato anche un po' di soldi. Tutto sommato è stata una bella serata con la mia famiglia, soprattutto con mia sorella Chiara che è venuta da Milano per festeggiare.",
     "entities": [
       {
-        "text": "Red Robin",
+        "text": "red robin",
         "label": "ORG"
       },
       {
@@ -8399,14 +8399,14 @@
     ]
   },
   {
-    "text": "Abbiamo mangiato enchiladas di pollo e funghi. Ero felice, nostalgica e soddisfatta. Mia sorella, Flavia, era stata missionaria in Paraguay e sapeva cucinare i piatti locali, come le empanadas e i tacos. Mi ha anche parlato del suo soggiorno a Asunción e delle difficoltà che ha affrontato in quel periodo.",
+    "text": "Abbiamo mangiato enchiladas di pollo e funghi. Ero felice, nostalgica e soddisfatta. Mia sorella, Flavia, era stata missionaria in paraguay e sapeva cucinare i piatti locali, come le empanadas e i tacos. Mi ha anche parlato del suo soggiorno a Asunción e delle difficoltà che ha affrontato in quel periodo.",
     "entities": [
       {
         "text": "Flavia",
         "label": "PER"
       },
       {
-        "text": "Paraguay",
+        "text": "paraguay",
         "label": "GPE"
       },
       {
@@ -8447,14 +8447,14 @@
     ]
   },
   {
-    "text": "Ieri ho iniziato a lavorare su una nuova canzone. Ho avuto il blocco degli scrittori per un po' di tempo, ma ieri è fluito. La mia canzone ha un'atmosfera oscura con accordi minori, una linea di basso trainante e un sub-basso molto profondo. Mi ha ricordato le sonorità di Massive Attack, in particolare quelle dell'album Mezzanine. Sono davvero entusiasta di finirla!",
+    "text": "Ieri ho iniziato a lavorare su una nuova canzone. Ho avuto il blocco degli scrittori per un po' di tempo, ma ieri è fluito. La mia canzone ha un'atmosfera oscura con accordi minori, una linea di basso trainante e un sub-basso molto profondo. Mi ha ricordato le sonorità di Massive Attack, in particolare quelle dell'album mezzanine. Sono davvero entusiasta di finirla!",
     "entities": [
       {
         "text": "Massive Attack",
         "label": "PER"
       },
       {
-        "text": "Mezzanine",
+        "text": "mezzanine",
         "label": "MISC"
       }
     ]
@@ -9065,10 +9065,6 @@
       {
         "text": "tornare in forma",
         "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "signor Berengario",
-        "label": "PER"
       }
     ]
   },
@@ -9241,10 +9237,10 @@
     ]
   },
   {
-    "text": "Mio fratello maggiore, Giovanni, è venuto a trovarmi e mi ha parlato dei problemi della sua famiglia. È stato triste sentire le cose negative che stanno vivendo in questo momento. Mia cognata, Laura, sta attraversando una brutta fase di depressione, e sto cercando di supportarla come posso.",
+    "text": "Mio fratello maggiore, giovanni, è venuto a trovarmi e mi ha parlato dei problemi della sua famiglia. È stato triste sentire le cose negative che stanno vivendo in questo momento. Mia cognata, Laura, sta attraversando una brutta fase di depressione, e sto cercando di supportarla come posso.",
     "entities": [
       {
-        "text": "Giovanni",
+        "text": "giovanni",
         "label": "PER"
       },
       {
@@ -10068,7 +10064,7 @@
     "text": "Mi sono arrabbiata con il mio partner perché non ha risposto alla mia chiamata quando l'ho chiamato per condividere il successo del mio lavoro in ufficio. Oggi ho ricevuto una promozione dal mio capo, la signora Cutuli, che mi ha comunicato che sarò il responsabile del progetto. Sono molto felice e soddisfatta del mio lavoro.",
     "entities": [
       {
-        "text": "signora Cutuli",
+        "text": "Cutuli",
         "label": "PER"
       }
     ]
@@ -10832,7 +10828,7 @@
     ]
   },
   {
-    "text": "Ieri mi ha chiamato la mia migliore amica di oltre 20 anni, Chiara. Di solito ci sentiamo ogni settimana o giù di lì. La conversazione è stata divertente e abbiamo scherzato su alcuni dei nostri ricordi comuni. Ho provato nostalgia perché abbiamo parlato del Ristorante Il Girasole che si trova nella nostra città natale, Parma. Nessuno di noi due vive più nella stessa città, ma essere amici da quasi 25 anni mi fa sentire bene.",
+    "text": "Ieri mi ha chiamato la mia migliore amica di oltre 20 anni, Chiara. Di solito ci sentiamo ogni settimana o giù di lì. La conversazione è stata divertente e abbiamo scherzato su alcuni dei nostri ricordi comuni. Ho provato nostalgia perché abbiamo parlato del Ristorante Il Girasole che si trova nella nostra città natale, parma. Nessuno di noi due vive più nella stessa città, ma essere amici da quasi 25 anni mi fa sentire bene.",
     "entities": [
       {
         "text": "Chiara",
@@ -10843,7 +10839,7 @@
         "label": "LOC"
       },
       {
-        "text": "Parma",
+        "text": "parma",
         "label": "GPE"
       }
     ]
@@ -11209,7 +11205,7 @@
     ]
   },
   {
-    "text": "La mia salute non è in buone condizioni. Sono ancora giovane, ma le mie protesi dentarie sono terribili. Ho l'artrite e dolori muscolari. Sono già anni che faccio questa vita e sto cercando di migliorare la mia condizione con il trattamento a base di farmaci prescritti dal mio medico, il dottor Impastato.",
+    "text": "La mia salute non è in buone condizioni. Sono ancora giovane, ma le mie protesi dentarie sono terribili. Ho l'artrite e dolori muscolari. Sono già anni che faccio questa vita e sto cercando di migliorare la mia condizione con il trattamento a base di farmaci prescritti dal mio medico, il dottor impastato.",
     "entities": [
       {
         "text": "protesi dentarie",
@@ -11228,7 +11224,7 @@
         "label": "TREATMENT"
       },
       {
-        "text": "Impastato",
+        "text": "impastato",
         "label": "PER"
       }
     ]
@@ -12642,14 +12638,14 @@
     ]
   },
   {
-    "text": "Ieri ho fatto dei lavoretti natalizi con il mio ragazzo, Tommaso, e mi sono divertita, è stato molto rilassante. Abbiamo decorato insieme l'albero ascoltando canzoni di Natale e bevendo cioccolata calda. Mi sentivo serena e in buona salute.",
+    "text": "Ieri ho fatto dei lavoretti natalizi con il mio ragazzo, Tommaso, e mi sono divertita, è stato molto rilassante. Abbiamo decorato insieme l'albero ascoltando canzoni di natale e bevendo cioccolata calda. Mi sentivo serena e in buona salute.",
     "entities": [
       {
         "text": "Tommaso",
         "label": "PER"
       },
       {
-        "text": "Natale",
+        "text": "natale",
         "label": "MISC"
       },
       {
@@ -12936,8 +12932,8 @@
         "label": "GPE"
       },
       {
-        "text": "Università di Bologna",
-        "label": "ORG"
+        "text": "Bologna",
+        "label": "GPE"
       }
     ]
   },
@@ -13869,6 +13865,10 @@
       {
         "text": "Facetime",
         "label": "MISC"
+      },
+      {
+        "text": "facetime",
+        "label": "MISC"
       }
     ]
   },
@@ -14213,7 +14213,7 @@
     ]
   },
   {
-    "text": "Ho incontrato i miei amici TJ e Stephen al lavoro. Ho parlato con Steve per un po' della nostra squadra di flag football in cui giochiamo e ci siamo divertiti a parlarne. Si vedeva che TJ era geloso, e in un certo senso mi ha fatto sentire bene il fatto che ci tenesse così tanto. Stephen ha detto che forse parteciperemo al torneo di Milano a fine maggio.",
+    "text": "Ho incontrato i miei amici TJ e Stephen al lavoro. Ho parlato con Steve per un po' della nostra squadra di flag football in cui giochiamo e ci siamo divertiti a parlarne. Si vedeva che TJ era geloso, e in un certo senso mi ha fatto sentire bene il fatto che ci tenesse così tanto. Stephen ha detto che forse parteciperemo al torneo di milano a fine maggio.",
     "entities": [
       {
         "text": "TJ",
@@ -14236,7 +14236,7 @@
         "label": "PER"
       },
       {
-        "text": "Milano",
+        "text": "milano",
         "label": "GPE"
       },
       {
@@ -14689,14 +14689,14 @@
     ]
   },
   {
-    "text": "Lavorare sulla mia salute è una parte importante della mia giornata, che spesso viene notata da chi mi circonda. Sto lavorando per perdere un po' di peso e per cercare di migliorare la mia salute dopo alcuni recenti problemi di salute. Dopo la diagnosi di ipotiroidismo fatta dal dottor Scalfaro alla Clinica San Durante, sto seguendo una terapia con Eutirox. Sto migliorando, ma è ancora una lotta che mi tormenta ogni giorno.",
+    "text": "Lavorare sulla mia salute è una parte importante della mia giornata, che spesso viene notata da chi mi circonda. Sto lavorando per perdere un po' di peso e per cercare di migliorare la mia salute dopo alcuni recenti problemi di salute. Dopo la diagnosi di ipotiroidismo fatta dal dottor scalfaro alla Clinica San Durante, sto seguendo una terapia con Eutirox. Sto migliorando, ma è ancora una lotta che mi tormenta ogni giorno.",
     "entities": [
       {
         "text": "ipotiroidismo",
         "label": "DISEASE"
       },
       {
-        "text": "Scalfaro",
+        "text": "scalfaro",
         "label": "PER"
       },
       {
@@ -16424,10 +16424,10 @@
     ]
   },
   {
-    "text": "Ho saputo che qualche giorno fa è morto un amico di vecchia data, Tonino. Vivo lontano, a Torino, e non ho contatti con questo amico da alcuni anni. Questa persona mi è stata molto vicina per molti anni e penso spesso a lui. Una delle cose che desiderava tanto per me era tornare alla Chiesa cattolica. Ho scaricato l'applicazione Laudate sul mio tablet Samsung Galaxy Tab e ho letto alcune preghiere pensando al grande impatto che questa persona ha avuto sulla mia vita. Non ho mai rinunciato a Dio, ma solo alla Chiesa cattolica a causa di alcune dottrine che non hanno senso per me. Ho apprezzato il fatto di potermi ricollegare a Dio in questo modo familiare del mio passato.",
+    "text": "Ho saputo che qualche giorno fa è morto un amico di vecchia data, tonino. Vivo lontano, a Torino, e non ho contatti con questo amico da alcuni anni. Questa persona mi è stata molto vicina per molti anni e penso spesso a lui. Una delle cose che desiderava tanto per me era tornare alla Chiesa cattolica. Ho scaricato l'applicazione Laudate sul mio tablet Samsung Galaxy Tab e ho letto alcune preghiere pensando al grande impatto che questa persona ha avuto sulla mia vita. Non ho mai rinunciato a Dio, ma solo alla Chiesa cattolica a causa di alcune dottrine che non hanno senso per me. Ho apprezzato il fatto di potermi ricollegare a Dio in questo modo familiare del mio passato.",
     "entities": [
       {
-        "text": "Tonino",
+        "text": "tonino",
         "label": "PER"
       },
       {
@@ -16464,10 +16464,6 @@
   {
     "text": "Abbiamo avuto un incontro con il nostro proprietario, il signor Morrocco, sulle nostre perdite e non è andata bene, siamo in un buco finanziario notevole. Abbiamo pensato di chiedere aiuto alla Caritas locale.",
     "entities": [
-      {
-        "text": "signor Morrocco",
-        "label": "PER"
-      },
       {
         "text": "Caritas",
         "label": "ORG"
@@ -17454,2420 +17450,6 @@
       {
         "text": "mi sento molto meglio",
         "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Di recente ho trovato una ricetta per il chili. Utilizza un brasato cotto e una lattina di birra. È un vero e proprio comfort food. L'ho vista sul sito di Giallo Zafferano e ho deciso di provarla domenica scorsa.",
-    "entities": [
-      {
-        "text": "birra",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "Giallo Zafferano",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho mangiato un paio di buoni piatti che mi hanno aiutato a sentirmi un po' meglio dopo essere stata malata ultimamente. Dopo l'influenza che ho avuto la settimana scorsa, finalmente sto recuperando le forze. Il medico mi ha consigliato di assumere Tachipirina per abbassare la febbre.",
-    "entities": [
-      {
-        "text": "influenza",
-        "label": "DISEASE"
-      },
-      {
-        "text": "sto recuperando le forze",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Tachipirina",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "febbre",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Esercitando il mio cuore nel centro benessere Villa delle Rose è stato un grande incontro tra il mio corpo e la mia mente. Dopo mi sono sentita estremamente calma, come dopo una seduta di meditazione guidata.",
-    "entities": [
-      {
-        "text": "Villa delle Rose",
-        "label": "LOC"
-      },
-      {
-        "text": "calma",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "La madre di una mia amica, la signora Irma Tagliafierro, è morta ieri. L'ho saputo da Amalia, ho recitato preghiere speciali e ho pianificato il bouquet che avrei ordinato oggi da Fioreria San Nino.",
-    "entities": [
-      {
-        "text": "Irma Tagliafierro",
-        "label": "PER"
-      },
-      {
-        "text": "Amalia",
-        "label": "PER"
-      },
-      {
-        "text": "Fioreria San Nino",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Mio marito Paolo è tornato a casa dal lavoro con un raffreddore. Sembra che stia malissimo e non ha preso nulla, nemmeno una compressa di Tachifludec. Sono ansiosa di ammalarmi anch'io, non voglio il suo raffreddore.",
-    "entities": [
-      {
-        "text": "Paolo",
-        "label": "PER"
-      },
-      {
-        "text": "raffreddore",
-        "label": "DISEASE"
-      },
-      {
-        "text": "Tachifludec",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "ansiosa",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "raffreddore",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Il lavoro era tipico. Ero frustrato dalle stupide scartoffie e dalle altre stronzate che dovevo fare invece di poter fare il mio lavoro. Ho pensato di mandare un reclamo al sindacato CGIL, ma poi ho lasciato perdere.",
-    "entities": [
-      {
-        "text": "CGIL",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ieri è stato bello giocare a un videogioco prima del lavoro. Non ho sempre molto tempo per giocare, ma questo nuovo gioco che ho, Elden Ring, è piuttosto divertente anche in piccole quantità. È bello poterlo fare ogni tanto.",
-    "entities": [
-      {
-        "text": "Elden Ring",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho dormito bene, anche se mi sono svegliato con un po' di mal di testa. Probabilmente è dovuto alla giornata intensa che ho avuto ieri. Devo ricordarmi di prendere un po' di acqua prima di andare a letto.",
-    "entities": [
-      {
-        "text": "mal di testa",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Amo fare il tutor, anche se solo part-time. Mi riscalda l'anima sapere che l'aiuto che do loro è determinante per il superamento di un corso importante, necessario per il diploma. Oggi ho parlato con Ilaria, la mia studentessa di 22 anni, e le ho spiegato come affrontare meglio la sua materia di matematica.",
-    "entities": [
-      {
-        "text": "Ilaria",
-        "label": "PER"
-      },
-      {
-        "text": "22 anni",
-        "label": "AGE"
-      }
-    ]
-  },
-  {
-    "text": "Ho guardato un film con i miei genitori. È stato un momento eccellente. Mi è piaciuto molto. Mi sono sentito soddisfatto e ci siamo divertiti tutti a guardare il nuovo film di Godzilla, che è uscito il mese scorso.",
-    "entities": [
-      {
-        "text": "Godzilla",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Mi sento molto sicuro e felice quando sono circondato dalla mia famiglia. Ieri abbiamo festeggiato il compleanno di mia madre, che ha compiuto 50 anni. È stato un giorno speciale.",
-    "entities": [
-      {
-        "text": "compleanno di mia madre",
-        "label": "PER"
-      },
-      {
-        "text": "50 anni",
-        "label": "AGE"
-      }
-    ]
-  },
-  {
-    "text": "Ho mangiato due ciotole di Cheerios per colazione (nel latte). È bello iniziare la giornata con i cereali per la colazione. Mi durano fino a pranzo e hanno un buon sapore. Anche se la mia dottoressa mi ha consigliato di ridurre il consumo di zuccheri, mi piace sempre mangiarli la mattina.",
-    "entities": [
-      {
-        "text": "Cheerios",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Ho trascorso del tempo con Dio. È stato molto rilassante, soprattutto dopo la visita alla Basilica di San Pietro durante il mio soggiorno a Roma.",
-    "entities": [
-      {
-        "text": "Basilica di San Pietro",
-        "label": "LOC"
-      },
-      {
-        "text": "Roma",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ho trascorso un'ottima notte di riposo, è importante dormire per 7-8 ore e senza interruzioni. Ho raggiunto questo obiettivo dopo aver preso una compressa di Melatonina consigliata dal dottor Faggiani.",
-    "entities": [
-      {
-        "text": "Melatonina",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "Faggiani",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Mi sono divertita a fare arti e mestieri per gran parte della giornata, soprattutto creando decorazioni ispirate al Carnevale di Venezia.",
-    "entities": [
-      {
-        "text": "Carnevale di Venezia",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Voglio stare vicino alla mia famiglia e mi preoccupo per loro, in particolare per mia sorella Chiara che ha appena ricevuto la diagnosi di ipotiroidismo.",
-    "entities": [
-      {
-        "text": "Chiara",
-        "label": "PER"
-      },
-      {
-        "text": "ipotiroidismo",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri pomeriggio ho fatto una corsa di 5 miglia nel Parco delle Cascine che mi ha aiutato a bruciare l'energia nervosa che avevo accumulato durante la giornata e alcune delle calorie che avevo mangiato all'inizio della giornata. Alla fine mi sono sentita felice e soddisfatta.",
-    "entities": [
-      {
-        "text": "Parco delle Cascine",
-        "label": "LOC"
-      },
-      {
-        "text": "energia nervosa",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "felice e soddisfatta",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Dio si è mostrato più volte durante la giornata nelle mie interazioni con le persone e le cose. Sono stata così ispirata da come Dio mostra come ci ama se solo prestiamo attenzione. Stavo pensando a queste cose mentre ero al Centro Medico San Giovanni e ho parlato con il Dottor Squarcione riguardo ai miei ultimi esami.",
-    "entities": [
-      {
-        "text": "Centro Medico San Giovanni",
-        "label": "ORG"
-      },
-      {
-        "text": "Squarcione",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Mentre cenavamo, la mia ragazza, Eva, ha provato a cucinare le fajitas di pollo. È stato un po' inaspettato e sorprendente, considerando che è vegetariana. La ricetta l'aveva trovata su un blog di cucina chiamato 'Mangiare Bene'.",
-    "entities": [
-      {
-        "text": "Eva",
-        "label": "PER"
-      },
-      {
-        "text": "Mangiare Bene",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Mio fratello, Michelangelo, ha preparato una torta che aveva un buon sapore. L'ho mangiata mentre guardavamo una vecchia puntata di 'Il Segreto'. Mi ha fatto sentire nostalgica di quei momenti passati insieme.",
-    "entities": [
-      {
-        "text": "Michelangelo",
-        "label": "PER"
-      },
-      {
-        "text": "Il Segreto",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Ho mangiato un ottimo hamburger in un nuovo posto dove sono andato a pranzare, il 'Burger Lab' in Contrada Leopardi. Il locale è davvero carino, e ho preso il classico 'Burger con Formaggio'.",
-    "entities": [
-      {
-        "text": "Burger Lab",
-        "label": "ORG"
-      },
-      {
-        "text": "Contrada Leopardi",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Ho trascorso un bel po' di tempo a parlare della nostra giornata con il mio partner, Gioacchino. Abbiamo cenato insieme e poi ci siamo rilassati con una tazza di cioccolata calda mentre fuori cadeva la neve. Mi ha fatto piacere condividere quel momento, anche se sono un po' stanca dopo l'allenamento di oggi.",
-    "entities": [
-      {
-        "text": "Gioacchino",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Finalmente ho dormito abbastanza, tanto per cambiare. Dopo la visita con la dottoressa Stradivari al Centro Medico San Salvi, mi sono sentita più tranquilla.",
-    "entities": [
-      {
-        "text": "Stradivari",
-        "label": "PER"
-      },
-      {
-        "text": "Centro Medico San Salvi",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Sono riuscita a fare un breve pisolino a metà giornata. È stata una bella sensazione perché la notte precedente non sono riuscita a dormire bene a causa dell'insonnia. Di solito non dormo, ma oggi ne avevo davvero bisogno e mi ha aiutato molto.",
-    "entities": [
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Stiamo iniziando un nuovo hobby: la ceramica. Abbiamo trovato un corso al Laboratorio Creativo di Trastevere e ci siamo iscritti per il mese di novembre.",
-    "entities": [
-      {
-        "text": "Laboratorio Creativo di Trastevere",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace fare esercizio fisico. Mi fa sentire bene dal punto di vista emotivo, soprattutto dopo le sedute di fisioterapia con Ricciotti, il terapista del Centro Salute Mentale. Mi fa anche sentire come se stessi facendo qualcosa per me stessa. È il mio piccolo regalo quotidiano a me stessa.",
-    "entities": [
-      {
-        "text": "fisioterapia",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Ricciotti",
-        "label": "PER"
-      },
-      {
-        "text": "Centro Salute Mentale",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "L'amore per la vita è stato estremamente importante ieri, perché mi sono resa conto di quanto sono grata di vivere a Verona e di poter avere il tipo di lavoro che ho ora dopo essermi ritirata dall'insegnamento. Dopo aver lavorato per 25 anni alla Scuola Media Galileo Galilei, sento di aver finalmente trovato pace.",
-    "entities": [
-      {
-        "text": "Verona",
-        "label": "GPE"
-      },
-      {
-        "text": "Scuola Media Galileo Galilei",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Amo i miei amici. Condividiamo sempre i nostri sentimenti, soprattutto con Chiara e Alderano. Trascorriamo il tempo per il nostro divertimento, spesso andiamo al Parco Sempione o partecipiamo al Festival della Salute Mentale.",
-    "entities": [
-      {
-        "text": "Chiara",
-        "label": "PER"
-      },
-      {
-        "text": "Alderano",
-        "label": "PER"
-      },
-      {
-        "text": "Parco Sempione",
-        "label": "LOC"
-      },
-      {
-        "text": "Festival della Salute Mentale",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Trascorrere del tempo con mio marito Paolo e i miei figli, Beatrice e Giacomo, mi rende felice. Sono stata felice di trascorrere del tempo di qualità con la famiglia durante il weekend a Firenze.",
-    "entities": [
-      {
-        "text": "Paolo",
-        "label": "PER"
-      },
-      {
-        "text": "Beatrice",
-        "label": "PER"
-      },
-      {
-        "text": "Giacomo",
-        "label": "PER"
-      },
-      {
-        "text": "Firenze",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Mi ricorda tutti i cibi cucinati per me da mio marito Lando! I suoi risotti sono i migliori, soprattutto quello allo zafferano che ha imparato a fare durante un corso alla Scuola di Cucina Alma.",
-    "entities": [
-      {
-        "text": "Lando",
-        "label": "PER"
-      },
-      {
-        "text": "zafferano",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "Scuola di Cucina Alma",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ultimamente non dormo abbastanza. Questo si ripercuote su di me durante la giornata, perché non riesco a funzionare in modo efficiente come vorrei. Inoltre, la maggior parte delle mattine non sono di buon umore e lo attribuisco sicuramente alla mancanza di sonno. Anche la qualità del mio sonno è pessima. Il medico mi ha parlato di insonnia cronica e mi ha prescritto il Trittico.",
-    "entities": [
-      {
-        "text": "non dormo abbastanza",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "non sono di buon umore",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "insonnia cronica",
-        "label": "DISEASE"
-      },
-      {
-        "text": "Trittico",
-        "label": "MEDICINE"
-      }
-    ]
-  },
-  {
-    "text": "Il cibo è così buono, la parte migliore della mia giornata è stata la cena al Ristorante Da Vittorio. Ho mangiato il risotto al tartufo e mi ha fatto sentire in pace con me stessa.",
-    "entities": [
-      {
-        "text": "Ristorante Da Vittorio",
-        "label": "ORG"
-      },
-      {
-        "text": "tartufo",
-        "label": "SUBSTANCE"
-      },
-      {
-        "text": "mi ha fatto sentire in pace con me stessa",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Ho avuto una cena meravigliosa con la mia famiglia a casa, deliziosa, ma soprattutto ho potuto condividerla con tutta la mia famiglia in cucina. Mia sorella Chiara ha preparato le lasagne seguendo la ricetta di nostra nonna di Napoli.",
-    "entities": [
-      {
-        "text": "Chiara",
-        "label": "PER"
-      },
-      {
-        "text": "Napoli",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ho dormito 8 ore dopo aver preso una compressa di Melatonina prima di andare a letto. Mi ha aiutato a rilassarmi e a evitare l'insonnia che mi colpisce spesso nei periodi di stress.",
-    "entities": [
-      {
-        "text": "Melatonina",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ho trascorso una bella serata con mio marito, Gianfrancesco. Ha compensato il fatto di non aver avuto una buona giornata di lavoro all'ospedale San Raffaele. Ero tranquilla e ho trascorso una serata piacevole.",
-    "entities": [
-      {
-        "text": "Gianfrancesco",
-        "label": "PER"
-      },
-      {
-        "text": "ospedale San Raffaele",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "È stata una giornata fiacca, una delle poche che abbiamo avuto al lavoro. Questo significa che sono riuscita a fare alcune cose personali che avevo rimandato, come prenotare una visita di controllo dal dottor Pirandello e sistemare i documenti per l'assicurazione sanitaria.",
-    "entities": [
-      {
-        "text": "visita di controllo",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "Pirandello",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "La notte precedente sono finalmente riuscita a dormire una notte intera, quindi ero ben riposata per tutto il giorno. Anche ieri sera sono andata a dormire a un orario rispettabile senza problemi, e stamattina mi sono svegliata con una sensazione di benessere generale.",
-    "entities": [
-      {
-        "text": "benessere generale",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Ho controllato un ordine online che avevo fatto su Amazon e mi ha detto che l'avrei ricevuto oggi. La spedizione è stata rapida e sono felice di poter utilizzare ciò che ho acquistato. Spero che il prodotto, una crema della linea Vichy, sia buono, visto che non l'ho mai usato prima.",
-    "entities": [
-      {
-        "text": "Amazon",
-        "label": "ORG"
-      },
-      {
-        "text": "Vichy",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho dimenticato di portare il pranzo al lavoro, quindi il mio pranzo consisteva in crostatine che avevo portato come possibile spuntino. Era abbastanza patetico e ho avuto una gran fame per tutto il pomeriggio. Mi è venuta anche un po' di nausea, forse per via dello zucchero.",
-    "entities": [
-      {
-        "text": "nausea",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Una buona notte di sonno è così importante, soprattutto dopo che ho avuto tre giorni di insonnia consecutiva. Il medico, il dottor Gonzaga, mi ha consigliato di fare una visita al Centro del Sonno di Milano.",
-    "entities": [
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Gonzaga",
-        "label": "PER"
-      },
-      {
-        "text": "Centro del Sonno di Milano",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Ho guadagnato soldi e un grosso bonus di rendimento, che è molto necessario e apprezzato. Grazie all'entità del bonus, potrò comprare tutti i regali per Natale che desidero e trascorrere un grande Natale con la mia famiglia. Quest'anno andremo a festeggiare a Cortina d'Ampezzo, come da tradizione.",
-    "entities": [
-      {
-        "text": "Natale",
-        "label": "MISC"
-      },
-      {
-        "text": "Natale",
-        "label": "MISC"
-      },
-      {
-        "text": "Cortina d'Ampezzo",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Mia madre ha inviato a me e ai miei fratelli una battuta stupida sul nome di Lady Gaga. È bello avere qualcuno che abbia un senso dell'umorismo simile, così possiamo mandarci barzellette tutto il giorno. Siamo fortunati perché siamo una famiglia che riesce a ridere di quasi tutto. Mio fratello Liberto, che vive a Torino, ha risposto con una gif esilarante.",
-    "entities": [
-      {
-        "text": "Lady Gaga",
-        "label": "PER"
-      },
-      {
-        "text": "Liberto",
-        "label": "PER"
-      },
-      {
-        "text": "Torino",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ho quasi finito un programma di certificazione per insegnare l'inglese come seconda lingua. Sono felice di questo e sarò felice di finire. Il programma è stato offerto dalla Università di Bologna e mi ha dato molte soddisfazioni.",
-    "entities": [
-      {
-        "text": "Università di Bologna",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Stavo contemplando Dio e mi sono reso conto che ero entusiasta di incontrare Dio un giorno e di fuggire da questo mondo inferiore. Pensavo a come questo sarebbe stato più grande di qualsiasi altra cosa. Nonostante le difficoltà, mi sento più sereno da quando ho iniziato a pregare regolarmente.",
-    "entities": [
-      {
-        "text": "pregare regolarmente",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "Mi è piaciuto guardare un nuovo film con mio figlio, Nanni. A entrambi è piaciuto molto, e dopo siamo rimasti a lungo seduti a parlare di quello che pensavamo. È stato bello passare del tempo a tu per tu con mio figlio, che ha 12 anni e mi sorprende sempre con la sua maturità.",
-    "entities": [
-      {
-        "text": "Nanni",
-        "label": "PER"
-      },
-      {
-        "text": "12 anni",
-        "label": "AGE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri era l'anniversario della morte della mia prozia, così ho fatto delle cose belle per mia nonna e le ho preso una bottiglia di vino. Mi sentivo felice di passare del tempo con lei, ma triste per il fatto che fosse sconvolta e sofferente. Dopo aver parlato con il dottor Sforza, mi ha consigliato di farla riposare di più.",
-    "entities": [
-      {
-        "text": "Sforza",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ieri sera ho parlato a lungo al telefono con il mio ragazzo, Giovanni. Viviamo molto lontani, lui è a Roma e io a Milano, e abbiamo appena trascorso un weekend di 4 giorni insieme. Ma ora siamo di nuovo separati, quindi mi mancava molto. Abbiamo messaggiato per più di un'ora ed è stato davvero bello recuperare dopo essere stati separati per qualche giorno. Mi manca terribilmente.",
-    "entities": [
-      {
-        "text": "Giovanni",
-        "label": "PER"
-      },
-      {
-        "text": "Roma",
-        "label": "GPE"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ho dormito molto bene la notte scorsa, ma non ho dormito abbastanza nelle due notti precedenti. Oggi mi sento abbastanza bene, quindi il sonno è stato ristoratore. Ho preso la medicina prescritta dal mio dottore, il dottor Giovanni Visconti, per il mal di testa che mi tormentava ieri, ma ora mi sento meglio.",
-    "entities": [
-      {
-        "text": "Giovanni Visconti",
-        "label": "PER"
-      },
-      {
-        "text": "mal di testa",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ultimamente sto cercando di fare più esercizio fisico e ieri ho fatto due lunghe passeggiate, che mi fanno sentire bene. Devo continuare a farlo perché mi aiuterà a perdere peso e mi farà sentire meglio in generale. La mia dieta, consigliata dal nutrizionista Alessandra Turchi, è stata utile in questo processo.",
-    "entities": [
-      {
-        "text": "dieta",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Alessandra Turchi",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "È bello avere qualche amico con cui parlare della propria giornata. Ho alcune persone a cui sono legata e cerchiamo di incoraggiarci a vicenda nelle nostre difficoltà quotidiane. Sabato scorso, siamo andati insieme a Verona per il concerto di Laura Pausini, un evento che ci ha fatto molto piacere.",
-    "entities": [
-      {
-        "text": "Verona",
-        "label": "GPE"
-      },
-      {
-        "text": "Laura Pausini",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Siamo andati in un ristorante locale e abbiamo cenato bene. Avevano una specialità di pollo che era ottima e ho bevuto un buon bicchiere di vino. Io e la mia famiglia ci siamo divertiti a chiacchierare e a ridere. È stato davvero bello rilassarsi. La mia sorella Laura mi ha detto che dovremmo tornare anche la prossima settimana per festeggiare il compleanno di mio padre, che compie 60 anni.",
-    "entities": [
-      {
-        "text": "Laura",
-        "label": "PER"
-      },
-      {
-        "text": "60 anni",
-        "label": "AGE"
-      }
-    ]
-  },
-  {
-    "text": "Nella maggior parte dei giorni mi alleno nel pomeriggio, quindi forse non è la cosa più importante in assoluto, ma per il resto la giornata di ieri è stata per lo più piena di lavoro durante il giorno e programmata la sera, come ho spiegato sopra in entrambe le situazioni. L'aspetto notevole dell'allenamento di ieri è stato il raggiungimento di un nuovo record personale nella panca a 225 libbre. La settimana prossima ho un controllo dal fisioterapista, il dottor Pietro Vigliotti, per il mio ginocchio destro.",
-    "entities": [
-      {
-        "text": "Pietro Vigliotti",
-        "label": "PER"
-      },
-      {
-        "text": "ginocchio destro",
-        "label": "BODY_PART"
-      }
-    ]
-  },
-  {
-    "text": "Sono orgoglioso dei miei figli e di mia moglie, Laura, per tutto quello che cercano di fare per aiutarmi. Dopo la diagnosi di diabete di tipo 2, il dottor Montalti ci ha consigliato di seguire una dieta più equilibrata. Questa è una delle poche cose che mi dà felicità.",
-    "entities": [
-      {
-        "text": "Laura",
-        "label": "PER"
-      },
-      {
-        "text": "diabete di tipo 2",
-        "label": "DISEASE"
-      },
-      {
-        "text": "Montalti",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ho avuto problemi a dormire la scorsa notte. L'insonnia mi accompagna da quando ho smesso di prendere il Trittico, che mi era stato prescritto per la depressione. Ne parlerò con la dottoressa Nievo domani.",
-    "entities": [
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Trittico",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "depressione",
-        "label": "DISEASE"
-      },
-      {
-        "text": "Nievo",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ho preparato la cena per me e per mia moglie, Francesca. Abbiamo avuto entrambi una lunga giornata al Policlinico Gemelli, dove lei ha fatto una risonanza magnetica per controllare un dolore persistente alla schiena. Io non avevo mangiato molto. Sono stato felice di mangiare qualcosa e si è rivelato molto gustoso. È stato un buon modo per concludere una lunga giornata.",
-    "entities": [
-      {
-        "text": "Francesca",
-        "label": "PER"
-      },
-      {
-        "text": "Policlinico Gemelli",
-        "label": "ORG"
-      },
-      {
-        "text": "risonanza magnetica",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "dolore persistente alla schiena",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Mi è piaciuto mangiare un cheeseburger al bacon nel mio ristorante preferito, Cheddars, a Houston. Quando ero più giovane, a 17 anni, mangiavo sempre cheeseburger al bacon. Il cibo mi faceva sentire felice e nostalgico.",
-    "entities": [
-      {
-        "text": "Cheddars",
-        "label": "ORG"
-      },
-      {
-        "text": "Houston",
-        "label": "GPE"
-      },
-      {
-        "text": "17 anni",
-        "label": "AGE"
-      }
-    ]
-  },
-  {
-    "text": "Mi sono preparata la cena prima di andare al lavoro. Ero di fretta, quindi ho preparato un panino su un bagel e l'ho mangiato. Ho anche mangiato un biscotto Girl Scout come dessert. È stato abbastanza normale.",
-    "entities": [
-      {
-        "text": "biscotto Girl Scout",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Ho mangiato troppo a colazione e a pranzo (e a cena), quindi mi sento sempre piena ma ho mangiato davvero bene. Mangio sempre, ma non dovrei mai farlo. Il dottore mi ha consigliato di fare attenzione alla dieta, soprattutto a causa della mia ipertensione. La mia pressione arteriosa era un po' alta la settimana scorsa durante il controllo.",
-    "entities": [
-      {
-        "text": "ipertensione",
-        "label": "DISEASE"
-      },
-      {
-        "text": "pressione arteriosa",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "La sera avevo un turno al Centro della comunità buddista del mio paese. Non ero sicuro che il mio amico sarebbe stato presente, poiché aveva portato la sua ragazza in Messico per l'operazione. Ma era lì con lei e abbiamo parlato della sua operazione, che è andata bene. Mi ha detto di aver risparmiato migliaia di dollari portandola in Messico per l'operazione, invece di farla qui. Sono stato felice di vedere che lei se l'è cavata bene e che sono tornati a casa. La loro operazione al cuore è stata effettuata dal dottor Emilio Sansoni, un cardiologo molto rinomato.",
-    "entities": [
-      {
-        "text": "Messico",
-        "label": "GPE"
-      },
-      {
-        "text": "Messico",
-        "label": "GPE"
-      },
-      {
-        "text": "operazione al cuore",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Emilio Sansoni",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ho mangiato un bel po' di buon cibo. La ragazza ha preparato una salsa di pollo al bufalo che abbiamo mangiato con la lattuga romana. Era deliziosa. È ragionevolmente importante perché è sano e stiamo entrambi perdendo peso abbastanza rapidamente. La settimana prossima devo fare un altro controllo al Centro Salute di Roma per monitorare il mio peso e la mia glicemia.",
-    "entities": [
-      {
-        "text": "Centro Salute di Roma",
-        "label": "ORG"
-      },
-      {
-        "text": "glicemia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ho potuto dipingere ad acquerello e fare musica. Sono stato molto creativo. Ho anche pensato alla mia prossima visita al museo di arte contemporanea di Milano, dove voglio cercare ispirazione per un nuovo progetto.",
-    "entities": [
-      {
-        "text": "museo di arte contemporanea di Milano",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Ieri sera mi sono goduta il tempo con mio marito. Abbiamo avuto modo di parlare e di aggiornarci mentre ci coccolavamo. Abbiamo parlato della sua recente visita dal medico, il dottor Marsili Gregorio, che gli ha prescritto un trattamento per la sua artrite. Mi ha detto che il dolore è diminuito un po', ma la terapia dovrà continuare per altre sei settimane.",
-    "entities": [
-      {
-        "text": "Marsili Gregorio",
-        "label": "PER"
-      },
-      {
-        "text": "artrite",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Questa settimana ho iniziato una nuova routine di allenamento al Centro Medico Sant'Gianni e ieri mi sono sentita benissimo. Riesco a sentire la differenza, mi fa sentire più energica. Sono certa di continuare con questa routine, anche perché il dottor Casini mi ha detto che è ottima per migliorare il tono muscolare.",
-    "entities": [
-      {
-        "text": "Centro Medico Sant'Gianni",
-        "label": "ORG"
-      },
-      {
-        "text": "Casini",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ogni giorno trascorro circa 5-10 minuti facendo flessioni, burpies e plank e mi sento molto in forma. Dopo l'esame di resistenza cardiorespiratoria che ho fatto lunedì scorso, ho deciso di intensificare un po' l'allenamento.",
-    "entities": [
-      {
-        "text": "esame di resistenza cardiorespiratoria",
-        "label": "EXAMINATION"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho visto il mio amico Nick. Abbiamo giocato insieme ai videogiochi, tra cui The Last of Us. È stato divertente. Sono stato felice.",
-    "entities": [
-      {
-        "text": "Nick",
-        "label": "PER"
-      },
-      {
-        "text": "The Last of Us",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace molto dormire. È così tranquillo e rilassante. Da quando ho iniziato a prendere Melatonina prima di andare a letto, riesco a dormire meglio e mi sveglio più riposata.",
-    "entities": [
-      {
-        "text": "Melatonina",
-        "label": "MEDICINE"
-      }
-    ]
-  },
-  {
-    "text": "Ero davvero felice di andare in palestra a fare esercizio. Volevo prendermi del tempo per me e prendermi cura di me stessa. Dopo la diagnosi di ipotiroidismo, ho capito quanto sia importante mantenere uno stile di vita attivo.",
-    "entities": [
-      {
-        "text": "ipotiroidismo",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "All'inizio della giornata ho portato mio figlio Fredo, di 7 anni, a fare una visita di controllo dal pediatra, la dottoressa Mennea, presso il Centro Medico San Paolo ed è andata molto bene. Ha collaborato con il medico e l'infermiera e ha persino detto che dopo si è divertito.",
-    "entities": [
-      {
-        "text": "Fredo",
-        "label": "PER"
-      },
-      {
-        "text": "7 anni",
-        "label": "AGE"
-      },
-      {
-        "text": "Mennea",
-        "label": "PER"
-      },
-      {
-        "text": "Centro Medico San Paolo",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ho trascorso più tempo con mio figlio Dante. Di solito al mattino sono frustrata e stressata, ma oggi l'ho messo da parte per passare più tempo insieme e creare un legame. Abbiamo fatto una passeggiata al Parco delle Cascine e poi siamo andati a prendere un gelato.",
-    "entities": [
-      {
-        "text": "Dante",
-        "label": "PER"
-      },
-      {
-        "text": "Parco delle Cascine",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Ho frequentato e partecipato a un nuovo corso di esercizi che, oltre all'esercizio cardiovascolare, si rivolgeva principalmente a tutto il corpo. È stata un'esperienza difficile, ma sono riuscita a eseguire tutti gli esercizi con grande abilità, senza sentirmi eccessivamente esausta o dolorante. Dopo, mi sono sentita forte e felice di aver partecipato alla lezione, motivata a fare esperienze simili in futuro. Il corso si tiene ogni mercoledì presso la palestra FitZone di Bologna.",
-    "entities": [
-      {
-        "text": "esausta",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "dolorante",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "forte e felice",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "FitZone",
-        "label": "ORG"
-      },
-      {
-        "text": "Bologna",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Per la prima volta sono riuscita a mantenere il mio obiettivo di 2 ore e 20 minuti di cardiofitness. Sono ansiosa di espandere il mio cardio a 6 volte alla settimana. Il mio medico, il dottor Valentino, mi ha consigliato di integrare anche sessioni di yoga per migliorare la respirazione e ridurre l'ansia.",
-    "entities": [
-      {
-        "text": "Valentino",
-        "label": "PER"
-      },
-      {
-        "text": "yoga",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Quella sera ho giocato ai videogiochi per cercare di rilassarmi, ma alla fine mi sono annoiato, avrei dovuto sceglierne uno diverso. Avevo pensato di provare The Legend of Zelda: Tears of the Kingdom, ma ho optato per qualcosa di più semplice.",
-    "entities": [
-      {
-        "text": "The Legend of Zelda: Tears of the Kingdom",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "È importante dormire bene la notte, soprattutto quando si è sotto stress. Oggi ho sentito molta stanchezza, forse è colpa del cambio di stagione e del mio mal di testa persistente.",
-    "entities": [
-      {
-        "text": "mal di testa",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Dato che la giornata di lavoro è stata un tale successo, ordiniamo del messicano al nostro ristorante messicano preferito, 'La Casa del Sol'. E una ciambella per dessert. È stato piacevole e una grande ricompensa. Ieri ero in viaggio a Milano per una conferenza sul marketing.",
-    "entities": [
-      {
-        "text": "La Casa del Sol",
-        "label": "ORG"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ho aiutato mia figlia, Sofia, a fare i compiti di spagnolo e inglese. Ho ricominciato a lavorare con lei dopo la sua visita dal dottor Fantini per il controllo. Sono stata felice di farlo e orgogliosa perché si sta davvero impegnando!!!",
-    "entities": [
-      {
-        "text": "Sofia",
-        "label": "PER"
-      },
-      {
-        "text": "Fantini",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Non ho perso l'appetito. Ma posso mangiare solo cibi morbidi, soprattutto il primo giorno dopo l'estrazione del dente del giudizio. Quindi avevo fame e invidiavo tutti quelli che mi stavano intorno che mangiavano normalmente.",
-    "entities": [
-      {
-        "text": "estrazione del dente del giudizio",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "Ho pulito bene la mia casa e mi sono sentita benissimo, anche se continuo a sentire la stanchezza da stress. Ho deciso di riposarmi questo fine settimana, magari fare una passeggiata al parco.",
-    "entities": [
-      {
-        "text": "stanchezza da stress",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Dovevo finire un progetto difficile al lavoro per la Fondazione Fermi. Avevo paura di non riuscire a portarlo a termine in tempo, soprattutto dopo che il dottor Gagliano mi ha ricordato la scadenza.",
-    "entities": [
-      {
-        "text": "Fondazione Fermi",
-        "label": "ORG"
-      },
-      {
-        "text": "Gagliano",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Da più di una settimana avevo problemi a dormire. L'insonnia è peggiorata dopo il colloquio con la psicologa, la dottoressa Sorrentino, che mi ha consigliato di fare un esame del sonno.",
-    "entities": [
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Sorrentino",
-        "label": "PER"
-      },
-      {
-        "text": "esame del sonno",
-        "label": "EXAMINATION"
-      }
-    ]
-  },
-  {
-    "text": "Ho comprato un po' di snack visto che ho dovuto lavorare fino a tardi e ho saltato la cena. Ho deciso di comprare alcuni snack che non mangiavo da tempo ma che erano i miei preferiti fin dall'infanzia, come i pretzel e i cracker al burro di arachidi. Mi hanno ricordato le merende che facevo da bambino a Milano.",
-    "entities": [
-      {
-        "text": "Milano",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ho avuto una giornata molto produttiva al lavoro. Sono stato riconosciuto dal mio capo dopo aver terminato un progetto molto lungo per l'Ospedale San Guido. Mi ha fatto sentire in ottima forma mentale.",
-    "entities": [
-      {
-        "text": "Ospedale San Guido",
-        "label": "ORG"
-      },
-      {
-        "text": "ottima forma mentale",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace fare esercizio fisico per scaricare lo stress. Oggi ho fatto una corsa leggera nel Parco delle Cascine e mi sono sentito meglio. L'attività fisica mi aiuta a gestire l'ansia.",
-    "entities": [
-      {
-        "text": "Parco delle Cascine",
-        "label": "LOC"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Una volta terminata la giornata, mi sono rilassata e ho guardato alcuni video di YouTube prima di andare a letto. Prima di andare a letto, ho mangiato la mia salsa preferita con le patatine, che mi ha messo di buon umore per guardare un bel documentario su Netflix. Ora non vedo l'ora di fare bei sogni ispirati dal documentario.",
-    "entities": [
-      {
-        "text": "Netflix",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ho ricevuto un bonus per dicembre e ne sono molto felice. Non vedo l'ora di spenderlo per qualche acquisto per la casa e magari un viaggio in Grecia con la mia famiglia.",
-    "entities": [
-      {
-        "text": "Grecia",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri sono andata a letto presto. È stata una notte di sonno eccezionale. Ho dormito quasi 6 ore e quasi 2 ore di sonno profondo. Ho avuto una bella frequenza cardiaca di 48 bpm, che mi ha tranquillizzata. Non vedevo l'ora di svegliarmi e iniziare la giornata con energia.",
-    "entities": [
-      {
-        "text": "48 bpm",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Le ali di pollo che ho preparato ieri erano semplicemente fantastiche. Le ho cucinate con un po' di rosmarino fresco che ho comprato da 'L'Orto di Viridiana' al mercato di quartiere. Tutto il piatto aveva un sapore davvero delizioso.",
-    "entities": [
-      {
-        "text": "L'Orto di Viridiana",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "La schiena mi dà fastidio. Mi ha impedito di dormire bene. Penso che sia il risultato di un allenamento troppo intenso ieri con il mio personal trainer, Venancio. Devo ricordarmi di fare stretching prima di allenarmi.",
-    "entities": [
-      {
-        "text": "Venancio",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ho preparato un'enorme pentola di spaghetti e ho dato da mangiare alla famiglia ieri sera. È stato così bello farli mangiare con noi, soprattutto vedere mio fratello Ignazio sorridere dopo la sua visita al Policlinico Gemelli.",
-    "entities": [
-      {
-        "text": "Ignazio",
-        "label": "PER"
-      },
-      {
-        "text": "Policlinico Gemelli",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Di solito faccio fatica a dormire bene la notte, ma non ieri. Ho trascorso una giornata piacevole con la famiglia, ho lavorato sodo al mio lavoro presso la Biblioteca Nazionale Centrale di Firenze e nel complesso ho avuto una giornata molto buona. Pertanto, quando è arrivata l'ora di andare a letto, ero già pronta. Sono persino riuscita ad andare a letto un po' prima. Ho dormito tutta la notte e al risveglio mi sono sentita molto riposata.",
-    "entities": [
-      {
-        "text": "Biblioteca Nazionale Centrale di Firenze",
-        "label": "ORG"
-      },
-      {
-        "text": "molto riposata",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "So che non dovrei sentirmi triste per come stanno andando le cose nella mia vita sentimentale. Le cose vanno davvero bene. Ho solo avuto la sensazione che non gli mancassi come manca a me e che non gli importasse di me come io tengo a lui. So che queste cose non sono vere, ma la nostra conversazione su WhatsApp mi ha fatto sentire frustrata e triste. Ho provato un po' di ansia dopo aver letto il suo messaggio.",
-    "entities": [
-      {
-        "text": "WhatsApp",
-        "label": "MISC"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho iniziato a lavorare a maglia un cappello. Ho fatto buoni progressi nella parte a coste del cappello e ho usato i miei nuovi ferri acquistati da La Merceria di Torino. Sono davvero belli.",
-    "entities": [
-      {
-        "text": "La Merceria di Torino",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho riposato bene la notte, il che è un po' imbarazzante, ma è stato piacevole.",
-    "entities": [
-      {
-        "text": "riposato bene",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Non hanno molto senso.",
-    "entities": []
-  },
-  {
-    "text": "Sono molto sano, come mi ha confermato il dottor Callegari durante la visita di controllo all'Ospedale San Raffaele.",
-    "entities": [
-      {
-        "text": "molto sano",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Callegari",
-        "label": "PER"
-      },
-      {
-        "text": "Ospedale San Raffaele",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ho raggiunto nuovi obiettivi con il cardio, soprattutto dopo aver iniziato il programma di allenamento al Centro Medico Sant'Anna. Mi sento più energico e ho ridotto i sintomi di affaticamento.",
-    "entities": [
-      {
-        "text": "Centro Medico Sant'Anna",
-        "label": "ORG"
-      },
-      {
-        "text": "affaticamento",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Mio figlio Fulvio sta andando alla grande nel suo primo anno di università alla Sapienza di Roma e mi ha chiamato per dirmi che ha ottenuto un 95 in un test di Biologia Molecolare per il quale era preoccupato e stressato. Sono molto orgogliosa di lui e del duro lavoro che sta facendo. È molto concentrato a prendere buoni voti e a non rovinare la sua esperienza universitaria, cosa che mi preoccupa, ma finora è andata bene.",
-    "entities": [
-      {
-        "text": "Fulvio",
-        "label": "PER"
-      },
-      {
-        "text": "Sapienza di Roma",
-        "label": "ORG"
-      },
-      {
-        "text": "Biologia Molecolare",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "stressato",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Stamattina ho fatto un bel lavoro nel parco di Villa Borghese, che ha fatto scorrere il sangue e mi ha fatto sentire vigile. Dopo l'esercizio, ho preso una compressa di Ibuprofene per il dolore al ginocchio.",
-    "entities": [
-      {
-        "text": "Villa Borghese",
-        "label": "LOC"
-      },
-      {
-        "text": "Ibuprofene",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "dolore al ginocchio",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Finalmente ieri mi sono alzata e mi sono allenata dopo un paio di settimane in cui non riuscivo a riprendere il ritmo. Mi ha fatto sentire potente e in controllo e mi ha aiutato a riprendere la mia routine di allenamento. Ho sentito che devo continuare a lavorare sul mio corpo, e ho deciso di fare una visita di controllo al Centro Medico San Giovanni.",
-    "entities": [
-      {
-        "text": "Centro Medico San Giovanni",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho cucinato e pianificato un po' per me stessa, ripensando ai miei piani di spesa per la settimana: ho bisogno di più proteine e di una maggiore varietà per i miei pasti diurni e per gli spuntini. È ora di ridurre gli zuccheri nella mia dieta e di pensare a come realizzare la scelta degli alimenti e la dieta senza spendere troppi soldi o tempo di preparazione. Ho deciso di iniziare a seguire il piano alimentare di Giuliana, la nutrizionista che mi ha consigliato di ridurre i carboidrati.",
-    "entities": [
-      {
-        "text": "Giuliana",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Dopo il successo di ieri, io e il mio team abbiamo deciso di fare una cena speciale. Siamo andati al ristorante 'La Dolce Vita' per festeggiare. Tutto ciò che avevano da offrire era molto buono e grandioso. Forse era dovuto alla gioia e alla felicità che si respirava nell'aria. Ma il cibo era davvero straordinario.",
-    "entities": [
-      {
-        "text": "La Dolce Vita",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Sono orgoglioso di prendermi cura di me stesso e di essere in buona salute. Oggi ho fatto una visita di controllo dal dottor Ricci, il mio medico di fiducia, e mi ha confermato che la mia pressione sanguigna è perfetta. Nonostante tutto, mi sento in forma.",
-    "entities": [
-      {
-        "text": "Ricci",
-        "label": "PER"
-      },
-      {
-        "text": "pressione sanguigna",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ieri sera mi sono addormentato molto presto. Mi sono addormentato verso le 20.30 ieri sera. Di solito mi addormento verso le 10-11. Mi ha sorpreso addormentarmi così presto e così facilmente. Devo averne avuto davvero bisogno, visto che ho avuto una giornata impegnativa con una visita presso l'Ospedale San Pietro.",
-    "entities": [
-      {
-        "text": "Ospedale San Pietro",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "La mia salute è buona. Non ho sentito alcun dolore, nemmeno dopo la visita di controllo al Policlinico Gemelli con il dottor Gentili.",
-    "entities": [
-      {
-        "text": "salute è buona",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Policlinico Gemelli",
-        "label": "ORG"
-      },
-      {
-        "text": "Gentili",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Sono andata a letto un'ora e mezza prima del solito e il mio corpo ha apprezzato molto il riposo extra, soprattutto dopo aver assunto il Lorazepam prescritto per l'insonnia.",
-    "entities": [
-      {
-        "text": "Lorazepam",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "È stato bello dormire otto ore abbondanti la scorsa notte, ne avevo bisogno dopo la frenetica settimana di lavoro trascorsa finora. Il colloquio con la psicologa Lauretta Errani mi ha aiutato a gestire meglio l'ansia.",
-    "entities": [
-      {
-        "text": "Lauretta Errani",
-        "label": "PER"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ho potuto trascorrere del tempo all'aperto passeggiando con la mia meravigliosa ragazza, Chiara. Mi sono sentito molto amato e apprezzato solo stando con lei nel Parco delle Cascine.",
-    "entities": [
-      {
-        "text": "Chiara",
-        "label": "PER"
-      },
-      {
-        "text": "Parco delle Cascine",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Le luci ci hanno un po' disturbato quando sono cadute e il nostro cane si è spaventato. È successo ieri sera mentre guardavamo il Festival di Sanremo in salotto.",
-    "entities": [
-      {
-        "text": "Festival di Sanremo",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Ieri sera ho avuto almeno una buona chiacchierata e un ambiente con la famiglia, il che è stato piuttosto piacevole. Abbiamo cenato insieme al Ristorante La Pergola a Roma e parlato di come sta zia Giuseppina dopo la sua operazione.",
-    "entities": [
-      {
-        "text": "Ristorante La Pergola",
-        "label": "LOC"
-      },
-      {
-        "text": "Roma",
-        "label": "GPE"
-      },
-      {
-        "text": "Giuseppina",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Il mio amico Jeff mi ha aiutato a configurare il mio nuovo computer. È stato fantastico, perché avevo bisogno di aiuto. Mi ha dedicato qualche ora ed è stato molto preciso. Abbiamo anche installato il software MedBook, consigliato dal tecnico dell'ospedale San Raffaele.",
-    "entities": [
-      {
-        "text": "Jeff",
-        "label": "PER"
-      },
-      {
-        "text": "MedBook",
-        "label": "MISC"
-      },
-      {
-        "text": "ospedale San Raffaele",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Dopo aver sentito il risultato della mia parente, ho avuto bisogno di un po' di tempo per riflettere su me stessa. Ho pregato perché guarisse e immagino come mi sentirò quando sarò al suo posto. Forse la morte non sarà così brutta perché allora potrò incontrare Dio. Lei ha appena ricevuto la diagnosi di leucemia dopo l'esame del midollo osseo.",
-    "entities": [
-      {
-        "text": "leucemia",
-        "label": "DISEASE"
-      },
-      {
-        "text": "esame del midollo osseo",
-        "label": "EXAMINATION"
-      }
-    ]
-  },
-  {
-    "text": "A causa della mia malattia, ieri ho dovuto rinunciare a uno dei colloqui genitori/insegnanti dei miei figli. Mi vergogno come un cattivo genitore perché non sono potuta andare e sento che gli insegnanti potrebbero guardarmi male per questo. La mia fibromialgia è peggiorata e ho avuto forti dolori muscolari per tutta la giornata.",
-    "entities": [
-      {
-        "text": "fibromialgia",
-        "label": "DISEASE"
-      },
-      {
-        "text": "dolori muscolari",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ho parlato con mio figlio online nei Paesi Bassi. È stato bello rivederlo. Mi ha raccontato della sua visita al Museo Van Gogh ad Amsterdam e di come si è sentito ispirato.",
-    "entities": [
-      {
-        "text": "Paesi Bassi",
-        "label": "GPE"
-      },
-      {
-        "text": "Museo Van Gogh",
-        "label": "LOC"
-      },
-      {
-        "text": "Amsterdam",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho dormito benissimo, ho montato un nuovo materasso a molle e, porca miseria, fa una tale differenza, ho dormito come un bambino e mi sono svegliato molto riposato. È stato un ottimo inizio per la giornata di ieri.",
-    "entities": []
-  },
-  {
-    "text": "Ho dormito fino a quasi mezzogiorno. Non dormo mai così tardi, è stato molto sorprendente per me.",
-    "entities": [
-      {
-        "text": "mezzogiorno",
-        "label": "TIME"
-      }
-    ]
-  },
-  {
-    "text": "Sono malato, ma è solo un raffreddore. Non riesco a fare le cose che vorrei fare.",
-    "entities": [
-      {
-        "text": "raffreddore",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Oggi ho fatto molto esercizio per gli addominali, seguendo un programma consigliato dal dottor Luigi Angeli. Mi sento davvero bene dopo l'allenamento.",
-    "entities": [
-      {
-        "text": "Luigi Angeli",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace cucinare i miei pasti ogni giorno. Mi fa sentire bene con me stessa.",
-    "entities": []
-  },
-  {
-    "text": "Sono molto grato per la mia famiglia. Ieri ho parlato al telefono con mia sorella Chiara, che vive a Firenze, e mi ha raccontato della visita medica che ha fatto all'Ospedale Careggi. Sono felice di stare con loro ogni giorno. Mi fa pensare a tutte le cose a cui tengo.",
-    "entities": [
-      {
-        "text": "Chiara",
-        "label": "PER"
-      },
-      {
-        "text": "Firenze",
-        "label": "GPE"
-      },
-      {
-        "text": "Ospedale Careggi",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ieri io e i miei figli stavamo guardando uno dei nostri programmi preferiti in televisione, \"Braccialetti Leonardi\", e ci siamo divertiti insieme a crepapelle. È stato bello vedere come Vittorio e Caterina si emozionavano durante le scene più toccanti.",
-    "entities": [
-      {
-        "text": "Braccialetti Leonardi",
-        "label": "MISC"
-      },
-      {
-        "text": "Vittorio",
-        "label": "PER"
-      },
-      {
-        "text": "Caterina",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Il mio ragazzo ha preparato il mio piatto preferito per cena, da zero! Ha cucinato le lasagne alla bolognese, proprio come le faceva sua nonna Teresa. Ed è venuto fuori un piatto delizioso.",
-    "entities": [
-      {
-        "text": "Teresa",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Al lavoro è stata una giornata davvero fiacca. Dopo la riunione con il team di Milano, non vedevo l'ora di staccare e andare a casa. C'erano troppe cose da fare nel mio lavoro presso la Banca Intesa. È stata una giornata davvero lunga e stancante.",
-    "entities": [
-      {
-        "text": "Milano",
-        "label": "GPE"
-      },
-      {
-        "text": "Banca Intesa",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace fare esercizio fisico. Mi sento meglio ogni volta che vado in bicicletta o a fare una passeggiata nel Parco delle Cascine. Anche quando non ne ho voglia. Mi sono sentita molto meglio, soprattutto dopo aver superato l'ansia che mi tormentava da giorni.",
-    "entities": [
-      {
-        "text": "Parco delle Cascine",
-        "label": "LOC"
-      },
-      {
-        "text": "Mi sono sentita molto meglio",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "I miei amici mi hanno fatto emozionare e hanno portato gioia nella mia vita. Sono la ragione per cui continuo a vivere. Mi hanno aiutato molto nella mia vita, soprattutto quando ho avuto l'attacco di panico durante la visita al Policlinico Gemelli.",
-    "entities": [
-      {
-        "text": "attacco di panico",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Policlinico Gemelli",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Mi sono divertito molto con la famiglia. Siamo andati al Lago di Garda con mia sorella Chiara e mio zio Antonino. È stato bello rivederli dopo tanto tempo.",
-    "entities": [
-      {
-        "text": "Lago di Garda",
-        "label": "LOC"
-      },
-      {
-        "text": "Chiara",
-        "label": "PER"
-      },
-      {
-        "text": "Antonino",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Sono andato a cena fuori con gli amici. Mi sono divertito molto e sono stato felice. Abbiamo mangiato al Ristorante Da Gino a Bologna per festeggiare il compleanno di Arnulfo.",
-    "entities": [
-      {
-        "text": "Ristorante Da Gino",
-        "label": "ORG"
-      },
-      {
-        "text": "Bologna",
-        "label": "GPE"
-      },
-      {
-        "text": "Arnulfo",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ho giocato ai videogiochi prima del lavoro. Mi sono divertito. Mi sono concesso del tempo per rilassarmi e divertirmi. Dopo la seduta di fisioterapia, mi sentivo meglio.",
-    "entities": [
-      {
-        "text": "fisioterapia",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "Dopo la passeggiata e la colazione è seguita una buona giornata di lavoro che mi rende felice di lavorare e vedere i miei amici. Ho anche ricevuto i risultati dell'elettrocardiogramma che ho fatto lunedì scorso.",
-    "entities": [
-      {
-        "text": "elettrocardiogramma",
-        "label": "EXAMINATION"
-      }
-    ]
-  },
-  {
-    "text": "Ero decisamente entusiasta di questo progetto e delle possibilità che ne potevano derivare, quindi ero entusiasta di mostrare a tutti quello che sapevo fare. Il dottor Stefano Visconti mi ha dato molti consigli utili su come migliorare la presentazione. Oggi pomeriggio, mi ha anche inviato un messaggio per ricordarmi di portare il mio dossier di ricerca al Centro Medico San Pietro per la revisione.",
-    "entities": [
-      {
-        "text": "Stefano Visconti",
-        "label": "PER"
-      },
-      {
-        "text": "Centro Medico San Pietro",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Sono felice di avere un rapporto molto equilibrato con la mia famiglia. Mia sorella Laura mi ha recentemente aiutato a trovare un buon specialista per mio padre, che sta affrontando alcuni problemi di salute. È stato davvero un gesto premuroso da parte sua. Mia madre è in buona salute, ma le sue ginocchia continuano a farle male a causa dell'artrosi.",
-    "entities": [
-      {
-        "text": "Laura",
-        "label": "PER"
-      },
-      {
-        "text": "artrosi",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Sono uscito con i ragazzi ed è stato un grande momento. Abbiamo passato il pomeriggio al parco e poi siamo andati al ristorante 'La Trattoria di Lamberto' per mangiare qualcosa. Il cibo era delizioso, ma quando ho mangiato quella pasta alla carbonara mi sono accorto che forse avevo mangiato un po' troppo. Forse la prossima volta dovrei fare più attenzione alla dieta.",
-    "entities": [
-      {
-        "text": "La Trattoria di Lamberto",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "In questo momento sono davvero arrabbiata con mio figlio di 18 anni. Vorrei che smettesse di abusare di sostanze. Si è trasferito a Milano da un mese, dopo essere stato curato al Centro di Riabilitazione San Raffaele. Vorrei che tornasse, ma solo a certe condizioni. Non voglio che continui a frequentare certi ambienti.",
-    "entities": [
-      {
-        "text": "18 anni",
-        "label": "AGE"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      },
-      {
-        "text": "Centro di Riabilitazione San Raffaele",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Anche se la giornata è stata lunga, ieri sera mi sono presa il tempo di preparare una bella cena per me. Ho cucinato un risotto ai funghi porcini e pollo al rosmarino. Ci vuole sempre più tempo per preparare un pasto di quello che penso, così quando è finito lo apprezzo ancora di più. Ieri mi sono davvero divertita, anche se ho avuto una piccola fitta alla schiena mentre cucinavo, forse a causa della mia scoliosi. E dato che vivo da sola, c'erano molti avanzi per mangiarla altre due o tre volte. Mi piacerà molto perché non dovrò fare altro che metterlo su un piatto e riscaldarlo nel microonde. È sempre meglio delle cene in TV!",
-    "entities": [
-      {
-        "text": "scoliosi",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "La sensazione è molto divertente",
-    "entities": []
-  },
-  {
-    "text": "La notte precedente ho dormito malissimo. La schiena ha iniziato a farmi molto male e non so perché. Mi sono rigirata per ore e mi sono svegliata con una sensazione di malessere. Ero confusa perché negli ultimi tempi mi sentivo fisicamente bene e non sapevo da dove venisse il mal di schiena. Ero anche preoccupata che il mio sonno sarebbe stato influenzato in questo modo in futuro.",
-    "entities": [
-      {
-        "text": "mal di schiena",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Anche se si potrebbe pensare che la pizza non faccia bene, mi sono attenuta al mio programma di mangiare solo una volta al giorno per la maggior parte del tempo. Ho mangiato la pizza e più tardi ho mangiato una banana con burro di arachidi. Ero felice perché non ho mangiato troppo. Ho mangiato la giusta quantità di cibo e questo mi ha reso felice.",
-    "entities": []
-  },
-  {
-    "text": "Ho preparato una ricetta che stavo guardando e che è risultata deliziosa.",
-    "entities": []
-  },
-  {
-    "text": "Sono andata a dormire nel mio letto super accogliente e meraviglioso. Mi piace sempre andare a letto!",
-    "entities": []
-  },
-  {
-    "text": "Dopo essere stata con il mio ragazzo, la notte scorsa ho dormito benissimo e avevo davvero bisogno di dormire, visto che ultimamente non ne avevo abbastanza. Ho parlato con il dottor Dino Stradivari riguardo al mio stress da lavoro, e mi ha consigliato di fare più attività fisica per rilassarmi.",
-    "entities": [
-      {
-        "text": "Dino Stradivari",
-        "label": "PER"
-      },
-      {
-        "text": "stress da lavoro",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Ho fatto il mio solito esercizio in bicicletta per 20 minuti. Era una bella giornata e l'aria era pulita. Mi sono divertita molto, anche se avevo un po' di stanchezza muscolare dopo il trattamento di fisioterapia di ieri.",
-    "entities": [
-      {
-        "text": "stanchezza muscolare",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "trattamento di fisioterapia",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "Ho avuto qualche problema a dormire e ieri ho avuto una giornata intensa. Ieri sono riuscita a dormire 7,5 ore e mezzo. Ho fatto la mia giornata intera perché non ero affatto stanca per tutto il giorno. A proposito, ho preso l'aspirina ieri per il mal di testa che mi tormentava.",
-    "entities": [
-      {
-        "text": "aspirina",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "mal di testa",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho avuto un buon incontro con dei buoni amici. Mi sono solo aggiornata con loro, per lo più. Parlavamo anche del concerto dei Coldplay che si terrà a Milano il prossimo mese. Non vedo l'ora di andarci!",
-    "entities": [
-      {
-        "text": "Coldplay",
-        "label": "MISC"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Un altro giorno è passato senza che siano emersi problemi di salute. Alla mia età questo è importante perché sono sempre alla ricerca di qualcosa che possa andare storto. Sono andata a fare un controllo generale dal dottor Giovanni Camilleri e mi ha dato il via libera.",
-    "entities": [
-      {
-        "text": "controllo generale",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "Giovanni Camilleri",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Di recente ho acquistato un nuovo materasso ad acqua e non vedo l'ora di andare a letto per godermi una bella dormita. Il mio corpo non fa più male al mattino. Ho anche parlato con il mio medico, il dottor Roberto Anastasi, e mi ha consigliato di fare delle sedute di fisioterapia per il dolore alla schiena.",
-    "entities": [
-      {
-        "text": "Roberto Anastasi",
-        "label": "PER"
-      },
-      {
-        "text": "fisioterapia",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "Non ho dormito bene perché ho ancora il jetlag dopo il mio viaggio a New York. Non so quando tornerò alla normalità, ma il mio medico mi ha detto che ci vorranno circa due settimane. Mi ha consigliato di prendere melatonina.",
-    "entities": [
-      {
-        "text": "New York",
-        "label": "GPE"
-      },
-      {
-        "text": "melatonina",
-        "label": "MEDICINE"
-      }
-    ]
-  },
-  {
-    "text": "Ho lavorato su un pezzo che sto dipingendo. Ho completato alcune parti che volevo fare. Sto ancora pensando a come completare altre parti. Devo ancora completarne altre, ma sento di aver fatto dei progressi. La mia amica Pina mi ha chiesto di mostrarle il dipinto il 15 ottobre, e io sono contenta che possa vederlo.",
-    "entities": [
-      {
-        "text": "Pina",
-        "label": "PER"
-      },
-      {
-        "text": "15 ottobre",
-        "label": "DATE"
-      }
-    ]
-  },
-  {
-    "text": "Ho fatto una bella corsa nel mio quartiere prima del lavoro. Mi sono sentita piena di energia, libera dallo stress e pronta per la giornata che mi aspettava. Devo dire che il mio dottore mi ha suggerito di fare più attività fisica per migliorare la mia salute cardiovascolare.",
-    "entities": [
-      {
-        "text": "salute cardiovascolare",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Finalmente sono riuscita a dormire bene. Di recente non dormivo bene e sono passata a un nuovo sonnifero naturale chiamato Valeriana. Mi sono sentita riposata e piena di energia. Finalmente, spero che questo continui. Ho parlato con il mio medico di fiducia, il dottor Ippazio Seddio, e mi ha detto che era una buona scelta.",
-    "entities": [
-      {
-        "text": "Valeriana",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "Ippazio Seddio",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Siamo andati a cena fuori al ristorante 'La Dolce Vita' a Milano e abbiamo lasciato che qualcun altro cucinasse. Il conto è stato più basso di quanto mi aspettassi e ho avuto modo di parlare con la mia famiglia. Mia sorella Matilda, che vive a Roma, mi ha chiamato per sapere come stavo.",
-    "entities": [
-      {
-        "text": "La Dolce Vita",
-        "label": "ORG"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      },
-      {
-        "text": "Matilda",
-        "label": "PER"
-      },
-      {
-        "text": "Roma",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri non ho dormito bene. Mi sentivo un po' stanco e affaticato, forse a causa dello stress dovuto al lavoro e alle scadenze che ho.",
-    "entities": [
-      {
-        "text": "stress",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Oggi ho scoperto di aver fatto bene un progetto al lavoro. Ho ottenuto una buona valutazione da parte del mio capo, il dottor Giuseppe Rossetti. Ero felice e orgoglioso.",
-    "entities": [
-      {
-        "text": "Giuseppe Rossetti",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Mio fratello Massimiliano ha appena scoperto di avere un cancro ai polmoni. Ho fatto ricerche su cose come le terapie alternative insieme alla chemio e alle radiazioni e gli ho inviato le informazioni. Si tratta di mio fratello maggiore che non vedo da circa 5 anni. Sto programmando un viaggio a Firenze per andare a trovarlo presto.",
-    "entities": [
-      {
-        "text": "Massimiliano",
-        "label": "PER"
-      },
-      {
-        "text": "cancro ai polmoni",
-        "label": "DISEASE"
-      },
-      {
-        "text": "chemio",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "radiazioni",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Firenze",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace sempre passare del tempo con i miei buoni amici. Anche se non ho molti amici, con quelli che ho sono molto legata. Mi piace la loro compagnia. Stare con loro mi fa sentire bene e di solito finiamo sempre per ridere di qualcosa. L'ultima volta siamo andati a fare una passeggiata nel Parco Sempione a Milano.",
-    "entities": [
-      {
-        "text": "Parco Sempione",
-        "label": "LOC"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "C'è sempre qualcosa da fare e faccio troppe pause. Oggi ho accompagnato mia madre, Eliana, al Centro Medico Sant'Anna per una visita di controllo.",
-    "entities": [
-      {
-        "text": "Eliana",
-        "label": "PER"
-      },
-      {
-        "text": "Centro Medico Sant'Anna",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Il lavoro è stato lento nell'ultima settimana o giù di lì. Non sono riuscito a raggiungere il mio obiettivo giornaliero con la frequenza che vorrei per mantenere le mie finanze al livello necessario. Ieri, 3 ottobre, è stato il primo giorno della settimana in cui sono riuscito a raggiungere la somma di denaro che devo guadagnare ogni giorno per rimanere a galla dal punto di vista finanziario.",
-    "entities": [
-      {
-        "text": "3 ottobre",
-        "label": "DATE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri il lavoro è stato molto noioso. Non ho lavorato tante ore quanto avrei voluto. Ho bisogno di guadagnare di più e quindi sono molto frustrato. Ho parlato con il mio amico Arnaldo, che lavora alla Banca Popolare di Milano, per avere qualche consiglio.",
-    "entities": [
-      {
-        "text": "Arnaldo",
-        "label": "PER"
-      },
-      {
-        "text": "Banca Popolare di Milano",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Ho guardato alcuni episodi su Netflix di una serie che mi stava piacendo. Nel complesso mi è piaciuta, ma ho trovato il finale deludente e confuso. Si trattava di \"La legge di Lidia Poët\", ambientata a Torino, che racconta la storia della prima donna avvocato in Italia.",
-    "entities": [
-      {
-        "text": "Netflix",
-        "label": "ORG"
-      },
-      {
-        "text": "La legge di Lidia Poët",
-        "label": "MISC"
-      },
-      {
-        "text": "Torino",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Mangio sano. Ho mangiato creme per colazione, un panino al burro di arachidi per pranzo e gulasch per cena. Sono stata contenta di non aver mangiato dolci ieri. Dopo cena ho preso una compressa di Melatonina per aiutarmi con l'insonnia.",
-    "entities": [
-      {
-        "text": "Melatonina",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Ho iniziato a fare power walking due mesi fa, ho perso peso e mi sento benissimo. È una delle cose più importanti che ho fatto per me stessa da anni.",
-    "entities": []
-  },
-  {
-    "text": "Ho pensato che mi stavo ammalando: tutte le corse, le valigie e lo stress hanno avuto ripercussioni sul mio corpo anziano. Ma no, è passato tanto rapidamente quanto è iniziato. Sto bene. Non è un buon momento per ammalarsi!",
-    "entities": [
-      {
-        "text": "corpo anziano",
-        "label": "AGE"
-      }
-    ]
-  },
-  {
-    "text": "Ho ricevuto un messaggio dall'insegnante di mio figlio che diceva che aveva saltato un sacco di compiti negli ultimi giorni. Ero infastidita e frustrata perché gli avevamo già parlato e gli avevamo tolto il telefono perché stava diventando una grande distrazione per lui.",
-    "entities": []
-  },
-  {
-    "text": "Corro sempre di prima mattina. Alcuni giorni sono migliori di altri perché dipende da quanto sono stanca, ma la corsa di ieri è stata ottima e avrei potuto andare più a lungo se avessi avuto più tempo.",
-    "entities": []
-  },
-  {
-    "text": "Amo molto mio marito. Tornare a casa e stare con lui è la parte migliore della mia giornata. Gli sono grata.",
-    "entities": []
-  },
-  {
-    "text": "Ho iniziato la mattinata con la tosse, dopo aver preso il treno da Bologna per andare all'Ospedale Sant'Orsola. Il dottor Grimani mi ha detto che potrebbe essere legata a una forma lieve di bronchite, ma sono rimasto calmo e ben presto è stato un pensiero successivo.",
-    "entities": [
-      {
-        "text": "tosse",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Bologna",
-        "label": "GPE"
-      },
-      {
-        "text": "Ospedale Sant'Orsola",
-        "label": "ORG"
-      },
-      {
-        "text": "Grimani",
-        "label": "PER"
-      },
-      {
-        "text": "bronchite",
-        "label": "DISEASE"
-      }
-    ]
-  },
-  {
-    "text": "Sono andato a nuotare per circa due ore in una piscina locale a Cagliari. Era da qualche mese che non lo facevo, da quando avevo fatto una risonanza magnetica per il dolore alla schiena. Sono stata felice di sentirmi finalmente in forma.",
-    "entities": [
-      {
-        "text": "Cagliari",
-        "label": "GPE"
-      },
-      {
-        "text": "risonanza magnetica",
-        "label": "EXAMINATION"
-      },
-      {
-        "text": "dolore alla schiena",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "in forma",
-        "label": "HEALTH_STATUS"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho avuto una bella conversazione con uno dei miei amici su Discord. Si chiama Sandro ed è infermiere al Policlinico Gemelli di Roma. Abbiamo parlato anche del suo turno notturno e di come gestisce lo stress.",
-    "entities": [
-      {
-        "text": "Discord",
-        "label": "ORG"
-      },
-      {
-        "text": "Sandro",
-        "label": "PER"
-      },
-      {
-        "text": "Policlinico Gemelli",
-        "label": "ORG"
-      },
-      {
-        "text": "Roma",
-        "label": "GPE"
-      },
-      {
-        "text": "stress",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Amo il cibo, ma a volte mi fa sentire in colpa perché mi alleno molto. Dopo la maratona di Firenze ho iniziato una dieta a basso contenuto di carboidrati consigliata dalla nutrizionista Silvia. Ma è difficile non mangiare. lol.",
-    "entities": [
-      {
-        "text": "maratona di Firenze",
-        "label": "MISC"
-      },
-      {
-        "text": "dieta a basso contenuto di carboidrati",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Silvia",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Incazzato nero e arrabbiato per non sapere se avrebbero spedito le mie medicine. Sto aspettando da giorni il pacco da Farmacia Centrale con il mio Sertralina e il Ventolin. Mi sento frustrato.",
-    "entities": [
-      {
-        "text": "Farmacia Centrale",
-        "label": "ORG"
-      },
-      {
-        "text": "Sertralina",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "Ventolin",
-        "label": "MEDICINE"
-      },
-      {
-        "text": "frustrato",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "La scorsa notte è stato terribile mettersi a proprio agio quando ho cercato di dormire. Ho avuto un attacco di insonnia che mi ha tenuto sveglio fino alle 4 del mattino. Oggi ero così stanco che ho provato a fare un sonnellino dopo aver preso una compressa di Melatonina, ma neanche quello è andato bene.",
-    "entities": [
-      {
-        "text": "insonnia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Melatonina",
-        "label": "MEDICINE"
-      }
-    ]
-  },
-  {
-    "text": "È stato bello fare esercizio la sera tardi. Mi ha dato la sensazione di fare del bene al mio corpo. Ho fatto una corsa leggera nel Parco delle Cascine e poi qualche esercizio di stretching. Mi sentivo davvero in forma, come quando facevo fisioterapia con la dottoressa Carnera.",
-    "entities": [
-      {
-        "text": "Parco delle Cascine",
-        "label": "LOC"
-      },
-      {
-        "text": "fisioterapia",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "Carnera",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho mangiato cibo sano e di buona qualità, come faccio quasi tutti i giorni, e questo mi fa sempre sentire bene. Ho preparato un'insalata con avocado e quinoa, e ho bevuto una tisana alla camomilla. Dopo pranzo ho fatto una passeggiata con mia sorella Antonella lungo il Naviglio Grande.",
-    "entities": [
-      {
-        "text": "Antonella",
-        "label": "PER"
-      },
-      {
-        "text": "Naviglio Grande",
-        "label": "LOC"
-      }
-    ]
-  },
-  {
-    "text": "Eravamo tutti a casa per gustare un pasto insieme. È raro che riusciamo a farlo con tutti gli orari diversi. È stato così bello parlare e rilassarsi. Abbiamo guardato il film \"La vita è bella\" e siamo stati insieme. Mia madre, mio fratello Pasquale e mia zia Melina erano tutti presenti.",
-    "entities": [
-      {
-        "text": "La vita è bella",
-        "label": "MISC"
-      },
-      {
-        "text": "Pasquale",
-        "label": "PER"
-      },
-      {
-        "text": "Melina",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Amo la mia famiglia. La mia famiglia fa sì che tutto abbia un senso. La mia famiglia è il mio posto sicuro dove atterrare. Sono fantastici. Oggi ho parlato al telefono con mio padre che vive a Torino e mi ha raccontato della sua visita all'Ospedale San Giovanni Bosco.",
-    "entities": [
-      {
-        "text": "Torino",
-        "label": "GPE"
-      },
-      {
-        "text": "Ospedale San Giovanni Bosco",
-        "label": "ORG"
-      }
-    ]
-  },
-  {
-    "text": "Sembra che le cose non stiano andando così bene come avrei sperato, ma credo che tutto dipenda dai tempi di Dio. Oggi, 2 marzo 2023, mentre ero in chiesa a Milano, ho sentito una certa inquietudine ma anche una piccola speranza.",
-    "entities": [
-      {
-        "text": "2 marzo 2023",
-        "label": "DATE"
-      },
-      {
-        "text": "Milano",
-        "label": "GPE"
-      },
-      {
-        "text": "inquietudine",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Mi piace nuotare a vasche e lo faccio 3-4 volte alla settimana per 90 minuti nella piscina comunale di Bologna. Mi sento in buona forma quando finisco, sapendo che mi sto facendo del bene e che questo è parte della mia terapia per gestire l'ansia.",
-    "entities": [
-      {
-        "text": "Bologna",
-        "label": "GPE"
-      },
-      {
-        "text": "in buona forma",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "terapia",
-        "label": "TREATMENT"
-      },
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Non c'era molto da fare oggi a casa, così ho letto un articolo sulla depressione e sui suoi sintomi. Questo mi ha fatto pensare a quanto sia importante parlare con il mio medico.",
-    "entities": [
-      {
-        "text": "depressione",
-        "label": "DISEASE"
-      },
-      {
-        "text": "sintomi",
-        "label": "SYMPTOM"
-      }
-    ]
-  },
-  {
-    "text": "Howard ha bussato e mi ha detto che avrebbe pagato i 300 dollari entro il 10 aprile. È un po' prima di quanto mi aspettassi, quindi andrà bene. È più presto di quanto mi aspettassi, quindi andrà bene. Chris è tutto uno stronzo perché ha fatto un casino e Howard ha pagato la cauzione. Un classico.",
-    "entities": [
-      {
-        "text": "Howard",
-        "label": "PER"
-      },
-      {
-        "text": "10 aprile",
-        "label": "DATE"
-      },
-      {
-        "text": "Chris",
-        "label": "PER"
-      },
-      {
-        "text": "Howard",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "La mia famiglia è tutto per me, senza la mia famiglia che mi motiva e mi aiuta nella vita non sono niente. Mia sorella Antonietta, che ha 32 anni, oggi mi ha chiamato da Torino per dirmi che sta meglio dopo la fisioterapia.",
-    "entities": [
-      {
-        "text": "Antonietta",
-        "label": "PER"
-      },
-      {
-        "text": "32 anni",
-        "label": "AGE"
-      },
-      {
-        "text": "Torino",
-        "label": "GPE"
-      },
-      {
-        "text": "sta meglio",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "fisioterapia",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "I miei amici, Arnulfo e Laura, mi sono vicini e fanno cose che mi fanno sentire meglio durante la giornata, sia che si tratti di condividere un post divertente sui social media o di parlare via messaggio.",
-    "entities": [
-      {
-        "text": "Arnulfo",
-        "label": "PER"
-      },
-      {
-        "text": "Laura",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Tutti amano dormire. Negli ultimi 6 mesi ho creato un programma completamente nuovo per me, così la sera sono pronta per andare a letto, seguendo il consiglio del dottor Corbo, il mio medico di fiducia.",
-    "entities": [
-      {
-        "text": "Corbo",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "È stato fantastico tornare a correre - grazie all'ora legale! Mi sono allenata per la maratona di Firenze che si terrà il prossimo mese.",
-    "entities": [
-      {
-        "text": "maratona di Firenze",
-        "label": "MISC"
-      }
-    ]
-  },
-  {
-    "text": "Sono orgoglioso di avere un buon rapporto con i miei familiari. Questo mi fa sentire una brava persona, soprattutto dopo la visita di mia sorella, Cristina, che è venuta a trovarmi ieri.",
-    "entities": [
-      {
-        "text": "Cristina",
-        "label": "PER"
-      }
-    ]
-  },
-  {
-    "text": "Ho mangiato un piatto che di solito fa mia madre. In qualche modo non è stato lo stesso, forse perché ho usato il formaggio Parmigiano Reggiano che ho comprato a Modena.",
-    "entities": [
-      {
-        "text": "Parmigiano Reggiano",
-        "label": "MISC"
-      },
-      {
-        "text": "Modena",
-        "label": "GPE"
-      }
-    ]
-  },
-  {
-    "text": "Ieri ho dormito solo 3 ore. Non riuscivo a dormire perché ero in ansia per l'approvazione del mio progetto al Policlinico Gemelli. Sono esausta e abbattuta, e il mio medico, la dottoressa Zanichelli, mi ha suggerito di iniziare una terapia cognitivo-comportamentale.",
-    "entities": [
-      {
-        "text": "ansia",
-        "label": "SYMPTOM"
-      },
-      {
-        "text": "Policlinico Gemelli",
-        "label": "ORG"
-      },
-      {
-        "text": "esausta",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "abbattuta",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Zanichelli",
-        "label": "PER"
-      },
-      {
-        "text": "terapia cognitivo-comportamentale",
-        "label": "TREATMENT"
-      }
-    ]
-  },
-  {
-    "text": "Sono stata malata e non ho dormito molto bene. Dopo aver preso una compressa di Tachipirina, sono riuscita a fare un breve pisolino ed è stato fantastico!!!",
-    "entities": [
-      {
-        "text": "malata",
-        "label": "HEALTH_STATUS"
-      },
-      {
-        "text": "Tachipirina",
-        "label": "MEDICINE"
-      }
-    ]
-  },
-  {
-    "text": "Invece di cucinare pasti regolari quando mio marito Leopoldo non c'è, faccio spuntini... di continuo per tutto il giorno. Brutta abitudine, ma ho mangiato del cibo delizioso e non del tutto malsano, come il pane ai cereali della Mulino Bianco. Oh beh....",
-    "entities": [
-      {
-        "text": "Leopoldo",
-        "label": "PER"
-      },
-      {
-        "text": "Mulino Bianco",
-        "label": "ORG"
       }
     ]
   }

@@ -1,3 +1,5 @@
+from presidio_anonymizer.operators.operators_factory import ANONYMIZERS
+
 from .config import ENTITIES, ENTITIES_POST
 from data_generation import config as gen_config
 
@@ -11,4 +13,4 @@ TEST_DATA_PATHS = [f"{SEED_DATA_DIR}/test/seed_{filename}_test.json" for filenam
 
 # Extract NER labels from ENTITIES for anonymization by taking all labels until MISC
 NER_LABELS = [ent["label"] for ent in ENTITIES[:ENTITIES.index(next(filter(lambda e: e["label"] == "MISC", ENTITIES)))+1]]
-ANONYNIZATION_LABELS = NER_LABELS + [ent["label"] for ent in ENTITIES_POST]
+ANONYMIZATION_LABELS = NER_LABELS + [ent["label"] for ent in ENTITIES_POST]

@@ -10,7 +10,6 @@ from utils import load_data_for_spacy, to_docbin_format, combine_docbins
 from utils import train_test_split
 
 DATA_PATH_PREFIX = "./../data_generation/"
-
 TRAIN_VAL_SPLIT = 0.8
 
 if __name__ == '__main__':

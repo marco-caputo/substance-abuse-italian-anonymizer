@@ -1698,14 +1698,14 @@
     ]
   },
   {
-    "text": "Ha partecipato con interesse al gruppo di psicoterapia del lunedì. Riferisce di aver avuto un confronto positivo con il fratello Rembrandt.",
+    "text": "Ha partecipato con interesse al gruppo di psicoterapia del lunedì. Riferisce di aver avuto un confronto positivo con il fratello rembrandt.",
     "entities": [
       {
         "text": "gruppo di psicoterapia",
         "label": "TREATMENT"
       },
       {
-        "text": "Rembrandt",
+        "text": "rembrandt",
         "label": "PER"
       }
     ]
@@ -1870,7 +1870,7 @@
     ]
   },
   {
-    "text": "Riferisce di aver avuto un episodio di craving intenso il 25 ottobre, gestito autonomamente senza ricorso a sostanze. In corso colloqui settimanali con la dott.ssa Respighi. Prosegue assunzione di metadone.",
+    "text": "Riferisce di aver avuto un episodio di craving intenso il 25 ottobre, gestito autonomamente senza ricorso a sostanze. In corso colloqui settimanali con la dott.ssa respighi. Prosegue assunzione di metadone.",
     "entities": [
       {
         "text": "craving intenso",
@@ -1881,7 +1881,7 @@
         "label": "DATE"
       },
       {
-        "text": "Respighi",
+        "text": "respighi",
         "label": "PER"
       },
       {
@@ -16871,10 +16871,10 @@
     ]
   },
   {
-    "text": "Colloquio con la madre, Sig.ra Venier, che riferisce preoccupazione per l'isolamento sociale del figlio. Si concorda coinvolgimento del CPS di zona per valutazione domiciliare. Il paziente ha mostrato irritabilità e scarsa tolleranza alla frustrazione.",
+    "text": "Colloquio con la madre, Sig.ra venier, che riferisce preoccupazione per l'isolamento sociale del figlio. Si concorda coinvolgimento del CPS di zona per valutazione domiciliare. Il paziente ha mostrato irritabilità e scarsa tolleranza alla frustrazione.",
     "entities": [
       {
-        "text": "Venier",
+        "text": "venier",
         "label": "PER"
       },
       {

@@ -1,0 +1,23 @@
+[
+  {
+    "model_name": "bert-base-multilingual-uncased",
+    "link": "https://huggingface.co/bert-base-multilingual-uncased"
+  },
+  {
+    "model_name": "dbmdz/bert-base-italian-uncased",
+    "link": "https://huggingface.co/dbmdz/bert-base-italian-uncased"
+  },
+  {
+    "model_name": "dbmdz/bert-base-italian-xxl-cased",
+    "link": "https://huggingface.co/dbmdz/bert-base-italian-xxl-cased"
+  },
+  {
+    "model_name": "nickprock/bert-italian-finetuned-ner",
+    "labels": [
+      "PER",
+      "LOC",
+      "ORG"
+    ],
+    "link": "https://huggingface.co/nickprock/bert-italian-finetuned-ner"
+  }
+]
