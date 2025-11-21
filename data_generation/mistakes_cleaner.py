@@ -3,6 +3,7 @@ from faker import Faker
 import random
 
 from utils import to_spacy_format
+from __init__ import NER_LABELS, POST_LABELS
 
 Faker.seed(42)
 random.seed(42)
@@ -13,11 +14,13 @@ common_names_male = r"\b(?:Luca|Marco|Matteo|Andrea|Alessandro)\b"
 common_names_female = r"\b(?:Maria|Carla|Marta|Martina|Giulia|Lucia)\b"
 common_surnames = r"\b(?:Rossi|Verdi|Bianchi|Bellini|Moretti|Rinaldi|Ferraris|Ferrante|Ferrari|Bianchi|Greco|Ferri)\b"
 common_addresses = r"\b(?:Via Roma|Via delle Rose|Via del Giglio|Via dei Gigli|Corso Italia|Piazza Garibaldi|Viale Europa|Largo Augusto)\b"
+common_municipalities = r"\b(?:Milano|Roma|Napoli|Torino|Palermo|Genova|Bologna|Firenze|Venezia|Verona|Catania|Padova|Trieste)\b"
 replacements_list = [
         (common_names_male,     lambda: faker.first_name_male()),
         (common_names_female,   lambda: faker.first_name_female()),
         (common_surnames,       lambda: faker.last_name()),
-        (common_addresses,      lambda: re.split(r'[,0-9]', faker.street_address())[0].strip())
+        (common_addresses,      lambda: re.split(r'[,0-9]', faker.street_address())[0].strip()),
+        (common_municipalities, lambda: faker.city())
 ]
 
 # Regex pattern to match family members and other non-proper names referring to people in Italian
@@ -84,8 +87,14 @@ email_pattern = r'[a-zA-Z0-9\._%+-]+@[a-zA-Z0-9\.-]+[a-zA-Z]{1,}'
 wrong_age_pattern = r'(?:adolescent.|anzian.|giovan.|adult.|bambin.|person.|figli|figl.)'
 correct_age_pattern = r'((?:[A-Za-z]*|[0-9]*)\s(?:ann.|mes.))'
 
-gpe_correct_pattern = r'(?:mturk|amazon|twitch|netflix)'  #Common ORGs that can be written lowercase
-gpe_wrong_pattern = r'(?:[0-9]*)'
+org_correct_pattern = r'(?:mturk|amazon|twitch|netflix)'  #Common ORGs that can be written lowercase
+org_wrong_pattern = r'(?:[0-9]*)'
+org_fac_wrong_prefix = (r'(?:bar|ristorante|supermercato|azienda|falegnameria|stazione|comune|'
+                        r'(?:centro|cooperativa|comunità|organizzazione|clinica|ospedale|ambulatorio)\s'
+                        r'(?:diurn.|sociale|dipendenze|psicosociale|psichiatric.|formativ.|medic.|'
+                        r'di\sreinserimento|di\sriabilitazione|benessere|culturale|clinic.|neuropsichiatric.|terapeutic.|'
+                        r'salute\smentale|di\srecupero|maggiore)|centro|cooperativa|comunità|organizzazione|clinica|'
+                        r'ospedale|ambulatorio|ospedale|servizio)')
 
 misc_correct_lowercase_pattern = (r'('
         r'italian.|tedesc.|spagnol.|frances.|messican.|portogues.|inglese.|svizzer.|australian.|american.|'
@@ -247,7 +256,8 @@ def clean_age(example: dict) -> dict:
 
 def clean_org(example: dict) -> dict:
     """
-    Cleans GPE entities that are not proper names of organizations.
+    Cleans GPE entities that are not proper names of organizations or that are preceded by the common name of the
+    organization.
     Those entities that are fully lowercase and do not fall in the list of common organizations,
     or match common wrong patterns are removed.
 
@@ -257,10 +267,59 @@ def clean_org(example: dict) -> dict:
     cleaned_entities = []
     for ent in example['entities']:
         if ent['label'] == 'ORG':
-            if str.islower(ent['text']) and not re.search(gpe_correct_pattern, ent['text'], re.IGNORECASE):
+            if str.islower(ent['text']) and not re.search(org_correct_pattern, ent['text'], re.IGNORECASE):
                 continue
-            if re.fullmatch(gpe_wrong_pattern, ent['text']):
+            if re.fullmatch(org_wrong_pattern, ent['text']):
                 continue
+            if re.search(org_fac_wrong_prefix, ent['text']):
+                search = re.search(r".*(?i:" + org_fac_wrong_prefix + r")" + r"\s(.*)", ent['text'])
+                ent['text'] = search.group(1).strip()
+                if re.match(r"di\s.*", ent['text'], re.IGNORECASE):
+                    search = re.search(r"di\s(.*)", ent['text'], re.IGNORECASE)
+                    ent['text'] = search.group(0).strip()
+                    if re.match(r'(?i:viale|via|corso|piazza|largo|strada|rotonda|vicolo|borgo|contrada|località)\s.*', ent['text']):
+                        # If only a street name remains, change label to LOC, else GPE
+                        ent['label'] = 'LOC'
+                    else:
+                        ent['label'] = 'GPE'
+            search = re.fullmatch(r'[\'\"](.*)[\'\"]', ent['text'])
+            if search:
+                ent['text'] = search.group(1).strip()
+
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
+def clean_fac(example: dict) -> dict:
+    """
+    Cleans FAC entities that are preceded by a common name of the facility. If only a gpe remanins, the label of the
+    entity is changed to GPE.
+    """
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] == 'FAC':
+            if re.search(org_fac_wrong_prefix, ent['text'], re.IGNORECASE):
+                # Removes the common facility name
+                if re.fullmatch(org_fac_wrong_prefix, ent['text'], re.IGNORECASE):
+                    continue
+                search = re.search(r".*(?i:" + org_fac_wrong_prefix + r")\s(.*)", ent['text'])
+                if search:
+                    ent['text'] = search.group(1).strip()
+                    if re.match(r"di\s.*", ent['text'], re.IGNORECASE):
+                        search = re.search(r"di\s(.*)", ent['text'], re.IGNORECASE)
+                        ent['text'] = search.group(0).strip()
+                        if re.match(r'(?i:viale|via|corso|piazza|largo|strada|rotonda|vicolo|borgo|contrada|località)\s.*', ent['text']):
+                            # If only a street name remains, change label to LOC, else GPE
+                            ent['label'] = 'LOC'
+                        else:
+                            ent['label'] = 'GPE'
+
+            search = re.fullmatch(r'[\'\"](.*)[\'\"]', ent['text'])
+            if search:
+                # Extracts text within quotes
+                ent['text'] = search.group(1).strip()
+
         cleaned_entities.append(ent)
 
     example['entities'] = cleaned_entities
@@ -366,6 +425,7 @@ def clean_common_mistakes(example: dict) -> dict:
     :param example: the example dictionary with "text" and "entities" fields
     :return: the cleaned example dictionary
     """
+    example = remove_labels_not_in_set(example, NER_LABELS+POST_LABELS)
     example = clean_wrong_per(example)
     example = clean_phone_numbers(example)
     example = clean_dates(example)
@@ -373,6 +433,7 @@ def clean_common_mistakes(example: dict) -> dict:
     example = clean_mails_as_names(example)
     example = clean_locality(example)
     example = clean_org(example)
+    example = clean_fac(example)
     example = clean_misc(example)
     example = find_patient_mentions(example)
     return example
@@ -436,14 +497,38 @@ def change_some_entities_to_lowercase(example: dict) -> dict:
 
     return example
 
+def remove_labels_not_in_set(example: dict, valid_labels: set) -> dict:
+    """
+    Removes entities from the example that do not have labels in the given valid_labels set.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :param valid_labels: set of valid labels to keep
+    :return: the cleaned example dictionary
+    """
+    cleaned_entities = [ent for ent in example['entities'] if ent['label'] in valid_labels]
+    example['entities'] = cleaned_entities
+    return example
+
 
 if __name__ == '__main__':
     from utils.json_utils import read_json_file, save_json_file, to_readable_format
-    for file_name in []:
-        data = read_json_file(f"seed_samples/test/seed_{file_name}_test.json")
+    """
+    count = 0
+    for file_name in ["diaries_therap", "diaries_psych"]:
+        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train_2.json")
+        for example in data:
+            for ent in example['entities']:
+                if ent['label'] in {'FAC','ORG'}:
+                    count += 1
+    print(f"Total FAC and ORG entities: {count}")
+    """
+
+    for file_name in ["diaries_therap", "diaries_psych", "reports"]:
+        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train.json")
         data = [clean_common_mistakes(example) for example in data]
         data = [replace_common_names(example) for example in data]
-        data = [change_some_entities_to_lowercase(example) for example in data]
+        # data = [change_some_entities_to_lowercase(example) for example in data]
         data = to_spacy_format(data)
         data = to_readable_format(data)
-        save_json_file(f"seed_samples/test/seed_{file_name}_test.json", data)
+        save_json_file(f"synthetic_samples/synthetic_{file_name}_train.json", data)
+

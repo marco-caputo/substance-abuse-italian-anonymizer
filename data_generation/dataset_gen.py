@@ -35,39 +35,41 @@ def extract_chunks(dataframe):
 
 def take_diaries_test_portion():
     """Splits the last generated diaries synthetic data into train and test sets."""
-    train_examples = read_json_file(f"synthetic_samples/synthetic_{SEED_SAMPLES[-1]['filename']}_train.json")
+    train_examples = read_json_file(f"synthetic_samples/train/synthetic_{SEED_SAMPLES[-1]['filename']}_train.json")
     index_split = int(len(train_examples) * TRAIN_TEST_SPLIT_DIARIES)
     test_examples = train_examples[index_split:]
     train_examples = train_examples[:index_split]
 
-    append_json_data(f"synthetic_samples/synthetic_{SEED_SAMPLES[-1]['filename']}_train.json", train_examples)
-    print(f"Saved{len(train_examples)} train examples in seed_samples/train/seed_{SEED_SAMPLES[-1]['filename']}_train.json")
+    file_name = f"synthetic_samples/synthetic_{SEED_SAMPLES[-1]['filename']}_train.json"
+    append_json_data(file_name, train_examples)
+    print(f"Saved{len(train_examples)} train examples in {file_name}")
 
-    append_json_data(f"seed_samples/test/seed_{SEED_SAMPLES[-1]['filename']}_test.json", test_examples)
-    print(f"Saved {len(test_examples)} test examples to seed_samples/test/seed_{SEED_SAMPLES[-1]['filename']}_test.json")
+    file_name = f"seed_samples/test/seed_{SEED_SAMPLES[-1]['filename']}_test.json"
+    append_json_data(file_name, test_examples)
+    print(f"Saved {len(test_examples)} test examples to {file_name}")
 
 def generate_diaries(chunk: list[str], iteration: int):
     """Generates, cleans and saves diaries examples in two steps: first translating, then labeling entities."""
     chunk = send_prompt(get_diaries_translation_prompt(chunk))
     generate_examples(get_diaries_ner_prompt(chunk), SEED_SAMPLES[-1], iteration)
 
-def save_and_print(data: list[dict], samples_files: dict, iteration: int):
+def save_and_print(data: list[dict], samples_files: dict, iteration: int, train_test: str = "train"):
     """Cleans, saves and prints information about generated data."""
     data = [clean_common_mistakes(ex) for ex in data]
     data = [replace_common_names(ex) for ex in data]
     # data = [change_some_entities_to_lowercase(ex) for ex in data]
-    filename = append_json_data(f"synthetic_{samples_files['filename']}_train", data)
-    print(f"Generation {iteration + 1}/{samples_files['n_outputs']} from {samples_files['filename']} - "
+    filename = append_json_data(f"synthetic_samples/{train_test}/synthetic_{samples_files['filename']}_train.json", data)
+    print(f"Generation {iteration + 1}/{samples_files['n_outputs'][train_test]} from {samples_files['filename']} - "
           f"{len(data)} synthetic examples saved in {filename}")
 
-def generate_examples(p: str, samples_files: dict, iteration: int):
+def generate_examples(p: str, samples_files: dict, iteration: int, train_test: str = "train"):
     """Generates examples using the provided prompt, cleans and saves them."""
     data = send_prompt(p)
-    save_and_print(data, samples_files, iteration)
+    save_and_print(data, samples_files, iteration, train_test)
 
-def generate_examples_report(samples_files: dict, iteration: int):
+def generate_examples_report(samples_files: dict, iteration: int, train_test: str):
     """Generates, cleans and saves report examples in two steps: first generating the text, then labeling entities."""
-    starting_prompt = get_report_text_prompt()
+    starting_prompt = get_report_text_prompt(train_test)
     json_text = send_prompt(starting_prompt)["text"]
     json_text = replace_common_names(json_text)
     second_prompt = get_report_label_prompt(json_text)
@@ -77,7 +79,7 @@ def generate_examples_report(samples_files: dict, iteration: int):
         "entities": json_entities
     }))
 
-    save_and_print([example], samples_files, iteration)
+    save_and_print([example], samples_files, iteration, train_test)
 
 def main():
     # Prepare diaries seed data
@@ -85,28 +87,22 @@ def main():
     diaries_chunks = extract_chunks(data)
 
     for samples_file in SEED_SAMPLES:
-        for i in range(samples_file['n_outputs']):
-            error = True
-            while error:
-                if samples_file['filename'] == "reports": generate_examples_report(samples_file, i)
-                if samples_file['filename'] == "diaries_it": generate_diaries(diaries_chunks[i], i)
-                else: generate_examples(get_staff_diaries_prompt(samples_file), samples_file, i)
+        for train_test in (["train", "test"] if samples_file['filename'] != "diaries_it" else ["train"]):
+            for i in range(samples_file['n_outputs'][train_test]):
+                error = True
+                while error:
+                    try:
+                        if samples_file['filename'] == "reports": generate_examples_report(samples_file, i, train_test)
+                        if samples_file['filename'] == "diaries_it": generate_diaries(diaries_chunks[i], i)
+                        else:
+                            generate_examples(get_staff_diaries_prompt(samples_file, train_test),
+                                              samples_file, i, train_test)
 
-                error = False
-                """
-                try:
-                    if samples_file['filename'] == "reports": generate_examples_report(samples_file, i)
-                    if samples_file['filename'] == "diaries":
-                        generate_diaries(diaries_chunks[i], i)
-                    else:
-                        generate_examples(get_staff_diaries_prompt(samples_file), samples_file, i)
+                        error = False
+                    except Exception as e:
+                        print(f"Error during report generation: {e} \n Retrying...")
 
-                    error = False
-                except Exception as e:
-                    print(f"Error during report generation: {e} \n Retrying...")
-                """
-
-        if samples_file['filename'] == "diaries": take_diaries_test_portion()
+        if samples_file['filename'] == "diaries_it": take_diaries_test_portion()
 
 
 if __name__ == "__main__":

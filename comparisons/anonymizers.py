@@ -1,7 +1,7 @@
 import spacy
 from data_generation import NER_LABELS
-from dictionaries.regex_masking import mask_text
-from dictionaries.remove_double_tags import remove_double_tags
+from rules.regex_masking import mask_text
+from rules.remove_double_tags import remove_double_tags
 
 def anonymize_text(nlp_model, text, entities_to_anonymize):
     """Replaces selected entity types with anonymized placeholders."""

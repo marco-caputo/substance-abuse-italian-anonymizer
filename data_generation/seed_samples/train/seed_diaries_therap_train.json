@@ -9,7 +9,6 @@
     {
         "text": "Da vedere che programma proporre. Dice che la realtà fuori da solo non riesce ad affrontarla, dura poco e poi ricade. Non prende mai posizione durante le dinamiche interne del gruppo, rimane in disparte. L'unica volta è stata per la questione del telefono, forse un piccolo passo. Soffre molto la solitudine. mette in atto sempre le stesse cosa (resindence, minias, comunità) non riesce a spezzare questo ciclo. Responsabilità camomilla: prepara la camomilla una volta finita la cucina, riempie le borracce. Chi non lascia la borraccia non prende la camomilla.\n",
         "entities": [
-            {"text": "minias", "label": "MEDICINE"}
         ]
     },
     {
@@ -54,7 +53,6 @@
         "text": "Ha chiamato il diurno per sapere se voleva vendere la macchina. Abbiamo chiamato il figlio e lui non la vuole vendere visto che è sua anche se sta a nome di Vincenzo, ma bisogna fare il passaggio a lui. Ci dice che lui si è licenziato o lo hanno licenziato e che gli hanno ritirato la patente perchè si è rifiutato di fare il test dell'alcol. Ci dobbiamo mettere d'accordo per quando verrà con un suo amico per prendere la macchina. Abbiamo sentito la Renda che ci farà la relazione e la manderemo a mondo x e La Lautari. In un gruppo lui dice che voleva più una comunità terapeutica, gli si rimanda che ora quello chegli viene proposto accetta, altrimenti se ne va per la sua strada.",
         "entities": [
             {"text": "Vincenzo", "label": "PATIENT"},
-            {"text": "alcol", "label": "SUBSTANCE"},
             {"text": "Renda", "label": "PER"},
             {"text": "mondo x", "label": "ORG"},
             {"text": "La Lautari", "label": "ORG"}

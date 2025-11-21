@@ -68,15 +68,14 @@ def to_readable_format(spacy_examples: list[tuple]) -> list[dict]:
 def append_json_data(f_name:str, data: list[dict]) -> str:
     """
     Saves sample data to a JSON file. If the file already exists, appends the new data to the existing data.
-    :param f_name: filename without extension
+    :param f_name: complete path and file name of the JSON file
     :param data: list of sample data to save
     :return: the path to the saved file
     """
-    new_filename = f"synthetic_samples/{f_name}.json"
 
     # If file exists, load existing data
-    if os.path.exists(new_filename):
-        with open(new_filename, "r", encoding="utf-8") as f:
+    if os.path.exists(f_name):
+        with open(f_name, "r", encoding="utf-8") as f:
             try:
                 existing_data = json.load(f)
             except json.JSONDecodeError:
@@ -88,10 +87,10 @@ def append_json_data(f_name:str, data: list[dict]) -> str:
     existing_data.extend(data)
 
     # Save updated data back to the file
-    with open(new_filename, "w", encoding="utf-8") as f:
+    with open(f_name, "w", encoding="utf-8") as f:
         json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
-    return new_filename
+    return f_name
 
 
 def read_json_file(file_path: str):

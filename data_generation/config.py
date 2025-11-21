@@ -38,27 +38,27 @@ SEED_SAMPLES = [
         "description": "psychiatric clinical diary notes",
         "n_per_output": 5,
         "n_examples_per_prompt": 5,
-        "n_outputs": 0
+        "n_outputs": {"train" : 100, "test": 50}
     },
     {
         "filename": 'diaries_therap',
         "description": "therapeutic clinical diary notes",
         "n_per_output": 5,
         "n_examples_per_prompt": 5,
-        "n_outputs": 0
+        "n_outputs": {"train" : 100, "test": 50}
     },
     {
         "filename": 'reports',
         "description": "long reports of a patient in substance abuse treatment (relazioni ai servizi e monitoraggio PTI)",
         "n_per_output": 1,
         "n_examples_per_prompt": 1,
-        "n_outputs": 0
+        "n_outputs": {"train" : 400, "test": 100}
     },
     {
         "filename": "diaries_it",
         "description": "diary entry in Italian",
         "n_per_output": 5,
-        "n_outputs": 2 #1473 // 5
+        "n_outputs": {"train": 1473 // 5}
     }
 ]
 
