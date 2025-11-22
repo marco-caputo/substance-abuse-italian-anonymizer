@@ -1,6 +1,6 @@
 import spacy
 from data_generation import NER_LABELS
-from rules.regex_masking import mask_text
+from rules.regex_masking import apply_rules
 from rules.remove_double_tags import remove_double_tags
 
 def anonymize_text(nlp_model, text, entities_to_anonymize):
@@ -21,7 +21,7 @@ def anonymize_text(nlp_model, text, entities_to_anonymize):
 def get_full_anonymizer(path: str):
     """Returns a full anonymization function using the specified spaCy model path."""
     nlp = spacy.load(path)
-    return lambda txt: remove_double_tags(mask_text(anonymize_text(nlp, txt, NER_LABELS)))
+    return lambda txt: remove_double_tags(apply_rules(anonymize_text(nlp, txt, NER_LABELS)))
 
 
 if __name__ == "__main__":
