@@ -1,1 +1,0 @@
-Visit https://example.com/path?query=1 or http://192.168.0.1:8080/page and also //cdn.example.org/lib.js or www.test.co.uk/index.html

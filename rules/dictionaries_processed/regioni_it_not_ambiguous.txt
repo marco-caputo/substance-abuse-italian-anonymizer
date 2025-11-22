@@ -1,0 +1,15 @@
+trentino-alto adige/südtirol
+friuli-venezia giulia
+emilia-romagna
+valle d'aosta
+basilicata
+lombardia
+calabria
+campania
+piemonte
+sardegna
+abruzzo
+liguria
+sicilia
+molise
+umbria
