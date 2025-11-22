@@ -1,0 +1,2 @@
+NER/models/deployed/transformer/model filter=lfs diff=lfs merge=lfs -text
+NER/models/pre_trained/it_nerIta_trf/transformer/model filter=lfs diff=lfs merge=lfs -text
