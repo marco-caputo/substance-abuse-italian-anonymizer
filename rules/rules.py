@@ -104,7 +104,7 @@ def _collect_entity_spans_from_regex(doc: Doc, pattern: str | re.Pattern[str], t
     new_entities = []
 
     def replacer(match):
-        start, end = match.start(), match.end()
+        start, end = (match.start(1), match.end(1)) if match.lastindex else (match.start(), match.end())
         span = doc.char_span(start, end, label=tag, alignment_mode="expand")
         if span is not None:
             new_entities.append(span)
@@ -175,7 +175,7 @@ def _mask_ambiguous_province(doc: Doc, path: str) -> Doc:
         return doc
 
     capitalized_tokens = [t.upper() for t in tokens if t]
-    pattern = r"$((?:" + "|".join(re.escape(t) for t in capitalized_tokens) + r")$)"
+    pattern = r"\(\s*(" + "|".join(re.escape(t) for t in capitalized_tokens) + r")\s*\)"
     return _collect_entity_spans_from_regex(doc, pattern, prov_tag)
 
 def _mask_ambiguous_common_names(doc: Doc) -> Doc:
