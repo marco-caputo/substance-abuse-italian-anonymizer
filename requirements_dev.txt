@@ -1,0 +1,23 @@
+curl_cffi
+aiohttp
+aiohttp_socks
+auth
+Flask[async]
+g4f
+Werkzeug>=3.0.3
+aiohttp_socks
+nodriver
+python-multipart
+uvicorn
+fastapi
+spacy==3.8.9
+https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.7.0/it_core_news_lg-3.7.0-py3-none-any.whl
+pandas
+spacy[transformers]
+docx
+deepl
+stanza
+presidio_analyzer
+presidio_anonymizer
+deepl
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl

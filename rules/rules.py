@@ -1,16 +1,22 @@
 import os
 import re
+import sys
+from pathlib import Path
 
 import unicodedata
 import spacy
 from spacy.tokens import Doc, Span
 from typing import List
 
-from prepare_dictionaries import load_wordlist
+from rules.prepare_dictionaries import load_wordlist
 from rules.remove_double_tags import merge_adjacent_entities_same_label
 
-dictionaries_path = "dictionaries"
-processed_dictionaries_path = "dictionaries_processed"
+# Ensures project root is on sys.path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+dictionaries_path = "rules/dictionaries"
+processed_dictionaries_path = "rules/dictionaries_processed"
 
 test_file_path =  os.path.join("test_files")
 phone_text_path = os.path.join(test_file_path, "phone_text.txt")
@@ -107,7 +113,6 @@ def _collect_entity_spans_from_regex(doc: Doc, regex: str | re.Pattern[str], tag
 
     # Combine existing entities and new entities
     all_spans = list(doc.ents) + new_entities
-    print(all_spans)
     if not all_spans:
         return doc
 

@@ -1,0 +1,2 @@
+DEFAULT_ENTITIES = ["PATIENT", "PER", "LOC", "ORG", "FAC", "GPE", "DATE", "NORP", "CODE", "EMAIL", "PHONE", "URL"]
+DEFAULT_NER_MODEL = "NER/models/deployed"
