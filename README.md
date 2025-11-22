@@ -29,7 +29,7 @@ python -m spacy download it_core_news_lg
 ## Configuration
 
 In the config.py file, you can customize:
-- Which entity types to anonymize (default: "PATIENT", "PER", "LOC", "ORG", "FAC", "GPE", "DATE", "NORP", "CODE", "EMAIL", "PHONE", "URL")
+- Which entity types to anonymize
 - The spaCy model to use
 
 The full list of availble entity types is described in the following table:
