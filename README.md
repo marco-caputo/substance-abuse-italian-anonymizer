@@ -22,10 +22,6 @@ cd substance-abuse-italian-anonymizer
 pip install -r requirements.txt
 ```
 
-```bash
-python -m spacy download it_core_news_lg
-```
-
 ## Configuration
 
 In the config.py file, you can customize:
