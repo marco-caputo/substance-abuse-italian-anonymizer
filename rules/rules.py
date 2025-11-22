@@ -1,7 +1,7 @@
 import os
-import re
 import sys
 from pathlib import Path
+import regex as re
 
 import unicodedata
 import spacy
@@ -26,12 +26,14 @@ url_text_path = os.path.join(test_file_path, "url_text.txt")
 codes_text_path = os.path.join(test_file_path, "codes_text.txt")
 
 gpe_tag = "GPE"
-name_tag = "PER"
+per_tag = "PER"
 email_tag = "EMAIL"
 phone_tag = "PHONE"
 url_tag = "URL"
 prov_tag = "PROV"
 code_tag = "CODE"
+
+common_ambiguous_names = "[Mm]arco|[Ll]uca|[Ff]rancesco|[Pp]aolo|[Pp]aolino|Pasquale|Omero|[Ll]aura|Linda|Aurora|[Dd]ante|[Dd]iana|[Mm]aria|[Ll]ucia|Bruno|Viola|Angelo|Angela|[Aa]ugusto|[Ss]ilvia|[Ss]ilvio|[Ss]andra|Roman[oa]|Diletta|Fede|[Ll]idia|Gloria|[Pp]iero|[Rr]enat[oa]|Franco|[Ll]eo|[Mm]attia|Marino|Giada|[Rr]occo|[Vv]anessa|[Ss]auro|[Aa]lessia|Violetta|Massimo|[Cc]laudia|[Vv]eronica|[Vv]ittorio|Vittoria|[Pp]enelope|[Pp]atrizi[oa]|[Gg]raziano|Grazia|Cristian[oa]|[Ff]ilippo|[Ff]abiano|[Mm]oira|[Rr]affaella|[Ee]lisa|[Ll]isa|[Ll]azzaro|[Gg]iacinto|Salvatore|Stella|Fausto|[Tt]iziano|[Mm]immo|Italo|Guido|[Ii]do|[Mm]aia|Luna|[Cc]iro|[Cc]aio|[Aa]melia|[Mm]elissa|Gustavo"
 
 simple_email_re = r"[A-Za-z0-9._%+-]+@+[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
 
@@ -91,7 +93,7 @@ def _get_file_path(entities: str, ambiguous: bool = False) -> str:
     return os.path.join(processed_dictionaries_path, f"{entities}_it_{suffix}.txt")
 
 
-def _collect_entity_spans_from_regex(doc: Doc, regex: str | re.Pattern[str], tag: str, flags = 0) -> Doc:
+def _collect_entity_spans_from_regex(doc: Doc, pattern: str | re.Pattern[str], tag: str, flags = 0) -> Doc:
     """
     Enriches the Doc with entities found by regex. Possible conflicts with existing entities are resolved by
     merging overlapping spans and preferring the longest span label.
@@ -109,7 +111,7 @@ def _collect_entity_spans_from_regex(doc: Doc, regex: str | re.Pattern[str], tag
 
         return f"[{tag}]"
 
-    re.sub(regex, replacer, text_nfc, flags=flags)
+    re.sub(pattern, replacer, text_nfc, flags=flags)
 
     # Combine existing entities and new entities
     all_spans = list(doc.ents) + new_entities
@@ -153,15 +155,17 @@ def _mask_not_ambiguous_entities(doc: Doc, dictionary: List[str], tag: str, flag
     return _collect_entity_spans_from_regex(doc, pattern, tag, flags)
 
 
-def _mask_ambiguous_entities(text: str, tokens: List[str], tag: str) -> str:
-    if not tokens:
-        return text
+def _mask_ambiguous_entities(doc: Doc, dictionary: List[str], tag: str, flags = 0) -> Doc:
+    if not dictionary:
+        return doc
 
-    text_nfc = unicodedata.normalize("NFC", text)
-    capitalized_tokens = [t[0].upper() + t[1:] for t in tokens if t]
-    sorted_tokens = sorted(set(capitalized_tokens), key=len, reverse=True)
-    pattern = r"\b(?:" + "|".join(re.escape(t) for t in sorted_tokens) + r")\b"
-    return re.sub(pattern, tag, text_nfc)
+    capitalized_dic = [t.capitalize() for t in dictionary if t]
+    pattern = (
+            r"(?<!^)"
+            r"(?<![-\.!?:;·…»«>][\s\t\n]*)"
+            r"\b(?:" + "|".join(re.escape(t) for t in capitalized_dic) + r")\b"
+    )
+    return _collect_entity_spans_from_regex(doc, pattern, tag, flags)
 
 
 def _mask_ambiguous_province(doc: Doc, path: str) -> Doc:
@@ -174,13 +178,22 @@ def _mask_ambiguous_province(doc: Doc, path: str) -> Doc:
     pattern = r"$((?:" + "|".join(re.escape(t) for t in capitalized_tokens) + r")$)"
     return _collect_entity_spans_from_regex(doc, pattern, prov_tag)
 
+def _mask_ambiguous_common_names(doc: Doc) -> Doc:
+    """
+    Mask common ambiguous names according to the regex capitalization in any possible position (even start of sentence).
+    """
+    pattern = r"\b(?:" + common_ambiguous_names + r")\b"
+    return _collect_entity_spans_from_regex(doc, pattern, per_tag)
 
-def _mask_entities_in_text(doc: Doc, file: str, tag: str) -> Doc:
+
+def _mask_entities_in_text(doc: Doc, file: str, tag: str, ambguous: bool = False) -> Doc:
     """
     Mask entities in the text using both not ambiguous and ambiguous masking.
     """
-    not_ambiguous = load_wordlist(file)
-    masked_doc = _mask_not_ambiguous_entities(doc, not_ambiguous, tag, re.IGNORECASE)
+    word_list = load_wordlist(file)
+    masked_doc = _mask_ambiguous_entities(doc, word_list, tag) if ambguous \
+        else _mask_not_ambiguous_entities(doc, word_list, tag, re.IGNORECASE)
+
     return masked_doc
 
 
@@ -191,9 +204,13 @@ def apply_rules(doc: Doc | str) -> Doc:
     if isinstance(doc, str):
         doc = Doc(spacy.blank("it").vocab, words=doc.split())
 
-    doc = _mask_entities_in_text(doc, _get_file_path("nomi"), name_tag)
-    doc = _mask_entities_in_text(doc, _get_file_path("cognomi"), name_tag)
+    doc = _mask_entities_in_text(doc, _get_file_path("nomi"), per_tag)
+    doc = _mask_entities_in_text(doc, _get_file_path("nomi", True), per_tag, ambguous=True)
+    doc = _mask_ambiguous_common_names(doc)
+    doc = _mask_entities_in_text(doc, _get_file_path("cognomi"), per_tag)
+    doc = _mask_entities_in_text(doc, _get_file_path("cognomi", True), per_tag, ambguous=True)
     doc = _mask_entities_in_text(doc, _get_file_path("comuni"), gpe_tag)
+    doc = _mask_entities_in_text(doc, _get_file_path("comuni", True), gpe_tag, ambguous=True)
     doc = _mask_entities_in_text(doc, _get_file_path("regioni"), gpe_tag)
     doc = _mask_entities_in_text(doc, _get_file_path("nazioni"), gpe_tag)
 
