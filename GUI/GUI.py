@@ -1,11 +1,17 @@
-# Make the project root importable
+#!/usr/bin/env python3
+"""
+Minimal GUI tweaks:
+- remove 'examples' column from entity table
+- remove title next to banner, give banner more horizontal space
+Other logic unchanged.
+"""
+
 import sys
 import os
 from pathlib import Path
 from typing import Iterable
 
-from data_generation import ANONYMIZATION_LABELS
-
+# make project root importable (adjust as in your project)
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -14,137 +20,271 @@ import spacy
 from spacy import Language
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
+from PIL import Image, ImageTk
 
 from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES
+from data_generation import ANONYMIZATION_LABELS
 from utils.anonymization_utils import save_anonymized_text, read_file, anonymize_doc
 from rules.rules import apply_rules
 
-
-def anonymize(text: str, nlp:Language= None, entities:Iterable[str]=None) -> str:
-    if nlp is None: nlp = spacy.load(DEFAULT_NER_MODEL)
-    if entities is None: entities = DEFAULT_ENTITIES
+# ----------------------------
+#   Anonymization function
+# ----------------------------
+def anonymize(text: str, nlp: Language = None, entities: Iterable[str] = None) -> str:
+    if nlp is None:
+        nlp = spacy.load(DEFAULT_NER_MODEL)
+    if entities is None:
+        entities = DEFAULT_ENTITIES
     return anonymize_doc(apply_rules(nlp(text)), entities)
+
+
+# ----------------------------
+#   Entity metadata (Italian)
+# ----------------------------
+# Note: we removed the examples column per your request.
+ENTITY_INFO = {
+    "PATIENT": "Nomi di pazienti",
+    "PER": "Persone (nomi e cognomi)",
+    "LOC": "Luoghi (posizioni, vie)",
+    "ORG": "Organizzazioni",
+    "FAC": "Strutture e impianti",
+    "GPE": "Entità geopolitiche (paesi, regioni, città)",
+    "NORP": "Nazionalità, gruppi religiosi o politici",
+    "AGE": "Età della persona",
+    "DATE": "Date e riferimenti temporali",
+    "EVENT": "Eventi",
+    "WORKS_OF_ART": "Titoli di opere",
+    "PRODUCT": "Prodotti",
+    "CODE": "Codici (fiscali, postali, ecc.)",
+    "MAIL": "Indirizzi e-mail",
+    "PHONE": "Numeri di telefono",
+    "PROV": "Province italiane (sigle)",
+    "URL": "Siti web / URL",
+}
 
 
 class AnonymizerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Document Anonymizer")
-        self.root.geometry("700x500")
-        self.root.resizable(False, False)
+        self.root.title("Anonimizzatore Digit-Care")
+        self.root.geometry("1100x700")
+        self.root.minsize(900, 600)
 
         self.selected_files = []
         self.output_dir = ""
 
+        # --- MAIN PANED WINDOW (RESIZABLE SECTIONS) ---
+        main_pane = ttk.PanedWindow(root, orient="horizontal")
+        main_pane.pack(fill="both", expand=True)
+
+        # LEFT PANEL (file selection + entities)
+        left_frame = ttk.Frame(main_pane)
+        main_pane.add(left_frame, weight=3)  # give more weight to left (entity table)
+
+        # RIGHT PANEL (log)
+        right_frame = ttk.Frame(main_pane, padding=(0, 10, 0, 0))
+        main_pane.add(right_frame, weight=1)
+
+        # --- BANNER (full-width, no title) ---
+        banner_frame = ttk.Frame(left_frame, padding=(10, 10, 10, 10))
+        banner_frame.pack(fill="x", pady=5)
+
+        banner_path = Path(__file__).parent / "banner.png"
+
+        if banner_path.exists():
+            try:
+                # Load original image
+                self.banner_original = Image.open(banner_path)
+                self.banner_photo = ImageTk.PhotoImage(self.banner_original)
+
+                # Create label and pack it (this step was missing)
+                self.banner_label = ttk.Label(banner_frame, image=self.banner_photo)
+                self.banner_label.pack(fill="x", expand=True)
+
+                # Resize dynamically
+                banner_frame.bind("<Configure>", self._resize_banner)
+
+            except Exception:
+                # Fallback
+                try:
+                    self.banner_img = tk.PhotoImage(file=str(banner_path))
+                    self.banner_label = tk.Label(banner_frame, image=self.banner_img)
+                    self.banner_label.pack(fill="x")
+                except Exception:
+                    tk.Label(banner_frame, text="[banner.png non caricato]", font=("Arial", 12)).pack(fill="x")
+        else:
+            tk.Label(banner_frame, text="[banner.png non trovato]", font=("Arial", 12)).pack(fill="x")
+
         # --- FILE SELECTION FRAME ---
-        file_frame = ttk.LabelFrame(root, text="1. Select Files or Folder")
-        file_frame.pack(fill="x", padx=10, pady=10)
+        file_frame = ttk.LabelFrame(left_frame, text="1. Seleziona file o cartella")
+        file_frame.pack(fill="x", padx=10, pady=6)
 
-        ttk.Button(file_frame, text="Select Files", command=self.select_files).pack(side="left", padx=5, pady=5)
-        ttk.Button(file_frame, text="Select Folder", command=self.select_folder).pack(side="left", padx=5, pady=5)
+        btn_frame = ttk.Frame(file_frame)
+        btn_frame.pack(fill="x", pady=5)
+        ttk.Button(btn_frame, text="Seleziona File", command=self.select_files).pack(side="left", padx=5)
+        ttk.Button(btn_frame, text="Seleziona Cartella", command=self.select_folder).pack(side="left", padx=5)
 
-        self.file_listbox = tk.Listbox(file_frame, height=5)
+        self.file_listbox = tk.Listbox(file_frame, height=4)
         self.file_listbox.pack(fill="x", padx=10, pady=5)
 
-        # --- ENTITY SELECTION FRAME ---
-        entity_frame = ttk.LabelFrame(root, text="2. Select Entities to Anonymize")
-        entity_frame.pack(fill="x", padx=10, pady=10)
+        # --- ENTITY TABLE FRAME (SCROLLABLE) ---
+        entity_frame = ttk.LabelFrame(left_frame, text="2. Seleziona entità da anonimizzare")
+        entity_frame.pack(fill="both", expand=True, padx=10, pady=6)
 
-        self.entity_vars = {label: tk.BooleanVar() for label in ANONYMIZATION_LABELS}
+        canvas = tk.Canvas(entity_frame)
+        scroll = ttk.Scrollbar(entity_frame, orient="vertical", command=canvas.yview)
+        self.entity_inner = ttk.Frame(canvas)
 
-        for i, (label, var) in enumerate(self.entity_vars.items()):
-            ttk.Checkbutton(entity_frame, text=label, variable=var).grid(row=0, column=i, padx=5, pady=5)
+        # --- Enable mouse wheel scrolling ---
+        def _on_mousewheel(event):
+            # Windows / Linux
+            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+        def _on_mousewheel_mac(event):
+            # macOS uses different delta
+            canvas.yview_scroll(int(-1 * event.delta), "units")
+
+        # Bind depending on platform
+        if sys.platform == "darwin":
+            canvas.bind_all("<MouseWheel>", _on_mousewheel_mac)
+        else:
+            canvas.bind_all("<MouseWheel>", _on_mousewheel)
+
+
+        canvas.configure(yscrollcommand=scroll.set)
+        canvas.pack(side="left", fill="both", expand=True)
+        scroll.pack(side="right", fill="y")
+
+        canvas.create_window((0, 0), window=self.entity_inner, anchor="nw")
+        self.entity_inner.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+
+        # headings (no examples column)
+        ttk.Label(self.entity_inner, text="", width=3).grid(row=0, column=0, padx=4, pady=4)  # checkbox column
+        ttk.Label(self.entity_inner, text="Entità", font=(None, 10, "bold")).grid(row=0, column=1, sticky="w", padx=4)
+        ttk.Label(self.entity_inner, text="Descrizione", font=(None, 10, "bold")).grid(row=0, column=2, sticky="w", padx=4)
+
+        # Build table of labels + descriptions
+        self.entity_vars = {}
+
+        for r, label in enumerate(ANONYMIZATION_LABELS, start=1):
+            var = tk.BooleanVar(value=(label in DEFAULT_ENTITIES))
+            self.entity_vars[label] = var
+
+            ttk.Checkbutton(self.entity_inner, variable=var).grid(row=r, column=0, sticky="nw", padx=5, pady=6)
+            ttk.Label(self.entity_inner, text=label).grid(row=r, column=1, sticky="w", padx=8, pady=6)
+            desc = ENTITY_INFO.get(label, "")
+            ttk.Label(self.entity_inner, text=desc, wraplength=740, justify="left").grid(row=r, column=2, sticky="w", padx=8, pady=6)
 
         # --- OUTPUT DIRECTORY FRAME ---
-        output_frame = ttk.LabelFrame(root, text="3. Choose Output Folder")
-        output_frame.pack(fill="x", padx=10, pady=10)
+        output_frame = ttk.LabelFrame(left_frame, text="3. Cartella di destinazione")
+        output_frame.pack(fill="x", padx=10, pady=6)
 
-        ttk.Button(output_frame, text="Select Output Folder", command=self.select_output_folder).pack(side="left", padx=5, pady=5)
-        self.output_label = ttk.Label(output_frame, text="No folder selected", foreground="gray")
+        ttk.Button(output_frame, text="Seleziona cartella", command=self.select_output_folder).pack(side="left", padx=5, pady=6)
+        self.output_label = ttk.Label(output_frame, text="Nessuna cartella selezionata", foreground="gray")
         self.output_label.pack(side="left", padx=10)
 
         # --- ACTION BUTTONS ---
-        action_frame = ttk.Frame(root)
-        action_frame.pack(fill="x", padx=10, pady=20)
+        action_frame = ttk.Frame(left_frame)
+        action_frame.pack(fill="x", padx=10, pady=8)
 
-        ttk.Button(action_frame, text="Anonymize Documents", command=self.anonymize_documents).pack(side="left", padx=10)
-        ttk.Button(action_frame, text="Exit", command=root.quit).pack(side="right", padx=10)
+        ttk.Button(action_frame, text="Anonimizza Documenti", command=self.anonymize_documents).pack(side="left", padx=10)
+        ttk.Button(action_frame, text="Esci", command=root.quit).pack(side="right", padx=10)
 
-        # --- STATUS TEXT BOX ---
-        self.status_box = tk.Text(root, height=10, state="disabled", bg="#f7f7f7")
-        self.status_box.pack(fill="both", padx=10, pady=10)
+        # --- LOG BOX (Right panel) ---
+        log_label = ttk.Label(right_frame, text="Log", font=("Arial", 12, "bold"))
+        log_label.pack(anchor="w", padx=5, pady=5)
 
+        self.status_box = tk.Text(right_frame, height=20, bg="#f7f7f7")
+        self.status_box.pack(fill="both", expand=True, padx=10, pady=10)
+
+
+    # --------------------------------------------------------------------
+    # Utility methods
+    # --------------------------------------------------------------------
     def log(self, message):
-        """Append message to status box."""
-        self.status_box.config(state="normal")
         self.status_box.insert("end", message + "\n")
-        self.status_box.config(state="disabled")
         self.status_box.see("end")
 
+    def _resize_banner(self, event):
+        """Resize banner image proportionally when frame size changes."""
+        if not hasattr(self, "banner_original"):
+            return
+
+        new_w = event.width -20
+        orig_w, orig_h = self.banner_original.size
+
+        # keep aspect ratio
+        ratio = new_w / orig_w
+        new_h = int(orig_h * ratio)
+
+        resized = self.banner_original.resize((new_w, new_h), Image.Resampling.LANCZOS)
+        self.banner_photo = ImageTk.PhotoImage(resized)
+        self.banner_label.config(image=self.banner_photo)
+
     def select_files(self):
-        files = filedialog.askopenfilenames(title="Select Files", filetypes=[("Documents", "*.pdf *.docx *.txt")])
+        files = filedialog.askopenfilenames(title="Seleziona File", filetypes=[("Documenti", "*.pdf *.docx *.txt")])
         if files:
             self.selected_files = list(files)
             self.file_listbox.delete(0, "end")
             for f in self.selected_files:
                 self.file_listbox.insert("end", f)
-            self.log(f"Selected {len(files)} files.")
+            self.log(f"Selezionati {len(files)} file.")
 
     def select_folder(self):
-        folder = filedialog.askdirectory(title="Select Folder")
+        folder = filedialog.askdirectory(title="Seleziona Cartella")
         if folder:
             self.selected_files = [os.path.join(folder, f) for f in os.listdir(folder)
                                    if f.lower().endswith((".pdf", ".docx", ".txt"))]
             self.file_listbox.delete(0, "end")
             for f in self.selected_files:
                 self.file_listbox.insert("end", f)
-            self.log(f"Selected all documents in folder: {folder}")
+            self.log(f"Caricati tutti i documenti da: {folder}")
 
     def select_output_folder(self):
-        folder = filedialog.askdirectory(title="Select Output Folder")
+        folder = filedialog.askdirectory(title="Seleziona cartella")
         if folder:
             self.output_dir = folder
             self.output_label.config(text=folder, foreground="black")
-            self.log(f"Output folder set to: {folder}")
+            self.log(f"Cartella di output impostata: {folder}")
 
+    # Main anonymization loop
     def anonymize_documents(self):
         if not self.selected_files:
-            messagebox.showwarning("Warning", "Please select at least one document.")
+            messagebox.showwarning("Attenzione", "Seleziona almeno un documento.")
             return
         if not self.output_dir:
-            messagebox.showwarning("Warning", "Please select an output folder.")
+            messagebox.showwarning("Attenzione", "Seleziona una cartella di output.")
             return
 
         selected_entities = [ent for ent, var in self.entity_vars.items() if var.get()]
         if not selected_entities:
-            messagebox.showwarning("Warning", "Please select at least one entity type.")
+            messagebox.showwarning("Attenzione", "Seleziona almeno una categoria di entità.")
             return
 
-        self.log("Starting anonymization process...")
+        self.log("Anonimizzazione in corso...")
 
         for file_path in self.selected_files:
-            text=""
+            text = ""
             try:
                 text = read_file(file_path)
             except Exception as e:
-                messagebox.showerror("Error", f"Failed to read {file_path}: {e}")
+                messagebox.showerror("Errore", f"Impossibile leggere {file_path}: {e}")
             if not text.strip():
-                self.log(f"Skipped (empty): {file_path}")
+                self.log(f"Saltato (vuoto): {file_path}")
                 continue
 
             anonymized = anonymize(text, entities=selected_entities)
             out_path = save_anonymized_text(anonymized, output_dir=self.output_dir, original_filename=file_path)
-            self.log(f"Saved anonymized file: {out_path}")
+            self.log(f"File anonimizzato salvato: {out_path}")
 
-        messagebox.showinfo("Done", "Anonymization completed successfully!")
-        self.log("All files processed successfully.")
+        messagebox.showinfo("Fatto", "Anonimizzazione completata con successo!")
+        self.log("Tutti i file sono stati processati con successo.")
 
-
+# Entry point
 def main():
     root = tk.Tk()
     app = AnonymizerApp(root)
     root.mainloop()
 
-# ---------- RUN APP ----------
 if __name__ == "__main__":
     main()
