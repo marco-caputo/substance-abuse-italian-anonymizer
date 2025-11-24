@@ -1,0 +1,2040 @@
+[
+  {
+    "text": "Durante il trattamento, il paziente ha riferito un progressivo miglioramento della gestione dell'ansia e della paura di ricadute. Il supporto psicoterapico sembra essere efficace nel ridurre il desiderio di consumo, anche se persistono difficoltà legate alla gestione dell'umore. Continuare con il protocollo di disintossicazione, mantenendo il dosaggio ridotto di metadone per il mese successivo.",
+    "entities": []
+  },
+  {
+    "text": "Alla visita, si è osservata una lieve flessione dell'umore, ma l'interazione con il gruppo di supporto ha migliorato la situazione. Continuerà il trattamento con disulfiram, e viene monitorata per eventuali effetti collaterali. Si considera opportuno un follow-up tra due settimane.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma con riduzione del craving per alcol. Buona aderenza al piano terapeutico, con incremento della motivazione a partecipare ai gruppi di sostegno presso il centro diurno.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di cocaina. Concordiamo di mantenere terapia con naltrexone e valutare progressivamente riduzione BDZ. Segnala conflitti con la sorella che aumentano ansia.",
+    "entities": []
+  },
+  {
+    "text": "Stato d'umore più stabile rispetto alla scorsa settimana. Non segni di acuzie clinica. Si discute la possibilità di reinserimento lavorativo presso la cooperativa sociale La Rinascita.",
+    "entities": [
+      {
+        "text": "La Rinascita",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi moderati, ma ridotta impulsività. Concordato con il paziente di sospendere gradualmente l'uso di zolpidem. Riporta miglioramento della relazione con il padre, che partecipa attivamente agli incontri familiari.",
+    "entities": []
+  },
+  {
+    "text": "Nessun episodio di ricaduta segnalato da metà ottobre. Buona compliance farmacologica. Si valuta inserimento in programma di reinserimento sociale presso il Comune di Solano Inferiore.",
+    "entities": [
+      {
+        "text": "Comune di Solano Inferiore",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Paziente riferisce una lieve difficoltà nel sonno, con frequenti risvegli notturni e ansia generalizzata. Il trattamento con alprazolam è stato ridotto gradualmente, ma segnala ancora una certa irrequietezza. Ha accettato di seguire il piano terapeutico proposto per la riduzione del consumo di alcol, concordando un incontro con il gruppo di supporto giovedì prossimo.",
+    "entities": []
+  },
+  {
+    "text": "Situazione psicologica del paziente generalmente stabile. L'umore è migliorato dopo l'ultimo ciclo di terapia cognitivo-comportamentale, ma persistono attacchi d'ansia occasionali legati alla situazione familiare. È stato concordato di continuare con il trattamento in corso, con aggiustamenti minimi alle dosi di SSRI.",
+    "entities": [
+      {
+        "text": "SSRI",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Dopo una valutazione approfondita, sono stati riscontrati segnali di una lieve sindrome da astinenza da oppiacei. È stato introdotto un piano di disintossicazione graduale sotto stretta supervisione. Il paziente ha mostrato una certa resistenza alla riduzione delle dosi, ma si è impegnato ad aderire al trattamento. Si prevede un monitoraggio continuo per evitare complicazioni.",
+    "entities": []
+  },
+  {
+    "text": "Completata una revisione del piano terapeutico per il paziente, con particolare attenzione all'uso di benzodiazepine. È stato suggerito un cambio di farmaco, passando da lorazepam a diazepam, per ridurre il rischio di effetti collaterali a lungo termine. Il paziente ha mostrato un buon livello di adesione al trattamento, ma ha espresso preoccupazione per gli effetti sul sonno.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha recentemente completato un programma di riabilitazione presso il centro di cura 'Nuove Opportunità'. Sebbene il suo stato mentale sia generalmente positivo, si segnalano ancora alcuni episodi di irritabilità legati alla difficoltà di reinserimento nella vita quotidiana. È stato suggerito di continuare il supporto psicoterapeutico per gestire la transizione e prevenire ricadute.",
+    "entities": [
+      {
+        "text": "Nuove Opportunità",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Persistono insonnia e ansia anticipatoria, ma ridotto consumo di BDZ rispetto alla settimana precedente. Concordato mantenimento della terapia con sertralina e monitoraggio craving per cocaina.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce miglioramento dell'umore dopo colloquio motivazionale. Accetta di sospendere gradualmente l'uso di alcolici. Segnalata buona compliance al programma presso il Centro Dipendenze di Grava.",
+    "entities": [
+      {
+        "text": "di Grava",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna, il paziente mostra riduzione dei sintomi depressivi e maggiore apertura al confronto. Si concorda scalaggio di diazepam con obiettivo di sospensione entro dicembre.",
+    "entities": []
+  },
+  {
+    "text": "Segnalata ricaduta lieve nel weekend, con assunzione di birra. Non emergono segni di acuzie clinica. Si rinforza piano di prevenzione delle ricadute e si propone incremento attività fisica.",
+    "entities": []
+  },
+  {
+    "text": "Colloquio con la sorella di Giovanni, che conferma miglioramento nella gestione della rabbia e riduzione dei conflitti familiari. Si mantiene terapia con naltrexone e supporto psicoterapico settimanale.",
+    "entities": [
+      {
+        "text": "Giovanni",
+        "label": "PATIENT"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordiamo incremento delle sedute di mindfulness e mantenimento della riduzione graduale di BDZ. Nessun craving per alcol segnalato.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di cocaina. Segnala conflitti con la sorella Anna e difficoltà a gestire la rabbia. Si propone supporto familiare e monitoraggio settimanale.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Buona aderenza al piano terapeutico, con riduzione significativa del consumo di cannabis. Riporta miglioramento dell'umore e maggiore capacità di concentrazione. Si consiglia prosecuzione del trattamento presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi moderati, ma senza ideazione suicidaria. Ha iniziato attività sportiva presso palestra locale, con beneficio sul tono dell'umore. Si mantiene astinenza da eroina da oltre tre mesi.",
+    "entities": []
+  },
+  {
+    "text": "In seduta odierna, il paziente Giovanni mostra maggiore motivazione e riferisce di aver interrotto i contatti con vecchi compagni di consumo. Pianifichiamo follow-up ravvicinato e valutazione farmacologica con naltrexone.",
+    "entities": [
+      {
+        "text": "Giovanni",
+        "label": "PATIENT"
+      }
+    ]
+  },
+  {
+    "text": "Il paziente ha mostrato un miglioramento nelle ultime settimane, riducendo significativamente l'uso di cocaina. Non ci sono segni di crisi acuta, ma è emerso un lieve aumento dell'irritabilità e dei pensieri ossessivi. Proseguire con il trattamento farmacologico e monitorare l'umore. Pianificato follow-up tra 7 giorni.",
+    "entities": []
+  },
+  {
+    "text": "Si è riscontrata una leggera resistenza al cambiamento comportamentale, in particolare riguardo alla riduzione dell'alcol. Durante la sessione, il paziente ha parlato della difficoltà nel sostenere la pressione sociale. Nessuna crisi evidente, tuttavia si suggerisce un rinforzo della rete di supporto familiare. Continuare con il programma di disintossicazione a base di disulfiram.",
+    "entities": []
+  },
+  {
+    "text": "Continua a presentare un comportamento impulsivo, con episodi di rabbia non controllata, soprattutto quando si parla del suo passato con la marijuana. Durante la seduta, ha manifestato la volontà di ridurre gradualmente l'uso, ma la motivazione è ancora bassa. Aumento delle sedute psicoterapeutiche per migliorare la gestione dell'impulsività.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente sta rispondendo positivamente al trattamento con metadone, ma segnala un aumento della sudorazione notturna e alcuni disturbi del sonno. È necessario monitorare questi effetti collaterali e valutare la possibilità di un aggiustamento del dosaggio. Proseguire con il piano terapeutico per la riduzione graduale dei sintomi da astinenza.",
+    "entities": []
+  },
+  {
+    "text": "Durante la sessione di oggi, si è discusso delle difficoltà nel mantenere l'astinenza da eroina a causa della forte tentazione di ritorno alla dipendenza, soprattutto nei weekend. È stato suggerito di incrementare la partecipazione a gruppi di supporto. Il paziente ha confermato la volontà di proseguire con la terapia farmacologica e psicologica per un altro mese.",
+    "entities": [
+      {
+        "text": "un altro mese",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Il paziente ha riferito una lieve resistenza all'idea di ridurre l'assunzione di BDZ, ma si è mostrato disposto a tentare una diminuzione graduale. La sua famiglia, in particolare Giovanni, ha espresso preoccupazione per la sua dipendenza. Si discuterà un piano di intervento a lungo termine per affrontare anche l'alcolismo, considerando il trattamento farmacologico con Antabuse.",
+    "entities": [
+      {
+        "text": "Giovanni",
+        "label": "PER"
+      },
+      {
+        "text": "Antabuse",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta, il paziente ha avuto un'ulteriore discussione con la psicologa Dr.ssa Marini riguardo la gestione del craving. È stato concordato di passare dalla terapia con Lorazepam a un trattamento con Diazepam, come parte del piano di riduzione graduale. Il paziente ha mostrato un miglioramento nell'umore e nell'autocontrollo.",
+    "entities": [
+      {
+        "text": "Marini",
+        "label": "PER"
+      },
+      {
+        "text": "Lorazepam",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Diazepam",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Si è proceduto a una revisione del piano terapeutico del paziente, includendo il trattamento per la dipendenza da eroina. I sintomi d'acuzie sono significativamente migliorati, ma persiste una forte resistenza al cambiamento. È stata fissata una nuova valutazione presso il centro di recupero Oasi di Santa Teresa il 15 novembre.",
+    "entities": [
+      {
+        "text": "Oasi di Santa Teresa",
+        "label": "FAC"
+      },
+      {
+        "text": "15 novembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Il paziente ha confermato di aver ridotto l'uso di alcol durante il periodo di trattamento, sebbene abbia avuto alcune difficoltà a rimanere sobrio in situazioni stressanti. È stato suggerito di intensificare le sedute di supporto psicoterapeutico con il terapista dr. Zamorani, concentrandosi sul rafforzamento delle risorse personali e della gestione dello stress.",
+    "entities": [
+      {
+        "text": "Zamorani",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "I progressi del paziente sono stati monitorati attentamente, con particolare attenzione all'interruzione della terapia con Buprenorfina. Non sono stati osservati effetti collaterali gravi, ma il paziente ha riferito un senso di frustrazione a causa dei periodi di astinenza. Il piano prevede di monitorare costantemente i sintomi attraverso il servizio di Clinica San Michele.",
+    "entities": [
+      {
+        "text": "Buprenorfina",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "San Michele",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Paziente presenta un miglioramento generale nei comportamenti, non segnala sintomi fisici di astinenza o desideri urgenti di consumo. La terapia farmacologica sembra efficace. Resta comunque preoccupato per la situazione familiare, specialmente per la salute del padre. Si suggerisce di mantenere la dose attuale di metadone e di continuare con il supporto psicoterapeutico settimanale.",
+    "entities": []
+  },
+  {
+    "text": "Nessun episodio acuto di crisi, ma persistono difficoltà legate al sonno e al controllo degli impulsi. Il paziente riferisce di aver ridotto il consumo di alcol, ma ammette di non riuscire a smettere completamente. Raccomandato un incremento del supporto psicoterapeutico. Continuare con il piano di disintossicazione a base di buprenorfina, con monitoraggio stretto.",
+    "entities": []
+  },
+  {
+    "text": "La motivazione del paziente continua a fluttuare, oscillando tra momenti di consapevolezza e scivolamenti verso il consumo. Non segnala eventi traumatici recenti, ma si è mostrato più incline a confrontarsi con le proprie emozioni. Potrebbe trarre beneficio da sessioni di gruppo aggiuntive. Ha richiesto un aumento della dose di alprazolam per affrontare l'ansia.",
+    "entities": []
+  },
+  {
+    "text": "Segnalato un miglioramento nel controllo dell'ansia e delle compulsioni, anche se continua a esprimere frustrazione per il ritmo del trattamento. Sta seguendo il piano terapeutico con riluttanza, nonostante l'approccio cognitivo-comportamentale continui a dare risultati positivi. Si consiglia di proseguire con la psicoterapia individuale e di valutare eventuali aggiustamenti nel piano di disintossicazione.",
+    "entities": []
+  },
+  {
+    "text": "Durante l'ultimo incontro, il paziente ha mostrato una maggiore apertura riguardo le sue difficoltà emotive, ma ha anche rivelato resistenza a completare gli esercizi di auto-riflessione. I sintomi di astinenza da cocaina si sono leggermente attenuati. Si conferma la continuazione della terapia con carbamazepina, in aggiunta al programma di recupero con il centro 'Alba Nuova'.",
+    "entities": [
+      {
+        "text": "Alba Nuova",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "La paziente, 34 anni, mostra segni di miglioramento nel controllo dell'ansia. Inizia a sentirsi più motivata a proseguire con il trattamento. Ha ridotto l'uso di benzodiazepine come concordato. Oggi ha riferito che il supporto psicoterapeutico della madre la sta aiutando molto.",
+    "entities": [
+      {
+        "text": "34 anni",
+        "label": "AGE"
+      }
+    ]
+  },
+  {
+    "text": "Non si segnalano episodi di abuso durante l'ultimo mese. Il paziente ha comunque chiesto un incontro di follow-up per discutere di possibili difficoltà future. La terapia cognitivo-comportamentale sta dando buoni risultati. Continuerà il trattamento con Disulfiram.",
+    "entities": [
+      {
+        "text": "Disulfiram",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna, il paziente ha espresso preoccupazione per l'imminente trasloco in un altro centro di recupero. I progressi sul fronte dell'astinenza sono buoni, ma si nota una certa instabilità emotiva legata alla paura di perdere il supporto dell'attuale gruppo terapeutico.",
+    "entities": []
+  },
+  {
+    "text": "Sostanzialmente stabili i parametri psicologici. Il paziente ha mostrato un miglioramento nella gestione dello stress quotidiano e ha riferito un buon livello di sonno. Nessun segno di craving attivo. È stato concordato l'aumento del dosaggio di sertralina.",
+    "entities": []
+  },
+  {
+    "text": "Oggi la paziente ha confermato l'intenzione di ridurre ulteriormente l'uso di alcol, nonostante i segnali di stress legati a conflitti familiari. Il supporto di una consulente esterna sembra aver avuto un impatto positivo sulla sua gestione dell'impulso. Terapia in corso con gabapentina.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma accetta di ridurre gradualmente BDZ. Mostra minore ansia anticipatoria rispetto agli incontri di gruppo e maggiore disponibilità a discutere episodi di craving per cocaina.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna, emerge conflitto con la sorella che ostacola la continuità terapeutica. Si concorda con la dott.ssa vasari un incremento del supporto psicoterapico individuale e monitoraggio settimanale.",
+    "entities": [
+      {
+        "text": "vasari",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di sospendere gradualmente l'uso di alcolici, nonostante la forte pressione sociale vissuta nei bar di Sant'Antonio In Bosco. Si valuta introduzione di naltrexone come supporto farmacologico.",
+    "entities": [
+      {
+        "text": "Sant'Antonio In Bosco",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Mostra miglioramento dell'umore, riduzione dei sintomi depressivi e maggiore adesione al programma di disintossicazione presso il Centro San Carlo. Nega episodi di craving nell'ultima settimana.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Persistono difficoltà relazionali con il padre, ma appare più motivato a mantenere l'astinenza. Si concorda follow-up clinico dopo il 15 dicembre per valutare stabilità del quadro.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordato incremento delle sedute di rilassamento guidato e monitoraggio della riduzione graduale di alcolici. Nessun segno di psicosi attiva.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di cocaina. Si discute con la sorella Anna la possibilità di coinvolgerla nel sostegno familiare. Pianificata rivalutazione clinica entro il 15 dicembre.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Buona risposta al passaggio da metadone a buprenorfina, con riduzione significativa dei craving. Segnala miglioramento dell'umore e maggiore partecipazione alle attività di gruppo presso il Centro San Raffaele.",
+    "entities": [
+      {
+        "text": "San Raffaele",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi moderati, ma senza ideazione suicidaria. Si concorda con il paziente Pomponio di mantenere la terapia con sertralina e di ridurre progressivamente l'assunzione di BDZ.",
+    "entities": [
+      {
+        "text": "Pomponio",
+        "label": "PATIENT"
+      },
+      {
+        "text": "BDZ",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Racconta di aver evitato frequentazioni con vecchi compagni di consumo al bar La Pergola. Mostra maggiore motivazione a mantenere astinenza e chiede supporto per reinserimento lavorativo.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente con risvegli multipli e ansia anticipatoria. Concordato incremento della psicoterapia cognitivo-comportamentale e mantenimento della riduzione graduale di BDZ. Nessun craving per oppiacei.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta emerge rabbia repressa verso il fratello, connessa a precedenti conflitti familiari. Si lavora sulla gestione emotiva e si propone diario delle emozioni. Accetta di sospendere gradualmente l'uso di alcolici.",
+    "entities": []
+  },
+  {
+    "text": "Accenna a ricaduta lieve avvenuta il 15 ottobre, con consumo episodico di cannabis. Non segni di psicosi, ma umore deflesso. Si concorda monitoraggio settimanale e supporto farmacologico con naltrexone.",
+    "entities": [
+      {
+        "text": "15 ottobre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "In seduta odierna appare più collaborativo, con riduzione significativa del craving per cocaina. Riporta miglioramento della relazione con la compagna e maggiore stabilità del tono dell'umore. Si mantiene terapia con sertralina.",
+    "entities": []
+  },
+  {
+    "text": "Segnala difficoltà nel reinserimento lavorativo dopo dimissione dal Centro San Raffaele. Ansia sociale marcata, ma nessun segno di depressione maggiore. Si suggerisce gruppo di auto-aiuto presso comunità locale.",
+    "entities": [
+      {
+        "text": "San Raffaele",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Dopo un periodo di miglioramento, il paziente presenta una lieve ricaduta nell'uso di alcol, nonostante le precedenti discussioni sul mantenimento dell'astinenza. Si discute la possibilità di rafforzare la terapia farmacologica con un incremento di naltrexone, ma la sua reticenza continua a creare difficoltà nell'approccio al trattamento.",
+    "entities": []
+  },
+  {
+    "text": "La paziente riferisce un aumento dell'ansia, soprattutto nelle ore serali. Nonostante le difficoltà, è decisa a ridurre l'uso di benzodiazepine, come concordato. Ha avviato un percorso di psicoterapia cognitivo-comportamentale che dovrebbe aiutarla a gestire meglio i momenti di crisi. È comunque aperta a una graduale sospensione di Alprazolam nelle prossime settimane.",
+    "entities": [
+      {
+        "text": "Alprazolam",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Anche se il quadro psicologico resta teso, il paziente si mostra più collaborativo con il team terapeutico. La riduzione delle dosi di BDZ sta procedendo lentamente. Si è deciso di non aggiungere altri farmaci per ora, ma di monitorare attentamente i sintomi di astinenza nei prossimi giorni.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta, la paziente ha manifestato preoccupazione riguardo alle sue difficoltà nel gestire lo stress quotidiano, che potrebbe influire sul mantenimento dell'astinenza. Si è concordato un aumento della frequenza degli incontri terapeutici e la sperimentazione di tecniche di rilassamento come il training autogeno.",
+    "entities": []
+  },
+  {
+    "text": "Nonostante i progressi nella gestione dell'astinenza, il paziente ha evidenziato una forte resistenza al trattamento, specialmente nella gestione dell'ansia. È stato suggerito un approfondimento delle dinamiche familiari, con l'inclusione del fratello per migliorare il supporto psicologico. Si considera di incrementare la dose di disulfiram come parte della strategia terapeutica.",
+    "entities": []
+  },
+  {
+    "text": "Descrive aumento dell'ansia serale, con lieve tremore e insonnia da sospensione dopo riduzione oppiacei. Riferisce contatto telefonico con la sorella per chiarimenti su gestione del percorso e chiede se sia possibile incrementare leggermente quetiapina notturna. Mantiene astinenza da alcol da circa due settimane.",
+    "entities": []
+  },
+  {
+    "text": "Struttura emotiva più stabile rispetto alla scorsa visita. Afferma di aver evitato bar e contesti a rischio vicino a Borgo Cicilia nelle ultime giornate. Si dichiara più collaborante e accetta proposta di proseguire con gradualità la riduzione del metadone, compensando con sedute motivazionali aggiuntive presso il servizio.",
+    "entities": [
+      {
+        "text": "Borgo Cicilia",
+        "label": "LOC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra tono dell’umore ipostenico, ma con migliore regolazione rispetto a ieri. Riporta discussione avuta con il fratello maggiore sulla possibilità di tornare a lavorare presso l’azienda di famiglia. Persiste lieve craving per cocaina, contenuto attraverso esercizi di grounding e rinforzo del piano di prevenzione ricadute.",
+    "entities": []
+  },
+  {
+    "text": "Oggi riferisce malessere gastrointestinale e lieve cefalea, probabilmente correlati alla riduzione di BDZ. Valuta positivamente il gruppo psicoeducativo tenuto allo Studio Artemisia e manifesta disponibilità a incrementare la frequenza settimanale. Si mantiene comunque orientato e senza segni di intossicazione.",
+    "entities": [
+      {
+        "text": "Studio Artemisia",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Racconta episodio di forte irritabilità avvenuto ieri durante spostamento da Stio a Salerno, con rischio di cedimento in autogrill poi evitato. Viene rivisto il piano farmacologico, mantenendo stabilizzatore dell’umore e prevedendo follow-up anticipato. Buona alleanza terapeutica.",
+    "entities": [
+      {
+        "text": "Stio",
+        "label": "GPE"
+      },
+      {
+        "text": "Salerno",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordato incremento del supporto psicoterapico e mantenimento della riduzione graduale di BDZ. Nessun segno di craving acuto.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo di sostegno presso la comunità terapeutica di San Donato.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "San Donato",
+        "label": "LOC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra riduzione significativa dei sintomi depressivi, con miglioramento dell'umore. Segnala però cefalea mattutina probabilmente correlata al passaggio da metadone a buprenorfina. Si consiglia monitoraggio clinico ravvicinato.",
+    "entities": []
+  },
+  {
+    "text": "Accetta di partecipare al gruppo psicoeducativo previsto per il 15 dicembre. Riferisce di aver evitato frequentazioni con vecchi compagni di consumo. Nessun episodio di ricaduta segnalato.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "In seduta odierna appare più collaborativo, con riduzione dei sintomi di irritabilità. Riporta di aver iniziato attività sportiva presso la palestra del Centro Aurora, che sembra favorire la stabilizzazione del tono dell'umore.",
+    "entities": [
+      {
+        "text": "Aurora",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, con riduzione dell'ansia solo parziale. Concordato incremento delle sedute di gruppo presso il centro diurno. Si mantiene astinenza da alcol da oltre tre settimane.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi connessi all'uso di cocaina. Accetta di iniziare terapia sostitutiva con naltrexone. Segnala conflitti con la sorella anna che aumentano la vulnerabilità.",
+    "entities": [
+      {
+        "text": "anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Umore deflesso, ma senza ideazione suicidaria. Si discute la possibilità di inserimento in programma residenziale presso il  San Martino. Mostra timore per la separazione dalla famiglia.",
+    "entities": [
+      {
+        "text": "San Martino",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Ha ridotto autonomamente la dose di BDZ, con comparsa di sintomi da astinenza (tremori, irritabilità). Si concorda scalaggio più graduale. Riporta di aver frequentato il bar La Pergola la scorsa settimana, con forte craving.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Mostra maggiore motivazione dopo colloquio motivazionale con il dott. Paruta. Accetta di partecipare a gruppo psicoeducativo. Riferisce di aver trovato beneficio nell'ascolto del brano 'Vita spericolata'.",
+    "entities": [
+      {
+        "text": "Paruta",
+        "label": "PER"
+      },
+      {
+        "text": "Vita spericolata",
+        "label": "WORKS_OF_ART"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente con risvegli multipli e ansia anticipatoria. Concordato incremento graduale di attività fisica e supporto farmacologico con quetiapina a basso dosaggio. Nessun craving significativo per alcol negli ultimi giorni.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna emerge maggiore consapevolezza rispetto ai rischi di ricaduta. Segnala conflitto con la sorella Anna e tensioni familiari. Si propone lavoro di mediazione e rinforzo delle strategie di coping.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accettabile stabilità dell'umore, con riduzione dei sintomi depressivi. Si discute possibilità di reinserimento lavorativo presso la cooperativa sociale San Giorgio. Mantiene buona aderenza al programma di disintossicazione.",
+    "entities": [
+      {
+        "text": "San Giorgio",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Segnala craving episodico per cocaina, soprattutto in contesti sociali. Ricorda episodio di forte tentazione durante la festa di San Giovanni a Quarna Sotto. Si lavora su tecniche di prevenzione della ricaduta e gestione delle situazioni ad alto rischio.",
+    "entities": [
+      {
+        "text": "San Giovanni",
+        "label": "EVENT"
+      },
+      {
+        "text": "Quarna Sotto",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Mostra atteggiamento collaborativo e maggiore fiducia nel percorso terapeutico. Concordata sospensione graduale di benzodiazepine, con monitoraggio settimanale. Riporta miglioramento della relazione con il figlio Vincenzo, che partecipa attivamente agli incontri familiari.",
+    "entities": [
+      {
+        "text": "Vincenzo",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma ridotta ansia rispetto alle ultime settimane. Concordato incremento attività diurne e mantenimento della riduzione graduale di BDZ.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Si discute con la sorella Anna la possibilità di coinvolgerla nel supporto familiare.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di iniziare terapia sostitutiva con metadone presso il Centro Dipendenze del Policlinico San Giorgio.",
+    "entities": [
+      {
+        "text": "Policlinico San Giorgio",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra atteggiamento collaborativo, con riduzione dei sintomi depressivi. Riporta miglioramento dopo la sospensione di Zolpidem e sostituzione con trazodone.",
+    "entities": [
+      {
+        "text": "Zolpidem",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "In data 15 ottobre 2025, il paziente Giovanni appare più motivato a proseguire il percorso. Segnala diminuzione del craving e maggiore stabilità emotiva.",
+    "entities": [
+      {
+        "text": "15 ottobre 2025",
+        "label": "DATE"
+      },
+      {
+        "text": "Giovanni",
+        "label": "PATIENT"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia nelle ore serali. Concordiamo incremento graduale della terapia cognitivo-comportamentale e mantenimento della riduzione progressiva di BDZ. Nessun craving per oppiacei.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge irritabilità e pensieri ossessivi legati al timore di ricaduta. Si discute con la sorella Anna la possibilità di coinvolgerla maggiormente nel supporto quotidiano. Si mantiene sospensione di alcolici.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di partecipare al gruppo di auto-aiuto presso il Centro San Carlo. Mostra motivazione discreta, ma ancora difficoltà a gestire la frustrazione. Si consiglia monitoraggio settimanale.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Segnala cefalea mattutina e lieve tremore alle mani. Ridotto consumo di nicotina, ma permane craving per cannabis. Si concorda rivalutazione clinica il 15 dicembre.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "In seduta appare più collaborativo, con tono dell'umore meno depresso. Ricorda episodi di abuso avvenuti a Vellezzo Garozzo e manifesta timore di tornare in quell'ambiente. Si rinforza l'importanza di evitare contatti con vecchi compagni di consumo.",
+    "entities": [
+      {
+        "text": "Vellezzo Garozzo",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio, il paziente mostra segni di frustrazione per la sua dipendenza, ma esprime una forte motivazione a proseguire il trattamento. Le difficoltà principali riguardano la gestione della rabbia e il desiderio di automedicarsi con alcol nei momenti di stress. Gli è stato suggerito di intensificare il supporto psicoterapeutico e di monitorare l’assunzione di farmaci, in particolare il flurazepam, per evitare abusi. La partecipazione al gruppo di supporto è stata promossa.",
+    "entities": []
+  },
+  {
+    "text": "In giornata, il paziente ha riferito di aver ridotto gradualmente l'assunzione di metadone, ma di avere difficoltà a gestire l'astinenza nei fine settimana. L'umore è lievemente depresso, ma la motivazione al trattamento è alta. È stato raccomandato di monitorare la situazione nei giorni successivi e di rivedere il dosaggio la prossima settimana. Continuerà con la terapia cognitivo-comportamentale per migliorare la gestione dei pensieri ossessivi legati alla dipendenza.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente appare più rilassato rispetto alle sedute precedenti, nonostante l’alto livello di ansia riferito. Ha cominciato a seguire una routine quotidiana più strutturata, riuscendo a fare esercizio fisico regolarmente. Tuttavia, sono emersi episodi di pensieri intrusivi legati al consumo di sostanze. È stato discusso l'uso di psicoterapia psicodinamica per esplorare meglio le cause profonde di questi pensieri. La somministrazione di buprenorfina è stata continuata, con un piccolo aggiustamento nel dosaggio.",
+    "entities": []
+  },
+  {
+    "text": "Oggi il paziente ha mostrato segni di ansia generalizzata, esprimendo preoccupazione per la sua stabilità futura. Non ha riferito episodi acuti di craving, ma continua a manifestare una forte insicurezza legata al suo passato di abuso di cocaina. Il piano terapeutico include la continuazione della terapia farmacologica con alprazolam per i disturbi d'ansia e l'inizio di un percorso di reintegrazione sociale. Il paziente ha concordato di partecipare a un incontro settimanale di gruppo.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha richiesto una riduzione della terapia con metadone, poiché ha avvertito miglioramenti nella gestione del dolore cronico e nei sintomi d'astinenza. Non ha mostrato segni evidenti di depressione, ma il trattamento sarà adattato per monitorare meglio l'equilibrio tra astinenza e dolore fisico. Sono stati discussi ulteriori passi per affrontare i suoi trigger emotivi, in particolare quelli legati alla solitudine e alla sua relazione con i familiari. La programmazione della terapia prevede sessioni più frequenti di supporto psicologico.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordato incremento delle sedute di sostegno e mantenimento della riduzione graduale di BDZ. Nessun craving per oppiacei, ma permane vulnerabilità emotiva.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge rabbia repressa verso il fratello, connessa a vecchi conflitti familiari. Si lavora sulla gestione delle emozioni e sulla prevenzione delle ricadute. Accetta di sospendere progressivamente l'uso di alcolici.",
+    "entities": []
+  },
+  {
+    "text": "Buona risposta al passaggio da alprazolam a diazepam. Segnala miglioramento della qualità del sonno e riduzione dei sintomi di astinenza. Rimane fragile la motivazione, ma si nota maggiore adesione al programma del Centro San Raffaele.",
+    "entities": [
+      {
+        "text": "San Raffaele",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta con tono dell'umore deflesso, riferisce pensieri di colpa legati al periodo trascorso a Luogosano. Concordato incremento della psicoterapia individuale e monitoraggio settimanale. Nessun segno di psicosi.",
+    "entities": [
+      {
+        "text": "Luogosano",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di ridurre progressivamente l'assunzione di metadone. Riporta miglioramento della relazione con la figlia e maggiore stabilità affettiva. Si consiglia prosecuzione del gruppo terapeutico presso la Comunità Aurora.",
+    "entities": [
+      {
+        "text": "Aurora",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia nelle ore serali. Concordiamo incremento della dose di quetiapina a basso dosaggio per favorire il sonno e ridurre l'irritabilità. Mantiene astinenza da alcol da tre settimane.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio appare più collaborativo, con riduzione del craving per oppiacei. Segnala miglioramento della relazione con la sorella Anna, che partecipa attivamente al sostegno familiare. Si discute possibilità di inserimento in gruppo terapeutico presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra segni di disforia e pensieri autodenigratori, ma senza ideazione suicidaria. Si concorda mantenimento della terapia con naltrexone e monitoraggio settimanale. Riporta difficoltà a frequentare il lavoro presso la fabbrica di Camporosso In Valcanale.",
+    "entities": [
+      {
+        "text": "Camporosso In Valcanale",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Accenna a ricaduta lieve con consumo di cannabis il giorno 15 novembre. Non emergono sintomi psicotici, ma permane apatia. Si propone incremento delle attività strutturate e colloqui motivazionali.",
+    "entities": [
+      {
+        "text": "15 novembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "In seduta odierna appare più stabile, con tono dell'umore moderatamente positivo. Segnala di aver letto 'La coscienza di Zeno' come parte del programma di biblioterapia. Mantiene riduzione graduale di BDZ senza sintomi di astinenza rilevanti.",
+    "entities": [
+      {
+        "text": "La coscienza di Zeno",
+        "label": "WORKS_OF_ART"
+      },
+      {
+        "text": "BDZ",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "L'approccio alla gestione dell'astinenza da oppiacei sta dando alcuni risultati positivi, ma persistono episodi di irritabilità e difficoltà a dormire. Sono stati discussi gli effetti collaterali di metadone, ma il paziente ha espresso il desiderio di proseguire con il trattamento. Sono stati programmati incontri settimanali con il terapeuta per affrontare le sue difficoltà emotive legate al trattamento, in particolare per quanto riguarda la paura di ricadere.",
+    "entities": []
+  },
+  {
+    "text": "Mostra riduzione dell'ansia anticipatoria, con minor ricorso a BDZ. Riferisce sonno frammentato ma accettabile. Concordata prosecuzione del piano di tapering.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge nostalgia per i periodi passati a Settingiano, ma senza craving per sostanze. Si discute della possibilità di incrementare attività sociali presso il centro diurno San Carlo.",
+    "entities": [
+      {
+        "text": "Settingiano",
+        "label": "GPE"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di sospendere gradualmente l'uso di alcol, con supporto farmacologico tramite Naltrexone. La sorella Camilla partecipa al colloquio e conferma miglioramento della motivazione.",
+    "entities": [
+      {
+        "text": "Naltrexone",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Camilla",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Persistono tratti depressivi, ma con maggiore adesione al gruppo terapeutico. Segnala riduzione del craving per cocaina. Si concorda monitoraggio settimanale fino al 15 dicembre.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce di aver letto 'La coscienza di Zeno' come parte del programma di biblioterapia. L'attività sembra favorire introspezione e riduzione dell'impulsività.",
+    "entities": [
+      {
+        "text": "La coscienza di Zeno",
+        "label": "WORKS_OF_ART"
+      }
+    ]
+  },
+  {
+    "text": "Il paziente ha mostrato un miglioramento nel controllo degli impulsi e nella gestione delle emozioni. Tuttavia, persiste una certa resistenza nel seguire le indicazioni terapeutiche, specialmente in merito alla riduzione graduale dell'uso di benzodiazepine. Resta una lieve tensione emotiva, ma il soggetto continua a riferire di non avvertire cravings per sostanze. La terapia psicologica appare adeguata, con progressi anche nell'accettazione della sua condizione. Verrà monitorato nei prossimi giorni per eventuali ricadute.",
+    "entities": []
+  },
+  {
+    "text": "La paziente, dopo alcuni giorni di stabilità, ha manifestato un episodio di ansia acuta in seguito a discussioni familiari. Non ci sono segnali di abuso di sostanze, ma sono emersi tentativi di auto-medicazione con alcol. Concordato un piano di supporto con il terapeuta per affrontare i conflitti familiari e limitare l'uso di alcol. Proseguirà il trattamento farmacologico con l'uso di SSRI e una revisione della dose di Gabapentin.",
+    "entities": [
+      {
+        "text": "SSRI",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Gabapentin",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Il soggetto ha riferito di non avere più episodi di astinenza da oppiacei, ma il comportamento evitante continua a manifestarsi, soprattutto quando viene sollecitato a prendere iniziative in ambito lavorativo. È stata concordata una modifica nel piano terapeutico con una minor dosaggio di metadone, ma è necessario continuare il monitoraggio settimanale. A livello psicologico, sono emersi segnali di resistenza a lavorare su traumi pregressi.",
+    "entities": []
+  },
+  {
+    "text": "Durante l'ultima visita, il paziente ha negato l'uso di droghe e alcol. Tuttavia, sono emersi segnali di difficoltà nell'affrontare le proprie emozioni, soprattutto in situazioni stressanti. È stata suggerita una terapia cognitivo-comportamentale per migliorare la gestione dell'ansia e delle relazioni interpersonali. Il paziente ha accettato di avviare un percorso di terapia familiare con la partecipazione di sua madre, che ha mostrato apertura al trattamento.",
+    "entities": []
+  },
+  {
+    "text": "L'adattamento al trattamento con Diazepam sta procedendo senza particolari difficoltà, ma il paziente ha mostrato incertezze riguardo al piano di disassuefazione dal farmaco. Sono stati notati alcuni cambiamenti nei comportamenti alimentari, con tendenze ad abbuffate per gestire lo stress. Si è discusso dell'opportunità di integrare il trattamento con un supporto psicoterapico per l'alimentazione emotiva. L'incontro successivo sarà tra due settimane per rivalutare la situazione.",
+    "entities": [
+      {
+        "text": "Diazepam",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente con risvegli multipli e ansia anticipatoria. Concordato incremento attività fisica quotidiana e monitoraggio sintomi di craving. Si valuta riduzione graduale di BDZ.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Segnala conflitti con la sorella Anna, fonte di stress significativo. Si propone supporto familiare integrato.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro San Carlo. Mostra atteggiamento collaborativo, seppur con momenti di irritabilità. Si mantiene astinenza da oppiacei da 3 settimane.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Segnala riduzione significativa del consumo di cannabis. Lamenta cefalea e difficoltà di concentrazione. Si consiglia prosecuzione terapia con sertralina e valutazione neuropsicologica.",
+    "entities": []
+  },
+  {
+    "text": "In seduta odierna appare più motivato, con tono dell’umore stabile. Riporta miglioramento della relazione con il figlio Lando e maggiore capacità di gestione dello stress. Si concorda mantenimento del piano terapeutico.",
+    "entities": [
+      {
+        "text": "Lando",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Paziente in trattamento per abuso di alcol e sostanze. Si mostra ancora instabile nelle decisioni quotidiane, frequentemente disorientato. Continua a manifestare sintomi di ansia generalizzata e insonnia. Propongo un aggiustamento nel piano terapeutico, con introduzione di agomelatina per migliorare la qualità del sonno. Segue un percorso di disintossicazione graduale, riducendo la quantità di alcol settimanalmente. Si segnala un miglioramento sul piano della motivazione, ma persistono comportamenti evitanti.",
+    "entities": []
+  },
+  {
+    "text": "Crescente resistenza al trattamento con metadone, sintomi da astinenza sono stati rilevati, tra cui sudorazione e tremori. L'intervento include un aggiustamento posologico e una valutazione più approfondita del rischio di ricadute. In programma per la prossima settimana una sessione di psicoterapia cognitivo-comportamentale, focalizzata su gestione dello stress e automedicazione.",
+    "entities": []
+  },
+  {
+    "text": "Raffaellino, 34 anni, continua a presentare difficoltà nel mantenere la sobrietà, frequentemente riferisce pensieri ricorrenti di uso di cocaina. Si è discusso della necessità di integrare il trattamento farmacologico con un supporto psicoterapeutico intensivo. A seguito di questo incontro, accetta di iniziare una terapia di gruppo. Riconosce il legame tra stress emotivo e desiderio di utilizzare sostanze.",
+    "entities": [
+      {
+        "text": "Raffaellino",
+        "label": "PATIENT"
+      }
+    ]
+  },
+  {
+    "text": "Paziente con storia di abuso di oppiacei e depressione. Dopo discussione sui benefici e rischi, viene programmata una transizione verso un regime terapeutico con buprenorfina. Sintomi depressivi in miglioramento, ma continuano le difficoltà relazionali, segnalate anche dalla partner. Si conferma la volontà di partecipare a incontri settimanali di supporto familiare.",
+    "entities": []
+  },
+  {
+    "text": "Durante la sessione, il paziente ha riportato episodi di paranoia e pensieri persecutori, associati all'uso di cannabis. Il trattamento attuale con risperidone è stato confermato, ma viene suggerita una valutazione psichiatrica per escludere altre patologie sottostanti. Si stabilisce un follow-up per monitorare i progressi e rivedere eventuali aggiustamenti terapeutici.",
+    "entities": []
+  },
+  {
+    "text": "Iniziale resistenza alla terapia, con evidenti difficoltà nell'adattamento alla riduzione graduale di alcol. Durante la sessione, il paziente ha manifestato ansia e irritabilità, ma è stato incoraggiato a proseguire con il programma. Si è concordato di continuare con la riduzione alcolica e monitorare la reazione a eventuali crisi di astinenza.",
+    "entities": []
+  },
+  {
+    "text": "Sedazione migliorata ma con persistente disagio nella gestione dei conflitti familiari. Il paziente ha riportato difficoltà a relazionarsi con il partner a causa del suo stato emotivo instabile, con episodi di rabbia acuta. Prosegue la somministrazione di benzodiazepine a basso dosaggio, con proposta di supporto psicoterapeutico per affrontare dinamiche familiari.",
+    "entities": []
+  },
+  {
+    "text": "Presenta lieve miglioramento nei sintomi di astinenza da oppiacei, ma fatica a gestire il desiderio di ritorno all'uso. Durante l'incontro, ha accennato a possibili situazioni stressanti legate al lavoro che potrebbero influire negativamente sul suo progresso. Si è discusso della necessità di un supporto psicologico mirato e si è pianificato un follow-up a breve termine.",
+    "entities": []
+  },
+  {
+    "text": "Segnali di miglioramento nelle modalità di coping, con riduzione significativa dell'uso di alcol e un aumento nella partecipazione alle sessioni di gruppo. Il paziente ha condiviso che la famiglia sta mostrando maggiore comprensione e sostegno, ma continua a lottare con la sensazione di solitudine. Si è concordato di intensificare il supporto familiare e considerare un trattamento ambulatoriale esteso.",
+    "entities": []
+  },
+  {
+    "text": "Nonostante il miglioramento evidente nel controllo degli impulsi, il paziente ha espressamente richiesto un aumento del supporto psicoterapeutico per affrontare la depressione latente. Si è deciso di ridurre progressivamente l'uso delle benzodiazepine e di introdurre un trattamento farmacologico alternativo per stabilizzare l'umore. Il monitoraggio settimanale è stato confermato.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente e ansia anticipatoria. Concordata prosecuzione con dosaggio ridotto di BDZ e monitoraggio settimanale. Nega craving per cocaina, ma permane vulnerabilità in contesti sociali.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna appare più collaborativo, con tono dell'umore lievemente migliorato. Si discute della possibilità di sospendere gradualmente Campral e di introdurre tecniche di rilassamento. Riporta conflitti con la sorella Anna che aumentano lo stress.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di ridurre ulteriormente BDZ, pur lamentando cefalea mattutina. Si evidenzia riduzione del craving per alcol. Segnala di aver evitato frequentazioni al bar La Pergola negli ultimi giorni.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Seduta del 15 novembre 2025: atteggiamento più motivato, con buona adesione al programma terapeutico. Si concorda mantenimento della terapia con Naltrexone. Riporta miglioramento nella relazione con il figlio adolescente.",
+    "entities": [
+      {
+        "text": "15 novembre 2025",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi, ma con riduzione dell'ideazione autolesiva. Si discute della possibilità di inserimento in gruppo terapeutico presso il Centro San Carlo. Mostra interesse per attività di musicoterapia.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Paziente ha riferito una notevole difficoltà nel mantenere l'astinenza da alcol, soprattutto durante i fine settimana. Nonostante i progressi nel trattamento con il supporto psicoterapeutico, i tentativi di ridurre l'assunzione di benzodiazepine sono ancora limitati. È stato concordato un piano di monitoraggio più frequente e una visita di controllo con il medico curante, Dott. Ricci, il 5 dicembre.",
+    "entities": [
+      {
+        "text": "Ricci",
+        "label": "PER"
+      },
+      {
+        "text": "5 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Si osserva una riduzione graduale dell'uso di oppiacei, ma persiste una certa resistenza ad affrontare la situazione familiare. È stata suggerita l'introduzione di un gruppo di supporto presso la clinica X. Non sono stati riportati episodi di abuso di alcol, ma la situazione emotiva continua a essere delicata. Il paziente è stato indirizzato a proseguire con la terapia cognitivo-comportamentale.",
+    "entities": [
+      {
+        "text": "X",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta, il paziente ha mostrato segnali di maggiore consapevolezza riguardo ai propri comportamenti di dipendenza. È stato discusso l'uso di risorse comunitarie, con una specifica attenzione al programma di riabilitazione presso il Centro di Recupero di Barghe. Continuerà il trattamento con metadone, con riduzione graduale programmata.",
+    "entities": [
+      {
+        "text": "di Barghe",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "I progressi nel trattamento sono evidenti, anche se persistono occasionali crisi di ansia. L'assunzione di alcol è diminuita notevolmente grazie alla psicoterapia e al supporto della famiglia. È stato concordato di sospendere gradualmente il campral e di monitorare l'evoluzione con un follow-up tra due settimane.",
+    "entities": []
+  },
+  {
+    "text": "Paziente mostra miglioramenti nel controllo del comportamento impulsivo. Le sedute terapeutiche continuano a concentrarsi sul rafforzamento delle capacità di coping e sul rafforzamento del sistema di supporto familiare. È stato sottolineato il rischio di ricaduta e la necessità di continuare con l'assunzione di antidepressivi, con possibile riduzione nel prossimo mese.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordato incremento delle sedute di mindfulness e mantenimento della riduzione graduale di alcolici. Nessun segno di psicosi acuta.",
+    "entities": []
+  },
+  {
+    "text": "Durante la sessione odierna emerge maggiore consapevolezza dei rischi legati all'uso di cocaina. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo familiare nel sostegno. Proposta valutazione presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra irritabilità ridotta rispetto alla scorsa settimana. Accetta di iniziare terapia con naltrexone e di sospendere gradualmente BDZ. Segnala miglioramento della relazione con il figlio adolescente.",
+    "entities": []
+  },
+  {
+    "text": "In data 15 ottobre 2025 si osserva riduzione significativa del craving per oppiacei. Il paziente Rodolfo appare più motivato e partecipa attivamente al gruppo di auto-aiuto presso Associazione Rinascita.",
+    "entities": [
+      {
+        "text": "15 ottobre 2025",
+        "label": "DATE"
+      },
+      {
+        "text": "Rodolfo",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Associazione Rinascita",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce ancora sintomi depressivi, ma con minore intensità. Concordato mantenimento della terapia con sertralina e monitoraggio settimanale. Pianificato colloquio con la madre per discutere strategie di supporto domiciliare.",
+    "entities": []
+  },
+  {
+    "text": "Durante la sessione, il paziente ha mostrato una certa resistenza ad affrontare i propri problemi legati all'abuso di sostanze. Si è discusso della necessità di rafforzare l'autocontrollo e di ridurre gradualmente l'assunzione di alcol, con l'obiettivo di evitare ricadute. È stato proposto un programma di monitoraggio più intenso per le prossime settimane. L'approccio terapeutico verrà adattato in base ai progressi riscontrati.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha avuto difficoltà nel gestire l'ansia e il desiderio di ricorrere alle sostanze per lenire il disagio. L'idea di una terapia cognitivo-comportamentale intensiva è stata ben accolta, con la proposta di iniziare da una serie di incontri settimanali. Inoltre, si è deciso di rivalutare il dosaggio della terapia farmacologica per l'ansia, aumentando gradualmente il livello di sertralina.",
+    "entities": []
+  },
+  {
+    "text": "Ha mostrato segni di progressi nel trattamento, in particolare nel migliorare la gestione della rabbia. Tuttavia, continua a manifestare difficoltà nel relazionarsi con la famiglia, con particolare riferimento al padre. Il piano terapeutico prevede un approfondimento di questo aspetto durante il prossimo incontro, e l'introduzione di tecniche di comunicazione assertiva.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha riferito miglioramenti nel livello di motivazione, ma segnala ancora un forte senso di frustrazione legato alle aspettative familiari. Il trattamento prevede l'introduzione di sessioni di supporto psicologico per migliorare la sua capacità di resilienza. Continuare il trattamento con metadone, in modo da evitare sintomi di astinenza severi.",
+    "entities": []
+  },
+  {
+    "text": "Nonostante un quadro generale di stabilità, il paziente continua a lottare con episodi di depressione intermittenti. Insieme alla dottoressa Rizzo, è stato deciso di aumentare il supporto psicoterapeutico e introdurre attività fisiche leggere come parte del trattamento. Si conferma il follow-up tra due settimane.",
+    "entities": [
+      {
+        "text": "Rizzo",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Paziente sembra aver migliorato il suo umore, ma riferisce difficoltà nel gestire l'ansia quando si trova a contatto con situazioni stressanti. Non sono stati riportati episodi di uso di sostanze, ma la sua motivazione rimane altalenante. Si consiglia di proseguire con la terapia cognitivo-comportamentale e di monitorare la progressione nel piano di disassuefazione da alcol.",
+    "entities": []
+  },
+  {
+    "text": "Situazione stabile con lieve miglioramento nei confronti del consumo di sostanze. Paziente esprime il desiderio di intraprendere un percorso di reintegrazione lavorativa, ma rimane esitante riguardo l'idea di un cambiamento radicale. Discussa delle difficoltà relative al mantenere un equilibrio tra vita personale e sociale. Si suggerisce di continuare con il piano di trattamento per la gestione del craving.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente nonostante riduzione graduale di BDZ. Concordiamo introduzione di melatonina come supporto, evitando incremento di dosi ansiolitiche. Nega craving per cocaina.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Accetta di partecipare a gruppo psicoeducativo presso il Centro Dipendenze di Ospedaletto Euganeo.",
+    "entities": [
+      {
+        "text": "di Ospedaletto Euganeo",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Si osserva riduzione dell'ansia anticipatoria, ma permane irritabilità serale. Segnala conflitti con la sorella Anna, che aumentano il rischio di ricaduta. Si consiglia incremento delle sedute di sostegno familiare.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di sospendere gradualmente l'uso di cannabis, sostituendo con tecniche di rilassamento. Riporta miglioramento dell'umore dopo la partecipazione al gruppo mindfulness. Concordiamo follow-up clinico il 15 dicembre.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi con anedonia e ridotta motivazione. Si discute possibilità di introdurre terapia con SSRI. Segnala ricordi intrusivi legati all'evento traumatico del concerto di Vasco Iannelli a Cassino.",
+    "entities": [
+      {
+        "text": "Vasco Iannelli",
+        "label": "PER"
+      },
+      {
+        "text": "Cassino",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma riduzione significativa del craving per oppiacei. Concordata prosecuzione con terapia sostitutiva a base di metadone, monitorando eventuali sintomi depressivi.",
+    "entities": []
+  },
+  {
+    "text": "Accetta di sospendere gradualmente BDZ, pur con qualche resistenza iniziale. Segnala miglioramento dell'umore dopo colloquio motivazionale con la dott.ssa Emo.",
+    "entities": [
+      {
+        "text": "Emo",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Nessun episodio di abuso segnalato nell'ultima settimana. Riporta ansia sociale marcata, ma buona compliance al trattamento. Si decide di mantenere la terapia con Campral e supporto psicoterapico.",
+    "entities": [
+      {
+        "text": "Campral",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio odierno emerge rabbia repressa legata alla separazione dalla moglie. Si consiglia incremento delle sedute di gruppo presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra maggiore stabilità emotiva rispetto al mese scorso. Ridotta la dose di diazepam, senza comparsa di sintomi di astinenza. Pianificata rivalutazione clinica a dicembre.",
+    "entities": []
+  },
+  {
+    "text": "Iniziale resistenza al trattamento, ma progressiva accettazione delle difficoltà emotive legate al disturbo da dipendenza. Si discute della necessità di affrontare il distacco da sostanze come l'alcol e le benzodiazepine, con suggerimento di supporto psicoterapeutico per il potenziamento della resilienza. Il trattamento con SSRI viene confermato, ma si valuta la possibilità di aumentare il dosaggio di escitalopram per contrastare l'ansia persistente.",
+    "entities": [
+      {
+        "text": "SSRI",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Relazione con la famiglia migliorata, in particolare con il padre, che ha mostrato un atteggiamento di maggiore supporto nei confronti del paziente. Rimane un problema nella gestione della rabbia e nella comunicazione con la madre. Si programma un incontro con il terapista familiare per discutere strategie di miglioramento relazionale. Viene anche presa in considerazione una revisione della terapia con metadone, in quanto il paziente riferisce di non avvertire più l'effetto desiderato.",
+    "entities": []
+  },
+  {
+    "text": "Paziente ancora molto agitato, con difficoltà a mantenere l'autocontrollo durante le discussioni. Si segnala un aumento dei sintomi di paranoia, soprattutto in situazioni sociali. Si procede con l'introduzione di antipsicotici per cercare di controllare questi sintomi, associato a un piano di de-escalation graduale dell'uso di alcol. Da monitorare nei prossimi giorni per eventuali effetti collaterali del farmaco.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta, il paziente ha mostrato segni di maggiore apertura rispetto alla settimana precedente, esprimendo volontà di migliorare la propria situazione lavorativa e relazionale. Ha accettato di affrontare il tema della dipendenza da cocaina, sebbene con evidenti resistenze. Si propone una sessione di gruppo con altri pazienti per facilitare l'integrazione e la condivisione di esperienze. Continuare la terapia con bupropione.",
+    "entities": []
+  },
+  {
+    "text": "Nessun segno di astinenza, ma il paziente segnala la persistenza di un certo desiderio di consumo, soprattutto nelle situazioni di stress. Si propone un piano di intervento comportamentale per affrontare i trigger emotivi e situazionali. Viene anche presa in considerazione una leggera variazione nel dosaggio di naltrexone per migliorare l'efficacia del trattamento contro la dipendenza da oppiacei.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente, con risvegli multipli e ansia anticipatoria. Concordato incremento delle sedute di mindfulness e mantenimento della riduzione graduale di BDZ.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo di sostegno presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Umore deflesso, ma senza ideazione suicidaria. Accetta di iniziare terapia sostitutiva con metadone, monitorando parametri clinici. Si annota miglioramento della compliance rispetto alla scorsa settimana.",
+    "entities": []
+  },
+  {
+    "text": "Segnala craving intenso soprattutto nelle ore serali. Si concorda con il dott. Tomaselli di aumentare la frequenza dei colloqui motivazionali. Riporta conflitto con il fratello residente a Cogolo.",
+    "entities": [
+      {
+        "text": "Tomaselli",
+        "label": "PER"
+      },
+      {
+        "text": "Cogolo",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Nessun segno di acuzie clinica. Buona risposta al programma di disintossicazione avviato il 15 ottobre. Continua la riduzione progressiva di benzodiazepine e si pianifica follow-up presso l'Ospedale Maggiore.",
+    "entities": [
+      {
+        "text": "15 ottobre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia nelle ore serali. Concordiamo incremento della dose di quetiapina a basso dosaggio per favorire il sonno e ridurre l'irritabilità. Nega craving per cocaina.",
+    "entities": []
+  },
+  {
+    "text": "Seduta caratterizzata da tono dell'umore deflesso. Segnala pensieri intrusivi legati a fallimenti passati. Ricorda di aver frequentato il centro diurno presso Ospedale San Carlo, dove aveva già iniziato un percorso di disintossicazione.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra maggiore consapevolezza dei rischi connessi all'uso di BDZ. Accetta proposta di riduzione graduale con supporto di terapia cognitivo-comportamentale. Riporta colloquio positivo con la sorella Anna, che lo sostiene nel percorso.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna, appare più motivato e collaborativo. Ricorda episodi di abuso avvenuti a Baselga Del Bondone, con particolare riferimento a serate trascorse in locali notturni. Si lavora sulla prevenzione delle ricadute.",
+    "entities": [
+      {
+        "text": "Baselga Del Bondone",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Non emergono sintomi psicotici. Lamenta però cefalea e lieve tremore alle mani. Si concorda monitoraggio clinico e sospensione graduale del Campral. Riporta di aver letto recentemente \"La coscienza di Zeno\" come spunto di riflessione personale.",
+    "entities": [
+      {
+        "text": "Campral",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "La coscienza di Zeno",
+        "label": "WORKS_OF_ART"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma ridotto consumo di BDZ rispetto alla settimana precedente. Concordata prosecuzione con dosaggio minimo di diazepam e monitoraggio dei sintomi ansiosi.",
+    "entities": []
+  },
+  {
+    "text": "Accetta proposta di sostituire alcol con bevande non alcoliche durante le uscite serali. Segnala miglioramento dell'umore dopo colloquio con la sorella Anna.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna emerge riduzione del craving per cocaina. Si discute possibilità di inserimento in gruppo terapeutico presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra maggiore tolleranza al disagio fisico, con solo lievi tremori mattutini. Concordato scalaggio graduale di lorazepam e mantenimento di terapia con naltrexone.",
+    "entities": []
+  },
+  {
+    "text": "Segnala ricaduta lieve nel fine settimana, con consumo di birra presso il bar Aurora in periferia di pernumia. Dopo confronto, accetta piano di astensione e incremento delle sedute di supporto.",
+    "entities": [
+      {
+        "text": "Aurora",
+        "label": "ORG"
+      },
+      {
+        "text": "pernumia",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e ansia anticipatoria. Concordiamo incremento graduale della dose di trazodone per favorire il sonno e ridurre la dipendenza da BDZ. Mantiene astinenza da alcol da due settimane.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Durante il colloquio appare più collaborativo, con riduzione dei sintomi depressivi. Segnala craving occasionale per cocaina, ma senza ricadute recenti. Si concorda monitoraggio settimanale presso il Centro Dipendenze di Stelletanone.",
+    "entities": [
+      {
+        "text": "di Stelletanone",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di sospendere gradualmente l'uso di metadone, con supporto farmacologico tramite naltrexone. Riporta miglioramento della relazione con la sorella e maggiore stabilità emotiva. Nessun episodio di abuso segnalato nell'ultimo mese.",
+    "entities": []
+  },
+  {
+    "text": "Persistono sintomi di irritabilità e difficoltà di concentrazione. Si discute possibilità di inserimento in gruppo terapeutico cognitivo-comportamentale. Segnala di aver evitato frequentazioni al bar La Pergola per ridurre stimoli associati all'alcol.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Mostra maggiore consapevolezza dei rischi legati all'uso di cannabis. Concordiamo mantenimento della terapia con sertralina e supporto psicologico individuale. Riporta di aver partecipato con beneficio a un incontro di auto-aiuto presso la Casa della Salute di St. Ulrich/Urtijei.",
+    "entities": [
+      {
+        "text": "Casa della Salute di St. Ulrich/Urtijei",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordato incremento della dose di sertralina e mantenimento del piano di riduzione graduale BDZ. Non emergono segni di ricaduta in consumo di alcol.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna, si mostra più collaborativo e motivato. Ricorda l'impegno preso con la sorella Anna di non frequentare più il bar La Pergola. Mantiene astinenza da oppiacei da oltre tre settimane.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Segnala craving intenso per cocaina, soprattutto nei momenti di solitudine. Si lavora su strategie di coping e si propone attività di gruppo presso il Centro San Martino. Non sintomi psicotici in atto.",
+    "entities": [
+      {
+        "text": "San Martino",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra umore deflesso e pensieri di autosvalutazione. Ricorda la ricaduta avvenuta il 15 ottobre, ma dichiara volontà di riprendere il percorso. Si concorda monitoraggio settimanale e supporto farmacologico con naltrexone.",
+    "entities": [
+      {
+        "text": "15 ottobre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di ridurre progressivamente l'assunzione di diazepam, pur con timori di insonnia. Riporta miglioramento della relazione con il figlio Ernesto e maggiore stabilità emotiva. Non segni di abuso di alcolici.",
+    "entities": [
+      {
+        "text": "Ernesto",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Persistono ansia anticipatoria e insonnia, ma senza ricadute acute. Concordato incremento delle sedute di mindfulness e mantenimento della riduzione progressiva di BDZ. Segnalata buona compliance al programma terapeutico.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce maggiore stabilità emotiva dopo colloquio con la sorella Anna. Ridotta craving per alcolici, sebbene permanga vulnerabilità in contesti sociali. Si discute possibilità di inserimento in gruppo di sostegno presso Centro San Carlo.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna, il paziente mostra atteggiamento collaborativo e accetta di iniziare terapia sostitutiva con buprenorfina. Si annota miglioramento rispetto alla scorsa settimana, con riduzione dei sintomi di astinenza.",
+    "entities": []
+  },
+  {
+    "text": "Segnalata ricaduta lieve nel fine settimana, con consumo di cannabis. Il paziente Virgilio Moccia, 29 anni, riconosce la difficoltà e accetta piano di monitoraggio più stretto. Si propone anche coinvolgimento della madre Adelasia.",
+    "entities": [
+      {
+        "text": "Virgilio Moccia",
+        "label": "PATIENT"
+      },
+      {
+        "text": "29 anni",
+        "label": "AGE"
+      },
+      {
+        "text": "Adelasia",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Migliorata la capacità di regolazione affettiva, con riduzione degli episodi di irritabilità. Riferisce di aver evitato ambienti a rischio come il bar La Pergola in centro città. Prosegue trattamento con naltrexone.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma ridotto consumo di alcol rispetto alle settimane precedenti. Concordato incremento della dose di sertralina per gestire ansia residua. Nessun craving per oppiacei.",
+    "entities": []
+  },
+  {
+    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro Dipendenze di Formazza. Mostra maggiore consapevolezza dei rischi legati all'uso di BDZ e chiede supporto per scalaggio graduale.",
+    "entities": [
+      {
+        "text": "di Formazza",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna emergono pensieri depressivi, ma senza ideazione suicidaria. Si concorda mantenimento della terapia con naltrexone e monitoraggio settimanale. Riporta conflitti con la sorella, fonte di stress significativo.",
+    "entities": []
+  },
+  {
+    "text": "Mostra miglioramento dell'umore dopo la sospensione di cannabis. Segnala ancora craving per cocaina, ma con riduzione della frequenza. Si propone attività di mindfulness e incremento delle sedute di psicoterapia cognitivo-comportamentale.",
+    "entities": []
+  },
+  {
+    "text": "In data 15 ottobre 2025 ha riportato ricaduta con assunzione di alcol in un bar vicino alla stazione centrale. Dopo colloquio motivazionale, accetta di riprendere il programma di disintossicazione e di limitare frequentazioni a rischio.",
+    "entities": [
+      {
+        "text": "15 ottobre 2025",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordata prosecuzione con riduzione graduale di BDZ e introduzione di tecniche di rilassamento. Segnala minor craving per cocaina rispetto al mese scorso.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge forte senso di colpa legato alla relazione con la figlia. Si discute con la dott.ssa Antonioni la possibilità di integrare psicoterapia individuale con incontri di gruppo presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "Antonioni",
+        "label": "PER"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Mostra maggiore stabilità emotiva, con riduzione dei sintomi depressivi. Accetta di sospendere gradualmente l'uso di alcol, mantenendo terapia con Campral. Riporta miglioramento della relazione con il fratello residente a Rigoli.",
+    "entities": [
+      {
+        "text": "Rigoli",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Persistono difficoltà di concentrazione e irritabilità. Si concorda switch da alprazolam a diazepam per ridurre rischio di dipendenza. Ricorda episodio di ricaduta avvenuto a Ferragosto, con consumo eccessivo di alcolici.",
+    "entities": [
+      {
+        "text": "Ferragosto",
+        "label": "EVENT"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di partecipare a programma di reinserimento lavorativo promosso da Associazione Rinascita. Segnala miglioramento della motivazione e riduzione del craving per eroina. Rimane comunque vulnerabile a stress ambientali.",
+    "entities": [
+      {
+        "text": "Associazione Rinascita",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma ridotto craving per oppiacei. Concordata prosecuzione terapia con metadone a dosaggio stabile. Mostra maggiore disponibilità a partecipare ai gruppi di sostegno presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta appare più collaborativo, con riduzione dell'ansia anticipatoria. Segnala conflitti familiari con la sorella, che aumentano il rischio di ricaduta. Si consiglia incremento delle sedute di psicoterapia cognitivo-comportamentale.",
+    "entities": []
+  },
+  {
+    "text": "Persistono sintomi depressivi, ma migliorata aderenza al piano farmacologico. Ha sospeso spontaneamente l'uso di alcolici da due settimane. Si concorda monitoraggio clinico ravvicinato e valutazione della possibilità di inserimento in comunità terapeutica a Roncocesi.",
+    "entities": [
+      {
+        "text": "Roncocesi",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Mostra irritabilità e difficoltà di concentrazione. Riporta episodio di craving intenso durante la festa di San Giovanni, ma è riuscito a gestirlo senza ricorrere a sostanze. Si rinforza la strategia di coping appresa in seduta.",
+    "entities": [
+      {
+        "text": "festa di San Giovanni",
+        "label": "EVENT"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di ridurre gradualmente BDZ, con supporto farmacologico alternativo (Trittico). Nega sintomi psicotici. Si propone valutazione neuropsicologica presso l'Ospedale Maggiore di Parma.",
+    "entities": [
+      {
+        "text": "Trittico",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "di Parma",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Paziente riferisce miglioramenti nel controllo dell'impulso, ma si osserva un incremento della tensione muscolare e dell'ansia notturna. Continuare con il supporto psicoterapeutico e monitorare l'efficacia della riduzione graduale delle benzodiazepine. Il trattamento prevede un cambio di farmaco, con introduzione di pregabalin per gestire l'ansia. Discuterò con il medico curante di una possibile visita psichiatrica al termine del mese.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente, dopo alcune settimane di astinenza, ha riferito di aver avuto un episodio di ricaduta. Tuttavia, la sua motivazione sembra ancora alta, e ha concordato di incrementare il supporto familiare. Si suggerisce di fissare un incontro con il terapeuta per affrontare il tema della gestione delle crisi e dei trigger.",
+    "entities": []
+  },
+  {
+    "text": "Oggi il paziente è apparso più tranquillo rispetto alla visita precedente, sebbene lamentasse una leggera difficoltà a concentrarsi. A livello farmacologico, il piano di trattamento prevede un aggiustamento della dose di fluoxetina, con l'intento di migliorare la gestione delle emozioni in situazioni di stress. Non sono emersi segnali di acuzie clinica durante la sessione.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente sembra più motivato a proseguire il programma di disintossicazione. Tuttavia, le difficoltà emergono nei momenti di solitudine, quando tende a rifugiarsi nei comportamenti di dipendenza. Si programma una visita di controllo per il prossimo venerdì, con il supporto di un gruppo di sostegno durante il fine settimana.",
+    "entities": []
+  },
+  {
+    "text": "Nessun segno di agitazione, ma persistono sintomi di insonnia che vanno monitorati. Il paziente ha concordato di continuare la terapia con clonidina per il controllo dei sintomi di astinenza, e si è impegnato a partecipare attivamente alle sedute settimanali di psicoterapia. Verrà seguito da un medico del centro per il monitoraggio continuo della sua condizione.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma riduzione del craving per oppiacei. Concordato incremento graduale della dose di naltrexone e monitoraggio settimanale.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna appare più sereno, con miglioramento dell'umore. Segnala qualche episodio di ansia mattutina. Si decide di mantenere la terapia con sertralina e ridurre progressivamente BDZ.",
+    "entities": []
+  },
+  {
+    "text": "Accenna a conflitti familiari con la sorella, che aumentano la vulnerabilità al consumo di alcol. Si lavora su strategie di coping e si propone gruppo terapeutico presso il Centro San Carlo.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Non emergono sintomi psicotici. Riporta invece difficoltà di concentrazione e stanchezza. Si concorda sospensione graduale di metadone e valutazione alternativa con buprenorfina.",
+    "entities": []
+  },
+  {
+    "text": "In data 15 ottobre 2025 ha avuto ricaduta con uso di cocaina, seguita da forte senso di colpa. Si pianifica intensificazione del supporto psicoterapico e colloquio familiare con la madre.",
+    "entities": [
+      {
+        "text": "15 ottobre 2025",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, con risvegli multipli e ansia anticipatoria. Concordato incremento graduale della psicoterapia cognitivo-comportamentale e mantenimento della riduzione di BDZ. Nessun craving per oppiacei, ma permane vulnerabilità emotiva.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge irritabilità e difficoltà a gestire la frustrazione. Si discute con la sorella Anna la possibilità di coinvolgerla maggiormente nel sostegno quotidiano. Accetta di sospendere l'uso di alcolici, ma chiede supporto farmacologico con naltrexone.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Mostra miglioramento dell'umore rispetto alla scorsa settimana. Riporta di aver evitato frequentazioni al bar La Pergola, luogo associato a ricadute precedenti. Si concorda prosecuzione del trattamento con Campral e monitoraggio mensile.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi lievi, ma maggiore consapevolezza dei rischi legati all'uso di sostanze. Durante la seduta cita il figlio Livio come motivazione principale per mantenere l'astinenza. Si pianifica follow-up presso il Centro Psichiatrico San Carlo.",
+    "entities": [
+      {
+        "text": "Livio",
+        "label": "PER"
+      },
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Accenna a ricordi di abuso di cocaina durante il periodo trascorso a Poggiomarino, con forte senso di colpa. Attualmente più stabile, ma necessita rinforzo motivazionale. Si conferma riduzione progressiva di benzodiazepine e sostegno psicoterapico.",
+    "entities": [
+      {
+        "text": "Poggiomarino",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Mostra riduzione dell'ansia anticipatoria, con minor ricorso a BDZ. Riferisce sonno frammentato ma senza risvegli angosciosi. Concordata prosecuzione con dosaggio minimo di Sertralina.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Sertralina",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Accenna a pensieri intrusivi legati al passato consumo di cocaina. Si lavora sulla ristrutturazione cognitiva e sul mantenimento dell'astinenza. Prevista rivalutazione clinica il 15 dicembre.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta odierna appare più collaborativo. Segnala craving ridotto per alcol, ma persiste irritabilità. Si propone incremento delle attività di gruppo presso il Centro San Raffaele.",
+    "entities": [
+      {
+        "text": "San Raffaele",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce miglioramento dell'umore dopo colloquio con la sorella Anna. Mantiene buona aderenza al trattamento con Naltrexone. Si consiglia monitoraggio settimanale della funzionalità epatica.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      },
+      {
+        "text": "Naltrexone",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Persistono difficoltà nella gestione dello stress lavorativo. Evita luoghi associati al consumo, come il bar La Pergola in centro città. Si rinforza la strategia di coping e si pianifica follow-up tra due settimane.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Alcuni segnali di miglioramento nel controllo delle impulsi, ma persistono momenti di instabilità emotiva, soprattutto durante la sera. Continuato utilizzo di metadone come sostituto terapeutico, tuttavia si evidenzia una certa riluttanza a ridurre la dose nonostante le raccomandazioni. Discutiamo insieme la possibilità di avviare un percorso di disassuefazione graduale. Il supporto della madre sembra rivelarsi utile.",
+    "entities": []
+  },
+  {
+    "text": "Sintomi di ansia e insonnia ancora evidenti. Il paziente ha difficoltà a gestire le sue emozioni quando si trova in situazioni di stress, in particolare quando è a casa da solo. Si discute l'opportunità di iniziare una psicoterapia cognitivo-comportamentale per migliorare la gestione dello stress. Parziale adesione al piano terapeutico proposto.",
+    "entities": []
+  },
+  {
+    "text": "Nel corso della sessione emerge una certa frustrazione rispetto al processo di disintossicazione. Nonostante l'impegno nel ridurre il consumo di alcol, persistono periodi di crisi e desiderio di abuso. La proposta di avviare un programma di terapia di gruppo presso il centro di riabilitazione 'La Speranza' è stata accolta positivamente.",
+    "entities": [
+      {
+        "text": "La Speranza",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Durante la seduta, il paziente ha mostrato un livello significativo di disagio quando si è parlato di situazioni che scatenano il desiderio di ricorrere a sostanze. Nonostante ciò, ha espresso motivazione nel voler intraprendere un percorso di recupero. L'uso di benzodiazepine è stato ridotto come concordato in precedenza, ma è stato deciso di monitorare più attentamente gli effetti collaterali.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha riferito una certa preoccupazione per il ritorno alla vita quotidiana dopo un periodo di intensivo trattamento. Mostra segnali di ansia riguardo la reintegrazione sociale. Si è discusso dell'importanza del supporto familiare, in particolare da parte del fratello, che potrebbe giovare nel facilitare il suo reinserimento. Decisa una diminuzione ulteriore del dosaggio di metadone.",
+    "entities": []
+  },
+  {
+    "text": "Sintomi di astinenza moderata con ansia, insonnia e lieve irritabilità. La paziente si è mostrata motivata a proseguire con il piano terapeutico, ma manifesta una certa difficoltà nell'affrontare il disturbo da dipendenza da alcol. È stato deciso di intensificare il supporto psicoterapeutico con un focus sulle relazioni interpersonali e sul miglioramento del coping. Verrà avviato un programma di consulenze settimanali con il dott. Querini.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha riferito di aver ridotto il consumo di alcol negli ultimi giorni, ma è preoccupato per la sua capacità di mantenere il controllo. La terapia farmacologica è stata modificata, con l'introduzione di disulfiram. Continuerà a frequentare il gruppo di supporto, ed è stato suggerito un incontro con il terapeuta per esplorare le motivazioni alla base della dipendenza.",
+    "entities": []
+  },
+  {
+    "text": "Condizione psicologica stabile, senza episodi acuti. La paziente è riuscita a ridurre l'uso di benzodiazepine come concordato. Alcuni segnali di stress legati alla situazione familiare, in particolare con il marito, sono stati discussi durante la seduta. È stato suggerito un incontro con il consulente familiare per esplorare dinamiche relazionali. La paziente è d'accordo.",
+    "entities": []
+  },
+  {
+    "text": "La paziente ha espresso frustrazione riguardo alla lentezza del processo di recupero e ha menzionato episodi di forte ansia notturna. In risposta, si è deciso di inserire una terapia cognitivo-comportamentale focalizzata sulla gestione dell'ansia e sul rafforzamento dell'autoefficacia. È stata programmata una visita di controllo fra due settimane.",
+    "entities": []
+  },
+  {
+    "text": "I risultati delle ultime settimane mostrano progressi evidenti. La paziente ha ridotto significativamente l'uso di sostanze stupefacenti e sta iniziando a lavorare sul ripristino delle sue routine quotidiane. Il supporto psicologico è stato ritenuto utile, ma continua a manifestare resistenze riguardo all'intervento farmacologico. È stato concordato un follow-up tra dieci giorni.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna si è osservato un mantenimento della motivazione al percorso di disintossicazione, anche se sono stati segnalati lievi sintomi di ansia generalizzata. Si è concordato di aumentare temporaneamente la dose di Sertralina, valutando continuamente la risposta clinica. Il paziente ha riferito di aver ridotto l'assunzione di alcool nel corso delle ultime due settimane, mostrando un miglioramento nel controllo degli impulsi. Si è inoltre discusso di strategie di coping per la gestione delle tentazioni in contesti sociali.",
+    "entities": []
+  },
+  {
+    "text": "Il soggetto ha mostrato segni di lieve irritabilità e difficoltà nel mantenere l'astinenza, specialmente durante il fine settimana. La famiglia, rappresentata dal padre Guido e dalla madre Elena, si è mostrata preoccupata per la possibilità di ricadute, suggerendo l'introduzione di incontri di sostegno nel gruppo di recupero. È stata inoltre, valutata l'opportunità di aumentare il monitoraggio farmacologico con naltrexone e di intensificare le sessioni di terapia cognitivo-comportamentale.",
+    "entities": [
+      {
+        "text": "Guido",
+        "label": "PER"
+      },
+      {
+        "text": "Elena",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Presenta lieve agitazione mattutina, ma risponde positivamente alle sedute di counseling. Ha iniziato graduale riduzione di alcol e sospensione del Diazepam. Segnalo collaborazione con il dott. Balbi e monitoraggio settimanale presso il centro SERD di Antillo.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce craving sporadico per oppiacei nelle ore serali. Si concorda con il team di terapia farmacologica per somministrazione graduale di Buprenorfina. È stata coinvolta la madre, signora Cabrini, nel percorso psicoeducativo.",
+    "entities": []
+  },
+  {
+    "text": "Seduta di oggi caratterizzata da riflessioni su ricadute precedenti. Presenta ansia lieve e insonnia residua. Si propone intervento cognitivo-comportamentale e partecipazione a gruppi di autoaiuto presso la Casa della Salute di Zenson Di Piave.",
+    "entities": []
+  },
+  {
+    "text": "Ha manifestato difficoltà a rispettare il piano di riduzione del consumo di cannabis. Supportato da colloqui motivazionali con psicologo dott.ssa Giannini. Non emergono sintomi psichiatrici acuti.",
+    "entities": []
+  },
+  {
+    "text": "Segnalo miglioramento generale dell'umore e aumento della partecipazione alle attività di gruppo. Paziente riferisce sonno regolare e diminuzione ansia sociale. Consulto con psichiatra Dr. Colombo previsto il 02/12/2025 per valutazione eventuale aggiustamento terapia con Sertralina.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha mostrato miglioramenti nelle ultime settimane, con una riduzione significativa dei sintomi da astinenza. Non segnala più ansia o irritabilità come prima, ma continua a manifestare difficoltà nel mantenere l'astinenza durante gli incontri sociali. È stato proposto un programma di supporto psicoterapeutico intensivo per il prossimo mese. Inizia anche una graduale riduzione di metadone.",
+    "entities": []
+  },
+  {
+    "text": "Oggi si è parlato del recente episodio di abuso di alcol, che ha portato a un aggravamento della condizione psicologica. Il paziente ha espresso forte senso di colpa e frustrazione. La decisione è stata di aggiungere una sedazione leggera per il prossimo periodo, per garantire una gestione migliore dell'ansia e dell'insonnia. Continuano le sedute di terapia individuale con il dottor Fabbri.",
+    "entities": []
+  },
+  {
+    "text": "L'attuale trattamento con buprenorfina sta portando a buoni risultati. Il paziente ha dichiarato di sentirsi meno preoccupato riguardo alla possibilità di ricadute. La madre, Milena, è molto coinvolta nel percorso terapeutico e continua a supportarlo attivamente. È stato discusso il piano di riduzione del farmaco per il mese prossimo.",
+    "entities": []
+  },
+  {
+    "text": "La paziente, dopo un lungo periodo di instabilità emotiva, ha mostrato progressi nella gestione dello stress e dei sintomi di astinenza da cocaina. Durante l'incontro, si è parlato dell'importanza di mantenere una routine quotidiana per evitare le situazioni di rischio. L'assunzione di psicofarmaci è stata aggiustata, con un focus maggiore sulla stabilizzazione dell'umore.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha mostrato una generale riduzione dei sintomi depressivi. L'assunzione di SSRI è stata mantenuta, ma la dose è stata abbassata. La situazione familiare resta un punto critico, con una relazione conflittuale con il padre. È stato consigliato un ulteriore intervento familiare, al fine di favorire un ambiente di supporto per il paziente.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordiamo incremento graduale della psicoterapia cognitivo-comportamentale e mantenimento della riduzione progressiva di BDZ. Nessun craving per oppiacei.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta emerge rabbia repressa verso il fratello, connessa a episodi di abuso di alcol in famiglia. Si lavora sulla gestione delle emozioni e si propone diario quotidiano per monitorare pensieri intrusivi.",
+    "entities": []
+  },
+  {
+    "text": "Accetta di iniziare trattamento con naltrexone, dopo spiegazione dei possibili effetti collaterali. Mostra buona compliance e motivazione a mantenere astinenza. Si annota miglioramento dell'umore rispetto al colloquio di settembre.",
+    "entities": []
+  },
+  {
+    "text": "Si presenta con tono dell'umore deflesso, lamenta difficoltà di concentrazione e craving intermittente per cocaina. Ricorda episodi di abuso avvenuti a Trenta, che ancora generano senso di colpa. Si lavora su strategie di prevenzione delle ricadute.",
+    "entities": []
+  },
+  {
+    "text": "Seduta svolta presso il Centro Psichiatrico San Carlo. Il paziente mostra maggiore capacità di insight e accetta di ridurre gradualmente l'assunzione di alcolici. Si consiglia attività sportiva come supporto alla regolazione emotiva.",
+    "entities": []
+  },
+  {
+    "text": "Mostra riduzione dell'ansia anticipatoria, con miglioramento della qualità del sonno. Rimane lieve tremore mattutino, gestibile senza incremento di BDZ. Concordato mantenimento della terapia con naltrexone.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna emerge maggiore consapevolezza dei rischi legati al consumo di alcol. Ricorda episodi di abuso avvenuti a Castelbellino, con conseguente ricovero presso il Policlinico.",
+    "entities": [
+      {
+        "text": "Castelbellino",
+        "label": "GPE"
+      },
+      {
+        "text": "Policlinico",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di ridurre gradualmente la dose di metadone, nonostante la paura di sintomi astinenziali. La sorella Anna partecipa al colloquio e sostiene la decisione.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce craving intenso per cocaina, soprattutto in contesti sociali. Si lavora su strategie di coping e sull'evitamento di luoghi come il bar La Pergola.",
+    "entities": [
+      {
+        "text": "La Pergola",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Nessun segno di acuzie clinica. Buona aderenza al trattamento con disulfiram. Pianificato follow-up il 12 dicembre per monitoraggio epatico.",
+    "entities": [
+      {
+        "text": "12 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente, ma accetta di ridurre gradualmente BDZ. Mostra maggiore consapevolezza dei rischi di dipendenza e chiede supporto psicoterapico aggiuntivo.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta emerge irritabilità, ma nessun segno di craving per oppiacei. Concordata sospensione progressiva di Tramadol. Ricorda di aver avuto colloquio con la sorella Anna che lo sostiene nel percorso.",
+    "entities": [
+      {
+        "text": "Tramadol",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro San Carlo. Mostra riduzione dell'ansia sociale e maggiore apertura al confronto con altri pazienti.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Seduta del 15 ottobre: atteggiamento collaborativo, riferisce miglioramento dell'umore. Nega uso di alcol negli ultimi giorni. Si concorda mantenimento della terapia con campral e monitoraggio settimanale.",
+    "entities": [
+      {
+        "text": "15 ottobre",
+        "label": "DATE"
+      },
+      {
+        "text": "campral",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Più motivato a ridurre la dose di BDZ, anche se lamenta cefalea mattutina. Ricorda episodi di craving intenso durante la festa di San Giovanni a Bafia, ma dichiara di aver resistito.",
+    "entities": [
+      {
+        "text": "San Giovanni",
+        "label": "EVENT"
+      },
+      {
+        "text": "Bafia",
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Continua a manifestare segni di ansia generalizzata, con episodi ricorrenti di agitazione psicomotoria. L'umore appare instabile, e il paziente esprime preoccupazioni circa il suo futuro. La somministrazione di alprazolam continua, ma viene valutata una riduzione della dose per prevenire effetti di tolleranza. Si suggerisce anche di intensificare le sedute psicoterapeutiche settimanali per lavorare sulle sue paure legate al fallimento e alla frustrazione.",
+    "entities": []
+  },
+  {
+    "text": "Si conferma l'assenza di sintomi di astinenza alcolica, ma emergono segni di ricaduta emotiva legati alla perdita di un familiare. Il paziente ammette difficoltà a gestire la solitudine e il dolore, fenomeno che potrebbe compromettere la sua motivazione al trattamento. È stato consigliato un incontro con il gruppo di supporto familiare, per migliorare le dinamiche di coping e affrontare le emozioni difficili.",
+    "entities": []
+  },
+  {
+    "text": "Durante la sessione, il paziente ha riferito di aver fatto progressi nella gestione della rabbia. Non sono stati segnalati comportamenti aggressivi negli ultimi giorni. Tuttavia, si è evidenziato un desiderio crescente di evasione, con rifiuto di responsabilità nella vita quotidiana. È stato deciso di modificare il piano terapeutico, includendo attività più strutturate durante la giornata per stimolare la sua partecipazione attiva.",
+    "entities": []
+  },
+  {
+    "text": "Il paziente ha mostrato segni di miglioramento nella gestione dell'impulsività, ma si è discusso a lungo della difficoltà a mantenere la stabilità emotiva. L'idea di utilizzare una terapia cognitivo-comportamentale mirata alla ristrutturazione dei pensieri negativi è stata approvata. Inoltre, viene avviato un piano di riduzione progressiva del consumo di benzodiazepine, poiché la sua dipendenza da queste sostanze sta influenzando negativamente il trattamento.",
+    "entities": []
+  },
+  {
+    "text": "Nel corso dell'ultima settimana, non si sono registrati episodi di abuso di sostanze. Il paziente ha riferito di sentirsi più in controllo e ha accettato l'inizio del trattamento con disulfiram per supportare il suo percorso di disintossicazione dall'alcol. Resta comunque necessario monitorare attentamente gli eventuali effetti collaterali, in particolare quelli legati al sistema epatico.",
+    "entities": []
+  },
+  {
+    "text": "Riferisce insonnia persistente e ansia anticipatoria, ma accetta di ridurre gradualmente l'assunzione di metadone. Concordato monitoraggio settimanale per valutare eventuali sintomi di astinenza e stabilità emotiva.",
+    "entities": []
+  },
+  {
+    "text": "Durante la seduta odierna appare più collaborativo, con riduzione del craving per cocaina. Segnala miglioramento della relazione con la sorella e maggiore motivazione a partecipare alle attività di gruppo presso il centro.",
+    "entities": []
+  },
+  {
+    "text": "Accetta proposta di scalaggio da benzodiazepine con switch a diazepam. Mostra irritabilità lieve, ma nessun segno di psicosi. Si concorda rivalutazione clinica il giorno 15 dicembre.",
+    "entities": [
+      {
+        "text": "15 dicembre",
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Persistono sintomi depressivi moderati, con pensieri di autosvalutazione. Tuttavia, maggiore aderenza al piano terapeutico e riduzione dell'uso di alcol. Segnala di aver evitato frequentazioni abituali presso il bar Aurora.",
+    "entities": [
+      {
+        "text": "Aurora",
+        "label": "ORG"
+      }
+    ]
+  },
+  {
+    "text": "Si presenta con tono dell'umore più stabile, riferisce di aver iniziato attività sportiva presso la palestra San Bernardo. Nessun episodio di craving per oppiacei nell'ultima settimana. Concordato mantenimento della terapia con naltrexone.",
+    "entities": [
+      {
+        "text": "palestra San Bernardo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Riferisce insonnia persistente e aumento dell'ansia serale. Concordato incremento della dose di trazodone per favorire il sonno e ridurre la componente depressiva. Mantiene astinenza da alcol da tre settimane.",
+    "entities": []
+  },
+  {
+    "text": "Durante il colloquio emerge irritabilità e pensieri ossessivi legati al timore di ricaduta. Si propone attività di gruppo presso il Centro San Carlo per rinforzare la motivazione e la socializzazione.",
+    "entities": [
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
+    ]
+  },
+  {
+    "text": "Accenna a conflitti familiari con la sorella Anna, che ostacolano il percorso di disintossicazione. Si lavora sulla gestione delle emozioni e sull'uso di tecniche di rilassamento. Nessun craving per oppiacei.",
+    "entities": [
+      {
+        "text": "Anna",
+        "label": "PER"
+      }
+    ]
+  },
+  {
+    "text": "Mostra tono dell'umore più stabile rispetto alla scorsa settimana. Ridotto il dosaggio di BDZ, senza comparsa di sintomi da astinenza. Si consiglia monitoraggio clinico ravvicinato e diario quotidiano delle emozioni.",
+    "entities": [
+      {
+        "text": "BDZ",
+        "label": "PRODUCT"
+      }
+    ]
+  },
+  {
+    "text": "Segnala ricordi intrusivi legati a precedenti ricoveri presso l'Ospedale Maggiore di Gallo Matese. Si esplora la componente traumatica e si introduce gradualmente la terapia cognitivo-comportamentale. Mantiene buona adesione al programma farmacologico.",
+    "entities": [
+      {
+        "text": "Gallo Matese",
+        "label": "GPE"
+      }
+    ]
+  }
+]
