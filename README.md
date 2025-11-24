@@ -21,41 +21,6 @@ cd substance-abuse-italian-anonymizer
 ```bash
 pip install -r requirements.txt
 ```
-
-```bash
-python -m spacy download it_core_news_lg
-```
-
-## Configuration
-
-In the config.py file, you can customize:
-- Which entity types to anonymize (default: "PATIENT", "PER", "LOC", "ORG", "FAC", "GPE", "DATE", "NORP", "CODE", "EMAIL", "PHONE", "URL")
-- The spaCy model to use
-
-The full list of availble entity types is described in the following table:
-
-| Entity Type | Description               | Examples                  |
-|-------------|---------------------------|---------------------------|
-| PATIENT     | Patient names             | 'Giovanni Verdi', 'Luca' |
-| PER         | Person names              | 'Rossi', 'Mario Bianchi', 'G. Verdi', 'Visconti' |
-| LOC         | Locations                 | 'Parco del Gran Sasso', 'via Roma' |
-| ORG         | Organizations             | 'SerT di Milano', 'ASL', 'Comunità Terapeutica La Quercia' |
-| FAC         | Facilities                | 'Ospedale San Raffaele', 'Ponte di Rialto', 'Aeroporto di Fiumicino' |
-| GPE         | Geopolitical entities     | 'Germania', 'Marche', 'Milano' |
-| NORP        | Nationalities/Religious/Political groups | 'tedesco', 'cattolico', 'comunista' |
-| AGE         | Person age                | '35 anni', '42enne' |
-| DATE        | Dates/Time references     | '5 maggio', '2020', '20/03/2021' |
-| EVENT       | Events                    | 'Sagra della Porchetta', 'Natale' |
-| WORKS_OF_ART| Titles of works           | 'La Divina Commedia', 'Breaking Bad' |
-| PRODUCT     | Products                  | 'iPhone', 'Fiat Panda', 'Pavesini' |
-| CODE        | Codes (fiscal, postal, etc.)| 'RSSMRA85M01H501U', '20123' |
-| MAIL        | Email addresses           | 'marino.mar89@topmail.it' |
-| PHONE       | Phone numbers             | '+39 333 1234567', '02 12345678' |
-| PROV        | Italian provinces         | 'MI', 'RM', 'TO' |
-| URL         | Websites/URLs             | 'www.example.com', 'https://example.org' |
-
----
-
 ## Command Line Usage
 
 ### Basic anonymization
@@ -97,3 +62,34 @@ To launch the graphical interface:
 ```bash
 python anonymize.py --gui
 ```
+
+## Configuration
+
+In the config.py file, you can customize default settings about:
+- Which entity types to anonymize
+- The spaCy model to use
+
+The full list of availble entity types is described in the following table:
+
+| Entity Type | Description               | Examples                  |
+|-------------|---------------------------|---------------------------|
+| PATIENT     | Patient names             | 'Giovanni Verdi', 'Luca' |
+| PER         | Person names              | 'Rossi', 'Mario Bianchi', 'G. Verdi', 'Visconti' |
+| LOC         | Locations                 | 'Parco del Gran Sasso', 'via Roma' |
+| ORG         | Organizations             | 'SerT di Milano', 'ASL', 'Comunità Terapeutica La Quercia' |
+| FAC         | Facilities                | 'Ospedale San Raffaele', 'Ponte di Rialto', 'Aeroporto di Fiumicino' |
+| GPE         | Geopolitical entities     | 'Germania', 'Marche', 'Milano' |
+| NORP        | Nationalities/Religious/Political groups | 'tedesco', 'cattolico', 'comunista' |
+| AGE         | Person age                | '35 anni', '42enne' |
+| DATE        | Dates/Time references     | '5 maggio', '2020', '20/03/2021' |
+| EVENT       | Events                    | 'Sagra della Porchetta', 'Natale' |
+| WORKS_OF_ART| Titles of works           | 'La Divina Commedia', 'Breaking Bad' |
+| PRODUCT     | Products                  | 'iPhone', 'Fiat Panda', 'Pavesini' |
+| CODE        | Codes (fiscal, postal, etc.)| 'RSSMRA85M01H501U', '20123' |
+| MAIL        | Email addresses           | 'marino.mar89@topmail.it' |
+| PHONE       | Phone numbers             | '+39 333 1234567', '02 12345678' |
+| PROV        | Italian provinces         | 'MI', 'RM', 'TO' |
+| URL         | Websites/URLs             | 'www.example.com', 'https://example.org' |
+
+---
+
