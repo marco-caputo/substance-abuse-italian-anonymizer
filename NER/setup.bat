@@ -24,7 +24,7 @@ echo Base config: %BASECFG%
 echo ============================================
 
 REM Prepare data
-REM python prepare_data.py
+python prepare_data.py
 
 REM Fill config
 REM python -m spacy init fill-config %BASECFG% config.cfg

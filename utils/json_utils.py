@@ -23,6 +23,9 @@ def to_spacy_format(examples: list[dict]):
             return not (a_end <= b_start or a_start >= b_end)
 
         for ent in example["entities"]:
+            if ent["text"] == "":
+                continue
+
             ent_text = ent["text"]
             label = ent["label"]
 
@@ -65,16 +68,17 @@ def to_readable_format(spacy_examples: list[tuple]) -> list[dict]:
     return readable_data
 
 
-def append_json_data(f_name:str, data: list[dict]) -> str:
+def append_json_data(f_name:str, data: list[dict], overwrite: bool = False) -> str:
     """
     Saves sample data to a JSON file. If the file already exists, appends the new data to the existing data.
     :param f_name: complete path and file name of the JSON file
     :param data: list of sample data to save
+    :param overwrite: if True, overwrites the existing file instead of appending
     :return: the path to the saved file
     """
 
     # If file exists, load existing data
-    if os.path.exists(f_name):
+    if os.path.exists(f_name) and not overwrite:
         with open(f_name, "r", encoding="utf-8") as f:
             try:
                 existing_data = json.load(f)

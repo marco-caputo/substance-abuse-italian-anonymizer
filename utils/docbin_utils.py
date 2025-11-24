@@ -22,7 +22,7 @@ def to_docbin_format(data, permitted_labels: set[str] = None) -> DocBin:
         doc = nlp.make_doc(text)
         ents = []
         for start, end, label in labels:
-            span = doc.char_span(start, end, label=label, alignment_mode="contract")
+            span = doc.char_span(start, end, label=label, alignment_mode="expand")
             if span is None:
                 print(f"Skipping entity [{text[start:end]}] in text [{text[:min(100,len(text))]}...] due to misalignment.")
             elif permitted_labels and label not in permitted_labels:

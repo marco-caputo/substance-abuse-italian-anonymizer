@@ -13,10 +13,10 @@ from prompts import get_diaries_translation_prompt, get_diaries_ner_prompt, get_
 from mistakes_cleaner import clean_common_mistakes, replace_common_names, change_some_entities_to_lowercase
 from prompt_sender import send_prompt
 from utils import read_json_file, append_json_data
-from config import SEED_SAMPLES, SEED_PATH_DIARIES, TRAIN_TEST_SPLIT_DIARIES
+from data_generation.config import SEED_SAMPLES, SEED_PATH_DIARIES, TRAIN_TEST_SPLIT_DIARIES
 
 faker = Faker('it_IT')
-N_PER_OUTPUT = SEED_SAMPLES[-1]['n_per_output']
+N_PER_OUTPUT = SEED_SAMPLES[-1]['n_examples_per_prompt']
 
 
 def extract_chunks(dataframe):
@@ -40,25 +40,29 @@ def take_diaries_test_portion():
     test_examples = train_examples[index_split:]
     train_examples = train_examples[:index_split]
 
-    file_name = f"synthetic_samples/synthetic_{SEED_SAMPLES[-1]['filename']}_train.json"
-    append_json_data(file_name, train_examples)
-    print(f"Saved{len(train_examples)} train examples in {file_name}")
+    file_name = f"synthetic_samples/train/synthetic_{SEED_SAMPLES[-1]['filename']}_train.json"
+    append_json_data(file_name, train_examples, overwrite=True)
+    print(f"Saved {len(train_examples)} train examples in {file_name}")
 
-    file_name = f"seed_samples/test/seed_{SEED_SAMPLES[-1]['filename']}_test.json"
+    file_name = f"synthetic_samples/test/synthetic_{SEED_SAMPLES[-1]['filename']}_test.json"
     append_json_data(file_name, test_examples)
     print(f"Saved {len(test_examples)} test examples to {file_name}")
 
 def generate_diaries(chunk: list[str], iteration: int):
     """Generates, cleans and saves diaries examples in two steps: first translating, then labeling entities."""
     chunk = send_prompt(get_diaries_translation_prompt(chunk))
+    if len(chunk) != SEED_SAMPLES[-1]['n_examples_per_prompt']:
+        raise Exception(f"Number of examples per prompt ({len(chunk)}) does not match")
     generate_examples(get_diaries_ner_prompt(chunk), SEED_SAMPLES[-1], iteration)
 
 def save_and_print(data: list[dict], samples_files: dict, iteration: int, train_test: str = "train"):
     """Cleans, saves and prints information about generated data."""
+    if len(data) != samples_files['n_examples_per_prompt']:
+        raise Exception(f"Number of examples per prompt ({len(data)}) does not match")
     data = [clean_common_mistakes(ex) for ex in data]
     data = [replace_common_names(ex) for ex in data]
     # data = [change_some_entities_to_lowercase(ex) for ex in data]
-    filename = append_json_data(f"synthetic_samples/{train_test}/synthetic_{samples_files['filename']}_train.json", data)
+    filename = append_json_data(f"synthetic_samples/{train_test}/synthetic_{samples_files['filename']}_{train_test}.json", data)
     print(f"Generation {iteration + 1}/{samples_files['n_outputs'][train_test]} from {samples_files['filename']} - "
           f"{len(data)} synthetic examples saved in {filename}")
 

@@ -3,7 +3,7 @@ from faker import Faker
 import random
 
 from utils import to_spacy_format
-from __init__ import NER_LABELS, POST_LABELS
+from __init__ import NER_LABELS, POST_LABELS, ANONYMIZATION_LABELS
 
 Faker.seed(42)
 random.seed(42)
@@ -90,7 +90,7 @@ correct_age_pattern = r'((?:[A-Za-z]*|[0-9]*)\s(?:ann.|mes.))'
 org_correct_pattern = r'(?:mturk|amazon|twitch|netflix)'  #Common ORGs that can be written lowercase
 org_wrong_pattern = r'(?:[0-9]*)'
 org_fac_wrong_prefix = (r'(?:bar|ristorante|supermercato|azienda|falegnameria|stazione|comune|'
-                        r'(?:centro|cooperativa|comunità|organizzazione|clinica|ospedale|ambulatorio)\s'
+                        r'(?:centro|cooperativa|comunità|organizzazione|associazione|clinica|ospedale|ambulatorio)\s'
                         r'(?:diurn.|sociale|dipendenze|psicosociale|psichiatric.|formativ.|medic.|'
                         r'di\sreinserimento|di\sriabilitazione|benessere|culturale|clinic.|neuropsichiatric.|terapeutic.|'
                         r'salute\smentale|di\srecupero|maggiore)|centro|cooperativa|comunità|organizzazione|clinica|'
@@ -271,8 +271,8 @@ def clean_org(example: dict) -> dict:
                 continue
             if re.fullmatch(org_wrong_pattern, ent['text']):
                 continue
-            if re.search(org_fac_wrong_prefix, ent['text']):
-                search = re.search(r".*(?i:" + org_fac_wrong_prefix + r")" + r"\s(.*)", ent['text'])
+            search = re.search(r".*(?i:" + org_fac_wrong_prefix + r")" + r"\s(.*)", ent['text'])
+            if search:
                 ent['text'] = search.group(1).strip()
                 if re.match(r"di\s.*", ent['text'], re.IGNORECASE):
                     search = re.search(r"di\s(.*)", ent['text'], re.IGNORECASE)
@@ -325,6 +325,18 @@ def clean_fac(example: dict) -> dict:
     example['entities'] = cleaned_entities
     return example
 
+def clean_norp(example: dict) -> dict:
+    """Cleans NORP entities that are references to 'Dio'."""
+    cleaned_entities = []
+    for ent in example['entities']:
+        if ent['label'] == 'NORP':
+            if re.fullmatch(r'dio', ent['text'], re.IGNORECASE):
+                continue
+        cleaned_entities.append(ent)
+
+    example['entities'] = cleaned_entities
+    return example
+
 def clean_misc(example: dict) -> dict:
     """
     Cleans events, products and work of art entities that are not proper names.
@@ -346,6 +358,22 @@ def clean_misc(example: dict) -> dict:
         cleaned_entities.append(ent)
 
     example['entities'] = cleaned_entities
+    return example
+
+
+def clean_labels_in_text(example: dict) -> dict:
+    """Cleans labels appearing directly in the text or in entities text."""
+    for label in ANONYMIZATION_LABELS:
+        if re.search(rf'<{label}>', example['text']):
+            example['text'] = re.sub(rf'<{label}>', '', example['text'])
+
+    for label in {"LOC", "FAC", "ORG", "GPE", "PATIENT"}:
+        if re.search(rf'\b{label}\b', example['text']):
+            example['text'] = re.sub(rf'\b{label}\b', '', example['text'])
+            for ent in example['entities']:
+                if ent['text'].find(label) != -1:
+                    ent['text'] = re.sub(rf'\b{label}\b', '', ent['text'])
+
     return example
 
 
@@ -425,7 +453,8 @@ def clean_common_mistakes(example: dict) -> dict:
     :param example: the example dictionary with "text" and "entities" fields
     :return: the cleaned example dictionary
     """
-    example = remove_labels_not_in_set(example, NER_LABELS+POST_LABELS)
+    example = remove_labels_not_in_set(example, ANONYMIZATION_LABELS)
+    example = clean_labels_in_text(example)
     example = clean_wrong_per(example)
     example = clean_phone_numbers(example)
     example = clean_dates(example)
@@ -481,7 +510,7 @@ def change_some_entities_to_lowercase(example: dict) -> dict:
     :return: the modified example dictionary
     """
     for ent in example['entities']:
-        if ent['label'] in {'MISC','LOC','ORG','PER','GPE','PATIENT'}:
+        if ent['label'] in {'PATIENT','PER','ORG','GPE','LOC','FAC','EVENT','WORKS_OF_ART','PRODUCT'}:
             # Checks if the entity is not a substring of another entity to avoid partial replacements
             is_substring = False
             for ent_2 in example['entities']:
@@ -489,7 +518,7 @@ def change_some_entities_to_lowercase(example: dict) -> dict:
                     is_substring = True
                     break
             if not is_substring:
-                if (not str.islower(ent['text'])) and (random.random() < 0.01):  # 1% chance to lowercase
+                if (not str.islower(ent['text'])) and (random.random() < 0.03):  # 3% chance to lowercase
                     example['text'] = example['text'].replace(ent["text"], ent['text'].lower())
                     for ent_2 in example['entities']:
                         if ent_2['text'] == ent['text'] and ent_2['label'] == ent['label']:
@@ -512,23 +541,15 @@ def remove_labels_not_in_set(example: dict, valid_labels: set) -> dict:
 
 if __name__ == '__main__':
     from utils.json_utils import read_json_file, save_json_file, to_readable_format
-    """
-    count = 0
-    for file_name in ["diaries_therap", "diaries_psych"]:
-        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train_2.json")
-        for example in data:
-            for ent in example['entities']:
-                if ent['label'] in {'FAC','ORG'}:
-                    count += 1
-    print(f"Total FAC and ORG entities: {count}")
-    """
 
-    for file_name in ["diaries_therap", "diaries_psych", "reports"]:
-        data = read_json_file(f"synthetic_samples/synthetic_{file_name}_train.json")
-        data = [clean_common_mistakes(example) for example in data]
-        data = [replace_common_names(example) for example in data]
-        # data = [change_some_entities_to_lowercase(example) for example in data]
-        data = to_spacy_format(data)
-        data = to_readable_format(data)
-        save_json_file(f"synthetic_samples/synthetic_{file_name}_train.json", data)
+    for file_name in ["diaries_therap", "diaries_psych", "reports", "diaries_it"]:
+        for path in [f"synthetic_samples/train/synthetic_{file_name}_train.json",
+                     f"synthetic_samples/test/synthetic_{file_name}_test.json"]:
+            data = read_json_file(path)
+            data = [clean_common_mistakes(example) for example in data]
+            data = [replace_common_names(example) for example in data]
+            data = [change_some_entities_to_lowercase(example) for example in data]
+            data = to_spacy_format(data)
+            data = to_readable_format(data)
+            save_json_file(path, data)
 

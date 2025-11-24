@@ -12,7 +12,7 @@ faker = Faker('it_IT')
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from config import SEED_SAMPLES, ENTITIES_NER, ENTITIES_POST, ENTITIES_EE
+from data_generation.config import SEED_SAMPLES, ENTITIES_NER, ENTITIES_POST, ENTITIES_EE
 from utils import read_json_file
 
 SYSTEM_PROMPT_DIARIES_1 = """
@@ -195,7 +195,7 @@ def _filter_entities_from_samples(samples: list[dict]) -> list[dict]:
 def get_diaries_translation_prompt(chunk: list[str]):
     return f"""
             {SYSTEM_PROMPT_DIARIES_1}
-            Here are the {SEED_SAMPLES[-1]['n_per_output']} diary entries that you should translate from Italian to English:
+            Here are the {SEED_SAMPLES[-1]['n_examples_per_prompt']} diary entries that you should translate from Italian to English:
             \n\n- {"\n\n- ".join(chunk)}\n
             {ADDITIONAL_INSTRUCTIONS["diaries_it"]["translation"]}
             """
@@ -203,7 +203,7 @@ def get_diaries_translation_prompt(chunk: list[str]):
 def get_diaries_ner_prompt(chunk: list[str]) -> str:
     return f"""
             {SYSTEM_PROMPT_DIARIES_2}
-            Here are the {SEED_SAMPLES[-1]['n_per_output']} diary entries that you should modify by inserting named entities:
+            Here are the {SEED_SAMPLES[-1]['n_examples_per_prompt']} diary entries that you should modify by inserting named entities:
             \n\n- {"\n\n- ".join(chunk)}\n
 
             Possible entities that can be included are:\n 
@@ -224,7 +224,7 @@ def get_staff_diaries_prompt(samples_file: dict, train_test: str) -> str:
             {SYSTEM_PROMPT_STAFF_DIARIES}\n
             For instance, this is what you should answer when receiving a request for {len(seed_examples)} samples:\n
             {current_examples_text}\n
-            Now generate {samples_file['n_per_output']} new {samples_file['description']} samples about patients 
+            Now generate {samples_file['n_examples_per_prompt']} new {samples_file['description']} samples about patients 
             in substance abuse treatment. 
             Ensure each example resembles a realistic {samples_file['description']} in Italian as those provided above,
             but don't be afraid to vary the style, content and length of the reports.
