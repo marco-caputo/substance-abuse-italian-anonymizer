@@ -3559,7 +3559,7 @@
     "text": "L'appuntamento ha mostrato un miglioramento nella gestione della depressione associata alla dipendenza da sostanze psicoattive. Sono stati riscontrati momenti di ansia e tendenza all'isolamento, specie in presenza di situazioni sociali. Si suggerisce di approfondire con una valutazione neuropsicologica e di integrare il trattamento con un antidepressivo SSRI. Il paziente ha riferito di aver smesso di usare l'eroina da circa due settimane dopo un ricovero presso il  San Carlo di San Pietro Valdastico. L'intervento multidisciplinare continua a essere di supporto, con attenzione al benessere psicofisico globale.",
     "entities": [
       {
-        "text": " San Carlo",
+        "text": "San Carlo",
         "label": "FAC"
       },
       {
@@ -4928,7 +4928,7 @@
     "text": "Il paziente, un giovane di 32 anni, mostra segni di ansia sociale e una lieve depressione, probabilmente correlata alla difficoltà di mantenere l'astinenza dalla sostanza. La terapia con gabapentin è stata prescritta per gestire i sintomi di ansia. Si è anche pianificato un intervento di riabilitazione psicosociale presso strutture specializzate del  di Sorbara. La motivazione appare stabile, ma si suggerisce un potenziamento del supporto familiare.",
     "entities": [
       {
-        "text": " di Sorbara",
+        "text": "di Sorbara",
         "label": "GPE"
       }
     ]
@@ -5076,7 +5076,7 @@
     "text": "Durante l'incontro, si osservano ancora segni di depressione e un lieve aumento del craving per sostanze oppiacee. Si propone di integrare un intervento di psicoterapia cognitivo-comportamentale e monitorare attentamente i livelli di methadone, approfittando della collaborazione con il centro di riabilitazione  di Tiezzo.",
     "entities": [
       {
-        "text": " di Tiezzo",
+        "text": "di Tiezzo",
         "label": "GPE"
       }
     ]
@@ -5708,7 +5708,7 @@
     "text": "L'incontro ha evidenziato una buona compliance alla terapia con disulfiram, anche se si registra una lieve irritabilità e qualche episodio di aggressività che attribuisce a stress lavorativo. Si consiglia di proseguire con il supporto psicoterapeutico presso il centro  di Macine e di rafforzare le strategie di coping. La presenza di segni di depressione maggiore può richiedere l'attivazione di un intervento farmacologico con SSRI. Sono stati inoltre programmati test tossicologici per verificare l'astinenza nel prossimi 15 giorni.",
     "entities": [
       {
-        "text": " di Macine",
+        "text": "di Macine",
         "label": "GPE"
       }
     ]
@@ -5926,7 +5926,7 @@
     "text": "Il soggetto ha manifestato una certa resistenza al trattamento farmacologico con metadone, preferendo approcci alternativi. Si è concordato di attendere ulteriori valutazioni cliniche presso il centro di riabilitazione situato in  Lazio, stabilendo un nuovo appuntamento per la prossima settimana.",
     "entities": [
       {
-        "text": " Lazio",
+        "text": "Lazio",
         "label": "GPE"
       }
     ]
@@ -5985,7 +5985,7 @@
     "text": "Durante la seduta odierna si evidenzia una ridotta craving per le sostanze stupefacenti, con miglioramento dell'umore complessivo e riduzione dei pensieri ricorrenti di automedicazione. È stato valutato l'uso continuato di metadone, con un dosaggio stabile di 80 mg giornalieri. Si sono discusse strategie di coping per prevenire ricadute, specialmente nei fine settimana, e si è approfondito il ruolo della rete di supporto familiare, in particolare la relazione con il/a genitore/madre, domiciliato/a a  Bordolano. La sintomatologia ansiosa si presenta lievemente attenuata, anche se persistono episodi di irritabilità notturna.",
     "entities": [
       {
-        "text": " Bordolano",
+        "text": "Bordolano",
         "label": "GPE"
       }
     ]
@@ -6007,7 +6007,7 @@
     "text": "Oggi si è affrontato il tema dell'adesione alla terapia di mantenimento, con riscontro di un buon livello di consapevolezza sulla necessità di evitare comportamenti a rischio. Si evidenzia un lieve aumento dei livelli di ansia, gestiti temporaneamente con l'uso di benzodiazepini, che sarà monitorato nelle prossime settimane. Il soggetto ha mostrato interesse verso programmi di attività sportive presso il centro sportivo di  Calatafimi Segesta, ritenendo queste pratiche utili per favorire il benessere psicofisico. La relazione terapeutica appare solida, e si programma di rafforzare le strategie di resilienza tramite supporto psicosociale.",
     "entities": [
       {
-        "text": " Calatafimi Segesta",
+        "text": "Calatafimi Segesta",
         "label": "GPE"
       }
     ]
@@ -6222,7 +6222,7 @@
         "label": "ORG"
       },
       {
-        "text": " Casamostra",
+        "text": "Casamostra",
         "label": "GPE"
       }
     ]
@@ -6244,7 +6244,7 @@
         "label": "ORG"
       },
       {
-        "text": " Mühlen/Truden",
+        "text": "Mühlen/Truden",
         "label": "GPE"
       }
     ]
@@ -6266,7 +6266,7 @@
         "label": "ORG"
       },
       {
-        "text": " Montefalcone Di Val Fortore",
+        "text": "Montefalcone Di Val Fortore",
         "label": "GPE"
       },
       {
@@ -6870,7 +6870,7 @@
         "label": "PRODUCT"
       },
       {
-        "text": " San Carlo",
+        "text": "San Carlo",
         "label": "FAC"
       },
       {
@@ -7240,7 +7240,7 @@
     "text": "Durante la sessione odierna, si è osservato un miglioramento nei pattern di consumo di alcol, con riduzione significativa della quantità giornaliera. Si concorda sulla prosecuzione della terapia con naltrexone e sulla partecipazione a gruppi di supporto presso il centro  di Quartu Sant'Elena. È emersa una buona motivazione al percorso di recupero, anche se permangono episodi di craving durante le serate. Si suggerisce un monitoraggio più stretto delle abbuffate compulsive.",
     "entities": [
       {
-        "text": " di Quartu Sant'Elena",
+        "text": "di Quartu Sant'Elena",
         "label": "GPE"
       }
     ]
@@ -7253,7 +7253,35 @@
     "text": "In seguito alla valutazione psichiatrica, si è notato un quadro di disturbo da uso di alcool con episodi di delirium tremens nei giorni scorsi. La gestione ha incluso l'inizio di terapia con disulfiram e il coinvolgimento di un team di operatori presso la clinica di . La famiglia del paziente ha espresso preoccupazione riguardo la stabilità attuale e si è deciso di intensificare il supporto psicosociale per prevenire ricadute e crisi acuto-croniche.",
     "entities": [
       {
-        "text": "di ",
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
+        "label": "GPE"
+      },
+      {
+        "text": "di",
         "label": "GPE"
       }
     ]
@@ -7768,7 +7796,7 @@
     "text": "Il trattamento con clonazepam si è rivelato efficace nel ridurre le crisi di panico associate all'uso di stupefacenti. Tuttavia, si segnala la comparsa di lieve ipertensione e lieve alterazione degli enzimi epatici. Si propone un aggiustamento della dose e un controllo immediato presso il  di Garessio.",
     "entities": [
       {
-        "text": " di Garessio",
+        "text": "di Garessio",
         "label": "GPE"
       }
     ]

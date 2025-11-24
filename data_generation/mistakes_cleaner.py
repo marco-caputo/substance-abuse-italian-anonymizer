@@ -444,6 +444,17 @@ def find_patient_mentions(example: dict) -> dict:
 
     return example
 
+def remove_leading_spaces(example: dict) -> dict:
+    """
+    Removes leading and trailing spaces from entity texts.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the cleaned example dictionary
+    """
+    for ent in example['entities']:
+        ent['text'] = ent['text'].strip()
+    return example
+
 def clean_common_mistakes(example: dict) -> dict:
     """
     Cleans common labelling mistakes from the entities in the example. Common mistakes include:
@@ -465,6 +476,7 @@ def clean_common_mistakes(example: dict) -> dict:
     example = clean_fac(example)
     example = clean_misc(example)
     example = find_patient_mentions(example)
+    example = remove_leading_spaces(example)
     return example
 
 def _replace_common_names_text(text: str) -> tuple[str,list[tuple[str,str]]]:
