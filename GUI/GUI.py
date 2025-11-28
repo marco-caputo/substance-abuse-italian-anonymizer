@@ -8,6 +8,7 @@ Other logic unchanged.
 
 import sys
 import os
+import threading
 from pathlib import Path
 from typing import Iterable
 
@@ -249,36 +250,51 @@ class AnonymizerApp:
 
     # Main anonymization loop
     def anonymize_documents(self):
+        # Immediate GUI update
+        self.log("Anonimizzazione in corso...")
+
+        # Run heavy work in background
+        worker = threading.Thread(target=self._anonymize_worker)
+        worker.start()
+
+    # Main anonymization loop
+    def _anonymize_worker(self):
         if not self.selected_files:
-            messagebox.showwarning("Attenzione", "Seleziona almeno un documento.")
+            self.root.after(0, lambda: messagebox.showwarning("Attenzione", "Seleziona almeno un documento."))
             return
         if not self.output_dir:
-            messagebox.showwarning("Attenzione", "Seleziona una cartella di output.")
+            self.root.after(0, lambda: messagebox.showwarning("Attenzione", "Seleziona una cartella di output."))
             return
 
         selected_entities = [ent for ent, var in self.entity_vars.items() if var.get()]
         if not selected_entities:
-            messagebox.showwarning("Attenzione", "Seleziona almeno una categoria di entità.")
+            self.root.after(0,
+                            lambda: messagebox.showwarning("Attenzione", "Seleziona almeno una categoria di entità."))
             return
 
-        self.log("Anonimizzazione in corso...")
-
         for file_path in self.selected_files:
-            text = ""
             try:
                 text = read_file(file_path)
             except Exception as e:
-                messagebox.showerror("Errore", f"Impossibile leggere {file_path}: {e}")
+                self.root.after(0, lambda: messagebox.showerror("Errore", f"Impossibile leggere {file_path}: {e}"))
+                continue
+
             if not text.strip():
-                self.log(f"Saltato (vuoto): {file_path}")
+                self.root.after(0, lambda f=file_path: self.log(f"Saltato (vuoto): {f}"))
                 continue
 
             anonymized = anonymize(text, entities=selected_entities)
-            out_path = save_anonymized_text(anonymized, output_dir=self.output_dir, original_filename=file_path)
-            self.log(f"File anonimizzato salvato: {out_path}")
+            out_path = save_anonymized_text(
+                anonymized,
+                output_dir=self.output_dir,
+                original_filename=file_path
+            )
 
-        messagebox.showinfo("Fatto", "Anonimizzazione completata con successo!")
-        self.log("Tutti i file sono stati processati con successo.")
+            self.root.after(0, lambda p=out_path: self.log(f"File anonimizzato salvato: {p}"))
+
+        self.root.after(0, lambda: messagebox.showinfo("Fatto", "Anonimizzazione completata con successo!"))
+        self.root.after(0, lambda: self.log("Tutti i file sono stati processati con successo."))
+
 
 # Entry point
 def main():
