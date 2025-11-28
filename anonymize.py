@@ -10,6 +10,7 @@ import spacy
 from spacy import Language
 
 from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES
+from data_generation import ANONYMIZATION_LABELS
 from rules.rules import apply_rules
 from utils.anonymization_utils import anonymize_doc, save_anonymized_text
 from GUI.GUI import main as gui_main
@@ -31,6 +32,11 @@ def anonymize(text: str, nlp:Language = None, entities:Iterable[str]=None) -> st
     if nlp is None: nlp = spacy.load(DEFAULT_NER_MODEL)
     if entities is None: entities = DEFAULT_ENTITIES
     return anonymize_doc(apply_rules(nlp(text)), entities)
+
+def get_full_labeller(path: str = DEFAULT_NER_MODEL):
+    """Returns a full anonymization function using the specified spaCy model path."""
+    nlp = spacy.load(path)
+    return lambda text: apply_rules(nlp(text))
 
 # ----------------------------
 #   CLI logic

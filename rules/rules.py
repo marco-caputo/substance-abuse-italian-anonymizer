@@ -15,10 +15,10 @@ from rules.remove_double_tags import merge_adjacent_entities_same_label
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-dictionaries_path = "rules/dictionaries"
-processed_dictionaries_path = "rules/dictionaries_processed"
+dictionaries_path = os.path.join(PROJECT_ROOT, "rules/dictionaries")
+processed_dictionaries_path = os.path.join(PROJECT_ROOT, "rules/dictionaries_processed")
 
-test_file_path =  os.path.join("test_files")
+test_file_path =  os.path.join(PROJECT_ROOT, "rules/test_files")
 phone_text_path = os.path.join(test_file_path, "phone_text.txt")
 email_text_path = os.path.join(test_file_path, "email_text.txt")
 mixed_text_path = os.path.join(test_file_path, "mixed_text.txt")

@@ -1,6 +1,8 @@
 # Substance Abuse Italian Anonymizer
 
-A fine-tuned tool for de-identifying italian documents and diaries from substance abuse therapy facilities. This has been developed as a project for the Natural Language Processing course at Reykjavík University, held by prof. Stefán Ólafsson.
+A fine-tuned tool for de-identifying italian documents and diaries from substance abuse therapy facilities. 
+This has been developed as part of the Digit-Care project, aimed at creating predictive models to support therapeutic pathways for pathological addictions and assisting 4 Italian substance abuse therapy centers in decision making.
+
 
 This tool anonymizes Italian text using **spaCy NER** plus **custom rule-based detectors**.
 It can run from the **command line** or via a **graphical interface (GUI)**.
@@ -69,7 +71,7 @@ In the config.py file, you can customize default settings about:
 - Which entity types to anonymize
 - The spaCy model to use
 
-The full list of availble entity types is described in the following table:
+The full list of availble entity types in the latest anonymization model is described in the following table:
 
 | Entity Type | Description               | Examples                  |
 |-------------|---------------------------|---------------------------|
