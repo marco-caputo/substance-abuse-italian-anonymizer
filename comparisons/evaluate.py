@@ -1,6 +1,7 @@
 import re
 from typing import List, Tuple, Dict, Callable
 
+import spacy
 from tqdm import tqdm
 
 from utils import read_json_file, to_spacy_format
@@ -238,11 +239,24 @@ def evaluate_anonymizer_on_docs(anonymizer: Callable, test_set):
 
 if __name__ == "__main__":
     test_set = get_test_data()
-    model_path = "../NER/models/deployed/deployed_v2"
-    nlp_anonymizer = get_full_labeller(model_path)
+
+    model_path_1 = "../NER/models/deployed/deployed_v1"
+    nlp_anonymizer_1 = get_full_labeller(model_path_1)
+    nlp_1 = spacy.load(model_path_1)
+
+    model_path_2 = "../NER/models/deployed/deployed_v2"
+    nlp_anonymizer_2 = get_full_labeller(model_path_2)
+    nlp_2 = spacy.load(model_path_2)
+
     presidio_anonymizer = get_presidio_anonymizer()
 
-    print(evaluate_anonymizer_on_docs(nlp_anonymizer, test_set))
+    print("Model v1:")
+    print(evaluate_anonymizer_on_docs(nlp_anonymizer_1, test_set))
+    print(evaluate_anonymizer_on_docs(nlp_1, test_set))
+    print("Model v2:")
+    print(evaluate_anonymizer_on_docs(nlp_anonymizer_2, test_set))
+    print(evaluate_anonymizer_on_docs(nlp_2, test_set))
+    print("Presidio:")
     print(evaluate_anonymizer_on_text(presidio_anonymizer, test_set))
 
 

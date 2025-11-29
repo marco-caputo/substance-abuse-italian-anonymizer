@@ -95,3 +95,95 @@ The full list of availble entity types in the latest anonymization model is desc
 
 ---
 
+## Model Performance
+
+Here is reported the performance of the anonymization and NER models evaluated on the latest test dataset.
+
+### **Deployed Model v2**  
+This model (`deployed_2`) is trained on both pre-trained transformer and NER state-transition model from `it_nerIta_trf` (https://huggingface.co/bullmount/it_nerIta_trf)
+
+### **Full Anonymization (NER + Rules)**
+
+| Label | Precision | Recall | F1 |
+|-------|-----------|--------|--------|
+| PATIENT | 0.908 | 0.958 | 0.932 |
+| PER | 0.736 | 0.967 | 0.836 |
+| ORG | 0.742 | 0.746 | 0.744 |
+| GPE | 0.826 | 0.869 | 0.847 |
+| LOC | 0.773 | 0.727 | 0.750 |
+| FAC | 0.609 | 0.571 | 0.589 |
+| NORP | 0.714 | 0.500 | 0.588 |
+| AGE | 0.800 | 0.774 | 0.787 |
+| DATE | 0.846 | 0.911 | 0.877 |
+| EVENT | 0.744 | 0.674 | 0.707 |
+| WORKS_OF_ART | 0.744 | 0.836 | 0.787 |
+| PRODUCT | 0.702 | 0.755 | 0.727 |
+| CODE | 1.000 | 0.700 | 0.824 |
+| PHONE | 0.235 | 1.000 | 0.381 |
+| PROV | 0.773 | 0.756 | 0.764 |
+| **micro** | **0.801** | **0.868** | **0.833** |
+
+### **NER**
+
+| Label | Precision | Recall | F1 |
+|-------|-----------|--------|--------|
+| PATIENT | 0.895 | 0.963 | 0.928 |
+| PER | 0.924 | 0.953 | 0.939 |
+| ORG | 0.731 | 0.736 | 0.733 |
+| GPE | 0.820 | 0.877 | 0.847 |
+| LOC | 0.770 | 0.727 | 0.748 |
+| FAC | 0.622 | 0.587 | 0.604 |
+| NORP | 0.714 | 0.500 | 0.588 |
+| AGE | 0.800 | 0.774 | 0.787 |
+| DATE | 0.848 | 0.927 | 0.886 |
+| EVENT | 0.795 | 0.721 | 0.756 |
+| WORKS_OF_ART | 0.714 | 0.822 | 0.764 |
+| PRODUCT | 0.702 | 0.755 | 0.727 |
+| **micro** | **0.835** | **0.855** | **0.845** |
+
+---
+
+### **Deployed Model v1**  
+The previous model (`deployed_1`), trained on pre-trained transformer from `bert-base-italian-xxl-cased` (https://huggingface.co/dbmdz/bert-base-italian-xxl-cased) and a newly initialized state-transition NER module.
+
+### **Full Anonymization (NER + Rules)**
+
+| Label | Precision | Recall | F1 |
+|-------|-----------|--------|--------|
+| PATIENT | 0.848 | 0.953 | 0.898 |
+| PER | 0.751 | 0.896 | 0.817 |
+| ORG | 0.243 | 0.365 | 0.292 |
+| GPE | 0.791 | 0.611 | 0.689 |
+| LOC | 0.594 | 0.706 | 0.645 |
+| AGE | 0.541 | 0.532 | 0.537 |
+| DATE | 0.818 | 0.934 | 0.873 |
+| CODE | 0.875 | 0.700 | 0.778 |
+| PHONE | 0.308 | 1.000 | 0.471 |
+| PROV | 0.773 | 0.756 | 0.764 |
+| **micro** | **0.672** | **0.705** | **0.689** |
+
+### **NER**
+
+| Label | Precision | Recall | F1 |
+|-------|-----------|--------|--------|
+| PATIENT | 0.842 | 0.952 | 0.894 |
+| PER | 0.880 | 0.874 | 0.877 |
+| ORG | 0.234 | 0.353 | 0.281 |
+| GPE | 0.745 | 0.604 | 0.667 |
+| LOC | 0.594 | 0.706 | 0.645 |
+| AGE | 0.541 | 0.532 | 0.537 |
+| DATE | 0.599 | 0.880 | 0.713 |
+| **micro** | **0.647** | **0.677** | **0.661** |
+
+### **Presidio Baseline**  
+A simple baseline anonymizer using the **spaCy `it_core_news_lg` model** (https://spacy.io/models/it/).
+Presidio supports only a subset of entity types and serves primarily as a basic comparison point.
+
+### **Full Anonymization**
+
+| Label | Precision | Recall | F1 |
+|-------|-----------|--------|--------|
+| PER | 0.279 | 0.702 | 0.400 |
+| LOC | 0.039 | 0.364 | 0.070 |
+
+
