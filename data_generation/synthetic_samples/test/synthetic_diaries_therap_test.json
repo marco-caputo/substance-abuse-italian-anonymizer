@@ -1864,7 +1864,7 @@
         "label": "PATIENT"
       },
       {
-        "text": "di Foce",
+        "text": "Foce",
         "label": "GPE"
       }
     ]
@@ -1873,7 +1873,7 @@
     "text": "Oggi è stato effettuato un controllo al Centro di Recupero di Torre Mozza. Fabio, 34 anni, ha confermato di aver ridotto significativamente l'uso di benzodiazepine. Il medico ha rilevato un miglioramento nelle funzioni cognitive e ha suggerito di continuare con il piano terapeutico attuale. Tuttavia, Fabio ha segnalato che le sue interazioni sociali fuori dal centro sono ancora difficili, e ha chiesto di approfondire questo tema durante i prossimi incontri. Si è deciso di includere attività di socializzazione nel piano terapeutico.",
     "entities": [
       {
-        "text": "di Torre Mozza",
+        "text": "Torre Mozza",
         "label": "GPE"
       },
       {
@@ -2181,7 +2181,7 @@
         "label": "PER"
       },
       {
-        "text": "di Piana La Fara",
+        "text": "Piana La Fara",
         "label": "GPE"
       }
     ]
@@ -2776,7 +2776,7 @@
         "label": "AGE"
       },
       {
-        "text": "di Modena",
+        "text": "Modena",
         "label": "GPE"
       },
       {
@@ -2990,7 +2990,7 @@
     "text": "Ha riferito di sentirsi più stabile rispetto alla scorsa settimana. Segnala insonnia persistente e pensieri intrusivi. È stato concordato un controllo medico presso l'Ospedale Maggiore di Sant'Angelo Gerocarne e la possibilità di valutare un supporto farmacologico.",
     "entities": [
       {
-        "text": "di Sant'Angelo Gerocarne",
+        "text": "Sant'Angelo Gerocarne",
         "label": "GPE"
       }
     ]
@@ -3068,7 +3068,7 @@
     "text": "Ha partecipato con interesse al laboratorio teatrale organizzato dal centro di Staggiano. Riferisce di sentirsi più sicuro nelle relazioni sociali e di aver ridotto la frequenza dei pensieri legati all’uso di eroina. Si pianifica un nuovo colloquio motivazionale la prossima settimana.",
     "entities": [
       {
-        "text": "di Staggiano",
+        "text": "Staggiano",
         "label": "GPE"
       }
     ]
@@ -3326,10 +3326,6 @@
         "label": "PER"
       },
       {
-        "text": "di Salute Mentale",
-        "label": "GPE"
-      },
-      {
         "text": "Calcio",
         "label": "GPE"
       },
@@ -3531,7 +3527,7 @@
         "label": "PER"
       },
       {
-        "text": "di Parma",
+        "text": "Parma",
         "label": "GPE"
       }
     ]

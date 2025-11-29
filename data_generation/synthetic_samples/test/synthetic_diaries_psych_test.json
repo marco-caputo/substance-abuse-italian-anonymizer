@@ -111,10 +111,10 @@
     ]
   },
   {
-    "text": "Buona aderenza al piano terapeutico, con riduzione significativa del consumo di cannabis. Riporta miglioramento dell'umore e maggiore capacità di concentrazione. Si consiglia prosecuzione del trattamento presso il Centro San Carlo.",
+    "text": "Buona aderenza al piano terapeutico, con riduzione significativa del consumo di cannabis. Riporta miglioramento dell'umore e maggiore capacità di concentrazione. Si consiglia prosecuzione del trattamento presso il Centro San Giustino.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Giustino",
         "label": "FAC"
       }
     ]
@@ -300,10 +300,10 @@
     ]
   },
   {
-    "text": "Mostra miglioramento dell'umore, riduzione dei sintomi depressivi e maggiore adesione al programma di disintossicazione presso il Centro San Carlo. Nega episodi di craving nell'ultima settimana.",
+    "text": "Mostra miglioramento dell'umore, riduzione dei sintomi depressivi e maggiore adesione al programma di disintossicazione presso il Centro San Marco. Nega episodi di craving nell'ultima settimana.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Marco",
         "label": "FAC"
       }
     ]
@@ -649,10 +649,10 @@
     ]
   },
   {
-    "text": "Accetta di partecipare al gruppo di auto-aiuto presso il Centro San Carlo. Mostra motivazione discreta, ma ancora difficoltà a gestire la frustrazione. Si consiglia monitoraggio settimanale.",
+    "text": "Accetta di partecipare al gruppo di auto-aiuto presso il Centro San Giusto. Mostra motivazione discreta, ma ancora difficoltà a gestire la frustrazione. Si consiglia monitoraggio settimanale.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Giusto",
         "label": "FAC"
       }
     ]
@@ -735,14 +735,14 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio appare più collaborativo, con riduzione del craving per oppiacei. Segnala miglioramento della relazione con la sorella Anna, che partecipa attivamente al sostegno familiare. Si discute possibilità di inserimento in gruppo terapeutico presso il Centro San Carlo.",
+    "text": "Durante il colloquio appare più collaborativo, con riduzione del craving per oppiacei. Segnala miglioramento della relazione con la sorella Anna, che partecipa attivamente al sostegno familiare. Si discute possibilità di inserimento in gruppo terapeutico presso il Centro San Giuseppe.",
     "entities": [
       {
         "text": "Anna",
         "label": "PER"
       },
       {
-        "text": "San Carlo",
+        "text": "San Giuseppe",
         "label": "FAC"
       }
     ]
@@ -787,14 +787,14 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio emerge nostalgia per i periodi passati a Settingiano, ma senza craving per sostanze. Si discute della possibilità di incrementare attività sociali presso il centro diurno San Carlo.",
+    "text": "Durante il colloquio emerge nostalgia per i periodi passati a Settingiano, ma senza craving per sostanze. Si discute della possibilità di incrementare attività sociali presso il centro diurno San Lorenzo.",
     "entities": [
       {
         "text": "Settingiano",
         "label": "GPE"
       },
       {
-        "text": "San Carlo",
+        "text": "San Lorenzo",
         "label": "FAC"
       }
     ]
@@ -878,10 +878,10 @@
     ]
   },
   {
-    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro San Carlo. Mostra atteggiamento collaborativo, seppur con momenti di irritabilità. Si mantiene astinenza da oppiacei da 3 settimane.",
+    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro San Settimo. Mostra atteggiamento collaborativo, seppur con momenti di irritabilità. Si mantiene astinenza da oppiacei da 3 settimane.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Settimo",
         "label": "FAC"
       }
     ]
@@ -976,10 +976,10 @@
     ]
   },
   {
-    "text": "Persistono sintomi depressivi, ma con riduzione dell'ideazione autolesiva. Si discute della possibilità di inserimento in gruppo terapeutico presso il Centro San Carlo. Mostra interesse per attività di musicoterapia.",
+    "text": "Persistono sintomi depressivi, ma con riduzione dell'ideazione autolesiva. Si discute della possibilità di inserimento in gruppo terapeutico presso il Centro San Enrico. Mostra interesse per attività di musicoterapia.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Enrico",
         "label": "FAC"
       }
     ]
@@ -1028,14 +1028,14 @@
     "entities": []
   },
   {
-    "text": "Durante la sessione odierna emerge maggiore consapevolezza dei rischi legati all'uso di cocaina. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo familiare nel sostegno. Proposta valutazione presso il Centro San Carlo.",
+    "text": "Durante la sessione odierna emerge maggiore consapevolezza dei rischi legati all'uso di cocaina. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo familiare nel sostegno. Proposta valutazione presso il Centro San Alessandro.",
     "entities": [
       {
         "text": "Anna",
         "label": "PER"
       },
       {
-        "text": "San Carlo",
+        "text": "San Alessandro",
         "label": "FAC"
       }
     ]
@@ -1165,10 +1165,10 @@
     ]
   },
   {
-    "text": "Durante il colloquio odierno emerge rabbia repressa legata alla separazione dalla moglie. Si consiglia incremento delle sedute di gruppo presso il Centro San Carlo.",
+    "text": "Durante il colloquio odierno emerge rabbia repressa legata alla separazione dalla moglie. Si consiglia incremento delle sedute di gruppo presso il Centro San Benedetto.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Benedetto",
         "label": "FAC"
       }
     ]
@@ -1207,14 +1207,14 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo di sostegno presso il Centro San Carlo.",
+    "text": "Durante il colloquio emerge maggiore consapevolezza dei rischi legati all'uso di alcol. Si discute con la sorella Anna la possibilità di coinvolgere il gruppo di sostegno presso il Centro San Benedetto.",
     "entities": [
       {
         "text": "Anna",
         "label": "PER"
       },
       {
-        "text": "San Carlo",
+        "text": "San Benedetto",
         "label": "FAC"
       }
     ]
@@ -1250,10 +1250,10 @@
     "entities": []
   },
   {
-    "text": "Seduta caratterizzata da tono dell'umore deflesso. Segnala pensieri intrusivi legati a fallimenti passati. Ricorda di aver frequentato il centro diurno presso Ospedale San Carlo, dove aveva già iniziato un percorso di disintossicazione.",
+    "text": "Seduta caratterizzata da tono dell'umore deflesso. Segnala pensieri intrusivi legati a fallimenti passati. Ricorda di aver frequentato il centro diurno presso Ospedale San Severo, dove aveva già iniziato un percorso di disintossicazione.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Severo",
         "label": "FAC"
       }
     ]
@@ -1341,7 +1341,7 @@
     "text": "Durante il colloquio appare più collaborativo, con riduzione dei sintomi depressivi. Segnala craving occasionale per cocaina, ma senza ricadute recenti. Si concorda monitoraggio settimanale presso il Centro Dipendenze di Stelletanone.",
     "entities": [
       {
-        "text": "di Stelletanone",
+        "text": "Stelletanone",
         "label": "GPE"
       }
     ]
@@ -1467,7 +1467,7 @@
     "text": "Accetta di partecipare al gruppo terapeutico presso il Centro Dipendenze di Formazza. Mostra maggiore consapevolezza dei rischi legati all'uso di BDZ e chiede supporto per scalaggio graduale.",
     "entities": [
       {
-        "text": "di Formazza",
+        "text": "Formazza",
         "label": "GPE"
       }
     ]
@@ -1494,14 +1494,14 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio emerge forte senso di colpa legato alla relazione con la figlia. Si discute con la dott.ssa Antonioni la possibilità di integrare psicoterapia individuale con incontri di gruppo presso il Centro San Carlo.",
+    "text": "Durante il colloquio emerge forte senso di colpa legato alla relazione con la figlia. Si discute con la dott.ssa Antonioni la possibilità di integrare psicoterapia individuale con incontri di gruppo presso il Centro San Guido.",
     "entities": [
       {
         "text": "Antonioni",
         "label": "PER"
       },
       {
-        "text": "San Carlo",
+        "text": "San Guido",
         "label": "FAC"
       }
     ]
@@ -1572,7 +1572,7 @@
         "label": "PRODUCT"
       },
       {
-        "text": "di Parma",
+        "text": "Parma",
         "label": "GPE"
       }
     ]
@@ -1606,10 +1606,10 @@
     "entities": []
   },
   {
-    "text": "Accenna a conflitti familiari con la sorella, che aumentano la vulnerabilità al consumo di alcol. Si lavora su strategie di coping e si propone gruppo terapeutico presso il Centro San Carlo.",
+    "text": "Accenna a conflitti familiari con la sorella, che aumentano la vulnerabilità al consumo di alcol. Si lavora su strategie di coping e si propone gruppo terapeutico presso il Centro San Giacomo.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Giacomo",
         "label": "FAC"
       }
     ]
@@ -1650,14 +1650,14 @@
     ]
   },
   {
-    "text": "Persistono sintomi depressivi lievi, ma maggiore consapevolezza dei rischi legati all'uso di sostanze. Durante la seduta cita il figlio Livio come motivazione principale per mantenere l'astinenza. Si pianifica follow-up presso il Centro Psichiatrico San Carlo.",
+    "text": "Persistono sintomi depressivi lievi, ma maggiore consapevolezza dei rischi legati all'uso di sostanze. Durante la seduta cita il figlio Livio come motivazione principale per mantenere l'astinenza. Si pianifica follow-up presso il Centro Psichiatrico San Giacomo.",
     "entities": [
       {
         "text": "Livio",
         "label": "PER"
       },
       {
-        "text": "San Carlo",
+        "text": "San Giacomo",
         "label": "FAC"
       }
     ]
@@ -1844,7 +1844,12 @@
   },
   {
     "text": "Seduta svolta presso il Centro Psichiatrico San Carlo. Il paziente mostra maggiore capacità di insight e accetta di ridurre gradualmente l'assunzione di alcolici. Si consiglia attività sportiva come supporto alla regolazione emotiva.",
-    "entities": []
+    "entities": [
+        {
+            "text": "San Carlo",
+            "label": "FAC"
+        }
+    ]
   },
   {
     "text": "Mostra riduzione dell'ansia anticipatoria, con miglioramento della qualità del sonno. Rimane lieve tremore mattutino, gestibile senza incremento di BDZ. Concordato mantenimento della terapia con naltrexone.",
@@ -1908,10 +1913,10 @@
     ]
   },
   {
-    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro San Carlo. Mostra riduzione dell'ansia sociale e maggiore apertura al confronto con altri pazienti.",
+    "text": "Accetta di partecipare al gruppo terapeutico presso il Centro San Girolamo. Mostra riduzione dell'ansia sociale e maggiore apertura al confronto con altri pazienti.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Girolamo",
         "label": "FAC"
       }
     ]
@@ -2002,10 +2007,10 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio emerge irritabilità e pensieri ossessivi legati al timore di ricaduta. Si propone attività di gruppo presso il Centro San Carlo per rinforzare la motivazione e la socializzazione.",
+    "text": "Durante il colloquio emerge irritabilità e pensieri ossessivi legati al timore di ricaduta. Si propone attività di gruppo presso il Centro San Girolamo per rinforzare la motivazione e la socializzazione.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "San Girolamo",
         "label": "FAC"
       }
     ]
