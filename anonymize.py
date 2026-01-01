@@ -9,8 +9,7 @@ from typing import Iterable
 import spacy
 from spacy import Language
 
-from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES
-from data_generation import ANONYMIZATION_LABELS
+from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES, DEFAULT_EXTRA_PER_MATCHING
 from rules.rules import apply_rules
 from utils.anonymization_utils import anonymize_doc, save_anonymized_text
 from GUI.GUI import main as gui_main
@@ -20,23 +19,26 @@ warnings.filterwarnings("ignore", message=r".*\[W095\].*")
 # ----------------------------
 #   Anonymization function
 # ----------------------------
-def anonymize(text: str, nlp:Language = None, entities:Iterable[str]=None) -> str:
+def anonymize(text: str, nlp:Language = None, entities:Iterable[str]=None, per_matching:bool=None) -> str:
     """
     Anonymizes the input text by replacing entities with placeholders only for the specified entity types,
     or the default ones if none are specified.
 
     :param text: Input text to anonymize.
     :param nlp: pre-loaded spaCy Language model. If None, loads the default
+    :param per_matching: Whether to anonymize PER and PATIENT entities in combination with dictionaries or not.
     :param entities: List of entity types to anonymize.
     """
     if nlp is None: nlp = spacy.load(DEFAULT_NER_MODEL)
     if entities is None: entities = DEFAULT_ENTITIES
-    return anonymize_doc(apply_rules(nlp(text)), entities)
+    if per_matching is None: per_matching = DEFAULT_EXTRA_PER_MATCHING
 
-def get_full_labeller(path: str = DEFAULT_NER_MODEL):
+    return anonymize_doc(apply_rules(nlp(text), per_matching), entities)
+
+def get_full_labeller(path: str = DEFAULT_NER_MODEL, per_matching:bool=DEFAULT_EXTRA_PER_MATCHING):
     """Returns a full anonymization function using the specified spaCy model path."""
     nlp = spacy.load(path)
-    return lambda text: apply_rules(nlp(text))
+    return lambda text: apply_rules(nlp(text), per_matching)
 
 # ----------------------------
 #   CLI logic
