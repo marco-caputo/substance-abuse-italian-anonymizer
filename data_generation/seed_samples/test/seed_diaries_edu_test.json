@@ -1,0 +1,66 @@
+[
+    {
+        "text": "Caruso Aurora - Diario educativo 17-04-24 19:03\t  \nGiovedi' mattino (Antonina)_ Madre : ha voluto per forza farmi una richiesta per quando verrà all' incontro con Aurora sabato 12 maggio; per evitare che i tanti parenti che ha facciano ognuno un regalo ad Aurora, ha pensato di fare una Colletta per raccogliere i soldi per poter fare (più avanti) un CORSO. Ho detto alla Madre che è una \"bellissima\" idea ma che forse è un po' troppo presto da proporre ad Aurora; la Madre allora mi ha detto che intanto è un malloppo che Aurora ha lì",
+        "entities": [
+            {"text": "Caruso Aurora", "label": "PATIENT"},
+            {"text": "17-04-24", "label": "DATE"},
+            {"text": "Antonina", "label": "PER"},
+            {"text": "Aurora", "label": "PATIENT"},
+            {"text": "12 maggio", "label": "DATE"},
+            {"text": "Aurora", "label": "PATIENT"},
+            {"text": "Aurora", "label": "PATIENT"},
+            {"text": "Aurora", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "Marafini Deborah- Diario educativo - 11-12-2025 13:26   \nGiovedi' mattino (Donatello)_ Padre : mi ha confermato che Lunedì 2 febbraio verrà in Comunità a trovare Deborah per festeggiare il suo compleanno",
+        "entities": [
+            {"text": "Marafini Deborah", "label": "PATIENT"},
+            {"text": "11-12-2025", "label": "DATE"},
+            {"text": "Donatello", "label": "PER"},
+            {"text": "2 febbraio", "label": "DATE"},
+            {"text": "Deborah", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "Modiano Noemi: Diario educativo, 18-03-24, ore 13:26\n  \nGiovedi' mattino (Tonio)_ Padre : mi sono messo d'accordo con lui che Domenica mattina lo vado a prendere in STAZIONE alle 8:40; poi farà l'incontro con Noemi (e la Madre) dalle 9:00 alle 12:00.",
+        "entities": [
+            {"text": "Modiano Noemi", "label": "PATIENT"},
+            {"text": "18-03-24", "label": "DATE"},
+            {"text": "Tonio", "label": "PER"},
+            {"text": "Noemi", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "Persicani Anna Stella - Diario educativo - 10-12-2025 23:10\nBella presenza oggi",
+        "entities": [
+            {"text": "Persicani Anna Stella", "label": "PATIENT"},
+            {"text": "10-12-2025", "label": "DATE"}
+        ]
+    },
+    {
+        "text": "Monica Dalla - Registro educativo - 07-12-2025 23:39\n\nBrutta faccia e provocatoria tutto il pomeriggio. In assemblea le ho detto che secondo me il fatto che è incattivita nei nostri confronti è solo una scusa per buttarsi giù e per trovare pretesti per non rimanere qui dopo i 18 anni. Le ho detto anche che ero molto dispiaciuta per il suo comportamento.\nLe ho detto di fare bene questi giorni e l'incontro, per il resto si approfondirà dopo\na cena e durante il film è andata meglio (abbiamo visto La vita è Bella). Dopo cena non mi ha chiesto di andare in bagno",
+        "entities": [
+            {"text": "Monica Dalla", "label": "PATIENT"},
+            {"text": "07-12-2025", "label": "DATE"},
+            {"text": "18 anni", "label": "AGE"},
+            {"text": "La vita è Bella", "label": "WORK_OF_ART"}
+        ]
+    },
+    {
+        "text": "Pavanelli Eleonora - Diario di bordo educativo - 14-06-2023 22:37    \nPiangente con la madre perchè non vuole stare qua. Si calma appena la porto dentro. Non è andata all'incontro con Tatiana.\na cena ha raccontato anche lei come è andata la chiamata e si è aperta un pò con tutto il gruppo, l'ho valorizzata",
+        "entities": [
+            {"text": "Pavanelli Eleonora", "label": "PATIENT"},
+            {"text": "14-06-2023", "label": "DATE"},
+            {"text": "Tatiana", "label": "PER"}
+        ]
+    },
+    {
+        "text": "Peano Annalisa - Diario di osservazione - 11-04-2023\n\nL'ho chiamata per farmi dire ciò che aveva detto a Nicola. Mi ha detto che ha delle perdite, le ho detto che potrebbe essere la pillola. Mi ha detto che capisce che lo sguardo verso di lei è cambiato ma questa cosa la infastidisce. Le ho detto che comunque siamo stati tutti in pensiero per lei e che il gesto che ha fatto è stato molto brutto, quindi è normale ed è giusto che l'atteggiamento nei suoi confronti sia diverso. Mi ha detto che ha capito che molte compagne credono che sia colpa loro per ciò che ha fatto. Le ho detto che la responsabilità per come si è comportata è solo sua e non delle compagne ma che la sua fuga è stato l'apice di tutte le modalità che hanno avuto in queste settimane e che quindi è giusto che tutte si chiedano una responsabilità maggiore.",
+        "entities": [
+            {"text": "Peano Annalisa", "label": "PATIENT"},
+            {"text": "11-04-2023", "label": "DATE"},
+            {"text": "Nicola", "label": "PER"}
+        ]
+    }
+]

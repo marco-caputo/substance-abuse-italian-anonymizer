@@ -1,0 +1,193 @@
+[
+    {
+        "text": "TRINCIO FORTUNA - Diario educativo 21-1-2024 16:12   \nGIOVEDI' mattino (Teresa)_ Madre : all'inizio della Telefonata mi chiede subito se FORTUNA potrebbe rifare le stesse cose brutte che ha fatto lo scorso fine settimane. Poi mi ha fatto anche la domanda se sua figlia ha qualcosa che non va; la questione l'ha collegata con il fatto che, quando FORTUNA è stata ricoverata al Santo Stefano (Ospedale a Cernobbio, penso in Psichiatria) le hanno dato la Legge 104 per una disabilità grave (comma 3), legata alla questione delle Sostanze. Alla fine le ho detto che la prossima settimana SARA avrebbe parlato con i SERVIZI di FORTUNA per confrontarsi su quello che è accaduto.",
+        "entities": [
+            {"text": "TRINCIO FORTUNA", "label": "PATIENT"},
+            {"text": "21-1-2024", "label": "DATE"},
+            {"text": "Teresa", "label": "PER"},
+            {"text": "FORTUNA", "label": "PATIENT"},
+            {"text": "FORTUNA", "label": "PATIENT"},
+            {"text": "Santo Stefano", "label": "ORG"},
+            {"text": "Cernobbio", "label": "GPE"},
+            {"text": "SARA", "label": "PER"},
+            {"text": "SERVIZI", "label": "ORG"},
+            {"text": "FORTUNA", "label": "PATIENT"}
+        ]
+    },
+    {
+      "text": "DI SQUILLACE Lidia - Diario di osservazione - 19-10-2024 21:35\n\nLetizia: Quando saliamo in camera mi dice di avere un pensiero intrusivo e che, con l’aiuto di Damiano, voleva scriverlo in un biglietto e poi buttarlo. Le dico di parlarne con me. Mi dice che ogni tanto ha questi pensieri strani, soprattutto quando è in bagno da sola, relativi ad Ottavio (suo ex fidanzato) e quest’altro ragazzo più grande di lei che ‘la sta aspettando’. Mi dice che vorrebbe chiamarlo nel permesso di sabato quando sarà fuori con i genitori. Le dico che averlo detto è già un segno di non volerlo fare, ma che vuole provare ad affrontare la cosa. Le dico che non credo lo farà, ma che un modo per prevenire la cosa potrebbe essere quello di dirlo ai suoi genitori così che non le diano questo tablet con cui poterlo fare. I genitori hanno dei telefoni senza internet (a quanto mi dice), ma portano sempre un tablet. Lei già pensava a come connettere questo tablet a internet per poter contattare questo ragazzo. Torna in camera più tranquilla e va a dormire.",
+        "entities": [
+            {"text": "DI SQUILLACE Lidia", "label": "PER"},
+            {"text": "19-10-2024", "label": "DATE"},
+            {"text": "Letizia", "label": "PER"},
+            {"text": "Damiano", "label": "PER"},
+            {"text": "Ottavio", "label": "PER"}
+        ]
+    },
+    {
+      "text": "Benedetta Bertoli - Diario pedagogico (03-12-2025, 10:18)\n\nGIOVEDI' mattino (Rosalia)_ Madre : mi sono messo d'accordo con la Madre che domenica pomeriggio BENEDETTA rientrerà dal Permesso (che faranno a Pesaro) alle 18:00 (così ci saranno 2 operatori per fare la PERQUISA).",
+      "entities": [
+          {"text": "Benedetta Bertoli", "label": "PATIENT"},
+          {"text": "03-12-2025", "label": "DATE"},
+          {"text": "GIOVEDI' mattino", "label": "DATE"},
+          {"text": "Rosalia", "label": "PER"},
+          {"text": "Madre", "label": "PER"},
+          {"text": "BENEDETTA", "label": "PATIENT"},
+          {"text": "Pesaro", "label": "GPE"}
+      ]
+    },
+    {
+      "text": "CAFFARELLI MARGHERITA - Diario 11-12-2025 18:16\n\nIn cucina vorrebbe fare mille cose in più, la stoppo molto e dico di fare poco e bene visto che stavamo preparando anche le cose per l'incontro genitori non era il caso di aggiungere cose. Segue e le piace anche quello che viene.",
+      "entities": [
+            {"text": "CAFFARELLI MARGHERITA", "label": "PATIENT"},
+            {"text": "11-12-2025", "label": "DATE"}
+      ]
+    },
+    {
+      "text": "TRINCIA FORTUNATA - Diario delle attività, 01-02-24 09:49\n\nPiù volte la riprendo perchè si muove molto da sola senza aspettare l'anziana con cui è.",
+      "entities": [
+            {"text": "CAFFARELLI MARGHERITA", "label": "PATIENT"},
+            {"text": "11-12-2025", "label": "DATE"}
+      ]
+    },
+    {
+      "text": "TRINCIA FORTUNA - Relazione educativa continuativa - 12-04-2024 08:55\t  \nHa dormito vestita e non si è messa sotto le lenzuola. Alla sveglia le ho chiesto il motivo e mi ha risposto che ieri sera non aveva voglia di cambiarsi",
+      "entities": [
+            {"text": "CAFFARELLI MARGHERITA", "label": "PATIENT"},
+            {"text": "11-12-2025", "label": "DATE"}
+      ]
+    },
+    {
+      "text": "MASTROIANNI NOEMI - Diario di monitoraggio educativo - 30-11-2024 12:15 \nSi scalda perchè avremmo fumato dopo l' assemblea e avevamo spostato gli orari perchè era venuto Filippo, le dico che aspettava come tutte, prova a rompermi ma poi si rimette in assemblea e aspetta la fine tranquilla.\nLe ho detto che lunedì avrebbe cambiato camera e sarebbe tornata con l'amico venezuelano Vincentio è contenta.",
+      "entities": [
+            {"text": "MASTROIANNI NOEMI", "label": "PATIENT"},
+            {"text": "30-11-2024", "label": "DATE"},
+            {"text": "Filippo", "label": "PER"},
+            {"text": "venezuelano", "label": "NORP"},
+            {"text": "Vincentio", "label": "PATIENT"}
+      ]
+    },
+    {
+      "text": "Melina Morpurgo - Diario giornaliero, 15/06/24 12:15    \nVisto che veniva Raffaellino Tomei a fare assemblea e io ero con Luisa le ho detto che sarebbe stata con un'anziana o poteva stare in assemblea, mi dice che era tranquilla nel rimanere in assemblea e le è piaciuta.\nAnche ai lavori brava con Luigina ed Anita, fa tutto e è molto di aiuto",
+      "entities": [
+            {"text": "Melina Morpurgo", "label": "PATIENT"},
+            {"text": "15/06/24", "label": "DATE"},
+            {"text": "Raffaellino Tomei", "label": "PER"},
+            {"text": "Luisa", "label": "PER"},
+            {"text": "Luigina", "label": "PER"},
+            {"text": "Anita", "label": "PER"}
+      ]
+    },
+    {
+      "text": "CESARE CHITTOLINI - Diario educativo - 25/08/2024 14:29\n\nMi ha chiesto se oggi può stare fuori da una delle due assemblee. Le ho detto che stamattina stava dentro perchè ero da sola e facevo una cosa veloce e tranquilla. Oggi pomeriggio può stare fuori con una anziani",
+      "entities": [
+            {"text": "CESARE CHITTOLINI", "label": "PATIENT"},
+            {"text": "25/08/2024", "label": "DATE"}
+      ]
+    },
+    {
+      "text": "Bettina Trincavelli - Documentazione educativa: 12-06-2024 - 17:19\n    \nBella presenza e d'aiuto con le giovani! Domani non ha fatto storie per stare in cucina con Fortuna.",
+      "entities": [
+            {"text": "Bettina Trincavelli", "label": "PATIENT"},
+            {"text": "12-06-2024", "label": "DATE"},
+            {"text": "Fortuna", "label": "PER"}
+      ]
+    },
+    {
+      "text": "TURATU MADDALENA - Diario di bordo 8-03-2024 11:49  - Colloquio con Assistente Sociale\n  \nNell 'equipe di questa mattina ho confermato la nostra non disponibilità a proseguire il percorso comunitario con MADDALENA dopo i 18 anni. Assieme all'assistente sociale abbiamo esposto il progetto di rientro con la scuola pomeridiana dalle 5 alle 10 e la possibilità di un tircinio al mattino.\ni servizi ci ringraziano e si complimentano con la comunità per la pazienza e il buon lavoro svolto, pur consapevoli che con MADDALENA le possibilità di buon reinserimento sono molto basse",
+      "entities": [
+            {"text": "TURATU MADDALENA", "label": "PATIENT"},
+            {"text": "8-03-2024", "label": "DATE"},
+            {"text": "MADDALENA", "label": "PATIENT"},
+            {"text": "18 anni", "label": "AGE"},
+            {"text": "MADDALENA", "label": "PATIENT"}
+      ]
+    },
+    {
+      "text": "Pietrangeli NOEMI, Registro educativo - 10-10-2024   \nGIOVEDI' mattino (Romina)_ Madre : arriva a Rocca Pia già venerdì pomeriggio all'Hotel Gori; poi la mattina dopo (sabato) viene in comunità con il TAXI per fare l'incontro con NOEMI e il Padre dalle 9:00 alle 12:00.",
+      "entities": [
+            {"text": "Pietrangeli NOEMI", "label": "PATIENT"},
+            {"text": "10-10-2024", "label": "DATE"},
+            {"text": "Romina", "label": "PER"},
+            {"text": "Rocca Pia", "label": "GPE"},
+            {"text": "Gori", "label": "ORG"},
+            {"text": "sabato", "label": "DATE"},
+            {"text": "NOEMI", "label": "PATIENT"}
+      ]
+    },
+    {
+      "text": "SARA OSTINELLI - Quaderno educativo - 07-09-23 13:26\t\nGIOVEDI' mattino (GIORGIA)_ Madre : parte da Treviso (in treno) alle 6:16; dovrebbe arrivare alla Stazione di Trieste alle 10:00; si è messa d'accordo con SARA che, quando arriva in STAZIONE, telefona in comunità e noi andiamo a prenderla.",
+        "entities": [
+            {"text": "SARA OSTINELLI", "label": "PATIENT"},
+            {"text": "07-09-23", "label": "DATE"},
+            {"text": "GIORGIA", "label": "PER"},
+            {"text": "Treviso", "label": "GPE"},
+            {"text": "Trieste", "label": "GPE"},
+            {"text": "SARA", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "CARUSO AURORA - Diario educativo 17-04-24 19:03\t  \nGIOVEDI' mattino (Antonina)_ Madre : ha voluto per forza farmi una richiesta per quando verrà all' incontro con AURORA sabato 12 maggio; per evitare che i tanti parenti che ha facciano ognuno un regalo ad AURORA, ha pensato di fare una Colletta per raccogliere i soldi per poter fare (più avanti) un CORSO. Ho detto alla Madre che è una \"bellissima\" idea ma che forse è un po' troppo presto da proporre ad Aurora; la Madre allora mi ha detto che intanto è un malloppo che AURORA ha lì",
+        "entities": [
+            {"text": "CARUSO AURORA", "label": "PATIENT"},
+            {"text": "17-04-24", "label": "DATE"},
+            {"text": "Antonina", "label": "PER"},
+            {"text": "AURORA", "label": "PATIENT"},
+            {"text": "12 maggio", "label": "DATE"},
+            {"text": "AURORA", "label": "PATIENT"},
+            {"text": "Aurora", "label": "PATIENT"},
+            {"text": "AURORA", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "MARAFINI DEBORAH - Diario educativo - 11-12-2025 13:26   \nGIOVEDI' mattino (Donatello)_ Padre : mi ha confermato che Lunedì 2 febbraio verrà in Comunità a trovare DEBORAH per festeggiare il suo compleanno",
+        "entities": [
+            {"text": "MARAFINI DEBORAH", "label": "PATIENT"},
+            {"text": "11-12-2025", "label": "DATE"},
+            {"text": "Donatello", "label": "PER"},
+            {"text": "2 febbraio", "label": "DATE"},
+            {"text": "DEBORAH", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "MODIANO NOEMI: Diario educativo, 18-03-24, ore 13:26\n  \nGIOVEDI' mattino (Tonio)_ Padre : mi sono messo d'accordo con lui che Domenica mattina lo vado a prendere in STAZIONE alle 8:40; poi farà l'incontro con NOEMI (e la Madre) dalle 9:00 alle 12:00.",
+        "entities": [
+            {"text": "MODIANO NOEMI", "label": "PATIENT"},
+            {"text": "18-03-24", "label": "DATE"},
+            {"text": "Tonio", "label": "PER"},
+            {"text": "NOEMI", "label": "PATIENT"}
+        ]
+    },
+    {
+        "text": "PERSICANI ANNA STELLA - Diario educativo - 10-12-2025 23:10\nBella presenza oggi",
+        "entities": [
+            {"text": "PERSICANI ANNA STELLA", "label": "PATIENT"},
+            {"text": "10-12-2025", "label": "DATE"}
+        ]
+    },
+    {
+        "text": "Monica Dalla - Registro educativo - 07-12-2025 23:39\n\nBrutta faccia e provocatoria tutto il pomeriggio. In assemblea le ho detto che secondo me il fatto che è incattivita nei nostri confronti è solo una scusa per buttarsi giù e per trovare pretesti per non rimanere qui dopo i 18 anni. Le ho detto anche che ero molto dispiaciuta per il suo comportamento.\nLe ho detto di fare bene questi giorni e l'incontro, per il resto si approfondirà dopo\na cena e durante il film è andata meglio (abbiamo visto La vita è Bella). Dopo cena non mi ha chiesto di andare in bagno",
+        "entities": [
+            {"text": "Monica Dalla", "label": "PATIENT"},
+            {"text": "07-12-2025", "label": "DATE"},
+            {"text": "18 anni", "label": "AGE"},
+            {"text": "La vita è Bella", "label": "WORK_OF_ART"}
+        ]
+    },
+    {
+        "text": "PAVANELLI ELEONORA - Diario di bordo educativo - 14-06-2023 22:37    \nPiangente con la madre perchè non vuole stare qua. Si calma appena la porto dentro. Non è andata all'incontro con Tatiana.\na cena ha raccontato anche lei come è andata la chiamata e si è aperta un pò con tutto il gruppo, l'ho valorizzata",
+        "entities": [
+            {"text": "PAVANELLI ELEONORA", "label": "PATIENT"},
+            {"text": "14-06-2023", "label": "DATE"},
+            {"text": "Tatiana", "label": "PER"}
+        ]
+    },
+    {
+        "text": "PEANO ANNALISA - Diario di osservazione - 11-04-2023\n\nL'ho chiamata per farmi dire ciò che aveva detto a Nicola. Mi ha detto che ha delle perdite, le ho detto che potrebbe essere la pillola. Mi ha detto che capisce che lo sguardo verso di lei è cambiato ma questa cosa la infastidisce. Le ho detto che comunque siamo stati tutti in pensiero per lei e che il gesto che ha fatto è stato molto brutto, quindi è normale ed è giusto che l'atteggiamento nei suoi confronti sia diverso. Mi ha detto che ha capito che molte compagne credono che sia colpa loro per ciò che ha fatto. Le ho detto che la responsabilità per come si è comportata è solo sua e non delle compagne ma che la sua fuga è stato l'apice di tutte le modalità che hanno avuto in queste settimane e che quindi è giusto che tutte si chiedano una responsabilità maggiore.",
+        "entities": [
+            {"text": "PEANO ANNALISA", "label": "PATIENT"},
+            {"text": "11-04-2023", "label": "DATE"},
+            {"text": "Nicola", "label": "PER"}
+        ]
+    }
+]

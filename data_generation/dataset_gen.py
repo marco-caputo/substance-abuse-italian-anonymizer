@@ -61,7 +61,7 @@ def save_and_print(data: list[dict], samples_files: dict, iteration: int, train_
         raise Exception(f"Number of examples per prompt ({len(data)}) does not match")
     data = [clean_common_mistakes(ex) for ex in data]
     data = [replace_common_names(ex) for ex in data]
-    # data = [change_some_entities_to_lowercase(ex) for ex in data]
+    data = [change_some_entities_to_lowercase(ex) for ex in data]
     filename = append_json_data(f"synthetic_samples/{train_test}/synthetic_{samples_files['filename']}_{train_test}.json", data)
     print(f"Generation {iteration + 1}/{samples_files['n_outputs'][train_test]} from {samples_files['filename']} - "
           f"{len(data)} synthetic examples saved in {filename}")
@@ -90,7 +90,7 @@ def main():
     data = pd.read_csv(SEED_PATH_DIARIES)
     diaries_chunks = extract_chunks(data)
 
-    for samples_file in SEED_SAMPLES:
+    for samples_file in SEED_SAMPLES[:-1]: # Temporarily exclude diaries_it
         for train_test in (["train", "test"] if samples_file['filename'] != "diaries_it" else ["train"]):
             for i in range(samples_file['n_outputs'][train_test]):
                 error = True
