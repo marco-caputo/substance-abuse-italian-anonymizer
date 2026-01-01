@@ -150,6 +150,20 @@ def compute_metrics_from_spacy_docs(gold_docs: list[dict], pred_docs, labels):
             fp = len(pred_lbl - gold_lbl)
             fn = len(gold_lbl - pred_lbl)
 
+            # Temporary--------------------------------------------------------------------------
+            false_positives = [(gold_doc['text'][s:e], l) for (s, e, l) in pred_lbl - gold_lbl]
+            false_negatives = [(gold_doc['text'][s:e], l) for (s, e, l) in gold_lbl - pred_lbl]
+
+            # Save to a text file
+            with open("fp.txt", "a", encoding="utf-8") as f:
+                for text, label in false_positives:
+                    f.write(f"{label}\t{text}\n")
+
+            with open("fn.txt", "a", encoding="utf-8") as f:
+                for text, label in false_negatives:
+                    f.write(f"{label}\t{text}\n")
+            #-------------------------------------------------------------------------------------
+
             label_counts[lbl]["tp"] += tp
             label_counts[lbl]["fp"] += fp
             label_counts[lbl]["fn"] += fn
@@ -240,23 +254,27 @@ def evaluate_anonymizer_on_docs(anonymizer: Callable, test_set):
 if __name__ == "__main__":
     test_set = get_test_data()
 
-    model_path_1 = "../NER/models/deployed/deployed_v1"
+    model_path_1 = "../NER/models/deployed/deployed_v2"
     nlp_anonymizer_1 = get_full_labeller(model_path_1)
     nlp_1 = spacy.load(model_path_1)
 
-    model_path_2 = "../NER/models/deployed/deployed_v2"
+    model_path_2 = "../NER/models/deployed/deployed_v2.2"
     nlp_anonymizer_2 = get_full_labeller(model_path_2)
     nlp_2 = spacy.load(model_path_2)
 
     presidio_anonymizer = get_presidio_anonymizer()
 
-    print("Model v1:")
-    print(evaluate_anonymizer_on_docs(nlp_anonymizer_1, test_set))
-    print(evaluate_anonymizer_on_docs(nlp_1, test_set))
-    print("Model v2:")
+    #print("Model v1:")
+    #print(evaluate_anonymizer_on_docs(nlp_anonymizer_1, test_set))
+    #print(evaluate_anonymizer_on_docs(nlp_1, test_set))
+
+    #print("Model v2.2 NER:")
+    #print(evaluate_anonymizer_on_docs(nlp_2, test_set))
+
+    print("Model v2.2 Full:")
     print(evaluate_anonymizer_on_docs(nlp_anonymizer_2, test_set))
-    print(evaluate_anonymizer_on_docs(nlp_2, test_set))
-    print("Presidio:")
-    print(evaluate_anonymizer_on_text(presidio_anonymizer, test_set))
+
+    #print("Presidio:")
+    #print(evaluate_anonymizer_on_text(presidio_anonymizer, test_set))
 
 
