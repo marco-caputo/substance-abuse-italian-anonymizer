@@ -17,18 +17,22 @@ It can run from the **command line** or via a **graphical interface (GUI)**.
     ```
 
 ## Installation
+1. Install Git LFS on your machine. This is needed to pull large trained models files.
+```bash
+git lfs install
+```
 
-1. Clone this repository:
+2. Clone this repository:
 ```bash
 git clone https://github.com/marco-caputo/substance-abuse-italian-anonymizer.git
 ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 ```bash
 cd substance-abuse-italian-anonymizer
 ```
 
-3. Install the required packages:
+4. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
