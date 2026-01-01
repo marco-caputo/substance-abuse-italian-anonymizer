@@ -7,6 +7,15 @@ This has been developed as part of the Digit-Care project, aimed at creating pre
 This tool anonymizes Italian text using **spaCy NER** plus **custom rule-based detectors**.
 It can run from the **command line** or via a **graphical interface (GUI)**.
 
+## System requirements
+
+- Python ≥ 3.12 (3.13+ recommended)
+- Tkinter (usually included with Python)
+  - On Ubuntu/Debian systems, you may need to install it separately:
+  ```bash
+    sudo apt install python3-tk
+    ```
+
 ## Installation
 
 1. Clone this repository:
@@ -73,25 +82,25 @@ In the config.py file, you can customize default settings about:
 
 The full list of availble entity types in the latest anonymization model is described in the following table:
 
-| Entity Type | Description               | Examples                  |
-|-------------|---------------------------|---------------------------|
-| PATIENT     | Patient names             | 'Giovanni Verdi', 'Luca' |
-| PER         | Person names              | 'Rossi', 'Mario Bianchi', 'G. Verdi', 'Visconti' |
-| LOC         | Locations                 | 'Parco del Gran Sasso', 'via Roma' |
-| ORG         | Organizations             | 'SerT di Milano', 'ASL', 'Comunità Terapeutica La Quercia' |
+| Entity Type | Description               | Examples                                                             |
+|-------------|---------------------------|----------------------------------------------------------------------|
+| PATIENT     | Patient names             | 'Giovanni Verdi', 'Luca'                                             |
+| PER         | Person names              | 'Rossi', 'Mario Bianchi', 'G. Verdi'                                 |
+| LOC         | Locations                 | 'Parco del Gran Sasso', 'via Roma'                                   |
+| ORG         | Organizations             | 'SerT di Milano', 'ASL', 'Comunità Terapeutica La Quercia'           |
 | FAC         | Facilities                | 'Ospedale San Raffaele', 'Ponte di Rialto', 'Aeroporto di Fiumicino' |
-| GPE         | Geopolitical entities     | 'Germania', 'Marche', 'Milano' |
-| NORP        | Nationalities/Religious/Political groups | 'tedesco', 'cattolico', 'comunista' |
-| AGE         | Person age                | '35 anni', '42enne' |
-| DATE        | Dates/Time references     | '5 maggio', '2020', '20/03/2021' |
-| EVENT       | Events                    | 'Sagra della Porchetta', 'Natale' |
-| WORKS_OF_ART| Titles of works           | 'La Divina Commedia', 'Breaking Bad' |
-| PRODUCT     | Products                  | 'iPhone', 'Fiat Panda', 'Pavesini' |
-| CODE        | Codes (fiscal, postal, etc.)| 'RSSMRA85M01H501U', '20123' |
-| MAIL        | Email addresses           | 'marino.mar89@topmail.it' |
-| PHONE       | Phone numbers             | '+39 333 1234567', '02 12345678' |
-| PROV        | Italian provinces         | 'MI', 'RM', 'TO' |
-| URL         | Websites/URLs             | 'www.example.com', 'https://example.org' |
+| GPE         | Geopolitical entities     | 'Germania', 'Marche', 'Milano'                                       |
+| NORP        | Nationalities/Religious/Political groups | 'tedesco', 'cattolico', 'comunista'                                  |
+| AGE         | Person age                | '35 anni', '42enne'                                                  |
+| DATE        | Dates/Time references     | '5 maggio', '2020', '20/03/2021'                                     |
+| EVENT       | Events                    | 'Sagra della Porchetta', 'Natale'                                    |
+| WORKS_OF_ART| Titles of works           | 'La Divina Commedia', 'Breaking Bad'                                 |
+| PRODUCT     | Products                  | 'iPhone', 'Fiat Panda', 'Pavesini'                                   |
+| CODE        | Codes (fiscal, postal, etc.)| 'RSSMRA85M01H501U', '20123'                                          |
+| MAIL        | Email addresses           | 'mario.rossi89@topmail.it'                                           |
+| PHONE       | Phone numbers             | '+39 333 1234567', '02 12345678'                                     |
+| PROV        | Italian provinces         | 'MI', 'RM', 'TO'                                                     |
+| URL         | Websites/URLs             | 'www.example.com', 'https://example.org'                             |
 
 ---
 
@@ -99,10 +108,82 @@ The full list of availble entity types in the latest anonymization model is desc
 
 Here is reported the performance of the anonymization and NER models evaluated on the latest test dataset.
 
-### **Deployed Model v2**  
-This model (`deployed_2`) is trained on both pre-trained transformer and NER state-transition model from `it_nerIta_trf` (https://huggingface.co/bullmount/it_nerIta_trf)
+### **Deployed Model v2.2**
 
-### **Full Anonymization (NER + Rules)**
+This model (`deployed_v2.2`) is trained on both pre-trained transformer and NER state-transition model from `it_nerIta_trf` (https://huggingface.co/bullmount/it_nerIta_trf). Dataset used for fine-tuning includes reports and personal, therapeutic, psychiatric and educational diaries. Both lower and upper-case manipulations were applied to the training data to improve robustness.
+
+#### **Full Anonymization (NER + Rules)**
+
+| Label        | Precision | Recall | F1    |
+|--------------|------------|--------|-------|
+| PATIENT      | 0.950      | 0.977  | 0.963 |
+| PER          | 0.827      | 0.982  | 0.897 |
+| ORG          | 0.757      | 0.760  | 0.758 |
+| GPE          | 0.877      | 0.898  | 0.887 |
+| LOC          | 0.774      | 0.730  | 0.751 |
+| FAC          | 0.654      | 0.674  | 0.664 |
+| NORP         | 0.500      | 0.750  | 0.600 |
+| AGE          | 0.970      | 0.980  | 0.975 |
+| DATE         | 0.951      | 0.988  | 0.969 |
+| EVENT        | 0.712      | 0.691  | 0.701 |
+| WORKS_OF_ART | 0.908      | 0.846  | 0.876 |
+| PRODUCT      | 0.853      | 0.831  | 0.842 |
+| CODE         | 0.900      | 0.818  | 0.857 |
+| MAIL         | 0.833      | 1.000  | 0.909 |
+| PHONE        | 1.000      | 1.000  | 1.000 |
+| PROV         | 0.791      | 0.739  | 0.764 |
+| URL          | 0.667      | 0.667  | 0.667 |
+| **micro**    | **0.869**  | **0.908** | **0.888** |
+
+
+#### **Full Anonymization with no dictionary-based anonymization for PER**
+
+| Label        | Precision | Recall | F1    |
+|--------------|------------|--------|-------|
+| PATIENT      | 0.953      | 0.982  | 0.967 |
+| PER          | 0.934      | 0.982  | 0.958 |
+| ORG          | 0.757      | 0.760  | 0.758 |
+| GPE          | 0.869      | 0.902  | 0.885 |
+| LOC          | 0.774      | 0.730  | 0.751 |
+| FAC          | 0.667      | 0.687  | 0.677 |
+| NORP         | 0.500      | 0.750  | 0.600 |
+| AGE          | 0.970      | 0.980  | 0.975 |
+| DATE         | 0.951      | 0.988  | 0.969 |
+| EVENT        | 0.818      | 0.794  | 0.806 |
+| WORKS_OF_ART | 0.908      | 0.846  | 0.876 |
+| PRODUCT      | 0.853      | 0.831  | 0.842 |
+| CODE         | 0.900      | 0.818  | 0.857 |
+| MAIL         | 0.833      | 1.000  | 0.909 |
+| PHONE        | 1.000      | 1.000  | 1.000 |
+| PROV         | 0.804      | 0.804  | 0.804 |
+| URL          | 0.667      | 0.667  | 0.667 |
+| **micro**    | **0.889**  | **0.912** | **0.900** |
+
+
+#### **NER**
+
+| Label        | Precision | Recall | F1    |
+|--------------|------------|--------|-------|
+| PATIENT      | 0.953      | 0.982  | 0.967 |
+| PER          | 0.934      | 0.982  | 0.958 |
+| ORG          | 0.757      | 0.760  | 0.758 |
+| GPE          | 0.876      | 0.896  | 0.886 |
+| LOC          | 0.771      | 0.730  | 0.750 |
+| FAC          | 0.662      | 0.683  | 0.672 |
+| NORP         | 0.500      | 0.750  | 0.600 |
+| AGE          | 0.970      | 0.980  | 0.975 |
+| DATE         | 0.949      | 0.988  | 0.968 |
+| EVENT        | 0.818      | 0.794  | 0.806 |
+| WORKS_OF_ART | 0.908      | 0.846  | 0.876 |
+| PRODUCT      | 0.853      | 0.831  | 0.842 |
+| **micro**    | **0.891**  | **0.897** | **0.894** |
+
+
+### **Deployed Model v2**
+
+This model (`deployed_v2`) is trained on both pre-trained transformer and NER state-transition model from `it_nerIta_trf` (https://huggingface.co/bullmount/it_nerIta_trf). Dataset used for fine-tuning includes reports and personal, therapeutic and psychiatric diaries. Just lower-case manipulations were applied to the training data to improve robustness.
+
+#### **Full Anonymization (NER + Rules)**
 
 | Label | Precision | Recall | F1 |
 |-------|-----------|--------|--------|
@@ -123,7 +204,7 @@ This model (`deployed_2`) is trained on both pre-trained transformer and NER sta
 | PROV | 0.773 | 0.756 | 0.764 |
 | **micro** | **0.801** | **0.868** | **0.833** |
 
-### **NER**
+#### **NER**
 
 | Label | Precision | Recall | F1 |
 |-------|-----------|--------|--------|
@@ -144,7 +225,7 @@ This model (`deployed_2`) is trained on both pre-trained transformer and NER sta
 ---
 
 ### **Deployed Model v1**  
-The previous model (`deployed_1`), trained on pre-trained transformer from `bert-base-italian-xxl-cased` (https://huggingface.co/dbmdz/bert-base-italian-xxl-cased) and a newly initialized state-transition NER module.
+The previous model (`deployed_v1`), trained on pre-trained transformer from `bert-base-italian-xxl-cased` (https://huggingface.co/dbmdz/bert-base-italian-xxl-cased) and a newly initialized state-transition NER module.
 
 ### **Full Anonymization (NER + Rules)**
 
