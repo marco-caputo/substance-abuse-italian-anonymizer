@@ -17372,6 +17372,8 @@ aldo silvano
 aldo stefano
 aldo umberto
 aldo vincenz
+alessandrina
+alessandrino
 alessandro f
 alessandro g
 alessandro m
@@ -17910,6 +17912,7 @@ concetto mar
 concita rita
 cono antonio
 cono daniele
+consolazione
 corrado giov
 corrado gppe
 corrado luca
@@ -20559,6 +20562,7 @@ tonino abate
 tonino mario
 tore roberto
 tranquillina
+tranquillino
 tranquillo g
 tullia iride
 tullio luigi
@@ -20742,6 +20746,7 @@ agata  anna
 agata lucia
 agata maria
 agata sofia
+agostiniano
 agostino p.
 alba carmen
 alba teresa
@@ -21010,6 +21015,7 @@ cesare vito
 cesco mario
 chiara afra
 chiaramaria
+chiarissimo
 christopher
 cinzia anna
 cinzia rita
@@ -21097,6 +21103,7 @@ dino valter
 dino walter
 domenica a.
 domenichina
+domenichino
 domenico a.
 domenico f.
 domenico fr
@@ -21240,6 +21247,7 @@ ester maria
 ettore elio
 eugenio ivo
 eupliandrea
+evangelista
 evia angela
 evio hermas
 ewa urszula
@@ -21278,7 +21286,6 @@ felice elio
 felice eros
 felice gian
 felice pace
-felicissima
 felix maria
 ferdinandro
 fermo luigi
@@ -21553,6 +21560,8 @@ grazia rosa
 graziamaria
 greta maria
 guglielmimo
+guglielmina
+guglielmino
 guid'ubaldo
 guido david
 guido falco
@@ -21851,6 +21860,7 @@ magda maria
 manuel dino
 mara chiara
 mara enrica
+marcantonio
 marcelliano
 marco alfio
 marco boris
@@ -22205,6 +22215,7 @@ paolo sesto
 paolo terzo
 paolocesare
 pasquale b.
+paternostro
 paul johann
 paula flora
 peter anton
@@ -22359,6 +22370,7 @@ pompeo enzo
 primo luigi
 primo paolo
 princivalle
+provvidenza
 provvisiero
 quintiliano
 quinto nino
@@ -22513,6 +22525,7 @@ sergio giov
 sergio nino
 sergio remo
 sergio stef
+settembrino
 silva anita
 silvana car
 silvano ivo
@@ -22649,6 +22662,7 @@ ziller dean
 a ippolito
 a.r. maria
 a.raffaele
+abbondanza
 achille f.
 achiropita
 ada cinzia
@@ -22710,6 +22724,7 @@ angelo pio
 angese ros
 angilberto
 angioletta
+angioletto
 anna  rita
 anna adele
 anna agnes
@@ -22757,6 +22772,8 @@ annateresa
 anne marie
 annibalino
 annie lina
+annunciata
+annunciato
 annunizata
 anronietta
 antenorina
@@ -22801,16 +22818,20 @@ bastianino
 bastianoni
 battista c
 battista v
+battistina
 battistino
 belgioioso
 bellarmino
 bellisario
+benemerito
 benevenuto
 benito ugo
 bennardino
 berengario
 bernadetta
 bernadette
+bernardina
+bernardino
 berniamino
 bertolomeo
 biancarosa
@@ -22832,7 +22853,9 @@ bruno gino
 bruno lino
 bruno lupo
 bruno rino
+buongiorno
 c.giuseppe
+calcedonio
 calogerino
 calogero d
 camila paz
@@ -22885,6 +22908,8 @@ clara rita
 claudia c.
 claudinoro
 claudio g.
+clementina
+clementino
 clio elena
 clodovaldo
 clorangelo
@@ -22896,6 +22921,7 @@ constantin
 contardino
 coriolanpo
 coriuliano
+cortegiani
 cosimo pio
 costantina
 costantini
@@ -22903,11 +22929,14 @@ costantino
 costsntino
 crescenzia
 crescenzio
+crisostomo
 cristenzio
 cristofaro
 cristofero
 cristoforo
 cristopher
+crocefissa
+crocefisso
 dalia lina
 daniele g.
 danila ida
@@ -22925,6 +22954,7 @@ david omar
 davide jan
 davide pio
 davis ali'
+defendente
 delfo basi
 delia anna
 demetrio a
@@ -23094,8 +23124,11 @@ fiorangela
 fiorangelo
 fioravante
 fioravanti
+fiordaliso
 fiordelisa
 fiordisole
+fiorentina
+fiorentino
 fiorenzino
 flaminio g
 flaviano d
@@ -23105,6 +23138,7 @@ florentina
 florentino
 florestano
 floridante
+fortunello
 franca pia
 francaises
 franccesca
@@ -23117,6 +23151,7 @@ franco adr
 franco fra
 franco pio
 franco ugo
+francolino
 frank mark
 frans taco
 franziskus
@@ -23250,6 +23285,7 @@ gino paolo
 gino rocco
 gioacchina
 gioacchino
+giocondino
 giordano l
 giorgio j.
 giorgio m.
@@ -23297,6 +23333,9 @@ giuseppe r
 giuseppe s
 giuseppe u
 giuseppe v
+giuseppina
+giuseppini
+giuseppino
 giusy mara
 glaudenzio
 gloria eva
@@ -23336,6 +23375,8 @@ ilva maria
 ilvo luigi
 imbaglione
 imer paolo
+immacolata
+immacolato
 ines maria
 innocenzio
 iole maria
@@ -23421,8 +23462,10 @@ leonardina
 leonardino
 leonello m
 leonfranco
+leopoldino
 lia grazia
 lia teresa
+libertario
 licia rita
 lidia ines
 lidia rita
@@ -23514,6 +23557,7 @@ m.cristina
 m.giovanna
 madddalena
 maggiorina
+maggiorino
 malgorzata
 mara adele
 mara elena
@@ -23647,6 +23691,7 @@ maura anna
 maura elsa
 maura rosa
 mauri elia
+mauriziano
 mauro elia
 mauro gino
 mauro john
@@ -23659,6 +23704,7 @@ maximilian
 melchiorra
 melchiorre
 mencarelli
+mercantino
 meri agata
 mgabriella
 michele a.
@@ -23728,6 +23774,7 @@ palma rita
 palmorindo
 pamncrazio
 panagiotis
+pantaleone
 paola anna
 paola irma
 paola rita
@@ -23746,6 +23793,7 @@ paolo tito
 paolo vito
 pasquale g
 pasquale m
+pasqualina
 pasqualino
 pasquarosa
 pasquilino
@@ -23757,6 +23805,7 @@ pergiorgio
 peter paul
 petronella
 petronilla
+piacentino
 pieernesto
 piegiacomo
 pier bruno
@@ -23853,10 +23902,13 @@ pio pietro
 pio tomaso
 pio tullio
 pirro niso
+policarpio
 primo ezio
 primo salv
 priska ida
 prosperina
+providenza
+quartiglio
 r. luciano
 rachelinda
 radivo ivo
@@ -23937,6 +23989,7 @@ sabantonio
 sabastiano
 salovatore
 salvatoere
+salvatrice
 santa lina
 santa rita
 sante luca
@@ -23969,6 +24022,7 @@ sivigliano
 sonia vita
 sonja anna
 sonja rita
+sorrentino
 spaccapeli
 spiridione
 stanisclao
@@ -24027,6 +24081,7 @@ victor ugo
 vigil karl
 vilma rosa
 vilmo dino
+vincenzina
 vincenzino
 vincenzo a
 vincenzo b
@@ -24055,6 +24110,8 @@ vito savio
 vitonicola
 vitonofrio
 vittoria n
+vittoriana
+vittoriano
 vittorio m
 vittorio n
 vittorio v
@@ -24079,9 +24136,11 @@ adelvalda
 aderenzio
 ado guido
 adorpaolo
+aggettino
 agilberto
 agostinio
 agreppino
+agrippina
 agrippini
 agrippino
 aguinaldo
@@ -24089,6 +24148,8 @@ aida adua
 alba rita
 alba rosa
 alberinta
+albertina
+albertino
 albinetto
 alcibiade
 alda rita
@@ -24123,6 +24184,7 @@ alfonsino
 alfonso a
 alfredino
 alibrando
+alighiero
 alipranda
 aliprando
 alma lisa
@@ -24130,10 +24192,12 @@ alma rosa
 almachide
 almerinda
 almerindo
+almirante
 altemizio
 altobello
 amabilino
 ambrogina
+ambrogino
 ambrosina
 ambrosius
 ammonasco
@@ -24151,6 +24215,7 @@ angelo g.
 angelo m.
 angelo r.
 angiolina
+angiolino
 anna d.ca
 anna dina
 anna elsa
@@ -24191,6 +24256,7 @@ antonella
 antonello
 antonesio
 antonetta
+antoniana
 antonieta
 antonillo
 antoninio
@@ -24208,9 +24274,12 @@ apollonia
 apollonio
 appolonia
 arcangela
+arcangelo
 archidoro
 archimede
 ardenisio
+argentina
+argentino
 ario aldo
 arlesiana
 arleziano
@@ -24219,6 +24288,7 @@ armandino
 armelindo
 arnaldo s
 arsiliano
+artemisia
 artemisio
 ascenzino
 assalonne
@@ -24226,6 +24296,7 @@ assuntina
 assuntino
 attanasio
 attilio c
+augustale
 augustina
 augustino
 aureliana
@@ -24245,6 +24316,10 @@ bartolino
 beatriice
 belisario
 belliario
+benedetti
+beniamina
+beniamino
+benvenuta
 beraldino
 berardina
 berardino
@@ -24260,17 +24335,20 @@ bortolami
 bortolina
 bortolino
 botticini
+bracciano
 branislav
 brunhilde
 bruno roi
 bruno ugo
 bucarelli
+buonafede
 buonfilio
 c alberto
 caaterina
 calestino
 calogerro
 camiliano
+candelora
 candeloro
 candidoro
 caramuele
@@ -24284,21 +24362,29 @@ carluccio
 carmelina
 carmelino
 carmelisa
+carmelita
 carmine g
 carmine n
 carpoforo
+cassandra
+castrense
 castrenze
 cataldino
 catherine
+catiuscia
 catterina
 catterino
+celestina
+celestino
 celideo m
 charilaos
+charlotte
 chaterine
 checcacci
 checchina
 checchino
 cherubina
+cherubino
 chigliano
 christian
 christina
@@ -24315,10 +24401,12 @@ claudio g
 claudio m
 claudioco
 cleonilde
+cleopatra
 clodomiro
 cloridano
 coalogero
 colombano
+colombina
 concenzio
 consolina
 coriolano
@@ -24326,11 +24414,13 @@ corneglio
 corradina
 corradino
 corvaglia
+cosentino
 cosimo a.
 cosimo d.
 cosimo n.
 costabile
 costantin
+crescenza
 crescenzo
 crisitina
 crispoldo
@@ -24381,6 +24471,7 @@ eclantino
 edelberto
 edeltraud
 edelvezio
+edelweiss
 edi maria
 edmondo d
 edoardina
@@ -24481,6 +24572,8 @@ figliuzzi
 filadelfo
 filargino
 filiberto
+filippina
+filippino
 filippo g
 filippo m
 filorizzo
@@ -24490,6 +24583,7 @@ fiorenzio
 fiormaria
 floereano
 floreanna
+florenzio
 floresita
 florianna
 foscarina
@@ -24502,7 +24596,9 @@ francasco
 francecso
 francesca
 francesci
+francesco
 franchina
+franchino
 franco c.
 franco e.
 franco g.
@@ -24514,6 +24610,7 @@ franziska
 friedolin
 friedrich
 frnacesco
+fruttuoso
 fulgenzio
 g antonio
 g massimo
@@ -24554,10 +24651,12 @@ gerardina
 gerardino
 gerfoglio
 germanino
+germinale
 gervasino
 gesulmino
 getzemani
 gfiovanni
+giacchino
 giacolino
 giacomina
 giacomino
@@ -24616,6 +24715,8 @@ gianmauro
 giannella
 giannello
 giannereo
+giannetta
+giannetto
 giannevio
 giannozzo
 gianpaola
@@ -24634,6 +24735,7 @@ giansalvo
 giansante
 giansanto
 giantonio
+gianuario
 gianumbro
 gianvasco
 gigliardo
@@ -24658,6 +24760,7 @@ giopietro
 giordanom
 giorgetta
 giorgetto
+giorgiana
 giorgio c
 giorgio g
 giorgio i
@@ -24752,8 +24855,11 @@ karlheinz
 katharina
 katherina
 kathuscia
+katiuscia
 katyuscia
 kunigunde
+lanciotta
+lanciotto
 lanfranca
 lanfranco
 lara fina
@@ -24761,6 +24867,7 @@ lattanzio
 laura ada
 laureatta
 laurenzia
+lauretana
 lauriglio
 lazzarina
 lazzarino
@@ -24777,6 +24884,7 @@ leonbruno
 letterina
 lia lucia
 liateresa
+libertino
 lina olga
 lindo bat
 lino leon
@@ -24824,6 +24932,9 @@ m. chiara
 m. cinzia
 m. grazia
 maarcello
+maddalena
+madeleine
+madrilena
 magdalena
 manuelita
 manuelito
@@ -24831,6 +24942,7 @@ mara elsa
 mara lina
 mara rita
 marandino
+marchiano
 marco pio
 marco ugo
 marcolina
@@ -24905,6 +25017,7 @@ mary-anne
 maryvonne
 mas paolo
 massimina
+massimino
 massimo a
 matteo c.
 matterino
@@ -24929,12 +25042,17 @@ miliurbis
 mirangela
 mirangelo
 miriam e.
+modestina
+modestino
 montagnin
 mrgherita
 mria rosa
+napoleone
 nascenzio
 nazeareno
 nazzaremo
+nazzarena
+nazzareno
 nhorowela
 niccodemo
 niccolina
@@ -24950,7 +25068,9 @@ nino pino
 noemi pia
 nora thea
 norbertus
+novellino
 nrichetta
+nunziante
 nunziello
 olderigio
 olga rita
@@ -24968,6 +25088,7 @@ ottaviana
 ottaviano
 otto karl
 p.rodolfo
+paganelli
 palladino
 palmarino
 palmarosa
@@ -24976,6 +25097,7 @@ palmerino
 palmirina
 panagiote
 pancrazia
+pancrazio
 paola ada
 paolo pio
 pascuccio
@@ -25066,11 +25188,14 @@ priamario
 prioletta
 priscilla
 qualtiero
+quartiero
 quartilio
 quintilia
+quintilio
 quintillo
 rachelina
 radamesse
+raffaella
 raffaelle
 raffaello
 raffaerle
@@ -25080,13 +25205,16 @@ raul amos
 redisindo
 regimildo
 reginaldo
+reginetta
 rei dario
 renzo ivo
 restituta
 restituto
 ricciarda
+ricciotti
 rigoberto
 rigoletta
+rigoletto
 rinaldina
 rinangela
 rinangelo
@@ -25101,9 +25229,11 @@ robertais
 robertina
 robertino
 robustino
+rocchetta
 rocco pio
 roger ato
 romandino
+romanella
 romanello
 romanilde
 rosa alba
@@ -25131,10 +25261,13 @@ s.tiziano
 salavtore
 salimbene
 sallustio
+salvadore
+salvadori
 salvaotre
 salvarore
 salvarote
 salvatora
+salvatore
 salverino
 salvotore
 santo ugo
@@ -25142,9 +25275,14 @@ santuccio
 sara anna
 sara rita
 sara rosa
+saturnina
+saturnino
 sauro ivo
 sebastian
+secondina
 senibaldo
+serenella
+settimino
 severiana
 siegfried
 sieglinde
@@ -25155,6 +25293,9 @@ silvarosa
 silverino
 silvesrto
 silvester
+silvestra
+silvestre
+silvestro
 silvietto
 simonello
 simonetta
@@ -25163,6 +25304,7 @@ simplicia
 simplicio
 sinibaldi
 sinibaldo
+sipontina
 solvestro
 spadolino
 spasimina
@@ -25187,6 +25329,7 @@ teodorica
 teodorico
 teodorino
 teresalor
+teresiano
 terrenzio
 tersiglio
 thea gaia
@@ -25201,10 +25344,14 @@ tommasino
 tommaso g
 tommaso s
 treviglio
+triestina
+triestino
 trofimena
 ugo carlo
 ugo luigi
 ugo mario
+umbertina
+umbertino
 umberto m
 valdemaro
 valdemiro
@@ -25214,6 +25361,7 @@ valdimiro
 valenthja
 valentina
 valentino
+valeriana
 valeriano
 valerio s
 valfranco
@@ -25224,16 +25372,20 @@ valterino
 vanduccio
 vannuccio
 venceslao
+veneranda
+venturina
 venturino
 vera rita
 verardino
 veretrice
 veronique
 veruschka
+vesperino
 vettorina
 viancenzo
 vicenzino
 vigentina
+vigilante
 viktoriya
 vinccenzo
 vincenzzo
@@ -25253,6 +25405,7 @@ vito enzo
 vito ezio
 vittorian
 vittorina
+vittorino
 vittorugo
 vittotino
 vivarello
@@ -25303,12 +25456,16 @@ adolfino
 adolivio
 adonella
 adoriano
+africano
 agesilao
 agistino
 aglaudia
 agnesina
+agostina
+agostino
 aissatou
 al jamal
+alamanno
 alba iva
 alba pia
 albarosa
@@ -25316,6 +25473,7 @@ albensio
 alberich
 alberico
 alberigo
+alberino
 albrecht
 alcester
 alcherio
@@ -25334,10 +25492,12 @@ aldovino
 alduccio
 aleandro
 aleidita
+alemanno
 alfonoso
 alfranco
 algemiro
 algenere
+algerino
 alghisio
 aliberto
 alidiano
@@ -25356,8 +25516,12 @@ amabilio
 amandeep
 amanuele
 amarante
+amaranto
 amarildo
+amarilli
+ambretta
 ambrogio
+ambrosio
 ameraldo
 amilcare
 amintore
@@ -25382,9 +25546,12 @@ andreina
 andreino
 andriano
 angela p
+angelica
+angelico
 angelika
 angelin0
 angelina
+angelino
 angelisa
 angelita
 angelo a
@@ -25421,6 +25588,7 @@ annelise
 annibale
 annuccia
 annuccio
+annuncio
 ansovino
 ansperto
 anstasia
@@ -25436,8 +25604,11 @@ antonioq
 antonjio
 antonuio
 aqntonio
+aquilina
+aquilino
 arabella
 archelao
+archetti
 ardiccio
 ardo edo
 ardolino
@@ -25467,6 +25638,7 @@ aureglio
 aurelie'
 aurora m
 avellino
+aventino
 averaldo
 averardo
 avernino
@@ -25482,6 +25654,8 @@ bassiano
 bassirou
 bastiana
 bastiano
+battista
+beatrice
 belmondo
 belmonte
 beltrand
@@ -25497,6 +25671,8 @@ benuccio
 berenice
 bernabeo
 bernando
+bernarda
+bernardo
 bernhard
 bernhart
 berniero
@@ -25504,6 +25680,7 @@ berthold
 bertilla
 bertillo
 bibbiana
+biondina
 birgitta
 blandino
 bonacata
@@ -25516,6 +25693,7 @@ bonfanti
 bonfilio
 bortoloi
 boy rita
+bramante
 brandino
 brenilde
 brigitta
@@ -25523,6 +25701,10 @@ brigitte
 brunaldo
 brunardo
 brunelio
+brunella
+brunello
+brunetta
+brunetto
 brunilde
 bruno a.
 bulfardo
@@ -25530,6 +25712,7 @@ burkhard
 caarmelo
 caliendo
 calimero
+calliope
 callisto
 calocero
 calogera
@@ -25543,16 +25726,21 @@ carletto
 carlo l.
 carlo p.
 carloppe
+carlotta
 carmelio
 carmenio
 carminia
 carmnine
+carolina
+caroline
 carosena
 cartmine
 caserino
+casimiro
 cassiano
 cassilta
 castrese
+catalano
 catalina
 caterina
 caterino
@@ -25560,10 +25748,12 @@ caterita
 catiello
 catuscia
 cecchina
+centurio
 cesare a
 cesarina
 cesarino
 ceserino
+chiarina
 christan
 christof
 christos
@@ -25572,6 +25762,7 @@ cipriana
 cipriano
 ciro pio
 claretta
+clarissa
 claudiio
 claudina
 claudine
@@ -25581,6 +25772,7 @@ claudiuo
 claudius
 cleandro
 clementa
+clemente
 cleodoro
 cleonice
 cleziano
@@ -25591,11 +25783,13 @@ clorinda
 clotilde
 clotildo
 coluccio
+concetta
 concezio
 consalvo
 consuela
 consuelo
 contardo
+contrano
 cordiano
 coriglio
 cornelia
@@ -25609,11 +25803,15 @@ cosimo g
 cosmo d.
 costanzo
 crisante
+crispina
+crispino
 cristhia
 cristian
 cristina
 cristine
 cristino
+crocetta
+cruciano
 d'angelo
 daiberto
 dainella
@@ -25628,6 +25826,7 @@ dasniele
 davidina
 davidino
 decenzio
+decoroso
 del sole
 delcisio
 demelzia
@@ -25638,8 +25837,10 @@ desire'e
 desiree'
 desolina
 dessouki
+destrino
 di iorio
 di piero
+diamanta
 dianella
 diego g.
 dietrich
@@ -25651,6 +25852,7 @@ dionigio
 dionilla
 dionisia
 dionisio
+dolcetta
 dolorico
 domanico
 domemico
@@ -25658,6 +25860,8 @@ domenant
 domenic0
 domenici
 domenico
+dominica
+dominico
 domwnico
 donatina
 donatino
@@ -25685,9 +25889,11 @@ edicardo
 edomondo
 efferino
 egidio a
+egiziano
 ekkehard
 el-zohbi
 elcoefio
+eldorado
 eleandro
 eleonora
 eleonoro
@@ -25704,6 +25910,8 @@ emanuela
 emanuele
 emenuela
 emenuele
+emiliana
+emiliano
 emilio g
 emircare
 emmanuel
@@ -25719,6 +25927,8 @@ eracchio
 eraclide
 erasmina
 ercolano
+ercolina
+ercolino
 eriberto
 eridania
 eridanio
@@ -25730,7 +25940,10 @@ ermelino
 ermogene
 esamuele
 eschidia
+espedito
 esperino
+esperita
+esposito
 estelina
 esterina
 esterino
@@ -25739,6 +25952,7 @@ etelward
 ettorina
 ettorino
 eucherio
+eufrasia
 eufrasio
 eugeniuo
 eupremio
@@ -25746,6 +25960,7 @@ euprepio
 eva lina
 evamaria
 evandrio
+evangelo
 evarista
 evaristo
 everando
@@ -25766,6 +25981,7 @@ favorino
 febronia
 febronio
 fedelina
+fedelino
 federica
 federico
 federigo
@@ -25781,6 +25997,9 @@ ferminio
 fernanda
 fernando
 fernardo
+ferrando
+ferrante
+ferretti
 ferriero
 ferrulio
 feruccio
@@ -25804,7 +26023,11 @@ fioranna
 fiorella
 fiorelli
 fiorello
+fiorendo
+fiorente
+fiorenza
 fiorenzo
+fioretta
 fiorindo
 fiovanna
 firminio
@@ -25868,6 +26091,8 @@ gandolfa
 gandolfo
 garziera
 gaudenzo
+gaudiosa
+gaudioso
 gaustino
 gelfrido
 gelsirio
@@ -25875,10 +26100,12 @@ geltrude
 generina
 gennesio
 genoeffa
+genovino
 gentilia
 gentilio
 gentulio
 genunzio
+genziana
 georgina
 georgios
 gerlanda
@@ -25924,6 +26151,7 @@ giancaro
 giancola
 giandrea
 gianelia
+gianello
 gianezio
 giangelo
 gianluca
@@ -25957,11 +26185,17 @@ ginziana
 giobatta
 gioberto
 giocanni
+gioconda
+giocondo
+gioiella
 gioietta
 giomaria
 giomauro
 gionatam
 gionatan
+giordana
+giordano
+giorgina
 giorgino
 giosafat
 gioseppe
@@ -25970,6 +26204,7 @@ giosuele
 giovanna
 giovanni
 giovanno
+gioviano
 girolama
 girolamo
 girolima
@@ -25981,6 +26216,8 @@ gisfredo
 gismondo
 giuditta
 giuditto
+giuliana
+giuliano
 giulio b
 giuseooe
 giusepee
@@ -25995,10 +26232,12 @@ gladiseo
 glicerio
 glisente
 gloriana
+gloriano
 gluliana
 goffreda
 goffredo
 golfredo
+goliardo
 gorgonio
 gottardo
 gotthard
@@ -26045,6 +26284,8 @@ ioselito
 iosianna
 ippolita
 ippolito
+isabella
+isabelle
 isabetta
 isaliana
 isangela
@@ -26083,6 +26324,7 @@ landolfo
 lanmarco
 laonardo
 laura e.
+laureato
 laurence
 laurenzo
 lauretta
@@ -26128,6 +26370,7 @@ liopoldo
 lisandro
 lisimaco
 litterio
+littorio
 lituanio
 livietta
 livietto
@@ -26141,10 +26384,12 @@ loredama
 loredana
 loredano
 loredina
+loretana
 loretina
 loretino
 lorietta
 lucietta
+lucifero
 lucrezia
 lucrezio
 ludmilla
@@ -26174,6 +26419,7 @@ maccaldo
 maifredi
 mainrado
 malachia
+malfatti
 manfredi
 manfredo
 manolete
@@ -26181,6 +26427,7 @@ manolito
 manuella
 marcella
 marcello
+marciano
 marcilio
 marco a.
 marco r.
@@ -26232,6 +26479,8 @@ mary ann
 marylene
 marylina
 maryline
+marziana
+marziano
 marzilio
 massaimo
 massenza
@@ -26252,6 +26501,7 @@ maurillo
 maurisel
 maurisio
 mauriwio
+maurizia
 maurizio
 mauruzio
 max karl
@@ -26259,9 +26509,11 @@ mazarino
 mecuccio
 meinhard
 meinhart
+melanina
 melanino
 menapace
 mercedes
+mercurio
 merenzio
 merilisa
 mesenzio
@@ -26278,6 +26530,7 @@ minuccio
 miriam g
 mirianna
 miruccio
+missorio
 mohammad
 mohammed
 monicchi
@@ -26285,6 +26538,7 @@ morganti
 moriondo
 mria pia
 msurizio
+muriella
 mustapha
 naarciso
 narcisio
@@ -26299,6 +26553,8 @@ natascia
 nathalie
 nausicaa
 navarino
+nazarena
+nazareno
 nazareth
 nazzario
 nebridio
@@ -26319,14 +26575,19 @@ nikolaus
 nikolova
 ninuccia
 nizzaldi
+nizzardi
+nizzardo
 nolberto
 norberto
 noredino
 norietto
+normanno
 notburga
 noviglio
 ntonella
 nunziaia
+nunziata
+nunziato
 nunzio g
 odorisio
 ognibene
@@ -26334,6 +26595,8 @@ olderico
 olderige
 olevardo
 olivanna
+olivella
+olivetta
 oliviano
 oliviera
 oliviero
@@ -26345,23 +26608,29 @@ orestina
 orestino
 orolando
 oronzo l
+orsolina
 orsolino
 ortensio
 ortenzia
 ortenzio
 oscarino
 oto dino
+ottavina
+ottavino
 ottelina
 ottorina
 ottorino
 p gianni
 p romano
 p. guido
+padovano
+paladino
 pallanza
 palmerio
 palmiero
 pancioli
 pandelis
+panfilio
 pantaleo
 pantelis
 panunzio
@@ -26373,18 +26642,28 @@ paolo g.
 paolo p.
 paolo sa
 papilide
+parigino
 parmenio
 parsifal
 pascasio
 pascutti
 pasqaule
 pasquala
+pasquale
 pasquina
+pasquini
+pasquino
 pasquita
 pasquqle
+patricia
+patrizia
+patrizio
 pellegro
+penelope
 pergente
+periglio
 perluigi
+pervinca
 petrisso
 petrizia
 petronio
@@ -26419,6 +26698,7 @@ pierraul
 pierucia
 piervico
 piervito
+pietrino
 pietro f
 pietro g
 piierina
@@ -26427,8 +26707,10 @@ pinuccio
 pio eddi
 pio enzo
 pirluigi
+plautina
 polidoro
 pompilio
+ponziano
 porfirio
 preneste
 preziano
@@ -26437,9 +26719,14 @@ primenzo
 primetta
 primiano
 procopio
+prometeo
 protasio
 pstrizia
+quartina
+quartino
 quintima
+quintina
+quintino
 r. maria
 radhouan
 rafaella
@@ -26456,6 +26743,7 @@ raimondo
 rainaldo
 rancesco
 ranunzio
+rastelli
 redenzio
 reinhard
 reinhart
@@ -26466,10 +26754,13 @@ remiglio
 remoaldo
 renaro r
 reosario
+reparata
+reparato
 rescenzo
 riccarco
 riccarda
 riccardo
+riccetti
 richelmo
 richetta
 rituccia
@@ -26485,6 +26776,9 @@ rocchino
 rocco g.
 rodorigo
 rodrigue
+rollando
+romanino
+romanita
 romedius
 romualdo
 ropberta
@@ -26497,6 +26791,7 @@ rosalina
 rosalino
 rosalisa
 rosarina
+rosarino
 rosarita
 rosavica
 rosemary
@@ -26514,9 +26809,11 @@ roviglio
 ruggerio
 ruggiero
 rumualdo
+sabatino
 sabbrina
 sabriana
 sabrinae
+salomone
 salutina
 salvador
 salvaore
@@ -26544,6 +26841,7 @@ sebatino
 seconina
 serafin0
 serafina
+serafino
 seraphin
 sergilio
 sergioco
@@ -26554,6 +26852,7 @@ settilio
 settimia
 settimio
 severina
+severino
 sieghard
 siegmund
 sigfrida
@@ -26573,10 +26872,13 @@ siro edi
 siro ugo
 sisinnio
 sistilio
+soccorsa
+solutore
 sotirios
 spaltaco
 spartaco
 spartico
+specioso
 speraldo
 stafania
 stefaano
@@ -26584,6 +26886,8 @@ stefania
 stefanie
 steffano
 stegania
+stellina
+stellino
 stephane
 stewfano
 stiliano
@@ -26607,6 +26911,7 @@ teopista
 teotista
 terelisa
 terenzio
+teresina
 teresita
 teresito
 terminio
@@ -26615,6 +26920,7 @@ tersilio
 tersilla
 tersillo
 terziana
+terziano
 terzilia
 terzilio
 terzillo
@@ -26639,6 +26945,8 @@ torquato
 torribio
 totorina
 totuccio
+trentino
+tristano
 ubaldina
 ubaldino
 udalrico
@@ -26651,7 +26959,9 @@ uliviero
 v.oreste
 valberto
 valbruna
+valentia
 valentin
+valenzia
 valenzio
 valerija
 valerino
@@ -26676,10 +26986,13 @@ venenzio
 venerida
 venerina
 ventidio
+verdiana
+verdiano
 vergilio
 verginia
 verginio
 vermondo
+veronica
 veronika
 vianella
 vicnenzo
@@ -26689,20 +27002,25 @@ vilderio
 vilfrido
 villerma
 vincenso
+vincente
 vincenza
 vincenzo
 vincnezo
 vinvenzo
+violetta
 virgilia
 virgilio
+virginia
 virginio
 viscardo
+visconte
 vitalina
 vitalino
 vito ant
 vito leo
 vittoiro
 vittorin
+vittorio
 vittotio
 vittroio
 vituccio
@@ -26761,11 +27079,14 @@ adrian0
 adriana
 adriano
 aemidio
+affrico
 agapito
 agatina
 agatino
 agenore
+agnella
 agostin
+aguglia
 aladino
 alamiro
 alarico
@@ -26781,11 +27102,14 @@ alduino
 aleardo
 alerame
 alerico
+alessia
 alessio
 alessya
 alfengo
 alferio
 alfideo
+alfiere
+alfieri
 alfiero
 alfonfo
 alfonsa
@@ -26800,6 +27124,8 @@ alioska
 almonti
 aloisia
 alterio
+altieri
+altiero
 alvarez
 alvasio
 alverio
@@ -26808,6 +27134,7 @@ alvidio
 alviero
 alvisio
 amanzio
+amatore
 amberto
 ambledo
 amblico
@@ -26815,6 +27142,7 @@ amedigi
 ameglia
 ameglio
 amelide
+america
 americo
 ameriga
 amerigo
@@ -26823,11 +27151,16 @@ amerino
 amidino
 amneris
 amoreno
+amorino
+amorosa
+amoroso
 ampelia
 ampelio
 amselmo
 amtonio
+analita
 anchise
+ancilla
 ancillo
 andreas
 andries
@@ -26840,12 +27173,17 @@ angelia
 angelio
 angello
 angelmo
+angiola
+angiolo
 aniceto
 aniello
 anna m.
 annabel
 annalia
 anndrea
+annetta
+annette
+annetto
 annusca
 annuska
 anotnio
@@ -26865,11 +27203,14 @@ antuono
 anzelmo
 aprilia
 arbirio
+arcadia
 arcadio
 archina
 arcidio
+arcieri
 arcindo
 arcisio
+arconte
 ardelia
 ardelio
 ardemio
@@ -26878,6 +27219,7 @@ ardicio
 ardilio
 arduino
 arealdo
+argante
 argenio
 argisto
 arialdo
@@ -26928,12 +27270,17 @@ attilio
 attivio
 audillo
 audisio
+augusta
+augusto
 aurelia
 aurelie
 aurelio
 aurella
 aurello
+auretta
 ausilia
+ausonia
+ausonio
 autilia
 avelino
 avenuto
@@ -26943,13 +27290,16 @@ azzelio
 baduele
 baingio
 baldino
+balilla
 bandino
 barbani
+barbato
 barnaba
 bartola
 bartolo
 basilia
 basilio
+bassano
 batrice
 battisa
 beatino
@@ -26957,6 +27307,8 @@ beatrix
 bechara
 belania
 belinda
+bellina
+bellino
 belvito
 benardo
 benedet
@@ -26964,6 +27316,7 @@ bengasi
 beppino
 berardo
 bernard
+bertino
 bertolo
 bettina
 bettino
@@ -26974,6 +27327,7 @@ biagino
 bibiana
 biserka
 bombina
+bonaria
 bonifaz
 bortolo
 bosisio
@@ -26984,38 +27338,50 @@ brunero
 brunina
 brunino
 bruno n
+brunone
 c igino
 cabiria
 cacilia
 calarco
+caldino
 caleste
 caliope
 calisto
 caludia
 caludio
+calvino
+camelia
 camilla
 camillo
+candito
 capozio
 caradio
 caridia
 carillo
 carisio
 carleto
+carlina
+carlino
 carlo a
 carlo f
 carlo t
 carmela
 carmelo
+carmina
 carmine
+carmino
 caserio
 cassius
 castolo
 castore
 cataldo
+catello
 catmelo
 catullo
 catusca
+cecilia
 cecilio
+celesta
 cellina
 cellino
 celsino
@@ -27023,7 +27389,10 @@ cenzina
 cenzino
 cermela
 cesaare
+cesareo
 cesario
+cesella
+cesello
 cesidia
 cesidio
 cettina
@@ -27038,6 +27407,8 @@ ciriaco
 cirillo
 cisella
 clarice
+clarita
+claudia
 claudio
 clemens
 clement
@@ -27064,6 +27435,7 @@ daliena
 dalmino
 dalmiro
 damaris
+damiamo
 damiana
 damiano
 damijan
@@ -27078,6 +27450,7 @@ danilla
 danillo
 danlo m
 dantina
+dantino
 danubio
 dario c
 darioio
@@ -27085,12 +27458,14 @@ darlino
 daverio
 davidde
 davidie
+daziano
 debhora
 deborah
 deborak
 deborha
 defente
 deledda
+delfina
 delfreo
 deligio
 delisio
@@ -27126,6 +27501,7 @@ diomiro
 dionigi
 dionino
 dobrano
+dolfino
 dolinda
 dolores
 domenco
@@ -27138,14 +27514,21 @@ domizio
 domnica
 donadio
 donella
+donnino
 dontato
+dorando
 doranna
 doratea
 dorella
 doretta
+doriana
+doriane
+doriano
 dorinda
 dorindo
 dorizio
+dorotea
+doroteo
 dorothy
 dototea
 douglas
@@ -27248,18 +27631,23 @@ ersilio
 ersinio
 ervidio
 esilvio
+esperia
+esperio
 estefan
 estella
 estenio
 estevan
 etelina
 etienne
+etrusco
 euclide
 euclite
 eudesio
 eudosio
 eufelia
+eufemia
 eufemio
+eugenia
 eugenio
 eulalia
 euliana
@@ -27283,6 +27671,8 @@ everest
 eviglio
 ezechia
 f paolo
+fabiana
+fabiano
 fabiena
 fabiola
 fabrice
@@ -27305,11 +27695,15 @@ ferando
 ferdite
 feriano
 fermina
+fermino
 ferrari
+ferrero
 fidalma
 fidelia
 fidelmo
 filippa
+filippi
+filippo
 filoteo
 finisia
 finisio
@@ -27317,28 +27711,40 @@ fiorano
 fiordeo
 fiorigi
 fiorina
+fiorini
+fiorino
 fiorisa
+fiorita
+fiorito
 fipippo
 firmina
 florian
+florida
+floride
+florido
 florigi
 florina
 florino
 florisa
+florita
 fluvior
 fontino
+foresto
 foscolo
 fr5anco
 francis
 fraqnco
 fredrik
 frenchi
+fulgida
+fulgido
 g carlo
 g luigi
 g mario
 g paolo
 g. luca
 g.carlo
+gabbani
 gabriel
 gabrile
 gaerano
@@ -27349,6 +27755,7 @@ galdino
 galeano
 galgano
 galiano
+galileo
 galizio
 galvano
 gartano
@@ -27372,8 +27779,10 @@ gelsina
 geminio
 gemisto
 gemmina
+gemmino
 genesio
 genesto
+geniale
 genioso
 gennaro
 genoino
@@ -27390,6 +27799,9 @@ gerhard
 gerhart
 germain
 germamo
+germana
+germano
+germino
 geromio
 gertrud
 gervais
@@ -27407,6 +27819,7 @@ gfranco
 gherard
 giacolo
 giacoma
+giacomo
 giaconi
 gialuca
 giamila
@@ -27419,6 +27832,7 @@ gianteo
 giasone
 giberto
 gigetto
+gilbert
 gildino
 giliano
 gilindo
@@ -27429,6 +27843,7 @@ gilormo
 ginesia
 ginesio
 ginetta
+ginetto
 ginevra
 ginotto
 gioanna
@@ -27446,9 +27861,11 @@ giosuea
 giotgio
 giovann
 giovina
+giovine
 giovita
 giovnni
 giraldo
+girelli
 girogio
 giselda
 gisella
@@ -27461,6 +27878,7 @@ giuiano
 giulana
 giulano
 giulina
+giulivo
 giusepe
 giusppe
 givanni
@@ -27483,6 +27901,7 @@ gotardo
 gothard
 govanni
 gpietro
+granato
 gregori
 gregory
 grnnaro
@@ -27492,6 +27911,7 @@ guerino
 guideno
 guidina
 guido f
+guidone
 guirino
 guliano
 gundolf
@@ -27529,6 +27949,7 @@ ignazio
 ilarina
 imogene
 imperia
+imperio
 incenzo
 ioannes
 ioannis
@@ -27549,6 +27970,9 @@ ismaela
 ismaele
 ismalia
 isodoro
+isolina
+isoline
+italico
 italino
 italo g
 itolino
@@ -27583,18 +28007,22 @@ klemens
 krisnel
 laberto
 lafredo
+lambert
 laodice
 lapenna
 larissa
 laudice
 laurana
 laurent
+laurino
 lavanio
 laverio
 laviero
 lavinia
 lavinio
+lazzaro
 leandra
+leandro
 ledicio
 leliana
 lenilda
@@ -27602,16 +28030,20 @@ lenisio
 leodino
 leodoro
 leoluca
+leonato
 leonida
+leonino
 leonora
 leonrdo
 leonzio
 leopold
 leorati
 lepoldo
+letizio
 leucino
 liarosa
 liberio
+liberto
 libiano
 liboria
 liborio
@@ -27640,6 +28072,8 @@ lisetta
 lisetto
 lisiano
 lisindo
+liviana
+liviano
 livinio
 liziana
 ljubica
@@ -27653,6 +28087,7 @@ lorella
 lorello
 lorenza
 lorenze
+lorenzi
 lorenzo
 loretta
 loretto
@@ -27681,6 +28116,7 @@ luigi g
 luigi m
 luigi o
 luigina
+luigino
 luisana
 luisito
 lunella
@@ -27706,6 +28142,7 @@ magiste
 magrini
 mainini
 malfino
+malgari
 malvina
 malvino
 mamadou
@@ -27727,6 +28164,7 @@ marco p
 marella
 marenzo
 maresco
+maretta
 marfisa
 margaux
 margith
@@ -27737,6 +28175,8 @@ maria l
 maria m
 maria s
 maria t
+mariana
+mariano
 maricla
 maridia
 mariele
@@ -27756,6 +28196,7 @@ mario g
 mario l
 mario p
 mario v
+mariola
 marisca
 marisio
 marisol
@@ -27771,10 +28212,12 @@ marta a
 martimo
 martina
 martine
+martino
 marulli
 marusca
 marusco
 maruska
+maruzza
 marylin
 massari
 massino
@@ -27783,10 +28226,12 @@ mathias
 matilda
 matilde
 matille
+matrona
 mattteo
 maurice
 mauriel
 maurina
+maurino
 maurizi
 maurizo
 mauro f
@@ -27800,12 +28245,16 @@ melania
 melanie
 melelia
 melinda
+melissa
+mellito
 menella
 menenio
 mennato
 menotti
 mentino
+mentore
 meraldo
+mercede
 meridio
 metella
 metello
@@ -27827,11 +28276,15 @@ mikaela
 milcare
 milvana
 milvano
+mimmino
 minella
+minerva
 minucio
 miralba
 miralda
 miraldo
+miranda
+miranti
 mirella
 mirello
 miretto
@@ -27846,11 +28299,16 @@ miviano
 mohamed
 mon ica
 monaldo
+mondino
 monique
 moraldo
 moranda
+morando
 moravio
+morella
+morello
 morenao
+moretti
 morgana
 mostafa
 muchele
@@ -27863,7 +28321,10 @@ naldina
 naldino
 nandino
 nanella
+nannina
 nannino
+narcisa
+narciso
 narcisp
 nardina
 nardino
@@ -27888,8 +28349,11 @@ nelusco
 nemesio
 nenella
 nenello
+nereide
 nerella
 nesibio
+nestore
+nettuno
 neviano
 nevilda
 nicasia
@@ -27908,14 +28372,18 @@ ninella
 ninetta
 ninucio
 niriana
+nirvana
 nirvano
 nivardo
 niviana
 norante
 norbert
 nordino
+normano
+normino
 novarro
 novelio
+novello
 nunzioo
 o'brian
 oberdan
@@ -27925,6 +28393,8 @@ odoardo
 odorico
 odorina
 oldrado
+olimpia
+olimpio
 olivano
 olivero
 olivier
@@ -27950,6 +28420,7 @@ oriotta
 orlanda
 ornelio
 ornella
+ornello
 oronzio
 orsorio
 ortesio
@@ -27978,11 +28449,16 @@ palmina
 palmino
 palmira
 palmiro
+palomba
 pangelo
 paola t
+paolina
+paolini
+paolino
 paquale
 pardino
 parisio
+pascale
 patrice
 patrich
 patrick
@@ -27998,6 +28474,7 @@ philipp
 phyllis
 piavino
 pierina
+pierino
 pierita
 piero b
 pierugo
@@ -28005,12 +28482,15 @@ pietroq
 pillade
 pilleri
 pindaro
+pinella
 pinello
 placico
 pladico
 plamiro
 poldino
 pradeep
+primina
+primino
 primo a
 procolo
 quanito
@@ -28041,15 +28521,19 @@ reanaya
 rebecca
 recaldo
 redelio
+redenta
+redento
 reginio
 reinald
 remadio
+remigio
 renaldo
 renatos
 reniero
 renilde
 renzino
 renzo g
+reuccio
 revilio
 reziero
 riberto
@@ -28067,6 +28551,8 @@ rinaldo
 rinello
 ripalda
 ripalta
+risiero
+risorto
 ristina
 ritalba
 ritaldo
@@ -28084,6 +28570,7 @@ roberto
 robetto
 robinio
 robledo
+rodiano
 rodolfa
 rodolfo
 rodrigo
@@ -28092,6 +28579,7 @@ rolando
 roldano
 romaldo
 romallo
+romando
 romania
 romedio
 romelia
@@ -28109,6 +28597,7 @@ rosalba
 rosalda
 rosaldo
 rosalea
+rosalia
 rosalma
 rosanna
 rosanno
@@ -28123,6 +28612,7 @@ rosello
 rosemma
 rosendo
 rosenzo
+rosetta
 rosetto
 rosiane
 rosilda
@@ -28134,6 +28624,7 @@ rosmerj
 rosmery
 rosmina
 rosmino
+rosolia
 rosolin
 rossana
 rossano
@@ -28148,6 +28639,7 @@ rutilio
 sabiano
 sabrina
 salerno
+saletta
 salmino
 saltore
 salvina
@@ -28155,8 +28647,12 @@ samanta
 samoele
 samuela
 samuele
+sansone
 santina
+santino
+santolo
 santoro
+saturno
 saveria
 saverio
 saviana
@@ -28164,6 +28660,7 @@ savillo
 sdimone
 sefania
 selenia
+selenio
 selineo
 selvino
 senaldo
@@ -28175,10 +28672,16 @@ seregio
 serenna
 sergrio
 seriana
+seriano
+servino
+sestina
+sestino
 sestore
 sheilla
 shirley
 sibeone
+sibilla
+sibille
 sicilia
 sideria
 sidonia
@@ -28191,18 +28694,25 @@ siliana
 siliano
 silivio
 silv ia
+silvana
+silvano
 silvera
 silvero
 silviio
 silvina
 silvino
 simeone
+siriana
+siriano
 sisinio
+sistina
+sistino
 sivaldo
 slavica
 sntonio
 socrate
 solange
+soldano
 solidea
 solideo
 solindo
@@ -28212,6 +28722,8 @@ solvano
 sonnino
 sostene
 sostine
+spadoni
+spalato
 spataro
 stafano
 stalino
@@ -28250,6 +28762,7 @@ teresia
 teresio
 terigio
 ternzio
+terzino
 theodor
 thierry
 tiberio
@@ -28257,8 +28770,10 @@ timeria
 timoteo
 tindara
 tindaro
+tirreno
 titiana
 tiziana
+tiziano
 tolindo
 tolmino
 tolomeo
@@ -28268,13 +28783,17 @@ tommasa
 tommaso
 tommoso
 tonella
+tonello
+torello
 toribio
 torindo
+torrino
 tosello
 touhami
 traiano
 trieste
 trifone
+troiano
 turcato
 turibio
 turiddo
@@ -28289,6 +28808,7 @@ ugolino
 uilliam
 ulianov
 umbarto
+umberta
 umberto
 umebrto
 umnerto
@@ -28299,19 +28819,23 @@ valeria
 valerie
 valerio
 validio
+vallino
 valmiro
 valmore
 valtere
 valtero
 valther
 vandone
+vanessa
 vanildo
+vannino
 vantura
 varisse
 varleno
 varmelo
 vassili
 vecelio
+veliero
 velindo
 velleda
 venanza
@@ -28321,22 +28845,27 @@ venicio
 veniero
 venilio
 venusia
+venusto
 veraldo
 verando
 verardo
 veriana
 veriano
+vernino
 verolei
 veronio
 verther
 verusca
 veruska
+vettore
+viatore
 vicente
 vicenza
 vicenzo
 vidalio
 videlmo
 vigildo
+vigilio
 viginia
 viginio
 vigliam
@@ -28352,6 +28881,7 @@ vinilio
 vinisio
 vinzenz
 virgino
+vitalba
 vitalia
 vitalio
 vitelio
@@ -28360,6 +28890,8 @@ viterbo
 vitoria
 vitorio
 vittora
+vittore
+vittori
 vitussa
 vivaldo
 vivetta
@@ -28370,6 +28902,7 @@ viviano
 vncenzo
 vojsava
 volgher
+voltero
 volveno
 walburg
 walther
@@ -28395,6 +28928,7 @@ zaviero
 zazilia
 zdravko
 zeffira
+zeffiro
 zelfira
 zelinda
 zelindo
@@ -28413,6 +28947,7 @@ abramo
 achill
 addone
 adelco
+adelfo
 adelia
 adelio
 adello
@@ -28426,12 +28961,14 @@ adolfa
 adolfo
 adoneo
 adonis
+adorea
 adrian
 adrien
 aduina
 aduino
 afonso
 afredo
+africo
 agatha
 agazio
 agildo
@@ -28442,12 +28979,16 @@ aimone
 airino
 ajmone
 alaimo
+albana
 albano
 albert
 albuin
+alcide
 alcine
 aldemo
 aldero
+aldina
+aldino
 alenka
 alerio
 alesio
@@ -28461,8 +29002,10 @@ alfono
 alfons
 alfred
 algero
+aliano
 alibek
 alidio
+aliero
 aliosa
 alipio
 alirio
@@ -28474,6 +29017,7 @@ alnino
 aloisa
 alonso
 alpedo
+alpino
 alside
 altair
 alvano
@@ -28481,6 +29025,7 @@ alvaro
 alveno
 alvero
 alvido
+alvino
 alvise
 amadeo
 amadia
@@ -28491,12 +29036,14 @@ amalia
 amalio
 amanda
 amanto
+amasio
 ambner
 ambros
 amdrea
 amedea
 amedeo
 amedor
+amelia
 amelio
 amerio
 amgela
@@ -28524,6 +29071,8 @@ anella
 anerio
 anfelo
 anfrea
+angela
+angele
 angese
 aniese
 anilda
@@ -28548,13 +29097,18 @@ antoun
 anusca
 apelle
 aquino
+araldo
 aramis
 arbeno
+arcadi
 arcido
 arcona
 ardino
 arezia
 argene
+ariana
+ariane
+ariano
 ariedo
 ariela
 arione
@@ -28562,6 +29116,7 @@ arlino
 armado
 armand
 armani
+armeno
 armida
 armido
 arnido
@@ -28573,6 +29128,7 @@ arpino
 arrigo
 arseno
 arthur
+artico
 artura
 arturo
 artuto
@@ -28580,16 +29136,20 @@ arvedo
 arveno
 arzeno
 ashraf
+astore
 astrid
 asveri
 atalio
 atemio
 athina
+attila
 attilo
 audeno
 audoli
 august
 aurlio
+ausano
+avelia
 avelio
 averio
 aviano
@@ -28607,20 +29167,26 @@ bepino
 biagia
 biagio
 birgit
+blenda
 boezia
 boezio
 bogdan
+bonini
+bonino
 bonita
+bonomo
 boubou
 boulos
 bozica
 br8uno
+brando
 brenda
 brenno
 briano
 briele
 brizio
 brunom
+bufino
 calabe
 camilo
 camine
@@ -28631,22 +29197,37 @@ canzio
 carlin
 carlos
 carmen
+carola
+carole
+casare
+cassia
+cassio
+cateno
 cathia
+catone
 caudio
 cedric
 cedrik
 celide
 celina
+cerico
 cesara
+cesare
 cesino
 cesira
 cesiro
 chenio
+chicco
 chriss
 cianna
+ciarli
+ciccio
 cicito
 cintia
+cinzia
+cinzio
 cirino
+civita
 cladio
 clalia
 claris
@@ -28658,12 +29239,15 @@ clevio
 clindo
 clinio
 clivio
+clizia
 cludio
 corado
 corimo
 corina
 corino
 corrdo
+cosima
+cosimo
 crippa
 crizia
 curzio
@@ -28678,6 +29262,7 @@ dalila
 dallia
 damaso
 damian
+damino
 damjan
 danato
 danesa
@@ -28701,6 +29286,8 @@ dayana
 dealma
 deanna
 debora
+decimo
+dedalo
 delchi
 delfeo
 delfio
@@ -28716,11 +29303,14 @@ deniso
 dennie
 dennis
 desana
+desire
 devino
 didaco
 didala
 didier
+didimo
 dieter
+dimero
 dinora
 doanto
 dolver
@@ -28729,8 +29319,10 @@ donigo
 donina
 doraci
 dorian
+dorico
 doride
 dorina
+dorino
 driano
 duccio
 duclos
@@ -28768,12 +29360,16 @@ egilio
 eginio
 egisio
 egisto
+egizia
+egizio
+elbano
 elbino
 eleana
 eleano
 elegio
 elelna
 elenia
+elenio
 elgina
 eliana
 eliane
@@ -28788,6 +29384,7 @@ eligia
 eligio
 eliona
 eliseo
+elisio
 elismo
 elivio
 elizio
@@ -28836,6 +29433,7 @@ erardo
 erasmo
 erbert
 erbino
+ercole
 erenio
 erhard
 erhart
@@ -28861,6 +29459,7 @@ ermjes
 ernani
 ernano
 ernede
+ernico
 ernino
 ernsto
 erodia
@@ -28876,9 +29475,11 @@ esidio
 esilde
 esildo
 esiodo
+estera
 esther
 ettore
 eulero
+eumene
 eunice
 euplio
 evaldo
@@ -28906,9 +29507,14 @@ farida
 farouk
 fasuto
 fatima
+fausta
+fausti
+fausto
 fauzia
 fedela
 fedora
+felino
+fenice
 ferenc
 feride
 fervia
@@ -28920,6 +29526,7 @@ flavia
 flavio
 fleana
 fleris
+flippo
 floren
 flores
 floria
@@ -28936,6 +29543,7 @@ freddy
 frenzi
 fridia
 frieda
+fucino
 fullio
 fulvia
 fulvio
@@ -28944,9 +29552,14 @@ g luca
 gabrio
 gacomo
 gaston
+gaudio
+gavina
 gavino
 geanni
 gelsio
+gemano
+gemini
+gemino
 gemolo
 gerard
 german
@@ -28959,6 +29572,7 @@ gesino
 gesue'
 ghelfo
 gherda
+ghiara
 giaber
 giaele
 giaime
@@ -28973,6 +29587,7 @@ giglia
 gilles
 gillio
 gilmar
+giobbe
 gioele
 giogio
 giommi
@@ -28986,7 +29601,9 @@ giotto
 giovvi
 girgio
 gisela
+gitana
 giulia
+giulio
 giunia
 giunio
 giusva
@@ -28995,6 +29612,8 @@ gladir
 gladis
 gladys
 glaide
+glauca
+glauco
 glaudo
 gledjs
 glenda
@@ -29004,10 +29623,12 @@ gorino
 gpaolo
 gpiero
 gradus
+grappo
 gregor
 grieco
 grmano
 gudrun
+guelfo
 guerri
 guiodo
 gunter
@@ -29047,6 +29668,9 @@ icilia
 icilio
 iconio
 idalda
+idalgo
+idalia
+idalio
 idelma
 idelmo
 idetta
@@ -29080,6 +29704,7 @@ imelde
 imerio
 imerto
 inacio
+indira
 ineldo
 inelio
 inenzo
@@ -29088,6 +29713,7 @@ inerio
 ingrid
 iolano
 ionela
+ionica
 ioseph
 irenea
 ireneo
@@ -29112,7 +29738,6 @@ isonzo
 isorio
 isotta
 isvaro
-italia
 itamar
 ivalda
 ivaldi
@@ -29171,10 +29796,13 @@ khalid
 kilian
 konrad
 krizia
+ladino
 laerte
 larisa
 leando
 learco
+learda
+leardo
 lebana
 ledino
 lenart
@@ -29185,6 +29813,7 @@ leonia
 leonio
 leucio
 leulgo
+libano
 lidano
 lidiya
 lietto
@@ -29200,6 +29829,7 @@ livioo
 loanna
 loario
 lodina
+lolita
 londeo
 lorano
 loreda
@@ -29212,6 +29842,8 @@ lorita
 lothar
 louise
 luanna
+lucano
+luccio
 lucely
 lucien
 lucina
@@ -29236,6 +29868,7 @@ mameli
 mamete
 mancio
 manfro
+manila
 manilo
 manlio
 manoel
@@ -29244,8 +29877,10 @@ manolo
 manuel
 manule
 manzio
+marano
 marc o
 marcel
+marchi
 marcos
 mareda
 mareno
@@ -29272,24 +29907,30 @@ marseo
 marsia
 marsio
 martha
+martin
 martyn
 marula
 marvin
 marvis
 maryse
+marzia
+marzio
 mascia
 masimo
 masito
 massmo
 matale
 matias
+mattea
 matteo
+mattia
 mattio
 maurio
 maykol
 medoro
 meggie
 melido
+melina
 melisa
 melita
 melito
@@ -29308,7 +29949,6 @@ mietta
 miguel
 mihael
 milani
-milano
 milena
 mileno
 mileto
@@ -29317,6 +29957,7 @@ milone
 milvia
 milvio
 mimina
+mimino
 mimmia
 minoia
 mircho
@@ -29338,7 +29979,10 @@ moise'
 momolo
 monica
 monika
+morano
+morena
 moreno
+morfea
 morfeo
 morgan
 morini
@@ -29357,6 +30001,7 @@ nadrea
 nahuel
 nailya
 nareda
+narina
 nashat
 natala
 natasa
@@ -29387,10 +30032,12 @@ norina
 norino
 norman
 novaro
+novino
 ntonio
 nuccia
 nuccio
 nucola
+nunzia
 obaldo
 ocildo
 oddino
@@ -29410,6 +30057,7 @@ oldino
 olenio
 oletta
 olidio
+olimpo
 olinda
 olindo
 olinto
@@ -29421,6 +30069,8 @@ olivia
 olivio
 olvina
 olvino
+ondina
+ondino
 onelia
 onelio
 onello
@@ -29431,11 +30081,13 @@ onoria
 onorio
 opilio
 opimio
+orante
 orazia
 orazio
 orelia
 oresta
 oreste
+oriana
 oriano
 oriele
 orieta
@@ -29445,8 +30097,10 @@ orisio
 orizio
 oronte
 oronzo
+orsino
 orsola
 osanis
+osanna
 oscare
 oscari
 oscaro
@@ -29460,6 +30114,7 @@ otello
 othman
 othmar
 ottato
+ottavo
 ottelo
 ouidad
 ovando
@@ -29469,21 +30124,27 @@ padovo
 palkam
 paloma
 pamara
+pamela
 pamola
 paoloa
 paoloo
+paride
 parise
+pascal
 pasini
+passio
 patric
 patrik
 perseo
 philip
 pierot
+pierre
 pierto
 pietro
 pilade
 piramo
 pirino
+pisana
 plinio
 poerio
 polino
@@ -29492,6 +30153,9 @@ pompei
 pompeo
 porzia
 potito
+priamo
+prisca
+prisco
 priska
 publio
 p`aolo
@@ -29507,17 +30171,26 @@ ramona
 raymon
 realdo
 realmo
+redino
 regino
 reiner
+relato
 remiro
 remola
 renara
+renata
+renate
+renato
+retano
 rialdo
 rienzi
 rienzo
+ritano
 riveso
 rnrico
 roasio
+robera
+robero
 robert
 robeta
 robeto
@@ -29525,6 +30198,9 @@ robrto
 roerto
 rogers
 roland
+romana
+romani
+romano
 romero
 romina
 romino
@@ -29536,12 +30212,15 @@ rosado
 rosaia
 rosana
 rosano
+rosato
 rosely
 rosida
 rosina
+rosino
 rosita
 rosvel
 roveno
+rovero
 roveso
 rubens
 rubina
@@ -29549,6 +30228,9 @@ rudolf
 rufino
 rugero
 rupert
+sabina
+sabine
+sabino
 sahara
 saimon
 salaco
@@ -29559,6 +30241,7 @@ samira
 samson
 samuel
 sandie
+sandra
 sandro
 sanijn
 sanilo
@@ -29567,9 +30250,12 @@ sardus
 sarina
 sarino
 saskia
+satiro
 saulle
+savina
 savino
 schany
+scilla
 sefora
 selena
 selene
@@ -29579,7 +30265,9 @@ semira
 serana
 sergia
 sergio
+serino
 servio
+sforza
 sharon
 sheela
 sheila
@@ -29588,7 +30276,11 @@ shelly
 shimon
 sidero
 sigrid
+silene
+sileno
 silver
+silvia
+silvio
 silvna
 simome
 simona
@@ -29598,6 +30290,7 @@ sireno
 sjlvia
 slavko
 slvano
+soleil
 sondra
 sophie
 soraia
@@ -29607,6 +30300,7 @@ sosina
 sossio
 sosten
 sotero
+spurio
 srecko
 stanis
 steano
@@ -29640,16 +30334,20 @@ teleno
 teresa
 terigi
 tersio
+terzio
 tesesa
+tesino
 thomas
 tierry
 tirigi
+titina
 toaldo
 tobias
 tolino
 tomaso
 tonimo
 tonina
+tonino
 tottoi
 trento
 trevor
@@ -29674,12 +30372,15 @@ ulrich
 ulrico
 ulrike
 ulyana
+urania
+uranio
 urbina
 uriele
 ursini
 ursula
 utilio
 uvanna
+vadero
 vadier
 vaifro
 vainer
@@ -29694,6 +30395,7 @@ valter
 vamder
 vander
 vanila
+vanino
 vannes
 vannia
 vannio
@@ -29725,6 +30427,8 @@ vilmma
 vilson
 viorel
 viriol
+vitina
+vitino
 vivaro
 vladir
 vlasta
@@ -29759,7 +30463,9 @@ yvonne
 zamira
 zanita
 zareno
+zarina
 zelido
+zelino
 zemiro
 zenone
 zopito
@@ -29768,6 +30474,7 @@ aaron
 abdon
 abele
 adama
+adamo
 adams
 addis
 adele
@@ -29776,10 +30483,12 @@ adino
 adlai
 adler
 adolf
+adone
 adrea
 adree
 adria
 adrio
+agata
 agide
 agnes
 ahmad
@@ -29802,9 +30511,16 @@ alfia
 alfio
 algeo
 alica
+alice
+alici
+alida
+alide
+alido
 aligi
 alina
 aline
+alino
+alita
 allen
 aloia
 alois
@@ -29812,15 +30528,19 @@ aloma
 alpio
 alteo
 alven
+alveo
 alves
 alvio
 alwin
 amado
+ambra
 amdeo
+amina
 amm51
 amuro
 ander
 andes
+anglo
 anica
 anilo
 anise
@@ -29830,11 +30550,13 @@ annie
 annio
 anrea
 ansel
+ansio
 anteo
 anton
 anuel
 anzio
 apolo
+appio
 ardeo
 aredo
 arfeo
@@ -29862,20 +30584,27 @@ athos
 atria
 atteo
 audin
+audio
+baldo
+bambi
+bardo
 benis
 benno
 benso
 beppe
 berdj
 bernd
+berta
 berti
 berto
+besso
 bettj
 betto
 bevio
 beyra
 biase
 bidin
+bigio
 billy
 bindo
 bixio
@@ -29885,6 +30614,7 @@ boris
 bozic
 breda
 brian
+brino
 brun0
 cadia
 cadio
@@ -29892,16 +30622,25 @@ canio
 carl0
 carla
 carlo
+carme
+carol
 cathy
 catia
 catya
 ccrla
+celio
 celso
+censo
 cenzo
 cesco
+cesia
+cesio
 chaia
 chesi
+cheti
 chris
+ciana
+ciano
 cindy
 cirus
 clair
@@ -29915,11 +30654,15 @@ cleto
 clide
 clino
 clito
+clori
+coppi
 cosma
 cuido
 cuono
 cuper
+dafne
 daisy
+dalia
 dalio
 dalma
 damas
@@ -29929,7 +30672,9 @@ danio
 danis
 daniz
 danny
+dante
 darco
+dardo
 daria
 darij
 darin
@@ -29950,6 +30695,8 @@ degle
 deira
 delfo
 delhj
+delia
+delio
 delki
 delma
 delmo
@@ -29969,9 +30716,12 @@ derik
 derio
 deris
 derna
+desio
 devid
 devil
 devis
+diana
+diane
 didia
 didio
 diega
@@ -29985,14 +30735,17 @@ dimmo
 dirce
 dirgo
 dismo
+divio
 doadi
 doina
 dolfo
 donio
 doria
+dorio
 doris
 doros
 ducio
+duino
 dulio
 dumas
 dumer
@@ -30030,9 +30783,15 @@ eleno
 eleon
 elfio
 elias
+elice
+elida
+elide
+elido
 elina
 elino
 elios
+elisa
+eliso
 elita
 ellen
 ellis
@@ -30048,12 +30807,15 @@ elvio
 elvis
 elwis
 elzio
+emide
 emile
 emilo
 emily
 emira
+emiro
 emmel
 emmio
+emolo
 emora
 emore
 enazo
@@ -30070,6 +30832,7 @@ enzio
 enzoo
 erder
 ergeo
+erica
 erich
 erico
 eride
@@ -30080,6 +30843,7 @@ erman
 ermen
 ermes
 ermis
+ernie
 ernst
 errol
 eruno
@@ -30113,6 +30877,7 @@ femio
 ferdi
 ferdy
 ferry
+fiano
 fidel
 fides
 fidia
@@ -30123,18 +30888,27 @@ fiona
 fiora
 fiovo
 fitim
+flavi
 flero
+flora
+flore
 floro
+folco
+forgi
+fosca
 franc
 frank
 franz
 fredi
 fredy
+fremo
 frida
 fritz
 frnca
 fulco
+fulgo
 fulio
+furio
 gaddo
 ganna
 gauna
@@ -30155,7 +30929,12 @@ gesuè
 ghero
 ghino
 ghynh
+giada
+giani
+giano
 gidio
+gilda
+gilde
 gildo
 gilio
 gilla
@@ -30169,12 +30948,15 @@ gioni
 giose
 giosi
 gioso
+girio
+giudo
 giusi
 giusy
 goran
 gorio
 gozio
 graux
+greca
 greta
 guigo
 gunda
@@ -30192,10 +30974,12 @@ helen
 helga
 helma
 henri
+henry
 hermo
 heros
 herri
 herta
+hertz
 hilda
 holmo
 homar
@@ -30212,7 +30996,9 @@ iclif
 idale
 idalo
 idana
+idria
 iefte
+iella
 ierio
 ieris
 ierta
@@ -30257,6 +31043,7 @@ irali
 irena
 irene
 ireno
+ireos
 irina
 irmeo
 irvin
@@ -30269,9 +31056,12 @@ iside
 isido
 isora
 itaca
+itala
+italo
 itria
 iulia
 ivana
+ivano
 ivens
 iveta
 ivone
@@ -30355,11 +31145,16 @@ kurti
 laila
 laleh
 lalla
+lando
 lanno
 lante
 lario
 larry
 laslo
+laudo
+laura
+laure
+lauro
 layla
 leana
 leano
@@ -30367,27 +31162,40 @@ leide
 leila
 lelia
 lelio
+lella
+lello
 lener
 lenio
 lenis
+lenzi
 leona
 levio
 levis
 lewis
 liala
 liano
+licia
+licio
+lidia
+lidio
+ligia
 lilia
 lilio
+lilli
+lillo
 lilly
 liria
+lirio
 liuba
 livia
 livio
 ljuba
 loana
 loche
+longo
 loren
 lores
+lorio
 loris
 lorna
 louis
@@ -30396,27 +31204,35 @@ luano
 luaro
 lucas
 lucca
+lucia
+lucie
+lucio
 lucya
+luigi
 luisa
 luise
 luiso
 lukas
+lucia
 luzia
 luzio
 lycia
 lydia
 mabel
 madda
+madia
 madio
 maela
 maena
 maeva
 magda
+magno
 maica
 maico
 maida
 maika
 maila
+maino
 maira
 malio
 malko
@@ -30426,28 +31242,39 @@ manua
 maoro
 mari'
 mari0
+maria
 marin
 mario
 maris
 marja
 marko
+marna
 maroc
+marra
 marta
+marte
 marvi
+marzi
 masco
 mateo
 matia
 matja
+maura
+mauro
 mavis
 mayra
 medea
 melzi
 memma
 memmo
+menna
+meoni
 meri'
+merio
 meris
 merri
 mesia
+mevio
 miano
 micol
 mikol
@@ -30463,6 +31290,8 @@ milly
 milos
 milva
 mimi'
+mimma
+mimmo
 mirca
 mirco
 miria
@@ -30471,12 +31300,16 @@ mirka
 mirko
 mirna
 mirta
+mirto
 mirva
 mitja
+mitri
 mitzi
+moena
 mofid
 moh'd
 moica
+moira
 moise
 mojca
 monia
@@ -30492,6 +31325,7 @@ nabil
 nabor
 nadia
 nadio
+nadir
 nadja
 nadya
 nadyr
@@ -30506,8 +31340,10 @@ nanda
 nando
 nanni
 naomi
+nardo
 naria
 nario
+natia
 navio
 nedda
 neddo
@@ -30517,6 +31353,7 @@ nelda
 neldo
 nelia
 nelio
+nelli
 nelly
 nelsa
 nelso
@@ -30536,6 +31373,8 @@ nicco
 nicio
 nicla
 niclo
+nicol
+niego
 nieri
 niger
 nijmi
@@ -30545,37 +31384,48 @@ nilla
 nillo
 nilva
 nilvo
+ninni
 niria
 nisco
 nisio
+nivea
+niveo
 nives
 nivia
 nivio
 nizar
 noela
+noemi
+noria
 noris
 nuara
 nucia
 nucio
 odone
 older
-olier
+olivo
 olmar
 olmes
 onato
 oneto
+orano
 oreme
 oreno
 orfeo
+orino
 orles
 orsio
+oscar
 oskar
 osman
 osmar
 otmar
 ouday
 pablo
+palmo
 paola
+paolo
+pardo
 paris
 paula
 paulo
@@ -30587,19 +31437,26 @@ perna
 perry
 peter
 petia
+petra
 petro
+piera
+piero
 pilar
 pinky
 pippo
 pirmo
 pirro
 poalo
+probo
+promo
+proto
 radko
 raica
 ralfi
 ramis
 ramon
 ramzi
+ranco
 rando
 rante
 raoul
@@ -30609,12 +31466,14 @@ rayan
 reana
 reano
 redeo
+regio
 regis
 reldo
 relmi
 remis
 remus
 rene'
+renio
 renis
 rento
 renza
@@ -30630,14 +31489,22 @@ ricki
 riego
 rillo
 rineo
+riode
 river
 rober
+rocca
+rocco
+rodio
 roger
+roman
+romea
+romeo
 romer
 ronni
 ronny
 rooco
 rose'
+roseo
 rosio
 rovis
 ruben
@@ -30645,6 +31512,7 @@ rubes
 rucco
 ruddi
 rudio
+sabra
 sacha
 saele
 saida
@@ -30656,7 +31524,9 @@ sandi
 sandy
 sanio
 sanni
+sapia
 sarah
+sardo
 sarel
 sarha
 sario
@@ -30664,15 +31534,21 @@ sarka
 sasha
 saule
 saulo
-scott
+saura
+sauro
+savio
 segio
 selma
 selso
+senio
+serge
 serse
+sesti
 sevag
 sidio
 silga
 silia
+silio
 silke
 silla
 silma
@@ -30684,13 +31560,16 @@ singh
 siria
 sirio
 sirne
+sirte
 sisio
 siska
 sissy
 sisto
 sivio
+sofia
 sofio
 soili
+solio
 sonia
 sonja
 sonnj
@@ -30699,16 +31578,20 @@ sosio
 steno
 steve
 stift
+suada
 suela
 suely
 sunta
 suria
+sveno
+sveva
 taino
 taira
 tania
 tanja
 tanya
 tarif
+tarso
 tasio
 tazio
 tecla
@@ -30722,6 +31605,7 @@ teseo
 thilo
 tiana
 tijen
+tilde
 timmy
 titti
 tjasa
@@ -30733,11 +31617,16 @@ toni'
 tonia
 tonio
 tonya
+tosca
+tosco
 tulia
+tulio
 udino
 ugano
 ugino
 ulpio
+umbro
+urano
 urban
 vadis
 vagni
@@ -30752,8 +31641,11 @@ vanda
 vando
 vanel
 vanes
+vania
+vanio
 vanis
 vanna
+vanni
 vannj
 vanny
 varis
@@ -30764,23 +31656,33 @@ veber
 velda
 veleo
 veles
+velia
 velio
+venia
 venio
 venzo
 verio
 veris
+verna
 vesna
 vezio
 vicky
+viera
+vieri
+viero
 vigil
 vilda
 vilde
 vildo
+vilio
+villi
+villo
 villy
 vilma
 vilmo
 vilno
 vinno
+virga
 viria
 virio
 virna
@@ -30788,6 +31690,8 @@ virno
 visma
 vitus
 vladi
+volga
+vulgo
 wallj
 wally
 wanda
@@ -30803,6 +31707,7 @@ wilmo
 wilna
 wimer
 wirna
+xenia
 xenio
 yedda
 yenni
@@ -30822,12 +31727,15 @@ zevio
 zhara
 ziber
 zilio
+zilla
 zohre
+zoilo
 zonio
 zorro
 zuilo
 adan
 adar
+addo
 adel
 adeo
 adis
@@ -30836,16 +31744,20 @@ adua
 aduo
 adus
 aelo
+afra
+afro
 ageo
 agop
 aida
 aidi
 aido
 aimo
+aira
 ajda
 ajna
 akil
 alan
+albo
 alda
 aldo
 alen
@@ -30853,11 +31765,15 @@ ales
 alex
 alfo
 algo
+alia
 alis
+alma
+almo
 alve
 amer
 amor
 amos
+anco
 andy
 anio
 anja
@@ -30865,8 +31781,11 @@ anke
 anna
 anny
 anto
+ardi
+argo
 ari'
 arif
+ario
 aris
 arli
 arlo
@@ -30874,36 +31793,55 @@ arno
 arpo
 asio
 atos
+aude
+audo
 aulo
+aura
+auro
 avia
+avio
 avis
+axel
 azio
 azzo
 beba
 beno
 bice
+bona
+bono
+caio
 carl
 cati
 caty
 cino
 cira
+ciro
 cleo
 cles
 clio
 cona
+cora
 crlo
 dany
 davj
 dean
+deli
+demo
 deni
 deri
 dero
 desi
 desy
 devy
+dina
 dini
 dino
+diva
+divo
 diye
+dora
+dori
+doro
 duse
 eber
 edda
@@ -30911,6 +31849,7 @@ edde
 eddi
 eddo
 eddy
+eden
 eder
 edia
 edic
@@ -30921,20 +31860,27 @@ edmo
 edna
 efre
 efro
+egeo
 eggi
 egle
 egon
 egor
 eide
 elbo
+elci
 elda
 eldi
 eldo
 elga
+elia
+elio
 elis
 elly
 elma
+elmo
 eloy
+elsa
+elso
 elve
 elvi
 elvo
@@ -30945,13 +31891,17 @@ emer
 emia
 emil
 emma
+emmi
 emmo
 emmy
 endi
+enea
+eneo
 enia
 enio
 enis
 enni
+enno
 enny
 enos
 enri
@@ -30965,19 +31915,28 @@ eric
 erik
 erio
 eris
+erme
+ermo
 erna
+eros
+erto
 erus
 esia
+esto
 etty
 eude
 eudo
 eura
+euro
 evio
 ezia
 ezio
+fano
 febe
 febo
+fina
 gary
+gemi
 gems
 gera
 gerd
@@ -31000,9 +31959,12 @@ hugo
 iago
 iamo
 iana
+iano
 icli
+ideo
 ider
 idio
+idra
 iese
 ieso
 igea
@@ -31017,6 +31979,7 @@ iles
 ilia
 ilic
 ilik
+ilio
 ilja
 ilka
 illo
@@ -31032,10 +31995,14 @@ ines
 inge
 ingo
 ioan
+iole
+ione
+iosa
 iose
 irca
 iria
 irio
+iris
 irma
 irmo
 irva
@@ -31043,6 +32010,7 @@ iseo
 iser
 isio
 iuna
+iuri
 iury
 ivan
 iver
@@ -31053,6 +32021,7 @@ ivno
 ivon
 iwan
 jach
+jack
 jada
 jaia
 jana
@@ -31090,33 +32059,56 @@ ladi
 lala
 lamj
 lapo
+lara
+lari
 lars
+leda
 ledy
+lena
+leno
 leon
 leri
 lery
 leto
 liam
 lian
+lice
+lida
+lide
 lin0
+lina
+lino
+lisa
 livo
 lois
 lora
+lori
 lory
+luca
 lucy
+lugi
 luis
 lusi
 lydo
 maci
+maia
 maja
+mara
+marc
 mark
 mary
 mauo
+maya
+meri
 merj
 mery
 mido
 mike
+mila
 milo
+mima
+mimo
+mino
 mita
 mose
 mrio
@@ -31135,8 +32127,10 @@ nelo
 nely
 nemo
 nesi
+nevo
 nica
 nice
+nick
 nico
 nida
 niki
@@ -31144,14 +32138,20 @@ nikj
 niko
 nila
 nilo
+nina
+nino
 niny
 nita
 nivo
 noe'
 noel
+nona
 nony
+nora
 nori
+nuto
 oddo
+odra
 olao
 olav
 olga
@@ -31164,8 +32164,12 @@ onis
 orce
 oria
 orio
+para
 paul
+pepi
 pier
+pina
+piro
 pius
 rail
 raju
@@ -31173,8 +32177,12 @@ ralf
 rali
 raul
 raus
+redi
+redo
 remy
+reno
 resy
+reto
 riad
 rico
 riki
@@ -31182,39 +32190,56 @@ rina
 rino
 rira
 rita
+rivo
+robi
 robj
 roby
+roco
 roni
+rosi
 rosj
 rosy
+rota
 roul
+rudi
 rudj
 rudy
+rufo
 ruth
 saba
 said
 samo
 samy
+sara
+saro
 sasà
 saul
+savo
 sepl
 sepp
+sida
+simo
+sira
+siro
+sona
 suan
 suna
 susi
 susy
-sven
 taia
 talo
 tano
+teri
 tezo
 thea
 theo
 tima
+tina
 tito
 tonj
 tony
 tore
+toto
 uber
 ueli
 uigi
@@ -31223,8 +32248,11 @@ umer
 urio
 uros
 valy
+vico
+vito
 yari
 ygar
+yole
 yuna
 yuri
 yurj
@@ -31236,44 +32264,78 @@ zeno
 ziad
 zina
 zino
+zita
 zora
 aba
 ada
 ado
 ady
 aly
+ana
+ave
 awa
+bob
 bou
+deo
+ebe
 eda
 ede
 edi
 edo
 edy
 egi
+ego
 eli
+emi
 emo
 emy
 eno
+eva
+evi
+evo
 g b
+gay
 gea
 geo
 gim
 ian
 ida
+ido
+ilo
+ima
+imo
+ina
+ino
+iro
 isa
+iso
+iva
+ivo
 jan
 jim
 joe
 kay
 kim
+lao
+lea
+leo
 lew
 lia
 lio
+max
+meo
 mos
+noe
+odo
+ola
+ori
 oto
+rio
+roi
 roy
 ruk
 sem
+tea
 teo
 ube
 ugo

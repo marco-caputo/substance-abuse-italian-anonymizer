@@ -1,7 +1,7 @@
 from typing import List
 
 DICTIONARY_NAMES_TO_DISAMBIGUATE = ["cognomi", "comuni", "nazioni", "nomi", "regioni", "province"]
-ITALIAN_WORDS_FILE = 'dictionaries/parole_it.txt'
+ITALIAN_WORDS_FILE = 'dictionaries/parole_it_60k.txt'
 
 
 def load_wordlist(path: str, lower:bool = True) -> List[str]:

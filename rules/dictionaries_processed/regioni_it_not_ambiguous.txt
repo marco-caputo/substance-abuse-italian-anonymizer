@@ -11,5 +11,9 @@ sardegna
 abruzzo
 liguria
 sicilia
+toscana
 molise
+puglia
 umbria
+veneto
+lazio

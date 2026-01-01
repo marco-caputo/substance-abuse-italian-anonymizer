@@ -8868,7 +8868,6 @@ astronio
 astroni
 astrua
 astruc
-ast
 astuccioni
 astudillo
 astulfoni
@@ -20113,7 +20112,6 @@ blunno
 blunschi
 blunt
 blyth
-bn
 bna
 bnà
 bò
@@ -23730,8 +23728,6 @@ bozzotto
 bozzuffi
 bozzurra
 bozzuto
-bp
-br
 braak
 brabanti
 brabetz
@@ -31317,7 +31313,6 @@ caorlini
 caorsi
 caotti
 caovilla
-cap
 capa
 capaccetta
 capaccetti
@@ -37346,9 +37341,7 @@ ceyhan
 ceynar
 cezza
 cezzi
-cg
 cgil
-ch
 cha
 chaaba
 chaabane
@@ -42197,7 +42190,6 @@ cmet
 cnapich
 cnappi
 cnobloch
-co
 cò
 coa
 coacci
@@ -43946,7 +43938,6 @@ comucci
 comugnaro
 comugnero
 comunalazzi
-comune
 comunelli
 comunello
 comunetti
@@ -46037,8 +46028,6 @@ cozzupoli
 cozzuto
 cozzutti
 cozzutto
-cp
-cr
 craba
 crabai
 crabargiu
@@ -47116,7 +47105,6 @@ cruzat
 cruzzola
 cruzzolin
 crystal
-cs
 csakanyi
 csaklos
 csako
@@ -64667,8 +64655,6 @@ fozzati
 fozzato
 fozzer
 fozzi
-fp
-fr
 fra
 frà
 fraale
@@ -75806,7 +75792,6 @@ gozzolino
 gozzoni
 gpaolo
 gpg
-gr
 gra
 graaman
 graavina
@@ -129798,7 +129783,6 @@ pozzozengaro
 pozzulo
 pozzuto
 pozzy
-pr
 pra
 prà
 pracanica
@@ -137589,7 +137573,6 @@ rold
 roldan
 roldi
 roldo
-role
 rolè
 rolemi
 rolengo
@@ -148113,7 +148096,6 @@ sersali
 sersante
 sersanti
 serschen
-sert
 serta
 sertani
 sertic
@@ -157830,7 +157812,6 @@ teklemariam
 tekleyohannes
 teklu
 tekno
-tel
 telaide
 telan
 telandro
@@ -159619,7 +159600,6 @@ tlili
 tlustak
 tmbasow
 tnatni
-to
 toader
 toaff
 toaiar
@@ -162870,7 +162850,6 @@ trzcinska
 trzeciak
 trzos
 trzuskolas
-ts
 tsagkaraki
 tsai
 tsalikidou
@@ -169993,7 +169972,6 @@ vozzi
 vozzo
 vozzola
 vozzolo
-vr
 vrabec
 vrabie
 vrablec
