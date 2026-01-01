@@ -23,7 +23,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk
 
-from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES
+from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES, DEFAULT_EXTRA_PER_MATCHING
 from data_generation import ANONYMIZATION_LABELS
 from utils.anonymization_utils import save_anonymized_text, read_file, anonymize_doc
 from rules.rules import apply_rules
@@ -31,18 +31,20 @@ from rules.rules import apply_rules
 # ----------------------------
 #   Anonymization function
 # ----------------------------
-def anonymize(text: str, nlp: Language = None, entities: Iterable[str] = None) -> str:
+def anonymize(text: str, nlp: Language = None, entities: Iterable[str] = None, per_matching:bool = None) -> str:
     if nlp is None:
         nlp = spacy.load(DEFAULT_NER_MODEL)
     if entities is None:
         entities = DEFAULT_ENTITIES
-    return anonymize_doc(apply_rules(nlp(text)), entities)
+    if per_matching is None:
+        per_matching = DEFAULT_EXTRA_PER_MATCHING
+
+    return anonymize_doc(apply_rules(nlp(text), per_matching), entities)
 
 
-# ----------------------------
-#   Entity metadata (Italian)
-# ----------------------------
-# Note: we removed the examples column per your request.
+# --------------------
+#   Entity metadata
+# --------------------
 ENTITY_INFO = {
     "PATIENT": "Nomi di pazienti",
     "PER": "Persone (nomi e cognomi)",
@@ -131,8 +133,9 @@ class AnonymizerApp:
         # --- ENTITY TABLE FRAME (SCROLLABLE) ---
         entity_frame = ttk.LabelFrame(left_frame, text="2. Seleziona entità da anonimizzare")
         entity_frame.pack(fill="both", expand=True, padx=10, pady=6)
+        entity_frame.configure(height=200)
 
-        canvas = tk.Canvas(entity_frame)
+        canvas = tk.Canvas(entity_frame, height=200)
         scroll = ttk.Scrollbar(entity_frame, orient="vertical", command=canvas.yview)
         self.entity_inner = ttk.Frame(canvas)
 
@@ -175,6 +178,18 @@ class AnonymizerApp:
             ttk.Label(self.entity_inner, text=label).grid(row=r, column=1, sticky="w", padx=8, pady=6)
             desc = ENTITY_INFO.get(label, "")
             ttk.Label(self.entity_inner, text=desc, wraplength=740, justify="left").grid(row=r, column=2, sticky="w", padx=8, pady=6)
+
+        # --- Dictionary matching checkbox ---
+        dictionary_frame = ttk.Frame(left_frame)
+        dictionary_frame.pack(fill="x", padx=10, pady=(10, 0))
+
+        self.use_name_dictionary = tk.BooleanVar(value=DEFAULT_EXTRA_PER_MATCHING)
+
+        ttk.Checkbutton(
+            dictionary_frame,
+            text="Usa dizionario nomi e cognomi per anonimizzazione aggiuntiva",
+            variable=self.use_name_dictionary
+        ).pack(anchor="w", padx=4, pady=4)
 
         # --- OUTPUT DIRECTORY FRAME ---
         output_frame = ttk.LabelFrame(left_frame, text="3. Cartella di destinazione")
@@ -283,7 +298,7 @@ class AnonymizerApp:
                 self.root.after(0, lambda f=file_path: self.log(f"Saltato (vuoto): {f}"))
                 continue
 
-            anonymized = anonymize(text, entities=selected_entities)
+            anonymized = anonymize(text, entities=selected_entities, per_matching=self.use_name_dictionary.get())
             out_path = save_anonymized_text(
                 anonymized,
                 output_dir=self.output_dir,
