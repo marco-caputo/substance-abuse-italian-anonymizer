@@ -122,10 +122,6 @@
     "text": "Ieri ho completato due dei requisiti per il semestre. Mi sono sentito sollevato perché quei requisiti mi impedivano di scrivere la mia tesi di laurea magistrale in Medicina presso l'Università degli Studi di Zuglio. Mi sono anche sentito orgoglioso perché sono riuscito a svolgere i compiti con grande successo. Sono finalmente pronto per affrontare l'esame finale di questo semestre.",
     "entities": [
       {
-        "text": "Medicina",
-        "label": "WORKS_OF_ART"
-      },
-      {
         "text": "Università degli Studi di Zuglio",
         "label": "ORG"
       }
@@ -257,7 +253,7 @@
     ]
   },
   {
-    "text": "Ieri è stata una giornata negativa per la diverticolite, non riuscivo a mangiare e avevo molto dolore. Tuttavia, sono riuscito a funzionare nonostante tutto, e so che se avrò pazienza, il dolore alla fine passerà. Mi auguro solo che ci sia una soluzione più permanente. Devo andare dal dottor Roberto Modiano, il mio gastroenterologo, la settimana prossima per un controllo.",
+    "text": "Ieri è stata una giornata NEGATIVA per la diverticolite, non riuscivo a mangiare e avevo molto dolore. Tuttavia, sono riuscito a funzionare nonostante tutto, e so che se avrò pazienza, il dolore alla fine passerà. Mi auguro solo che ci sia una soluzione più permanente. Devo andare dal dottor Roberto Modiano, il mio gastroenterologo, la settimana prossima per un controllo.",
     "entities": [
       {
         "text": "Roberto Modiano",
@@ -356,7 +352,7 @@
     ]
   },
   {
-    "text": "Ieri ho lavorato su un modo per far vedere alla mia famiglia le mie foto private su Flickr senza dover registrarsi al sito. Ho scoperto che gli ospiti anonimi possono vedere le foto, ma non possono commentare. E i commenti sono la ragione principale per condividere le foto! Ho pensato di mostrare le immagini del viaggio a Canistro Inferiore, soprattutto quelle scattate al Ponte di Rialto. È stato molto frustrante.",
+    "text": "Ieri ho lavorato su un modo per far vedere alla mia famiglia le mie foto private su Flickr senza dover registrarsi al sito. Ho scoperto che gli ospiti anonimi possono vedere le foto, ma non possono commentare. E i commenti sono la ragione principale per condividere le foto! Ho pensato di MOSTRARE le immagini del viaggio a Canistro Inferiore, soprattutto quelle scattate al PONTE DI RIALTO. È stato MOLTO frustrante.",
     "entities": [
       {
         "text": "Flickr",
@@ -367,7 +363,7 @@
         "label": "GPE"
       },
       {
-        "text": "Ponte di Rialto",
+        "text": "PONTE DI RIALTO",
         "label": "FAC"
       }
     ]
@@ -496,36 +492,40 @@
     ]
   },
   {
-    "text": "Ieri sono passata da Subway mentre i miei vestiti erano nel asciugatrice alla lavanderia. Ho ordinato un panino di sei pollici con tonno, spinaci, pomodoro, jalapeno e cetrioli. È stato uno dei panini più buoni che abbia mangiato da tanto tempo e anche sano. Lo avevo mangiato prima anche in un'altra sede, quella vicino al centro commerciale 'Le Gru' a Cavino, dove vado spesso a fare shopping.",
+    "text": "Ieri sono passata da SUBWAY mentre i miei vestiti erano nel asciugatrice alla LAVANDERIA. Ho ordinato un panino di sei pollici con tonno, spinaci, pomodoro, jalapeno e cetrioli. È stato uno dei panini più buoni che abbia mangiato da tanto tempo e anche sano. Lo avevo mangiato prima anche in un'altra sede, quella vicino al centro commerciale 'LE GRU' a CAVINO, dove vado spesso a fare shopping.",
     "entities": [
       {
-        "text": "Subway",
+        "text": "SUBWAY",
         "label": "ORG"
       },
       {
-        "text": "Le Gru",
+        "text": "LE GRU",
         "label": "ORG"
       },
       {
-        "text": "Cavino",
+        "text": "CAVINO",
         "label": "GPE"
       }
     ]
   },
   {
-    "text": "Ieri ho guadagnato molto più di quanto mi aspettassi su Mturk, ben 23 dollari! Le ultime settimane sono state abbastanza difficili, non ci sono molti HITS, probabilmente per via delle prossime vacanze. I miei amici Massimo e Anna mi avevano parlato di quanto potessi guadagnare, ma non pensavo fosse così. Forse userò una parte dei soldi per una piccola vacanza a Vernagt a gennaio.",
+    "text": "Ieri ho guadagnato molto più di quanto mi aspettassi su Mturk, ben 23 dollari! Le ultime settimane sono state abbastanza difficili, non ci sono molti HITS, probabilmente per via delle prossime vacanze. I miei amici Massimo e ANNA mi avevano parlato di quanto potessi guadagnare, ma non pensavo fosse così. FORSE userò una parte dei soldi per una piccola vacanza a VERNAGT a gennaio.",
     "entities": [
       {
         "text": "Massimo",
         "label": "PER"
       },
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       },
       {
-        "text": "Vernagt",
+        "text": "VERNAGT",
         "label": "GPE"
+      },
+      {
+        "text": "gennaio",
+        "label": "DATE"
       }
     ]
   },
@@ -755,6 +755,10 @@
       {
         "text": "Michelangelo",
         "label": "PER"
+      },
+      {
+        "text": "10 anni",
+        "label": "AGE"
       },
       {
         "text": "La Trattoria di Nonna Rosa",
@@ -1333,7 +1337,7 @@
     ]
   },
   {
-    "text": "Il cibo che ho preparato era buono e mi ha reso felice, facendomi godere la giornata. Ho cucinato seguendo una ricetta del libro La Cucina Italiana di Pellegrino Artusi.",
+    "text": "Il cibo che ho PREPARATO era buono e mi ha reso felice, facendomi godere la giornata. Ho cucinato seguendo una ricetta del libro La Cucina Italiana di Pellegrino Artusi.",
     "entities": [
       {
         "text": "La Cucina Italiana",
@@ -1380,10 +1384,10 @@
     ]
   },
   {
-    "text": "Le piccole cose non importano. Bisogna essere grati per la persona che ti ama e che tu ami. Oggi, ad esempio, mi sono reso conto di quanto sia importante avere al mio fianco una persona come Angelica, che lavora al ospedale San Giovanni di Sassi.",
+    "text": "Le piccole cose non importano. Bisogna essere grati per la persona che ti ama e che tu ami. Oggi, ad ESEMPIO, mi sono RESO conto di quanto sia importante avere al mio fianco una persona come ANGELICA, che lavora al ospedale San Giovanni di Sassi.",
     "entities": [
       {
-        "text": "Angelica",
+        "text": "ANGELICA",
         "label": "PER"
       },
       {
@@ -1571,6 +1575,10 @@
       {
         "text": "Fiera del Lavoro di Tora E Piccilli",
         "label": "EVENT"
+      },
+      {
+        "text": "marzo",
+        "label": "DATE"
       }
     ]
   },
@@ -1593,10 +1601,10 @@
     ]
   },
   {
-    "text": "Mia moglie ha un cancro allo stadio 4 e fa la chemioterapia ogni 3 settimane. Nella seconda settimana dopo l'ultimo trattamento di chemioterapia, è lei stessa, in grado di cucinare. Così ieri per cena abbiamo avuto un buon pasto cucinato che era delizioso, dato che sa cucinare, e rappresentava anche un segno di normalità che stava tornando nella sua vita. Il dottor Marrone dell'Ospedale Gemelli ci ha detto che i progressi sono incoraggianti.",
+    "text": "Mia moglie ha un cancro allo stadio 4 e fa la chemioterapia OGNI 3 settimane. Nella seconda settimana dopo l'ultimo trattamento di CHEMIOTERAPIA, è lei stessa, in grado di cucinare. Così ieri per cena abbiamo avuto un buon pasto cucinato che era delizioso, dato che sa cucinare, e rappresentava anche un segno di normalità che stava tornando nella sua vita. Il dottor MARRONE dell'Ospedale Gemelli ci ha detto che i progressi sono incoraggianti.",
     "entities": [
       {
-        "text": "Marrone",
+        "text": "MARRONE",
         "label": "PER"
       },
       {
@@ -1824,10 +1832,6 @@
       {
         "text": "Vespri",
         "label": "WORKS_OF_ART"
-      },
-      {
-        "text": "Messa",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -1894,8 +1898,8 @@
         "label": "WORKS_OF_ART"
       },
       {
-        "text": "'Impressionismo e Modernità'",
-        "label": "WORKS_OF_ART"
+        "text": "Impressionismo e Modernità",
+        "label": "EVENT"
       },
       {
         "text": "Museo d'Arte Moderna",
@@ -1975,18 +1979,18 @@
     ]
   },
   {
-    "text": "I miei amici sono venuti a casa per provare per lo spettacolo ieri sera ed è stato meraviglioso. Hanno avuto l'opportunità di incontrare il nostro gatto, abbiamo mangiato degli snack e ci siamo divertiti a provare le battute e a fare le prove di scena. Era la prima volta che venivano a casa mia e sono stato orgoglioso di mostrare loro la mia casa. Alcuni di loro sono anche attori, come Toni che recita nel teatro 'Teatro Doglioni' di San Biagio Della Cima.",
+    "text": "I miei amici sono venuti a casa per provare per lo spettacolo ieri sera ed è stato meraviglioso. Hanno avuto l'opportunità di incontrare il nostro gatto, abbiamo mangiato degli snack e ci siamo divertiti a provare le battute e a fare le prove di scena. Era la prima volta che venivano a casa mia e sono stato ORGOGLIOSO di mostrare loro la mia casa. Alcuni di loro sono anche attori, come TONI che recita nel teatro 'TEATRO DOGLIONI' di SAN BIAGIO DELLA CIMA.",
     "entities": [
       {
-        "text": "Toni",
+        "text": "TONI",
         "label": "PER"
       },
       {
-        "text": "Teatro Doglioni",
+        "text": "TEATRO DOGLIONI",
         "label": "ORG"
       },
       {
-        "text": "San Biagio Della Cima",
+        "text": "SAN BIAGIO DELLA CIMA",
         "label": "GPE"
       }
     ]
@@ -2133,14 +2137,14 @@
     ]
   },
   {
-    "text": "La mia famiglia mi dà uno scopo e mi aiuta a distaccarmi dallo stress del lavoro e del mondo. I miei bambini, Sofia e Salvatore, la loro gioia, innocenza e goffaggine mi portano felicità. Ogni giorno mi sento fortunata ad avere una famiglia come la mia.",
+    "text": "La mia famiglia mi dà uno scopo e mi aiuta a distaccarmi dallo stress del lavoro e del mondo. I miei bambini, SOFIA e SALVATORE, la loro gioia, innocenza e goffaggine mi portano felicità. Ogni giorno mi sento fortunata ad avere una famiglia come la mia.",
     "entities": [
       {
-        "text": "Sofia",
+        "text": "SOFIA",
         "label": "PER"
       },
       {
-        "text": "Salvatore",
+        "text": "SALVATORE",
         "label": "PER"
       }
     ]
@@ -2245,6 +2249,10 @@
       {
         "text": "Nonio",
         "label": "GPE"
+      },
+      {
+        "text": "maggio",
+        "label": "DATE"
       }
     ]
   },
@@ -2254,6 +2262,10 @@
       {
         "text": "University of Florence",
         "label": "ORG"
+      },
+      {
+        "text": "maggio",
+        "label": "DATE"
       }
     ]
   },
@@ -2288,14 +2300,14 @@
     ]
   },
   {
-    "text": "Mio fratello e mio nipote, che ormai vedo di rado, sono venuti entrambi a giocare a basket con me in palestra. La mia macchina Fiat Panda è ferma da qualche settimana e sono rimasto molto in casa ultimamente. È stato davvero bello uscire e passare del tempo con la mia famiglia. Abbiamo parlato di tante cose diverse come il basket, la vita in Pennsylvania e il lavoro alla Ferrero. Mi sono sentito ricaricato dopo aver trascorso del tempo con loro.",
+    "text": "Mio fratello e mio nipote, che ormai vedo di rado, sono venuti entrambi a giocare a basket con me in palestra. La mia macchina Fiat Panda è ferma da qualche settimana e sono rimasto molto in casa ultimamente. È stato davvero bello uscire e passare del tempo con la mia famiglia. Abbiamo parlato di tante cose diverse come il basket, la vita in PENNSYLVANIA e il lavoro alla Ferrero. Mi SONO sentito ricaricato DOPO aver trascorso del tempo con loro.",
     "entities": [
       {
         "text": "Fiat Panda",
         "label": "PRODUCT"
       },
       {
-        "text": "Pennsylvania",
+        "text": "PENNSYLVANIA",
         "label": "GPE"
       },
       {
@@ -2673,7 +2685,7 @@
     ]
   },
   {
-    "text": "Sono stufa di mangiare cibo cattivo. È come se non ci fosse niente in cucina. La pappa di avena è stata ok, ma seguirla con tonno Rio Mare e maionese Calvé per il pranzo mi ha fatto sentire male. Poi dei sloppy joes per cena? Una combinazione troppo strana per me. Mi fa arrabbiare.",
+    "text": "Sono stufa di mangiare cibo cattivo. È come se non ci fosse niente in cucina. La pappa di avena è stata ok, ma seguirla con tonno Rio Mare e maionese Calvé per il pranzo mi ha fatto sentire male. Poi dei sloppy joes per cena? Una combinazione troppo STRANA per me. Mi fa arrabbiare.",
     "entities": [
       {
         "text": "Rio Mare",
@@ -2812,7 +2824,7 @@
     ]
   },
   {
-    "text": "Ieri ho lavorato da casa e non c'era molto da fare, così ho trascorso molto tempo giocando con la nostra piccola Eleanor di 16 mesi, mentre mia moglie Anna era al lavoro. Abbiamo letto libri e guardato un sacco di Paw Patrol. È stato molto divertente!",
+    "text": "Ieri ho lavorato da casa e non c'era molto da fare, così ho trascorso molto tempo giocando con la nostra piccola Eleanor di 16 mesi, mentre mia moglie Anna era al lavoro. Abbiamo LETTO libri e guardato un sacco di Paw Patrol. È stato molto divertente!",
     "entities": [
       {
         "text": "Eleanor",
@@ -3139,10 +3151,10 @@
     ]
   },
   {
-    "text": "Ieri sera sono andato a correre lungo il Ponte Garibaldi a Nasca, è stato un po' spaventoso perché ormai è buio quando torno dal lavoro. Ho fatto comunque due miglia e un quarto.",
+    "text": "Ieri sera sono andato a correre lungo il PONTE GARIBALDI a Nasca, è stato un po' spaventoso perché ormai è buio quando torno dal lavoro. Ho fatto comunque due miglia e un quarto.",
     "entities": [
       {
-        "text": "Ponte Garibaldi",
+        "text": "PONTE GARIBALDI",
         "label": "FAC"
       },
       {
@@ -3213,7 +3225,7 @@
     ]
   },
   {
-    "text": "Ieri ho visto un film che è stato così commovente e illuminante, 'Il padrino'. La storia era ben raccontata e mi sono sentito completamente soddisfatto di aver speso il mio tempo guardando quel meraviglioso film. È incredibile come un film possa raccontare così tanto della cultura italo-americana.",
+    "text": "Ieri ho visto un film che è stato così commovente e illuminante, 'Il padrino'. La storia era ben raccontata e mi sono sentito completamente soddisfatto di aver passato il mio tempo guardando quel meraviglioso film. È incredibile come un film possa raccontare così tanto della cultura italo-americana.",
     "entities": [
       {
         "text": "Il padrino",
@@ -3282,27 +3294,27 @@
     ]
   },
   {
-    "text": "Ero molto felice di uscire e godermi un po' di tempo libero dal lavoro, e sono riuscita a comprare alcune cose che aspettavo con entusiasmo per il mio hobby da collezionista. Ho trovato un modellino della Fiat 500 in un negozio di Selva Nel Frignano. È stato il momento clou della mia settimana finora.",
+    "text": "Ero molto felice di uscire e godermi un po' di tempo libero dal lavoro, e sono riuscita a comprare alcune cose che aspettavo con entusiasmo per il mio HOBBY da collezionista. Ho trovato un modellino della Fiat 500 in un negozio di SELVA NEL FRIGNANO. È stato il momento clou della mia settimana finora.",
     "entities": [
       {
         "text": "Fiat 500",
         "label": "PRODUCT"
       },
       {
-        "text": "Selva Nel Frignano",
+        "text": "SELVA NEL FRIGNANO",
         "label": "GPE"
       }
     ]
   },
   {
-    "text": "Ero molto contenta di fare così tanto esercizio ieri al Parco Sempione, dato che ultimamente ne avevo davvero fatto poca attività. Ho corso insieme a Damiano, che ha 35 anni, e mi ha motivata molto.",
+    "text": "Ero molto contenta di fare così tanto esercizio ieri al PARCO SEMPIONE, dato che ultimamente ne avevo davvero fatto poca attività. Ho corso insieme a DAMIANO, che ha 35 anni, e mi ha motivata molto.",
     "entities": [
       {
-        "text": "Parco Sempione",
+        "text": "PARCO SEMPIONE",
         "label": "LOC"
       },
       {
-        "text": "Damiano",
+        "text": "DAMIANO",
         "label": "PER"
       },
       {
@@ -3367,10 +3379,10 @@
     ]
   },
   {
-    "text": "Stavo eseguendo un programma ed è andato bene, così ho potuto completare la mia analisi. La mia collega Lilla mi ha aiutato con alcune parti complicate, soprattutto con l'analisi dei dati relativi al progetto dell'Università di Pisa.",
+    "text": "Stavo eseguendo un programma ed è andato bene, così ho potuto completare la mia analisi. La mia collega LILLA mi ha aiutato con alcune parti complicate, soprattutto con l'analisi dei dati relativi al progetto dell'Università di Pisa.",
     "entities": [
       {
-        "text": "Lilla",
+        "text": "LILLA",
         "label": "PER"
       },
       {
@@ -3380,14 +3392,14 @@
     ]
   },
   {
-    "text": "Ho letto, mi sono rilassata e ho guardato fuori dalla finestra. È stato bello trascorrere del tempo in pace da sola e osservare la natura e i colori dell'autunno. Ho deciso di fare una passeggiata nei giardini di Villa Borghese a St. Walburg/Ulten, dove mi sento sempre in armonia con il mondo.",
+    "text": "Ho letto, mi sono rilassata e ho guardato fuori dalla finestra. È stato bello trascorrere del tempo in pace da sola e osservare la natura e i colori dell'autunno. Ho deciso di fare una passeggiata nei giardini di VILLA BORGHESE a ST. WALBURG/ULTEN, dove mi sento sempre in armonia con il mondo.",
     "entities": [
       {
-        "text": "Villa Borghese",
+        "text": "VILLA BORGHESE",
         "label": "LOC"
       },
       {
-        "text": "St. Walburg/Ulten",
+        "text": "ST. WALBURG/ULTEN",
         "label": "GPE"
       }
     ]
@@ -3509,14 +3521,14 @@
     ]
   },
   {
-    "text": "Ero felice di passare del tempo con mia figlia Anna. È stata di grande aiuto mentre esaminavamo le scatole da disfare dopo il trasloco a San Leonardo. Mi ha aiutato molto con quello. Sono grato per il suo atteggiamento dolce.",
+    "text": "Ero felice di passare del tempo con mia figlia Anna. È stata di grande aiuto mentre esaminavamo le scatole da disfare dopo il trasloco a SAN LEONARDO. Mi ha aiutato molto con QUELLO. Sono grato per il suo atteggiamento dolce.",
     "entities": [
       {
         "text": "Anna",
         "label": "PER"
       },
       {
-        "text": "San Leonardo",
+        "text": "SAN LEONARDO",
         "label": "GPE"
       }
     ]
@@ -3809,8 +3821,12 @@
     "text": "Ho provato a realizzare qualcosa come parte di un hobby, ma ho fallito dopo ripetuti tentativi. Mi piacerebbe imparare a dipingere come il pittore italiano Caravaggio, che mi ispira tanto.",
     "entities": [
       {
+        "text": "italiano",
+        "label": "NORP"
+      },
+      {
         "text": "Caravaggio",
-        "label": "WORKS_OF_ART"
+        "label": "PER"
       }
     ]
   },
@@ -3860,12 +3876,20 @@
         "label": "PER"
       },
       {
+        "text": "quattro anni",
+        "label": "AGE"
+      },
+      {
         "text": "Abbie",
         "label": "PER"
       },
       {
-        "text": "Biblioteca Nazionale Centrale di Scapoli",
-        "label": "ORG"
+        "text": "Biblioteca Nazionale Centrale",
+        "label": "FAC"
+      },
+      {
+        "text": "Scapoli",
+        "label": "GPE"
       }
     ]
   },
@@ -4066,14 +4090,14 @@
     ]
   },
   {
-    "text": "Ho passato del tempo con mio figlio e il mio cane, un Labrador di nome Max, e siamo andati al parco per cani a Villa Borghese per un'ora. Ci siamo divertiti molto e abbiamo avuto delle belle conversazioni. È stata un'esperienza memorabile.",
+    "text": "Ho passato del tempo con mio figlio e il mio cane, un Labrador di nome MAX, e siamo andati al parco per cani a VILLA BORGHESE per UN'ORA. Ci siamo divertiti molto e abbiamo avuto delle belle conversazioni. È stata un'esperienza memorabile.",
     "entities": [
       {
-        "text": "Max",
+        "text": "MAX",
         "label": "PER"
       },
       {
-        "text": "Villa Borghese",
+        "text": "VILLA BORGHESE",
         "label": "LOC"
       }
     ]
@@ -4132,26 +4156,26 @@
     ]
   },
   {
-    "text": "Ieri ho trascorso molto tempo con mio marito, Gustavo, e mio figlio, Armando. Ho portato Armando in biblioteca e poi siamo andati a fare una merenda con le ciambelle. È stato un pomeriggio tranquillo e felice. Gustavo mi ha detto che la sua azienda, TecnoSolutions, sta lanciando un nuovo prodotto, e si è mostrato entusiasta. Mi ha fatto piacere vederlo così motivato.",
+    "text": "Ieri ho trascorso molto tempo con mio marito, GUSTAVO, e mio figlio, ARMANDO. Ho portato ARMANDO in biblioteca e poi siamo andati a fare una merenda con le ciambelle. È stato un pomeriggio tranquillo e felice. GUSTAVO mi ha detto che la sua azienda, TECNOSOLUTIONS, sta lanciando un nuovo prodotto, e si è mostrato entusiasta. Mi ha fatto piacere vederlo così motivato.",
     "entities": [
       {
-        "text": "Gustavo",
+        "text": "GUSTAVO",
         "label": "PER"
       },
       {
-        "text": "Armando",
+        "text": "ARMANDO",
         "label": "PER"
       },
       {
-        "text": "Armando",
+        "text": "ARMANDO",
         "label": "PER"
       },
       {
-        "text": "Gustavo",
+        "text": "GUSTAVO",
         "label": "PER"
       },
       {
-        "text": "TecnoSolutions",
+        "text": "TECNOSOLUTIONS",
         "label": "ORG"
       }
     ]
@@ -4191,36 +4215,36 @@
     ]
   },
   {
-    "text": "Ieri ho dormito perché sono stata malata e questo mi ha aiutato a superare la giornata. Il medico, Dott. Fabio Pincherle, mi ha detto di riposare e prendere le medicine prescritte. Mi sento un po' meglio oggi.",
+    "text": "Ieri ho dormito perché sono stata malata e questo mi ha aiutato a superare la giornata. Il medico, Dott. FABIO PINCHERLE, mi ha detto di riposare e prendere le medicine prescritte. Mi sento un po' meglio oggi.",
     "entities": [
       {
-        "text": "Fabio Pincherle",
+        "text": "FABIO PINCHERLE",
         "label": "PER"
       }
     ]
   },
   {
-    "text": "Ho visto il mio amante, Gianpietro, e abbiamo trascorso del tempo di qualità insieme. Abbiamo visitato il Museo d'Arte Contemporanea di Sexten. Ho apprezzato profondamente tutto ciò che abbiamo condiviso.",
+    "text": "Ho visto il mio amante, Gianpietro, e abbiamo trascorso del tempo di qualità insieme. Abbiamo visitato il MUSEO D'ARTE CONTEMPORANEA DI SEXTEN. Ho apprezzato profondamente tutto ciò che abbiamo condiviso.",
     "entities": [
       {
         "text": "Gianpietro",
         "label": "PER"
       },
       {
-        "text": "Museo d'Arte Contemporanea di Sexten",
+        "text": "MUSEO D'ARTE CONTEMPORANEA DI SEXTEN",
         "label": "ORG"
       }
     ]
   },
   {
-    "text": "Ho cantato a un funerale per una donna anziana, Pina Sagnelli, e, insieme al violinista, Romeo Brunelleschi, ho portato conforto alla sua famiglia.",
+    "text": "Ho cantato a un funerale per una donna anziana, PINA SAGNELLI, e, insieme al violinista, ROMEO BRUNELLESCHI, ho portato conforto alla sua famiglia.",
     "entities": [
       {
-        "text": "Pina Sagnelli",
+        "text": "PINA SAGNELLI",
         "label": "PER"
       },
       {
-        "text": "Romeo Brunelleschi",
+        "text": "ROMEO BRUNELLESCHI",
         "label": "PER"
       }
     ]
@@ -4617,14 +4641,14 @@
     ]
   },
   {
-    "text": "Mi piace essere in buona salute, mi rende davvero felice. Durante la visita al Policlinico Gemelli a Montefollonico ho capito quanto sia importante prendersi cura di sé.",
+    "text": "Mi piace essere in buona salute, mi rende davvero felice. Durante la visita al Policlinico Gemelli a MONTEFOLLONICO ho capito quanto sia importante prendersi cura di sé.",
     "entities": [
       {
         "text": "Policlinico Gemelli",
         "label": "FAC"
       },
       {
-        "text": "Montefollonico",
+        "text": "MONTEFOLLONICO",
         "label": "GPE"
       }
     ]
@@ -5013,10 +5037,10 @@
     ]
   },
   {
-    "text": "Ho dovuto riposare la gamba tutto il giorno perché ho la borsite al ginocchio. Il dottor Porzio dell'Ospedale San Carlo mi ha consigliato di non sforzarmi troppo. Quindi non ho potuto fare molto altro che rilassarmi. È stato tutto sommato ok, un po' noioso però. Il ginocchio sta migliorando.",
+    "text": "Ho dovuto riposare la gamba tutto il giorno perché ho la borsite al ginocchio. Il dottor PORZIO dell'Ospedale San Carlo mi ha consigliato di non sforzarmi troppo. Quindi non ho potuto fare molto altro che rilassarmi. È stato tutto sommato ok, un po' noioso però. Il ginocchio sta migliorando.",
     "entities": [
       {
-        "text": "Porzio",
+        "text": "PORZIO",
         "label": "PER"
       },
       {
@@ -5270,7 +5294,7 @@
     ]
   },
   {
-    "text": "Ho avuto amici a casa, cosa che mi ha fatto molto piacere, anche se ho avuto un po' di ansia sociale a riguardo. Abbiamo ascoltato insieme l'album 'Zooropa' degli U2 e ci siamo rilassati.",
+    "text": "Ho avuto amici a casa, COSA che mi ha fatto molto piacere, anche se ho avuto un po' di ansia sociale a riguardo. Abbiamo ascoltato insieme l'album 'Zooropa' degli U2 e ci siamo rilassati.",
     "entities": [
       {
         "text": "Zooropa",
@@ -5330,7 +5354,7 @@
     ]
   },
   {
-    "text": "Ho avuto una cena fantastica con la mia famiglia. Tutti erano di ottimo umore e hanno condiviso le loro novità e cosa sta succedendo nelle loro vite. Mio cugino Rocco mi ha raccontato che presto si trasferirà a Torretta per lavoro e mia sorella Federica mi ha detto che sta pensando di aprire un negozio di abbigliamento. È stato bello passare del tempo con loro. ",
+    "text": "Ho avuto una cena FANTASTICA con la mia famiglia. Tutti erano di ottimo umore e hanno condiviso le loro novità e cosa sta succedendo nelle loro vite. Mio cugino Rocco mi ha raccontato che presto si trasferirà a Torretta per LAVORO e mia sorella FEDERICA mi ha detto che sta pensando di aprire un negozio di abbigliamento. È stato bello passare del tempo con loro.",
     "entities": [
       {
         "text": "Rocco",
@@ -5341,25 +5365,25 @@
         "label": "GPE"
       },
       {
-        "text": "Federica",
+        "text": "FEDERICA",
         "label": "PER"
       }
     ]
   },
   {
-    "text": "Oggi ho avuto tanto lavoro. La mia giornata è stata interamente dedicata a scrivere rapporti e aggiornare i progetti. Nel pomeriggio, ho ricevuto una telefonata dal dottor Paolo Cicala, il mio medico, che mi ha aggiornato sui risultati degli esami del sangue. Fortunatamente, tutto è andato bene.",
+    "text": "Oggi ho AVUTO tanto lavoro. La mia giornata è stata interamente dedicata a scrivere rapporti e aggiornare i progetti. Nel pomeriggio, ho ricevuto una telefonata dal dottor PAOLO CICALA, il mio medico, che mi ha aggiornato sui risultati degli esami del sangue. Fortunatamente, tutto è andato bene.",
     "entities": [
       {
-        "text": "Paolo Cicala",
+        "text": "PAOLO CICALA",
         "label": "PER"
       }
     ]
   },
   {
-    "text": "Oggi ho avuto una giornata molto produttiva al lavoro e ho imparato anche una nuova abilità, il che è stato piacevole. Sono stata molto occupata per gran parte della giornata, senza quasi alcuna pausa, il che ha fatto passare la giornata più velocemente. Mi sento soddisfatta e realizzata, cosa che non succede spesso ultimamente, quindi alla fine della giornata è stata una buona giornata. Ho anche ricevuto un'email importante da parte di microsoft riguardo a una nuova collaborazione.",
+    "text": "Oggi ho avuto una giornata molto produttiva al lavoro e ho imparato anche una nuova abilità, il che è stato piacevole. Sono stata molto occupata per gran parte della giornata, senza quasi alcuna pausa, il che ha fatto passare la giornata più velocemente. Mi sento soddisfatta e realizzata, cosa che non succede spesso ultimamente, quindi alla fine della giornata è stata una buona giornata. Ho anche ricevuto un'email importante da parte di MICROSOFT riguardo a una nuova collaborazione.",
     "entities": [
       {
-        "text": "microsoft",
+        "text": "MICROSOFT",
         "label": "ORG"
       }
     ]
@@ -5602,14 +5626,14 @@
     ]
   },
   {
-    "text": "Sono riuscito a fare allenamento, è stato difficile, ma soddisfacente. È qualcosa che mi ero negato e finalmente l'ho fatto di nuovo alla palestra Virgin Active di Bivio Cava Manara. Sono grato e felice per questo.",
+    "text": "Sono riuscito a fare allenamento, è stato difficile, ma soddisfacente. È qualcosa che mi ero negato e finalmente l'ho fatto di nuovo alla palestra Virgin Active di BIVIO CAVA MANARA. Sono grato e felice per questo.",
     "entities": [
       {
         "text": "Virgin Active",
         "label": "ORG"
       },
       {
-        "text": "Bivio Cava Manara",
+        "text": "BIVIO CAVA MANARA",
         "label": "GPE"
       }
     ]
@@ -5662,10 +5686,10 @@
     ]
   },
   {
-    "text": "Ho passato la giornata con mia moglie Anna, ed è stato molto rigenerante godere della nostra compagnia al Parco Sempione di Roisan.",
+    "text": "Ho passato la giornata con mia moglie ANNA, ed è STATO molto rigenerante godere della nostra compagnia al Parco Sempione di ROISAN.",
     "entities": [
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       },
       {
@@ -5673,7 +5697,7 @@
         "label": "LOC"
       },
       {
-        "text": "Roisan",
+        "text": "ROISAN",
         "label": "GPE"
       }
     ]
@@ -5725,14 +5749,14 @@
     ]
   },
   {
-    "text": "Ho riposato un po' e questo mi ha ricaricato dopo una giornata faticosa e fastidiosa. È stato un bel passo avanti, soprattutto dopo la visita al Policlinico Gemelli di Cerneglons per un controllo di routine.",
+    "text": "Ho riposato un po' e questo mi ha ricaricato dopo una giornata faticosa e fastidiosa. È stato un bel passo avanti, soprattutto dopo la visita al Policlinico Gemelli di CERNEGLONS per un controllo di routine.",
     "entities": [
       {
         "text": "Policlinico Gemelli",
         "label": "FAC"
       },
       {
-        "text": "Cerneglons",
+        "text": "CERNEGLONS",
         "label": "GPE"
       }
     ]
@@ -6378,6 +6402,10 @@
         "label": "PER"
       },
       {
+        "text": "12 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Psicologi Insieme",
         "label": "ORG"
       }
@@ -6437,6 +6465,10 @@
       {
         "text": "Seattle",
         "label": "GPE"
+      },
+      {
+        "text": "settembre",
+        "label": "DATE"
       }
     ]
   },
@@ -6492,10 +6524,10 @@
     ]
   },
   {
-    "text": "Oggi ho raggiunto molti obiettivi al lavoro presso l'ospedale San Raffaele, e, in generale, mi ha fatto rispettare il mio lavoro e ciò che facciamo.",
+    "text": "Oggi ho raggiunto molti obiettivi al lavoro presso l'ospedale SAN RAFFAELE, e, in generale, mi ha fatto rispettare il mio lavoro e ciò che facciamo.",
     "entities": [
       {
-        "text": "San Raffaele",
+        "text": "SAN RAFFAELE",
         "label": "FAC"
       }
     ]
@@ -6562,7 +6594,7 @@
     ]
   },
   {
-    "text": "Ho passato la serata con la mia famiglia. Abbiamo semplicemente chiacchierato e parlato delle nostre giornate (lavoro e scuola). Mia sorella, Chiara, mi ha raccontato del suo nuovo lavoro all'ospedale Bambino Gesù di Roburent, dove ha iniziato da poco come infermiera.",
+    "text": "Ho passato la serata con la mia famiglia. ABBIAMO semplicemente chiacchierato e parlato delle nostre giornate (lavoro e scuola). Mia sorella, Chiara, mi ha raccontato del suo nuovo lavoro all'ospedale Bambino Gesù di Roburent, DOVE ha iniziato da poco come infermiera.",
     "entities": [
       {
         "text": "Chiara",
@@ -6595,16 +6627,8 @@
     "text": "Dio dipinge i mattini più belli. L’alba è splendida e il paesaggio autunnale è mozzafiato. Stamattina, guardando il sole sorgere sul Lago di Como, ho sentito la presenza di Dio.",
     "entities": [
       {
-        "text": "Dio",
-        "label": "NORP"
-      },
-      {
         "text": "Lago di Como",
         "label": "LOC"
-      },
-      {
-        "text": "Dio",
-        "label": "NORP"
       }
     ]
   },
@@ -6758,22 +6782,22 @@
     ]
   },
   {
-    "text": "Ho continuato con gli esercizi di fisioterapia dopo l'incoraggiamento di mia figlia. È meraviglioso avere una figlia che si prende così tanto cura di me. Patrizia, la mia fisioterapista, mi ha consigliato di fare questi esercizi ogni giorno. È incredibile come mi senta meglio ogni volta. Mia figlia, Sofia, ha anche deciso di accompagnarmi alla clinica Salus a San Pietro Clarenza per aiutarmi a fare i trattamenti.",
+    "text": "Ho continuato con gli esercizi di fisioterapia dopo l'incoraggiamento di mia figlia. È meraviglioso avere una figlia che si prende così tanto cura di me. Patrizia, la mia fisioterapista, mi ha consigliato di fare questi esercizi ogni giorno. È incredibile come mi senta meglio ogni volta. Mia figlia, SOFIA, ha anche deciso di accompagnarmi alla clinica SALUS a SAN PIETRO CLARENZA per aiutarmi a fare i trattamenti.",
     "entities": [
       {
         "text": "Patrizia",
         "label": "PER"
       },
       {
-        "text": "Sofia",
+        "text": "SOFIA",
         "label": "PER"
       },
       {
-        "text": "Salus",
+        "text": "SALUS",
         "label": "ORG"
       },
       {
-        "text": "San Pietro Clarenza",
+        "text": "SAN PIETRO CLARENZA",
         "label": "GPE"
       }
     ]
@@ -6819,6 +6843,10 @@
   {
     "text": "Giornata cupa, fredda e nevosa, penso di avere il disturbo affettivo stagionale. Ho passato troppo tempo su internet leggendo articoli a caso e facendo lavori su mturk, invece di iniziare la giornata leggendo la Bibbia, pregando e scrivendo sul diario. Alla fine però l’ansia mi ha spinto a motivarmi e l’ho fatto nel pomeriggio, oltre a lavorare sullo studio biblico che insegnerò alla chiesa di San Giuseppe la prossima settimana. Questo mi ha tirato su di morale e mi ha fatto sentire di aver fatto qualcosa di buono per me stesso e per la mia piccola nicchia nel mondo.",
     "entities": [
+      {
+        "text": "mturk",
+        "label": "ORG"
+      },
       {
         "text": "San Giuseppe",
         "label": "FAC"
@@ -6906,6 +6934,10 @@
   {
     "text": "Per tutta la giornata, ho lottato con crampi mestruali e sanguinamento eccessivo. È il mio primo ciclo dopo 10 mesi. Mi sono sentita malissimo durante il giorno e non facevo altro che pensare a questo. Vampate di calore, crampi e dover cambiare l'assorbente ogni ora circa. Ho pensato di prenotare una visita al Policlinico di San Martino Spino.",
     "entities": [
+      {
+        "text": "10 mesi",
+        "label": "AGE"
+      },
       {
         "text": "Policlinico di San Martino Spino",
         "label": "FAC"
@@ -7019,10 +7051,6 @@
   {
     "text": "Adoro cucinare. Sono davvero brava e mi aiuta a non spendere troppo per il cibo tutto il tempo. Ultimamente ho provato una ricetta di Lasagna alla Bolognese che ho visto nel libro 'La Cucina Italiana' e mi è venuta benissimo.",
     "entities": [
-      {
-        "text": "Lasagna alla Bolognese",
-        "label": "WORKS_OF_ART"
-      },
       {
         "text": "La Cucina Italiana",
         "label": "WORKS_OF_ART"
@@ -7234,7 +7262,7 @@
     ]
   },
   {
-    "text": "Il webcast in diretta del MOOC di Stanford University è stato fantastico ieri sera. Ho avuto degli ottimi spunti per la mia scrittura.",
+    "text": "Il webcast in DIRETTA del MOOC di Stanford University è stato fantastico ieri sera. Ho avuto DEGLI ottimi spunti per la mia scrittura.",
     "entities": [
       {
         "text": "MOOC",
@@ -7558,7 +7586,7 @@
     ]
   },
   {
-    "text": "La seconda cosa più importante di ieri è stata come mi sono rilassato dopo il lavoro facendo una lunga camminata fino a casa. Dal mio posto di lavoro a casa ci sono circa otto chilometri e ieri ho deciso di farli a piedi perché trovo che camminare sia molto rilassante e mi dia energia. Mi ha rallegrato e mi ha fatto sentire più motivato a continuare. Ho apprezzato la stanchezza che ho sentito quando finalmente sono arrivato a casa e ho potuto rilassarmi guardando la TV per tutta la sera. La sera ho visto anche il film 'La vita è bella', un'opera che mi fa sempre riflettere.",
+    "text": "La seconda cosa più importante di ieri è stata come mi sono rilassato dopo il lavoro facendo una lunga camminata fino a casa. Dal mio posto di lavoro a casa ci sono circa otto chilometri e ieri ho deciso di farli a piedi PERCHÉ trovo che camminare sia molto rilassante e mi dia energia. Mi ha rallegrato e mi ha fatto sentire più motivato a continuare. Ho apprezzato la stanchezza che ho sentito quando finalmente sono arrivato a casa e ho potuto rilassarmi guardando la TV per tutta la sera. La sera ho visto anche il film 'La vita è bella', un'opera che mi fa sempre riflettere.",
     "entities": [
       {
         "text": "La vita è bella",
@@ -7727,6 +7755,10 @@
       {
         "text": "Cortina d'Ampezzo",
         "label": "GPE"
+      },
+      {
+        "text": "dicembre",
+        "label": "DATE"
       }
     ]
   },
@@ -7757,14 +7789,14 @@
     ]
   },
   {
-    "text": "È stato bello guardare un film con mio marito, Luchino, dopo che era stato via per un viaggio a Madrid. Abbiamo visto 'La grande bellezza' e ci siamo emozionati insieme.",
+    "text": "È stato bello guardare un film con mio marito, Luchino, dopo che era stato via per un viaggio a MADRID. Abbiamo visto 'La grande bellezza' e ci siamo emozionati insieme.",
     "entities": [
       {
         "text": "Luchino",
         "label": "PER"
       },
       {
-        "text": "Madrid",
+        "text": "MADRID",
         "label": "GPE"
       },
       {
@@ -7787,14 +7819,10 @@
     ]
   },
   {
-    "text": "Oggi avevo davvero voglia di fare l'amore con il mio ragazzo, Ottavio, ma non era dell'umore. La storia della mia vita! Forse è stato lo stress del lavoro alla Banca Intesa.",
+    "text": "Oggi avevo davvero voglia di fare l'amore con il mio ragazzo, OTTAVIO, ma non era dell'umore. La storia della mia vita! Forse è stato lo stress del lavoro alla Banca Intesa.",
     "entities": [
       {
-        "text": "mio ragazzo",
-        "label": "PER"
-      },
-      {
-        "text": "Ottavio",
+        "text": "OTTAVIO",
         "label": "PER"
       },
       {
@@ -8076,10 +8104,6 @@
         "label": "LOC"
       },
       {
-        "text": "tedesco",
-        "label": "PRODUCT"
-      },
-      {
         "text": "Rocky",
         "label": "PER"
       }
@@ -8238,6 +8262,10 @@
       {
         "text": "Maratona di Fiacchini",
         "label": "EVENT"
+      },
+      {
+        "text": "ottobre",
+        "label": "DATE"
       }
     ]
   },
@@ -8406,7 +8434,7 @@
     ]
   },
   {
-    "text": "La mia salute è stata buona rispetto a quei giorni in cui ero spesso malata, e ne sono felice. Fortunatamente, non ho dovuto andare all'ospedale San Giovanni di Golfo Aranci, dove avevo fatto le visite negli ultimi mesi.",
+    "text": "La mia salute è stata buona rispetto a quei giorni in cui ero spesso malata, e ne SONO felice. Fortunatamente, non ho dovuto andare all'ospedale San Giovanni di Golfo Aranci, dove avevo fatto le visite negli ultimi mesi.",
     "entities": [
       {
         "text": "San Giovanni",
@@ -8689,7 +8717,7 @@
     "entities": [
       {
         "text": "Gesù",
-        "label": "WORKS_OF_ART"
+        "label": "PER"
       }
     ]
   },
@@ -8792,6 +8820,10 @@
         "label": "PER"
       },
       {
+        "text": "giugno",
+        "label": "DATE"
+      },
+      {
         "text": "Toscana",
         "label": "GPE"
       }
@@ -8820,6 +8852,10 @@
       {
         "text": "Parigi",
         "label": "GPE"
+      },
+      {
+        "text": "settembre",
+        "label": "DATE"
       }
     ]
   },
@@ -8969,10 +9005,10 @@
     ]
   },
   {
-    "text": "Ieri è andata piuttosto bene con la mia famiglia. Mia moglie ha preparato una cena deliziosa e, essendo una giornata piovosa, quel pasto caldo mi ha fatto sentire amato. I miei figli Mirco e Greca sono stati gentili e abbiamo passato una bella serata guardando la televisione fino all'ora di dormire. Abbiamo visto il film La vita è bella di Roberto Benigni.",
+    "text": "Ieri è andata piuttosto bene con la mia famiglia. Mia moglie ha preparato una cena deliziosa e, essendo una giornata piovosa, quel pasto caldo mi ha fatto sentire amato. I miei figli MIRCO e Greca sono stati gentili e abbiamo PASSATO una bella serata guardando la televisione fino all'ora di dormire. Abbiamo visto il film La vita è bella di ROBERTO BENIGNI.",
     "entities": [
       {
-        "text": "Mirco",
+        "text": "MIRCO",
         "label": "PER"
       },
       {
@@ -8984,7 +9020,7 @@
         "label": "WORKS_OF_ART"
       },
       {
-        "text": "Roberto Benigni",
+        "text": "ROBERTO BENIGNI",
         "label": "PER"
       }
     ]
@@ -9007,14 +9043,14 @@
     ]
   },
   {
-    "text": "Ho fatto esercizio e mi è sembrato normale rientrare nella mia routine al Parco Sempione di San Polo D'Enza. È noioso ma mi sento più calmo e meno stressato, soprattutto dopo aver ascoltato la canzone 'Volare' di Domenico Modugno.",
+    "text": "Ho fatto esercizio e mi è sembrato normale rientrare nella mia routine al PARCO SEMPIONE di San Polo D'ENZA. È noioso ma mi sento più calmo e meno stressato, soprattutto dopo AVER ascoltato la canzone 'Volare' di Domenico Modugno.",
     "entities": [
       {
-        "text": "Parco Sempione",
+        "text": "PARCO SEMPIONE",
         "label": "LOC"
       },
       {
-        "text": "San Polo D'Enza",
+        "text": "San Polo D'ENZA",
         "label": "GPE"
       },
       {
@@ -9139,14 +9175,14 @@
     ]
   },
   {
-    "text": "Ho portato il cane a fare una bella passeggiata nei boschi del Parco Nazionale d'Abruzzo. Dopo aver avuto una distorsione alla caviglia tutta l'estate, è fantastico tornare in forma e respirare l'aria fresca dell'Italia centrale.",
+    "text": "Ho portato il cane a fare una bella passeggiata nei boschi del PARCO NAZIONALE D'ABRUZZO. Dopo aver avuto una distorsione alla caviglia tutta l'estate, è fantastico tornare in forma e respirare l'aria fresca dell'ITALIA centrale.",
     "entities": [
       {
-        "text": "Parco Nazionale d'Abruzzo",
+        "text": "PARCO NAZIONALE D'ABRUZZO",
         "label": "LOC"
       },
       {
-        "text": "Italia",
+        "text": "ITALIA",
         "label": "GPE"
       }
     ]
@@ -9294,14 +9330,14 @@
     ]
   },
   {
-    "text": "I bambini non volevano sistemarsi e fare i compiti. Continuavano a litigare tra loro. Si sono calmati solo per lamentarsi della cena. Che in realtà non cucino mai. La cena che mi ha preparato Milena, la nostra cuoca, era davvero deliziosa. Poi abbiamo parlato della prossima visita che faremo al Museo Nazionale di Borgo Loreto, dove abbiamo deciso di andare il 15 dicembre.",
+    "text": "I bambini non volevano sistemarsi e fare i compiti. Continuavano a litigare tra loro. Si sono calmati solo per lamentarsi della cena. Che in realtà non cucino mai. La cena che mi ha preparato MILENA, la nostra cuoca, era davvero deliziosa. Poi abbiamo parlato della prossima visita che faremo al MUSEO NAZIONALE DI BORGO LORETO, dove abbiamo deciso di andare il 15 dicembre.",
     "entities": [
       {
-        "text": "Milena",
+        "text": "MILENA",
         "label": "PER"
       },
       {
-        "text": "Museo Nazionale di Borgo Loreto",
+        "text": "MUSEO NAZIONALE DI BORGO LORETO",
         "label": "ORG"
       },
       {
@@ -9397,7 +9433,7 @@
     ]
   },
   {
-    "text": "Ero entusiasta, frustrata e soddisfatta del mio allenamento al Centro Sportivo San Siro. Ero entusiasta di aver seguito la mia routine quotidiana e raggiunto i miei obiettivi. È stato frustrante perdere il fiato a volte, però nel complesso la soddisfazione di averlo completato è stata grande.",
+    "text": "Ero ENTUSIASTA, frustrata e soddisfatta del mio allenamento al Centro Sportivo San Siro. Ero entusiasta di aver seguito la mia routine quotidiana e raggiunto i miei obiettivi. È stato frustrante perdere il fiato a VOLTE, però nel complesso la soddisfazione di averlo completato è stata grande.",
     "entities": [
       {
         "text": "Sportivo San Siro",
@@ -9525,7 +9561,7 @@
     "entities": [
       {
         "text": "Beethoven",
-        "label": "WORKS_OF_ART"
+        "label": "PER"
       }
     ]
   },
@@ -9673,14 +9709,14 @@
     ]
   },
   {
-    "text": "Mia moglie prepara dei piatti fantastici per tutti e tre i pasti, spesso usando ingredienti freschi comprati al supermercato Coop di carpenedo.",
+    "text": "Mia moglie PREPARA dei piatti fantastici per tutti e tre i pasti, spesso usando ingredienti freschi comprati al supermercato Coop di CARPENEDO.",
     "entities": [
       {
         "text": "Coop",
         "label": "ORG"
       },
       {
-        "text": "carpenedo",
+        "text": "CARPENEDO",
         "label": "GPE"
       }
     ]
@@ -9764,10 +9800,6 @@
       {
         "text": "Giovanni Endrizzi",
         "label": "PER"
-      },
-      {
-        "text": "neurologo",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -9824,10 +9856,10 @@
     ]
   },
   {
-    "text": "Stavo cercando di vendere alcune cose e finalmente ieri sono riuscita a venderne qualcuna al mercatino dell'usato di Porta Portese. Parlavo con quella persona da un po' di tempo, quindi ero contenta che tutto si sistemasse: volevo guadagnare e liberarmi di alcune cose, così ho fatto due cose in una volta sola.",
+    "text": "Stavo cercando di vendere alcune cose e finalmente ieri sono riuscita a venderne qualcuna al MERCATINO DELL'USATO DI PORTA PORTESE. Parlavo con quella persona da un po' di tempo, quindi ero contenta che tutto si sistemasse: volevo guadagnare e liberarmi di alcune cose, così ho fatto due cose in una volta sola.",
     "entities": [
       {
-        "text": "mercatino dell'usato di Porta Portese",
+        "text": "MERCATINO DELL'USATO DI PORTA PORTESE",
         "label": "ORG"
       }
     ]
@@ -10078,7 +10110,7 @@
     "entities": []
   },
   {
-    "text": "Sono riuscita a fare una videochiamata con mia sorella e ho visto che ieri ha avuto una bambina. È stato emozionante vedere finalmente mia nipote, zuri. Non vedo l'ora di fare un viaggio in Colorado per incontrarla di persona.",
+    "text": "Sono riuscita a fare una videochiamata con mia sorella e ho visto che ieri ha avuto una bambina. È stato emozionante vedere finalmente mia nipote, zuri. Non vedo l'ora di fare un viaggio in Colorado per incontrarla di PERSONA.",
     "entities": [
       {
         "text": "zuri",
@@ -10108,10 +10140,10 @@
     "entities": []
   },
   {
-    "text": "Uno dei miei cari amici, Michelotto, sta lottando contro la dipendenza dall'alcol. Parlo con lui ogni giorno per aiutarlo e indirizzarlo sulla strada giusta. A volte ricade e questo è frustrante. La settimana scorsa lo ho accompagnato al Centro San Raffaele di Roccamonfina per un colloquio.",
+    "text": "Uno dei miei cari amici, MICHELOTTO, sta lottando contro la dipendenza dall'alcol. Parlo con lui ogni giorno per aiutarlo e indirizzarlo sulla STRADA giusta. A volte ricade e questo è frustrante. La settimana scorsa lo ho accompagnato al Centro San Raffaele di Roccamonfina per un colloquio.",
     "entities": [
       {
-        "text": "Michelotto",
+        "text": "MICHELOTTO",
         "label": "PER"
       },
       {
@@ -10728,7 +10760,7 @@
     ]
   },
   {
-    "text": "Ho fatto un bel lungo allenamento in palestra che comprendeva vasche di nuoto, ellittica e pesi. È stato un momento speciale perché dopo mi sono sentita piena di energia e felice. Sono stata orgogliosa di me stessa per aver fatto un buon allenamento alla palestra Virgin Active di Luco Mugello.",
+    "text": "Ho fatto un bel lungo allenamento in palestra che comprendeva vasche di nuoto, ELLITTICA e pesi. È stato un momento speciale perché dopo mi sono sentita piena di energia e felice. Sono stata orgogliosa di me stessa per aver fatto un buon allenamento alla palestra Virgin Active di Luco Mugello.",
     "entities": [
       {
         "text": "Virgin Active",
@@ -10771,10 +10803,10 @@
     ]
   },
   {
-    "text": "Ieri c'è stata una breve festa di compleanno per mia nipote, Sofia, a casa dei miei genitori. È andata abbastanza bene e lei si è divertita. Avrei voluto godermi di più quel momento, ma ero concentrato sul lavoro e sui problemi che ho avuto durante la giornata. Il party si è svolto a Camandona, nella nostra vecchia casa.",
+    "text": "Ieri c'è stata una BREVE festa di compleanno per mia nipote, SOFIA, a casa dei miei genitori. È andata abbastanza bene e lei si è divertita. Avrei voluto godermi di più quel momento, ma ero concentrato sul lavoro e sui problemi che ho avuto durante la giornata. Il party si è svolto a Camandona, nella nostra vecchia casa.",
     "entities": [
       {
-        "text": "Sofia",
+        "text": "SOFIA",
         "label": "PER"
       },
       {
@@ -10820,10 +10852,6 @@
   {
     "text": "Ieri ho passato circa un'ora a leggere articoli e guardare video su argomenti legati alla nutrizione. Ero particolarmente interessato ad approfondire la classificazione degli alimenti, FODMAP. Finalmente ho iniziato a capire questa classificazione. Sono davvero contento che stia diventando più facile per me comprendere questo concetto così importante. Ho letto anche un articolo su un nuovo studio condotto dall'Università di Vieyes.",
     "entities": [
-      {
-        "text": "FODMAP",
-        "label": "WORKS_OF_ART"
-      },
       {
         "text": "Università di Vieyes",
         "label": "ORG"
@@ -10939,27 +10967,27 @@
     ]
   },
   {
-    "text": "Sono così emozionata di sapere che mi manca solo un semestre prima di laurearmi con una laurea triennale in Biologia all'Università di Lisciano Di Colloto. Ho fatto molta strada e lavorato tanto. Questo non sarà la fine della mia formazione, poiché non vedo l'ora di frequentare la scuola di specializzazione presso l'Ospedale San Raffaele di San Nicola La Strada.",
+    "text": "Sono così emozionata di sapere che mi manca solo un semestre prima di laurearmi con una laurea triennale in Biologia all'Università di Lisciano Di Colloto. Ho fatto molta strada e lavorato tanto. Questo non sarà la fine della mia formazione, poiché non vedo l'ora di frequentare la scuola di specializzazione presso l'Ospedale SAN RAFFAELE di SAN NICOLA LA STRADA.",
     "entities": [
       {
         "text": "Università di Lisciano Di Colloto",
         "label": "ORG"
       },
       {
-        "text": "San Raffaele",
+        "text": "SAN RAFFAELE",
         "label": "FAC"
       },
       {
-        "text": "San Nicola La Strada",
+        "text": "SAN NICOLA LA STRADA",
         "label": "GPE"
       }
     ]
   },
   {
-    "text": "Ho preso un menu combo da Five Guys a Benna. Era delizioso. Le cipolle, il sapore di arachidi nelle patatine, mi è piaciuto molto. Mi ha fatto ricordare i tempi semplici dei miei anni universitari quando leggevo spesso Il Nome della Rosa.",
+    "text": "Ho preso un menu combo da FIVE GUYS a Benna. Era delizioso. Le cipolle, il sapore di arachidi nelle patatine, mi è piaciuto molto. Mi ha fatto ricordare i tempi semplici dei miei anni universitari quando leggevo spesso Il Nome della Rosa.",
     "entities": [
       {
-        "text": "Five Guys",
+        "text": "FIVE GUYS",
         "label": "ORG"
       },
       {
@@ -10982,14 +11010,14 @@
     ]
   },
   {
-    "text": "Ho avuto una breve ma piacevole conversazione con mio marito Santino mentre guardavamo un po' di TV insieme. È bello iniziare la giornata parlando con lui, mi mette di buon umore per tutto il giorno e rende la giornata migliore. Abbiamo anche discusso del nostro prossimo viaggio a Lioni.",
+    "text": "Ho avuto una breve ma piacevole conversazione con mio marito SANTINO mentre guardavamo un po' di TV insieme. È bello iniziare la giornata parlando con lui, mi mette di buon umore per tutto il giorno e rende la GIORNATA migliore. Abbiamo anche discusso del nostro prossimo viaggio a LIONI.",
     "entities": [
       {
-        "text": "Santino",
+        "text": "SANTINO",
         "label": "PER"
       },
       {
-        "text": "Lioni",
+        "text": "LIONI",
         "label": "GPE"
       }
     ]
@@ -11092,7 +11120,7 @@
     ]
   },
   {
-    "text": "Oggi ho fatto esercizio sulla mia macchina ellittica Technogym. È stato entusiasmante perché sono andato più veloce e più lontano rispetto alla mia media. Penso di stare diventando più in forma, soprattutto dopo aver corso la Maratona di Urbino lo scorso aprile.",
+    "text": "Oggi ho fatto esercizio SULLA mia macchina ellittica Technogym. È stato entusiasmante perché sono andato più veloce e più lontano rispetto alla mia media. Penso di stare diventando più in forma, soprattutto dopo aver corso la Maratona di Urbino lo scorso aprile.",
     "entities": [
       {
         "text": "Technogym",
@@ -11101,11 +11129,15 @@
       {
         "text": "Maratona di Urbino",
         "label": "EVENT"
+      },
+      {
+        "text": "aprile",
+        "label": "DATE"
       }
     ]
   },
   {
-    "text": "Ho appena avuto una giornata molto intensa in cui ho lavorato senza sosta fino alla sera. Mi ha fatto sentire ansiosa perché avevo la sensazione di avere troppe cose da fare. Ho anche avuto una chiamata da Dottor Bombieri, il mio medico di fiducia presso l'Ospedale San Giovanni, che mi ha dato alcuni consigli su come gestire meglio lo stress.",
+    "text": "Ho appena avuto una giornata molto intensa in cui ho lavorato senza sosta fino alla sera. Mi ha fatto sentire ansiosa perché avevo la sensazione di avere troppe cose da fare. Ho anche avuto una chiamata da Dottor Bombieri, il mio medico di fiducia presso l'Ospedale San Giovanni, che mi ha dato ALCUNI consigli su come gestire meglio lo stress.",
     "entities": [
       {
         "text": "Bombieri",
@@ -11186,10 +11218,6 @@
     "text": "Ho ottenuto una nuova posizione come medico presso l'Ospedale San Giovanni a Sabbion.",
     "entities": [
       {
-        "text": "medico",
-        "label": "WORKS_OF_ART"
-      },
-      {
         "text": "San Giovanni",
         "label": "FAC"
       },
@@ -11253,7 +11281,7 @@
     ]
   },
   {
-    "text": "La mia salute non è in buone condizioni. Sono ancora giovane, ho 28 anni, ma i miei denti sono pessimi. Ho l'artrite e dolori muscolari. Vivo così già da anni, ma ieri sono andata al Centro Medico San Giuseppe per una visita specialistica.",
+    "text": "La mia salute non è in buone condizioni. SONO ancora giovane, ho 28 anni, ma i miei denti sono pessimi. Ho l'artrite e dolori muscolari. Vivo così già da anni, ma ieri sono andata al Centro Medico San Giuseppe per una visita specialistica.",
     "entities": [
       {
         "text": "28 anni",
@@ -11266,14 +11294,14 @@
     ]
   },
   {
-    "text": "Adoro giocare a kendama nel tempo libero, è davvero divertente. Oggi ho partecipato a un torneo organizzato da un negozio di giochi di Piobesi D'Alba chiamato 'Giocattoli Magici'.",
+    "text": "Adoro giocare a kendama nel tempo libero, è davvero divertente. Oggi ho partecipato a un torneo organizzato da un negozio di giochi di PIOBESI D'ALBA chiamato 'GIOCATTOLI MAGICI'.",
     "entities": [
       {
-        "text": "Piobesi D'Alba",
+        "text": "PIOBESI D'ALBA",
         "label": "GPE"
       },
       {
-        "text": "Giocattoli Magici",
+        "text": "GIOCATTOLI MAGICI",
         "label": "ORG"
       }
     ]
@@ -11292,14 +11320,14 @@
     ]
   },
   {
-    "text": "Ho mangiato delle ottime crepes al Caffè Florian durante la mia visita a Filottrano.",
+    "text": "Ho mangiato delle ottime crepes al Caffè Florian durante la mia visita a FILOTTRANO.",
     "entities": [
       {
         "text": "Caffè Florian",
         "label": "ORG"
       },
       {
-        "text": "Filottrano",
+        "text": "FILOTTRANO",
         "label": "GPE"
       }
     ]
@@ -11340,7 +11368,7 @@
     ]
   },
   {
-    "text": "Oggi ho comprato del pane al supermercato Coop. Non mangiavo pane da un paio di settimane. L'ho tostato e ci ho messo burro e formaggio. Era buono e mi ha soddisfatto la fame.",
+    "text": "Oggi ho comprato del pane al supermercato Coop. Non mangiavo pane da un paio di SETTIMANE. L'HO tostato e ci ho messo burro e formaggio. Era buono e mi ha soddisfatto la fame.",
     "entities": [
       {
         "text": "Coop",
@@ -11469,10 +11497,10 @@
     ]
   },
   {
-    "text": "Ieri ho preso mia figlia, Sara, da scuola e ho passato il pomeriggio con lei. Prima siamo andate a fare la spesa al supermercato 'Supermercati Conad' e poi siamo tornate a casa, dove l'ho aiutata con i compiti. Dopo, lei mi ha aiutato a preparare la cena, che abbiamo mangiato insieme. Sara sta studiando per l'esame di matematica che avrà la prossima settimana.",
+    "text": "Ieri ho preso mia figlia, SARA, da scuola e ho passato il pomeriggio con lei. Prima siamo andate a fare la spesa al supermercato 'Supermercati Conad' e poi siamo tornate a casa, dove l'ho aiutata con i compiti. Dopo, lei mi ha aiutato a preparare la cena, che abbiamo mangiato insieme. SARA sta studiando per l'esame di matematica che avrà la prossima settimana.",
     "entities": [
       {
-        "text": "Sara",
+        "text": "SARA",
         "label": "PER"
       },
       {
@@ -11480,7 +11508,7 @@
         "label": "ORG"
       },
       {
-        "text": "Sara",
+        "text": "SARA",
         "label": "PER"
       }
     ]
@@ -11563,6 +11591,10 @@
       {
         "text": "TechSolutions",
         "label": "ORG"
+      },
+      {
+        "text": "febbraio",
+        "label": "DATE"
       }
     ]
   },
@@ -11601,10 +11633,10 @@
     ]
   },
   {
-    "text": "Ho avuto una mattina lenta di lavoro perché lavoro per conto mio. Ero un po' nervoso pensando che non avrei guadagnato molto. Mi sono detto che dovevo spingere e alla fine ho raggiunto il mio obiettivo giornaliero e l'ho anche superato. Mi sono sentito molto orgoglioso di me stesso per aver perseverato. Ho ricevuto anche una chiamata da Laura, la mia collega di Lomagna, che mi ha dato alcuni consigli su come gestire meglio le vendite online.",
+    "text": "Ho avuto una mattina lenta di lavoro perché lavoro per conto mio. Ero un po' nervoso pensando che non avrei guadagnato molto. Mi sono detto che dovevo spingere e alla fine ho RAGGIUNTO il mio obiettivo giornaliero e l'ho anche superato. Mi sono sentito molto ORGOGLIOSO di me stesso per aver perseverato. Ho ricevuto anche una chiamata da LAURA, la mia collega di Lomagna, che mi ha dato alcuni consigli su come gestire meglio le vendite online.",
     "entities": [
       {
-        "text": "Laura",
+        "text": "LAURA",
         "label": "PER"
       },
       {
@@ -11636,14 +11668,14 @@
     ]
   },
   {
-    "text": "Mia moglie non solo ha ansia, ma sta anche affrontando molti cambiamenti al lavoro, e non sappiamo dove vivremo in futuro, né qual è lo stato dei nostri lavori. Lei lavora come infermiera all'Ospedale Niguarda di Rivolto e mi dice spesso quanto sia stressante la sua giornata, specialmente durante le emergenze.",
+    "text": "Mia moglie non solo ha ansia, ma sta anche affrontando molti cambiamenti al lavoro, e non sappiamo dove vivremo in futuro, né qual è lo stato dei nostri lavori. Lei lavora come infermiera all'Ospedale Niguarda di RIVOLTO e mi dice spesso quanto sia stressante la sua giornata, specialmente durante le emergenze.",
     "entities": [
       {
         "text": "Niguarda",
         "label": "FAC"
       },
       {
-        "text": "Rivolto",
+        "text": "RIVOLTO",
         "label": "GPE"
       }
     ]
@@ -11660,6 +11692,10 @@
   {
     "text": "Sto imparando C#. Mi piace davvero, è stato molto soddisfacente finora. Ho imparato parecchio e mi diverto. Ho in programma di creare un gioco roguelike basato su testo presto. Il mio obiettivo è finirlo entro dicembre, sperando che possa essere pronto per l'evento GameDev Expo di Corropoli.",
     "entities": [
+      {
+        "text": "dicembre",
+        "label": "DATE"
+      },
       {
         "text": "GameDev Expo",
         "label": "EVENT"
@@ -11788,10 +11824,10 @@
     ]
   },
   {
-    "text": "Ho aiutato mia sorella, Sara, con un progetto che aveva per la scuola all'Istituto Comprensivo Galileo Galilei. Doveva scattare varie foto di paesaggi e persone, inclusi alcuni scatti nel Parco Nazionale d'Abruzzo. Ci è voluto un po' di tempo, ma non è stato un problema per me né per i miei impegni. Mi sono sentito orgoglioso di mia sorella per quanto è migliorata nella sua classe, e sereno per aver partecipato a qualcosa di utile per qualcun altro.",
+    "text": "Ho aiutato mia sorella, SARA, con un progetto che aveva per la scuola all'Istituto Comprensivo Galileo Galilei. Doveva scattare varie foto di paesaggi e persone, inclusi alcuni scatti nel Parco Nazionale D'ABRUZZO. Ci è voluto un po' di tempo, ma non è stato un problema per me né per i miei impegni. Mi sono sentito orgoglioso di mia sorella per quanto è migliorata nella sua classe, e sereno per aver partecipato a qualcosa di utile per qualcun altro.",
     "entities": [
       {
-        "text": "Sara",
+        "text": "SARA",
         "label": "PER"
       },
       {
@@ -11799,24 +11835,24 @@
         "label": "ORG"
       },
       {
-        "text": "Parco Nazionale d'Abruzzo",
+        "text": "Parco Nazionale D'ABRUZZO",
         "label": "LOC"
       }
     ]
   },
   {
-    "text": "Le informazioni riguardavano l'e-commerce e le spedizioni dalla Cina. Ho scoperto nuove tecnologie e strategie per migliorare le prestazioni e la redditività, in particolare da aziende come Amazon Italia e Alibaba.",
+    "text": "Le informazioni riguardavano l'e-commerce e le spedizioni dalla CINA. Ho scoperto nuove tecnologie e strategie per migliorare le prestazioni e la redditività, in particolare da aziende come AMAZON ITALIA e ALIBABA.",
     "entities": [
       {
-        "text": "Cina",
+        "text": "CINA",
         "label": "GPE"
       },
       {
-        "text": "Amazon Italia",
+        "text": "AMAZON ITALIA",
         "label": "ORG"
       },
       {
-        "text": "Alibaba",
+        "text": "ALIBABA",
         "label": "ORG"
       }
     ]
@@ -11857,10 +11893,10 @@
     "entities": []
   },
   {
-    "text": "Ho accudito mia figlia, Chiara, durante il giorno e ho apprezzato stare con lei. È stato molto gratificante.",
+    "text": "Ho accudito mia figlia, CHIARA, durante il giorno e ho APPREZZATO stare con lei. È stato molto gratificante.",
     "entities": [
       {
-        "text": "Chiara",
+        "text": "CHIARA",
         "label": "PER"
       }
     ]
@@ -12109,14 +12145,14 @@
     ]
   },
   {
-    "text": "Abbiamo preparato delle ali di pollo fatte in casa che ho cucinato al forno con una salsa speciale. Le ho abbinate con riso al pollo e broccoli e fagiolini conditi, e ai bambini è piaciuto tantissimo. Come dessert abbiamo mangiato cheesecake alla fragola. Adoro cucinare per la mia famiglia e mi piace vedere le loro reazioni quando assaporano le ali di pollo. Mia madre, Laura, è venuta a trovarci da Siviano per la cena.",
+    "text": "Abbiamo preparato delle ali di pollo fatte in casa che ho cucinato al forno con una salsa speciale. Le ho abbinate con riso al pollo e broccoli e fagiolini conditi, e ai bambini è piaciuto tantissimo. Come dessert abbiamo mangiato cheesecake alla fragola. Adoro cucinare per la mia famiglia e mi piace vedere le loro reazioni quando assaporano le ali di pollo. Mia madre, Laura, è venuta a trovarci da SIVIANO per la cena.",
     "entities": [
       {
         "text": "Laura",
         "label": "PER"
       },
       {
-        "text": "Siviano",
+        "text": "SIVIANO",
         "label": "GPE"
       }
     ]
@@ -12124,6 +12160,10 @@
   {
     "text": "La cosa più saliente non riguardava tanto Dio, quanto i temi della Creazione, del Disegno Intelligente e dell'Evoluzione. Durante un momento di pausa, ho cliccato su un link a un articolo di notizie, che mi ha portato a un sito web e ad alcuni articoli correlati, che mi hanno fatto scoprire un argomento e un luogo vicini che contengono uno dei più grandi giacimenti fossili, fossili che confutano gli aspetti base, indiscussi e falsi, delle teorie evolutive di Darwin. Mi è subito venuta in mente l'idea di una vacanza per visitare queste zone ricche di fossili! Magari potrei andare a visitare il Parco Nazionale delle Dolomiti Bellunesi in Veneto, noto per i suoi fossili straordinari.",
     "entities": [
+      {
+        "text": "Darwin",
+        "label": "PER"
+      },
       {
         "text": "Parco Nazionale delle Dolomiti Bellunesi",
         "label": "LOC"
@@ -12278,7 +12318,7 @@
     ]
   },
   {
-    "text": "Ieri abbiamo scelto il nostro albero di Natale artificiale online su ikea. È uno di quelli che davvero volevamo l'anno scorso, ma che non potevamo permetterci in quel momento. È uno di quelli con un'app che ti permette di impostare il colore delle luci come vuoi. Poiché l'abbiamo ordinato online, sono ansiosa per il suo arrivo. Ricordo i Natali passati e riesco già a immaginare come questo albero sarà luminoso e bello negli anni a venire, soprattutto durante la Vigilia di Natale.",
+    "text": "Ieri abbiamo scelto il nostro albero di Natale artificiale online su ikea. È uno di quelli che davvero volevamo l'anno scorso, ma che non potevamo permetterci in quel momento. È uno di quelli con un'app che ti permette di impostare il colore delle luci come vuoi. Poiché l'abbiamo ordinato online, sono ansiosa per il suo arrivo. Ricordo i Natali passati e riesco già a immaginare come questo ALBERO sarà luminoso e bello negli anni a venire, soprattutto durante la Vigilia di Natale.",
     "entities": [
       {
         "text": "Natale",
@@ -12351,10 +12391,10 @@
     ]
   },
   {
-    "text": "Ho ottenuto un ottimo risultato nel mio ultimo esame di biologia. L'esame è stato davvero difficile, ma sono riuscito a passarlo grazie all'aiuto del mio professore, Carlo Mazzini, che mi ha dato ottimi consigli durante le lezioni.",
+    "text": "Ho ottenuto un ottimo risultato nel mio ultimo esame di biologia. L'esame è stato davvero difficile, ma sono riuscito a passarlo grazie all'aiuto del mio professore, CARLO MAZZINI, che mi ha dato ottimi consigli durante le lezioni.",
     "entities": [
       {
-        "text": "Carlo Mazzini",
+        "text": "CARLO MAZZINI",
         "label": "PER"
       }
     ]
@@ -12529,6 +12569,10 @@
       {
         "text": "Roure",
         "label": "GPE"
+      },
+      {
+        "text": "settembre",
+        "label": "DATE"
       }
     ]
   },
@@ -12572,6 +12616,10 @@
       {
         "text": "Museo Archeologico Nazionale",
         "label": "FAC"
+      },
+      {
+        "text": "dicembre",
+        "label": "DATE"
       }
     ]
   },
@@ -12585,10 +12633,10 @@
     ]
   },
   {
-    "text": "Ieri ho avuto una conversazione telefonica con mia madre, parlando dei regali di Natale per mio fratello, Giuseppe. Abbiamo raggiunto il nostro obiettivo e deciso cosa ciascuno di noi gli prenderà, quindi va bene. È stata una chiamata produttiva. Altrimenti non abbiamo parlato molto e durante la conversazione mi sono sentita rilassata. Non è stato nulla di particolare, ma sono stata contenta di fare progressi con lo shopping natalizio. Il mio amico Agostino mi ha anche suggerito di comprare qualcosa da Decathlon per il Natale.",
+    "text": "Ieri ho avuto una conversazione telefonica con mia madre, parlando dei regali di Natale per mio fratello, GIUSEPPE. Abbiamo raggiunto il nostro obiettivo e deciso cosa ciascuno di noi gli prenderà, quindi va bene. È stata una chiamata produttiva. Altrimenti non abbiamo parlato molto e durante la conversazione mi sono sentita rilassata. Non è stato nulla di particolare, ma sono stata contenta di fare progressi con lo shopping natalizio. Il mio amico Agostino mi ha anche suggerito di comprare qualcosa da DECATHLON per il Natale.",
     "entities": [
       {
-        "text": "Giuseppe",
+        "text": "GIUSEPPE",
         "label": "PER"
       },
       {
@@ -12596,7 +12644,7 @@
         "label": "PER"
       },
       {
-        "text": "Decathlon",
+        "text": "DECATHLON",
         "label": "ORG"
       }
     ]
@@ -12636,6 +12684,10 @@
       {
         "text": "Bottrighe",
         "label": "GPE"
+      },
+      {
+        "text": "luglio",
+        "label": "DATE"
       }
     ]
   },
@@ -12867,14 +12919,14 @@
     ]
   },
   {
-    "text": "Mi piace il mio lavoro e mi sento bene con la mia giornata quando aiuto i miei studenti al Liceo Galileo Galilei di Torriglia o quando ho un impatto positivo su di loro in qualche modo.",
+    "text": "Mi piace il mio lavoro e mi sento bene con la mia giornata quando aiuto i miei studenti al LICEO GALILEO GALILEI di TORRIGLIA o quando ho un impatto positivo su di loro in qualche modo.",
     "entities": [
       {
-        "text": "Liceo Galileo Galilei",
+        "text": "LICEO GALILEO GALILEI",
         "label": "FAC"
       },
       {
-        "text": "Torriglia",
+        "text": "TORRIGLIA",
         "label": "GPE"
       }
     ]
@@ -12946,18 +12998,18 @@
     ]
   },
   {
-    "text": "I miei amici mi hanno organizzato una cena a sorpresa al Ristorante Da Enzo per augurarmi il meglio per il mio trasferimento a Zelarino. Mi hanno fatto capire che la nostra amicizia è preziosa e che sentiranno la mia mancanza, ma hanno compreso la necessità che io parta. Mi assicurerò di restare in contatto con loro e ho intenzione di visitarli più volte all’anno. Inoltre avrò una bella stanza per gli ospiti nella mia nuova casa vicino al Parco Sempione.",
+    "text": "I miei amici mi hanno organizzato una cena a sorpresa al Ristorante DA ENZO per augurarmi il meglio per il mio trasferimento a ZELARINO. Mi hanno fatto capire che la nostra amicizia è preziosa e che sentiranno la mia mancanza, ma hanno compreso la necessità che io parta. Mi assicurerò di restare in contatto con loro e ho INTENZIONE di visitarli più volte all’anno. Inoltre AVRÒ una bella stanza per gli ospiti nella mia nuova casa vicino al PARCO SEMPIONE.",
     "entities": [
       {
-        "text": "Da Enzo",
+        "text": "DA ENZO",
         "label": "ORG"
       },
       {
-        "text": "Zelarino",
+        "text": "ZELARINO",
         "label": "GPE"
       },
       {
-        "text": "Parco Sempione",
+        "text": "PARCO SEMPIONE",
         "label": "LOC"
       }
     ]
@@ -12993,10 +13045,10 @@
     ]
   },
   {
-    "text": "Lavoro in un’università, l’Università di Passo Dei Pecorai. Ogni giorno il mio lavoro mi mette alla prova. Mi sento ansioso pensando alle riunioni in cui i miei scritti verranno valutati (per l’accreditamento). Mi sento frustrato perché alcuni colleghi non mi prendono sul serio. Allo stesso tempo mi sento orgoglioso perché so che sto facendo un buon lavoro, soprattutto dopo aver ricevuto un invito a presentare i miei studi alla Biblioteca Nazionale Centrale di Girardi.",
+    "text": "Lavoro in un’università, l’UNIVERSITÀ DI PASSO DEI PECORAI. Ogni giorno il mio lavoro mi mette alla prova. Mi sento ansioso pensando alle riunioni in cui i miei scritti verranno valutati (per l’accreditamento). Mi sento frustrato perché alcuni colleghi non mi prendono sul serio. Allo stesso tempo mi sento orgoglioso perché so che sto facendo un buon lavoro, soprattutto dopo aver ricevuto un invito a presentare i miei studi alla Biblioteca Nazionale Centrale di Girardi.",
     "entities": [
       {
-        "text": "Università di Passo Dei Pecorai",
+        "text": "UNIVERSITÀ DI PASSO DEI PECORAI",
         "label": "ORG"
       },
       {
@@ -13238,18 +13290,18 @@
     ]
   },
   {
-    "text": "Ci siamo tutti riuniti per un pranzo in famiglia e abbiamo parlato della nostra giornata. Papà ha raccontato che ha incontrato il dottor Gonzaga alla Clinica San Giovanni per un controllo. Dopo pranzo siamo andati a fare una passeggiata a Villa Borghese.",
+    "text": "Ci siamo tutti riuniti per un pranzo in famiglia e abbiamo parlato della nostra giornata. Papà ha raccontato che ha incontrato il dottor Gonzaga alla Clinica SAN GIOVANNI per un controllo. Dopo PRANZO siamo andati a fare una passeggiata a VILLA BORGHESE.",
     "entities": [
       {
         "text": "Gonzaga",
         "label": "PER"
       },
       {
-        "text": "San Giovanni",
+        "text": "SAN GIOVANNI",
         "label": "ORG"
       },
       {
-        "text": "Villa Borghese",
+        "text": "VILLA BORGHESE",
         "label": "LOC"
       }
     ]
@@ -13257,6 +13309,10 @@
   {
     "text": "Il lavoro è stato così impegnativo che faccio fatica a stare al passo e a gestire tutto. Non vedo l'ora che arrivi la mia vacanza a dicembre, ne ho davvero bisogno. Ho prenotato il volo con Alitalia per andare a Monticchiello per una settimana.",
     "entities": [
+      {
+        "text": "dicembre",
+        "label": "DATE"
+      },
       {
         "text": "Alitalia",
         "label": "ORG"
@@ -13329,10 +13385,10 @@
     ]
   },
   {
-    "text": "Di solito ceniamo alle 18, ma non c’era nulla disponibile per preparare un pasto completo. Mi ha messo ansia cercare di trovare qualcosa per tutti quando non c’era carne da cucinare perché era congelata. Alla fine ognuno ha mangiato qualcosa di diverso, come panini o pasta. Un altro membro della famiglia, Santino, aveva detto che avrebbe preparato la cena, ma quando si avvicinava l’ora delle 18 non l’aveva fatto.",
+    "text": "Di solito ceniamo alle 18, ma non c’era nulla disponibile per preparare un pasto completo. Mi ha messo ansia cercare di trovare qualcosa per tutti quando non c’era carne da cucinare perché era congelata. Alla fine ognuno ha mangiato qualcosa di DIVERSO, come panini o pasta. Un altro membro della famiglia, SANTINO, aveva detto che avrebbe preparato la cena, ma quando si avvicinava l’ora delle 18 non l’aveva fatto.",
     "entities": [
       {
-        "text": "Santino",
+        "text": "SANTINO",
         "label": "PER"
       }
     ]
@@ -13459,7 +13515,7 @@
         "label": "PER"
       },
       {
-        "text": "12",
+        "text": "12 anni",
         "label": "AGE"
       }
     ]
@@ -13487,10 +13543,6 @@
       {
         "text": "Anna",
         "label": "PER"
-      },
-      {
-        "text": "Dio",
-        "label": "NORP"
       }
     ]
   },
@@ -13758,6 +13810,10 @@
       {
         "text": "Festa della Repubblica",
         "label": "EVENT"
+      },
+      {
+        "text": "giugno",
+        "label": "DATE"
       }
     ]
   },
@@ -13917,7 +13973,7 @@
     ]
   },
   {
-    "text": "Verso la fine della giornata ho giocato un po’ ai videogiochi, in particolare a FIFA 23 sulla PlayStation 5, dato che stavo iniziando a sentirmi meglio. È stata una bella distrazione.",
+    "text": "Verso la fine della giornata ho giocato un po’ ai videogiochi, in particolare a FIFA 23 sulla PlayStation 5, DATO che stavo iniziando a sentirmi meglio. È stata una bella distrazione.",
     "entities": [
       {
         "text": "FIFA 23",
@@ -14068,10 +14124,10 @@
     ]
   },
   {
-    "text": "Stare insieme alle persone che amiamo è un dono della vita, come quando mi sono ritrovata a Barcellona con la mia famiglia, durante il nostro viaggio per la festa di compleanno di mia sorella.",
+    "text": "Stare insieme alle persone che amiamo è un dono della vita, come quando mi sono ritrovata a BARCELLONA con la mia famiglia, durante il nostro viaggio per la festa di compleanno di mia sorella.",
     "entities": [
       {
-        "text": "Barcellona",
+        "text": "BARCELLONA",
         "label": "GPE"
       }
     ]
@@ -14090,10 +14146,10 @@
     ]
   },
   {
-    "text": "Stanotte ho dormito benissimo. Non succede sempre, quindi mi ha fatto sentire bene! Un ottimo inizio di giornata, specialmente dopo aver ricevuto una telefonata da mia madre che vive a Montodine.",
+    "text": "Stanotte ho dormito benissimo. Non succede sempre, quindi mi ha fatto sentire bene! Un ottimo inizio di giornata, specialmente dopo aver ricevuto una telefonata da mia madre che vive a MONTODINE.",
     "entities": [
       {
-        "text": "Montodine",
+        "text": "MONTODINE",
         "label": "GPE"
       }
     ]
@@ -14163,10 +14219,6 @@
     "text": "Ieri è stato il compleanno di mia suocera Anna. Voleva la pizza, così le ho preso una pizza alta da Pizzeria Da Michele a Santa Croce Del Lago. Era molto buona e molto sostanziosa.",
     "entities": [
       {
-        "text": "suocera",
-        "label": "PER"
-      },
-      {
         "text": "Anna",
         "label": "PER"
       },
@@ -14219,10 +14271,10 @@
     ]
   },
   {
-    "text": "Finalmente riesco a rilassarmi e dormire un po' ora che mia madre Ilaria è uscita dalla terapia intensiva dell'Ospedale San Raffaele a Santa Evangelista Uzzanese e sembra davvero sulla strada della guarigione.",
+    "text": "Finalmente riesco a rilassarmi e dormire un po' ora che mia madre ILARIA è uscita dalla terapia intensiva dell'Ospedale San Raffaele a Santa Evangelista Uzzanese e sembra davvero sulla strada della guarigione.",
     "entities": [
       {
-        "text": "Ilaria",
+        "text": "ILARIA",
         "label": "PER"
       },
       {
@@ -14535,10 +14587,10 @@
     ]
   },
   {
-    "text": "Sto cercando di perdere un po' di peso. Oggi ho visto che peso quasi 3 libbre in meno rispetto a quando ho comprato la bilancia da bagno della marca Laica e ho iniziato a stare attento a ciò che mangio, appena la settimana scorsa.",
+    "text": "Sto cercando di perdere un po' di peso. Oggi ho visto che peso quasi 3 libbre in meno rispetto a QUANDO ho comprato la bilancia da bagno della marca LAICA e ho iniziato a stare attento a ciò che mangio, appena la settimana scorsa.",
     "entities": [
       {
-        "text": "Laica",
+        "text": "LAICA",
         "label": "ORG"
       }
     ]
@@ -14601,7 +14653,7 @@
     ]
   },
   {
-    "text": "Alla fine della serata, accoccolato sul divano con il mio cane, Pluto, una coperta e un buon libro, 'Il Gattopardo'. C'è qualcosa di molto pacifico e rilassante nello stare raggomitolati in una notte fredda.",
+    "text": "Alla fine della serata, accoccolato sul DIVANO con il mio cane, Pluto, una coperta e un buon libro, 'Il Gattopardo'. C'è qualcosa di molto pacifico e rilassante nello STARE raggomitolati in una notte fredda.",
     "entities": [
       {
         "text": "Pluto",
@@ -14693,10 +14745,10 @@
     ]
   },
   {
-    "text": "Ieri sera a cena ho gustato un delizioso barbecue. Ho mangiato punte bruciate e costine affumicate. Ho anche apprezzato dei buonissimi fagioli al forno, insalata di cavolo e panini. Tutto è stato cucinato da mio cugino Paolo, che ha un ristorante a Prösels, 'La Griglia di Paolo'.",
+    "text": "Ieri sera a cena ho gustato un delizioso barbecue. Ho mangiato punte bruciate e costine affumicate. Ho anche apprezzato dei buonissimi fagioli al forno, insalata di cavolo e panini. Tutto è stato cucinato da mio cugino PAOLO, che ha un ristorante a Prösels, 'La Griglia di PAOLO'.",
     "entities": [
       {
-        "text": "Paolo",
+        "text": "PAOLO",
         "label": "PER"
       },
       {
@@ -14704,7 +14756,7 @@
         "label": "GPE"
       },
       {
-        "text": "Paolo",
+        "text": "PAOLO",
         "label": "PER"
       }
     ]
@@ -14815,7 +14867,7 @@
     ]
   },
   {
-    "text": "Sono molto fortunata ad avere la persona che ho. Mio marito Ennio mi sostiene sempre, soprattutto durante i periodi difficili. Siamo felici di vivere insieme a Lirio, una città che ci ha accolto con tanto amore.",
+    "text": "SONO molto fortunata ad avere la persona che ho. Mio marito Ennio mi sostiene sempre, soprattutto durante i periodi difficili. Siamo felici di vivere insieme a Lirio, una città che ci ha accolto con tanto amore.",
     "entities": [
       {
         "text": "Ennio",
@@ -14828,10 +14880,10 @@
     ]
   },
   {
-    "text": "Dio è molto importante nella mia vita quotidiana, perché mi dà guida. Prego ogni giorno per ringraziarlo e per le cose importanti della mia vita. Ieri ho partecipato a una messa a Siusi, presso la basilica di San Pietro, che mi ha dato molta pace.",
+    "text": "Dio è molto importante nella mia vita quotidiana, perché mi dà guida. Prego ogni giorno per ringraziarlo e per le cose importanti della mia vita. Ieri ho partecipato a una messa a SIUSI, presso la basilica di San Pietro, che mi ha dato molta pace.",
     "entities": [
       {
-        "text": "Siusi",
+        "text": "SIUSI",
         "label": "GPE"
       },
       {
@@ -15766,14 +15818,14 @@
     ]
   },
   {
-    "text": "Mi hanno davvero risollevato! Bei momenti, soprattutto durante la Festa della Repubblica a Vallone con gli amici.",
+    "text": "Mi HANNO davvero risollevato! Bei momenti, soprattutto durante la Festa della Repubblica a VALLONE con gli amici.",
     "entities": [
       {
         "text": "Festa della Repubblica",
         "label": "EVENT"
       },
       {
-        "text": "Vallone",
+        "text": "VALLONE",
         "label": "GPE"
       }
     ]
@@ -15893,10 +15945,6 @@
     "text": "Devo ricordarmi continuamente di pregare e accettare che non ho davvero il controllo su questa vita. Ho cercato di ripetere 'Signore abbi pietà' quando ero frustrato o turbato, cosa che è capitata spesso, e mi ha davvero aiutato a superare la giornata. Oggi ho anche partecipato alla messa nella Basilica di San Pietro insieme ad altri fedeli cattolici.",
     "entities": [
       {
-        "text": "Signore abbi pietà",
-        "label": "WORKS_OF_ART"
-      },
-      {
         "text": "Basilica di San Pietro",
         "label": "FAC"
       },
@@ -15924,18 +15972,18 @@
     ]
   },
   {
-    "text": "Mi piace prendermi cura di me stesso fisicamente e apprezzo come questo influisca sul mio aspetto e sul mio benessere. Questa mattina ho corso lungo il Parco Sempione a Riosecco e poi ho fatto stretching con mia sorella Anna, che ha 25 anni.",
+    "text": "Mi piace prendermi cura di me stesso fisicamente e apprezzo come questo influisca sul mio aspetto e sul mio benessere. Questa mattina ho corso lungo il Parco Sempione a RIOSECCO e poi ho fatto stretching con mia sorella ANNA, che ha 25 anni.",
     "entities": [
       {
         "text": "Parco Sempione",
         "label": "LOC"
       },
       {
-        "text": "Riosecco",
+        "text": "RIOSECCO",
         "label": "GPE"
       },
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       },
       {
@@ -16188,14 +16236,14 @@
     ]
   },
   {
-    "text": "Avere la mia famiglia insieme per cena da mia sorella Anna a Vallepietra. È sempre una cosa bella.",
+    "text": "Avere la mia famiglia insieme per cena da mia sorella Anna a VALLEPIETRA. È sempre una cosa bella.",
     "entities": [
       {
         "text": "Anna",
         "label": "PER"
       },
       {
-        "text": "Vallepietra",
+        "text": "VALLEPIETRA",
         "label": "GPE"
       }
     ]
@@ -16439,11 +16487,15 @@
     ]
   },
   {
-    "text": "Il mio lavoro presso la Banca Intesa Sanpaolo mi ha licenziato. Sapevo che sarebbe successo quindi non sono rimasto sorpreso, ma sono frustrato perché ora devo cercare un nuovo lavoro e sono ansioso di non avere abbastanza entrate questo mese di novembre.",
+    "text": "Il mio lavoro presso la BANCA INTESA SANPAOLO mi ha licenziato. Sapevo che sarebbe SUCCESSO quindi non sono rimasto sorpreso, ma sono frustrato perché ora devo cercare un nuovo lavoro e sono ansioso di non avere abbastanza entrate questo mese di novembre.",
     "entities": [
       {
-        "text": "Banca Intesa Sanpaolo",
+        "text": "BANCA INTESA SANPAOLO",
         "label": "ORG"
+      },
+      {
+        "text": "novembre",
+        "label": "DATE"
       }
     ]
   },
@@ -16478,10 +16530,10 @@
     ]
   },
   {
-    "text": "Mi sono comportato in modo molto preoccupato senza un motivo valido e mi sono reso conto di quanto fossi sciocco, soprattutto pensando alle parole di mio fratello Piergiorgio durante la festa di San Giovanni a Cigognola.",
+    "text": "Mi sono comportato in modo molto preoccupato senza un motivo valido e mi sono reso conto di quanto fossi sciocco, soprattutto pensando alle parole di mio fratello PIERGIORGIO durante la festa di San Giovanni a CIGOGNOLA.",
     "entities": [
       {
-        "text": "Piergiorgio",
+        "text": "PIERGIORGIO",
         "label": "PER"
       },
       {
@@ -16489,7 +16541,7 @@
         "label": "EVENT"
       },
       {
-        "text": "Cigognola",
+        "text": "CIGOGNOLA",
         "label": "GPE"
       }
     ]
@@ -16581,7 +16633,7 @@
     ]
   },
   {
-    "text": "Il lavoro è stato come al solito, con qualche difficoltà e soddisfazione quando le cose andavano bene. È stato davvero impegnativo, ma finora è stata una settimana positiva per aver lavorato ore extra e guadagnato qualcosa in più alla sede di Microsoft a gottolengo.",
+    "text": "Il lavoro è stato come al solito, con qualche difficoltà e soddisfazione quando le cose andavano bene. È stato davvero impegnativo, ma finora è stata una settimana positiva per aver lavorato ore extra e GUADAGNATO qualcosa in più alla sede di Microsoft a gottolengo.",
     "entities": [
       {
         "text": "Microsoft",
@@ -16723,7 +16775,7 @@
       },
       {
         "text": "Colosseo",
-        "label": "LOC"
+        "label": "FAC"
       }
     ]
   },
@@ -16763,14 +16815,14 @@
     ]
   },
   {
-    "text": "Ho ricevuto un messaggio da un'amica che mi chiedeva se avevo delle richieste di preghiera. È stata una sorpresa, ma una bella sorpresa. Mi sono sentito apprezzato nel sapere che questa fosse una cosa che lei mi chiedesse. Il suo nome è Laura e vive a Cavalicco, dove lavora come infermiera all'Ospedale di Careggi.",
+    "text": "Ho ricevuto un messaggio da un'amica che mi chiedeva se avevo DELLE richieste di preghiera. È stata una sorpresa, ma una bella sorpresa. Mi sono sentito apprezzato nel sapere che questa fosse una cosa che lei mi chiedesse. Il suo nome è LAURA e vive a CAVALICCO, dove lavora come infermiera all'Ospedale di Careggi.",
     "entities": [
       {
-        "text": "Laura",
+        "text": "LAURA",
         "label": "PER"
       },
       {
-        "text": "Cavalicco",
+        "text": "CAVALICCO",
         "label": "GPE"
       },
       {
@@ -16932,7 +16984,7 @@
     ]
   },
   {
-    "text": "A cena c'era crema di zuppa di patate e pane fresco. La casa profumava del pane che lievitava nella macchina per il pane, e la zuppa di patate è così facile da fare, anche se non la preparo spesso. Mi ha fatto tornare in mente mio padre Giovanni, visto che la preparava spesso quando ero piccola a Vietri Di Potenza.",
+    "text": "A cena c'era crema di zuppa di patate e pane FRESCO. La casa profumava del pane che lievitava nella macchina per il pane, e la zuppa di patate è così facile da fare, anche se non la preparo spesso. Mi ha fatto TORNARE in mente mio padre Giovanni, visto che la preparava spesso quando ero piccola a Vietri Di Potenza.",
     "entities": [
       {
         "text": "Giovanni",

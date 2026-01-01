@@ -59,14 +59,14 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio del 15 ottobre ha mostrato maggiore consapevolezza rispetto alla dipendenza da alcol. Si concorda con il dott. Caracciolo di proseguire con il supporto psicoterapico.",
+    "text": "Durante il colloquio del 15 ottobre ha mostrato maggiore consapevolezza rispetto alla dipendenza da alcol. Si concorda con il dott. CARACCIOLO di proseguire con il supporto psicoterapico.",
     "entities": [
       {
         "text": "15 ottobre",
         "label": "DATE"
       },
       {
-        "text": "Caracciolo",
+        "text": "CARACCIOLO",
         "label": "PER"
       }
     ]
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "text": "Si evidenzia miglioramento nel tono dell'umore. Prosegue l'assunzione di Suboxone secondo schema stabilito. Prossimo incontro previsto il 3 dicembre presso il Centro San Paolo.",
+    "text": "Si evidenzia miglioramento nel tono dell'umore. PROSEGUE l'assunzione di Suboxone secondo schema stabilito. Prossimo incontro previsto il 3 dicembre presso il Centro SAN PAOLO.",
     "entities": [
       {
         "text": "Suboxone",
@@ -101,7 +101,7 @@
         "label": "DATE"
       },
       {
-        "text": "San Paolo",
+        "text": "SAN PAOLO",
         "label": "FAC"
       }
     ]
@@ -110,7 +110,7 @@
     "text": "Durante il colloquio odierno, il paziente ha riferito di aver avuto una ricaduta il giorno di Natale, trascorso in solitudine presso un monolocale in zona San Lorenzo. Riporta uso massiccio di alcol e cocaina. Si concorda inserimento in gruppo terapeutico presso il centro diurno del presidio di via Gorizia.",
     "entities": [
       {
-        "text": "Natale",
+        "text": "giorno di Natale",
         "label": "DATE"
       },
       {
@@ -311,10 +311,10 @@
     ]
   },
   {
-    "text": "Ha espresso il desiderio di tornare a lavorare come cuoco. Mostra buona motivazione al cambiamento. Si propone inserimento nel progetto di reinserimento lavorativo promosso da Comunità Il Faro. Prossimo incontro fissato per il 25 novembre.",
+    "text": "Ha espresso il desiderio di tornare a lavorare come cuoco. Mostra buona motivazione al cambiamento. Si propone inserimento nel progetto di reinserimento lavorativo promosso da Comunità IL FARO. Prossimo incontro fissato per il 25 novembre.",
     "entities": [
       {
-        "text": "Il Faro",
+        "text": "IL FARO",
         "label": "ORG"
       },
       {
@@ -453,6 +453,10 @@
     "text": "Il paziente, un uomo di 42 anni, riferisce di aver iniziato a partecipare a gruppi di supporto presso l'organizzazione 'Nuova Speranza' situata a Gorizia. Presenta sintomi di lieve depressione e si mostra motivato a proseguire il percorso di riabilitazione. È prevista una seduta di terapia cognitivo-comportamentale la prossima settimana per affrontare le ricadute e consolidare le strategie di coping.",
     "entities": [
       {
+        "text": "42 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Nuova Speranza",
         "label": "ORG"
       },
@@ -475,6 +479,10 @@
     "text": "Osservazioni sul trattamento: il soggetto, una donna di 29 anni, ha riferito un aumento dell'ansia e delle allucinazioni uditive. È stato valutato l'uso della terapia antipsicotica con riscontro di buona risposta. Si consiglia di intensificare gli incontri di supervisione con il team multiprofessionale presso il centro di recupero situato a Cellio. La motivazione mostra segni di miglioramento, anche se permangono alcune resistenze al cambiamento.",
     "entities": [
       {
+        "text": "29 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Cellio",
         "label": "GPE"
       }
@@ -483,6 +491,10 @@
   {
     "text": "Esame clinico: il paziente, un ragazzo di 19 anni, si presenta con segni di intossicazione da sostanze stimolanti, riferendo un episodio recente nel locale 'Bar Centrale' nella zona di Chiomonte. La terapia attuale comprende l'uso di bupropione e supporto psicologico presso il centro di riabilitazione di Viareggio. È importante monitorare i parametri cardiorespiratori e pianificare un intervento più strutturato per facilitare il processo di disintossicazione.",
     "entities": [
+      {
+        "text": "19 anni",
+        "label": "AGE"
+      },
       {
         "text": "Centrale",
         "label": "ORG"
@@ -681,14 +693,14 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio odierno, appare più sereno. Ha ripreso a frequentare il gruppo NA presso il centro di via Monteverde. Segnala miglioramento del sonno da quando assume Trittico 75 mg la sera.",
+    "text": "Durante il colloquio ODIERNO, appare più sereno. Ha ripreso a frequentare il gruppo NA presso il centro di via MONTEVERDE. Segnala miglioramento del sonno da quando assume Trittico 75 mg la sera.",
     "entities": [
       {
         "text": "NA",
         "label": "ORG"
       },
       {
-        "text": "via Monteverde",
+        "text": "via MONTEVERDE",
         "label": "LOC"
       },
       {
@@ -703,6 +715,10 @@
       {
         "text": "Natale",
         "label": "EVENT"
+      },
+      {
+        "text": "gennaio",
+        "label": "DATE"
       }
     ]
   },
@@ -716,10 +732,10 @@
     ]
   },
   {
-    "text": "In occasione del colloquio con la dott.ssa Raimondi, emerge un forte senso di colpa legato al passato uso di eroina. Si lavora sull'autocompassione e sulla ricostruzione dell'identità. Prossimo incontro fissato per il 28 novembre.",
+    "text": "In occasione del colloquio con la dott.ssa RAIMONDI, emerge un forte senso di colpa legato al passato uso di eroina. Si lavora sull'autocompassione e sulla ricostruzione dell'identità. Prossimo incontro fissato per il 28 novembre.",
     "entities": [
       {
-        "text": "Raimondi",
+        "text": "RAIMONDI",
         "label": "PER"
       },
       {
@@ -799,10 +815,10 @@
     ]
   },
   {
-    "text": "Durante il colloquio odierno, il sig. Claudio Cabibbo ha mostrato atteggiamento collaborativo ma con tono dell’umore deflesso. Riferisce difficoltà relazionali con la compagna e pensieri intrusivi legati al passato uso di eroina.",
+    "text": "Durante il colloquio odierno, il sig. CLAUDIO CABIBBO ha mostrato atteggiamento collaborativo ma con tono dell’umore deflesso. Riferisce difficoltà relazionali con la compagna e pensieri intrusivi legati al passato uso di eroina.",
     "entities": [
       {
-        "text": "Claudio Cabibbo",
+        "text": "CLAUDIO CABIBBO",
         "label": "PATIENT"
       }
     ]
@@ -879,10 +895,6 @@
       {
         "text": "Pisticci Scalo",
         "label": "GPE"
-      },
-      {
-        "text": "disturbo d'ansia generalizzato",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -935,7 +947,7 @@
     ]
   },
   {
-    "text": "Riferisce di aver partecipato al concerto di Capodanno in piazza Duomo a Grumello Del Piano, evento che ha vissuto con entusiasmo. Nessun episodio di craving segnalato negli ultimi 10 giorni. Prosegue con terapia di mantenimento e colloqui settimanali.",
+    "text": "Riferisce di aver partecipato al concerto di Capodanno in piazza Duomo a Grumello Del PIANO, evento che ha vissuto con entusiasmo. Nessun episodio di craving segnalato negli ultimi 10 giorni. Prosegue con terapia di mantenimento e colloqui settimanali.",
     "entities": [
       {
         "text": "Capodanno",
@@ -946,7 +958,7 @@
         "label": "LOC"
       },
       {
-        "text": "Grumello Del Piano",
+        "text": "Grumello Del PIANO",
         "label": "GPE"
       }
     ]
@@ -1366,7 +1378,7 @@
     ]
   },
   {
-    "text": "Riferisce sogni vividi e frequenti risvegli notturni. Invariata l'assunzione di Subutex 8 mg/die. Si concorda con il dott. Luxardo di mantenere il dosaggio attuale e rivalutare tra due settimane. Mostra buona aderenza al programma presso il centro diurno di via San Martino.",
+    "text": "Riferisce sogni vividi e frequenti risvegli notturni. Invariata l'assunzione di Subutex 8 mg/die. Si concorda con il dott. Luxardo di mantenere il dosaggio attuale e rivalutare tra due settimane. Mostra buona aderenza al programma presso il centro diurno di VIA SAN MARTINO.",
     "entities": [
       {
         "text": "Subutex",
@@ -1377,7 +1389,7 @@
         "label": "PER"
       },
       {
-        "text": "via San Martino",
+        "text": "VIA SAN MARTINO",
         "label": "LOC"
       }
     ]
@@ -1470,7 +1482,7 @@
     ]
   },
   {
-    "text": "Paziente, 45 anni, in trattamento per dipendenza da alcol e droghe, riferisce umore altalenante. Continua la terapia con Acamprosato 666 mg giornalieri. Tuttavia, si segnala una difficoltà nel seguire le indicazioni terapeutiche. È stata stabilita una revisione delle sue abitudini quotidiane e un potenziamento del supporto familiare tramite incontri con la sorella, per migliorare il contesto di supporto.",
+    "text": "Paziente, 45 anni, in trattamento per dipendenza da alcol e droghe, riferisce umore altalenante. Continua la terapia con Acamprosato 666 mg giornalieri. Tuttavia, si segnala una difficoltà nel seguire le indicazioni TERAPEUTICHE. È stata stabilita una revisione delle sue abitudini quotidiane e un potenziamento del supporto familiare tramite incontri con la sorella, per migliorare il contesto di supporto.",
     "entities": [
       {
         "text": "45 anni",
@@ -1519,10 +1531,10 @@
     ]
   },
   {
-    "text": "Si presenta in condizioni discrete, ma con tono dell'umore deflesso. Riferisce pensieri intrusivi legati al passato periodo trascorso presso il centro di recupero di San Patrignano. Si propone rivalutazione farmacologica.",
+    "text": "Si presenta in condizioni discrete, ma con tono dell'umore deflesso. Riferisce pensieri intrusivi legati al passato periodo trascorso presso il centro di recupero di SAN PATRIGNANO. Si propone rivalutazione farmacologica.",
     "entities": [
       {
-        "text": "San Patrignano",
+        "text": "SAN PATRIGNANO",
         "label": "FAC"
       }
     ]
@@ -1575,7 +1587,11 @@
     "text": "In questa seduta, si è approfondito il quadro clinico di dipendenza da alcol e l'impatto sul suo ciclo di vita, soprattutto in relazione al rapporto con i figli. Trattandosi di un paziente di 45 anni, si è discusso di strategie di mantenimento e prevenzione delle ricadute, con attenzione ai segnali precoci. È stato sottolineato come la partecipazione al gruppo di auto-aiuto presso il centro di recupero di Baraccone possa rappresentare un carattere di supporto efficace. Visualizzate anche le fotografie delle sue recenti attività ricreative, per rinforzare il senso di autostima.",
     "entities": [
       {
-        "text": "di recupero di Baraccone",
+        "text": "45 anni",
+        "label": "AGE"
+      },
+      {
+        "text": "Baraccone",
         "label": "GPE"
       }
     ]
@@ -1606,7 +1622,7 @@
     "text": "Paziente maschio di 29 anni, giunto presso il centro per il trattamento di dipendenza da alcol e cocaina. Riferisce che non ha avuto episodi di abuso nell'ultima settimana, ma esprime difficoltà a gestire le situazioni di stress. Per questo motivo, viene consigliata l'introduzione di un programma di terapia cognitivo-comportamentale e l'aggiustamento della dose di disulfiram. Si programma un follow-up in 10 giorni. Il supporto della madre, la signora Bettina, è ritenuto fondamentale per la riuscita del trattamento.",
     "entities": [
       {
-        "text": "29",
+        "text": "29 anni",
         "label": "AGE"
       },
       {
@@ -1623,7 +1639,7 @@
     "text": "Paziente di sesso femminile di 35 anni, con una lunga storia di abuso di oppiacei, presenta segnali di depressione maggiore. La paziente ha iniziato una terapia farmacologica con venlafaxina per gestire la componente ansiosa e depressiva. Nonostante il miglioramento del tono dell'umore, la paziente manifesta difficoltà nel relazionarsi con i membri del gruppo. Il trattamento viene adattato, includendo una sessione di psicoterapia individuale settimanale. Nessun segno di astinenza grave.",
     "entities": [
       {
-        "text": "35",
+        "text": "35 anni",
         "label": "AGE"
       }
     ]
@@ -1632,7 +1648,7 @@
     "text": "Paziente maschio, di età 42 anni, segnalato dai familiari per persistenti difficoltà nel gestire l'astinenza da eroina. Nonostante la stabilità nelle ultime due settimane, riferisce continui pensieri di ricaduta, specialmente durante le ore serali. Si prescrive una revisione del piano terapeutico, introducendo un supporto farmacologico aggiuntivo con naltrexone. Discussa le sue preoccupazioni con il terapeuta, mostrando una buona consapevolezza del percorso di recupero. Sono previsti colloqui settimanali.",
     "entities": [
       {
-        "text": "42",
+        "text": "42 anni",
         "label": "AGE"
       }
     ]
@@ -1660,10 +1676,10 @@
     ]
   },
   {
-    "text": "Il paziente si è presentato accompagnato dalla sorella, la sig.ra Anna Parmitano. Riferisce di aver interrotto la terapia con metadone da circa 10 giorni. Si osserva lieve tremore alle mani e sudorazione. Si consiglia ripresa graduale del trattamento.",
+    "text": "Il paziente si è presentato accompagnato dalla sorella, la sig.ra ANNA PARMITANO. Riferisce di aver interrotto la terapia con metadone da circa 10 giorni. Si osserva lieve tremore ALLE mani e sudorazione. Si consiglia ripresa graduale del trattamento.",
     "entities": [
       {
-        "text": "Anna Parmitano",
+        "text": "ANNA PARMITANO",
         "label": "PER"
       }
     ]
@@ -1703,7 +1719,7 @@
     "entities": [
       {
         "text": "Giovanni Verga",
-        "label": "WORKS_OF_ART"
+        "label": "PER"
       },
       {
         "text": "Gianna",
@@ -1712,7 +1728,7 @@
     ]
   },
   {
-    "text": "L'intervista odierna ha evidenziato l’assenza di **pensieri suicidari** e un miglioramento nel quadro clinico. La terapia con **metadone** è stata confermata, ed è stato discusso il supporto per l’**aspirazione a lavori più stabili**. Si consiglia di intensificare il coinvolgimento in attività di gruppo presso il **Centro di Riabilitazione Villa Serena**.",
+    "text": "L'intervista odierna ha evidenziato l’assenza di **pensieri suicidari** e un miglioramento nel quadro clinico. La terapia con **metadone** è stata confermata, ed è stato discusso il supporto per l’**aspirazione a lavori più stabili**. Si consiglia di intensificare il coinvolgimento in attività di gruppo PRESSO il **Centro di RIABILITAZIONE Villa Serena**.",
     "entities": [
       {
         "text": "Villa Serena",
@@ -1917,10 +1933,10 @@
     ]
   },
   {
-    "text": "Il paziente si è presentato al colloquio visibilmente stanco e con difficoltà a concentrarsi. Ha riferito di non aver dormito bene la notte precedente e di sentirsi demotivato riguardo alla prosecuzione del trattamento. Il dosaggio di alprazolam è stato ridotto per evitare dipendenze secondarie. È stata suggerita una visita presso la struttura ‘Centro Benessere Salute’ per una valutazione psicologica approfondita.",
+    "text": "Il paziente si è presentato al colloquio visibilmente stanco e con difficoltà a concentrarsi. Ha riferito di non aver dormito bene la notte precedente e di sentirsi demotivato riguardo alla prosecuzione del trattamento. Il dosaggio di alprazolam è stato ridotto per evitare dipendenze secondarie. È stata suggerita una visita presso la struttura ‘Centro Benessere SALUTE’ per una valutazione psicologica approfondita.",
     "entities": [
       {
-        "text": "Salute",
+        "text": "SALUTE",
         "label": "FAC"
       }
     ]
@@ -2009,7 +2025,7 @@
     ]
   },
   {
-    "text": "In occasione della visita del 18 novembre, il sig. Goffredo L. (42 anni) appare più centrato e motivato. Ha ripreso contatti con il centro diurno di via San Donato. Segnala riduzione del consumo di cannabis. Si propone inserimento in gruppo psicoeducativo. Nessuna alterazione del tono dell'umore rilevata.",
+    "text": "In occasione della visita del 18 novembre, il sig. Goffredo L. (42 anni) appare più centrato e motivato. Ha ripreso contatti con il centro diurno di VIA SAN DONATO. Segnala riduzione del consumo di cannabis. Si propone inserimento in gruppo psicoeducativo. Nessuna alterazione del tono dell'umore rilevata.",
     "entities": [
       {
         "text": "18 novembre",
@@ -2024,7 +2040,7 @@
         "label": "AGE"
       },
       {
-        "text": "via San Donato",
+        "text": "VIA SAN DONATO",
         "label": "LOC"
       }
     ]
@@ -2098,7 +2114,7 @@
     "entities": []
   },
   {
-    "text": "Visita di controllo: il paziente appare tranquillo e lucido. Continua il trattamento con buprenorfina, senza segni di effetti collaterali evidenti. Tuttavia, riferisce difficoltà ad adattarsi a un cambiamento nel piano terapeutico. La discussione ha toccato la sua storia di abuso di sostanze, con un focus sui suoi tentativi di astinenza. Il sostegno psicologico sarà rafforzato.",
+    "text": "Visita di controllo: il paziente appare tranquillo e lucido. Continua il trattamento con buprenorfina, senza segni di effetti collaterali EVIDENTI. Tuttavia, riferisce difficoltà ad adattarsi a un cambiamento nel piano terapeutico. La discussione ha toccato la sua storia di abuso di sostanze, con un focus sui suoi tentativi di astinenza. Il sostegno psicologico sarà rafforzato.",
     "entities": []
   },
   {
@@ -2149,10 +2165,10 @@
     ]
   },
   {
-    "text": "Ha partecipato con interesse al laboratorio teatrale organizzato da Casa Aurora. Mostra buona adesione al programma terapeutico e riferisce miglioramento dell'umore. Nessuna richiesta di BDZ.",
+    "text": "Ha partecipato con interesse al laboratorio teatrale organizzato da CASA AURORA. Mostra buona adesione al programma terapeutico e riferisce miglioramento dell'umore. Nessuna richiesta di BDZ.",
     "entities": [
       {
-        "text": "Casa Aurora",
+        "text": "CASA AURORA",
         "label": "ORG"
       }
     ]
@@ -2171,10 +2187,10 @@
     ]
   },
   {
-    "text": "Assente alla seduta di gruppo del mattino. Contattato telefonicamente, riferisce malessere fisico e si trova presso il Pronto Soccorso del Policlinico Umberto I. Si attende referto medico.",
+    "text": "Assente alla seduta di gruppo del mattino. Contattato telefonicamente, riferisce malessere fisico e si trova presso il Pronto Soccorso del POLICLINICO UMBERTO I. Si attende referto medico.",
     "entities": [
       {
-        "text": "Policlinico Umberto I",
+        "text": "POLICLINICO UMBERTO I",
         "label": "FAC"
       }
     ]
@@ -2215,14 +2231,14 @@
     ]
   },
   {
-    "text": "In data 12 novembre, colloquio con la dott.ssa Dalla focalizzato sulla gestione dell’impulsività. Il paziente, di 27 anni, ha accettato la proposta di inserimento nel programma residenziale presso il centro Il Faro.",
+    "text": "In data 12 novembre, colloquio con la dott.ssa DALLA focalizzato sulla gestione dell’impulsività. Il paziente, di 27 anni, ha accettato la proposta di inserimento nel programma residenziale presso il centro Il Faro.",
     "entities": [
       {
         "text": "12 novembre",
         "label": "DATE"
       },
       {
-        "text": "Dalla",
+        "text": "DALLA",
         "label": "PER"
       },
       {
@@ -2244,11 +2260,11 @@
     "entities": []
   },
   {
-    "text": "Paziente ammette di aver avuto difficoltà a seguire le indicazioni terapeutiche negli ultimi giorni, specialmente per quanto riguarda l'assunzione dei farmaci. Ha dichiarato che l'efficacia del trattamento con buprenorfina è stata limitata dal suo continuo desiderio di consumare sostanze. La seduta psicoterapica è stata focalizzata sull'importanza della motivazione interna nel mantenimento della sobrietà. Si concorda di aumentare il supporto psicoterapico e di monitorare più frequentemente l'assunzione della buprenorfina.",
+    "text": "Paziente ammette di aver avuto difficoltà a seguire le indicazioni terapeutiche negli ULTIMI giorni, specialmente per quanto riguarda l'assunzione dei farmaci. Ha dichiarato che l'efficacia del trattamento con buprenorfina è stata limitata dal suo continuo desiderio di consumare sostanze. La seduta psicoterapica è stata focalizzata sull'importanza della motivazione interna nel mantenimento della sobrietà. Si concorda di aumentare il supporto psicoterapico e di monitorare più FREQUENTEMENTE l'assunzione della buprenorfina.",
     "entities": []
   },
   {
-    "text": "Il paziente, durante l'incontro, ha riportato un episodio di ricaduta, caratterizzato dall'assunzione di cocaina in un contesto sociale. Ha espresso grande rammarico per l'incidente, ma al contempo si è dichiarato determinato a riprendere il cammino verso la guarigione. Ha accettato di incrementare la dose di clonazepam per gestire meglio le crisi d'ansia legate alla ricaduta. Non sono stati osservati segnali di psicosi o allucinazioni.",
+    "text": "Il paziente, durante l'incontro, ha riportato un episodio di ricaduta, caratterizzato dall'assunzione di cocaina in un contesto sociale. Ha espresso grande rammarico per l'incidente, ma al contempo si è dichiarato determinato a riprendere il cammino verso la guarigione. Ha accettato di incrementare la dose di clonazepam per GESTIRE meglio le crisi d'ansia legate alla ricaduta. Non sono stati osservati segnali di psicosi o allucinazioni.",
     "entities": []
   },
   {
@@ -2282,14 +2298,14 @@
     ]
   },
   {
-    "text": "Si presenta agitato, lamentando forti craving da cocaina. Dopo breve contenimento verbale, accetta di restare in struttura. Si segnala episodio simile già avvenuto il 3 settembre presso il centro di via San Martino.",
+    "text": "Si presenta agitato, lamentando forti craving da cocaina. Dopo breve contenimento verbale, accetta di restare in struttura. Si segnala episodio simile già avvenuto il 3 settembre presso il centro di VIA SAN MARTINO.",
     "entities": [
       {
         "text": "3 settembre",
         "label": "DATE"
       },
       {
-        "text": "via San Martino",
+        "text": "VIA SAN MARTINO",
         "label": "LOC"
       }
     ]
@@ -2563,19 +2579,19 @@
     ]
   },
   {
-    "text": "Ha partecipato al gruppo terapeutico presso il Centro San Michele. Buona interazione con gli altri utenti. Riferisce di aver ridotto il consumo di alcolici, ma persiste uso occasionale di cannabis.",
+    "text": "Ha partecipato al gruppo terapeutico presso il Centro SAN MICHELE. Buona interazione con gli altri utenti. Riferisce di aver ridotto il consumo di alcolici, ma persiste uso occasionale di cannabis.",
     "entities": [
       {
-        "text": "San Michele",
+        "text": "SAN MICHELE",
         "label": "FAC"
       }
     ]
   },
   {
-    "text": "In data odierna si presenta accompagnato dalla madre, signora Teresa. Lamenta ansia generalizzata e difficoltà di concentrazione. Si propone valutazione neuropsicologica.",
+    "text": "In data odierna si presenta accompagnato dalla madre, signora TERESA. Lamenta ansia generalizzata e difficoltà di concentrazione. Si propone valutazione neuropsicologica.",
     "entities": [
       {
-        "text": "Teresa",
+        "text": "TERESA",
         "label": "PER"
       }
     ]
@@ -2832,17 +2848,12 @@
     "entities": []
   },
   {
-    "text": "L'umore appare stabile, ma il paziente ha riferito di sentirsi ancora sopraffatto dalla voglia di consumare. Abbiamo discusso delle strategie per affrontare la tentazione, focalizzandoci sulle tecniche di gestione dello stress. Il supporto psicoterapeutico è stato intensificato e sarà monitorato l'effetto del nuovo piano terapeutico. È stato concordato di proseguire con la terapia a base di nalmefene.",
+    "text": "L'umore appare stabile, ma il paziente ha riferito di sentirsi ancora sopraffatto dalla voglia di consumare. Abbiamo discusso delle strategie per affrontare la tentazione, focalizzandoci SULLE tecniche di gestione dello stress. Il supporto psicoterapeutico è stato intensificato e sarà monitorato l'effetto del nuovo piano terapeutico. È stato concordato di proseguire con la terapia a base di nalmefene.",
     "entities": []
   },
   {
-    "text": "Paziente che si presenta con una forma lieve di disforia e nervosismo. Non ha segnalato assunzione di alcol o droghe nelle ultime settimane. Il piano di trattamento prevede una combinazione di farmaci stabilizzanti dell'umore, ma il paziente ha espresso alcune perplessità riguardo agli effetti collaterali. Si è deciso di rinviare l'introduzione di nuovi farmaci fino alla prossima visita, in cui si parlerà di un possibile incremento del dosaggio di lamotrigina.",
-    "entities": [
-      {
-        "text": "disforia",
-        "label": "NORP"
-      }
-    ]
+    "text": "Paziente che si presenta con una forma lieve di disforia e nervosismo. Non ha segnalato assunzione di alcol o droghe nelle ultime settimane. Il piano di trattamento prevede una combinazione di farmaci stabilizzanti dell'umore, ma il paziente ha espresso alcune perplessità riguardo agli EFFETTI collaterali. Si è deciso di rinviare l'introduzione di nuovi farmaci fino alla prossima visita, in cui si parlerà di un possibile incremento del dosaggio di lamotrigina.",
+    "entities": []
   },
   {
     "text": "Paziente ha riferito un miglioramento nel suo stato di salute generale, con riduzione dell'ansia e maggiore lucidità mentale. Nessun episodio di delirio o allucinazioni nelle ultime due settimane. Si è mostrata soddisfatta dell'andamento del trattamento. Si consiglia un altro mese di monitoraggio con controllo settimanale della pressione sanguigna e dei parametri metabolici.",
@@ -2867,12 +2878,7 @@
   },
   {
     "text": "Durante il colloquio, il paziente ha ammesso di aver avuto qualche tentazione di ricaduta, ma ha resistito grazie al supporto della famiglia. La madre, presente al colloquio, ha espresso preoccupazione per la stabilità emotiva del paziente. È stato deciso di continuare con il piano di trattamento attuale.",
-    "entities": [
-      {
-        "text": "piano di trattamento",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Il trattamento con buprenorfina è stato aumentato, in quanto il paziente ha avuto difficoltà a mantenere la sobrietà. Tuttavia, sono stati osservati segnali di miglioramento nell’umore e nella motivazione, con riduzione dei sintomi depressivi. Il follow-up è fissato per il 15 novembre.",
@@ -3109,14 +3115,14 @@
     "entities": []
   },
   {
-    "text": "Il paziente riferisce un episodio di craving intenso legato all'uso di heroin e alcune difficoltà nella gestione dello stress quotidiano. La terapia farmacologica include ora Bupropione, e si propone un percorso di counseling psicologico presso il centro di Isole Tremiti. Si raccomanda monitoraggio settimanale delle reazioni avverse.",
+    "text": "Il paziente riferisce un episodio di craving intenso legato all'uso di HEROIN e alcune difficoltà nella gestione DELLO stress quotidiano. La terapia farmacologica include ora Bupropione, e si propone un percorso di counseling psicologico presso il centro di ISOLE TREMITI. Si raccomanda monitoraggio settimanale delle reazioni avverse.",
     "entities": [
       {
         "text": "Bupropione",
         "label": "PRODUCT"
       },
       {
-        "text": "Isole Tremiti",
+        "text": "ISOLE TREMITI",
         "label": "GPE"
       }
     ]
@@ -3210,18 +3216,18 @@
     ]
   },
   {
-    "text": "Valutato un persistente desiderio di consumo di alcol, associato a episodi di irritabilità e disturbi del sonno. La gestione psicologica si concentra sulla motivazione al cambiamento, con supporto di tecniche cognitivo-comportamentali. Ricorda un episodio recente presso il bar \"Le Nuvole\" in via crociale a Poggio San Vicino, che ha favorito un primo tentativo di abstinenza. Si invita alla partecipazione a un gruppo di supporto locale.",
+    "text": "Valutato un persistente desiderio di consumo di alcol, associato a episodi di irritabilità e disturbi del sonno. La gestione psicologica si concentra sulla motivazione al cambiamento, con supporto di tecniche cognitivo-comportamentali. Ricorda un episodio recente presso il bar \"Le Nuvole\" in VIA CROCIALE a POGGIO SAN VICINO, che ha favorito un primo tentativo di abstinenza. Si invita alla partecipazione a un gruppo di supporto locale.",
     "entities": [
       {
         "text": "Le Nuvole",
         "label": "ORG"
       },
       {
-        "text": "via crociale",
+        "text": "VIA CROCIALE",
         "label": "LOC"
       },
       {
-        "text": "Poggio San Vicino",
+        "text": "POGGIO SAN VICINO",
         "label": "GPE"
       }
     ]
@@ -3283,10 +3289,10 @@
     ]
   },
   {
-    "text": "Colloquio svolto presso il cps di via Monte Rosa. Il paziente appare collaborante, ma minimizza l’impatto dell’alcol sul proprio funzionamento. Si propone inserimento in gruppo motivazionale. Invariata la terapia con naltrexone e quetiapina.",
+    "text": "Colloquio svolto presso il CPS di via Monte Rosa. Il paziente appare collaborante, ma minimizza l’impatto dell’alcol sul proprio funzionamento. Si propone inserimento in gruppo motivazionale. Invariata la terapia con naltrexone e quetiapina.",
     "entities": [
       {
-        "text": "cps",
+        "text": "CPS",
         "label": "ORG"
       },
       {
@@ -3382,14 +3388,14 @@
     ]
   },
   {
-    "text": "Durante la seduta di oggi, il paziente ha riferito di sentirsi piuttosto ansioso, soprattutto la notte. Non ha avuto episodi di abuso recente, ma continua a lottare con la voglia di consumare. Il trattamento con metadone sta dando buoni risultati, ma persiste una lieve difficoltà nel gestire lo stress quotidiano. In aggiunta, sono stati suggeriti dei colloqui settimanali con il terapeuta per monitorare meglio la situazione. Il paziente ha 34 anni, residente a Angoli.",
+    "text": "Durante la seduta di oggi, il paziente ha riferito di sentirsi piuttosto ansioso, soprattutto la notte. Non ha avuto episodi di abuso recente, ma continua a lottare con la voglia di consumare. Il trattamento con metadone sta dando buoni risultati, ma persiste una lieve difficoltà nel gestire lo stress quotidiano. In aggiunta, sono stati suggeriti dei colloqui settimanali con il terapeuta per monitorare meglio la situazione. Il paziente ha 34 anni, residente a ANGOLI.",
     "entities": [
       {
         "text": "34 anni",
         "label": "AGE"
       },
       {
-        "text": "Angoli",
+        "text": "ANGOLI",
         "label": "GPE"
       }
     ]
@@ -3498,6 +3504,10 @@
         "label": "GPE"
       },
       {
+        "text": "15 aprile 2023",
+        "label": "DATE"
+      },
+      {
         "text": "Fondazione Hospital",
         "label": "ORG"
       },
@@ -3510,6 +3520,14 @@
   {
     "text": "Il paziente, una donna di 35 anni, ha mostrato un miglioramento della consapevolezza riguardo ai rischi associati all’uso di cocaina, anche se dichiara di affrontare ancora difficoltà nel gestire lo stress, specialmente dopo il divorzio avvenuto nel dicembre 2022. La terapia psicofarmacologica prevede l’uso di sertralina e naltrexone. Durante il colloquio, si è discusso dell’importanza di partecipare alle sessioni di sostegno presso il centro di via XX Settembre, Gangi. È stato consigliato di implementare tecniche di mindfulness e di valutare l’ingresso in un programma di riabilitazione residenziale.",
     "entities": [
+      {
+        "text": "35 anni",
+        "label": "AGE"
+      },
+      {
+        "text": "dicembre 2022",
+        "label": "DATE"
+      },
       {
         "text": "via XX Settembre",
         "label": "LOC"
@@ -3646,8 +3664,8 @@
         "label": "FAC"
       },
       {
-        "text": "musicoterapia",
-        "label": "WORKS_OF_ART"
+        "text": "dicembre",
+        "label": "DATE"
       }
     ]
   },
@@ -3704,10 +3722,10 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio emergono vissuti depressivi legati alla separazione dalla compagna. Il paziente menziona il bar \"La Lanterna\" come luogo di ricaduta. Si concorda inserimento nel gruppo terapeutico del lunedì pomeriggio.",
+    "text": "Durante il colloquio emergono vissuti depressivi legati alla SEPARAZIONE dalla compagna. Il paziente menziona il bar \"LA LANTERNA\" come luogo di ricaduta. Si concorda inserimento nel gruppo terapeutico del lunedì pomeriggio.",
     "entities": [
       {
-        "text": "La Lanterna",
+        "text": "LA LANTERNA",
         "label": "ORG"
       }
     ]
@@ -3748,7 +3766,7 @@
     "entities": []
   },
   {
-    "text": "Durante la seduta odierna, il paziente ha espresso un certo livello di frustrazione riguardo alla terapia, lamentando l'incapacità di rimanere senza alcol per lunghi periodi. È stato evidenziato un lieve aumento dei sintomi depressivi, ma senza segni evidenti di psicosi. L'umore è variabile, e viene concordato di intensificare la somministrazione di sertralina, in combinazione con una lieve dose di alprazolam per migliorare il controllo dell'ansia. Riflessione sul supporto familiare, con richiesta di coinvolgimento di PER (padre) nelle prossime sedute.",
+    "text": "Durante la seduta odierna, il paziente ha espresso un certo livello di frustrazione riguardo alla terapia, lamentando l'incapacità di rimanere senza alcol per lunghi periodi. È stato EVIDENZIATO un lieve aumento dei sintomi depressivi, ma senza segni evidenti di psicosi. L'umore è variabile, e viene concordato di intensificare la somministrazione di sertralina, in combinazione con una lieve dose di alprazolam per migliorare il controllo dell'ansia. Riflessione sul supporto familiare, con richiesta di coinvolgimento di PER (PADRE) nelle prossime sedute.",
     "entities": []
   },
   {
@@ -3790,14 +3808,14 @@
     ]
   },
   {
-    "text": "Umore deflesso, lamenta insonnia e pensieri intrusivi. Segnala ricaduta in uso di cocaina il fine settimana scorso. Si concorda inserimento in programma intensivo presso il reparto SPDC del Policlinico Gemelli. Contattata la sorella, la sig.ra Francesca Iadanza, per supporto familiare.",
+    "text": "Umore deflesso, lamenta insonnia e pensieri intrusivi. Segnala ricaduta in uso di cocaina il fine settimana scorso. Si concorda inserimento in programma INTENSIVO presso il reparto SPDC del POLICLINICO GEMELLI. Contattata la sorella, la sig.ra Francesca Iadanza, per supporto familiare.",
     "entities": [
       {
         "text": "SPDC",
         "label": "FAC"
       },
       {
-        "text": "Policlinico Gemelli",
+        "text": "POLICLINICO GEMELLI",
         "label": "FAC"
       },
       {
@@ -3807,14 +3825,14 @@
     ]
   },
   {
-    "text": "Riferisce buona aderenza al piano terapeutico. Nessun episodio di uso da oltre 3 mesi. Continua a frequentare il centro diurno di san donato. In corso psicoterapia individuale con la dott.ssa L. Renzi. Prossimo controllo previsto per il 5 dicembre.",
+    "text": "Riferisce buona aderenza al piano terapeutico. Nessun episodio di uso da oltre 3 mesi. Continua a frequentare il centro diurno di san donato. In corso psicoterapia individuale con la dott.ssa L. RENZI. PROSSIMO controllo previsto per il 5 dicembre.",
     "entities": [
       {
         "text": "san donato",
         "label": "LOC"
       },
       {
-        "text": "L. Renzi",
+        "text": "L. RENZI",
         "label": "PER"
       },
       {
@@ -3868,10 +3886,6 @@
       {
         "text": "Reparto di Riabilitazione di Casteldidone",
         "label": "ORG"
-      },
-      {
-        "text": "Mindfulness",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -3914,6 +3928,10 @@
         "label": "PRODUCT"
       },
       {
+        "text": "34 anni",
+        "label": "AGE"
+      },
+      {
         "text": "La Piazza",
         "label": "ORG"
       }
@@ -3950,15 +3968,11 @@
     "entities": []
   },
   {
-    "text": "Il paziente è stato visto oggi in consulto. Il suo umore è stabile ma continua a lamentare ansia durante il trattamento con SSRI. La famiglia ha espresso preoccupazione per la progressiva alienazione sociale. Sono stati suggeriti incontri settimanali con il supporto di un counselor familiare.",
+    "text": "Il PAZIENTE è stato visto oggi in consulto. Il suo umore è stabile ma continua a lamentare ansia durante il trattamento con SSRI. La famiglia ha espresso preoccupazione per la progressiva ALIENAZIONE sociale. Sono stati suggeriti incontri settimanali con il supporto di un counselor familiare.",
     "entities": [
       {
         "text": "SSRI",
         "label": "PRODUCT"
-      },
-      {
-        "text": "counselor familiare",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -3967,13 +3981,8 @@
     "entities": []
   },
   {
-    "text": "L'incontro di oggi ha mostrato un lieve miglioramento nel comportamento del paziente. Non sono segnalati episodi di abuso di sostanze, ma la continua lotta contro la depressione è evidente. È stato suggerito un aumento della dose di fluoxetina e si è discusso della possibilità di intraprendere una terapia cognitivo-comportamentale.",
-    "entities": [
-      {
-        "text": "terapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "text": "L'incontro di oggi ha mostrato un lieve miglioramento nel comportamento del paziente. Non sono segnalati episodi di abuso di sostanze, ma la continua lotta contro la depressione è evidente. È stato suggerito un aumento della dose di fluoxetina e si è DISCUSSO della possibilità di intraprendere una terapia cognitivo-comportamentale.",
+    "entities": []
   },
   {
     "text": "Riferisce di aver avuto una crisi d’ansia intensa durante la notte tra il 12 e il 13 novembre. Ha assunto 10 gocce di EN senza autorizzazione. Si concorda di mantenere attuale dosaggio di quetiapina e monitorare eventuali episodi simili. Nessun sintomo psicotico attivo.",
@@ -4090,33 +4099,41 @@
         "label": "PRODUCT"
       },
       {
-        "text": "\"Il Cavallino\" di Via Torquato",
+        "text": "Il Cavallino",
         "label": "ORG"
+      },
+      {
+        "text": "Via Torquato",
+        "label": "LOC"
       }
     ]
   },
   {
-    "text": "Osservata una riduzione delle manifestazioni depressive e un miglioramento nel controllo delle compulsioni legate all'alcol. La terapia attualmente include SERTRALINA, con dosis incrementata a 100 mg/die. La paziente è stata indirizzata a partecipare al gruppo di auto-aiuto presso il centro diurni di Rocca Imperiale. Emergenza di pensieri nostalgici e ricordi di eventi traumatici, che verranno approfonditi nel prossimo colloquio.",
+    "text": "Osservata una riduzione delle manifestazioni depressive e un miglioramento nel controllo delle compulsioni legate all'alcol. La terapia attualmente include SERTRALINA, con dosis incrementata a 100 mg/die. La paziente è stata INDIRIZZATA a partecipare al gruppo di auto-aiuto presso il centro diurni di ROCCA IMPERIALE. Emergenza di pensieri nostalgici e ricordi di eventi traumatici, che verranno approfonditi nel prossimo colloquio.",
     "entities": [
       {
         "text": "SERTRALINA",
         "label": "PRODUCT"
       },
       {
-        "text": "Rocca Imperiale",
+        "text": "ROCCA IMPERIALE",
         "label": "GPE"
       }
     ]
   },
   {
-    "text": "In visita di controllo, si evidenzia una buona compliance alla terapia con SSRI e un'età di 38 anni. Si discute di un possibile intervento psicosociale presso il quartiere San Siro, in San Pietro Piturno, per rafforzare gli aspetti di supporto comunitario. La paziente ha manifestato una lieve perdita di peso e alcuni disturbi del sonno, probabilmente correlati all'ansia di astinenza. Si consiglia di monitorare i parametri elettricolitici e di valutare l'integrazione di melatonina.",
+    "text": "In visita di controllo, si evidenzia una buona compliance alla terapia con SSRI e un'età di 38 anni. Si DISCUTE di un possibile intervento psicosociale presso il QUARTIERE SAN SIRO, in San Pietro Piturno, per rafforzare gli aspetti di supporto comunitario. La paziente ha manifestato una lieve perdita di peso e alcuni disturbi del sonno, probabilmente correlati all'ansia di astinenza. Si consiglia di monitorare i parametri elettricolitici e di valutare l'integrazione di melatonina.",
     "entities": [
       {
         "text": "SSRI",
         "label": "PRODUCT"
       },
       {
-        "text": "quartiere San Siro",
+        "text": "38 anni",
+        "label": "AGE"
+      },
+      {
+        "text": "QUARTIERE SAN SIRO",
         "label": "LOC"
       },
       {
@@ -4126,7 +4143,7 @@
     ]
   },
   {
-    "text": "Il paziente ha riferito miglioramenti nelle ultime settimane riguardo il controllo degli impulsi. Durante il colloquio, ha accennato a preoccupazioni legate alla gestione del tempo libero e al possibile rischio di ricaduta in situazioni stressanti. La terapia cognitivo-comportamentale sta mostrando progressi. Nessun segno evidente di acuzie psicopatologiche. Il supporto della famiglia, in particolare il padre, sembra avere un impatto positivo sul percorso di recupero.",
+    "text": "Il paziente ha riferito miglioramenti nelle ultime settimane RIGUARDO il controllo degli impulsi. Durante il colloquio, ha accennato a preoccupazioni legate alla gestione del tempo libero e al possibile rischio di ricaduta in situazioni stressanti. La terapia cognitivo-comportamentale sta mostrando progressi. Nessun segno evidente di acuzie psicopatologiche. Il supporto della famiglia, in particolare il padre, sembra avere un impatto positivo sul percorso di recupero.",
     "entities": []
   },
   {
@@ -4164,7 +4181,12 @@
   },
   {
     "text": "Il paziente ha riferito una situazione di stress acuto legata alla sua vita personale, con difficoltà a gestire le emozioni. L'integrazione di una terapia cognitivo-comportamentale per migliorare la gestione dello stress è stata discussa. La terapia farmacologica include metadone, che è stato adattato per ridurre le dosi quotidiane. È stato programmato un incontro con il team di sostegno psicologico per il 15 novembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "15 novembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Rientro in struttura dopo il periodo di distacco. Il paziente ha mostrato segnali di miglioramento nella gestione dell'ansia, ma è ancora in fase di stabilizzazione. La terapia con lamotrigina è stata avviata con un dosaggio moderato, monitorando attentamente gli effetti collaterali. Il supporto psicoterapeutico continua, con incontri settimanali. È stata pianificata una rivalutazione del trattamento farmacologico tra 15 giorni, a seguito di un nuovo controllo clinico.",
@@ -4214,10 +4236,10 @@
     ]
   },
   {
-    "text": "Ha accettato con riluttanza la proposta di inserimento in comunità terapeutica. Si è optato per invio presso il centro \"Casa Aurora\" a partire dal 2 dicembre. In attesa di disponibilità, si manterrà il monitoraggio settimanale.",
+    "text": "Ha accettato con riluttanza la proposta di inserimento in comunità terapeutica. Si è optato per invio presso il centro \"CASA AURORA\" a partire dal 2 dicembre. In attesa di disponibilità, si manterrà il monitoraggio settimanale.",
     "entities": [
       {
-        "text": "Casa Aurora",
+        "text": "CASA AURORA",
         "label": "FAC"
       },
       {
@@ -4250,10 +4272,6 @@
       {
         "text": "Liliana",
         "label": "PER"
-      },
-      {
-        "text": "terapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -4367,12 +4385,7 @@
   },
   {
     "text": "Durante la visita si è notata una maggiore consapevolezza dei propri comportamenti autolesionistici. È stata proposta l'implementazione di un percorso di terapia cognitivo-comportamentale e l'uso di medici antidepressivi. È stato inoltre rivisto il piano di intervento per la gestione delle crisi di panico, con l'uso di tecniche di respirazione e l'indicazione di un numero di emergenza da contattare in caso di rischio elevato.",
-    "entities": [
-      {
-        "text": "terapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Durante il colloquio, emergono segnali di lieve ansia e qualche difficoltà nel mantenere l'astinenza da sostanze psicoattive. È stata valutata l'opportunità di modulare la terapia con l'aggiunta di clonazepam e di coinvolgere un gruppo di supporto locale presso l'ORT in centro città. La paziente mostra buona motivazione, ma necessita di un monitoraggio più frequente per prevenire eventuali ricadute.",
@@ -4406,10 +4419,10 @@
     ]
   },
   {
-    "text": "Buona aderenza al programma terapeutico presso il centro Villa Aurora. Nessun episodio di craving segnalato nell'ultima settimana. Continua la terapia con Suboxone 8mg/die. Prossimo controllo previsto per il 28 novembre 2025.",
+    "text": "Buona aderenza al programma terapeutico presso il centro VILLA AURORA. Nessun episodio di craving segnalato nell'ultima settimana. Continua la terapia con Suboxone 8mg/die. Prossimo controllo previsto per il 28 novembre 2025.",
     "entities": [
       {
-        "text": "Villa Aurora",
+        "text": "VILLA AURORA",
         "label": "FAC"
       },
       {
@@ -4645,10 +4658,6 @@
     "text": "Durante la visita, il paziente ha raccontato dei suoi progressi nel controllo dell'impulsività, pur avendo sperimentato un episodio di stress intenso legato al lavoro. Non sono emersi segni evidenti di recidiva, ma sono stati segnalati episodi di insonnia intermittente. Il trattamento psicoterapeutico continuerà con un focus sul miglioramento delle capacità di coping. È stato raccomandato di monitorare i livelli di vitamina D, considerando l'integrazione nutrizionale.",
     "entities": [
       {
-        "text": "lavoro",
-        "label": "WORKS_OF_ART"
-      },
-      {
         "text": "vitamina D",
         "label": "PRODUCT"
       }
@@ -4699,7 +4708,7 @@
         "label": "PATIENT"
       },
       {
-        "text": "28",
+        "text": "28 anni",
         "label": "AGE"
       }
     ]
@@ -4784,7 +4793,7 @@
     "entities": []
   },
   {
-    "text": "In seguito alla consultazione con il medico curante, il paziente ha accettato di avviare un programma di disintossicazione da oppiacei. Si è notata una lieve sintomatologia da astinenza, ma la gestione clinica è stata adeguata con il supporto di buprenorfina. Resta da monitorare il suo stato psicologico, poiché sono emerse preoccupazioni circa la sua motivazione a lungo termine per il trattamento. Si pianifica di rivedere il piano terapeutico dopo una settimana.",
+    "text": "In seguito alla consultazione con il medico curante, il paziente ha accettato di AVVIARE un programma di disintossicazione da OPPIACEI. Si è notata una LIEVE sintomatologia da astinenza, ma la gestione clinica è stata adeguata con il supporto di buprenorfina. Resta da monitorare il suo stato psicologico, poiché sono emerse preoccupazioni circa la sua motivazione a lungo termine per il trattamento. Si pianifica di rivedere il piano terapeutico dopo una settimana.",
     "entities": []
   },
   {
@@ -4928,6 +4937,10 @@
     "text": "Il paziente, un giovane di 32 anni, mostra segni di ansia sociale e una lieve depressione, probabilmente correlata alla difficoltà di mantenere l'astinenza dalla sostanza. La terapia con gabapentin è stata prescritta per gestire i sintomi di ansia. Si è anche pianificato un intervento di riabilitazione psicosociale presso strutture specializzate del  di Sorbara. La motivazione appare stabile, ma si suggerisce un potenziamento del supporto familiare.",
     "entities": [
       {
+        "text": "32 anni",
+        "label": "AGE"
+      },
+      {
         "text": "di Sorbara",
         "label": "GPE"
       }
@@ -4947,7 +4960,7 @@
     ]
   },
   {
-    "text": "Durante la seduta odierna, si osserva un miglioramento generale del quadro clinico. Il paziente riferisce di una riduzione nel desiderio di consumo di sostanze oppiacee e manifesta meno ansia rispetto alla scorsa settimana. Prima delle ferie, aveva manifestato episodi di irritabilità e insonnia, ora in miglioramento. È stato deciso di mantenere il dosaggio attuale di naltrexone, monitorando eventuali effetti collaterali presso la struttura di Ospedale San Giovanni. Si raccomanda di proseguire con le sessioni di terapia cognitivo-comportamentale e di monitorare i parametri biochimici, in particolare il valore di cannabinoids e emocromo.",
+    "text": "Durante la seduta odierna, si osserva un miglioramento generale del quadro clinico. Il paziente riferisce di una riduzione nel desiderio di consumo di sostanze oppiacee e manifesta meno ansia rispetto alla scorsa settimana. Prima delle ferie, aveva manifestato episodi di irritabilità e insonnia, ora in miglioramento. È stato deciso di mantenere il dosaggio attuale di naltrexone, monitorando eventuali effetti collaterali presso la struttura di Ospedale San Giovanni. Si raccomanda di PROSEGUIRE con le sessioni di terapia cognitivo-comportamentale e di monitorare i parametri biochimici, in particolare il valore di cannabinoids e emocromo.",
     "entities": [
       {
         "text": "San Giovanni",
@@ -4958,6 +4971,10 @@
   {
     "text": "La sessione di oggi ha evidenziato un ostinato senso di disagio e qualche episodio di craving. La paziente, di 36 anni, ha riferito recenti tentativi di abbandono della terapia di disintossicazione senza successo. Riferisce di aver consumato alcool e turkmeni nelle ultime due settimane, nonostante la terapia farmacologica con acamprosato. Si consiglia di intensificare il supporto psicologico e di valutare un possibile inserimento in ricovero presso il Reparto Dipendenze dell’ASL di San Cono per un monitoraggio più stretto.",
     "entities": [
+      {
+        "text": "36 anni",
+        "label": "AGE"
+      },
       {
         "text": "Reparto Dipendenze",
         "label": "FAC"
@@ -5051,7 +5068,7 @@
     "entities": []
   },
   {
-    "text": "Il paziente ha confermato la sua intenzione di partecipare a un programma residenziale a lungo termine. Nonostante alcune esitazioni iniziali, si mostra ora più motivato. Si è discusso di avviare un piano per la gestione delle sue emozioni, con particolare attenzione alle problematiche legate alla solitudine e all'isolamento sociale. Il prossimo incontro con il team terapeutico è fissato per il 5 dicembre.",
+    "text": "Il paziente ha confermato la sua intenzione di partecipare a un programma residenziale a LUNGO termine. Nonostante alcune esitazioni iniziali, si mostra ora più motivato. Si è discusso di avviare un piano per la gestione delle sue emozioni, con particolare attenzione alle problematiche legate alla solitudine e all'isolamento sociale. Il prossimo incontro con il team TERAPEUTICO è fissato per il 5 dicembre.",
     "entities": [
       {
         "text": "5 dicembre",
@@ -5065,10 +5082,6 @@
       {
         "text": "Garozzo",
         "label": "PATIENT"
-      },
-      {
-        "text": "adolescente",
-        "label": "AGE"
       }
     ]
   },
@@ -5082,7 +5095,7 @@
     ]
   },
   {
-    "text": "Il paziente manifesta una buona adesione alla terapia con buone capacità di coping, tuttavia persistono episodi di irritabilità e ansia. È stato consigliato di integrare la terapia con farmaci serotonergici e di coinvolgere il supporto dei servizi sociali dell'ASP di Monteodorisio per facilitare il reinserimento sociale.",
+    "text": "Il paziente manifesta una buona adesione alla terapia con buone capacità di coping, tuttavia persistono episodi di irritabilità e ansia. È stato consigliato di integrare la terapia con FARMACI serotonergici e di coinvolgere il supporto dei servizi sociali DELL'ASP di Monteodorisio per facilitare il reinserimento sociale.",
     "entities": [
       {
         "text": "ASP di Monteodorisio",
@@ -5450,7 +5463,7 @@
     ]
   },
   {
-    "text": "L'intervento odierno ha evidenziato una buona risposta ai farmaci antidepressivi, con miglioramento del quadro clinico generale. Tuttavia, il soggetto continua a manifestare episodi di nostalgia e di isolamento sociale, probabilmente legati a fattori ambientali e familiari. È stata rafforzata la strategia di intervento cognitivo-comportamentale, con particolare attenzione alla gestione delle tentazioni associate all'ambiente di lavoro in Galleria <<Via Arvier>>. Sono state programmate ulteriori incontri di supporto e supervisione.",
+    "text": "L'intervento ODIERNO ha evidenziato una buona risposta ai farmaci antidepressivi, con miglioramento del quadro clinico generale. Tuttavia, il soggetto continua a manifestare episodi di nostalgia e di isolamento sociale, probabilmente legati a fattori ambientali e familiari. È stata rafforzata la strategia di intervento cognitivo-comportamentale, con particolare attenzione alla GESTIONE delle tentazioni associate all'ambiente di lavoro in Galleria <<Via Arvier>>. Sono state programmate ulteriori incontri di supporto e supervisione.",
     "entities": [
       {
         "text": "Via Arvier",
@@ -5461,6 +5474,10 @@
   {
     "text": "Durante il colloquio, si è osservato un buon livello di consapevolezza riguardo ai propri pattern di abuso, con particolare attenzione alla relazione tra uso di alcool e stress sul lavoro. Si tratta di un soggetto di 45 anni, con storia di dipendenza cronica da oppiacei, attualmente in terapia con buprenorphina. Necessaria una valutazione più approfondita sulle potenziali interazioni con il circolo di <<Bar La Dolce Vita>> e altre attività ricreative. Si mantiene la motivazione al trattamento e si raccomanda di intensificare la terapia di sostegno psicologico.",
     "entities": [
+      {
+        "text": "45 anni",
+        "label": "AGE"
+      },
       {
         "text": "La Dolce Vita",
         "label": "ORG"
@@ -5576,10 +5593,15 @@
   },
   {
     "text": "Paziente 30enne con una storia di abuso di cocaina e alcool. Si segnala un miglioramento nel controllo delle sue compulsioni, ma sono evidenti difficoltà emotive e una marcata incertezza riguardo alle proprie capacità di auto-sostentamento. Sono stati aumentati i colloqui settimanali con il terapista, e si è deciso di introdurre un approccio cognitivo-comportamentale per affrontare i pensieri distruttivi. Proseguire con il supporto farmacologico per il trattamento del disturbo d'ansia generalizzata.",
-    "entities": []
+    "entities": [
+      {
+        "text": "30enne",
+        "label": "AGE"
+      }
+    ]
   },
   {
-    "text": "Durante la seduta, il paziente ha espresso la sua preoccupazione per la possibilità di ricadere, avvertendo un senso di vuoto che lo porta a cercare rifugio nell'abuso di alcol. Sono stati esplorati i trigger emotivi e la sua rete di supporto. La terapia è stata integrata con un programma di gruppi di sostegno settimanali, ed è stata confermata la necessità di un monitoraggio più frequente dei parametri vitali. La motivazione al cambiamento rimane buona.",
+    "text": "Durante la seduta, il paziente ha espresso la sua preoccupazione per la possibilità di ricadere, avvertendo un senso di vuoto che lo porta a cercare rifugio nell'abuso di alcol. Sono stati esplorati i trigger emotivi e la sua RETE di supporto. La terapia è stata integrata con un programma di gruppi di sostegno settimanali, ed è stata confermata la necessità di un monitoraggio più frequente dei parametri vitali. La motivazione al cambiamento rimane buona.",
     "entities": []
   },
   {
@@ -5632,7 +5654,7 @@
     ]
   },
   {
-    "text": "Durante la sessione, il paziente ha mostrato segni di miglioramento emotivo, seppur persistano preoccupazioni riguardo il futuro lavorativo. La madre ha confermato il supporto quotidiano. Viene concordata una riduzione della frequenza delle sedute, mantenendo comunque un contatto telefonico settimanale.",
+    "text": "Durante la sessione, il paziente ha mostrato segni di miglioramento emotivo, seppur persistano preoccupazioni riguardo il futuro lavorativo. La madre ha confermato il supporto quotidiano. Viene concordata una riduzione della FREQUENZA delle sedute, mantenendo comunque un contatto telefonico settimanale.",
     "entities": []
   },
   {
@@ -5692,33 +5714,20 @@
     ]
   },
   {
-    "text": "Durante questa seduta, si è riscontrata una lieve riduzione delle compulsioni legate all'uso di alcol, anche se permangono episodi di desiderio intenso. La terapia viene mantenuta con naltrexone 50 mg/die, e si discute l'importanza di coinvolgere il familiare PER, al fine di aumentare il supporto psicosociale. Si evidenzia inoltre un miglioramento nel tono dell'umore, anche se persistono segni di ansia generalizzata con aspetti di agitazione motoria. Si pianifica un follow-up tra due settimane per monitorare la compliance e valutare eventuali effetti collaterali.",
-    "entities": [
-      {
-        "text": "PER",
-        "label": "PER"
-      },
-      {
-        "text": "per",
-        "label": "PER"
-      }
-    ]
-  },
-  {
     "text": "L'incontro ha evidenziato una buona compliance alla terapia con disulfiram, anche se si registra una lieve irritabilità e qualche episodio di aggressività che attribuisce a stress lavorativo. Si consiglia di proseguire con il supporto psicoterapeutico presso il centro  di Macine e di rafforzare le strategie di coping. La presenza di segni di depressione maggiore può richiedere l'attivazione di un intervento farmacologico con SSRI. Sono stati inoltre programmati test tossicologici per verificare l'astinenza nel prossimi 15 giorni.",
     "entities": [
       {
-        "text": "di Macine",
+        "text": "Macine",
         "label": "GPE"
       }
     ]
   },
   {
-    "text": "Durante l'osservazione, si sono notate oscillazioni dell'umore e alcuni episodi di irritabilità che si ritiene siano collegati all'uso di cannabis. Si suggerisce di intensificare il supporto psicologico con attività di terapia cognitivo comportamentale presso il centro NORP di Maccastorna. È stato inoltre valutato l'uso di un farmaco stabilizzatore dell'umore, quale il valproato, alla luce dei recenti esami epatici che risultano comunque nella norma. La collaborazione con i servizi sociali locali rimane fondamentale per favorire il reinserimento sociale del paziente. La prossima seduta è programmata per fra una settimana.",
+    "text": "Durante l'osservazione, si sono notate oscillazioni dell'umore e alcuni episodi di irritabilità che si ritiene siano collegati all'uso di cannabis. Si suggerisce di intensificare il supporto psicologico con attività di terapia cognitivo comportamentale presso il centro di Maccastorna. È stato inoltre valutato l'uso di un farmaco stabilizzatore dell'umore, quale il valproato, alla luce dei recenti esami epatici che risultano comunque nella norma. La collaborazione con i servizi sociali locali rimane fondamentale per favorire il reinserimento sociale del paziente. La prossima seduta è programmata per fra una settimana.",
     "entities": [
       {
-        "text": "NORP di Maccastorna",
-        "label": "NORP"
+        "text": "Maccastorna",
+        "label": "GPE"
       }
     ]
   },
@@ -5821,7 +5830,7 @@
     "entities": []
   },
   {
-    "text": "Durante la seduta odierna, si è osservata una riduzione dell'ansia e una migliore compliance alla terapia con metadone. Il paziente riferisce di aver evitato l'uso di sostanze stupefacenti negli ultimi sette giorni, anche grazie al supporto della famiglia, in particolare del signor Guglielmo Gotti. Sono stati discussi i rischi di ricaduta e l'importanza di mantenere l'astinenza. Si consiglia un controllo più frequente e l'integrazione di tecniche di mindfulness.",
+    "text": "Durante la seduta odierna, si è osservata una riduzione dell'ansia e una migliore compliance alla terapia con metadone. Il paziente riferisce di aver evitato l'uso di sostanze stupefacenti negli ultimi sette GIORNI, anche grazie al supporto della famiglia, in particolare del signor Guglielmo Gotti. Sono stati discussi i rischi di ricaduta e l'importanza di mantenere l'astinenza. Si consiglia un controllo più frequente e l'integrazione di tecniche di mindfulness.",
     "entities": [
       {
         "text": "Guglielmo Gotti",
@@ -5849,6 +5858,10 @@
   {
     "text": "L'ultima valutazione ha evidenziato una stabile riduzione dei deficit di attenzione e impulsività, correlata all'assunzione di topiramato. La paziente, una donna di 29 anni, ha riacceso il desiderio di partecipare alle attività di gruppo presso il centro di riabilitazione di Arpaia, in zona Porta Romana. È stato evidenziato il miglioramento dell'umore con diminuzione dei pensieri paranoici eira di ricaduta. La terapia continua con supporto psicologico e terapia farmacologica. Nuove strategie di coping sono state discusse.",
     "entities": [
+      {
+        "text": "29 anni",
+        "label": "AGE"
+      },
       {
         "text": "Arpaia",
         "label": "GPE"
@@ -5878,6 +5891,10 @@
       {
         "text": "SSRI",
         "label": "PRODUCT"
+      },
+      {
+        "text": "24 anni",
+        "label": "AGE"
       },
       {
         "text": "Azzago",
@@ -5956,13 +5973,13 @@
     "text": "Paziente 35enne, con una storia di abuso di alcol e cannabis, sta migliorando con il trattamento farmacologico. Continuano i colloqui settimanali, ma la motivazione appare altalenante. Discussione sulla possibile reintegrazione lavorativa a breve termine, con il supporto della psicoterapia.",
     "entities": [
       {
-        "text": "psicoterapia",
-        "label": "WORKS_OF_ART"
+        "text": "35enne",
+        "label": "AGE"
       }
     ]
   },
   {
-    "text": "Il paziente si presenta con lieve incremento dell'ansia e della disforia rispetto alla visita precedente. Non segnala episodi di abuso recenti. Si continua con il regime terapeutico a base di metadone, con aggiustamento del dosaggio per migliorare il controllo dei sintomi astinenziali. Per il momento, si mantengono stabili i parametri vitali. Si consiglia di monitorare eventuali reazioni avverse legate al metadone e di procedere con un controllo dell'assetto epatico tra due settimane.",
+    "text": "Il paziente si presenta con lieve incremento dell'ansia e della disforia rispetto alla visita precedente. Non segnala episodi di abuso recenti. Si continua con il regime TERAPEUTICO a base di metadone, con aggiustamento del dosaggio per migliorare il controllo dei sintomi ASTINENZIALI. Per il momento, si mantengono stabili i parametri vitali. Si consiglia di monitorare eventuali reazioni avverse legate al metadone e di procedere con un controllo dell'assetto epatico tra due settimane.",
     "entities": []
   },
   {
@@ -5982,7 +5999,7 @@
     "entities": []
   },
   {
-    "text": "Durante la seduta odierna si evidenzia una ridotta craving per le sostanze stupefacenti, con miglioramento dell'umore complessivo e riduzione dei pensieri ricorrenti di automedicazione. È stato valutato l'uso continuato di metadone, con un dosaggio stabile di 80 mg giornalieri. Si sono discusse strategie di coping per prevenire ricadute, specialmente nei fine settimana, e si è approfondito il ruolo della rete di supporto familiare, in particolare la relazione con il/a genitore/madre, domiciliato/a a  Bordolano. La sintomatologia ansiosa si presenta lievemente attenuata, anche se persistono episodi di irritabilità notturna.",
+    "text": "Durante la seduta odierna si evidenzia una ridotta craving per le sostanze stupefacenti, con miglioramento dell'umore complessivo e riduzione dei pensieri ricorrenti di automedicazione. È stato valutato l'uso continuato di metadone, con un dosaggio stabile di 80 mg giornalieri. Si sono discusse STRATEGIE di coping per prevenire ricadute, specialmente nei fine settimana, e si è approfondito il ruolo della rete di supporto familiare, in particolare la relazione con il/a genitore/madre, domiciliato/a a Bordolano. La SINTOMATOLOGIA ansiosa si presenta lievemente attenuata, anche se persistono episodi di irritabilità notturna.",
     "entities": [
       {
         "text": "Bordolano",
@@ -5991,13 +6008,8 @@
     ]
   },
   {
-    "text": "Il paziente riferisce episodi di insonnia e lievi allucinazioni uditive, probabilmente correlati a recenti periodi di astinenza. Le recenti analisi del sangue indicano valori di ALT e AST lievemente alterati, suggerendo bisogno di monitoraggio. Si ricorda di mantenere il contatto con il team di specialisti, inclusa la psichiatra NORP di riferimento. La terapia attuale include la somministrazione di clonazepam e acamprosato. Rispetto alla precedente visita, si osserva una leggera diminuzione del desiderio di consumare alcol, anche se persistono tentativi di ricaduta che si cercano di contenere attraverso tecniche di mindfulness.",
-    "entities": [
-      {
-        "text": "NORP",
-        "label": "NORP"
-      }
-    ]
+    "text": "Il paziente riferisce episodi di insonnia e lievi allucinazioni uditive, probabilmente correlati a recenti periodi di astinenza. Le recenti analisi del sangue indicano valori di ALT e AST lievemente alterati, suggerendo bisogno di monitoraggio. Si ricorda di mantenere il contatto con il team di specialisti, inclusa la psichiatra di riferimento. La terapia attuale include la somministrazione di clonazepam e acamprosato. Rispetto alla precedente visita, si osserva una leggera diminuzione del desiderio di consumare alcol, anche se persistono tentativi di ricaduta che si cercano di contenere attraverso tecniche di mindfulness.",
+    "entities": []
   },
   {
     "text": "L'intervento odierno ha permesso di esplorare la percezione di bisogno di supporto nelle relazioni sociali e familiari. Risulta significativo il miglioramento della motivazione al percorso di recupero, benché ancora si evidenzino momenti di sconforto e difficoltà nel mantenere la sobrietà. Sono stati rivalutati i piani terapeutici e discusso il potenziamento delle attività di gruppo presso il centro di riabilitazione , con particolare attenzione alla gestione della rabbia, talvolta esplosa durante incontri con altri pazienti. Si ritiene utile rafforzare le strategie di coping attraverso sessioni di terapia cognitivo-comportamentale.",
@@ -6060,14 +6072,14 @@
     ]
   },
   {
-    "text": "Il paziente presenta un quadro clinico stabile, anche se riferisce persistente senso di vuoto e qualche tentazione di ricaduta. Si decide di proseguire con la terapia con Topiramate e di valutare l'introduzione di tecniche di mindfulness. La collaborazione con il servizio territoriale è buona; si raccomanda di mantenere un monitoraggio settimanale e di intensificare il supporto psicologico presso il CPI di Trisobbio. La situazione ambulatoriale rimane critica ma gestibile.",
+    "text": "Il paziente presenta un quadro clinico stabile, anche se riferisce persistente senso di vuoto e qualche tentazione di ricaduta. Si decide di proseguire con la terapia con Topiramate e di valutare L'INTRODUZIONE di tecniche di mindfulness. La collaborazione con il servizio territoriale è buona; si raccomanda di mantenere un monitoraggio settimanale e di intensificare il supporto psicologico presso il CPI DI TRISOBBIO. La situazione ambulatoriale rimane critica ma gestibile.",
     "entities": [
       {
         "text": "Topiramate",
         "label": "PRODUCT"
       },
       {
-        "text": "CPI di Trisobbio",
+        "text": "CPI DI TRISOBBIO",
         "label": "FAC"
       }
     ]
@@ -6090,7 +6102,7 @@
     ]
   },
   {
-    "text": "Durante l'incontro di oggi, si segnala una lieve riduzione nell'ansia generalizzata. È stata discussa la possibilità di incrementare la terapia farmacologica con naltrexone, considerando la storia di dipendenza da alcol. Si evidenzia che il paziente mantiene un buon livello di motivazione, anche se riferisce alcuni momenti di craving intenso nel weekend. Intensificata la collaborazione con il team di assistenza sociale presso l'ORT di Ronco Scrivia.",
+    "text": "Durante l'incontro di oggi, si segnala una lieve riduzione nell'ansia generalizzata. È stata discussa la possibilità di incrementare la terapia farmacologica con naltrexone, considerando la storia di dipendenza da alcol. Si evidenzia che il paziente mantiene un buon livello di motivazione, anche se riferisce alcuni momenti di craving intenso nel weekend. Intensificata la collaborazione con il TEAM di assistenza sociale presso l'ORT di Ronco Scrivia.",
     "entities": [
       {
         "text": "ORT di Ronco Scrivia",
@@ -6237,10 +6249,10 @@
     ]
   },
   {
-    "text": "In visita odierna si evidenzia una profonda motivazione alla disintossicazione e alla riabilitazione psicosociale. Sono stati discussi i recenti episodi di crisi emotiva, attribuibili a stress lavorativi presso l'azienda 'Tech Innovazioni' di  Mühlen/Truden. Si raccomanda continuare con la terapia CBT e l'uso di disulfuram, monitorando attentamente eventuali effetti collaterali o interazioni farmacologiche. La programmazione di un incontro con il referente sanitario è confermata per la prossima settimana.",
+    "text": "In visita odierna si evidenzia una profonda motivazione alla disintossicazione e alla riabilitazione psicosociale. Sono stati discussi i recenti episodi di crisi emotiva, attribuibili a stress lavorativi PRESSO l'azienda 'TECH INNOVAZIONI' di Mühlen/Truden. Si raccomanda continuare con la terapia CBT e L'USO di disulfuram, monitorando attentamente eventuali effetti collaterali o interazioni farmacologiche. La programmazione di un incontro con il referente sanitario è confermata per la prossima settimana.",
     "entities": [
       {
-        "text": "Tech Innovazioni",
+        "text": "TECH INNOVAZIONI",
         "label": "ORG"
       },
       {
@@ -6285,7 +6297,12 @@
   },
   {
     "text": "Analizzando il caso di un paziente di 45 anni, si nota una buona risposta alla terapia con metadone, anche se persistono episodiche disforie. Si raccomanda di intensificare il supporto psicosociale e pianificare un monitoraggio ravvicinato dei parametri vitali durante le sedute di dispensazione. La famiglia ha espresso preoccupazione per il rischio di overdose.",
-    "entities": []
+    "entities": [
+      {
+        "text": "45 anni",
+        "label": "AGE"
+      }
+    ]
   },
   {
     "text": "Valutazione clinica di routine: si rileva assenza di agitatione o allucinazioni, nonostante la storia di poliabuso di sostanze. La terapia antipsicotica viene mantenuta, con particolare attenzione alla gestione del disturbo da uso di cannabis. L'utente si mostra motivato alla partecipazione alle attività di gruppo e discussione sulla prevenzione delle ricadute.",
@@ -6295,16 +6312,20 @@
     "text": "Sessione focalizzata sulla gestione del craving e sulla pianificazione del percorso di recupero. Il paziente, un giovane di 28 anni, si mostra ansioso riguardo alle possibili tentazioni in ambienti sociali come i bar di via Monteombraro. Si propone una terapia di gruppo e l'attivazione di supporto psicosociale presso l'org. locale per favorire l'inserimento sociale e prevenire ricadute.",
     "entities": [
       {
-        "text": "bar di via Monteombraro",
+        "text": "28 anni",
+        "label": "AGE"
+      },
+      {
+        "text": "via Monteombraro",
         "label": "LOC"
       }
     ]
   },
   {
-    "text": "Durante la seduta si nota un miglioramento nel controllo dei impulsi, ma persistono desideri compulsivi di assumere sostanze psicoattive. Si discute di strategie per aumentare la motivazione al percorso di riabilitazione. Il paziente mantiene un umore stabile e riferisce di aver evitato ambienti a rischio come ilbar di via Madregolo.",
+    "text": "Durante la seduta si nota un miglioramento nel controllo dei impulsi, ma persistono desideri compulsivi di assumere sostanze psicoattive. Si discute di strategie per aumentare la motivazione al percorso di riabilitazione. Il paziente mantiene un UMORE stabile e riferisce di aver evitato ambienti a rischio come ilbar di VIA MADREGOLO.",
     "entities": [
       {
-        "text": "via Madregolo",
+        "text": "VIA MADREGOLO",
         "label": "LOC"
       }
     ]
@@ -6353,7 +6374,7 @@
     "text": "In questa sessione, si osserva un miglioramento nel controllo dell'ansia associata all'astinenza da oppioidi. Il paziente riferisce di aver ridotto significativamente la frequenza dell'uso di heroin nell'ultima settimana e mostra entusiasmo per il piano di terapia farmacologica, che include la somministrazione di methadone. Sono stati discussi i rischi di ricaduta e l'importanza del supporto sociale, in particolare il coinvolgimento del famigliare \"Calogero\". La terapia cognitivo-comportamentale viene consolidata come strategia centrale per prevenire la ricaduta.",
     "entities": [
       {
-        "text": "\"Calogero\"",
+        "text": "Calogero",
         "label": "PER"
       }
     ]
@@ -6398,10 +6419,10 @@
     ]
   },
   {
-    "text": "Durante l'incontro, si osserva una riduzione delle crisi di ansia e una diminuzione del desiderio di consumo di alcool. Tuttavia, rimangono priziosità riferite a scatti d'ira e sbalzi d'umore, riconducibili a un quadro borderline. È stato valutato un aggiustamento terapeutico con l'introduzione di topiramato e si suggerisce di proseguire con la terapia cognitivo-comportamentale. La presenza del padre, il signor Luigi, sembra favorire la motivazione alla cura.",
+    "text": "Durante l'incontro, si osserva una riduzione delle crisi di ansia e una diminuzione del desiderio di consumo di alcool. Tuttavia, rimangono priziosità riferite a scatti d'ira e sbalzi d'umore, riconducibili a un quadro borderline. È stato valutato un aggiustamento terapeutico con l'introduzione di topiramato e si suggerisce di proseguire con la terapia cognitivo-comportamentale. La presenza del padre, il signor LUIGI, sembra favorire la motivazione alla cura.",
     "entities": [
       {
-        "text": "Luigi",
+        "text": "LUIGI",
         "label": "PER"
       }
     ]
@@ -6415,10 +6436,10 @@
     "entities": []
   },
   {
-    "text": "Nel corso della visita si evidenzia un miglioramento generale, anche grazie alla partecipazione attiva alla comunità terapeutica 'Rinascita'. Sono stati discussi aspetti relazionali e motivazionali, con attenzione alle eventuali ricadute legate a stress lavorativi e problemi familiari. Si raccomanda di continuare con l'approccio multidisciplinare, con particolare attenzione alla terapia farmacologica e alla psicoeducazione sul consumo di sostanze. La collaborazione con il centro arcadia garantisce una pronta gestione delle crisi.",
+    "text": "Nel corso della visita si evidenzia un miglioramento generale, anche grazie alla partecipazione ATTIVA alla comunità terapeutica 'RINASCITA'. Sono STATI discussi aspetti relazionali e motivazionali, con attenzione alle eventuali ricadute legate a stress lavorativi e problemi familiari. Si raccomanda di continuare con l'approccio multidisciplinare, con particolare attenzione alla terapia farmacologica e alla psicoeducazione sul consumo di sostanze. La collaborazione con il centro arcadia garantisce una pronta gestione delle crisi.",
     "entities": [
       {
-        "text": "Rinascita",
+        "text": "RINASCITA",
         "label": "ORG"
       },
       {
@@ -6455,19 +6476,14 @@
   },
   {
     "text": "La paziente ha accettato di iniziare un programma di disintossicazione intensiva, dopo aver mostrato segni di resistenza all'inizio del trattamento. È stata concordata una riduzione graduale della somministrazione di sostanze, con supporto farmacologico. Si proseguirà con una terapia cognitivo-comportamentale. Controlli settimanali presso la struttura.",
-    "entities": [
-      {
-        "text": "terapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "L'osservazione clinica indica una riduzione significativa del consumo di sostanze, soprattutto oppiacei, grazie alla terapia cognitivo-comportamentale avviata sei mesi fa. Tuttavia, si notano ancora momenti di irritabilità e alti livelli di impulsività, che vengono monitorati. Prossimo obiettivo: consolidare l'autonomia nel mantenimento dell'astinenza.",
     "entities": []
   },
   {
-    "text": "Durante la seduta odierna, emerge una riduzione dei segnali di craving per l'alcol, anche se persistono occasionali impulsi compulsivi. Si discute l'efficacia del trattamento farmacologico, in particolare l'uso di naltrexone, con evidenze di miglioramento nel controllo degli impulsi. Il paziente lamenta una certa difficoltà nel mantenere la motivazione nelle ultime settimane.",
+    "text": "Durante la seduta odierna, emerge una riduzione dei segnali di craving per l'alcol, anche se persistono occasionali impulsi compulsivi. Si discute l'efficacia del trattamento farmacologico, in particolare l'uso di naltrexone, con evidenze di miglioramento nel controllo degli impulsi. Il paziente lamenta una certa DIFFICOLTÀ nel mantenere la motivazione nelle ultime settimane.",
     "entities": []
   },
   {
@@ -6551,6 +6567,10 @@
     "text": "Al termine della seduta, si propone di coinvolgere il signor Baggio in un gruppo di sostegno presso l'associazione \"Liberi di Scegliere\" ubicata presso il centro storico di Reana Del Roiale. Lo stato di umore appare piuttosto stabile, anche se persistono alcune paure di ricaduta associate a eventi stressanti recenti. Si rinforza l'importanza di continuità nel percorso terapeutico e si valuta l'eventualità di introdurre un antidepressivo.",
     "entities": [
       {
+        "text": "Baggio",
+        "label": "PER"
+      },
+      {
         "text": "associazione \"Liberi di Scegliere\"",
         "label": "ORG"
       },
@@ -6566,12 +6586,7 @@
   },
   {
     "text": "Durante l'appuntamento odierno, si osserva una lieve riduzione dell'ansia grazie all'incremento della dose di sertralina. Il paziente riferisce di aver mantenuto l'astensione dalla sostanza da due settimane, ma lamenta ancora frequenti desideri compulsivi. Si discute l'importanza di continuare l'EMDR per affrontare traumi passati che contribuiscono alla dipendenza. La terapia farmacologica attuale è composta da naltrexone e clonazepam, con monitoraggio ravvicinato dei parametri epatici e della pressione arteriosa.",
-    "entities": [
-      {
-        "text": "EMDR",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Il paziente mostra un miglioramento nel controllo degli impulsi, tuttavia segnala episodi di irritabilità e disturbi del sonno. La terapia attuale prevede l'uso di bupropione e valproato, e si pianifica un aggiornamento degli esami di laboratorio entro un mese. La famiglia, coinvolta nel percorso terapeutico, ha espresso preoccupazione per le ricadute e si propone di supportare ulteriormente l'aderenza al trattamento. Si suggerisce di intensificare le sessioni di counseling per affrontare i residui aspetti di depressione.",
@@ -6579,12 +6594,7 @@
   },
   {
     "text": "Oggi si conferma uno stato stabile con lieve miglioramento dell’umore. Ricorrenti pensieri di tristezza vengono gestiti con terapia cognitivo-comportamentale, integrata da terapia farmacologica con SSRI e dose di lorazepam. Il paziente ha riferito di aver smesso di consumare alcol, ma continua a manifestare desiderio intenso di droga in situazioni sociali. Si raccomanda un monitoraggio settimanale e il coinvolgimento nel gruppo di supporto presso il centro di riabilitazione di Monte Terminillo.",
-    "entities": [
-      {
-        "text": "SSRI",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Durante la sessione, si notano segnali di ansia e inquietudine, probabilmente correlati al recente episodio di ricaduta. La terapia attuale prevede l'assunzione di metadone e antidepressivi triciclici, con particolare attenzione alla gestione delle side effects. È stato pianificato un confronto con il medico farmacista per aggiustare la dose di metadone e valutare l’opportunità di inserire un trattamento di tossicologia. La motivazione del paziente rimane alta, ma si consiglia una maggiore partecipazione alle attività di gruppo per migliorare il supporto sociale.",
@@ -6775,7 +6785,7 @@
     ]
   },
   {
-    "text": "Durante la seduta, il paziente mostra una buona reattività al trattamento, sebbene esprima un forte timore di ricadere nei comportamenti di abuso. È stato concordato di proseguire con il programma di supporto psicoterapeutico e di aumentare la frequenza delle sedute individuali. Segnalato lieve calo di umore nelle ultime due settimane, ma nessun episodio acuto di ansia o paranoia. Terapia in corso: lorazepam, quetiapina. Nessun segno di abuso di sostanze.",
+    "text": "Durante la seduta, il PAZIENTE mostra una buona reattività al trattamento, sebbene esprima un forte timore di ricadere nei comportamenti di abuso. È stato concordato di proseguire con il programma di supporto psicoterapeutico e di aumentare la frequenza delle sedute individuali. Segnalato lieve calo di umore nelle ultime due settimane, ma nessun episodio acuto di ansia o paranoia. Terapia in corso: lorazepam, quetiapina. Nessun segno di abuso di sostanze.",
     "entities": []
   },
   {
@@ -6868,6 +6878,10 @@
       {
         "text": "Topiramato",
         "label": "PRODUCT"
+      },
+      {
+        "text": "Tirabassi",
+        "label": "PER"
       },
       {
         "text": "San Carlo",
@@ -7003,25 +7017,15 @@
   },
   {
     "text": "In accordo con le ultime valutazioni cliniche, si nota un miglioramento nel comportamento e nell'umore, con una riduzione dei episodi di craving. La terapia cognitivo-comportamentale sta raccogliendo buoni risultati. Attualmente si sta valutando l'introduzione di un supporto psicosociale più intensivo, coinvolgendo anche la famiglia del paziente.",
-    "entities": [
-      {
-        "text": "terapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Notato che i livelli di ansia e irritabilità persistono, seppur in misura lieve, durante le ultime settimane. La richiesta di sedativi è diminuita, sembrano emergere segnali di voto di miglioramento continuo. La supervisione farmacologica con benzodiazepine si mantiene, ma si pianifica un graduale tapering.",
     "entities": []
   },
   {
-    "text": "In visita odierna, emergono segnali di miglioramento dal punto di vista della motivazione, ma permane una lieve depressione che potrebbe influenzare il percorso di recupero. È consigliato continuare con la terapia farmacologica e integrare sessioni di gruppi di auto-aiuto presso l'organizzazione NORP locale. Feedback positivo anche dalla rete sociale del paziente.",
-    "entities": [
-      {
-        "text": "organizzazione NORP",
-        "label": "NORP"
-      }
-    ]
+    "text": "In visita odierna, emergono segnali di miglioramento dal punto di vista della motivazione, ma permane una lieve depressione che potrebbe influenzare il percorso di recupero. È consigliato continuare con la terapia farmacologica e integrare sessioni di gruppi di auto-aiuto presso l'organizzazione locale. Feedback positivo anche dalla rete sociale del paziente.",
+    "entities": []
   },
   {
     "text": "Durante la seduta odierna si osservano miglioramenti nei livelli di umore e assenza di ricadute recenti. Si evidenzia una buona aderenza alla terapia farmacologica con naltrexone. Si discute delle strategie di coping per gestire lo stress e le tentazioni associate al contesto lavorativo presso l'organizzazione \"Cooperativa Sociale La Speranza\". Si raccomandano esercizi di rilassamento e monitoraggio settimanale.",
@@ -7068,7 +7072,7 @@
     ]
   },
   {
-    "text": "Osservando la presenza di sintomi ansiogeni e leggeri segnali di depressione, si decide di integrare il trattamento con **venlafaxina** e di continuare il percorso di riabilitazione presso strutture specializzate del **Nord Italia**. È stato anche valutato il coinvolgimento del supporto familiare e l'importanza di interventi psicoeducativi mirati.",
+    "text": "Osservando la presenza di sintomi ansiogeni e leggeri segnali di depressione, si decide di integrare il trattamento con **VENLAFAXINA** e di continuare il percorso di riabilitazione presso strutture specializzate del **Nord Italia**. È stato anche valutato il coinvolgimento del supporto familiare e l'importanza di interventi psicoeducativi mirati.",
     "entities": [
       {
         "text": "Nord Italia",
@@ -7252,38 +7256,10 @@
   {
     "text": "In seguito alla valutazione psichiatrica, si è notato un quadro di disturbo da uso di alcool con episodi di delirium tremens nei giorni scorsi. La gestione ha incluso l'inizio di terapia con disulfiram e il coinvolgimento di un team di operatori presso la clinica di . La famiglia del paziente ha espresso preoccupazione riguardo la stabilità attuale e si è deciso di intensificare il supporto psicosociale per prevenire ricadute e crisi acuto-croniche.",
     "entities": [
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      },
-      {
-        "text": "di",
-        "label": "GPE"
-      }
+        {
+            "text": "disulfiram",
+            "label": "PRODUCT"
+        }
     ]
   },
   {
@@ -7428,10 +7404,15 @@
   },
   {
     "text": "Il paziente ha mostrato una certa difficoltà nell'affrontare situazioni di stress durante l'ultima settimana. Nonostante i miglioramenti nel controllo dei suoi impulsi, i conflitti familiari sembrano influire negativamente sul suo stato psicologico. È stata pianificata una revisione del piano terapeutico, con particolare attenzione alla gestione delle relazioni familiari e al sostegno del gruppo di auto-aiuto. In programma una visita di follow-up a gennaio.",
-    "entities": []
+    "entities": [
+      {
+        "text": "gennaio",
+        "label": "DATE"
+      }
+    ]
   },
   {
-    "text": "Il trattamento sta proseguendo senza particolari complicazioni. Il paziente riferisce di non avere episodi di consumo di sostanze da due settimane, anche se ammette di essere frequentemente tentato. Si osserva un buon livello di motivazione, ma anche una certa disconnessione dal mondo sociale, che potrebbe favorire il rischio di ricaduta. È stato proposto un incremento delle sedute di terapia individuale, insieme alla partecipazione regolare a gruppi di supporto. Ulteriori controlli sulla funzionalità epatica sono stati programmati per la prossima settimana.",
+    "text": "Il trattamento sta proseguendo senza particolari complicazioni. Il paziente riferisce di non avere episodi di consumo di sostanze da due settimane, ANCHE se ammette di essere frequentemente tentato. Si osserva un buon livello di motivazione, ma anche una certa disconnessione dal mondo sociale, che potrebbe favorire il rischio di ricaduta. È stato proposto un incremento DELLE sedute di terapia individuale, insieme alla partecipazione regolare a gruppi di supporto. Ulteriori controlli sulla funzionalità epatica sono stati programmati per la prossima settimana.",
     "entities": []
   },
   {
@@ -7462,7 +7443,7 @@
     ]
   },
   {
-    "text": "Ieri il paziente ha avuto una crisi di ansia, ma si è autosollevato dopo una sessione di rilassamento. Ha dichiarato di non volere cambiare il dosaggio di Diazepam per il momento. Riferisce anche una progressiva riduzione del desiderio di consumo. Continueremo il piano terapeutico attuale e ci sarà un nuovo controllo fra due settimane.",
+    "text": "Ieri il paziente ha avuto una crisi di ansia, ma si è autosollevato dopo una sessione di rilassamento. Ha dichiarato di non volere cambiare il dosaggio di Diazepam per il momento. Riferisce anche una progressiva riduzione del desiderio di consumo. Continueremo il piano terapeutico attuale e ci sarà un nuovo CONTROLLO fra due settimane.",
     "entities": [
       {
         "text": "Diazepam",
@@ -7490,6 +7471,10 @@
   {
     "text": "Il paziente, che ha 28 anni, ha riferito di aver continuato il suo percorso di trattamento, ma con alcune difficoltà a mantenere l'astinenza. Ha evidenziato un senso di frustrazione per la mancanza di progressi e per l'isolamento sociale. A livello psicologico, è stato osservato un umore generalmente basso, con segnali di depressione. È stata aumentata la dose di metadone e gli è stato suggerito di partecipare a sessioni di gruppo presso la struttura 'Centro Recupero Vita' a Tavernelle D'Emilia.",
     "entities": [
+      {
+        "text": "28 anni",
+        "label": "AGE"
+      },
       {
         "text": "Recupero Vita",
         "label": "ORG"
@@ -7526,12 +7511,7 @@
   },
   {
     "text": "Durante il trattamento di sostegno psicologico, il paziente ha espresso preoccupazioni circa l'ambiente familiare che potrebbe influire negativamente sul suo percorso di recupero. È stato consigliato di coinvolgere il coniuge per un ciclo di terapia familiare. Il programma di disintossicazione proseguirà con aggiustamenti settimanali dei dosaggi dei farmaci.",
-    "entities": [
-      {
-        "text": "settimanali",
-        "label": "DATE"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Nel corso della sessione terapeutica, il paziente ha riferito di essere stato lontano dai consumi di sostanze per 4 settimane. Tuttavia, ha ammesso che la tentazione di utilizzare cocaina è stata molto forte durante un incontro con vecchi amici. Il piano terapeutico è stato rielaborato, includendo incontri settimanali con il gruppo di supporto e terapia cognitivo-comportamentale.",
@@ -7550,6 +7530,10 @@
     "text": "Il paziente, un maschio di 35 anni residente a Roccaranieri, si presenta con episodi di irritabilità e difficoltà nel controllo degli impulsi legati all'abuso di alcol. Ha riferito di aver cessato la terapia con disulfiram senza consulto e mostra un leggero miglioramento rispetto alla settimana precedente. È stata ribadita l'importanza della partecipazione alle sessioni di gruppo, così come il rispetto delle prescrizioni farmacologiche.",
     "entities": [
       {
+        "text": "35 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Roccaranieri",
         "label": "GPE"
       }
@@ -7558,6 +7542,10 @@
   {
     "text": "Il nostro collaboratore, con circa 40 anni, ha riferito di una ricaduta nel consumo di sostanze stimolanti, in particolare metanfetamine, nel corso dell'ultimo mese. La presenza di sintomi depressivi e insonnia persistente suggerisce l'opportunità di rivalutare il piano terapeutico e considerare l'inserimento di un trattamento farmacologico con SSRI. Si continuerà il supporto psicologico, con particolare attenzione alla motivazione al cambio comportamentale.",
     "entities": [
+      {
+        "text": "40 anni",
+        "label": "AGE"
+      },
       {
         "text": "SSRI",
         "label": "NORP"
@@ -7574,12 +7562,21 @@
       {
         "text": "Falcade",
         "label": "GPE"
+      },
+      {
+        "text": "28 anni",
+        "label": "AGE"
       }
     ]
   },
   {
     "text": "Valutazione complessiva: il soggetto di 50 anni, con storia di dipendenza da oppiacei e recente assunzione di farmaci oppioidi comprati illegalmente, presenta evidenti segni di ansia e insonnia. La terapia con buprenorfina continua, e si sta valutando la possibilità di integrare con agopuntura come supporto complementare. L'alleanza terapeutica sembra stabile, anche se è necessario intervenire sulla motivazione a lungo termine.",
-    "entities": []
+    "entities": [
+      {
+        "text": "50 anni",
+        "label": "AGE"
+      }
+    ]
   },
   {
     "text": "Paziente riferisce un miglioramento generale nella gestione delle sue emozioni e segnala una riduzione della necessità di consumo di alcol. Il trattamento con acamprosato continua a mostrare effetti positivi. Discussione con la famiglia circa la possibilità di partecipare a un gruppo di supporto per l'alcolismo. È stato suggerito di aumentare la frequenza delle sedute individuali. La paziente sembra favorevole a questo piano. A breve seguirà controllo ematico per monitorare i parametri epatici.",
@@ -7646,10 +7643,6 @@
       {
         "text": "Rinascita",
         "label": "ORG"
-      },
-      {
-        "text": "yoga",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
@@ -7677,15 +7670,10 @@
   },
   {
     "text": "Durante la seduta odierna, si è evidenziata una significativa riduzione dell'ansia da craving grazie all'ottimizzazione della terapia con naltrexone. La paziente ha riferito di sentirsi più stabile e meno impulsiva rispetto alle settimane precedenti. Si è discusso di consolidare l'intervento psicologico, con particolare attenzione alla gestione delle emozioni e ai trigger ambientali. La terapia farmacologica include ora anche un low-dose di quetiapina per il controllo dell'irritabilità. Si consiglia un follow-up tra un mese per monitorare eventuali effetti collaterali e l'efficacia complessiva.",
-    "entities": [
-      {
-        "text": "settimane precedenti",
-        "label": "DATE"
-      }
-    ]
+    "entities": []
   },
   {
-    "text": "L'incontro odierno ha mostrato una lieve ricaduta, con aumento del desiderio di consumo di etanolo, probabilmente correlata allo stress lavorativo. Sono stati rivisti i piani terapeutici, rafforzando l'importanza della partecipazione alle sessioni di terapia cognitivo-comportamentale e l'uso di acamprosato. La famiglia del paziente ha espresso preoccupazioni circa l'aumento dell'irritabilità e dei disturbi del sonno. Si raccomanda un controllo settimanale, con eventuale aggiunta di supporto psicologico presso il centro di salute mentale di Gipe Reggio Emilia.",
+    "text": "L'incontro odierno ha mostrato una lieve ricaduta, con aumento del desiderio di consumo di etanolo, probabilmente correlata allo stress lavorativo. Sono stati rivisti i piani terapeutici, rafforzando l'importanza della partecipazione alle sessioni di terapia cognitivo-comportamentale e l'uso di acamprosato. La famiglia del paziente ha espresso preoccupazioni circa l'aumento dell'irritabilità e dei disturbi del sonno. Si raccomanda un controllo settimanale, con EVENTUALE aggiunta di supporto psicologico presso il centro di salute mentale di Gipe Reggio Emilia.",
     "entities": [
       {
         "text": "Gipe Reggio Emilia",
@@ -7729,6 +7717,10 @@
       {
         "text": "Narcotici di Torano",
         "label": "ORG"
+      },
+      {
+        "text": "dicembre",
+        "label": "DATE"
       }
     ]
   },
@@ -7754,14 +7746,14 @@
     "entities": []
   },
   {
-    "text": "All'esame clinico si evidenziano segni di disidratazione e lieve ipertensione, associati a recenti episodi di abuso di alcool a livello di bar situato in . Il paziente riferisce di aver abbandonato temporaneamente la terapia farmacologica a causa di effetti collaterali, ma intende riprenderla. La sua motivazione è variabile, con momenti di resistenza e altre di collaborazione attiva. Si pianifica un follow-up urgente e un'educazione su strategie di mantenimento della sobrietà.",
+    "text": "All'esame clinico si evidenziano segni di disidratazione e lieve ipertensione, associati a recenti episodi di abuso di alcool a livello di bar situato in . Il paziente riferisce di aver abbandonato temporaneamente la TERAPIA farmacologica a causa di effetti collaterali, ma intende riprenderla. La sua motivazione è variabile, con momenti di resistenza e altre di collaborazione attiva. Si pianifica un follow-up urgente e un'educazione su strategie di mantenimento della sobrietà.",
     "entities": []
   },
   {
-    "text": "Nel corso del colloquio si ha notizia di un recente evento traumatico, correlato a un incidente stradale avvenuto nei pressi di . Sono presenti sintomi di eteroaggressività e agita psicomotoria, compatibili con un quadro di disturbo da stress post-traumatico. Si propone l'attivazione di un intervento di psicoterapia individuale e la valutazione di eventuali farmaci ansiolitici. La collaborazione con la Rete di Supporto in  si rivela fondamentale per la gestione del percorso terapeutico.",
+    "text": "Nel corso del colloquio si ha notizia di un recente evento traumatico, correlato a un incidente stradale avvenuto nei pressi di . Sono presenti sintomi di eteroaggressività e agita psicomotoria, compatibili con un quadro di disturbo da stress post-traumatico. Si propone l'attivazione di un intervento di psicoterapia individuale e la valutazione di eventuali farmaci ansiolitici. La collaborazione con la RETE DI SUPPORTO in si rivela fondamentale per la gestione del percorso terapeutico.",
     "entities": [
       {
-        "text": "Rete di Supporto",
+        "text": "RETE DI SUPPORTO",
         "label": "ORG"
       }
     ]
@@ -7783,11 +7775,7 @@
     "text": "In questa seduta si descrivono comportamenti impulsivi e tentativi di auto-medicazione con sostanze psicoattive. Il paziente manifestava recentemente un’umore depresso e pensieri di autosvalutazione. Si stabilisce un monitoraggio più frequente e si discute l'ipotesi di inserire un intervento cognitivo-comportamentale presso il centro di salute mentale di Onferno.",
     "entities": [
       {
-        "text": "intervento cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      },
-      {
-        "text": "di salute mentale di Onferno",
+        "text": "Onferno",
         "label": "GPE"
       }
     ]
@@ -7910,11 +7898,11 @@
     ]
   },
   {
-    "text": "Il report conduttivo evidenzia la presenza di impulsi compulsivi legati all'uso di metanfetamine e alle difficoltà nel mantenere l'astinenza. Si è deciso di integrare il trattamento con l'uso di bupropione e di intensificare le sedute di terapia di sostegno presso il  'Centro di Riabilitazione San Rocco'. Sono stati programmati incontri con il familiare del paziente per rafforzare il network di supporto.",
+    "text": "Il report conduttivo evidenzia la presenza di impulsi compulsivi legati all'uso di metanfetamine e alle difficoltà nel mantenere l'astinenza. Si è deciso di integrare il trattamento con l'uso di bupropione e di intensificare le sedute di terapia di sostegno presso il 'Centro di Riabilitazione San Rocco'. Sono stati programmati incontri con il familiare del paziente per rafforzare il network di supporto.",
     "entities": []
   },
   {
-    "text": "Visita di follow-up per monitoraggio dell'andamento terapeutico. Paziente si presenta relativamente stabile, ma riferisce episodi di ansia soprattutto in situazioni sociali. Non emergono segni di abuso attivo. Continuare la somministrazione di Clonazepam a dosaggio ridotto e mantenere il supporto psicoterapeutico settimanale. Per ora non sono necessarie modifiche al piano terapeutico.",
+    "text": "Visita di follow-up per monitoraggio dell'andamento terapeutico. Paziente si presenta relativamente stabile, ma riferisce episodi di ansia soprattutto in situazioni sociali. Non emergono segni di ABUSO attivo. Continuare la somministrazione di Clonazepam a dosaggio ridotto e mantenere il supporto psicoterapeutico settimanale. Per ora non SONO necessarie modifiche al piano terapeutico.",
     "entities": []
   },
   {
@@ -7939,7 +7927,7 @@
     ]
   },
   {
-    "text": "Durante l'ultimo incontro, il paziente ha riferito di sentirsi più sereno dopo l'introduzione della nuova terapia farmacologica. La sospensione graduale di metadone è stata ben tollerata, sebbene il paziente manifesti lieve irritabilità e insonnia. Si suggerisce di monitorare i progressi e di continuare con il piano di trattamento. La famiglia è stata informata e si è mostrata collaborativa. Viene proposta una revisione della terapia tra due settimane.",
+    "text": "Durante l'ultimo incontro, il paziente ha riferito di sentirsi più sereno dopo l'introduzione della nuova terapia farmacologica. La sospensione GRADUALE di metadone è stata ben tollerata, sebbene il paziente manifesti lieve irritabilità e insonnia. Si suggerisce di monitorare i progressi e di continuare con il piano di trattamento. La famiglia è stata informata e si è mostrata collaborativa. Viene proposta una revisione della terapia tra due settimane.",
     "entities": []
   },
   {
@@ -8034,12 +8022,7 @@
   },
   {
     "text": "Successivamente alla terapia di gruppo, si evidenzia una riduzione dell'ansia e un maggior controllo sui comportamenti compulsivi legati all'uso di sostanze. Si propone un potenziamento della psicoterapia cognitivo-comportamentale e si valuta l'adeguatezza dell'uso di bupropione come supporto farmacologico. La sessione si conclude con un piano di monitoraggio degli episodi di craving e delle condizioni psicofisiche complessive.",
-    "entities": [
-      {
-        "text": "psicoterapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Durante la seduta odierna, si evidenzia una ridotta tolleranza all'astinenza da alcool, con ansia e agitation moderate. La disponibilità a seguire il piano terapeutico è buona, ma si consiglia un aumento dell'assunzione di sertralina. Si discute dell'importanza della partecipazione alle sessioni di gruppo presso il centro di riabilitazione \"Fortuna\" situato a . La famiglia, rappresentata dal signor Morandini, ha espresso alcune preoccupazioni sulle recenti recidive di Giampiero, 34 anni.",
@@ -8051,6 +8034,10 @@
       {
         "text": "Giampiero",
         "label": "PATIENT"
+      },
+      {
+        "text": "34 anni",
+        "label": "AGE"
       }
     ]
   },
@@ -8163,6 +8150,10 @@
     "text": "Paziente uomo, età 35 anni, in trattamento per abuso di alcol. Riferisce di aver ridotto notevolmente il consumo nell'ultimo mese, ma continua a manifestare episodi di rabbia e frustrazione. Si consiglia di aumentare la dose di Naltrexone, integrandola con sessioni di psicoterapia cognitivo-comportamentale. Il paziente ha concordato il piano terapeutico.",
     "entities": [
       {
+        "text": "35 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Naltrexone",
         "label": "PRODUCT"
       }
@@ -8204,7 +8195,7 @@
     "entities": []
   },
   {
-    "text": "Il paziente ha espresso sentimenti di rabbia e frustrazione durante la seduta, riferendo di essere stato recentemente esposto a stress lavorativo. Non sono emersi segni di psicosi. La terapia psicologica in corso sembra adeguata, ma il paziente ha richiesto un cambiamento nella terapia farmacologica. Si è deciso di aggiungere un antipsicotico atipico per migliorare la gestione della rabbia. La partecipazione a un programma di recupero intensivo è stata discussa come possibile opzione per il futuro.",
+    "text": "Il paziente ha espresso sentimenti di rabbia e frustrazione durante la seduta, riferendo di essere stato recentemente esposto a stress lavorativo. Non sono emersi segni di psicosi. La terapia psicologica in corso sembra adeguata, ma il paziente ha richiesto un cambiamento nella terapia farmacologica. Si è deciso di aggiungere un antipsicotico atipico per migliorare la gestione della rabbia. La partecipazione a un programma di recupero intensivo è stata DISCUSSA come possibile opzione per il futuro.",
     "entities": []
   },
   {
@@ -8352,12 +8343,7 @@
   },
   {
     "text": "Durante l'incontro, il paziente ha rivelato di aver avuto un breve episodio di ricaduta, ma ha mostrato impegno nel parlarne e nel chiedere aiuto. È stato ritenuto importante continuare la terapia farmacologica per gestire i sintomi di astinenza. Il suo comportamento collaborativo è stato evidenziato, ma il medico ha sottolineato l'importanza di una maggiore consapevolezza rispetto alla dipendenza emotiva. La famiglia è stata coinvolta in una sessione di consulenza per supportare il processo di recupero.",
-    "entities": [
-      {
-        "text": "famiglia",
-        "label": "NORP"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Il trattamento sta proseguendo senza grosse difficoltà. Nessun segno di astinenza grave o necessità di modificare la terapia. La paziente si è espressa positivamente riguardo al supporto ricevuto dal gruppo di auto-aiuto e ha dimostrato maggiore motivazione nell'affrontare la propria dipendenza. La consulenza psicologica ha dato buoni risultati, ma è emersa la necessità di continuare a monitorare eventuali segnali di depressione sottostante.",
@@ -8365,12 +8351,7 @@
   },
   {
     "text": "Il paziente ha riferito una notevole difficoltà nel mantenere la motivazione per proseguire il trattamento, soprattutto a causa delle pressioni esterne legate al lavoro. È stato necessario rivedere il piano di cura, con un aumento della frequenza delle sedute di sostegno psicoterapico. La riduzione graduale degli oppiacei continuerà, con monitoraggio attento degli effetti collaterali legati al trattamento farmacologico.",
-    "entities": [
-      {
-        "text": "lavoro",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Il trattamento si sta concentrando sulla gestione delle emozioni, con un particolare focus sulla rabbia e sull'autocontrollo. La paziente sta facendo progressi nel riconoscere i trigger emotivi che possono portare all'abuso di sostanze. È stato suggerito un piano di attività fisica regolare per migliorare la stabilità emotiva. La partecipazione a un programma di disintossicazione assistita è prevista per il prossimo mese.",
@@ -8479,7 +8460,7 @@
     "entities": []
   },
   {
-    "text": "Il paziente ha espresso una crescente frustrazione per la mancanza di progressi nel suo trattamento. Nonostante una buona alleanza terapeutica, tende a minimizzare la gravità del suo problema e a rifiutare il trattamento psicoterapico. Sarà necessaria una revisione del piano terapeutico. Inizio di un supporto esterno per coinvolgere la famiglia nel processo di recupero.",
+    "text": "Il paziente ha espresso una crescente frustrazione per la mancanza di progressi nel suo trattamento. Nonostante una buona alleanza terapeutica, tende a minimizzare la gravità del suo problema e a rifiutare il trattamento psicoterapico. Sarà necessaria una revisione del piano terapeutico. Inizio di un supporto esterno per coinvolgere la famiglia nel processo di RECUPERO.",
     "entities": []
   },
   {
@@ -8545,15 +8526,11 @@
     ]
   },
   {
-    "text": "Riferita compulsione al consumo di alcol durante le serate con amici. Discussione breve con PER Giustino Battaglia sulle strategie di coping. Si programma colloquio familiare con NORP amici di supporto.",
+    "text": "Riferita compulsione al consumo di alcol durante le serate con amici. Discussione breve con Giustino Battaglia sulle strategie di coping. Si programma colloquio familiare con amici di supporto.",
     "entities": [
       {
         "text": "Giustino Battaglia",
         "label": "PER"
-      },
-      {
-        "text": "NORP",
-        "label": "NORP"
       }
     ]
   },
@@ -8602,7 +8579,7 @@
     ]
   },
   {
-    "text": "Nel corso della visita, il paziente ha mostrato segni di ansia generalizzata, ma senza evidenti disagi psicotici. L'umore è apparso fluttuante, con momenti di irritabilità. È stato deciso di monitorare l'andamento dei livelli di sostanze nel sangue e aumentare la frequenza delle sedute di terapia individuale. Non sono stati riscontrati effetti collaterali da farmaci.",
+    "text": "Nel corso della visita, il paziente ha mostrato segni di ansia generalizzata, ma senza evidenti disagi PSICOTICI. L'umore è apparso fluttuante, con momenti di irritabilità. È stato deciso di monitorare l'andamento dei livelli di sostanze nel sangue e aumentare la frequenza delle sedute di terapia individuale. Non SONO stati riscontrati effetti COLLATERALI da farmaci.",
     "entities": []
   },
   {
@@ -8694,7 +8671,12 @@
   },
   {
     "text": "In visita odierna, il paziente appare più collaborativo. Riporta riduzione del consumo di alcol da quando ha iniziato il trattamento con acamprosato. Si consiglia prosecuzione del percorso e rivalutazione clinica a dicembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "dicembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Persistono sintomi di insonnia e irritabilità. Ridotta la dose di metadone, mantenuta terapia con quetiapina. Si consiglia monitoraggio settimanale degli enzimi epatici.",
@@ -8765,10 +8747,10 @@
     ]
   },
   {
-    "text": "Riferisce conflitto con la sorella Anna riguardo la gestione delle spese. Non emergono sintomi depressivi maggiori. Mantiene astinenza da oppiacei.",
+    "text": "Riferisce conflitto con la sorella ANNA riguardo la gestione delle spese. Non emergono sintomi depressivi maggiori. Mantiene astinenza da oppiacei.",
     "entities": [
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       }
     ]
@@ -8948,10 +8930,10 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio odierno, il paziente riferisce di aver avuto un litigio con la sorella Anna in merito alla gestione economica. Riporta insonnia e craving per alcolici. Concordiamo incremento della terapia con quetiapina.",
+    "text": "Durante il colloquio odierno, il paziente riferisce di aver avuto un litigio con la sorella ANNA in merito alla gestione economica. Riporta insonnia e craving per alcolici. Concordiamo incremento della terapia con quetiapina.",
     "entities": [
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       }
     ]
@@ -9229,10 +9211,10 @@
     ]
   },
   {
-    "text": "Riferisce ricaduta avvenuta durante il weekend trascorso a Casaletto Vaprio, con consumo di alcol e cannabis. Non emergono segni di psicosi acuta, ma si evidenzia peggioramento della concentrazione. Si propone inserimento in gruppo terapeutico.",
+    "text": "Riferisce ricaduta avvenuta durante il weekend trascorso a CASALETTO VAPRIO, con consumo di alcol e cannabis. Non emergono segni di psicosi acuta, ma si evidenzia peggioramento della concentrazione. Si propone inserimento in gruppo terapeutico.",
     "entities": [
       {
-        "text": "Casaletto Vaprio",
+        "text": "CASALETTO VAPRIO",
         "label": "GPE"
       }
     ]
@@ -9424,15 +9406,11 @@
       {
         "text": "Metadone",
         "label": "PRODUCT"
-      },
-      {
-        "text": "psicoterapeuta",
-        "label": "WORKS_OF_ART"
       }
     ]
   },
   {
-    "text": "Il paziente ha riferito un miglioramento nei sintomi di insonnia dopo aver iniziato il trattamento con Agomelatina. I segni di astinenza da alcol sono meno evidenti, ma persistono difficoltà nel mantenere un buon ritmo sonno-veglia. È stato proposto un incremento della dose di Agomelatina.",
+    "text": "Il paziente ha riferito un miglioramento nei sintomi di insonnia dopo aver iniziato il trattamento con Agomelatina. I segni di astinenza da alcol sono meno evidenti, ma persistono difficoltà nel mantenere un buon ritmo sonno-veglia. È stato proposto un incremento DELLA dose di Agomelatina.",
     "entities": [
       {
         "text": "Agomelatina",
@@ -9458,7 +9436,7 @@
     ]
   },
   {
-    "text": "Sono stati riscontrati miglioramenti nei comportamenti compulsivi, ma persiste una certa insicurezza nelle interazioni sociali. Il paziente ha ricevuto un rinforzo positivo per la sua partecipazione al programma di riabilitazione. L'assunzione di Diazepam è stata ridotta e monitorata.",
+    "text": "Sono stati riscontrati miglioramenti nei comportamenti compulsivi, ma PERSISTE una certa insicurezza nelle interazioni sociali. Il paziente ha ricevuto un rinforzo positivo per la sua partecipazione al programma di riabilitazione. L'assunzione di Diazepam è stata ridotta e monitorata.",
     "entities": [
       {
         "text": "Diazepam",
@@ -9548,6 +9526,10 @@
     "text": "Paziente di sesso maschile, 35 anni, ha continuato il programma di disintossicazione. Segnala miglioramenti significativi nei suoi livelli di ansia. Ha manifestato preoccupazioni riguardo il suo futuro lavorativo. Si è discussa la possibilità di coinvolgere il supporto familiare, con la partecipazione del fratello Giovanni al prossimo incontro.",
     "entities": [
       {
+        "text": "35 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Giovanni",
         "label": "PER"
       }
@@ -9614,7 +9596,7 @@
     ]
   },
   {
-    "text": "In seduta odierna, il paziente riferisce nostalgia per la città di Santa Giada Hoe' e difficoltà a gestire la solitudine. Si concorda inserimento in gruppo terapeutico e valutazione di terapia antidepressiva con sertralina.",
+    "text": "In seduta odierna, il paziente riferisce nostalgia per la CITTÀ di Santa Giada Hoe' e difficoltà a gestire la solitudine. Si concorda inserimento in gruppo terapeutico e valutazione di terapia antidepressiva con sertralina.",
     "entities": [
       {
         "text": "Santa Giada Hoe'",
@@ -9698,7 +9680,7 @@
     ]
   },
   {
-    "text": "Durante la visita ambulatoriale, il paziente mostra agitazione psicomotoria e riferisce di aver avuto un episodio di craving intenso dopo aver frequentato il bar aurora. Non segni di psicosi, ma elevata impulsività. Concordato incremento della dose di buprenorfina e rinforzo del programma di prevenzione delle ricadute.",
+    "text": "Durante la visita ambulatoriale, il PAZIENTE mostra agitazione psicomotoria e riferisce di aver avuto un episodio di craving intenso dopo aver frequentato il bar aurora. Non segni di psicosi, ma elevata impulsività. Concordato incremento della dose di buprenorfina e rinforzo del programma di prevenzione delle ricadute.",
     "entities": [
       {
         "text": "aurora",
@@ -9885,7 +9867,7 @@
     ]
   },
   {
-    "text": "Riferisce di aver avuto un episodio di forte ansia durante la notte del 15 ottobre, con tachicardia e sudorazione. Non ha fatto uso di sostanze. Si consiglia monitoraggio clinico e incremento delle sedute di sostegno.",
+    "text": "Riferisce di aver avuto un episodio di forte ansia durante la notte del 15 ottobre, con tachicardia e sudorazione. Non ha fatto uso di sostanze. Si consiglia monitoraggio clinico e incremento delle sedute di SOSTEGNO.",
     "entities": [
       {
         "text": "15 ottobre",
@@ -9916,10 +9898,10 @@
     ]
   },
   {
-    "text": "Accettata proposta di ricovero temporaneo presso il Centro San Raffaele per stabilizzazione clinica. In anamnesi abuso di alcol e cocaina. EOP: umore deflesso, pensiero rallentato, nessuna ideazione suicidaria.",
+    "text": "Accettata proposta di ricovero temporaneo presso il Centro SAN RAFFAELE per stabilizzazione clinica. In anamnesi abuso di alcol e cocaina. EOP: umore deflesso, pensiero rallentato, nessuna ideazione suicidaria.",
     "entities": [
       {
-        "text": "San Raffaele",
+        "text": "SAN RAFFAELE",
         "label": "FAC"
       }
     ]
@@ -10099,6 +10081,10 @@
       {
         "text": "Cremonesi",
         "label": "PATIENT"
+      },
+      {
+        "text": "dicembre",
+        "label": "DATE"
       }
     ]
   },
@@ -10291,6 +10277,10 @@
       {
         "text": "Pino Torinese",
         "label": "GPE"
+      },
+      {
+        "text": "settembre",
+        "label": "DATE"
       }
     ]
   },
@@ -10456,7 +10446,12 @@
   },
   {
     "text": "Evidente calo dell'umore con pensieri di colpa legati alle ricadute precedenti. Si consiglia incremento della dose di sertralina e valutazione neuropsicologica entro il mese di dicembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "dicembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Accetta di partecipare al gruppo di auto-aiuto organizzato dall'associazione Rinascita a Prevalle. Buona alleanza terapeutica, motivazione in crescita.",
@@ -10580,7 +10575,7 @@
     ]
   },
   {
-    "text": "In data 15/09/2025 si presenta con riduzione significativa dell'ansia, ma ancora difficoltà nella gestione delle compulsioni verso sostanze. Esami ematochimici nella norma. Si propone graduale riduzione benzodiazepinica.",
+    "text": "In DATA 15/09/2025 si presenta con riduzione significativa dell'ansia, ma ancora difficoltà nella gestione delle compulsioni verso SOSTANZE. Esami ematochimici nella norma. Si propone graduale riduzione benzodiazepinica.",
     "entities": [
       {
         "text": "15/09/2025",
@@ -10598,10 +10593,10 @@
     ]
   },
   {
-    "text": "Si mostra agitato, con pensieri intrusivi e difficoltà di concentrazione. Riporta di aver frequentato recentemente un bar in periferia di Casalduni, dove ha avuto forte tentazione di ricaduta. Rinforzata l'importanza di evitare luoghi a rischio.",
+    "text": "Si mostra agitato, con pensieri intrusivi e difficoltà di concentrazione. Riporta di aver frequentato recentemente un bar in periferia di CASALDUNI, dove ha avuto forte tentazione di ricaduta. Rinforzata l'importanza di evitare luoghi a rischio.",
     "entities": [
       {
-        "text": "Casalduni",
+        "text": "CASALDUNI",
         "label": "GPE"
       }
     ]
@@ -10929,7 +10924,12 @@
   },
   {
     "text": "Accettabile compenso psichico. Non segni di psicosi attiva. Mantiene terapia con naltrexone e acamprosato. Si consiglia monitoraggio epatico trimestrale e rivalutazione clinica a gennaio.",
-    "entities": []
+    "entities": [
+      {
+        "text": "gennaio",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Presenta craving intenso dopo visita a vecchi amici in piazza Maggiore. Si lavora sulla prevenzione delle ricadute e sulla gestione degli stimoli ambientali. Umore deflesso, ma collaborante.",
@@ -11004,7 +11004,7 @@
     "entities": []
   },
   {
-    "text": "Riferisce di aver avuto crisi di craving durante la notte del 15 ottobre. Ricorda di aver frequentato il bar La Pergola, dove ha incontrato vecchi conoscenti legati al consumo.",
+    "text": "Riferisce di aver avuto crisi di craving durante la notte del 15 ottobre. Ricorda di aver frequentato il bar La Pergola, dove ha incontrato vecchi conoscenti LEGATI al consumo.",
     "entities": [
       {
         "text": "15 ottobre",
@@ -11208,10 +11208,10 @@
     ]
   },
   {
-    "text": "Non segni di turbe cognitive. Persistono pensieri intrusivi legati al passato consumo di eroina. Si concorda con il dott. Norbiato un incremento della dose di buprenorfina. Utile eseguire esami di funzionalità renale e monitoraggio elettrolitico.",
+    "text": "Non segni di turbe COGNITIVE. Persistono pensieri INTRUSIVI legati al passato consumo di eroina. Si concorda con il dott. NORBIATO un incremento della dose di buprenorfina. Utile ESEGUIRE esami di funzionalità renale e monitoraggio elettrolitico.",
     "entities": [
       {
-        "text": "Norbiato",
+        "text": "NORBIATO",
         "label": "PER"
       }
     ]
@@ -11277,7 +11277,7 @@
     "entities": []
   },
   {
-    "text": "Giovedì, discussione con il team multidisciplinare riguardo al paziente Bongiorno. Episodi di agitazione psicomotoria e craving per eroina. Si propone valutazione per terapia sostitutiva con metadone e pianificazione di colloqui familiari per migliorare aderenza al trattamento.",
+    "text": "Giovedì, discussione con il team MULTIDISCIPLINARE riguardo al paziente Bongiorno. Episodi di agitazione psicomotoria e CRAVING per eroina. Si propone valutazione per terapia sostitutiva con metadone e pianificazione di colloqui familiari per migliorare aderenza al trattamento.",
     "entities": [
       {
         "text": "Bongiorno",
@@ -11290,7 +11290,7 @@
     "entities": []
   },
   {
-    "text": "Paziente in trattamento per dipendenza da oppiacei. Si segnala miglioramento nelle ultime settimane, con riduzione della richiesta di metadone. Persistono difficoltà nell'affrontare situazioni di stress, necessità di supporto psicologico più frequente. Risultati positivi nella terapia cognitivo-comportamentale.",
+    "text": "Paziente in trattamento per dipendenza da oppiacei. Si SEGNALA miglioramento nelle ultime settimane, con riduzione della richiesta di metadone. Persistono difficoltà nell'affrontare situazioni di stress, necessità di supporto psicologico più frequente. Risultati positivi nella terapia cognitivo-comportamentale.",
     "entities": []
   },
   {
@@ -11331,6 +11331,10 @@
     "text": "Accenna a ricaduta avvenuta a metà ottobre, con consumo episodico di alcol. Dopo confronto con la sorella Anna, decide di riprendere il percorso di disintossicazione presso il Centro san carlo.",
     "entities": [
       {
+        "text": "ottobre",
+        "label": "DATE"
+      },
+      {
         "text": "Anna",
         "label": "PER"
       },
@@ -11362,7 +11366,7 @@
     "entities": []
   },
   {
-    "text": "Non si registrano episodi di astinenza grave. Il paziente continua il programma di disintossicazione con una riduzione progressiva di benzodiazepine. Ha mostrato impegno durante la seduta psicoterapeutica e riferito di sentirsi più lucido mentalmente.",
+    "text": "Non si registrano episodi di astinenza grave. Il paziente continua il programma di disintossicazione con una riduzione PROGRESSIVA di benzodiazepine. Ha mostrato IMPEGNO durante la seduta psicoterapeutica e riferito di sentirsi più lucido mentalmente.",
     "entities": []
   },
   {
@@ -11585,7 +11589,7 @@
     "entities": []
   },
   {
-    "text": "Situazione stabile, anche se si segnala lieve aumento dell’irritabilità. Durante il colloquio, ha confermato il desiderio di intraprendere un programma di disintossicazione completa, ma esprime timori riguardo la durata e l’intensità del trattamento. Si è deciso di aumentare il supporto psicoterapeutico e di inserire nella sua terapia il farmaco lamotrigina, al fine di gestire meglio gli sbalzi di umore. Non sono stati riscontrati segni di psicopatologia acuta.",
+    "text": "Situazione stabile, anche se si segnala lieve aumento dell’irritabilità. Durante il colloquio, ha confermato il desiderio di intraprendere un programma di disintossicazione completa, ma esprime timori riguardo la durata e l’intensità del trattamento. Si è deciso di aumentare il SUPPORTO psicoterapeutico e di inserire nella sua terapia il farmaco lamotrigina, al fine di gestire meglio gli sbalzi di umore. Non sono stati riscontrati segni di psicopatologia acuta.",
     "entities": []
   },
   {
@@ -11932,7 +11936,7 @@
     ]
   },
   {
-    "text": "Paziente, dopo aver completato il ciclo di disintossicazione, ha avviato un trattamento ambulatoriale di mantenimento. Ha riferito di sentirsi più stabile e motivato, sebbene continui a lottare con l'impulso a consumare. È stato concordato un piano terapeutico che prevede la somministrazione di metadone per il controllo della dipendenza da oppiacei e un supporto psicologico settimanale. La famiglia è coinvolta nel processo di recupero.",
+    "text": "Paziente, dopo AVER completato il ciclo di disintossicazione, ha avviato un trattamento ambulatoriale di mantenimento. Ha riferito di sentirsi più stabile e motivato, sebbene continui a lottare con l'impulso a consumare. È STATO concordato un piano terapeutico che prevede la somministrazione di metadone per il controllo della dipendenza da oppiacei e un supporto psicologico settimanale. La famiglia è coinvolta nel processo di recupero.",
     "entities": []
   },
   {
@@ -11940,7 +11944,7 @@
     "entities": []
   },
   {
-    "text": "Paziente con un lungo passato di abuso di oppiacei e una storia di ricoveri in strutture residenziali. Durante la visita, si è mostrato più rilassato, ma ha ammesso di avere difficoltà ad adattarsi alla routine quotidiana senza il supporto del gruppo. Si è deciso di continuare la terapia con buprenorfina e rafforzare il supporto psicologico, aumentando le sedute individuali. Monitoraggio continuo per eventuali ricadute.",
+    "text": "Paziente con un lungo passato di abuso di oppiacei e una storia di ricoveri in strutture residenziali. Durante la visita, si è mostrato più rilassato, ma ha ammesso di avere difficoltà ad adattarsi alla routine quotidiana senza il supporto del GRUPPO. Si è deciso di continuare la terapia con buprenorfina e rafforzare il SUPPORTO psicologico, aumentando le SEDUTE individuali. Monitoraggio continuo per eventuali ricadute.",
     "entities": []
   },
   {
@@ -12023,6 +12027,10 @@
       {
         "text": "San Carlo",
         "label": "FAC"
+      },
+      {
+        "text": "gennaio",
+        "label": "DATE"
       }
     ]
   },
@@ -12074,7 +12082,7 @@
     ]
   },
   {
-    "text": "In seduta appare più collaborativo, con riduzione dei comportamenti oppositivi. Riferisce di aver evitato frequentazioni presso il bar La Pergola, luogo associato a ricadute precedenti. Si rinforza la strategia di coping.",
+    "text": "In seduta appare più collaborativo, con riduzione dei comportamenti oppositivi. RIFERISCE di aver evitato frequentazioni presso il bar La Pergola, luogo associato a ricadute precedenti. Si rinforza la strategia di coping.",
     "entities": [
       {
         "text": "La Pergola",
@@ -12131,7 +12139,7 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio odierno, riferisce di aver avuto un episodio di craving intenso il giorno precedente. Ha evitato l'assunzione grazie al supporto della sorella Anna. Si conferma la necessità di mantenere naltrexone e monitorare la funzionalità epatica.",
+    "text": "Durante il colloquio odierno, riferisce di aver avuto un episodio di craving intenso il giorno precedente. Ha evitato L'ASSUNZIONE grazie al supporto della sorella Anna. Si conferma la necessità di mantenere naltrexone e monitorare la funzionalità epatica.",
     "entities": [
       {
         "text": "Anna",
@@ -12269,10 +12277,10 @@
     ]
   },
   {
-    "text": "Si presenta con tono collaborativo, riferendo miglioramento della qualità del sonno grazie a terapia con trazodone. Ricorda con emozione il concerto di Vasco Zola a Costa Sant'Abramo, vissuto come momento di forte tentazione ma superato senza uso di sostanze.",
+    "text": "Si presenta con tono collaborativo, riferendo miglioramento della qualità del sonno grazie a terapia con trazodone. Ricorda con emozione il concerto di VASCO ZOLA a Costa Sant'Abramo, vissuto come momento di forte tentazione ma superato senza uso di sostanze.",
     "entities": [
       {
-        "text": "Vasco Zola",
+        "text": "VASCO ZOLA",
         "label": "PER"
       },
       {
@@ -12290,7 +12298,7 @@
     "entities": []
   },
   {
-    "text": "Alla visita di follow-up, il paziente ha dichiarato di non aver avuto problemi di abuso nelle ultime settimane. Tuttavia, ha manifestato preoccupazione per il ritorno di pensieri legati alla dipendenza, specialmente in situazioni di stress. È stato concordato l'innalzamento temporaneo della dose di clorazepato per facilitare la gestione di queste difficoltà psicologiche. L'intervento psicoterapeutico è stato confermato, con la pianificazione di una sessione di gruppo per giovedì prossimo. Esami richiesti: test di funzionalità epatica, renale, e ricerca di droghe nelle urine.",
+    "text": "Alla visita di follow-up, il PAZIENTE ha dichiarato di non aver AVUTO problemi di abuso nelle ultime settimane. Tuttavia, ha manifestato preoccupazione per il ritorno di pensieri legati alla dipendenza, specialmente in situazioni di stress. È stato concordato l'innalzamento temporaneo della dose di clorazepato per facilitare la gestione di queste difficoltà psicologiche. L'intervento psicoterapeutico è stato confermato, con la pianificazione di una sessione di gruppo per giovedì prossimo. Esami richiesti: test di funzionalità epatica, renale, e ricerca di droghe nelle urine.",
     "entities": []
   },
   {
@@ -12407,6 +12415,10 @@
   {
     "text": "La paziente, 36 anni, ha riportato un miglioramento significativo rispetto alla visita precedente. Non si sono evidenziati segnali di recidiva del disturbo, tuttavia sono ancora presenti alcuni episodi di ansia. Il piano terapeutico include il proseguimento con l'uso di metadone, con una revisione della dose durante il prossimo incontro. Si è discusso dell'importanza della partecipazione alle sedute di gruppo presso il centro di recupero 'Via del Sole'.",
     "entities": [
+      {
+        "text": "36 anni",
+        "label": "AGE"
+      },
       {
         "text": "Via del Sole",
         "label": "FAC"
@@ -12695,7 +12707,7 @@
     "entities": []
   },
   {
-    "text": "Il paziente, durante la visita, ha mostrato una condizione di ansia generalizzata, lamentando continui pensieri intrusivi legati alla dipendenza. Si è deciso di aumentare la dose di alprazolam per il trattamento dell'ansia e di monitorare gli effetti. Si è anche discusso del piano di dimissione dal centro, con raccomandazione di seguire il trattamento ambulatoriale a lungo termine.",
+    "text": "Il paziente, durante la visita, ha mostrato una condizione di ansia generalizzata, lamentando continui pensieri intrusivi legati alla dipendenza. Si è deciso di aumentare la dose di alprazolam per il trattamento dell'ansia e di monitorare gli effetti. Si è anche discusso del piano di dimissione dal centro, con RACCOMANDAZIONE di seguire il trattamento ambulatoriale a lungo termine.",
     "entities": []
   },
   {
@@ -12729,7 +12741,7 @@
     "entities": []
   },
   {
-    "text": "Paziente ha accettato di intraprendere una nuova terapia di supporto psicologico per affrontare la sua dipendenza da cocaina. Ha riportato un progressivo miglioramento nell'umore, sebbene continui a lottare con il senso di colpa. Continuerà a prendere la terapia a base di buprenorfina. Discussa spesso la sua relazione con il padre, per cui il terapeuta ha suggerito di introdurre un incontro con lui per migliorare la comunicazione familiare.",
+    "text": "Paziente ha accettato di intraprendere una nuova terapia di supporto psicologico per affrontare la sua dipendenza da cocaina. Ha riportato un progressivo miglioramento nell'umore, sebbene continui a lottare con il senso di colpa. Continuerà a prendere la terapia a base di buprenorfina. Discussa spesso la sua relazione con il padre, per cui il terapeuta ha SUGGERITO di introdurre un incontro con lui per migliorare la comunicazione familiare.",
     "entities": []
   },
   {
@@ -12836,20 +12848,20 @@
     ]
   },
   {
-    "text": "Riferisce ricaduta episodica con cannabis avvenuta il 12 ottobre. Non emergono segni di compromissione cognitiva significativa. Si rinforza l’alleanza terapeutica e si propone gruppo di auto-aiuto a Cellena.",
+    "text": "Riferisce ricaduta episodica con cannabis avvenuta il 12 ottobre. Non emergono segni di compromissione cognitiva significativa. Si rinforza l’alleanza terapeutica e si propone gruppo di auto-aiuto a CELLENA.",
     "entities": [
       {
         "text": "12 ottobre",
         "label": "DATE"
       },
       {
-        "text": "Cellena",
+        "text": "CELLENA",
         "label": "GPE"
       }
     ]
   },
   {
-    "text": "Mostra irritabilità e pensieri intrusivi, ma accetta di continuare la terapia con quetiapina. Si discute con il padre Giovanni la possibilità di un sostegno familiare più strutturato. Non segnalati eventi avversi farmacologici.",
+    "text": "Mostra irritabilità e PENSIERI intrusivi, ma accetta di continuare la terapia con quetiapina. Si discute con il padre Giovanni la possibilità di un sostegno familiare più strutturato. Non segnalati eventi avversi farmacologici.",
     "entities": [
       {
         "text": "Giovanni",
@@ -12871,7 +12883,7 @@
     ]
   },
   {
-    "text": "Durante la sessione, il paziente ha riferito di non avere ricadute recenti. Tuttavia, ha evidenziato un progressivo isolamento sociale che potrebbe influire negativamente sul trattamento. In accordo con il terapista, si è deciso di intensificare gli incontri settimanali e di valutare l'opportunità di un supporto psicosociale aggiuntivo. Si continua a monitorare la terapia con Metadone, senza segni di effetti collaterali significativi.",
+    "text": "Durante la sessione, il paziente ha riferito di non avere ricadute recenti. Tuttavia, ha evidenziato un PROGRESSIVO isolamento sociale che potrebbe influire negativamente sul trattamento. In accordo con il terapista, si è deciso di intensificare gli INCONTRI settimanali e di valutare l'opportunità di un supporto PSICOSOCIALE aggiuntivo. Si continua a monitorare la terapia con Metadone, senza segni di effetti collaterali significativi.",
     "entities": [
       {
         "text": "Metadone",
@@ -12949,7 +12961,7 @@
     "entities": []
   },
   {
-    "text": "Il paziente ha riportato progressi nell'affrontare la dipendenza da cocaina, con una significativa diminuzione del consumo. Tuttavia, emergono ancora difficoltà in ambito lavorativo, dove l'ambiente di stress può scatenare ricadute. È stato deciso di implementare una combinazione di terapia comportamentale e supporto familiare. Il piano prevede un incontro con il partner per migliorare la comunicazione. I controlli delle urine per verificare la presenza di sostanze saranno effettuati tra una settimana.",
+    "text": "Il paziente ha riportato progressi nell'affrontare la dipendenza da COCAINA, con una significativa diminuzione del consumo. Tuttavia, emergono ancora difficoltà in ambito lavorativo, dove l'ambiente di stress può scatenare ricadute. È stato deciso di implementare una combinazione di terapia comportamentale e supporto familiare. Il piano prevede un incontro con il partner per migliorare la comunicazione. I controlli delle urine per verificare la presenza di sostanze saranno effettuati tra una settimana.",
     "entities": []
   },
   {
@@ -12959,6 +12971,10 @@
   {
     "text": "Il paziente, 36 anni, riferisce di essere stato ricoverato al centro di recupero di Malnisio per circa 6 mesi a seguito di abuso di cocaina. Durante l'ultimo incontro, segnala il miglioramento nella gestione della rabbia e una riduzione dell'uso di sostanze, ma manifesta ancora difficoltà a gestire la solitudine. Si decide di avviare un percorso di supporto psicologico settimanale e di monitorare l'eventuale necessità di farmaci ansiolitici.",
     "entities": [
+      {
+        "text": "36 anni",
+        "label": "AGE"
+      },
       {
         "text": "Malnisio",
         "label": "GPE"
@@ -12980,12 +12996,7 @@
   },
   {
     "text": "La paziente ha riferito di non aver assunto alcol da 10 giorni. Sebbene la condizione psicologica sia sotto controllo, rimangono segnali di ansia, che sono trattati con un aumento della dose di sertralina. Si consiglia di continuare con la psicoterapia cognitivo-comportamentale, a seguito di un incontro con lo psichiatra. Il follow-up è previsto tra due settimane.",
-    "entities": [
-      {
-        "text": "psicoterapia cognitivo-comportamentale",
-        "label": "WORKS_OF_ART"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Paziente riferisce miglioramento nel sonno grazie alla riduzione della dose di benzodiazepine. Non presenta segni evidenti di astinenza, ma segnala occasionali episodi di irritabilità. Si pianifica di monitorare il comportamento emotivo nei prossimi giorni, con un follow-up previsto per il 25 novembre. Terapia mantenuta con aumento progressivo di antidepressivo.",
@@ -13017,7 +13028,7 @@
     "entities": []
   },
   {
-    "text": "Nel corso della seduta, ha espresso preoccupazione riguardo al suo attuale ambiente di vita. Le difficoltà relazionali con i familiari sembrano aggravare la sua situazione di ansia. Non sono stati riscontrati segni acuti di psicopatologia, ma è stato suggerito un incontro con il terapeuta familiare. Riguardo alla terapia farmacologica, è stato consigliato di aumentare gradualmente la dose di Buprenorfina, mentre il monitoraggio della funzione epatica verrà effettuato nelle prossime settimane.",
+    "text": "Nel corso della seduta, ha espresso preoccupazione riguardo al suo attuale ambiente di vita. Le DIFFICOLTÀ relazionali con i familiari sembrano aggravare la sua situazione di ansia. Non sono stati riscontrati segni acuti di psicopatologia, ma è stato suggerito un incontro con il terapeuta familiare. Riguardo alla terapia farmacologica, è stato consigliato di aumentare gradualmente la dose di Buprenorfina, mentre il monitoraggio della funzione epatica verrà effettuato nelle prossime settimane.",
     "entities": [
       {
         "text": "Buprenorfina",
@@ -13064,11 +13075,11 @@
     "entities": []
   },
   {
-    "text": "Paziente presentatosi per il controllo settimanale. Ha riportato una sensazione di maggior benessere generale, ma persistono alcuni episodi di ansia e irritabilità. È stato sottolineato l'importante ruolo del supporto familiare, soprattutto del padre, nella gestione della sua condizione. Si sono discussi i possibili cambiamenti nella terapia, proponendo l'introduzione di un trattamento di mantenimento con buprenorfina. I piani terapeutici sono stati aggiornati e il paziente ha espresso la sua disponibilità a seguire le indicazioni date.",
+    "text": "Paziente presentatosi per il controllo settimanale. Ha riportato una sensazione di maggior benessere generale, ma persistono alcuni episodi di ansia e irritabilità. È stato sottolineato l'importante ruolo del supporto familiare, soprattutto del padre, nella gestione della sua condizione. Si sono discussi i possibili CAMBIAMENTI nella terapia, proponendo l'introduzione di un trattamento di mantenimento con buprenorfina. I piani terapeutici sono stati aggiornati e il paziente ha espresso la sua disponibilità a seguire le indicazioni date.",
     "entities": []
   },
   {
-    "text": "Il paziente ha riferito un miglioramento della sua condizione psicologica, benché continui a lottare con pensieri ossessivi legati alla paura di ricadere. I colloqui settimanali con la psicoterapeuta sono stati utili, e il supporto del gruppo di auto-mutuo aiuto ha avuto un impatto positivo. Per il prossimo incontro, è stato programmato un controllo per la valutazione delle funzionalità epatiche, dato l'uso prolungato di farmaci. Continuare con l'attuale dosaggio di metadone, verificando l’efficacia dell’approccio terapeutico nelle prossime settimane.",
+    "text": "Il paziente ha riferito un miglioramento della sua condizione psicologica, benché continui a lottare con pensieri ossessivi legati alla paura di ricadere. I colloqui settimanali con la psicoterapeuta sono stati utili, e il supporto del gruppo di auto-mutuo aiuto ha avuto un impatto positivo. Per il prossimo incontro, è stato programmato un controllo per la valutazione delle funzionalità epatiche, dato l'uso prolungato di farmaci. Continuare con l'attuale dosaggio di metadone, verificando l’efficacia DELL’APPROCCIO terapeutico nelle prossime settimane.",
     "entities": []
   },
   {
@@ -13115,7 +13126,7 @@
     "entities": []
   },
   {
-    "text": "Ricoverato per trattamento intensivo, il paziente ha mostrato segnali di miglioramento nell'umore, pur rimanendo suscettibile a situazioni che evocano il passato di abuso. Ha espresso desiderio di continuare il trattamento e ha accettato l'idea di intraprendere un percorso psicoterapico.",
+    "text": "Ricoverato per trattamento intensivo, il paziente ha mostrato segnali di miglioramento nell'umore, pur rimanendo suscettibile a situazioni che evocano il passato di abuso. Ha espresso desiderio di continuare il trattamento e ha ACCETTATO l'idea di intraprendere un percorso psicoterapico.",
     "entities": []
   },
   {
@@ -13162,10 +13173,10 @@
     ]
   },
   {
-    "text": "Colloquio condotto in modo sereno. Non emergono turbe del pensiero. Si mantiene astinenza da sostanze. Si concorda con il dott. Baggio di proseguire con psicoterapia individuale settimanale e valutare inserimento in gruppo cognitivo-comportamentale.",
+    "text": "Colloquio condotto in modo sereno. Non emergono turbe del pensiero. Si mantiene astinenza da sostanze. Si concorda con il dott. BAGGIO di proseguire con psicoterapia individuale settimanale e valutare inserimento in gruppo cognitivo-comportamentale.",
     "entities": [
       {
-        "text": "Baggio",
+        "text": "BAGGIO",
         "label": "PER"
       }
     ]
@@ -13283,7 +13294,7 @@
     ]
   },
   {
-    "text": "Il paziente si presenta con umore instabile e segna difficoltà nel mantenere il trattamento. Ha avuto un episodio di abuso di alcol la scorsa settimana, ma riferisce una certa motivazione a seguire il piano terapeutico. Si procede con la riduzione graduale dell'uso di alcol attraverso il supporto psicoterapeutico e la somministrazione di disulfiram. Si raccomanda di monitorare i segni di ricaduta nei prossimi incontri.",
+    "text": "Il paziente si presenta con UMORE instabile e segna difficoltà nel mantenere il trattamento. Ha avuto un EPISODIO di abuso di alcol la scorsa settimana, ma riferisce una certa motivazione a seguire il piano terapeutico. Si procede con la riduzione graduale dell'uso di alcol attraverso il supporto psicoterapeutico e la somministrazione di disulfiram. Si raccomanda di monitorare i segni di ricaduta nei prossimi incontri.",
     "entities": []
   },
   {
@@ -13300,10 +13311,10 @@
     "entities": []
   },
   {
-    "text": "Il paziente è stato ricoverato presso la clinica S. Fernanda il 3 novembre per un episodio di overdose da oppiacei. Dopo il trattamento di disintossicazione, ha mostrato una certa resistenza alla continuazione del programma di riabilitazione. Si è deciso di inserirlo in un gruppo di supporto intensivo, con monitoraggio settimanale e visite regolari.",
+    "text": "Il paziente è stato ricoverato presso la clinica S. FERNANDA il 3 novembre per un episodio di overdose da oppiacei. Dopo il trattamento di disintossicazione, ha mostrato una certa resistenza alla continuazione del programma di riabilitazione. Si è deciso di inserirlo in un gruppo di supporto intensivo, con monitoraggio settimanale e visite regolari.",
     "entities": [
       {
-        "text": "S. Fernanda",
+        "text": "S. FERNANDA",
         "label": "FAC"
       },
       {
@@ -13334,10 +13345,10 @@
     "entities": []
   },
   {
-    "text": "Accettata proposta di ricovero breve presso il Centro San Carlo per stabilizzazione clinica. Buona compliance farmacologica, ma ancora presente abuso episodico di cannabis.",
+    "text": "Accettata proposta di ricovero breve presso il Centro SAN CARLO per stabilizzazione clinica. Buona compliance farmacologica, ma ancora presente abuso episodico di cannabis.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "SAN CARLO",
         "label": "FAC"
       }
     ]
@@ -13379,6 +13390,10 @@
       {
         "text": "Tormeno",
         "label": "GPE"
+      },
+      {
+        "text": "settembre",
+        "label": "DATE"
       }
     ]
   },
@@ -13443,7 +13458,7 @@
     ]
   },
   {
-    "text": "Durante il colloquio del 15 ottobre 2025 si osserva miglioramento dell'umore, riduzione dei sintomi depressivi e maggiore consapevolezza dei rischi legati all'uso di cocaina.",
+    "text": "Durante il COLLOQUIO del 15 ottobre 2025 si osserva miglioramento dell'umore, riduzione dei sintomi depressivi e maggiore CONSAPEVOLEZZA dei rischi legati all'uso di cocaina.",
     "entities": [
       {
         "text": "15 ottobre 2025",
@@ -13517,10 +13532,10 @@
     ]
   },
   {
-    "text": "Durante il follow-up, il paziente  di AGE anni mostra riduzione significativa dei sintomi astinenziali. Vive attualmente a  e frequenta regolarmente il programma di riabilitazione. Si consiglia esame tossicologico mensile e supporto psicoterapico individuale.",
+    "text": "Durante il follow-up, il paziente  di 19 anni mostra riduzione significativa dei sintomi astinenziali. Vive attualmente a  e frequenta regolarmente il programma di riabilitazione. Si consiglia esame tossicologico mensile e supporto psicoterapico individuale.",
     "entities": [
       {
-        "text": "AGE",
+        "text": "19 anni",
         "label": "AGE"
       }
     ]
@@ -13543,7 +13558,7 @@
     "entities": []
   },
   {
-    "text": "Nessun segno di psicosi, ma la paziente ha mostrato un lieve rifiuto del trattamento proposto. Alcuni conflitti interni e una forte resistenza al cambiamento, che potrebbero derivare da un ambiente familiare disfunzionale. È stato suggerito un colloquio con il servizio di consulenza familiare per esplorare dinamiche relazionali. Terapia di mantenimento attualmente in corso.",
+    "text": "Nessun segno di psicosi, ma la paziente ha mostrato un lieve rifiuto del trattamento proposto. Alcuni conflitti interni e una forte RESISTENZA al CAMBIAMENTO, che potrebbero derivare da un ambiente familiare disfunzionale. È stato SUGGERITO un colloquio con il servizio di consulenza familiare per esplorare dinamiche relazionali. Terapia di mantenimento attualmente in corso.",
     "entities": []
   },
   {
@@ -13647,14 +13662,14 @@
     ]
   },
   {
-    "text": "Nessuna crisi comportamentale nell'ultima settimana. Continua terapia con metadone a dosaggio stabile. Si discute possibilità di inserimento in programma di reinserimento lavorativo presso la cooperativa sociale Rinascita a Centurano.",
+    "text": "Nessuna crisi comportamentale nell'ultima settimana. Continua terapia con METADONE a dosaggio stabile. Si discute possibilità di inserimento in programma di reinserimento lavorativo PRESSO la cooperativa sociale RINASCITA a CENTURANO.",
     "entities": [
       {
-        "text": "Rinascita",
+        "text": "RINASCITA",
         "label": "ORG"
       },
       {
-        "text": "Centurano",
+        "text": "CENTURANO",
         "label": "GPE"
       }
     ]
@@ -13696,7 +13711,7 @@
     "entities": []
   },
   {
-    "text": "La paziente, che ha completato il programma di riabilitazione presso il centro di recupero di Nibbiola, ha mostrato progressi notevoli nell'approccio alle problematiche familiari. Non ci sono segni evidenti di recidiva nelle sue abitudini, ma il percorso di reinserimento sociale resta un tema delicato. La terapia con Naltrexone continua senza modifiche, ed è stato pianificato un incontro con il suo consulente psichiatrico per monitorare eventuali effetti collaterali. La famiglia sembra essere di supporto, ma alcune difficoltà persistono nel rapporto con il figlio adolescente.",
+    "text": "La paziente, che ha completato il programma di riabilitazione presso il centro di recupero di Nibbiola, ha mostrato progressi notevoli nell'approccio alle problematiche familiari. Non ci sono segni evidenti di recidiva nelle sue abitudini, ma il percorso di reinserimento sociale resta un tema delicato. La terapia con Naltrexone continua SENZA modifiche, ed è stato pianificato un incontro con il suo consulente psichiatrico per monitorare eventuali effetti collaterali. La famiglia sembra essere di supporto, ma alcune difficoltà persistono nel rapporto con il figlio adolescente.",
     "entities": []
   },
   {
@@ -13761,7 +13776,7 @@
     "entities": []
   },
   {
-    "text": "Paziente in terapia farmacologica stabile, ma continua a manifestare difficoltà a relazionarsi con il gruppo di sostegno. È stata pianificata una sessione con il consulente familiare per affrontare le dinamiche familiari e favorire una comunicazione più aperta. Si è discusso anche del rischio di isolamento sociale durante i periodi di astinenza e si è suggerito di incrementare la partecipazione ad attività sociali e ricreative.",
+    "text": "Paziente in terapia farmacologica stabile, ma continua a manifestare difficoltà a relazionarsi con il gruppo di sostegno. È stata pianificata una sessione con il consulente familiare per affrontare le dinamiche familiari e favorire una comunicazione più aperta. Si è discusso anche del rischio di isolamento sociale durante i periodi di astinenza e si è suggerito di incrementare la partecipazione ad ATTIVITÀ sociali e ricreative.",
     "entities": []
   },
   {
@@ -13837,7 +13852,7 @@
     ]
   },
   {
-    "text": "Durante la seduta odierna emergono pensieri intrusivi legati a precedenti esperienze traumatiche. Si propone inserimento in gruppo terapeutico cognitivo-comportamentale. Buona compliance.",
+    "text": "Durante la seduta odierna emergono pensieri intrusivi legati a precedenti esperienze traumatiche. Si propone inserimento in gruppo terapeutico cognitivo-comportamentale. BUONA compliance.",
     "entities": []
   },
   {
@@ -13892,7 +13907,7 @@
     "entities": []
   },
   {
-    "text": "Accenna a ricaduta avvenuta il 15 ottobre, con consumo episodico di alcol. Mostra consapevolezza dei rischi e chiede supporto per la gestione delle situazioni sociali.",
+    "text": "Accenna a ricaduta avvenuta il 15 ottobre, con consumo EPISODICO di alcol. Mostra consapevolezza dei rischi e chiede supporto per la gestione delle situazioni sociali.",
     "entities": [
       {
         "text": "15 ottobre",
@@ -13910,10 +13925,10 @@
     ]
   },
   {
-    "text": "Riferisce di aver partecipato a un incontro motivazionale organizzato da Associazione Rinascita. Mostra maggiore apertura al confronto e riduzione dell'isolamento sociale.",
+    "text": "Riferisce di aver partecipato a un incontro motivazionale organizzato da ASSOCIAZIONE RINASCITA. Mostra maggiore apertura al confronto e riduzione dell'isolamento sociale.",
     "entities": [
       {
-        "text": "Associazione Rinascita",
+        "text": "ASSOCIAZIONE RINASCITA",
         "label": "ORG"
       }
     ]
@@ -13923,14 +13938,14 @@
     "entities": []
   },
   {
-    "text": "Incontro odierno presso il reparto dipendenze del Policlinico San Claudio. Il paziente mostra atteggiamento collaborativo, seppur con residua ansia sociale. Si concorda con la dott.ssa Cabibbo la prosecuzione della terapia con naltrexone e supporto psicoterapico individuale. Viene programmato controllo clinico il 12 dicembre.",
+    "text": "Incontro odierno presso il reparto dipendenze del Policlinico San Claudio. Il paziente mostra atteggiamento collaborativo, seppur con residua ansia sociale. Si concorda con la dott.ssa CABIBBO la prosecuzione della terapia con naltrexone e supporto psicoterapico individuale. Viene PROGRAMMATO controllo clinico il 12 dicembre.",
     "entities": [
       {
         "text": "Policlinico San Claudio",
         "label": "FAC"
       },
       {
-        "text": "Cabibbo",
+        "text": "CABIBBO",
         "label": "PER"
       },
       {
@@ -14003,14 +14018,10 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio, la paziente ha mostrato una notevole resistenza all'idea di modificare il suo trattamento farmacologico. Sebbene non siano stati riscontrati segni evidenti di psicosi o allucinazioni, persiste un forte desiderio di ricorrere all'uso di sostanze. È stato programmato un follow-up con il terapeuta PER per discutere le alternative terapeutiche. In fase di recupero, la paziente ha espresso il desiderio di continuare a lavorare presso l'azienda locale, ma si teme che l’ambiente lavorativo possa favorire il ritorno alla dipendenza.",
+    "text": "Durante il colloquio, la paziente ha mostrato una notevole resistenza all'idea di modificare il suo trattamento farmacologico. Sebbene non siano stati riscontrati segni evidenti di psicosi o allucinazioni, persiste un forte desiderio di ricorrere all'uso di sostanze. È stato programmato un follow-up con la Quinzi per discutere le alternative terapeutiche. In fase di recupero, la paziente ha espresso il desiderio di continuare a lavorare presso l'azienda locale, ma si teme che l’ambiente lavorativo possa favorire il ritorno alla dipendenza.",
     "entities": [
       {
-        "text": "PER",
-        "label": "PER"
-      },
-      {
-        "text": "per",
+        "text": "Qunzi",
         "label": "PER"
       }
     ]
@@ -14120,7 +14131,7 @@
     "entities": []
   },
   {
-    "text": "Sintomi di lieve depressione persistono. Il paziente ha confermato di non aver avuto ricadute, ma avverte il desiderio di bere quando si trova in situazioni di stress. È stato programmato un colloquio familiare per il prossimo incontro, al fine di rafforzare la rete di supporto.",
+    "text": "Sintomi di lieve depressione persistono. Il paziente ha confermato di non aver avuto ricadute, ma avverte il desiderio di bere quando si trova in situazioni di stress. È stato programmato un colloquio familiare per il prossimo incontro, al fine di rafforzare la RETE di supporto.",
     "entities": [
       {
         "text": "depressione",
@@ -14130,12 +14141,7 @@
   },
   {
     "text": "Il trattamento con metadone ha portato a un miglioramento nella gestione della dipendenza da oppiacei. Tuttavia, il paziente ha riferito sensazioni di fatica durante il giorno e lieve irritabilità. Il piano terapeutico prevede un aggiustamento delle dosi. Il paziente ha accettato di partecipare a gruppi di supporto settimanali.",
-    "entities": [
-      {
-        "text": "dipendenza da oppiacei",
-        "label": "NORP"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Persistono craving serali, gestiti con tecniche di respirazione e supporto psicoeducativo. Non segni di psicosi attuale, ma tono dell'umore ancora deflesso.",

@@ -13,10 +13,10 @@
     ]
   },
   {
-    "text": "Sono riuscito a raggiungere un grande obiettivo al lavoro presso la Banca Intesa Sanpaolo e questo mi ha fatto sentire sia soddisfatto che orgoglioso di me stesso, sapendo di aver finalmente realizzato ciò per cui ho lavorato così duramente. È stato un traguardo importante dopo il congresso annuale a Morano Madonnuccia.",
+    "text": "Sono riuscito a raggiungere un grande obiettivo al lavoro presso la BANCA INTESA SANPAOLO e questo mi ha fatto sentire sia soddisfatto che orgoglioso di me stesso, sapendo di aver finalmente realizzato ciò per cui ho lavorato così duramente. È stato un traguardo IMPORTANTE dopo il congresso annuale a Morano Madonnuccia.",
     "entities": [
       {
-        "text": "Banca Intesa Sanpaolo",
+        "text": "BANCA INTESA SANPAOLO",
         "label": "ORG"
       },
       {
@@ -43,10 +43,10 @@
     ]
   },
   {
-    "text": "Adoro andare a letto la sera e riposarmi tanto quanto ne ho bisogno. Non vedo l'ora di affrontare il giorno successivo e ciò che mi riserva. La mia collega Graziella mi ha detto che ci sarà una conferenza medica all'Università di Casale Sul Sile il prossimo mese, potrebbe essere interessante partecipare.",
+    "text": "Adoro andare a letto la sera e riposarmi tanto quanto ne ho bisogno. Non vedo l'ora di affrontare il giorno successivo e ciò che mi riserva. La mia collega GRAZIELLA mi ha detto che ci sarà una conferenza medica all'Università di Casale Sul Sile il prossimo mese, potrebbe essere interessante partecipare.",
     "entities": [
       {
-        "text": "Graziella",
+        "text": "GRAZIELLA",
         "label": "PER"
       },
       {
@@ -78,14 +78,14 @@
     ]
   },
   {
-    "text": "Abbiamo mangiato di nuovo la pizza, sono così stanco della pizza, è disgustosa. Mi chiedo se dovremmo provare qualche ristorante diverso la prossima volta, magari La Pizzeria da Mario che è molto famosa a Torrepaduli.",
+    "text": "Abbiamo mangiato di nuovo la pizza, sono così stanco della pizza, è disgustosa. Mi chiedo se dovremmo provare qualche ristorante diverso la prossima volta, magari LA PIZZERIA DA MARIO che è molto famosa a TORREPADULI.",
     "entities": [
       {
-        "text": "La Pizzeria da Mario",
+        "text": "LA PIZZERIA DA MARIO",
         "label": "ORG"
       },
       {
-        "text": "Torrepaduli",
+        "text": "TORREPADULI",
         "label": "GPE"
       }
     ]
@@ -208,18 +208,18 @@
     ]
   },
   {
-    "text": "Sono riuscita a finire il lavoro relativamente presto oggi. Sono contenta perché questo mi ha lasciato del tempo libero per dedicarmi allo studio personale di sviluppo web dopo il lavoro. La giornata è stata faticosa, ma mi sono sentita gratificata da ciò che sono riuscita a portare a termine. Ho avuto la sensazione di aver vissuto una giornata lavorativa piena, ricca di impegni che mi hanno tenuta occupata senza farmi sentire sopraffatta. Ho anche letto qualche capitolo di 'Il Nome della Rosa' di Umberto Eco e ho pensato a quanto mi piacerebbe visitare la Biblioteca Nazionale Centrale di Battendieri.",
+    "text": "Sono riuscita a finire il lavoro relativamente presto oggi. Sono contenta perché questo mi ha lasciato del tempo libero per dedicarmi allo studio personale di sviluppo web dopo il lavoro. La giornata è stata faticosa, ma mi SONO sentita gratificata da ciò che sono riuscita a portare a termine. Ho avuto la sensazione di aver vissuto una giornata lavorativa piena, ricca di impegni che mi hanno tenuta occupata senza farmi sentire sopraffatta. Ho anche letto qualche CAPITOLO di 'Il Nome della Rosa' di UMBERTO ECO e ho pensato a quanto mi piacerebbe visitare la BIBLIOTECA NAZIONALE CENTRALE DI BATTENDIERI.",
     "entities": [
       {
         "text": "Il Nome della Rosa",
         "label": "WORKS_OF_ART"
       },
       {
-        "text": "Umberto Eco",
+        "text": "UMBERTO ECO",
         "label": "PER"
       },
       {
-        "text": "Biblioteca Nazionale Centrale di Battendieri",
+        "text": "BIBLIOTECA NAZIONALE CENTRALE DI BATTENDIERI",
         "label": "FAC"
       }
     ]
@@ -325,14 +325,14 @@
     ]
   },
   {
-    "text": "Ieri ho dormito bene. Mi sono svegliato presto per andare al Parco di Monza con Lilla, un'amica che conosco da anni. Abbiamo passeggiato e parlato per ore. Mi sento davvero rilassato.",
+    "text": "Ieri ho dormito bene. Mi sono svegliato presto per andare al Parco di Monza con LILLA, un'amica che conosco da anni. Abbiamo passeggiato e parlato per ore. Mi sento davvero rilassato.",
     "entities": [
       {
         "text": "Parco di Monza",
         "label": "LOC"
       },
       {
-        "text": "Lilla",
+        "text": "LILLA",
         "label": "PER"
       }
     ]
@@ -384,10 +384,6 @@
   {
     "text": "Ho trascorso del tempo con Dio a Creta. È stato molto rilassante.",
     "entities": [
-      {
-        "text": "Dio",
-        "label": "NORP"
-      },
       {
         "text": "Creta",
         "label": "GPE"
@@ -441,14 +437,6 @@
   {
     "text": "Dio si è manifestato più volte durante la giornata nelle mie interazioni con persone e cose. Sono rimasto molto ispirato da come Dio mostra il suo amore per noi se solo prestiamo attenzione, soprattutto oggi durante la messa nella Basilica di San Pietro a Santa Milena Del Taro.",
     "entities": [
-      {
-        "text": "Dio",
-        "label": "NORP"
-      },
-      {
-        "text": "Dio",
-        "label": "NORP"
-      },
       {
         "text": "Basilica di San Pietro",
         "label": "FAC"
@@ -529,10 +517,10 @@
     ]
   },
   {
-    "text": "Sono riuscita a fare un breve pisolino a metà giornata. È stato piacevole perché la notte prima non avevo dormito bene dopo la chiamata di mia sorella Chiara. Di solito non faccio mai un sonnellino, ma oggi ne avevo davvero bisogno e mi ha aiutato molto.",
+    "text": "Sono riuscita a fare un breve pisolino a metà giornata. È stato piacevole perché la notte prima non avevo dormito bene dopo la chiamata di mia sorella CHIARA. Di solito non faccio mai un sonnellino, ma oggi ne avevo davvero bisogno e mi ha aiutato molto.",
     "entities": [
       {
-        "text": "Chiara",
+        "text": "CHIARA",
         "label": "PER"
       }
     ]
@@ -641,14 +629,14 @@
     ]
   },
   {
-    "text": "Il cibo è così buono, la parte migliore della mia giornata è quando posso mangiare il risotto alla milanese, uno dei miei piatti preferiti, preparato con amore da mia nonna, Angela, a casa sua a Monticchio Di Massa Lubrense.",
+    "text": "Il cibo è così buono, la parte migliore della mia giornata è quando posso mangiare il risotto alla milanese, uno dei miei piatti preferiti, preparato con amore da mia nonna, ANGELA, a casa sua a MONTICCHIO DI MASSA LUBRENSE.",
     "entities": [
       {
-        "text": "Angela",
+        "text": "ANGELA",
         "label": "PER"
       },
       {
-        "text": "Monticchio Di Massa Lubrense",
+        "text": "MONTICCHIO DI MASSA LUBRENSE",
         "label": "GPE"
       }
     ]
@@ -701,10 +689,10 @@
     ]
   },
   {
-    "text": "Finalmente sono riuscita a dormire tutta la notte la notte scorsa, quindi ero ben riposata durante tutta la giornata. In realtà, sono anche andata a letto a un orario decente senza problemi ieri sera. Il mio medico, Dott. Anguillara, mi ha consigliato di seguire una routine per migliorare il sonno.",
+    "text": "Finalmente sono riuscita a dormire tutta la notte la notte scorsa, quindi ero ben riposata durante tutta la giornata. In realtà, sono anche andata a letto a un orario decente senza problemi IERI sera. Il mio medico, Dott. ANGUILLARA, mi ha consigliato di seguire una routine per migliorare il sonno.",
     "entities": [
       {
-        "text": "Anguillara",
+        "text": "ANGUILLARA",
         "label": "PER"
       }
     ]
@@ -889,6 +877,10 @@
         "label": "GPE"
       },
       {
+        "text": "settembre",
+        "label": "DATE"
+      },
+      {
         "text": "festival di musica elettronica di rimini",
         "label": "EVENT"
       }
@@ -1052,7 +1044,7 @@
     ]
   },
   {
-    "text": "Ho fatto anche una pittura ad acquerello e ho composto un po' di musica. Sono stato molto creativo. Mi sono ispirato all'album 'Viva la Vida' dei Coldplay per il mio dipinto.",
+    "text": "Ho fatto anche una pittura ad ACQUERELLO e ho composto un po' di musica. Sono stato molto creativo. Mi sono ispirato all'album 'Viva la Vida' dei Coldplay per il mio dipinto.",
     "entities": [
       {
         "text": "Viva la Vida",
@@ -1161,14 +1153,14 @@
     ]
   },
   {
-    "text": "Ho partecipato a una nuova lezione di esercizi che mirava principalmente a lavorare su tutto il corpo, in aggiunta all'esercizio cardiovascolare. È stata un'esperienza difficile, ma sono riuscita a fare tutti gli esercizi con una buona prestazione, senza sentirmi eccessivamente stanca o dolorante. Dopo, mi sono sentita energizzata e felice di aver partecipato alla lezione, motivata a cercare esperienze simili in futuro. La lezione era tenuta da una personal trainer di nome Alice Gregori al Fitness Club Cannaiola.",
+    "text": "Ho partecipato a una nuova LEZIONE di esercizi che mirava principalmente a lavorare su tutto il corpo, in aggiunta all'esercizio cardiovascolare. È stata un'esperienza difficile, ma sono riuscita a fare tutti gli esercizi con una buona prestazione, senza SENTIRMI eccessivamente stanca o dolorante. Dopo, mi sono sentita energizzata e felice di aver partecipato alla lezione, motivata a cercare esperienze simili in futuro. La lezione era tenuta da una personal trainer di nome ALICE GREGORI al FITNESS CLUB CANNAIOLA.",
     "entities": [
       {
-        "text": "Alice Gregori",
+        "text": "ALICE GREGORI",
         "label": "PER"
       },
       {
-        "text": "Fitness Club Cannaiola",
+        "text": "FITNESS CLUB CANNAIOLA",
         "label": "ORG"
       }
     ]
@@ -1179,6 +1171,10 @@
       {
         "text": "Fossalta Di Trebaseleghe",
         "label": "GPE"
+      },
+      {
+        "text": "maggio",
+        "label": "DATE"
       }
     ]
   },
@@ -1362,6 +1358,10 @@
     "text": "Ho ricevuto un pagamento extra per dicembre e sono molto felice di questo. L'azienda dove lavoro, Fiat, ha deciso di dare un bonus speciale per Natale.",
     "entities": [
       {
+        "text": "dicembre",
+        "label": "DATE"
+      },
+      {
         "text": "Fiat",
         "label": "ORG"
       },
@@ -1436,7 +1436,7 @@
     ]
   },
   {
-    "text": "Di solito faccio fatica a dormire bene la notte, ma non ieri. Ho passato una giornata piacevole con la famiglia, ho lavorato sodo e nel complesso è stata una giornata molto buona. Così, quando è arrivato il momento di andare a letto, ero pronta. Sono persino riuscita ad andare a dormire un po' prima del solito. Ho dormito tutta la notte e mi sono svegliata molto riposata, anche grazie ai rimedi naturali consigliati dalla mia dottoressa, la Dott.ssa Anna Sansoni.",
+    "text": "Di SOLITO faccio fatica a dormire bene la notte, ma non ieri. Ho passato una giornata piacevole con la famiglia, ho lavorato sodo e nel COMPLESSO è stata una giornata molto buona. Così, quando è arrivato il momento di ANDARE a letto, ero pronta. Sono persino riuscita ad andare a dormire un po' prima del solito. Ho dormito tutta la notte e mi sono svegliata molto riposata, anche grazie ai rimedi naturali consigliati dalla mia dottoressa, la Dott.ssa Anna Sansoni.",
     "entities": [
       {
         "text": "Anna Sansoni",
@@ -1534,7 +1534,7 @@
     ]
   },
   {
-    "text": "Ieri ho fatto un po' di cucina e pianificazione per me stesso, e ho dovuto rivedere i miei piani di acquisto per la settimana. Mi serve più proteina e un po' più di varietà per i miei pasti e spuntini durante il giorno. È ora di ridurre lo zucchero nella mia dieta e pensare a come selezionare e preparare il cibo senza spendere troppo o perdere troppo tempo. Sto pensando di andare al supermercato Coop di via Piano Maglio per fare la spesa, che è il posto migliore per trovare alimenti freschi.",
+    "text": "Ieri ho fatto un po' di cucina e pianificazione per me stesso, e ho dovuto rivedere i miei piani di acquisto per la settimana. Mi serve più proteina e un po' più di varietà per i miei pasti e spuntini durante il giorno. È ora di RIDURRE lo zucchero nella mia dieta e pensare a come selezionare e preparare il cibo senza spendere troppo o perdere troppo tempo. Sto pensando di andare al supermercato Coop di via Piano Maglio per fare la spesa, che è il posto migliore per trovare alimenti freschi.",
     "entities": [
       {
         "text": "Coop",
@@ -1678,10 +1678,6 @@
       {
         "text": "Zerfaliu",
         "label": "GPE"
-      },
-      {
-        "text": "Dio",
-        "label": "NORP"
       }
     ]
   },
@@ -1936,10 +1932,10 @@
     ]
   },
   {
-    "text": "Sono felice di avere un rapporto davvero equilibrato con la mia famiglia. Mio fratello Giovanni e sua moglie Stefani sono venuti a trovarci a Poggio Rusco la scorsa settimana, ed è stato bello trascorrere del tempo insieme.",
+    "text": "Sono felice di avere un RAPPORTO davvero equilibrato con la mia famiglia. Mio fratello GIOVANNI e sua moglie Stefani sono venuti a trovarci a Poggio Rusco la scorsa settimana, ed è stato bello trascorrere del tempo insieme.",
     "entities": [
       {
-        "text": "Giovanni",
+        "text": "GIOVANNI",
         "label": "PER"
       },
       {
@@ -1969,7 +1965,7 @@
     "text": "In questo momento sono davvero arrabbiato con mio figlio di 18 anni. Vorrei che smettesse di abusare di sostanze. Se n'è andato di casa. Vorrei che tornasse, ma solo a certe condizioni. Ho provato a parlarne con la dottoressa Annalisa Ottino, ma non so più cosa fare.",
     "entities": [
       {
-        "text": "18",
+        "text": "18 anni",
         "label": "AGE"
       },
       {
@@ -1996,14 +1992,14 @@
     ]
   },
   {
-    "text": "La notte scorsa ho dormito malissimo. La mia schiena ha cominciato a farmi molto male e non so perché. Così mi sono girato e rigirato per ore e mi sono svegliato sentendomi male. Ero confuso perché ultimamente mi sentivo fisicamente bene e non capisco da dove sia venuto il dolore alla schiena. Inoltre, mi preoccupavo che il mio sonno sarebbe stato influenzato in questo modo in futuro. Domani ho un appuntamento con il dottor Bondumier all'Ospedale San Carlo di Miseno per capire meglio la situazione.",
+    "text": "La notte scorsa ho dormito malissimo. La mia schiena ha cominciato a farmi molto male e non so perché. Così mi sono girato e rigirato per ore e mi sono svegliato sentendomi male. Ero confuso perché ultimamente mi sentivo fisicamente bene e non capisco da dove sia venuto il dolore alla schiena. Inoltre, mi preoccupavo che il mio sonno sarebbe stato influenzato in questo modo in futuro. Domani ho un appuntamento con il dottor BONDUMIER all'Ospedale SAN CARLO di Miseno per capire meglio la situazione.",
     "entities": [
       {
-        "text": "Bondumier",
+        "text": "BONDUMIER",
         "label": "PER"
       },
       {
-        "text": "San Carlo",
+        "text": "SAN CARLO",
         "label": "FAC"
       },
       {
@@ -2142,18 +2138,18 @@
     ]
   },
   {
-    "text": "Non ho dormito bene perché sono ancora jetlagged dopo il viaggio a Tokyo. Non sono sicuro di quando tornerò alla normalità, forse dopo il concerto di Vasco Praga a Segezia.",
+    "text": "Non ho dormito bene perché sono ancora jetlagged dopo il viaggio a Tokyo. Non sono sicuro di quando tornerò alla normalità, forse dopo il concerto di VASCO PRAGA a SEGEZIA.",
     "entities": [
       {
         "text": "Tokyo",
         "label": "GPE"
       },
       {
-        "text": "Vasco Praga",
+        "text": "VASCO PRAGA",
         "label": "PER"
       },
       {
-        "text": "Segezia",
+        "text": "SEGEZIA",
         "label": "GPE"
       }
     ]
@@ -2284,7 +2280,7 @@
     ]
   },
   {
-    "text": "Il lavoro è stato lento nell'ultima settimana circa. Non sono riuscito a raggiungere il mio obiettivo giornaliero quanto avrei voluto, per mantenere le finanze al livello che devono essere. Ieri, 23 novembre 2025, è stato il primo giorno di questa settimana in cui sono riuscito a guadagnare la somma di denaro che mi serve ogni giorno per rimanere a galla finanziariamente.",
+    "text": "Il lavoro è stato lento nell'ultima settimana circa. Non sono riuscito a raggiungere il mio obiettivo GIORNALIERO quanto avrei voluto, per mantenere le finanze al livello che devono essere. Ieri, 23 novembre 2025, è stato il primo giorno di questa settimana in cui sono riuscito a guadagnare la somma di denaro che mi serve ogni giorno per rimanere a galla finanziariamente.",
     "entities": [
       {
         "text": "23 novembre 2025",
@@ -2323,14 +2319,14 @@
     ]
   },
   {
-    "text": "Mangio sano. Ho mangiato cereali Kellogg's per colazione, un panino al burro di arachidi per pranzo e gulasch per cena. Sono soddisfatto di non aver mangiato dolci ieri, anche se al supermercato Coop ho visto una promozione sui cioccolatini Lindt.",
+    "text": "Mangio sano. Ho mangiato cereali Kellogg's per colazione, un panino al burro di arachidi per pranzo e gulasch per cena. Sono soddisfatto di non aver mangiato dolci ieri, anche se al supermercato COOP ho visto una promozione sui cioccolatini Lindt.",
     "entities": [
       {
         "text": "Kellogg's",
         "label": "PRODUCT"
       },
       {
-        "text": "Coop",
+        "text": "COOP",
         "label": "ORG"
       },
       {
@@ -2470,10 +2466,10 @@
     ]
   },
   {
-    "text": "La notte scorsa ho avuto davvero difficoltà a trovare una posizione comoda per dormire nella stanza dell'Hotel Villanova Monferrato. Oggi ero così stanco che ho provato a fare un pisolino, ma non è andata bene neanche quella.",
+    "text": "La notte scorsa ho avuto davvero difficoltà a TROVARE una posizione comoda per dormire nella stanza dell'HOTEL VILLANOVA MONFERRATO. Oggi ero così stanco che ho PROVATO a fare un pisolino, ma non è andata bene neanche quella.",
     "entities": [
       {
-        "text": "Hotel Villanova Monferrato",
+        "text": "HOTEL VILLANOVA MONFERRATO",
         "label": "FAC"
       }
     ]
@@ -2533,10 +2529,6 @@
   {
     "text": "Sembra che le cose non stiano andando come speravo, ma immagino che tutto sia nei tempi di Dio. Oggi durante la messa nella Chiesa di San Martino ho riflettuto molto su questo.",
     "entities": [
-      {
-        "text": "Dio",
-        "label": "NORP"
-      },
       {
         "text": "Chiesa di San Martino",
         "label": "FAC"

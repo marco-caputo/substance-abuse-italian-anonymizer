@@ -22,7 +22,7 @@
     ]
   },
   {
-    "text": "Giovanni ha partecipato con entusiasmo al laboratorio di musica, suonando la chitarra e condividendo un brano dei Litfiba che lo ha motivato. Ha dichiarato che la musica lo aiuta a ridurre l'ansia e a sentirsi parte del gruppo. Nessun episodio di craving segnalato negli ultimi tre giorni.",
+    "text": "Giovanni ha partecipato con entusiasmo al laboratorio di musica, suonando la chitarra e condividendo un brano dei Litfiba che lo ha motivato. Ha dichiarato che la MUSICA lo aiuta a ridurre l'ansia e a sentirsi parte del gruppo. Nessun EPISODIO di craving segnalato negli ultimi tre giorni.",
     "entities": [
       {
         "text": "Giovanni",
@@ -103,10 +103,10 @@
     ]
   },
   {
-    "text": "Ha riferito di aver trascorso il fine settimana al Parco delle Cascine, evitando luoghi che potevano stimolare il desiderio di consumo. Si mostra più sereno e motivato. Continua la terapia farmacologica con naltrexone prescritta dall'ospedale Santa Chiara.",
+    "text": "Ha riferito di aver trascorso il fine settimana al PARCO DELLE CASCINE, evitando luoghi che potevano stimolare il desiderio di consumo. Si mostra più sereno e motivato. Continua la terapia farmacologica con naltrexone prescritta dall'ospedale Santa Chiara.",
     "entities": [
       {
-        "text": "Parco delle Cascine",
+        "text": "PARCO DELLE CASCINE",
         "label": "LOC"
       },
       {
@@ -206,14 +206,14 @@
     ]
   },
   {
-    "text": "Nel colloquio pomeridiano, Stefania ha riferito di aver resistito al forte desiderio di vino durante la cena di famiglia. Ha sottolineato il sostegno ricevuto dal fratello Paolo e la decisione di continuare la terapia farmacologica con naltrexone. Si evidenzia un miglioramento nella gestione delle situazioni sociali.",
+    "text": "Nel colloquio pomeridiano, Stefania ha riferito di aver resistito al forte desiderio di vino durante la cena di famiglia. Ha sottolineato il sostegno ricevuto dal fratello PAOLO e la decisione di continuare la TERAPIA farmacologica con naltrexone. Si evidenzia un miglioramento nella gestione delle situazioni sociali.",
     "entities": [
       {
         "text": "Stefania",
         "label": "PATIENT"
       },
       {
-        "text": "Paolo",
+        "text": "PAOLO",
         "label": "PER"
       }
     ]
@@ -387,6 +387,10 @@
       {
         "text": "Natale",
         "label": "EVENT"
+      },
+      {
+        "text": "gennaio",
+        "label": "DATE"
       }
     ]
   },
@@ -411,7 +415,7 @@
         "label": "PATIENT"
       },
       {
-        "text": "36",
+        "text": "36 anni",
         "label": "AGE"
       },
       {
@@ -451,10 +455,10 @@
     ]
   },
   {
-    "text": "Ha partecipato con discreta attenzione al gruppo di auto-aiuto. Riferisce insonnia persistente e ansia. Segnala di aver avuto un litigio con la compagna al Ponte Garibaldi, episodio che lo ha destabilizzato. Si propone di intensificare le sedute di rilassamento.",
+    "text": "Ha partecipato con discreta attenzione al GRUPPO di auto-aiuto. Riferisce insonnia persistente e ansia. Segnala di aver avuto un litigio con la compagna al PONTE GARIBALDI, episodio che lo ha destabilizzato. Si propone di intensificare le sedute di rilassamento.",
     "entities": [
       {
-        "text": "Ponte Garibaldi",
+        "text": "PONTE GARIBALDI",
         "label": "FAC"
       }
     ]
@@ -489,8 +493,12 @@
     "text": "Ha partecipato al gruppo di sostegno presso la Casa della Speranza di Torella Del Sannio. Durante la sessione ha condiviso il timore di una possibile ricaduta con cannabis, soprattutto nei momenti di solitudine. Ha accettato di iniziare un diario personale per monitorare le emozioni. Si nota maggiore apertura rispetto agli incontri precedenti.",
     "entities": [
       {
-        "text": "Casa della Speranza di Torella Del Sannio",
+        "text": "Casa della Speranza",
         "label": "FAC"
+      },
+      {
+        "text": "Torella Del Sannio",
+        "label": "GPE"
       }
     ]
   },
@@ -596,6 +604,10 @@
         "label": "LOC"
       },
       {
+        "text": "ottobre",
+        "label": "DATE"
+      },
+      {
         "text": "policlinico sant'orsola",
         "label": "FAC"
       }
@@ -619,11 +631,11 @@
     ]
   },
   {
-    "text": "Sessione di gruppo al Centro Stella Maris. Damiano, 29 anni, ha condiviso la difficoltà di gestire la rabbia dopo aver smesso di fumare cannabis. Ha raccontato di aver avuto un litigio con un collega al bar La Pergola. Si consiglia di continuare con esercizi di scrittura terapeutica e incontri settimanali.",
+    "text": "Sessione di gruppo al Centro STELLA MARIS. Damiano, 29 anni, ha CONDIVISO la difficoltà di gestire la rabbia dopo aver smesso di fumare cannabis. Ha raccontato di aver avuto un litigio con un collega al bar LA PERGOLA. Si consiglia di continuare con esercizi di scrittura terapeutica e incontri settimanali.",
     "entities": [
       {
-        "text": "Stella Maris",
-        "label": "ORG"
+        "text": "STELLA MARIS",
+        "label": "FAC"
       },
       {
         "text": "Damiano",
@@ -634,7 +646,7 @@
         "label": "AGE"
       },
       {
-        "text": "La Pergola",
+        "text": "LA PERGOLA",
         "label": "ORG"
       }
     ]
@@ -644,11 +656,11 @@
     "entities": [
       {
         "text": "Giovanni",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Casa di Cura Santa Ornella",
-        "label": "ORG"
+        "label": "FAC"
       },
       {
         "text": "Colla Maffone",
@@ -660,12 +672,20 @@
     "text": "Enzio ha avuto un incontro con la Dott.ssa Piras. Ha espresso la volontà di migliorare le sue relazioni familiari, che considera un fattore importante nel suo processo di recupero. Ha confessato di aver avuto una ricaduta, assumendo eroina, durante una visita alla madre a Fiastra. In seguito all'episodio, Enzio ha chiesto di intensificare la terapia psicologica. Verrà discusso un piano d'intervento con il team del Sert di Monza.",
     "entities": [
       {
+        "text": "Enzio",
+        "label": "PATIENT"
+      },
+      {
         "text": "Piras",
         "label": "PER"
       },
       {
         "text": "Fiastra",
         "label": "GPE"
+      },
+      {
+        "text": "Enzio",
+        "label": "PATIENT"
       },
       {
         "text": "Sert di Monza",
@@ -678,11 +698,11 @@
     "entities": [
       {
         "text": "Simona",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Simona",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Aldini",
@@ -703,11 +723,15 @@
       },
       {
         "text": "benedetto",
-        "label": "PER"
+        "label": "PATIENT"
+      },
+      {
+        "text": "29 anni",
+        "label": "AGE"
       },
       {
         "text": "benedetto",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "bianchini",
@@ -718,7 +742,7 @@
         "label": "PER"
       },
       {
-        "text": "di Supporto di Caranna",
+        "text": "Caranna",
         "label": "GPE"
       }
     ]
@@ -728,7 +752,7 @@
     "entities": [
       {
         "text": "Sofia",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Galli",
@@ -792,7 +816,7 @@
         "label": "PATIENT"
       },
       {
-        "text": "di Torrevecchia Pia",
+        "text": "Torrevecchia Pia",
         "label": "GPE"
       },
       {
@@ -844,10 +868,10 @@
     ]
   },
   {
-    "text": "Ha partecipato al gruppo di sostegno organizzato dal Sert di Verzegnis. Racconta di aver avuto un episodio di forte craving durante la festa di san giovanni, ma di aver gestito la situazione grazie al supporto dei compagni. Si concorda di intensificare le attività diurne per ridurre i momenti di solitudine.",
+    "text": "Ha partecipato al gruppo di sostegno organizzato dal SERT DI VERZEGNIS. Racconta di aver avuto un episodio di forte craving durante la festa di san giovanni, ma di aver gestito la situazione grazie al supporto dei compagni. Si concorda di intensificare le attività diurne per ridurre i momenti di solitudine.",
     "entities": [
       {
-        "text": "Sert di Verzegnis",
+        "text": "SERT DI VERZEGNIS",
         "label": "ORG"
       },
       {
@@ -897,7 +921,7 @@
         "label": "AGE"
       },
       {
-        "text": "parco Valentino",
+        "text": "Valentino",
         "label": "LOC"
       }
     ]
@@ -1124,7 +1148,7 @@
         "label": "PATIENT"
       },
       {
-        "text": "birra Peroni",
+        "text": "Peroni",
         "label": "PRODUCT"
       }
     ]
@@ -1141,8 +1165,12 @@
         "label": "PER"
       },
       {
-        "text": "Teatro Regio di Candela",
+        "text": "Teatro Regio",
         "label": "FAC"
+      },
+      {
+        "text": "Candela",
+        "label": "GPE"
       }
     ]
   },
@@ -1160,14 +1188,14 @@
     ]
   },
   {
-    "text": "Nella giornata di ieri, Coluccio ha partecipato al laboratorio creativo presso la Casa della Cultura di Villa Di Molvena. Ha mostrato interesse per la pittura e ha citato il libro 'Sostiene Pereira' come fonte di ispirazione. Non ha riportato episodi di craving e si è detto motivato a continuare il percorso.",
+    "text": "Nella giornata di ieri, Coluccio ha partecipato al laboratorio creativo presso la CASA DELLA CULTURA DI VILLA DI MOLVENA. Ha mostrato interesse per la pittura e ha citato il libro 'Sostiene Pereira' come fonte di ispirazione. Non ha riportato episodi di craving e si è detto motivato a continuare il percorso.",
     "entities": [
       {
         "text": "Coluccio",
         "label": "PATIENT"
       },
       {
-        "text": "Casa della Cultura di Villa Di Molvena",
+        "text": "CASA DELLA CULTURA DI VILLA DI MOLVENA",
         "label": "FAC"
       },
       {
@@ -1250,14 +1278,14 @@
     ]
   },
   {
-    "text": "Incontro di gruppo al Centro Rinascita di Tradate. Rodolfo, 29 anni, ha condiviso la difficoltà di affrontare la solitudine serale. Ha menzionato di aver ascoltato spesso la canzone \"Sally\" di Vasco Brunelleschi, trovandovi conforto. Si propone di incrementare le attività sportive per ridurre il rischio di ricaduta.",
+    "text": "Incontro di gruppo al Centro RINASCITA DI TRADATE. RODOLFO, 29 anni, ha condiviso la difficoltà di AFFRONTARE la solitudine serale. Ha menzionato di aver ascoltato spesso la canzone \"Sally\" di VASCO BRUNELLESCHI, trovandovi conforto. Si propone di incrementare le attività sportive per ridurre il rischio di ricaduta.",
     "entities": [
       {
-        "text": "Rinascita di Tradate",
+        "text": "RINASCITA DI TRADATE",
         "label": "ORG"
       },
       {
-        "text": "Rodolfo",
+        "text": "RODOLFO",
         "label": "PATIENT"
       },
       {
@@ -1269,16 +1297,16 @@
         "label": "WORKS_OF_ART"
       },
       {
-        "text": "Vasco Brunelleschi",
+        "text": "VASCO BRUNELLESCHI",
         "label": "PER"
       }
     ]
   },
   {
-    "text": "Seduta individuale con la psicologa Grifeo presso il reparto dipendenze dell’Ospedale San Carlo. Nonostante la recente ricaduta con l’uso di eroina, Gianni ha espresso volontà di riprendere il percorso terapeutico. Si concorda un monitoraggio più frequente e la partecipazione a un evento motivazionale previsto il 15 gennaio.",
+    "text": "Seduta individuale con la psicologa GRIFEO presso il reparto dipendenze dell’Ospedale San Carlo. Nonostante la recente ricaduta con l’uso di eroina, Gianni ha espresso volontà di riprendere il percorso terapeutico. Si concorda un monitoraggio più frequente e la partecipazione a un evento motivazionale previsto il 15 gennaio.",
     "entities": [
       {
-        "text": "Grifeo",
+        "text": "GRIFEO",
         "label": "PER"
       },
       {
@@ -1299,6 +1327,10 @@
     "text": "Giovanni si è presentato al centro di trattamento di Antey Saint Andre' con un miglioramento significativo rispetto alle settimane precedenti. Ha riferito di non aver avuto episodi di consumo negli ultimi 10 giorni, ma continua a lottare con l'ansia. Si è sottoposto a un incontro con il Dott. Missoni, psicoterapeuta, per esplorare tecniche di gestione dello stress. Continuerà la terapia con metadone e il supporto psicologico settimanale.",
     "entities": [
       {
+        "text": "Giovanni",
+        "label": "PATIENT"
+      },
+      {
         "text": "Antey Saint Andre'",
         "label": "GPE"
       },
@@ -1316,6 +1348,10 @@
         "label": "GPE"
       },
       {
+        "text": "Loredana",
+        "label": "PATIENT"
+      },
+      {
         "text": "Toso",
         "label": "PER"
       }
@@ -1325,14 +1361,26 @@
     "text": "Raffaele ha partecipato attivamente alla sessione di gruppo questa mattina, dove ha condiviso i suoi progressi nel ridurre l'uso di cocaina. Ha riferito di sentirsi più motivato dopo aver avviato il programma di recupero con il Sert di Pieve Di Coriano, ma ha anche ammesso di avere difficoltà a gestire la solitudine. Il gruppo ha mostrato solidarietà, e si è deciso di rafforzare il programma di supporto psicoterapico. Raffaele continuerà con la terapia sostitutiva con buprenorfina.",
     "entities": [
       {
+        "text": "Raffaele",
+        "label": "PATIENT"
+      },
+      {
         "text": "Sert di Pieve Di Coriano",
         "label": "ORG"
+      },
+      {
+        "text": "Raffaele",
+        "label": "PATIENT"
       }
     ]
   },
   {
     "text": "Lina ha affrontato una situazione difficile ieri sera, quando è stata tentata di bere al bar con alcune amiche. Fortunatamente, ha resistito alla tentazione e ha chiamato il suo terapeuta per un consiglio. Durante la seduta, ha dichiarato di sentirsi più consapevole dei suoi triggers e di essere grata per il supporto ricevuto. Si è deciso di continuare con la terapia di gruppo al Centro San Giovanni e aumentare il focus sulle dinamiche sociali nelle prossime sessioni.",
     "entities": [
+      {
+        "text": "Lina",
+        "label": "PATIENT"
+      },
       {
         "text": "San Giovanni",
         "label": "ORG"
@@ -1343,12 +1391,20 @@
     "text": "Durante l'incontro di questa mattina, Fabio ha espresso una forte sensazione di frustrazione per i suoi progressi lenti. Ha ammesso di aver avuto alcune difficoltà nell'adattarsi alla routine del centro di riabilitazione di Pieve Di Ledro, ma ha dichiarato di voler continuare il percorso con determinazione. Si è discusso con il Dott. Ponti della possibilità di un programma di riabilitazione intensiva, e Fabio è stato d'accordo. Il trattamento con naltrexone proseguirà.",
     "entities": [
       {
+        "text": "Fabio",
+        "label": "PATIENT"
+      },
+      {
         "text": "Pieve Di Ledro",
         "label": "GPE"
       },
       {
         "text": "Ponti",
         "label": "PER"
+      },
+      {
+        "text": "Fabio",
+        "label": "PATIENT"
       }
     ]
   },
@@ -1515,7 +1571,7 @@
     "entities": [
       {
         "text": "Ivo",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Roncalli",
@@ -1528,7 +1584,7 @@
     "entities": [
       {
         "text": "Giovanni",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Spadafora",
@@ -1541,7 +1597,7 @@
     "entities": [
       {
         "text": "Cassandra",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Paolo",
@@ -1549,7 +1605,7 @@
       },
       {
         "text": "Cassandra",
-        "label": "PER"
+        "label": "PATIENT"
       }
     ]
   },
@@ -1558,11 +1614,11 @@
     "entities": [
       {
         "text": "Alphons",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Alphons",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Lotti",
@@ -1575,7 +1631,7 @@
     "entities": [
       {
         "text": "Roberto",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Marini",
@@ -1584,7 +1640,7 @@
     ]
   },
   {
-    "text": "Durante la seduta di lunedì 17 novembre, Gianni ha raccontato di aver avuto un forte desiderio di bere al bar Stella Rossa, ma ha scelto di tornare a casa. Ha detto di sentirsi più sicuro dopo aver parlato con la Dott.ssa Mancini. Si nota un miglioramento nella gestione delle situazioni a rischio.",
+    "text": "Durante la seduta di lunedì 17 novembre, Gianni ha raccontato di aver avuto un forte desiderio di bere al bar Stella Rossa, ma ha scelto di tornare a casa. Ha detto di sentirsi più sicuro dopo aver parlato con la Dott.ssa MANCINI. Si nota un miglioramento nella gestione delle situazioni a rischio.",
     "entities": [
       {
         "text": "17 novembre",
@@ -1599,7 +1655,7 @@
         "label": "ORG"
       },
       {
-        "text": "Mancini",
+        "text": "MANCINI",
         "label": "PER"
       }
     ]
@@ -1694,7 +1750,7 @@
     "text": "Durante l’attività sportiva al campo di calcio di via garibaldi, Pier ha mostrato buona energia e partecipazione. Ha raccontato di aver avuto un litigio con il fratello carmelo, ma senza conseguenze sul percorso terapeutico. Si nota miglioramento della gestione della rabbia.",
     "entities": [
       {
-        "text": "campo di calcio di via garibaldi",
+        "text": "via garibaldi",
         "label": "LOC"
       },
       {
@@ -1827,10 +1883,10 @@
     ]
   },
   {
-    "text": "Giovanni ha riferito di aver avuto un periodo di forte stress legato alla separazione dalla compagna, che ha scatenato episodi di consumo di cocaina. Ha ammesso di non essere riuscito a controllare la tentazione e di aver ceduto alla sostanza dopo settimane di astinenza. Mostra segni di ansia, ma ha accettato il supporto psicoterapeutico per affrontare la causa scatenante. Si raccomanda di proseguire con la psicoterapia individuale e di monitorare la frequenza del consumo.",
+    "text": "GIOVANNI ha riferito di aver avuto un periodo di forte stress legato alla separazione dalla compagna, che ha scatenato episodi di consumo di cocaina. Ha ammesso di non essere riuscito a controllare la tentazione e di aver ceduto alla sostanza dopo settimane di astinenza. Mostra segni di ansia, ma ha accettato il supporto psicoterapeutico per affrontare la causa scatenante. Si raccomanda di proseguire con la psicoterapia individuale e di monitorare la frequenza del consumo.",
     "entities": [
       {
-        "text": "Giovanni",
+        "text": "GIOVANNI",
         "label": "PATIENT"
       }
     ]
@@ -1943,18 +1999,18 @@
     ]
   },
   {
-    "text": "Giovanni ha mostrato irritabilità durante l’incontro odierno. Ha raccontato di aver avuto una discussione con il fratello Guido e di aver pensato di ricorrere alla cocaina. La Dott.ssa Leone propone di intensificare le sedute di gruppo e di monitorare l’umore quotidianamente.",
+    "text": "Giovanni ha mostrato irritabilità durante l’incontro odierno. Ha raccontato di aver avuto una discussione con il fratello GUIDO e di aver pensato di ricorrere alla cocaina. La Dott.ssa LEONE propone di intensificare le sedute di gruppo e di monitorare l’umore quotidianamente.",
     "entities": [
       {
         "text": "Giovanni",
         "label": "PATIENT"
       },
       {
-        "text": "Guido",
+        "text": "GUIDO",
         "label": "PER"
       },
       {
-        "text": "Leone",
+        "text": "LEONE",
         "label": "PER"
       }
     ]
@@ -1997,6 +2053,10 @@
         "label": "PATIENT"
       },
       {
+        "text": "38 anni",
+        "label": "AGE"
+      },
+      {
         "text": "Interminei",
         "label": "PER"
       },
@@ -2021,6 +2081,10 @@
       {
         "text": "Giovanni",
         "label": "PATIENT"
+      },
+      {
+        "text": "45 anni",
+        "label": "AGE"
       },
       {
         "text": "12 dicembre",
@@ -2281,7 +2345,7 @@
     ]
   },
   {
-    "text": "Nelle ultime giornate ha mostrato maggiore serenità durante le attività di laboratorio creativo. Ha raccontato di aver avuto pensieri di uso di cocaina dopo una discussione con la sorella Anna, ma di averli gestiti grazie al supporto del gruppo e alla lettura di poesie.",
+    "text": "Nelle ultime giornate ha mostrato maggiore serenità durante le attività di laboratorio creativo. Ha raccontato di aver avuto pensieri di uso di cocaina dopo una discussione con la sorella Anna, ma di averli gestiti grazie al SUPPORTO del gruppo e alla lettura di poesie.",
     "entities": [
       {
         "text": "Anna",
@@ -2371,10 +2435,10 @@
     ]
   },
   {
-    "text": "La settimana ha visto progressi, anche se ci sono stati alcuni alti e bassi. Stefania ha partecipato a tutte le sessioni di terapia individuale e ai gruppi di sostegno. Si nota una certa resilienza nel suo comportamento, ma ha recentemente avuto una discussione accesa con il padre. Ha confermato di non aver consumato sostanze da inizio mese e sta migliorando la sua adesione alla terapia con metadone.",
+    "text": "La settimana ha visto progressi, anche se ci sono stati alcuni alti e bassi. STEFANIA ha partecipato a tutte le sessioni di terapia individuale e ai gruppi di sostegno. Si nota una certa resilienza nel suo comportamento, ma ha recentemente avuto una discussione accesa con il padre. Ha confermato di non aver consumato sostanze da inizio mese e sta migliorando la sua adesione alla terapia con metadone.",
     "entities": [
       {
-        "text": "Stefania",
+        "text": "STEFANIA",
         "label": "PATIENT"
       }
     ]
@@ -2590,10 +2654,10 @@
     ]
   },
   {
-    "text": "Incontro individuale con il Dott. Seddio presso l'Ospedale San Carlo. Benvenuto riferisce di avere ancora difficoltà a dormire, ma nota un miglioramento dell'umore. Ha iniziato a frequentare un corso di cucina e racconta di aver cucinato piatti semplici per la madre. Si consiglia di mantenere la terapia con metadone e di proseguire con le attività creative.",
+    "text": "Incontro individuale con il Dott. SEDDIO presso l'Ospedale San Carlo. Benvenuto riferisce di avere ancora difficoltà a dormire, ma nota un miglioramento dell'umore. Ha iniziato a frequentare un corso di cucina e racconta di aver CUCINATO piatti semplici per la madre. Si consiglia di mantenere la terapia con metadone e di proseguire con le attività creative.",
     "entities": [
       {
-        "text": "Seddio",
+        "text": "SEDDIO",
         "label": "PER"
       },
       {
@@ -2709,14 +2773,14 @@
     ]
   },
   {
-    "text": "Incontro di verifica presso il Sert di Filattiera. Marcello appare più motivato e ha ripreso a frequentare il corso di falegnameria. Ha raccontato di aver avuto un sogno ricorrente legato al consumo di cocaina, ma di riuscire a gestire l'ansia con esercizi di respirazione. Si pianifica un nuovo colloquio il 3 dicembre.",
+    "text": "Incontro di verifica presso il Sert di Filattiera. MARCELLO appare più motivato e ha ripreso a frequentare il corso di falegnameria. Ha raccontato di aver avuto un sogno ricorrente legato al consumo di cocaina, ma di riuscire a gestire L'ANSIA con esercizi di respirazione. Si pianifica un nuovo colloquio il 3 dicembre.",
     "entities": [
       {
         "text": "Sert di Filattiera",
         "label": "ORG"
       },
       {
-        "text": "Marcello",
+        "text": "MARCELLO",
         "label": "PATIENT"
       },
       {
@@ -2746,8 +2810,12 @@
         "label": "PATIENT"
       },
       {
-        "text": "Casa del Sole di Sola",
-        "label": "ORG"
+        "text": "Casa del Sole",
+        "label": "FAC"
+      },
+      {
+        "text": "Sola",
+        "label": "GPE"
       }
     ]
   },
@@ -2799,7 +2867,7 @@
     ]
   },
   {
-    "text": "Nel colloquio con il Dott. Serra, Gianni ha raccontato di aver avuto un forte desiderio di ricorrere all'eroina dopo aver incontrato vecchi compagni al Bar Centrale di Pisa. Ha espresso timore di ricadere ma anche volontà di rafforzare la rete di sostegno. Si pianifica un incontro familiare con la moglie Anna la prossima settimana.",
+    "text": "Nel colloquio con il Dott. Serra, Gianni ha raccontato di aver avuto un forte desiderio di ricorrere all'eroina dopo aver incontrato vecchi compagni al Bar CENTRALE DI PISA. Ha espresso timore di ricadere ma anche volontà di rafforzare la rete di sostegno. Si pianifica un incontro familiare con la moglie ANNA la prossima settimana.",
     "entities": [
       {
         "text": "Serra",
@@ -2810,11 +2878,11 @@
         "label": "PATIENT"
       },
       {
-        "text": "Centrale di Pisa",
+        "text": "CENTRALE DI PISA",
         "label": "ORG"
       },
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       }
     ]
@@ -2906,7 +2974,12 @@
   },
   {
     "text": "Dolores ha mostrato un miglioramento significativo nell’affrontare le crisi di astinenza. Si è iscritta a un gruppo di supporto locale e ha partecipato regolarmente agli incontri. Durante la seduta, ha riferito di sentirsi più in controllo e ha ammesso di aver ridotto progressivamente l’uso di alcol. Tuttavia, ammette ancora qualche difficoltà nel gestire la solitudine. Insieme al terapeuta, ha deciso di incrementare le sessioni di supporto psicologico e di non ridurre la dose di disulfiram.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Dolores",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "La seduta con il Dott. Badoer si è concentrata sull’analisi dei pensieri negativi che spingono Leonardo a fare uso di sostanze. Ha raccontato di aver avuto un periodo particolarmente difficile dopo aver perso il lavoro come cameriere a Boccasette. Nonostante i momenti di difficoltà, ha dichiarato di essere determinato a proseguire con la riabilitazione. Il medico ha suggerito di introdurre tecniche di mindfulness e ha raccomandato il coinvolgimento di un dietista per affrontare i problemi legati all’alimentazione.",
@@ -2914,6 +2987,10 @@
       {
         "text": "Badoer",
         "label": "PER"
+      },
+      {
+        "text": "Leonardo",
+        "label": "PATIENT"
       },
       {
         "text": "Boccasette",
@@ -2926,11 +3003,15 @@
     "entities": [
       {
         "text": "Manuel",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
-        "text": "San Giovanni di Poggio San Francesco",
+        "text": "San Giovanni",
         "label": "FAC"
+      },
+      {
+        "text": "Poggio San Francesco",
+        "label": "GPE"
       }
     ]
   },
@@ -2939,7 +3020,7 @@
     "entities": [
       {
         "text": "Laura",
-        "label": "PER"
+        "label": "PATIENT"
       }
     ]
   },
@@ -2948,11 +3029,11 @@
     "entities": [
       {
         "text": "Antonio",
-        "label": "PER"
+        "label": "PATIENT"
       },
       {
         "text": "Antonio",
-        "label": "PER"
+        "label": "PATIENT"
       }
     ]
   },
@@ -3052,10 +3133,10 @@
     ]
   },
   {
-    "text": "Nell’incontro di gruppo del giovedì, Virgilio ha mostrato maggiore apertura nel condividere le proprie difficoltà. Ha raccontato di aver avuto un forte craving per la cocaina dopo aver ascoltato la canzone \"Vita spericolata\" alla radio. Si discute l’importanza di evitare stimoli associati al consumo.",
+    "text": "Nell’incontro di gruppo del giovedì, VIRGILIO ha mostrato maggiore apertura nel condividere le proprie difficoltà. Ha raccontato di aver avuto un FORTE craving per la cocaina dopo aver ascoltato la canzone \"Vita spericolata\" alla radio. Si discute l’importanza di evitare stimoli associati al consumo.",
     "entities": [
       {
-        "text": "Virgilio",
+        "text": "VIRGILIO",
         "label": "PATIENT"
       },
       {
@@ -3065,10 +3146,10 @@
     ]
   },
   {
-    "text": "Ha partecipato con interesse al laboratorio teatrale organizzato dal centro di Staggiano. Riferisce di sentirsi più sicuro nelle relazioni sociali e di aver ridotto la frequenza dei pensieri legati all’uso di eroina. Si pianifica un nuovo colloquio motivazionale la prossima settimana.",
+    "text": "Ha partecipato con interesse al laboratorio teatrale organizzato dal centro di STAGGIANO. Riferisce di sentirsi più sicuro nelle relazioni sociali e di aver ridotto la frequenza dei pensieri legati all’uso di eroina. Si pianifica un nuovo colloquio motivazionale la prossima settimana.",
     "entities": [
       {
-        "text": "Staggiano",
+        "text": "STAGGIANO",
         "label": "GPE"
       }
     ]
@@ -3130,6 +3211,10 @@
       {
         "text": "Sert di Gemmano",
         "label": "ORG"
+      },
+      {
+        "text": "dicembre",
+        "label": "DATE"
       }
     ]
   },
@@ -3251,11 +3336,20 @@
   },
   {
     "text": "Giuseppe ha condiviso di aver avuto un lieve ricaduto la scorsa settimana, quando ha consumato cocaina in compagnia di vecchi amici. È stato molto autocritico riguardo a questo episodio e ha riconosciuto il suo desiderio di isolarsi per evitare ulteriori tentazioni. Ha chiesto di essere più seguito da un tutor per prevenire eventuali altre crisi. Durante l'incontro, si è mostrato determinato nel proseguire con il programma di disintossicazione e nel seguire la terapia farmacologica prescritta.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Giuseppe",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "La sessione di oggi si è concentrata sul miglioramento delle relazioni familiari. Marina ha parlato delle difficoltà con il padre, che non riesce ancora a comprendere pienamente il suo processo di recupero. Tuttavia, ha menzionato un miglioramento nella sua comunicazione con la madre, con la quale ha programmato una visita al centro di riabilitazione a Vigano San Martino. La terapia psicologica è stata confermata per la settimana successiva per affrontare il tema della fiducia in sé stessa.",
     "entities": [
+      {
+        "text": "Marina",
+        "label": "PATIENT"
+      },
       {
         "text": "Vigano San Martino",
         "label": "GPE"
@@ -3265,6 +3359,10 @@
   {
     "text": "Oggi, durante il colloquio, Agnolo ha riportato un netto miglioramento nelle sue relazioni interpersonali. Ha partecipato con entusiasmo all'incontro del gruppo di sostegno 'Nuova Vita', dove ha discusso delle sfide quotidiane con il consumo di alcol. Ha riconosciuto che la partecipazione ai gruppi è stata fondamentale per la sua motivazione. Il prossimo incontro terapeutico è fissato per la prossima settimana. Ha inoltre espresso interesse nel partecipare a un programma di volontariato per migliorare il suo senso di utilità.",
     "entities": [
+      {
+        "text": "Agnolo",
+        "label": "PATIENT"
+      },
       {
         "text": "Nuova Vita",
         "label": "ORG"
@@ -3300,8 +3398,8 @@
         "label": "GPE"
       },
       {
-        "text": "concerto di Vasco Scarpetta",
-        "label": "EVENT"
+        "text": "Vasco Scarpetta",
+        "label": "PER"
       },
       {
         "text": "Lupo",
@@ -3319,14 +3417,14 @@
     ]
   },
   {
-    "text": "Incontro di verifica con il Dott. Marino presso il Centro di Salute Mentale di Calcio. Riferisce di aver ridotto il consumo di alcol e di sentirsi più energico. Ha menzionato di aver iniziato a leggere \"La coscienza di Zeno\" come parte di un esercizio consigliato dalla terapeuta. Si programma un nuovo colloquio il 15 gennaio.",
+    "text": "Incontro di verifica con il Dott. Marino presso il Centro di Salute Mentale di CALCIO. Riferisce di aver ridotto il consumo di alcol e di sentirsi più energico. Ha menzionato di aver iniziato a leggere \"La coscienza di Zeno\" come parte di un esercizio consigliato dalla terapeuta. Si programma un nuovo colloquio il 15 gennaio.",
     "entities": [
       {
         "text": "Marino",
         "label": "PER"
       },
       {
-        "text": "Calcio",
+        "text": "CALCIO",
         "label": "GPE"
       },
       {
@@ -3523,6 +3621,10 @@
     "text": "Durante il gruppo di auto-aiuto ha condiviso la difficoltà di gestire la rabbia dopo un litigio con la madre. Ha dichiarato di non aver fatto uso di cannabis da inizio novembre. L'operatore ha suggerito un colloquio individuale con la psicologa Dott.ssa Ginesio presso l'Ospedale Maggiore di Parma.",
     "entities": [
       {
+        "text": "novembre",
+        "label": "DATE"
+      },
+      {
         "text": "Ginesio",
         "label": "PER"
       },
@@ -3576,6 +3678,10 @@
       {
         "text": "Francesca",
         "label": "PATIENT"
+      },
+      {
+        "text": "settembre",
+        "label": "DATE"
       }
     ]
   },
@@ -3593,14 +3699,14 @@
     ]
   },
   {
-    "text": "Durante la seduta individuale, Valeria ha riferito di aver mantenuto l’astinenza dalla cannabis per tre settimane. Ha raccontato di aver trascorso il weekend a Gazzada con la cugina Giuliana, evitando luoghi che le ricordavano il consumo. Mostra maggiore fiducia nelle proprie capacità di gestione.",
+    "text": "Durante la seduta individuale, VALERIA ha riferito di aver mantenuto l’astinenza dalla cannabis per tre settimane. Ha raccontato di aver trascorso il weekend a GAZZADA con la cugina Giuliana, evitando luoghi che le ricordavano il consumo. Mostra maggiore fiducia nelle proprie capacità di gestione.",
     "entities": [
       {
-        "text": "Valeria",
+        "text": "VALERIA",
         "label": "PATIENT"
       },
       {
-        "text": "Gazzada",
+        "text": "GAZZADA",
         "label": "GPE"
       },
       {
@@ -3649,7 +3755,7 @@
     ]
   },
   {
-    "text": "Agnolo ha partecipato al gruppo di discussione di ieri con interesse, mostrando un buon livello di autoconoscenza. Durante il colloquio, ha parlato della difficoltà di affrontare le relazioni familiari, in particolare con la madre, con la quale è in conflitto da anni. Riferisce di aver avuto un episodio di consumo di alcol nel fine settimana, ma ha subito cercato supporto dal gruppo. Il medico ha confermato che la terapia farmacologica deve proseguire, con un possibile aumento del dosaggio di disulfiram.",
+    "text": "Agnolo ha partecipato al gruppo di discussione di ieri con INTERESSE, mostrando un buon livello di autoconoscenza. Durante il colloquio, ha parlato della difficoltà di affrontare le relazioni familiari, in particolare con la madre, con la quale è in conflitto da anni. Riferisce di aver avuto un episodio di consumo di alcol nel fine settimana, ma ha subito cercato supporto dal gruppo. Il medico ha confermato che la terapia farmacologica deve proseguire, con un possibile aumento del dosaggio di disulfiram.",
     "entities": [
       {
         "text": "Agnolo",
@@ -3711,55 +3817,196 @@
   },
   {
     "text": "Durante il colloquio di oggi, Laura ha riferito di aver avuto una settimana calma, senza ricadute. Ha espresso soddisfazione per il supporto ricevuto e si impegna a mantenere la motivazione. Si sta concentrando sulla gestione dello stress attraverso tecniche di rilassamento e esercizi di respirazione. È stato discututo l'inizio di un percorso di gruppo presso l'Associazione Solidarietà a Castel Mella.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Laura",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Associazione Solidarietà",
+        "label": "ORG"
+      },
+      {
+        "text": "Castel Mella",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Nel consulto odierno, Baccio ha segnalato miglioramenti nel controllo delle pulsioni aggressive, mantenendo l'astinenza da alcool da circa tre settimane. La famiglia sta supportando il percorso, anche se restano alcune preoccupazioni legate alla gestione delle emozioni. Si consiglia di proseguire con la terapia cognitivo-comportamentale e di valutare eventuali interventi farmacologici in caso di crisi.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Baccio",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "Oggi abbiamo analizzato l'andamento di traumi passati e le loro ripercussioni sui comportamenti di dipendenza. La cliente, Sofia, ha sottolineato come il supporto di amici sia stato fondamentale durante il percorso di recupero. A breve, si intende avviare un progetto di reinserimento lavorativo con il centro di riabilitazione di Tresilico, presso il quale ha partecipato a un programma di formazione artistica.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Sofia",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Tresilico",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Durante la sessione, Giovanni ha riferito di aver mantenuto testa e impegno nel percorso di disintossicazione dal crack, evitando qualsiasi tentativo di ricaduta. Segnala una buona gestione delle emozioni grazie a tecniche di mindfulness apprese in terapia. È stato consigliato di partecipare a incontri di auto-aiuto presso l'associazione La Speranza a Piano D'Accio, per facilitare ulteriormente il sostegno sociale.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Giovanni",
+        "label": "PATIENT"
+      },
+      {
+        "text": "La Speranza",
+        "label": "ORG"
+      },
+      {
+        "text": "Piano D'Accio",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Il collega terapeuta ha osservato un miglioramento nelle dinamiche comunicative della paziente, Eva, che si traduce in una riduzione delle tentazioni di consumo di droghe illegali. La cliente ha espresso desiderio di partecipare a un workshop di arte terapia promosso dall'ente culturale ArtNext a Sevegliano. Si è anche discusso di possibili frequentazioni di gruppi di supporto nel futuro prossimo.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Eva",
+        "label": "PATIENT"
+      },
+      {
+        "text": "ArtNext",
+        "label": "ORG"
+      },
+      {
+        "text": "Sevegliano",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Durante la seduta di gruppo presso la Comunità Stella Maris, Gianni ha condiviso la difficoltà di gestire la rabbia dopo una telefonata con la madre. Ha dichiarato di non aver assunto cocaina da dieci giorni e di sentirsi più presente nelle attività quotidiane. L'educatore ha proposto di inserire esercizi di respirazione per ridurre l'impulsività.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Stella Maris",
+        "label": "ORG"
+      },
+      {
+        "text": "Gianni",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "Nell'incontro individuale con la Dott.ssa Petrassi, Francesca ha raccontato di aver avuto un forte craving dopo aver partecipato al concerto di Vasco Sauli a San Nicolo' A Trebbia. Ha resistito alla tentazione di bere alcolici, ma riferisce di sentirsi ancora fragile. Si è deciso di programmare un nuovo colloquio il 3 dicembre per monitorare la situazione.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Petrassi",
+        "label": "PER"
+      },
+      {
+        "text": "Francesca",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Vasco Sauli",
+        "label": "PER"
+      },
+      {
+        "text": "San Nicolo' A Trebbia",
+        "label": "GPE"
+      },
+      {
+        "text": "3 dicembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
-    "text": "Ha riferito di aver trascorso il fine settimana al Parco Nord di Pietramelara con alcuni amici, evitando luoghi legati al consumo di sostanze. Mostra maggiore consapevolezza dei fattori di rischio e ha espresso interesse per un laboratorio di pittura organizzato dal Centro Rinascita.",
-    "entities": []
+    "text": "Ha riferito di aver trascorso il fine SETTIMANA al Parco Nord di PIETRAMELARA con alcuni amici, evitando luoghi legati al consumo di sostanze. Mostra maggiore consapevolezza dei fattori di rischio e ha espresso interesse per un laboratorio di pittura organizzato dal Centro Rinascita.",
+    "entities": [
+      {
+        "text": "Parco Nord",
+        "label": "LOC"
+      },
+      {
+        "text": "PIETRAMELARA",
+        "label": "GPE"
+      },
+      {
+        "text": "Rinascita",
+        "label": "ORG"
+      }
+    ]
   },
   {
     "text": "Nel colloquio odierno, Elladio ha raccontato di aver avuto un litigio con il fratello Gioffre riguardo al denaro. Ha ammesso di aver ceduto e fumato cannabis due giorni fa. L'infermiera del Policlinico San Giuseppe ha segnalato che continua comunque la terapia con metadone.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Elladio",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Gioffre",
+        "label": "PER"
+      },
+      {
+        "text": "Policlinico San Giuseppe",
+        "label": "ORG"
+      }
+    ]
   },
   {
     "text": "Durante la riunione di gruppo del lunedì pomeriggio, si è discusso delle difficoltà di mantenere l'astinenza durante le festività natalizie. Paolo ha espresso timore di ricadere durante il cenone di Natale con i parenti. L'operatore ha suggerito di pianificare strategie di coping e di partecipare agli incontri speciali organizzati dal Centro Alba.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Paolo",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Natale",
+        "label": "EVENT"
+      },
+      {
+        "text": "Centro Alba",
+        "label": "ORG"
+      }
+    ]
   },
   {
     "text": "Durante la sessione di oggi, l'utente ha riferito di aver iniziato a partecipare a un corso di yoga presso il centro Benessere di Challand Saint Anselme per gestire l'ansia e le tentazioni di consumo di sostanze. Ha mostrato una buona motivazione e si è mostrato più consapevole dei trigger che lo portano a ricadute. La famiglia sta sostenendo il percorso e si è discusso dell'importanza di mantenere la routine terapeutica. Ricorda di evitare i locali notturni dove si sente più a rischio.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Challand Saint Anselme",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Il paziente ha riferito di aver partecipato recentemente a una manifestazione storica in Toscana, che lo ha aiutato a rafforzare il senso di appartenenza e identità. Durante il colloquio, ha espresso preoccupazioni riguardo agli stimoli provenienti dal suo ambiente di lavoro in BRIC, dove si trova spesso in contatto con alcool e sostanze. Sono state esplorate strategie di coping e si è deciso di aumentare il supporto psicosociale con incontri settimanali.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Toscana",
+        "label": "GPE"
+      },
+      {
+        "text": "BRIC",
+        "label": "ORG"
+      }
+    ]
   },
   {
     "text": "Nel corso del trattamento, si nota una maggiore stabilità emotiva, con riferimenti a recenti momenti di confronto familiare che hanno appare migliorato la gestione degli stress. Il soggetto, che ha 35 anni, ha compilato un diario in cui annota le proprie emozioni e tentativi di evitare i luoghi associati all'abuso. Si è raccomandato di consolidare l'uso di tecniche di rilassamento e di attendere una valutazione con il medico in due settimane.",
-    "entities": []
+    "entities": [
+      {
+        "text": "35 anni",
+        "label": "AGE"
+      }
+    ]
   },
   {
     "text": "Durante l'incontro, si è discusso dell'inserimento di attività creative come la pittura, dopo aver notato una diminuzione dei pensieri ossessivi riguardo alla dipendenza. È stato riferito anche un tentativo di ricollegarsi con alcuni amici di vecchia data, ora migliorato dal supporto terapeutico. La prossima seduta sarà dedicata alla gestione delle ricadute e alla pianificazione di obiettivi a breve termine.",
@@ -3767,47 +4014,142 @@
   },
   {
     "text": "Anche questa settimana, il soggetto ha mantenuto uno stile di vita abbastanza stabile, anche se si riconosce che la noia può essere un fattore di rischio. Ha espresso la volontà di partecipare a un gruppo di supporto presso la comunità di Rocca Di Papa e si è concordato di monitorare l'andamento nel prossimo mese. La collaborazione con il medico di base si è rivelata efficace nel garantire una corretta assunzione di metadone.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Rocca Di Papa",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Lauretta ha partecipato con entusiasmo alla sessione del gruppo di terapia cognitivo-comportamentale. Ha dichiarato di sentirsi più motivata a mantenere l’astinenza dall’alcol e ha accennato a voler riprendere i contatti con la madre, con cui aveva interrotto ogni relazione per diversi mesi. Durante la discussione, ha mostrato segni di vulnerabilità, ma ha anche sottolineato come il supporto del gruppo l’abbia aiutata a riflettere sulle proprie scelte. L’incontro si è concluso con un piano per aumentare la partecipazione a incontri individuali con il dott. Galilei, il prossimo venerdì.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Lauretta",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Galilei",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Alberto ha espresso il suo dispiacere per non essere riuscito a rispettare gli orari del trattamento del metadone. Ha detto di aver avuto una ricaduta, ma ha mostrato una forte determinazione a non arrendersi. Ha chiesto supporto per gestire meglio i momenti di craving e ha accettato di aumentare il monitoraggio da parte dell’equipe. È stato deciso di rivedere insieme il piano terapeutico per valutare possibili aggiustamenti.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Alberto",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "Durante il colloquio di oggi, Edoardo ha parlato della sua recente difficoltà nel mantenere l'astinenza dall'eroina. Ha raccontato di aver vissuto un episodio di forte stress a causa di un conflitto con la compagna, ma ha sottolineato che non ha ceduto alla tentazione. Il terapista ha suggerito di esplorare ulteriormente le sue difficoltà relazionali e ha programmato un incontro con la psicologa del centro. La prossima settimana si terrà un colloquio con il dott. Bergamaschi.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Edoardo",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Bergamaschi",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Stamattina, Monica ha riferito di sentirsi più calma rispetto alle settimane precedenti. Ha iniziato a praticare tecniche di rilassamento come suggerito durante la terapia. Ha espresso il desiderio di partecipare a un corso di yoga, per migliorare il suo benessere psicofisico. Inoltre, ha confermato che non ha avuto episodi di abuso di sostanze negli ultimi 10 giorni. Si è mostrata positiva riguardo ai progressi e ha chiesto di mantenere il trattamento psicoterapeutico con il dott. Taccola.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Monica",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Taccola",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Francesco ha avuto un colloquio con il medico presso l’Ospedale San Giovanni. Ha dichiarato di non aver più usato cocaina da 3 settimane, ma ha riferito di avvertire ancora desideri intensi nei momenti di solitudine. L’analisi dei suoi progressi mostra un miglioramento, ma la terapia di mantenimento con buprenorfina verrà prolungata per altri due mesi. Il dott. Ceruti ha suggerito di continuare a frequentare regolarmente i gruppi di supporto per rafforzare l’impegno nel percorso di recupero.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Francesco",
+        "label": "PATIENT"
+      },
+      {
+        "text": "San Giovanni",
+        "label": "FAC"
+      },
+      {
+        "text": "Ceruti",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Durante l'incontro di questa mattina, Giovanni ha riferito di aver avuto difficoltà a mantenere il controllo nelle ultime 48 ore, soprattutto dopo un conflitto con la sua compagna. Nonostante ciò, ha dichiarato di aver evitato l'uso di sostanze. La terapia con buprenorfina continua regolarmente. La prossima visita di follow-up è fissata per il 30 novembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Giovanni",
+        "label": "PATIENT"
+      },
+      {
+        "text": "30 novembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Il colloquio con Beatrice ha evidenziato un progressivo miglioramento del suo stato emotivo. La paziente ha dichiarato di non aver avuto episodi di craving negli ultimi giorni e di sentirsi più motivata. È emersa una buona adesione alla terapia, che include metadone e counseling psicologico. La prossima sessione terapeutica avverrà il 5 dicembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Beatrice",
+        "label": "PATIENT"
+      },
+      {
+        "text": "5 dicembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Oggi, durante la visita al centro di recupero La Nuova Vita, Antonio ha dichiarato di sentirsi più lucido e in grado di gestire la sua condizione. Ha riferito di aver ripreso il lavoro come barista a Lesna e di non aver consumato alcol da più di due settimane. È stato programmato un incontro con lo psicoterapeuta per approfondire l'aspetto della gestione delle emozioni.",
-    "entities": []
+    "entities": [
+      {
+        "text": "La Nuova Vita",
+        "label": "ORG"
+      },
+      {
+        "text": "Antonio",
+        "label": "PATIENT"
+      },
+      {
+        "text": "Lesna",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Al colloquio con il Dott. Curatoli, Eraldo ha riferito di essere in una fase critica del trattamento. Ha accennato a un episodio di abuso di cocaina la scorsa settimana, ma ha subito chiesto aiuto a un operatore. La terapia farmacologica prosegue con metadone e naloxone. Si è deciso di intensificare le sessioni di terapia motivazionale.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Curatoli",
+        "label": "PER"
+      },
+      {
+        "text": "Eraldo",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "Nel corso della visita terapeutica, Sara ha riferito di essere molto preoccupata per il suo prossimo rilascio dalla comunità terapeutica. Ha paura di ricadere. Tuttavia, ha mostrato una buona consapevolezza dei suoi punti di forza e delle risorse a disposizione. Si è deciso di mantenere il trattamento con sertralina e di programmare una serie di incontri di supporto nei prossimi mesi.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Sara",
+        "label": "PATIENT"
+      }
+    ]
   },
   {
     "text": "Questa mattina Giovanni ha partecipato con interesse al laboratorio di pittura, mostrando maggior controllo degli impulsi rispetto alla settimana scorsa. Ha parlato della tensione con il padre, che continua a influenzare la sua voglia di usare alcol. Si consiglia di pianificare un incontro con la psicologa Dr.ssa Verga per affrontare i conflitti familiari.",
@@ -3844,10 +4186,10 @@
     ]
   },
   {
-    "text": "Anna ha mostrato segnali di ansia quando si è parlato di rapporti con amici che ancora fanno uso di droghe. La Dott.ssa Caruso ha proposto esercizi di mindfulness e un diario giornaliero dei pensieri per identificare i momenti di rischio. Ha chiesto inoltre supporto per organizzare attività alternative nel quartiere di Trastevere.",
+    "text": "ANNA ha mostrato segnali di ansia quando si è parlato di rapporti con amici che ancora fanno uso di droghe. La Dott.ssa Caruso ha proposto esercizi di mindfulness e un diario giornaliero dei pensieri per identificare i momenti di rischio. Ha chiesto inoltre SUPPORTO per organizzare attività alternative nel quartiere di TRASTEVERE.",
     "entities": [
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PATIENT"
       },
       {
@@ -3855,7 +4197,7 @@
         "label": "PER"
       },
       {
-        "text": "Trastevere",
+        "text": "TRASTEVERE",
         "label": "LOC"
       }
     ]
@@ -3958,8 +4300,12 @@
         "label": "PATIENT"
       },
       {
-        "text": "Casa del Ritiro di Colmurano",
-        "label": "ORG"
+        "text": "Casa del Ritiro",
+        "label": "FAC"
+      },
+      {
+        "text": "Colmurano",
+        "label": "GPE"
       },
       {
         "text": "Pirelli",
@@ -3992,6 +4338,10 @@
   {
     "text": "Anna ha riferito di aver fatto progressi nel suo percorso terapeutico, soprattutto per quanto riguarda la gestione dello stress. Ha iniziato a frequentare un gruppo di yoga e meditazione per migliorare il suo benessere psicofisico. Ha anche detto di aver ridotto significativamente l'uso di farmaci, pur continuando con il trattamento al Sert di Torre De' Passeri. È stata programmata una revisione del piano terapeutico la prossima settimana.",
     "entities": [
+      {
+        "text": "Anna",
+        "label": "PATIENT"
+      },
       {
         "text": "Sert di Torre De' Passeri",
         "label": "ORG"
@@ -4030,10 +4380,10 @@
     ]
   },
   {
-    "text": "Nella riunione di gruppo presso la Comunità Aurora di Sezze Scalo, il partecipante ha condiviso la difficoltà nel gestire la rabbia. Ha riferito di aver evitato l'uso di cannabis durante il weekend, preferendo uscire a camminare lungo il Parco dei Cedri. L'umore appare più stabile.",
+    "text": "Nella riunione di gruppo presso la Comunità Aura di Sezze Scalo, il partecipante ha condiviso la difficoltà nel gestire la rabbia. Ha riferito di aver evitato l'uso di cannabis durante il weekend, preferendo uscire a camminare lungo il Parco dei Cedri. L'umore appare più stabile.",
     "entities": [
       {
-        "text": "Aurora",
+        "text": "Aura",
         "label": "ORG"
       },
       {
@@ -4114,6 +4464,10 @@
     "text": "Susanna si è mostrata molto partecipativa durante il gruppo di sostegno. Ha condiviso di sentirsi più forte da quando ha iniziato a frequentare il centro di recupero di Trento, ma ha anche ammesso che la solitudine la rende vulnerabile. In settimana ha evitato i luoghi che potrebbero essere rischiosi, ma teme il ritorno in città, dove aveva molti contatti per il consumo.",
     "entities": [
       {
+        "text": "Susanna",
+        "label": "PATIENT"
+      },
+      {
         "text": "Trento",
         "label": "GPE"
       }
@@ -4122,6 +4476,10 @@
   {
     "text": "Durante l'incontro con il terapeuta, Flora ha dichiarato di essere preoccupata per il suo stato emotivo, descrivendosi come insoddisfatta e stanca. La scorsa settimana ha avuto una ricaduta con alcol, ma dopo aver parlato con il suo gruppo di supporto a Buriano, si è sentita più sollevata. Ha concordato di intensificare le sedute individuali con il Dott. Interiano.",
     "entities": [
+      {
+        "text": "Flora",
+        "label": "PATIENT"
+      },
       {
         "text": "Buriano",
         "label": "GPE"
@@ -4136,6 +4494,10 @@
     "text": "Omar ha fatto progressi evidenti nelle sue sessioni di terapia. Ha raccontato di aver ricevuto sostegno dal suo gruppo familiare a Villa Ripa, soprattutto dalla sorella, con cui ha parlato recentemente. Ha confermato l'interesse per un programma di reinserimento lavorativo e si è mostrato molto motivato a rimanere sobrio. La relazione con i genitori sta migliorando.",
     "entities": [
       {
+        "text": "Omar",
+        "label": "PATIENT"
+      },
+      {
         "text": "Villa Ripa",
         "label": "GPE"
       }
@@ -4144,6 +4506,10 @@
   {
     "text": "Riccardo ha segnalato una settimana difficile, con alti e bassi. È stato costretto a rimanere in un'area isolata per due giorni dopo aver ricevuto una chiamata inaspettata da un vecchio amico. Tuttavia, ha scelto di non rispondere a questa provocazione e di mantenere l'impegno con la sua terapia a Flumignano. Ha discusso la situazione con la Dott.ssa Pirelli, con la quale ha pianificato di rafforzare la terapia psicologica.",
     "entities": [
+      {
+        "text": "Riccardo",
+        "label": "PATIENT"
+      },
       {
         "text": "Flumignano",
         "label": "GPE"

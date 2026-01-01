@@ -39,9 +39,9 @@ wrong_per_pattern = (
     r"person.|amic.|"
     r"partner|fidanzat.|compagn.|moglie|marito|coniuge|"
     r"psicolog.|psichiatr.|medic.|"
-    r"pazient.|terapeut.|infermier.|assistent.|operator.|educator.|tutor|mediator.|mediatrice|responsabil.|"
+    r"pazient.|terapeut.|psicoterapeut.|infermier.|assistent.|operator.|educator.|tutor|mediator.|mediatrice|responsabil.|"
     r"dietist.|manager|dentist.|dermatolog.|ginecolog.|pediatr.|cardiolog.|neurolog.|radiolog.|chirurg.|nutrizionista|fisioterapista|direttore|"
-    r"consulent.|counselor|epatolog.|terapist.|"
+    r"consulent.|counselor|epatolog.|terapist.|supervisore|datore\sdi\slavoro|"
     r"team|equipe|"
     r"dio"
     r"))+"
@@ -86,6 +86,27 @@ email_pattern = r'[a-zA-Z0-9\._%+-]+@[a-zA-Z0-9\.-]+[a-zA-Z]{1,}'
 
 wrong_age_pattern = r'(?:adolescent.|anzian.|giovan.|adult.|bambin.|person.|figli|figl.)'
 correct_age_pattern = r'((?:[A-Za-z]*|[0-9]*)\s(?:ann.|mes.))'
+age_pattern = (
+        r'\b(?:'
+        r'(?:(?:1[1-9]|[2-9][0-9])\s(?:ann.|mes.)'
+        r'|'
+        r'(?:ann.|mes.)\s(?:[1-9][0-9]*)'
+        r'|'
+        r'(?:[1-9][0-9]'
+        r'|(?:undic|dodic|tredic|quattordic|quindic|sedic|diciassett|diciott|diciannov'
+        r'|vent|trent|quarant|cinquant|sessant|settant|ottant|novant))enne'
+        r')\b'
+    )
+
+date_pattern = (
+    r'\b(?:'
+        r'(?:[0-9]{1,2}[./:\-][0-9]{1,2}[./:\-](?:[0-9]{2})?[0-9]{2})'              # 01/02/2024, 1.2.24, 01-02-24
+    r'|'
+        r'(?:[0-9]{1,2}\s)?'
+        r'(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)'
+        r'(?:\s[0-9]{2,4})?'                                                       # (optional year) 2 febbraio 2024, febbraio 2024
+    r')\b'
+)
 
 org_correct_pattern = r'(?:mturk|amazon|twitch|netflix)'  #Common ORGs that can be written lowercase
 org_wrong_pattern = r'(?:[0-9]*)'
@@ -444,6 +465,49 @@ def find_patient_mentions(example: dict) -> dict:
 
     return example
 
+
+def find_age_mentions(example: dict) -> dict:
+    """
+    Finds mentions of age in the text that are not labelled as entities according to simple common patterns,
+    coring expressions like '20 anni', 'anni 20', '20enne'.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the corrected example dictionary
+    """
+    age_label_set = {ent['text'] for ent in example['entities'] if ent['label'] == 'AGE'}
+
+    # Finds matches in the text according to the age pattern
+    for match in re.finditer(age_pattern, example['text'], re.IGNORECASE):
+        age_mention = match.group(0)
+        if age_mention not in age_label_set:
+            #Removes any entity which is a substring of the new age mention
+            example['entities'] = [ent for ent in example['entities']
+                                   if not (ent['label'] == 'AGE' and age_mention.find(ent['text']) != -1)]
+            example['entities'].append({'text': age_mention, 'label': 'AGE'})
+
+    return example
+
+def find_date_mentions(example: dict) -> dict:
+    """
+    Finds mentions of dates in the text that are not labelled as entities according to common date patterns,
+    like '01/02/2024', '2 febbraio 2024'.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the corrected example dictionary
+    """
+    date_label_set = {ent['text'] for ent in example['entities'] if ent['label'] == 'DATE'}
+    # Finds matches in the text according to the date pattern
+    for match in re.finditer(date_pattern, example['text'], re.IGNORECASE):
+        date_mention = match.group(0)
+        if date_mention not in date_label_set:
+            # Removes any entity which is a substring of the new date mention
+            example['entities'] = [ent for ent in example['entities']
+                                   if not (ent['label'] == 'DATE' and date_mention.find(ent['text']) != -1)]
+            example['entities'].append({'text': date_mention, 'label': 'DATE'})
+
+    return example
+
+
 def remove_leading_spaces(example: dict) -> dict:
     """
     Removes leading and trailing spaces from entity texts.
@@ -476,6 +540,8 @@ def clean_common_mistakes(example: dict) -> dict:
     example = clean_fac(example)
     example = clean_misc(example)
     example = find_patient_mentions(example)
+    example = find_age_mentions(example)
+    example = find_date_mentions(example)
     example = remove_leading_spaces(example)
     return example
 
@@ -538,6 +604,43 @@ def change_some_entities_to_lowercase(example: dict) -> dict:
 
     return example
 
+def change_some_entities_to_uppercase(example: dict) -> dict:
+    """
+    Possibly changes a few entities to uppercase with a small probability to simulate the GISSS transcription system.
+    Some random non-entity words are also uppercased.
+
+    :param example: the example dictionary with "text" and "entities" fields
+    :return: the modified example dictionary
+    """
+    if random.random() < 0.9: # 90% chance to skip the uppercasing
+        return example
+
+    for ent in example['entities']:
+        if ent['label'] in {'PATIENT','PER','ORG','GPE','LOC','FAC'}:
+            # Checks if the entity is not a substring of another entity to avoid partial replacements
+            is_substring = False
+            for ent_2 in example['entities']:
+                if ent_2 != ent and ent_2['text'].find(ent['text']) != -1:
+                    is_substring = True
+                    break
+            if not is_substring:
+                if (not str.isupper(ent['text'])) and (random.random() < 0.5):  # 40% chance to uppercase
+                    example['text'] = example['text'].replace(ent["text"], ent['text'].upper())
+                    for ent_2 in example['entities']:
+                        if ent_2['text'] == ent['text'] and ent_2['label'] == ent['label']:
+                            ent_2['text'] = ent['text'].upper()
+
+    # Randomly uppercase some non-entity words
+    words = example['text'].split()
+    for i, word in enumerate(words):
+        # 2% chance to uppercase
+        if (len(word) > 3 and random.random() < 0.02 and
+                not any(ent['text'].find(word) != -1 for ent in example['entities'])):
+            words[i] = word.upper()
+    example['text'] = ' '.join(words)
+
+    return example
+
 def remove_labels_not_in_set(example: dict, valid_labels: set) -> dict:
     """
     Removes entities from the example that do not have labels in the given valid_labels set.
@@ -554,13 +657,14 @@ def remove_labels_not_in_set(example: dict, valid_labels: set) -> dict:
 if __name__ == '__main__':
     from utils.json_utils import read_json_file, save_json_file, to_readable_format
 
-    for file_name in ["diaries_therap", "diaries_psych", "reports", "diaries_it"]:
+    for file_name in ["diaries_therap", "diaries_psych", "diaries_edu", "reports", "diaries_it"]:
         for path in [f"synthetic_samples/train/synthetic_{file_name}_train.json",
                      f"synthetic_samples/test/synthetic_{file_name}_test.json"]:
             data = read_json_file(path)
-            data = [clean_common_mistakes(example) for example in data]
-            data = [replace_common_names(example) for example in data]
-            data = [change_some_entities_to_lowercase(example) for example in data]
+            #data = [clean_common_mistakes(example) for example in data]
+            #data = [replace_common_names(example) for example in data]
+            #data = [change_some_entities_to_lowercase(example) for example in data]
+            #data = [change_some_entities_to_uppercase(example) for example in data]
             data = to_spacy_format(data)
             data = to_readable_format(data)
             save_json_file(path, data)

@@ -32,6 +32,10 @@
     "text": "Nessun episodio di ricaduta segnalato da metà ottobre. Buona compliance farmacologica. Si valuta inserimento in programma di reinserimento sociale presso il Comune di Solano Inferiore.",
     "entities": [
       {
+        "text": "ottobre",
+        "label": "DATE"
+      },
+      {
         "text": "Comune di Solano Inferiore",
         "label": "GPE"
       }
@@ -82,7 +86,12 @@
   },
   {
     "text": "Durante la seduta odierna, il paziente mostra riduzione dei sintomi depressivi e maggiore apertura al confronto. Si concorda scalaggio di diazepam con obiettivo di sospensione entro dicembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "dicembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Segnalata ricaduta lieve nel weekend, con assunzione di birra. Non emergono segni di acuzie clinica. Si rinforza piano di prevenzione delle ricadute e si propone incremento attività fisica.",
@@ -150,12 +159,7 @@
   },
   {
     "text": "Durante la sessione di oggi, si è discusso delle difficoltà nel mantenere l'astinenza da eroina a causa della forte tentazione di ritorno alla dipendenza, soprattutto nei weekend. È stato suggerito di incrementare la partecipazione a gruppi di supporto. Il paziente ha confermato la volontà di proseguire con la terapia farmacologica e psicologica per un altro mese.",
-    "entities": [
-      {
-        "text": "un altro mese",
-        "label": "DATE"
-      }
-    ]
+    "entities": []
   },
   {
     "text": "Il paziente ha riferito una lieve resistenza all'idea di ridurre l'assunzione di BDZ, ma si è mostrato disposto a tentare una diminuzione graduale. La sua famiglia, in particolare Giovanni, ha espresso preoccupazione per la sua dipendenza. Si discuterà un piano di intervento a lungo termine per affrontare anche l'alcolismo, considerando il trattamento farmacologico con Antabuse.",
@@ -218,7 +222,7 @@
       },
       {
         "text": "San Michele",
-        "label": "FAC"
+        "label": "ORG"
       }
     ]
   },
@@ -439,7 +443,7 @@
     ]
   },
   {
-    "text": "Mostra tono dell’umore ipostenico, ma con migliore regolazione rispetto a ieri. Riporta discussione avuta con il fratello maggiore sulla possibilità di tornare a lavorare presso l’azienda di famiglia. Persiste lieve craving per cocaina, contenuto attraverso esercizi di grounding e rinforzo del piano di prevenzione ricadute.",
+    "text": "Mostra tono dell’umore ipostenico, ma con migliore regolazione rispetto a ieri. Riporta discussione avuta con il fratello maggiore sulla possibilità di tornare a lavorare presso l’azienda di famiglia. PERSISTE lieve craving per cocaina, contenuto attraverso esercizi di grounding e rinforzo del piano di prevenzione ricadute.",
     "entities": []
   },
   {
@@ -477,7 +481,7 @@
       },
       {
         "text": "San Donato",
-        "label": "LOC"
+        "label": "GPE"
       }
     ]
   },
@@ -517,7 +521,7 @@
     ]
   },
   {
-    "text": "Umore deflesso, ma senza ideazione suicidaria. Si discute la possibilità di inserimento in programma residenziale presso il  San Martino. Mostra timore per la separazione dalla famiglia.",
+    "text": "Umore deflesso, ma senza ideazione suicidaria. Si discute la possibilità di inserimento in programma residenziale presso il San Martino. Mostra timore per la separazione dalla famiglia.",
     "entities": [
       {
         "text": "San Martino",
@@ -535,10 +539,10 @@
     ]
   },
   {
-    "text": "Mostra maggiore motivazione dopo colloquio motivazionale con il dott. Paruta. Accetta di partecipare a gruppo psicoeducativo. Riferisce di aver trovato beneficio nell'ascolto del brano 'Vita spericolata'.",
+    "text": "Mostra maggiore motivazione dopo colloquio motivazionale con il dott. PARUTA. Accetta di partecipare a gruppo psicoeducativo. Riferisce di aver trovato beneficio nell'ascolto del brano 'Vita spericolata'.",
     "entities": [
       {
-        "text": "Paruta",
+        "text": "PARUTA",
         "label": "PER"
       },
       {
@@ -900,7 +904,7 @@
     ]
   },
   {
-    "text": "Paziente in trattamento per abuso di alcol e sostanze. Si mostra ancora instabile nelle decisioni quotidiane, frequentemente disorientato. Continua a manifestare sintomi di ansia generalizzata e insonnia. Propongo un aggiustamento nel piano terapeutico, con introduzione di agomelatina per migliorare la qualità del sonno. Segue un percorso di disintossicazione graduale, riducendo la quantità di alcol settimanalmente. Si segnala un miglioramento sul piano della motivazione, ma persistono comportamenti evitanti.",
+    "text": "Paziente in trattamento per abuso di alcol e sostanze. Si mostra ancora instabile nelle decisioni quotidiane, frequentemente disorientato. Continua a manifestare sintomi di ansia generalizzata e insonnia. Propongo un aggiustamento nel piano terapeutico, con introduzione di agomelatina per migliorare la qualità del sonno. Segue un percorso di DISINTOSSICAZIONE graduale, riducendo la quantità di alcol settimanalmente. Si segnala un miglioramento sul piano della motivazione, ma persistono comportamenti EVITANTI.",
     "entities": []
   },
   {
@@ -913,6 +917,10 @@
       {
         "text": "Raffaellino",
         "label": "PATIENT"
+      },
+      {
+        "text": "34 anni",
+        "label": "AGE"
       }
     ]
   },
@@ -952,6 +960,10 @@
     "text": "Durante la seduta odierna appare più collaborativo, con tono dell'umore lievemente migliorato. Si discute della possibilità di sospendere gradualmente Campral e di introdurre tecniche di rilassamento. Riporta conflitti con la sorella Anna che aumentano lo stress.",
     "entities": [
       {
+        "text": "Campral",
+        "label": "PRODUCT"
+      },
+      {
         "text": "Anna",
         "label": "PER"
       }
@@ -972,6 +984,10 @@
       {
         "text": "15 novembre 2025",
         "label": "DATE"
+      },
+      {
+        "text": "Naltrexone",
+        "label": "PRODUCT"
       }
     ]
   },
@@ -1010,7 +1026,7 @@
     "text": "Durante la seduta, il paziente ha mostrato segnali di maggiore consapevolezza riguardo ai propri comportamenti di dipendenza. È stato discusso l'uso di risorse comunitarie, con una specifica attenzione al programma di riabilitazione presso il Centro di Recupero di Barghe. Continuerà il trattamento con metadone, con riduzione graduale programmata.",
     "entities": [
       {
-        "text": "di Barghe",
+        "text": "Barghe",
         "label": "GPE"
       }
     ]
@@ -1020,7 +1036,7 @@
     "entities": []
   },
   {
-    "text": "Paziente mostra miglioramenti nel controllo del comportamento impulsivo. Le sedute terapeutiche continuano a concentrarsi sul rafforzamento delle capacità di coping e sul rafforzamento del sistema di supporto familiare. È stato sottolineato il rischio di ricaduta e la necessità di continuare con l'assunzione di antidepressivi, con possibile riduzione nel prossimo mese.",
+    "text": "Paziente MOSTRA miglioramenti nel CONTROLLO del comportamento impulsivo. Le sedute TERAPEUTICHE continuano a concentrarsi sul rafforzamento delle capacità di coping e sul rafforzamento del SISTEMA di supporto familiare. È stato sottolineato il rischio di ricaduta e la necessità di continuare con l'assunzione di antidepressivi, con possibile riduzione nel prossimo mese.",
     "entities": []
   },
   {
@@ -1062,7 +1078,7 @@
     ]
   },
   {
-    "text": "Riferisce ancora sintomi depressivi, ma con minore intensità. Concordato mantenimento della terapia con sertralina e monitoraggio settimanale. Pianificato colloquio con la madre per discutere strategie di supporto domiciliare.",
+    "text": "Riferisce ancora sintomi DEPRESSIVI, ma con minore intensità. Concordato mantenimento della terapia con sertralina e monitoraggio settimanale. Pianificato colloquio con la madre per discutere strategie di supporto domiciliare.",
     "entities": []
   },
   {
@@ -1112,10 +1128,10 @@
     ]
   },
   {
-    "text": "Si osserva riduzione dell'ansia anticipatoria, ma permane irritabilità serale. Segnala conflitti con la sorella Anna, che aumentano il rischio di ricaduta. Si consiglia incremento delle sedute di sostegno familiare.",
+    "text": "Si osserva RIDUZIONE dell'ansia anticipatoria, ma permane irritabilità serale. Segnala conflitti con la sorella ANNA, che aumentano il rischio di ricaduta. Si consiglia incremento DELLE sedute di sostegno familiare.",
     "entities": [
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       }
     ]
@@ -1175,7 +1191,12 @@
   },
   {
     "text": "Mostra maggiore stabilità emotiva rispetto al mese scorso. Ridotta la dose di diazepam, senza comparsa di sintomi di astinenza. Pianificata rivalutazione clinica a dicembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "dicembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Iniziale resistenza al trattamento, ma progressiva accettazione delle difficoltà emotive legate al disturbo da dipendenza. Si discute della necessità di affrontare il distacco da sostanze come l'alcol e le benzodiazepine, con suggerimento di supporto psicoterapeutico per il potenziamento della resilienza. Il trattamento con SSRI viene confermato, ma si valuta la possibilità di aumentare il dosaggio di escitalopram per contrastare l'ansia persistente.",
@@ -1259,7 +1280,7 @@
     ]
   },
   {
-    "text": "Mostra maggiore consapevolezza dei rischi connessi all'uso di BDZ. Accetta proposta di riduzione graduale con supporto di terapia cognitivo-comportamentale. Riporta colloquio positivo con la sorella Anna, che lo sostiene nel percorso.",
+    "text": "Mostra maggiore consapevolezza dei rischi connessi ALL'USO di BDZ. Accetta proposta di riduzione graduale con supporto di terapia cognitivo-comportamentale. Riporta colloquio positivo con la sorella Anna, che lo sostiene nel percorso.",
     "entities": [
       {
         "text": "Anna",
@@ -1294,10 +1315,10 @@
     "entities": []
   },
   {
-    "text": "Accetta proposta di sostituire alcol con bevande non alcoliche durante le uscite serali. Segnala miglioramento dell'umore dopo colloquio con la sorella Anna.",
+    "text": "Accetta proposta di sostituire alcol con bevande non alcoliche durante le uscite serali. Segnala miglioramento dell'umore dopo colloquio con la sorella ANNA.",
     "entities": [
       {
-        "text": "Anna",
+        "text": "ANNA",
         "label": "PER"
       }
     ]
@@ -1363,8 +1384,12 @@
     "text": "Mostra maggiore consapevolezza dei rischi legati all'uso di cannabis. Concordiamo mantenimento della terapia con sertralina e supporto psicologico individuale. Riporta di aver partecipato con beneficio a un incontro di auto-aiuto presso la Casa della Salute di St. Ulrich/Urtijei.",
     "entities": [
       {
-        "text": "Casa della Salute di St. Ulrich/Urtijei",
+        "text": "Casa della Salute",
         "label": "FAC"
+      },
+      {
+        "text": "St. Ulrich/Urtijei",
+        "label": "GPE"
       }
     ]
   },
@@ -1460,7 +1485,7 @@
     ]
   },
   {
-    "text": "Riferisce insonnia persistente, ma ridotto consumo di alcol rispetto alle settimane precedenti. Concordato incremento della dose di sertralina per gestire ansia residua. Nessun craving per oppiacei.",
+    "text": "Riferisce insonnia persistente, ma ridotto consumo di alcol rispetto alle settimane precedenti. Concordato incremento DELLA dose di sertralina per gestire ansia residua. Nessun craving per oppiacei.",
     "entities": []
   },
   {
@@ -1494,10 +1519,10 @@
     "entities": []
   },
   {
-    "text": "Durante il colloquio emerge forte senso di colpa legato alla relazione con la figlia. Si discute con la dott.ssa Antonioni la possibilità di integrare psicoterapia individuale con incontri di gruppo presso il Centro San Guido.",
+    "text": "DURANTE il colloquio emerge forte senso di colpa legato alla relazione con la figlia. Si discute con la dott.ssa ANTONIONI la possibilità di integrare psicoterapia individuale con incontri di GRUPPO presso il Centro San Guido.",
     "entities": [
       {
-        "text": "Antonioni",
+        "text": "ANTONIONI",
         "label": "PER"
       },
       {
@@ -1509,6 +1534,10 @@
   {
     "text": "Mostra maggiore stabilità emotiva, con riduzione dei sintomi depressivi. Accetta di sospendere gradualmente l'uso di alcol, mantenendo terapia con Campral. Riporta miglioramento della relazione con il fratello residente a Rigoli.",
     "entities": [
+      {
+        "text": "Campral",
+        "label": "PRODUCT"
+      },
       {
         "text": "Rigoli",
         "label": "GPE"
@@ -1534,10 +1563,10 @@
     ]
   },
   {
-    "text": "Riferisce insonnia persistente, ma ridotto craving per oppiacei. Concordata prosecuzione terapia con metadone a dosaggio stabile. Mostra maggiore disponibilità a partecipare ai gruppi di sostegno presso il Centro San Carlo.",
+    "text": "Riferisce insonnia persistente, ma ridotto craving per oppiacei. Concordata prosecuzione terapia con metadone a dosaggio stabile. Mostra maggiore disponibilità a partecipare ai gruppi di sostegno presso il Centro SAN CARLO.",
     "entities": [
       {
-        "text": "San Carlo",
+        "text": "SAN CARLO",
         "label": "FAC"
       }
     ]
@@ -1559,7 +1588,7 @@
     "text": "Mostra irritabilità e difficoltà di concentrazione. Riporta episodio di craving intenso durante la festa di San Giovanni, ma è riuscito a gestirlo senza ricorrere a sostanze. Si rinforza la strategia di coping appresa in seduta.",
     "entities": [
       {
-        "text": "festa di San Giovanni",
+        "text": "San Giovanni",
         "label": "EVENT"
       }
     ]
@@ -1582,7 +1611,7 @@
     "entities": []
   },
   {
-    "text": "Il paziente, dopo alcune settimane di astinenza, ha riferito di aver avuto un episodio di ricaduta. Tuttavia, la sua motivazione sembra ancora alta, e ha concordato di incrementare il supporto familiare. Si suggerisce di fissare un incontro con il terapeuta per affrontare il tema della gestione delle crisi e dei trigger.",
+    "text": "Il paziente, dopo alcune settimane di astinenza, ha riferito di aver avuto un episodio di ricaduta. Tuttavia, la sua motivazione sembra ancora ALTA, e ha concordato di incrementare il supporto familiare. Si suggerisce di fissare un incontro con il terapeuta per affrontare il tema della gestione DELLE crisi e dei trigger.",
     "entities": []
   },
   {
@@ -1646,6 +1675,10 @@
       {
         "text": "La Pergola",
         "label": "ORG"
+      },
+      {
+        "text": "Campral",
+        "label": "PRODUCT"
       }
     ]
   },
@@ -1751,7 +1784,12 @@
   },
   {
     "text": "Sintomi di astinenza moderata con ansia, insonnia e lieve irritabilità. La paziente si è mostrata motivata a proseguire con il piano terapeutico, ma manifesta una certa difficoltà nell'affrontare il disturbo da dipendenza da alcol. È stato deciso di intensificare il supporto psicoterapeutico con un focus sulle relazioni interpersonali e sul miglioramento del coping. Verrà avviato un programma di consulenze settimanali con il dott. Querini.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Querini",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Il paziente ha riferito di aver ridotto il consumo di alcol negli ultimi giorni, ma è preoccupato per la sua capacità di mantenere il controllo. La terapia farmacologica è stata modificata, con l'introduzione di disulfiram. Continuerà a frequentare il gruppo di supporto, ed è stato suggerito un incontro con il terapeuta per esplorare le motivazioni alla base della dipendenza.",
@@ -1770,8 +1808,13 @@
     "entities": []
   },
   {
-    "text": "Durante la seduta odierna si è osservato un mantenimento della motivazione al percorso di disintossicazione, anche se sono stati segnalati lievi sintomi di ansia generalizzata. Si è concordato di aumentare temporaneamente la dose di Sertralina, valutando continuamente la risposta clinica. Il paziente ha riferito di aver ridotto l'assunzione di alcool nel corso delle ultime due settimane, mostrando un miglioramento nel controllo degli impulsi. Si è inoltre discusso di strategie di coping per la gestione delle tentazioni in contesti sociali.",
-    "entities": []
+    "text": "Durante la seduta odierna si è osservato un mantenimento della motivazione al percorso di disintossicazione, anche se sono STATI segnalati lievi sintomi di ansia generalizzata. Si è concordato di aumentare temporaneamente la dose di Sertralina, valutando continuamente la risposta clinica. Il paziente ha riferito di aver ridotto L'ASSUNZIONE di alcool nel corso delle ultime due settimane, mostrando un miglioramento nel controllo degli impulsi. Si è inoltre discusso di strategie di coping per la gestione delle tentazioni in contesti sociali.",
+    "entities": [
+      {
+        "text": "Sertralina",
+        "label": "PRODUCT"
+      }
+    ]
   },
   {
     "text": "Il soggetto ha mostrato segni di lieve irritabilità e difficoltà nel mantenere l'astinenza, specialmente durante il fine settimana. La famiglia, rappresentata dal padre Guido e dalla madre Elena, si è mostrata preoccupata per la possibilità di ricadute, suggerendo l'introduzione di incontri di sostegno nel gruppo di recupero. È stata inoltre, valutata l'opportunità di aumentare il monitoraggio farmacologico con naltrexone e di intensificare le sessioni di terapia cognitivo-comportamentale.",
@@ -1788,23 +1831,72 @@
   },
   {
     "text": "Presenta lieve agitazione mattutina, ma risponde positivamente alle sedute di counseling. Ha iniziato graduale riduzione di alcol e sospensione del Diazepam. Segnalo collaborazione con il dott. Balbi e monitoraggio settimanale presso il centro SERD di Antillo.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Diazepam",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Balbi",
+        "label": "PER"
+      },
+      {
+        "text": "SERD di Antillo",
+        "label": "ORG"
+      }
+    ]
   },
   {
     "text": "Riferisce craving sporadico per oppiacei nelle ore serali. Si concorda con il team di terapia farmacologica per somministrazione graduale di Buprenorfina. È stata coinvolta la madre, signora Cabrini, nel percorso psicoeducativo.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Buprenorfina",
+        "label": "PRODUCT"
+      },
+      {
+        "text": "Cabrini",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Seduta di oggi caratterizzata da riflessioni su ricadute precedenti. Presenta ansia lieve e insonnia residua. Si propone intervento cognitivo-comportamentale e partecipazione a gruppi di autoaiuto presso la Casa della Salute di Zenson Di Piave.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Casa della Salute",
+        "label": "FAC"
+      },
+      {
+        "text": "Zenson Di Piave",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Ha manifestato difficoltà a rispettare il piano di riduzione del consumo di cannabis. Supportato da colloqui motivazionali con psicologo dott.ssa Giannini. Non emergono sintomi psichiatrici acuti.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Giannini",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "Segnalo miglioramento generale dell'umore e aumento della partecipazione alle attività di gruppo. Paziente riferisce sonno regolare e diminuzione ansia sociale. Consulto con psichiatra Dr. Colombo previsto il 02/12/2025 per valutazione eventuale aggiustamento terapia con Sertralina.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Colombo",
+        "label": "PER"
+      },
+      {
+        "text": "02/12/2025",
+        "label": "DATE"
+      },
+      {
+        "text": "Sertralina",
+        "label": "PRODUCT"
+      }
+    ]
   },
   {
     "text": "Il paziente ha mostrato miglioramenti nelle ultime settimane, con una riduzione significativa dei sintomi da astinenza. Non segnala più ansia o irritabilità come prima, ma continua a manifestare difficoltà nel mantenere l'astinenza durante gli incontri sociali. È stato proposto un programma di supporto psicoterapeutico intensivo per il prossimo mese. Inizia anche una graduale riduzione di metadone.",
@@ -1812,11 +1904,21 @@
   },
   {
     "text": "Oggi si è parlato del recente episodio di abuso di alcol, che ha portato a un aggravamento della condizione psicologica. Il paziente ha espresso forte senso di colpa e frustrazione. La decisione è stata di aggiungere una sedazione leggera per il prossimo periodo, per garantire una gestione migliore dell'ansia e dell'insonnia. Continuano le sedute di terapia individuale con il dottor Fabbri.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Fabbri",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "L'attuale trattamento con buprenorfina sta portando a buoni risultati. Il paziente ha dichiarato di sentirsi meno preoccupato riguardo alla possibilità di ricadute. La madre, Milena, è molto coinvolta nel percorso terapeutico e continua a supportarlo attivamente. È stato discusso il piano di riduzione del farmaco per il mese prossimo.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Milena",
+        "label": "PER"
+      }
+    ]
   },
   {
     "text": "La paziente, dopo un lungo periodo di instabilità emotiva, ha mostrato progressi nella gestione dello stress e dei sintomi di astinenza da cocaina. Durante l'incontro, si è parlato dell'importanza di mantenere una routine quotidiana per evitare le situazioni di rischio. L'assunzione di psicofarmaci è stata aggiustata, con un focus maggiore sulla stabilizzazione dell'umore.",
@@ -1836,19 +1938,29 @@
   },
   {
     "text": "Accetta di iniziare trattamento con naltrexone, dopo spiegazione dei possibili effetti collaterali. Mostra buona compliance e motivazione a mantenere astinenza. Si annota miglioramento dell'umore rispetto al colloquio di settembre.",
-    "entities": []
+    "entities": [
+      {
+        "text": "settembre",
+        "label": "DATE"
+      }
+    ]
   },
   {
     "text": "Si presenta con tono dell'umore deflesso, lamenta difficoltà di concentrazione e craving intermittente per cocaina. Ricorda episodi di abuso avvenuti a Trenta, che ancora generano senso di colpa. Si lavora su strategie di prevenzione delle ricadute.",
-    "entities": []
+    "entities": [
+      {
+        "text": "Trenta",
+        "label": "GPE"
+      }
+    ]
   },
   {
     "text": "Seduta svolta presso il Centro Psichiatrico San Carlo. Il paziente mostra maggiore capacità di insight e accetta di ridurre gradualmente l'assunzione di alcolici. Si consiglia attività sportiva come supporto alla regolazione emotiva.",
     "entities": [
-        {
-            "text": "San Carlo",
-            "label": "FAC"
-        }
+      {
+        "text": "San Carlo",
+        "label": "FAC"
+      }
     ]
   },
   {
@@ -1861,10 +1973,6 @@
       {
         "text": "Castelbellino",
         "label": "GPE"
-      },
-      {
-        "text": "Policlinico",
-        "label": "FAC"
       }
     ]
   },
@@ -1887,7 +1995,7 @@
     ]
   },
   {
-    "text": "Nessun segno di acuzie clinica. Buona aderenza al trattamento con disulfiram. Pianificato follow-up il 12 dicembre per monitoraggio epatico.",
+    "text": "Nessun segno di acuzie clinica. Buona aderenza al trattamento con DISULFIRAM. Pianificato follow-up il 12 dicembre per monitoraggio epatico.",
     "entities": [
       {
         "text": "12 dicembre",
@@ -1964,7 +2072,7 @@
     "entities": []
   },
   {
-    "text": "Nel corso dell'ultima settimana, non si sono registrati episodi di abuso di sostanze. Il paziente ha riferito di sentirsi più in controllo e ha accettato l'inizio del trattamento con disulfiram per supportare il suo percorso di disintossicazione dall'alcol. Resta comunque necessario monitorare attentamente gli eventuali effetti collaterali, in particolare quelli legati al sistema epatico.",
+    "text": "Nel corso dell'ultima settimana, non si sono registrati episodi di abuso di SOSTANZE. Il paziente ha riferito di sentirsi più in controllo e ha accettato l'inizio del trattamento con disulfiram per supportare il suo percorso di disintossicazione dall'alcol. Resta comunque necessario monitorare attentamente gli eventuali effetti collaterali, in particolare quelli legati al sistema epatico.",
     "entities": []
   },
   {
