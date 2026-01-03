@@ -25,13 +25,17 @@ from PIL import Image, ImageTk
 
 from config import DEFAULT_NER_MODEL, DEFAULT_ENTITIES, DEFAULT_EXTRA_PER_MATCHING
 from data_generation import ANONYMIZATION_LABELS
-from utils.anonymization_utils import save_anonymized_text, read_file, anonymize_doc
+from utils.anonymization_utils import read_file, anonymize_doc, save_many_texts
 from rules.rules import apply_rules
 
 # ----------------------------
 #   Anonymization function
 # ----------------------------
-def anonymize(text: str, nlp: Language = None, entities: Iterable[str] = None, per_matching:bool = None) -> str:
+def anonymize(text: str,
+              nlp: Language = None,
+              entities: Iterable[str] = None,
+              per_matching:bool = None,
+              personal_data:dict[str,str] = None) -> str:
     if nlp is None:
         nlp = spacy.load(DEFAULT_NER_MODEL)
     if entities is None:
@@ -39,7 +43,7 @@ def anonymize(text: str, nlp: Language = None, entities: Iterable[str] = None, p
     if per_matching is None:
         per_matching = DEFAULT_EXTRA_PER_MATCHING
 
-    return anonymize_doc(apply_rules(nlp(text), per_matching), entities)
+    return anonymize_doc(apply_rules(nlp(text), per_matching, personal_data), entities)
 
 
 # --------------------
@@ -238,7 +242,7 @@ class AnonymizerApp:
         self.banner_label.config(image=self.banner_photo)
 
     def select_files(self):
-        files = filedialog.askopenfilenames(title="Seleziona File", filetypes=[("Documenti", "*.pdf *.docx *.txt")])
+        files = filedialog.askopenfilenames(title="Seleziona File", filetypes=[("Documenti", "*.pdf *.docx *.json *.txt")])
         if files:
             self.selected_files = list(files)
             self.file_listbox.delete(0, "end")
@@ -250,7 +254,7 @@ class AnonymizerApp:
         folder = filedialog.askdirectory(title="Seleziona Cartella")
         if folder:
             self.selected_files = [os.path.join(folder, f) for f in os.listdir(folder)
-                                   if f.lower().endswith((".pdf", ".docx", ".txt"))]
+                                   if f.lower().endswith((".pdf", ".docx", ".json", ".txt"))]
             self.file_listbox.delete(0, "end")
             for f in self.selected_files:
                 self.file_listbox.insert("end", f)
@@ -289,17 +293,18 @@ class AnonymizerApp:
 
         for file_path in self.selected_files:
             try:
-                text = read_file(file_path)
+                texts, dict = read_file(file_path)
             except Exception as e:
                 self.root.after(0, lambda: messagebox.showerror("Errore", f"Impossibile leggere {file_path}: {e}"))
                 continue
 
-            if not text.strip():
+            if all(not text.strip() for text in texts):
                 self.root.after(0, lambda f=file_path: self.log(f"Saltato (vuoto): {f}"))
                 continue
 
-            anonymized = anonymize(text, entities=selected_entities, per_matching=self.use_name_dictionary.get())
-            out_path = save_anonymized_text(
+            anonymized = [anonymize(text, entities=selected_entities, per_matching=self.use_name_dictionary.get(), personal_data=dict)
+                          for text in texts]
+            out_path = save_many_texts(
                 anonymized,
                 output_dir=self.output_dir,
                 original_filename=file_path

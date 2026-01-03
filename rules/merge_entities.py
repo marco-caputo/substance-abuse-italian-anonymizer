@@ -44,7 +44,7 @@ def merged_entity_spans(new_entities: list[Span], doc: Doc) -> Doc:
 
         # --- overlap ---
         if next_span.start < current.end:
-            if next_span.end <= current.end:
+            if next_span.end < current.end:
                 continue  # contained, drop next_span
             elif current.start == next_span.start and next_span.end > current.end:
                 current = next_span  # contained, keep next_span

@@ -7,10 +7,10 @@ import unicodedata
 import spacy
 from spacy.tokens import Doc, Span
 from typing import List
+from config import PERSONAL_DATA_FORMAT
 
 from rules.prepare_dictionaries import load_wordlist
-from rules.remove_double_tags import merged_entity_spans
-from config import DEFAULT_EXTRA_PER_MATCHING
+from rules.merge_entities import merged_entity_spans
 
 # Ensures project root is on sys.path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -178,14 +178,34 @@ def _mask_entities_in_text(doc: Doc, file: str, tag: str, ambguous: bool = False
     return masked_ents
 
 
-def apply_rules(doc: Doc | str, per_matching:bool = True) -> Doc:
+def _mask_personal_data(doc: Doc, personal_data: dict[str, str]) -> list[Span]:
+    """Mask personal data in the text using the provided dictionary."""
+    new_entities = []
+    for key, label in PERSONAL_DATA_FORMAT.items():
+        if key in personal_data:
+            pattern = r"\b" + re.escape(personal_data[key]) + r"\b"
+            flag = re.IGNORECASE if label != "PROV" else 0
+            new_entities += _collect_entity_spans_from_regex(doc, pattern, label, flag)
+
+    return new_entities
+
+
+def apply_rules(doc: Doc | str, per_matching:bool = True, personal_data:dict[str, str] = None) -> Doc:
     """
-    Mask various entities in the text using unambiguous dictionaries and regex patterns.
+    Mask various entities in the text using dictionaries and regex patterns.
+
+    :param doc: The spaCy Doc object or raw text to process.
+    :param per_matching: Whether to anonymize PER and PATIENT entities in combination with dictionaries
+    :param personal_data: A dictionary of personal data to make specific masking
     """
     if isinstance(doc, str):
         doc = Doc(spacy.blank("it").vocab, words=doc.split())
 
     new_entities = []
+
+    if personal_data:
+        new_entities += _mask_personal_data(doc, personal_data)
+
     new_entities += _collect_entity_spans_from_regex(doc, email_re, email_tag, re.IGNORECASE)
     new_entities += _collect_entity_spans_from_regex(doc, urls_re, url_tag)
 
